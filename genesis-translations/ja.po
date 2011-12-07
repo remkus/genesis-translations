@@ -1,0 +1,1599 @@
+# Translation of Genesis 1.7 in Japanese
+# This file is distributed under the same license as the Genesis 1.7 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2011-11-27 19:22:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 1.7\n"
+
+#: 404.php:25
+msgid "Not Found, Error 404"
+msgstr "ページが見つかりません"
+
+#: 404.php:27
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "お探しのページが見つかりません。当サイトの<a href=\"%s\">ホームページ</a>に戻り、ご覧になりたいページをお探しください。あるいは下記より情報を探してみてください。"
+
+#: 404.php:31 page_archive.php:27 lib/structure/post.php:141
+msgid "Pages:"
+msgstr "ページ："
+
+#: 404.php:36 page_archive.php:32
+msgid "Categories:"
+msgstr "カテゴリ："
+
+#: 404.php:45 page_archive.php:41
+msgid "Authors:"
+msgstr "著作："
+
+#: 404.php:50 page_archive.php:46
+msgid "Monthly:"
+msgstr "月："
+
+#: 404.php:55 page_archive.php:51
+msgid "Recent Posts:"
+msgstr "最新の投稿："
+
+#: comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入力して下さい。"
+
+#: lib/admin/import-export.php:17
+msgid "Genesis - Import/Export"
+msgstr "Genesis - インポート・エキスポート"
+
+#: lib/admin/import-export.php:22
+msgid "Import Genesis Settings File"
+msgstr "Genesis の設定ファイルをインポートする"
+
+#: lib/admin/import-export.php:24
+msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
+msgstr "お使いのコンピューターからデータファイル(<code>.json</code>) をアップロードして、設定をインポートします。"
+
+#: lib/admin/import-export.php:25
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "コンピューターからファイルを選択し、「ファイルのアップロードおよびインポート」をクリックして下さい"
+
+#: lib/admin/import-export.php:30
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "アップロードするファイル：（最大：%s）"
+
+#: lib/admin/import-export.php:32
+msgid "Upload File and Import"
+msgstr "ファイルのアップロードおよびインポート"
+
+#: lib/admin/import-export.php:39
+msgid "Export Genesis Settings File"
+msgstr "Genesis の設定ファイルをエキスポートする"
+
+#: lib/admin/import-export.php:41
+msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
+msgstr "下のボタンをクリックすると、Genesis はデータファイル(<code>.json</code>) を作成し、あなたのコンピューターに保存します。"
+
+#: lib/admin/import-export.php:42
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "このダウンロードファイルを保存すれば、他サイトのインポート機能を使用してデータをインポートすることができます。"
+
+#: lib/admin/import-export.php:50
+msgid "Download Export File"
+msgstr "エキスポートファイルをダウンロードする"
+
+#: lib/admin/import-export.php:78
+msgid "Settings successfully imported."
+msgstr "設定がインポートされました。"
+
+#: lib/admin/import-export.php:80
+msgid "There was a problem importing your settings. Please try again."
+msgstr "設定のインポートに問題があります。もう一度試してください。"
+
+#: lib/admin/import-export.php:97 lib/admin/menu.php:41
+msgid "Theme Settings"
+msgstr "テーマの設定"
+
+#: lib/admin/import-export.php:98 lib/admin/menu.php:45
+msgid "SEO Settings"
+msgstr "SEO の設定"
+
+#: lib/admin/import-export.php:113
+msgid "No export options available."
+msgstr "エキスポートできるオプションがありません。"
+
+#: lib/admin/inpost-metaboxes.php:26 lib/admin/term-meta.php:72
+#: lib/admin/user-meta.php:100
+msgid "Genesis SEO Settings"
+msgstr "Genesis でのSEO 設定"
+
+#: lib/admin/inpost-metaboxes.php:36
+msgid "Custom Document Title"
+msgstr "カスタムドキュメントのタイトル"
+
+#: lib/admin/inpost-metaboxes.php:36 lib/admin/inpost-metaboxes.php:39
+msgid "Characters Used: %s"
+msgstr "使用文字数：%s"
+
+#: lib/admin/inpost-metaboxes.php:39
+msgid "Custom Post/Page Meta Description"
+msgstr "カスタムフィールドの内容"
+
+#: lib/admin/inpost-metaboxes.php:42
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "カスタムフィールドのキーワード（カンマ区切り）"
+
+#: lib/admin/inpost-metaboxes.php:45
+msgid "Custom Canonical URI"
+msgstr "カノニカルURL"
+
+#: lib/admin/inpost-metaboxes.php:48
+msgid "Custom Redirect URI"
+msgstr "リダイレクトURL"
+
+#: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:114
+msgid "Robots Meta Settings"
+msgstr "メタタグの設定"
+
+#: lib/admin/inpost-metaboxes.php:57 lib/admin/inpost-metaboxes.php:60
+#: lib/admin/inpost-metaboxes.php:63
+msgid "Apply %s to this post/page"
+msgstr "この投稿・ページに適応%s させる"
+
+#: lib/admin/inpost-metaboxes.php:68
+msgid "Custom Tracking/Conversion Code"
+msgstr "トラックバック・変換コード"
+
+#: lib/admin/inpost-metaboxes.php:154 lib/admin/term-meta.php:130
+#: lib/admin/user-meta.php:152
+msgid "Genesis Layout Settings"
+msgstr "Genesis のレイアウト設定"
+
+#: lib/admin/inpost-metaboxes.php:166 lib/admin/term-meta.php:137
+#: lib/admin/user-meta.php:160
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "デフォルトレイアウトを <a href=\"%s\">テーマ設定</a> に設定する"
+
+#: lib/admin/inpost-metaboxes.php:173
+msgid "Custom Body Class"
+msgstr ""
+
+#: lib/admin/inpost-metaboxes.php:176
+msgid "Custom Post Class"
+msgstr ""
+
+#: lib/admin/menu.php:50
+msgid "Import/Export"
+msgstr "インポート・エキスポート"
+
+#: lib/admin/menu.php:55
+msgid "README"
+msgstr "お読み下さい"
+
+#: lib/admin/readme-menu.php:28
+msgid "Genesis - README.txt Theme File"
+msgstr "Genesis - README.txt テーマファイル"
+
+#: lib/admin/seo-settings.php:84 lib/admin/theme-settings.php:177
+msgid "Settings reset."
+msgstr "設定がリセットされました。"
+
+#: lib/admin/seo-settings.php:86 lib/admin/theme-settings.php:179
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: lib/admin/seo-settings.php:111
+msgid "Doctitle Settings"
+msgstr "DocTitle の設定"
+
+#: lib/admin/seo-settings.php:112
+msgid "Homepage Settings"
+msgstr "ホームページの設定"
+
+#: lib/admin/seo-settings.php:113
+msgid "Document Head Settings"
+msgstr "タイトルの設定"
+
+#: lib/admin/seo-settings.php:115
+msgid "Archives Settings"
+msgstr "アーカイブの設定"
+
+#: lib/admin/seo-settings.php:147
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - SEO の設定"
+
+#: lib/admin/seo-settings.php:148 lib/admin/seo-settings.php:163
+#: lib/admin/theme-settings.php:255 lib/admin/theme-settings.php:272
+msgid "Save Settings"
+msgstr "設定を保存する"
+
+#: lib/admin/seo-settings.php:149 lib/admin/seo-settings.php:165
+#: lib/admin/theme-settings.php:256 lib/admin/theme-settings.php:273
+msgid "Reset Settings"
+msgstr "設定をリセットする"
+
+#: lib/admin/seo-settings.php:149 lib/admin/seo-settings.php:164
+#: lib/admin/theme-settings.php:256
+msgid "Are you sure you want to reset?"
+msgstr "本当にリセットしてもよろしいですか？"
+
+#: lib/admin/seo-settings.php:190
+msgid "The Document Title is the single most important SEO tag in your document source. It succinctly informs search engines of what information is contained in the document. The doctitle changes from page to page, but these options will help you control what it looks by default."
+msgstr "文書のタイトルは、文書のソース内において最も重要なSEO のタグです。その文書にどんな情報が含まれているのか検索エンジンに通知されます。このオプションを使用すれば、タイトルが変更されても、それがデフォルトでどのように見えるかコントロールすることができます。"
+
+#: lib/admin/seo-settings.php:192
+msgid "<b>By default</b>, the homepage doctitle will contain the site title, the single post and page doctitle will contain the post/page title, archive pages will contain the archive type, etc."
+msgstr "<b>デフォルト</b>において、ホームページのDocTitle は、サイトのタイトルが含まれ、個々の投稿やページのDocTitle は、投稿・ページタイトルを含み、アーカイブのページには、アーカイブの種類などが含まれます。"
+
+#: lib/admin/seo-settings.php:194
+msgid "Append Site Description to Doctitle on homepage?"
+msgstr "ホームページのDocTitle にサイトの内容を付け加えますか？"
+
+#: lib/admin/seo-settings.php:196
+msgid "Append Site Name to Doctitle on inner pages?"
+msgstr "DocTitle のページ内部にサイト名を付け加えますか？"
+
+#: lib/admin/seo-settings.php:198
+msgid "Doctitle (<code>&lt;title&gt;</code>) Append Location"
+msgstr ""
+
+#: lib/admin/seo-settings.php:199
+msgid "Determines what side the appended doctitle text will go on."
+msgstr ""
+
+#: lib/admin/seo-settings.php:202 lib/widgets/featured-page-widget.php:158
+#: lib/widgets/featured-post-widget.php:242
+#: lib/widgets/featured-post-widget.php:265
+#: lib/widgets/user-profile-widget.php:135
+msgid "Left"
+msgstr "左"
+
+#: lib/admin/seo-settings.php:204 lib/widgets/featured-page-widget.php:159
+#: lib/widgets/featured-post-widget.php:243
+#: lib/widgets/featured-post-widget.php:266
+#: lib/widgets/user-profile-widget.php:136
+msgid "Right"
+msgstr "右"
+
+#: lib/admin/seo-settings.php:206
+msgid "Doctitle (<code>&lt;title&gt;</code>) Separator"
+msgstr ""
+
+#: lib/admin/seo-settings.php:209
+msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
+msgstr ""
+
+#: lib/admin/seo-settings.php:216
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr ""
+
+#: lib/admin/seo-settings.php:217
+msgid "The %s tag is, arguably, the second most important SEO tag in the document source. Choose wisely."
+msgstr ""
+
+#: lib/admin/seo-settings.php:220
+msgid "Site Title"
+msgstr "サイトのタイトル"
+
+#: lib/admin/seo-settings.php:222
+msgid "Site Description"
+msgstr "サイトの内容"
+
+#: lib/admin/seo-settings.php:224
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "どちらでもありません。自分で改行を行います。"
+
+#: lib/admin/seo-settings.php:226
+msgid "Home Doctitle"
+msgstr ""
+
+#: lib/admin/seo-settings.php:229
+msgid "If you leave the doctitle field blank, your site&rsquo;s title will be used instead."
+msgstr ""
+
+#: lib/admin/seo-settings.php:231
+msgid "Home META Description"
+msgstr "ホームページのメタ情報"
+
+#: lib/admin/seo-settings.php:234
+msgid "The META Description can be used to determine the text used under the title on search engine results pages."
+msgstr "メタ情報は検索エンジンで結果が表示される際、タイトルの下にそのサイトの概要を反映させることができます。"
+
+#: lib/admin/seo-settings.php:236
+msgid "Home META Keywords (comma separated)"
+msgstr "メタタグのキーワード（コンマ区切り）"
+
+#: lib/admin/seo-settings.php:239
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "キーワードは通常、検索エンジンに認識されません。"
+
+#: lib/admin/seo-settings.php:241
+msgid "Homepage Robots Meta Tags:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:244 lib/admin/seo-settings.php:245
+#: lib/admin/seo-settings.php:246
+msgid "Apply %s to the homepage?"
+msgstr "ホームページに適応 %s させますか？"
+
+#: lib/admin/seo-settings.php:254
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no SEO value whatsoever. They just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "デフォルトの設定において、ワードプレスでは文書内 %1$s にあるいくつかのタグが配置されますが、ほとんどのタグは全く必要なく、SEO にも何ら効果を発揮しません。それらはただサイトの表示を遅くさせるだけです。どのタグを文書 %1$s に含めたいか選択してください。よく分からない方は、チェックを入れないでください。"
+
+#: lib/admin/seo-settings.php:256
+msgid "Relationship Link Tags:"
+msgstr "関連タグ："
+
+#: lib/admin/seo-settings.php:259
+msgid "Index %s link tag"
+msgstr ""
+
+#: lib/admin/seo-settings.php:260
+msgid "Parent Post %s link tag"
+msgstr ""
+
+#: lib/admin/seo-settings.php:261
+msgid "Start Post %s link tag"
+msgstr ""
+
+#: lib/admin/seo-settings.php:262
+msgid "Adjacent Posts %s link tag"
+msgstr ""
+
+#: lib/admin/seo-settings.php:265
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Writer サポート："
+
+#: lib/admin/seo-settings.php:267
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Windows Live Writer サポートタグを含めますか？"
+
+#: lib/admin/seo-settings.php:269
+msgid "Shortlink Tag:"
+msgstr "ショートリンクタグ："
+
+#: lib/admin/seo-settings.php:271
+msgid "Include Shortlink tag?"
+msgstr "ショートリンクタグを含めますか？"
+
+#: lib/admin/seo-settings.php:273
+msgid "The shortlink tag might have some use for 3rd party service discoverability, but it has no SEO value whatsoever."
+msgstr "ショートリンクタグはサードパーティのサービスを使用できますが、SEO には何の効果もありません。"
+
+#: lib/admin/seo-settings.php:280
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "状況にもよりますが、次のアーカイブページは検索エンジンに表示させたくないかもしれません。表示もしくは非表示にするかはご自身で判断してください。"
+
+#: lib/admin/seo-settings.php:282 lib/admin/seo-settings.php:292
+msgid "Apply %s to Category Archives?"
+msgstr "カテゴリアーカイブに適応 %s させますか？"
+
+#: lib/admin/seo-settings.php:283 lib/admin/seo-settings.php:293
+msgid "Apply %s to Tag Archives?"
+msgstr "タグアーカイブに適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:284 lib/admin/seo-settings.php:294
+msgid "Apply %s to Author Archives?"
+msgstr "著者アーカイブに適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:285 lib/admin/seo-settings.php:295
+msgid "Apply %s to Date Archives?"
+msgstr "日付アーカイブに適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:286 lib/admin/seo-settings.php:296
+msgid "Apply %s to Search Archives?"
+msgstr "サーチアーカイブに適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:288
+msgid "Some search engines will cache pages in your site (e.g Google Cache). The %1$s tag will prevent them from doing so. Choose what archives you want to %1$s."
+msgstr ""
+
+#: lib/admin/seo-settings.php:290
+msgid "Apply %s to Entire Site?"
+msgstr "サイト全体に適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:298
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr ""
+
+#: lib/admin/seo-settings.php:301 lib/admin/seo-settings.php:302
+msgid "Apply %s to your site?"
+msgstr "あなたのサイトに適応 %s させますか？ "
+
+#: lib/admin/seo-settings.php:310
+msgid "Canonical Paginated Archives"
+msgstr ""
+
+#: lib/admin/seo-settings.php:312
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "ページ付けされたページを閲覧する際、このオプションはアーカイブの最初のページを検索エンジンに知らせます。よく分からない場合は、そのままにしてください。"
+
+#: lib/admin/term-meta.php:32
+msgid "Genesis Archive Settings"
+msgstr "Genesis アーカイブ設定"
+
+#: lib/admin/term-meta.php:36
+msgid "Display Title/Description"
+msgstr "タイトル・内容を表示"
+
+#: lib/admin/term-meta.php:38
+msgid "Display %s title at the top of archive pages?"
+msgstr "アーカイブのページ上部にタイトルを表示 %s させますか？"
+
+#: lib/admin/term-meta.php:39
+msgid "Display %s description at the top of archive pages?"
+msgstr "アーカイブのページ上部に内容を表示 %s させますか？"
+
+#: lib/admin/term-meta.php:76 lib/admin/user-meta.php:105
+msgid "Custom Document %s"
+msgstr "カスタムドキュメント %s"
+
+#: lib/admin/term-meta.php:82 lib/admin/user-meta.php:110
+msgid "%s Description"
+msgstr "%s 内容"
+
+#: lib/admin/term-meta.php:87 lib/admin/user-meta.php:115
+msgid "%s Keywords"
+msgstr "%s キーワード"
+
+#: lib/admin/term-meta.php:89 lib/admin/user-meta.php:117
+msgid "Comma separated list"
+msgstr ""
+
+#: lib/admin/term-meta.php:93 lib/admin/user-meta.php:121
+msgid "Robots Meta"
+msgstr "ロボット・メタ"
+
+#: lib/admin/term-meta.php:95 lib/admin/term-meta.php:96
+#: lib/admin/term-meta.php:97 lib/admin/user-meta.php:123
+#: lib/admin/user-meta.php:124 lib/admin/user-meta.php:125
+msgid "Apply %s to this archive?"
+msgstr "このアーカイブに適応 %s させますか？ "
+
+#: lib/admin/term-meta.php:134 lib/admin/user-meta.php:157
+msgid "Choose Layout"
+msgstr "レイアウトを選択して下さい"
+
+#: lib/admin/theme-settings.php:204
+msgid "Information"
+msgstr "お知らせ"
+
+#: lib/admin/theme-settings.php:205
+msgid "Custom Feeds"
+msgstr "カスタムフィード"
+
+#: lib/admin/theme-settings.php:206
+msgid "Default Layout"
+msgstr "デフォルトレイアウト"
+
+#: lib/admin/theme-settings.php:208
+msgid "Header Settings"
+msgstr "ヘッダーの設定"
+
+#: lib/admin/theme-settings.php:210
+msgid "Navigation Settings"
+msgstr "ナビゲーションの設定"
+
+#: lib/admin/theme-settings.php:211
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: lib/admin/theme-settings.php:212
+msgid "Comments and Trackbacks"
+msgstr "コメントおよびトラックバック"
+
+#: lib/admin/theme-settings.php:213
+msgid "Content Archives"
+msgstr "コンテンツアーカイブ"
+
+#: lib/admin/theme-settings.php:214
+msgid "Blog Page"
+msgstr "ブログページ"
+
+#: lib/admin/theme-settings.php:217
+msgid "Header and Footer Scripts"
+msgstr "ヘッダーおよびフッターの文章"
+
+#: lib/admin/theme-settings.php:254
+msgid "Genesis - Theme Settings"
+msgstr "Genesis - テーマの設定"
+
+#: lib/admin/theme-settings.php:298
+msgid "Version:"
+msgstr "バージョン："
+
+#: lib/admin/theme-settings.php:298
+msgid "Released:"
+msgstr "発行元："
+
+#: lib/admin/theme-settings.php:300
+msgid "Display Theme Information in your document source"
+msgstr "ドキュメントソースをテーマ情報に表示する"
+
+#: lib/admin/theme-settings.php:302
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "テーマ設定で問題を対処したい、または解決策が必要な場合、こちらの <a href=\"%s\" target=\"_blank\">サポートフォーラム</a>をご覧下さい。"
+
+#: lib/admin/theme-settings.php:304
+msgid "Enable Automatic Updates"
+msgstr "自動更新を有効にする"
+
+#: lib/admin/theme-settings.php:307
+msgid "Notify"
+msgstr "知らせる"
+
+#: lib/admin/theme-settings.php:307
+msgid "when updates are available"
+msgstr "アップデートがある場合"
+
+#: lib/admin/theme-settings.php:309
+msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
+msgstr "上記にEメールアドレスを入力すると、Genesis の新しいバージョン更新があった際、あなたにお知らせします。"
+
+#: lib/admin/theme-settings.php:329
+msgid "Use for blog title/logo:"
+msgstr "ブログのタイトル・ロゴに使用する"
+
+#: lib/admin/theme-settings.php:331
+msgid "Dynamic text"
+msgstr "ダイナミックテキスト"
+
+#: lib/admin/theme-settings.php:332
+msgid "Image logo"
+msgstr "ロゴ画像"
+
+#: lib/admin/theme-settings.php:340
+msgid "Primary Navigation"
+msgstr "初期ナビゲーション"
+
+#: lib/admin/theme-settings.php:342
+msgid "Include Primary Navigation Menu?"
+msgstr "初期ナビゲーションメニューを含めますか？"
+
+#: lib/admin/theme-settings.php:346 lib/admin/theme-settings.php:376
+msgid "Enable Fancy Dropdowns?"
+msgstr "おしゃれなドロップダウン機能を有効にしますか？"
+
+#: lib/admin/theme-settings.php:349
+msgid "Enable Extras on Right Side?"
+msgstr "右側の機能を有効にしますか？"
+
+#: lib/admin/theme-settings.php:352
+msgid "Display the following:"
+msgstr "次を表示させる："
+
+#: lib/admin/theme-settings.php:354
+msgid "Today's date"
+msgstr "今日の日付"
+
+#: lib/admin/theme-settings.php:355
+msgid "RSS feed links"
+msgstr "RSS フィードリンク"
+
+#: lib/admin/theme-settings.php:356
+msgid "Search form"
+msgstr "検索入力"
+
+#: lib/admin/theme-settings.php:357
+msgid "Twitter link"
+msgstr "ツイッターリンク"
+
+#: lib/admin/theme-settings.php:360
+msgid "Enter Twitter ID:"
+msgstr "ツイッターIDを入力"
+
+#: lib/admin/theme-settings.php:362
+msgid "Twitter Link Text:"
+msgstr "ツイッターリンクテキスト："
+
+#: lib/admin/theme-settings.php:370
+msgid "Secondary Navigation"
+msgstr "サブナビゲーション"
+
+#: lib/admin/theme-settings.php:372
+msgid "Include Secondary Navigation Menu?"
+msgstr "サブナビゲーションメニューを含めますか？"
+
+#: lib/admin/theme-settings.php:382
+msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
+msgstr "ナビゲーションメニューを使用するためには、<a href=\"%s\">カスタムメニュー</a>を作成し、適切なメニューの位置を指定してください。"
+
+#: lib/admin/theme-settings.php:389
+msgid "Enter your custom feed URI:"
+msgstr "カスタムフィードURLを入力："
+
+#: lib/admin/theme-settings.php:390 lib/admin/theme-settings.php:393
+msgid "Redirect Feed?"
+msgstr "フィードをリダイレクトしますか？"
+
+#: lib/admin/theme-settings.php:392
+msgid "Enter your custom comments feed URI:"
+msgstr "カスタムコメントフィードのURLを入力："
+
+#: lib/admin/theme-settings.php:395
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "カスタムフィードがフィードバーナーで処理されない場合、リダイレクト機能は使用しないことを推奨します。"
+
+#: lib/admin/theme-settings.php:401
+msgid "Enable Comments"
+msgstr "コメントを有効にする"
+
+#: lib/admin/theme-settings.php:402 lib/admin/theme-settings.php:408
+msgid "on posts?"
+msgstr "投稿には？"
+
+#: lib/admin/theme-settings.php:404 lib/admin/theme-settings.php:410
+msgid "on pages?"
+msgstr "ページには？"
+
+#: lib/admin/theme-settings.php:407
+msgid "Enable Trackbacks"
+msgstr "トラックバックを有効にする"
+
+#: lib/admin/theme-settings.php:413
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "投稿やページを作成・編集した場合、それぞれに応じてコメントやトラックバックを無効にすることができます。"
+
+#: lib/admin/theme-settings.php:420
+msgid "Enable on:"
+msgstr "有効になっているもの："
+
+#: lib/admin/theme-settings.php:422
+msgid "Front Page"
+msgstr "フロントページ"
+
+#: lib/admin/theme-settings.php:424 lib/structure/menu.php:142
+msgid "Posts"
+msgstr "投稿"
+
+#: lib/admin/theme-settings.php:426
+msgid "Pages"
+msgstr "ページ"
+
+#: lib/admin/theme-settings.php:428
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: lib/admin/theme-settings.php:430
+msgid "404 Page"
+msgstr "404 ページ"
+
+#: lib/admin/theme-settings.php:433
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "パンくずリストは、ユーザーにサイト構造を素早く伝えられる便利な機能です。サイト内の特定のエリアで有効・無効にすることができます。"
+
+#: lib/admin/theme-settings.php:438
+msgid "Select one of the following:"
+msgstr "次の中から一つ選択："
+
+#: lib/admin/theme-settings.php:440
+msgid "Display post content"
+msgstr "投稿された内容を表示"
+
+#: lib/admin/theme-settings.php:441
+msgid "Display post excerpts"
+msgstr "抜粋された内容を表示"
+
+#: lib/admin/theme-settings.php:445 lib/widgets/featured-post-widget.php:293
+msgid "Limit content to"
+msgstr "コンテンツの制限"
+
+#: lib/admin/theme-settings.php:445 lib/widgets/featured-post-widget.php:293
+msgid "characters"
+msgstr "文字"
+
+#: lib/admin/theme-settings.php:447
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr ""
+
+#: lib/admin/theme-settings.php:450
+msgid "Include the Featured Image?"
+msgstr "フィーチャーされている画像を含めますか？"
+
+#: lib/admin/theme-settings.php:453 lib/widgets/featured-page-widget.php:144
+#: lib/widgets/featured-post-widget.php:251
+msgid "Image Size"
+msgstr "画像サイズ"
+
+#: lib/admin/theme-settings.php:463
+msgid "Select Post Navigation Technique:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:465
+msgid "Older / Newer"
+msgstr "過去・最新"
+
+#: lib/admin/theme-settings.php:466
+msgid "Previous / Next"
+msgstr "前・次"
+
+#: lib/admin/theme-settings.php:467
+msgid "Numeric"
+msgstr "数値"
+
+#: lib/admin/theme-settings.php:470
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "このオプションはアーカイブ、著作、ブログ、カテゴリ、検索、タグを含め、全てのページに適応されます。"
+
+#: lib/admin/theme-settings.php:475
+msgid "Display which category:"
+msgstr "どのカテゴリを表示："
+
+#: lib/admin/theme-settings.php:476 lib/widgets/featured-post-widget.php:202
+msgid "All Categories"
+msgstr "すべてのカテゴリ"
+
+#: lib/admin/theme-settings.php:478
+msgid "Exclude the following Category IDs:"
+msgstr "次のカテゴリID は除外："
+
+#: lib/admin/theme-settings.php:480
+msgid "Comma separated - 1,2,3 for example"
+msgstr "コンマ区切りで（例：1,2,3）"
+
+#: lib/admin/theme-settings.php:482 lib/widgets/featured-post-widget.php:204
+#: lib/widgets/featured-post-widget.php:306
+msgid "Number of Posts to Show"
+msgstr "表示させる投稿ページ数"
+
+#: lib/admin/theme-settings.php:488
+msgid "Enter scripts/code you would like output to <code>wp_head()</code>:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:492
+msgid "The <code>wp_head()</code> hook executes immediately before the closing <code>&lt;/head&gt;</code> tag in the document source."
+msgstr ""
+
+#: lib/admin/theme-settings.php:496
+msgid "Enter scripts/code you would like output to <code>wp_footer()</code>:"
+msgstr ""
+
+#: lib/admin/theme-settings.php:500
+msgid "The <code>wp_footer()</code> hook executes immediately before the closing <code>&lt;/body&gt;</code> tag in the document source."
+msgstr ""
+
+#: lib/admin/user-meta.php:24
+msgid "Genesis User Settings"
+msgstr "Genesis ユーザー設定"
+
+#: lib/admin/user-meta.php:28
+msgid "Genesis Admin Menus"
+msgstr "Genesis 一般設定"
+
+#: lib/admin/user-meta.php:30
+msgid "Enable Genesis Admin Menu?"
+msgstr "Genesis 一般設定を有効にしますか？ "
+
+#: lib/admin/user-meta.php:31
+msgid "Enable SEO Settings Submenu?"
+msgstr "Genesis SEO 設定サブメニューを有効にしますか？ "
+
+#: lib/admin/user-meta.php:32
+msgid "Enable Import/Export Submenu?"
+msgstr "Genesis インポート・エキスポートサブメニューを有効にしますか"
+
+#: lib/admin/user-meta.php:37
+msgid "Author Box"
+msgstr "著者の紹介"
+
+#: lib/admin/user-meta.php:39
+msgid "Enable Author Box on this User's Posts?"
+msgstr "著者の紹介を投稿ページで有効にさせますか？"
+
+#: lib/admin/user-meta.php:40
+msgid "Enable Author Box on this User's Archives?"
+msgstr "著者の紹介をアーカイブページで有効にさせますか？"
+
+#: lib/admin/user-meta.php:63
+msgid "Genesis Author Archive Settings"
+msgstr "Genesis 著者のアーカイブ設定"
+
+#: lib/admin/user-meta.php:64 lib/admin/user-meta.php:101
+#: lib/admin/user-meta.php:153
+msgid "These settings apply to this author's archive pages."
+msgstr "これらの設定を著者のアーカイブページに適応します。"
+
+#: lib/admin/user-meta.php:68
+msgid "Custom Archive Headline"
+msgstr "カスタムアーカイブ見出し"
+
+#: lib/admin/user-meta.php:70
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "%s タグを最初のページの上部に表示します"
+
+#: lib/admin/user-meta.php:74
+msgid "Custom Description Text"
+msgstr "カスタムテキスト内容"
+
+#: lib/admin/user-meta.php:76
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "このテキストは最初の段落に入り、最初のページに表示されます"
+
+#: lib/classes/breadcrumb.php:51 lib/functions/menu.php:39
+#: lib/widgets/menu-categories-widget.php:58
+#: lib/widgets/menu-pages-widget.php:60
+msgid "Home"
+msgstr "ホーム"
+
+#: lib/classes/breadcrumb.php:60
+msgid "You are here: "
+msgstr "現在の場所："
+
+#: lib/classes/breadcrumb.php:61 lib/classes/breadcrumb.php:62
+#: lib/classes/breadcrumb.php:63 lib/classes/breadcrumb.php:64
+#: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
+msgid "Archives for "
+msgstr "アーカイブ"
+
+#: lib/classes/breadcrumb.php:65
+msgid "Search for "
+msgstr "検索"
+
+#: lib/classes/breadcrumb.php:68
+msgid "Not found: "
+msgstr "見つかりません："
+
+#: lib/classes/breadcrumb.php:115 lib/classes/breadcrumb.php:207
+#: lib/classes/breadcrumb.php:298
+msgid "View %s"
+msgstr "閲覧 %s"
+
+#: lib/classes/breadcrumb.php:241 lib/classes/breadcrumb.php:245
+#: lib/classes/breadcrumb.php:250 lib/shortcodes/post.php:313
+#: lib/structure/post.php:128 lib/widgets/featured-page-widget.php:76
+msgid "(Edit)"
+msgstr "（編集）"
+
+#: lib/classes/breadcrumb.php:257 lib/classes/breadcrumb.php:263
+msgid "View archives for %s"
+msgstr "アーカイブを見る %s"
+
+#: lib/classes/breadcrumb.php:266
+msgid "View archives for %s %s"
+msgstr "アーカイブを見る %s %s"
+
+#: lib/classes/breadcrumb.php:312
+msgid "View all posts in %s"
+msgstr "すべての記事を見る %s"
+
+#: lib/classes/breadcrumb.php:330
+msgid "View all %s"
+msgstr "すべて見る %s"
+
+#: lib/classes/breadcrumb.php:389
+msgid "View all items in %s"
+msgstr "すべてのアイテムを見る %s"
+
+#: lib/functions/formatting.php:231
+msgid "seconds"
+msgstr "秒"
+
+#: lib/functions/formatting.php:267
+msgid "and"
+msgstr ""
+
+#: lib/functions/layout.php:17
+msgid "Content-Sidebar"
+msgstr "コンテンツ - サイドバー"
+
+#: lib/functions/layout.php:23
+msgid "Sidebar-Content"
+msgstr "サイドバー - コンテンツ"
+
+#: lib/functions/layout.php:28
+msgid "Content-Sidebar-Sidebar"
+msgstr "コンテンツ -  サイドバー - サイドバー"
+
+#: lib/functions/layout.php:33
+msgid "Sidebar-Sidebar-Content"
+msgstr "サイドバー - サイドバー - コンテンツ"
+
+#: lib/functions/layout.php:38
+msgid "Sidebar-Content-Sidebar"
+msgstr "サイドバー - コンテンツ - サイドバー"
+
+#: lib/functions/layout.php:43
+msgid "Full Width Content"
+msgstr ""
+
+#: lib/functions/layout.php:67
+msgid "No Label Selected"
+msgstr "ラベルが選択されていません"
+
+#: lib/functions/menu.php:12
+msgid "The argument, \"context\", has been replaced with \"theme_location\""
+msgstr ""
+
+#: lib/functions/upgrade.php:303
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "おめでとう！あなたは Genesis %s を有効に使っています"
+
+#: lib/functions/upgrade.php:326
+msgid "Click here to complete the upgrade"
+msgstr "アップデートを完了するにはこちらをクリックしてください"
+
+#: lib/functions/upgrade.php:344
+msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
+msgstr "Genesis のアップグレードは現在インストールされている Genesis のバージョンに上書きされます。本当にアップグレードしてもよろしいですか？ 中止するには「Stop」を、アップグレードするには「OK」をクリックしてください。"
+
+#: lib/functions/upgrade.php:347
+msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
+msgstr "Genesis %s が利用可能です。<a href=\"%s\" class=\"thickbox thickbox-preview\">最新のものをお使いかチェックしてください</a> または <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">今すぐアップデート</a>."
+
+#: lib/functions/upgrade.php:381
+msgid "Genesis %s is available for %s"
+msgstr "Genesis %s は %s にすることができます"
+
+#: lib/functions/upgrade.php:382
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Genesis %s が利用可能です。クリックひとつでこのテーマのアップデートができます。今すぐダッシュボードにログインしてアップデートしてください。"
+
+#: lib/functions/widgetize.php:39
+msgid "Header Right"
+msgstr "ヘッダー右"
+
+#: lib/functions/widgetize.php:40
+msgid "This is the right side of the header"
+msgstr "これはヘッダーの右側です"
+
+#: lib/functions/widgetize.php:45
+msgid "Primary Sidebar"
+msgstr "最初のサイドバー"
+
+#: lib/functions/widgetize.php:46
+msgid "This is the primary sidebar if you are using a 2 or 3 column site layout option"
+msgstr "サイトで２つ、３つのコラムを使用しているレイアウトの場合、これが最初のサイドバーです"
+
+#: lib/functions/widgetize.php:51
+msgid "Secondary Sidebar"
+msgstr "セカンダリーサイドバー"
+
+#: lib/functions/widgetize.php:52
+msgid "This is the secondary sidebar if you are using a 3 column site layout option"
+msgstr "サイトで３つのコラムを使用しているレイアウトの場合、これがセカンダリーサイドバーです"
+
+#: lib/functions/widgetize.php:79
+msgid "Footer %d"
+msgstr "フッター %d"
+
+#: lib/functions/widgetize.php:80
+msgid "Footer %s widget area"
+msgstr "フッター %s ウィジェットエリア"
+
+#: lib/js/load-scripts.php:38
+msgid "Select / Deselect All"
+msgstr "選択 / すべて非選択"
+
+#: lib/shortcodes/footer.php:24
+msgid "Return to top of page"
+msgstr "トップに戻る"
+
+#: lib/shortcodes/footer.php:129
+msgid "by "
+msgstr ""
+
+#: lib/shortcodes/footer.php:182
+msgid "Log in"
+msgstr "ログイン"
+
+#: lib/shortcodes/footer.php:184
+msgid "Log out"
+msgstr "ログアウト"
+
+#: lib/shortcodes/post.php:34
+msgid "ago"
+msgstr "前"
+
+#: lib/shortcodes/post.php:123
+msgid "Visit %s&#8217;s website"
+msgstr ""
+
+#: lib/shortcodes/post.php:177 lib/widgets/featured-page-widget.php:74
+msgid "Leave a Comment"
+msgstr "コメントを書く"
+
+#: lib/shortcodes/post.php:178 lib/widgets/featured-page-widget.php:74
+msgid "1 Comment"
+msgstr "1 コメント"
+
+#: lib/shortcodes/post.php:179 lib/widgets/featured-page-widget.php:74
+msgid "% Comments"
+msgstr "% コメント"
+
+#: lib/shortcodes/post.php:218
+msgid "Tagged With: "
+msgstr "関連タグ："
+
+#: lib/shortcodes/post.php:249 lib/shortcodes/post.php:278
+msgid "Filed Under: "
+msgstr ""
+
+#: lib/structure/comments.php:50
+msgid "<h3>Comments</h3>"
+msgstr "<h3>コメント</h3>"
+
+#: lib/structure/comments.php:100
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>トラックバック</h3>"
+
+#: lib/structure/comments.php:169
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr ""
+
+#: lib/structure/comments.php:169
+msgid "says"
+msgstr ""
+
+#: lib/structure/comments.php:173
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/structure/comments.php:174
+msgid "Edit"
+msgstr "編集"
+
+#: lib/structure/comments.php:179
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは現在承認中です。"
+
+#: lib/structure/comments.php:219 lib/widgets/menu-categories-widget.php:117
+msgid "Name"
+msgstr "名前"
+
+#: lib/structure/comments.php:225
+msgid "Email"
+msgstr "Email"
+
+#: lib/structure/comments.php:231
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: lib/structure/comments.php:239
+msgid "Speak Your Mind"
+msgstr "内容"
+
+#: lib/structure/footer.php:89 lib/structure/footer.php:94
+msgid "Copyright"
+msgstr "著作権"
+
+#: lib/structure/footer.php:89 lib/structure/footer.php:93
+msgid "on"
+msgstr ""
+
+#: lib/structure/loops.php:155
+msgid "Read more&hellip;"
+msgstr "さらに読む&hellip;"
+
+#: lib/structure/loops.php:162
+msgid "You are using invalid arguments with the %s function."
+msgstr ""
+
+#: lib/structure/menu.php:15
+msgid "Primary Navigation Menu"
+msgstr "メインナビゲーションメニュー"
+
+#: lib/structure/menu.php:16
+msgid "Secondary Navigation Menu"
+msgstr "サブナビゲーションメニュー"
+
+#: lib/structure/menu.php:143
+msgid "Comments"
+msgstr "コメント"
+
+#: lib/structure/post.php:136 lib/structure/post.php:138
+msgid "[Read more...]"
+msgstr "[もっと読む...]"
+
+#: lib/structure/post.php:151
+msgid "Sorry, no posts matched your criteria."
+msgstr "条件に合ったページが見つかりません。"
+
+#: lib/structure/post.php:169 lib/widgets/featured-post-widget.php:52
+#: lib/widgets/featured-post-widget.php:182
+msgid "By"
+msgstr ""
+
+#: lib/structure/post.php:228
+msgid "About"
+msgstr ""
+
+#: lib/structure/post.php:262
+msgid "Older Posts"
+msgstr "過去の記事"
+
+#: lib/structure/post.php:263
+msgid "Newer Posts"
+msgstr "最新の記事"
+
+#: lib/structure/post.php:281
+msgid "Previous Page"
+msgstr "前のページ"
+
+#: lib/structure/post.php:282
+msgid "Next Page"
+msgstr "次のページ"
+
+#: lib/structure/post.php:344
+msgid "&laquo; Previous"
+msgstr "&laquo; 戻る"
+
+#: lib/structure/post.php:373
+msgid "Next &raquo;"
+msgstr "進む &raquo;"
+
+#: lib/structure/search.php:17
+msgid "Search this website %s"
+msgstr "このサイトを検索 %s"
+
+#: lib/structure/search.php:19
+msgid "Search"
+msgstr "検索"
+
+#: lib/structure/sidebar.php:18
+msgid "Primary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:21
+msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/structure/sidebar.php:39
+msgid "Secondary Sidebar Widget Area"
+msgstr ""
+
+#: lib/structure/sidebar.php:42
+msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/tools/post-templates.php:110
+msgid "Single Post Template"
+msgstr ""
+
+#: lib/tools/post-templates.php:129
+msgid "Post Template"
+msgstr "投稿のテンプレート"
+
+#: lib/tools/post-templates.php:131
+msgid "Default"
+msgstr "デフォルト"
+
+#: lib/tools/post-templates.php:134
+msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
+msgstr ""
+
+#: lib/widgets/enews-widget.php:22
+msgid "Displays Feedburner email subscribe form"
+msgstr "購読フォームを表示"
+
+#: lib/widgets/enews-widget.php:23
+msgid "Genesis - eNews and Updates"
+msgstr "Genesis - eNews およびアップデート"
+
+#: lib/widgets/enews-widget.php:89 lib/widgets/featured-page-widget.php:134
+#: lib/widgets/featured-post-widget.php:194
+#: lib/widgets/featured-post-widget.php:213
+#: lib/widgets/featured-post-widget.php:303
+#: lib/widgets/latest-tweets-widget.php:151
+#: lib/widgets/menu-categories-widget.php:107
+#: lib/widgets/menu-pages-widget.php:109 lib/widgets/menu-pages-widget.php:119
+#: lib/widgets/user-profile-widget.php:115
+msgid "Title"
+msgstr "タイトル"
+
+#: lib/widgets/enews-widget.php:94
+msgid "Text To Show"
+msgstr "表示するテキスト"
+
+#: lib/widgets/enews-widget.php:99
+msgid "Google/Feedburner ID"
+msgstr "グーグル/フィードバーナーID"
+
+#: lib/widgets/enews-widget.php:104
+msgid "Enter your email address..."
+msgstr "Eメールアドレスを入力"
+
+#: lib/widgets/enews-widget.php:105
+msgid "Input Text"
+msgstr "テキストを入力"
+
+#: lib/widgets/enews-widget.php:110
+msgid "Go"
+msgstr ""
+
+#: lib/widgets/enews-widget.php:111
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: lib/widgets/featured-page-widget.php:22
+msgid "Displays featured page with thumbnails"
+msgstr "ページを画像付きで表示"
+
+#: lib/widgets/featured-page-widget.php:24
+msgid "Genesis - Featured Page"
+msgstr "Genesis - フィーチャーされるページ"
+
+#: lib/widgets/featured-page-widget.php:71
+msgid "by"
+msgstr ""
+
+#: lib/widgets/featured-page-widget.php:130
+#: lib/widgets/featured-post-widget.php:55
+#: lib/widgets/featured-post-widget.php:185
+msgid "[Read More...]"
+msgstr "[さらに読む...]"
+
+#: lib/widgets/featured-page-widget.php:137
+msgid "Page"
+msgstr "ページ"
+
+#: lib/widgets/featured-page-widget.php:142
+#: lib/widgets/featured-post-widget.php:249
+msgid "Show Featured Image"
+msgstr "画像を表示"
+
+#: lib/widgets/featured-page-widget.php:155
+#: lib/widgets/featured-post-widget.php:262
+msgid "Image Alignment"
+msgstr "画像の整列"
+
+#: lib/widgets/featured-page-widget.php:157
+#: lib/widgets/featured-post-widget.php:241
+#: lib/widgets/featured-post-widget.php:264
+#: lib/widgets/user-profile-widget.php:134
+msgid "None"
+msgstr "なし"
+
+#: lib/widgets/featured-page-widget.php:164
+msgid "Show Page Title"
+msgstr "ページタイトルを表示"
+
+#: lib/widgets/featured-page-widget.php:166
+msgid "Show Page Byline"
+msgstr "署名記事の表示"
+
+#: lib/widgets/featured-page-widget.php:168
+msgid "Show Page Content"
+msgstr "コンテンツの表示"
+
+#: lib/widgets/featured-page-widget.php:170
+msgid "Content Character Limit"
+msgstr "コンテンツ内の文字上限"
+
+#: lib/widgets/featured-page-widget.php:173
+msgid "More Text"
+msgstr "さらにテキスト"
+
+#: lib/widgets/featured-post-widget.php:22
+msgid "Displays featured posts with thumbnails"
+msgstr "画像付きの記事を表示"
+
+#: lib/widgets/featured-post-widget.php:24
+msgid "Genesis - Featured Posts"
+msgstr "Genesis - フィーチャーされる投稿"
+
+#: lib/widgets/featured-post-widget.php:59
+#: lib/widgets/featured-post-widget.php:189
+msgid "More Posts from this Category"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:201
+msgid "Category"
+msgstr "カテゴリ"
+
+#: lib/widgets/featured-post-widget.php:207
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:210
+msgid "Order By"
+msgstr "順序"
+
+#: lib/widgets/featured-post-widget.php:212
+msgid "Date"
+msgstr "日付"
+
+#: lib/widgets/featured-post-widget.php:214
+msgid "Parent"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:215
+#: lib/widgets/menu-categories-widget.php:116
+#: lib/widgets/menu-pages-widget.php:118
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:216
+msgid "Comment Count"
+msgstr "コメント数"
+
+#: lib/widgets/featured-post-widget.php:217
+msgid "Random"
+msgstr "ランダム"
+
+#: lib/widgets/featured-post-widget.php:220
+msgid "Sort Order"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:222
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:223
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:229
+msgid "Show Author Gravatar"
+msgstr "グラバターを表示"
+
+#: lib/widgets/featured-post-widget.php:231
+#: lib/widgets/user-profile-widget.php:121
+msgid "Gravatar Size"
+msgstr "グラバターのサイズ"
+
+#: lib/widgets/featured-post-widget.php:233
+msgid "Small (45px)"
+msgstr "小 (45px)"
+
+#: lib/widgets/featured-post-widget.php:234
+msgid "Medium (65px)"
+msgstr "中 (65px)"
+
+#: lib/widgets/featured-post-widget.php:235
+msgid "Large (85px)"
+msgstr "大 (85px)"
+
+#: lib/widgets/featured-post-widget.php:236
+msgid "Extra Large (125px)"
+msgstr "特大 (125px)"
+
+#: lib/widgets/featured-post-widget.php:239
+#: lib/widgets/user-profile-widget.php:132
+msgid "Gravatar Alignment"
+msgstr "グラバターの整列"
+
+#: lib/widgets/featured-post-widget.php:277
+msgid "Show Post Title"
+msgstr "記事のタイトルを表示"
+
+#: lib/widgets/featured-post-widget.php:279
+msgid "Show Post Info"
+msgstr "記事の情報を表示"
+
+#: lib/widgets/featured-post-widget.php:285
+msgid "Content Type"
+msgstr "コンテンツの種類"
+
+#: lib/widgets/featured-post-widget.php:287
+msgid "Show Content"
+msgstr "コンテンツを表示"
+
+#: lib/widgets/featured-post-widget.php:288
+msgid "Show Excerpt"
+msgstr "抜粋を表示"
+
+#: lib/widgets/featured-post-widget.php:289
+msgid "Show Content Limit"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:290
+msgid "No Content"
+msgstr "コンテンツなし"
+
+#: lib/widgets/featured-post-widget.php:295
+msgid "More Text (if applicable)"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr ""
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Show Category Archive Link"
+msgstr "カテゴリーのアーカイブリンクを表示"
+
+#: lib/widgets/featured-post-widget.php:314
+msgid "Link Text"
+msgstr "リンクテキスト"
+
+#: lib/widgets/latest-tweets-widget.php:22
+msgid "Display a list of your latest tweets"
+msgstr "最新のつぶやきをリストで表示"
+
+#: lib/widgets/latest-tweets-widget.php:24
+msgid "Genesis - Latest Tweets"
+msgstr "Genesis - 最新のつぶやき"
+
+#: lib/widgets/latest-tweets-widget.php:61
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr "Twitter API の処理に時間がかかっています。しばらくしてもう一度行ってください。"
+
+#: lib/widgets/latest-tweets-widget.php:64
+msgid "There was an error while attempting to contact the Twitter API. Please try again."
+msgstr "Twitter API アクセス中にエラーが発生しました。もう一度やり直してください。"
+
+#: lib/widgets/latest-tweets-widget.php:67
+msgid "The Twitter API returned an error while processing your request. Please try again."
+msgstr "ツイッターAPI があなたのリクエストを処理している際にエラーが発生しました。もう一度やり直してください。 "
+
+#: lib/widgets/latest-tweets-widget.php:83
+msgid "about %s ago"
+msgstr "約 %s 前"
+
+#: lib/widgets/latest-tweets-widget.php:156
+msgid "Twitter Username"
+msgstr "Twitter ユーザーネーム"
+
+#: lib/widgets/latest-tweets-widget.php:161
+msgid "Number of Tweets to Show"
+msgstr "つぶやきを表示する数"
+
+#: lib/widgets/latest-tweets-widget.php:165
+msgid "Hide @ Replies"
+msgstr "非表示 @ 返信"
+
+#: lib/widgets/latest-tweets-widget.php:168
+msgid "Load new Tweets every"
+msgstr "つぶやきの更新"
+
+#: lib/widgets/latest-tweets-widget.php:170
+msgid "5 Min."
+msgstr "５分ごと"
+
+#: lib/widgets/latest-tweets-widget.php:171
+msgid "15 Minutes"
+msgstr "１５分ごと"
+
+#: lib/widgets/latest-tweets-widget.php:172
+msgid "30 Minutes"
+msgstr "３０分ごと"
+
+#: lib/widgets/latest-tweets-widget.php:173
+msgid "1 Hour"
+msgstr "１時間ごと"
+
+#: lib/widgets/latest-tweets-widget.php:174
+msgid "2 Hours"
+msgstr "２時間ごと"
+
+#: lib/widgets/latest-tweets-widget.php:175
+msgid "4 Hours"
+msgstr "４時間ごと"
+
+#: lib/widgets/latest-tweets-widget.php:176
+msgid "12 Hours"
+msgstr "１２時間ごと"
+
+#: lib/widgets/latest-tweets-widget.php:177
+msgid "24 Hours"
+msgstr "２４時間ごと"
+
+#: lib/widgets/latest-tweets-widget.php:181
+msgid "Include link to twitter page?"
+msgstr "Twitter のページにリンクを含めますか？"
+
+#: lib/widgets/latest-tweets-widget.php:184
+msgid "Link Text (required)"
+msgstr "リンクテキスト（必須）"
+
+#: lib/widgets/menu-categories-widget.php:22
+msgid "Display category navigation for your header"
+msgstr "ヘッダーにカテゴリナビを表示"
+
+#: lib/widgets/menu-categories-widget.php:23
+msgid "Genesis - Category Navigation Menu"
+msgstr "Genesis - カテゴリナビゲーションメニュー"
+
+#: lib/widgets/menu-categories-widget.php:104
+#: lib/widgets/menu-pages-widget.php:107
+msgid "NOTE: Leave title blank if using this widget in the header"
+msgstr "注：ヘッダーにこのウィジェットを使用している場合はタイトルを空白にしてください"
+
+#: lib/widgets/menu-categories-widget.php:112
+msgid "Choose the order by which you would like to display your categories"
+msgstr "どのカテゴリー表示させるか順番を選択してください"
+
+#: lib/widgets/menu-categories-widget.php:118
+#: lib/widgets/menu-pages-widget.php:123
+msgid "Slug"
+msgstr "スラッグ"
+
+#: lib/widgets/menu-categories-widget.php:119
+msgid "Count"
+msgstr ""
+
+#: lib/widgets/menu-categories-widget.php:120
+msgid "Term Group"
+msgstr ""
+
+#: lib/widgets/menu-categories-widget.php:124
+msgid "Use the checklist below to choose which categories (and subcategories) you want to include in your Navigation Menu"
+msgstr "どのカテゴリ、またはサブカテゴリをナビゲーションメニューに含めたいか選択するには下のチェックリストを使ってください"
+
+#: lib/widgets/menu-pages-widget.php:22
+msgid "Display page navigation for your header"
+msgstr "ヘッダーにページナビゲーションを表示"
+
+#: lib/widgets/menu-pages-widget.php:24
+msgid "Genesis - Page Navigation Menu"
+msgstr "Genesis - ページナビゲーションメニュー"
+
+#: lib/widgets/menu-pages-widget.php:113
+msgid "Choose the order by which you would like to display your pages"
+msgstr "どのページを表示させたいか順番を選択してください"
+
+#: lib/widgets/menu-pages-widget.php:117
+msgid "Menu Order"
+msgstr "メニューの順序"
+
+#: lib/widgets/menu-pages-widget.php:120
+msgid "Date Created"
+msgstr "作成した日付順"
+
+#: lib/widgets/menu-pages-widget.php:121
+msgid "Date Modified"
+msgstr "修正した日付順"
+
+#: lib/widgets/menu-pages-widget.php:122
+msgid "Author"
+msgstr "著者"
+
+#: lib/widgets/menu-pages-widget.php:127
+msgid "Use the checklist below to choose which pages (and subpages) you want to include in your Navigation Menu"
+msgstr "ナビゲーションメニューにどのページ、またはサブページを含めたいか選択するには下のチェックリストを使用してください"
+
+#: lib/widgets/user-profile-widget.php:25
+msgid "Displays user profile block with Gravatar"
+msgstr ""
+
+#: lib/widgets/user-profile-widget.php:27
+msgid "Genesis - User Profile"
+msgstr "Genesis - ユーザープロフィール"
+
+#: lib/widgets/user-profile-widget.php:72
+msgid "[Read More %s]"
+msgstr "[もっと読む %s]"
+
+#: lib/widgets/user-profile-widget.php:74
+msgid "View My Blog Posts"
+msgstr "ブログの投稿記事を見る"
+
+#: lib/widgets/user-profile-widget.php:118
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "ユーザーを選択してください。このアカウントのEメールアドレスはグラバターの画像を引き出します。"
+
+#: lib/widgets/user-profile-widget.php:125
+msgid "Small"
+msgstr "小"
+
+#: lib/widgets/user-profile-widget.php:125
+msgid "Medium"
+msgstr "中"
+
+#: lib/widgets/user-profile-widget.php:125
+msgid "Large"
+msgstr "大"
+
+#: lib/widgets/user-profile-widget.php:125
+msgid "Extra Large"
+msgstr "特大"
+
+#: lib/widgets/user-profile-widget.php:139
+msgid "Select which text you would like to use as the author description"
+msgstr "著者の情報でどのテキストを使用したいか選択してください"
+
+#: lib/widgets/user-profile-widget.php:141
+msgid "Author Bio"
+msgstr "著者の紹介"
+
+#: lib/widgets/user-profile-widget.php:143
+msgid "Custom Text (below)"
+msgstr "カスタムテキスト（下記）"
+
+#: lib/widgets/user-profile-widget.php:147
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "下のリストから「私について」の拡張ページを選択してください。これは「私について」のセクションの末尾にリンクされます。"
+
+#: lib/widgets/user-profile-widget.php:150
+msgid "Show Author Archive Link?"
+msgstr "著者のアーカイブリンクを表示しますか？"
