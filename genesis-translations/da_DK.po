@@ -1,984 +1,984 @@
-# Translation of Genesis 1.8 in Indonesian
+# Translation of Genesis 1.8 in Danish
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-02-07 09:40:57+0000\n"
+"PO-Revision-Date: 2012-03-12 11:48:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Genesis 1.8\n"
 
 #: 404.php:33
 msgid "Not Found, Error 404"
-msgstr "Tidak Ditemukan, Galat 404"
+msgstr "Ikke fundet, fejl 404"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Halaman yang sedang Anda cari tidak ada lagi. Mungkin Anda dapat kembali ke <a href=\"%s\">halaman depan</a> dan melihat jika Anda dapat menemukan apa yang sedang Anda cari. Atau, Anda dapat mencoba mencarinya melalui informasi di bawah ini."
+msgstr "Den side, du kigger efter eksisterer ikke længere. Måske kan det hjælpe hvis du vender tilbage til <a href=\"%s\"> Startsiden</ a> og ser om du kan finde det du søger. Ellers kan du bruge søgefunktionen oppe til højre eller kigge i de nedenstående oplysninger.... "
 
 #: 404.php:39 page_archive.php:35
 msgid "Pages:"
-msgstr "Halaman:"
+msgstr "Sider:"
 
 #: 404.php:44 page_archive.php:40
 msgid "Categories:"
-msgstr "Kategori:"
+msgstr "Kategorier:"
 
 #: 404.php:53 page_archive.php:49
 msgid "Authors:"
-msgstr "Penulis:"
+msgstr "Forfattere:"
 
 #: 404.php:58 page_archive.php:54
 msgid "Monthly:"
-msgstr "Bulanan:"
+msgstr "Måneder:"
 
 #: 404.php:63 page_archive.php:59
 msgid "Recent Posts:"
-msgstr "Tulisan Terakhir:"
+msgstr "Seneste artikler:"
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Tulisan ini dilindungi oleh kata sandi. Masukkan kata sandi untuk melihat komentar."
+msgstr "Denne artikel er beskyttet med et kodeord. Skriv kodeordet for at se kommentarer."
 
 #: lib/init.php:44
 msgid "Primary Navigation Menu"
-msgstr "Menu Navigasi Utama"
+msgstr "Primary Navigation Menu"
 
 #: lib/init.php:44
 msgid "Secondary Navigation Menu"
-msgstr "Menu Navigasi Kedua"
+msgstr "Secondary Navigation Menu"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Impor/Ekspor"
+msgstr "Genesis - Import/Export"
 
 #: lib/admin/import-export.php:46
 msgid "Import/Export"
-msgstr "Impor/Ekspor"
+msgstr "Importer/Exporter"
 
 #: lib/admin/import-export.php:81
 msgid "Import Genesis Settings File"
-msgstr "Impor Berkas Pengaturan Genesis"
+msgstr "Importer Genesis Indstillingsfil"
 
 #: lib/admin/import-export.php:83
 msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
-msgstr "Unggah berkas data (<code>.json</code>) dari komputer Anda dan kami akan mengimpor pengaturan Anda."
+msgstr "Upload data filen fra din computer (. json) og vi vil importere dine indstillinger."
 
 #: lib/admin/import-export.php:84
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Pilih berkas dari komputer Anda lalu klik \"Unggah berkas dan Impor\""
+msgstr "Vælg filen fra din computer og klik på \"Upload og Importer\""
 
 #: lib/admin/import-export.php:89
 msgid "Upload File: (Maximum Size: %s)"
-msgstr "Unggah Berkas: (Ukuran Maksimum: %s)"
+msgstr "Upload fil: (Maksimal størrelse: %s)"
 
 #: lib/admin/import-export.php:92
 msgid "Upload File and Import"
-msgstr "Unggah Berkas dan Impor"
+msgstr "Upload fil og importer"
 
 #: lib/admin/import-export.php:100
 msgid "Export Genesis Settings File"
-msgstr "Ekspor Berkas Pengaturan Genesis"
+msgstr "Eksporter Genesis Indstillingsfil"
 
 #: lib/admin/import-export.php:102
 msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
-msgstr "Ketika Anda mengklik tombol di bawah, Genesis akan membangkitkan sebuah berkas data (<code>.json</code>) buat Anda untuk disimpan ke komputer Anda."
+msgstr "Når du klikker på knappen nedenfor, vil Genesis generere en JSON fil, som du kan gemme på din computer."
 
 #: lib/admin/import-export.php:103
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "Setelah Anda menyimpan berkas yang sudah diunduh, Anda dapat menggunakan fungsi impor pada situs lainnya untuk mengimpor data ini."
+msgstr "Når du har downloadet filen og gemt den, kan du importere den på et andet site ved hjælp af importfunktionen. "
 
 #: lib/admin/import-export.php:110
 msgid "Download Export File"
-msgstr "Unduh Berkas Ekspor"
+msgstr "Download Eksport fil"
 
 #: lib/admin/import-export.php:142
 msgid "Settings successfully imported."
-msgstr "Pengaturan berhasil diimpor."
+msgstr "Indstillingerne er blevet importeret!"
 
 #: lib/admin/import-export.php:144
 msgid "There was a problem importing your settings. Please try again."
-msgstr "Ada masalah saat mengimpor pengaturan Anda. Cobalah lagi."
+msgstr "Der opstod et problem ved import af dine indstillinger. Prøv venligst igen."
 
 #: lib/admin/import-export.php:162
 msgid "Theme Settings"
-msgstr "Pengaturan Tema"
+msgstr "Tema indstillinger"
 
 #: lib/admin/import-export.php:166
 msgid "SEO Settings"
-msgstr "Pengaturan SEO"
+msgstr "SEO indstillinger"
 
 #: lib/admin/import-export.php:188
 msgid "No export options available."
-msgstr "Tidak ada pilihan ekspor tersedia."
+msgstr "Der er ingen tilgængelig eksport funktion"
 
 #: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
 #: lib/admin/user-meta.php:153
 msgid "Theme SEO Settings"
-msgstr "Pengaturan SEO Tema"
+msgstr "Tema SEO indstillinger"
 
 #: lib/admin/inpost-metaboxes.php:54
 msgid "Custom Document Title"
-msgstr "Judul Dokumen Kostum"
+msgstr "Indstilling dokumenttitel"
 
 #: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
 msgid "Characters Used: %s"
-msgstr "Karakter yang Digunakan: %s"
+msgstr "Antal brugte tegn: %s"
 
 #: lib/admin/inpost-metaboxes.php:57
 msgid "Custom Post/Page Meta Description"
-msgstr "Deskripsi Meta Halaman/Tulisan Kostum"
+msgstr "Indstilling Artikel/Side Meta beskrivelse"
 
 #: lib/admin/inpost-metaboxes.php:60
 msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr "Kata kunci Meta Halaman/Tulisan Kostum, dipisahkan koma"
+msgstr "Indstilling Artikel/Side Meta keywords, delt med komma"
 
 #: lib/admin/inpost-metaboxes.php:63
 msgid "Custom Canonical URI"
-msgstr "Canonical URI Kostum"
+msgstr "Indstilling Canonical URI"
 
 #: lib/admin/inpost-metaboxes.php:66
 msgid "Custom Redirect URI"
-msgstr "Redirect URI Kostum"
+msgstr "Custom Redirect URI"
 
 #: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:175
 msgid "Robots Meta Settings"
-msgstr "Pengaturan Meta Robots"
+msgstr "Robots Meta Indstillinger"
 
 #: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
 #: lib/admin/inpost-metaboxes.php:81
 msgid "Apply %s to this post/page"
-msgstr "Terapkan %s ke tulisan/halaman ini"
+msgstr "Tilføj %s til denne Artikel/Side"
 
 #: lib/admin/inpost-metaboxes.php:86
 msgid "Custom Tracking/Conversion Code"
-msgstr "Pelacakan Kostum/Kode Konversi"
+msgstr "Indstil Tracking/Conversion kode"
 
 #: lib/admin/inpost-metaboxes.php:186 lib/admin/term-meta.php:202
 #: lib/admin/user-meta.php:219
 msgid "Layout Settings"
-msgstr "Pengaturan Layout"
+msgstr "Layout indstillinger"
 
 #: lib/admin/inpost-metaboxes.php:210 lib/admin/term-meta.php:211
 #: lib/admin/user-meta.php:229
 msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Layout Standar diset dalam <a href=\"%s\">Pengaturan Tema</a>"
+msgstr "Default Layout set in <a href=\"%s\">Theme indstillinger</a>"
 
 #: lib/admin/inpost-metaboxes.php:217
 msgid "Custom Body Class"
-msgstr "Body Class Kostum"
+msgstr "Custom Body klasse"
 
 #: lib/admin/inpost-metaboxes.php:220
 msgid "Custom Post Class"
-msgstr "Post Class Kostum"
+msgstr "Custom Post klasse"
 
 #: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
 msgid "README"
-msgstr "BACASAYA"
+msgstr "README"
 
 #: lib/admin/readme-menu.php:68
 msgid "The %s file was not found in the child theme, or it was empty."
-msgstr "Berkas %s tidak ditemukan di tema anak, atau dia kosong."
+msgstr "%s filen blev ikke fundet i child themet, eller også var den tom."
 
 #: lib/admin/seo-settings.php:43
 msgid "Genesis - SEO Settings"
-msgstr "Pengaturan SEO - Genesis"
+msgstr "Genesis - SEO indstillinger"
 
 #: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:64
 #: lib/classes/admin.php:104
 msgid "Save Settings"
-msgstr "Simpan Pengaturan"
+msgstr "Gem indstillingerne"
 
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:65
 #: lib/classes/admin.php:105
 msgid "Reset Settings"
-msgstr "Reset Pengaturan"
+msgstr "Nulstil indstillingerne"
 
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:66
 #: lib/classes/admin.php:106
 msgid "Settings saved."
-msgstr "Pengaturan telah disimpan."
+msgstr "SEO indstillingerne er gemt"
 
 #: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:67
 #: lib/classes/admin.php:107
 msgid "Settings reset."
-msgstr "Pengaturan direset."
+msgstr "SEO indstillinger nulstillet"
 
 #: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:68
 #: lib/classes/admin.php:108
 msgid "Error saving settings."
-msgstr "Galat ketika menyiman perubahan."
+msgstr "Problem med at gemme indstillingerne"
 
 #: lib/admin/seo-settings.php:172
 msgid "Doctitle Settings"
-msgstr "Pengaturan Juduldokumen"
+msgstr "Doctitle indstillinger"
 
 #: lib/admin/seo-settings.php:173
 msgid "Homepage Settings"
-msgstr "Pengaturan Halaman depan"
+msgstr "Startside indstillinger"
 
 #: lib/admin/seo-settings.php:174
 msgid "Document Head Settings"
-msgstr "Pengaturan Head Dokumen"
+msgstr "Dokument Head indstillinger"
 
 #: lib/admin/seo-settings.php:176
 msgid "Archives Settings"
-msgstr "Pengaturan Arsip"
+msgstr "Arkiv indstillinger"
 
 #: lib/admin/seo-settings.php:193
 msgid "The Document Title is the single most important SEO tag in your document source. It succinctly informs search engines of what information is contained in the document. The doctitle changes from page to page, but these options will help you control what it looks by default."
-msgstr "Judul Dokumen adalah tag SEO tunggal yang paling penting di sumber dokumen Anda. Dia memberitahukan mesin pencarian dengan ringkas dan jelas mengenai informasi apa yang dikandung di dalam dokumen. Perubahan juduldokumen dari halaman ke halaman, tapi pilihan-pilihan ini akan membantu Anda mengawasi bagaimana dia kelihatannya secara standar."
+msgstr "Dokument-titlen er det vigtigste SEO tag i dokumentes kildekode"
 
 #: lib/admin/seo-settings.php:195
 msgid "<b>By default</b>, the homepage doctitle will contain the site title, the single post and page doctitle will contain the post/page title, archive pages will contain the archive type, etc."
-msgstr "<b>Secara standar</b>, juduldokumen halaman depan akan mengandung judul situs, tulisan tunggal, dan juduldokumen halaman akan mengandung judul halaman/tulisan, halaman arsip akan mengandung tipe arsip, dst."
+msgstr "<b>Som standard</b>, indeholder startsidens doctitle sitens titel, en enkelt artikel og side doctitle vil indeholde indlægges/sidens titel, arkivsiderne vil indeholde arkiv type, osv."
 
 #: lib/admin/seo-settings.php:199
 msgid "Append Site Description to Doctitle on homepage?"
-msgstr "Tambahkan Deskripsi Situs ke Juduldokumen pada halaman depan?"
+msgstr "Tilføj site beskrivelse til doctitle på startside?"
 
 #: lib/admin/seo-settings.php:204
 msgid "Append Site Name to Doctitle on inner pages?"
-msgstr "Tambahkan Nama Situs ke Juduldokumen pada halaman yang lebih dalam?"
+msgstr "Tilføj site navn til doctitle på indholds sider?"
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr "Lokasi Tambahan Doctitle (%s):"
+msgstr "Doctitle (%s) tilføj Lokation:"
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
-msgstr "Menentukan di sebelah mana teks doctitle yang ditambahkan akan berada."
+msgstr "Bestemmer hvilken side den indsatte doctitle tekst skal vises på"
 
 #: lib/admin/seo-settings.php:213
 msgid "Left"
-msgstr "Kiri"
+msgstr "venstre"
 
 #: lib/admin/seo-settings.php:216
 msgid "Right"
-msgstr "Kanan"
+msgstr "højre"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr "Pemisah Doctitle (<code>&lt;title&gt;</code>):"
+msgstr "Doctitle (<code>&lt;title&gt;</code>) deler:"
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
-msgstr "Jika doctitle mengandung dua bagian (Judul &amp; Teks yang Ditambahkan), maka Pemisah Doctitle akan berada di antaranya."
+msgstr "<b>BEMÆRK:</b> Hvis doctitle består af to dele (titel &amp; tilføjet tekst), så står doctitle deleren imellem dem."
 
 #: lib/admin/seo-settings.php:244
 msgid "Which text would you like to be wrapped in %s tags?"
-msgstr "Teks yang mana ingin Anda bungkus di dalam tag %s?"
+msgstr "Hvilken tekst skal pakkes ind i %s tags?"
 
 #: lib/admin/seo-settings.php:245
 msgid "The %s tag is, arguably, the second most important SEO tag in the document source. Choose wisely."
-msgstr "Tag %s adalah, yang dapat dibantah, tag SEO kedua yang paling penting di sumber dokumen. Pilih dengan bijak."
+msgstr "Dette tag,  %s, er den næstvigtigste SEO tag i dokumentets kildekode. Vælg det med omhu"
 
 #: lib/admin/seo-settings.php:249
 msgid "Site Title"
-msgstr "Judul Situs"
+msgstr "Site titel"
 
 #: lib/admin/seo-settings.php:252
 msgid "Site Description"
-msgstr "Deskripsi Situs"
+msgstr "Site beskrivelse, max. 180 tegn"
 
 #: lib/admin/seo-settings.php:255
 msgid "Neither. I'll manually wrap my own text on the homepage"
-msgstr "Tidak satupun. Saya akan membungkus teks saya sendiri secara manual pada halaman depan"
+msgstr "Ingen af delene. Jeg pakker selv teksten manuelt til hjemmesiden"
 
 #: lib/admin/seo-settings.php:259
 msgid "Home Doctitle:"
-msgstr "Beranda Doctitle:"
+msgstr "Startside doctitle:"
 
 #: lib/admin/seo-settings.php:261
 msgid "If you leave the doctitle field blank, your site&rsquo;s title will be used instead."
-msgstr "Jika Anda membiarkan ruas doctitle kosong, judul situs Anda yang akan digunakan."
+msgstr "<b>BEMÆRK: </b> Hvis du lader doctitle feltet stå tomt, bliver dit websteds titel anvendt i stedet."
 
 #: lib/admin/seo-settings.php:265
 msgid "Home META Description:"
-msgstr "Deskripsi META Beranda: "
+msgstr "Startside META beskrivelse"
 
 #: lib/admin/seo-settings.php:267
 msgid "The META Description can be used to determine the text used under the title on search engine results pages."
-msgstr "Deskripsi META dapat digunakan untuk menentukan teks yang digunakan di bawah judul pada hasil pencarian oleh mesin pencarian."
+msgstr "<b>BEMÆRK:</b> META Beskrivelse kan bruges til at bestemme den tekst der vises under titlen på søgemaskiners resultatsider."
 
 #: lib/admin/seo-settings.php:271
 msgid "Home META Keywords (comma separated):"
-msgstr "Kata kunci META beranda (dipisahkan koma):"
+msgstr "Startside META Søgeord (kommasepareret)"
 
 #: lib/admin/seo-settings.php:273
 msgid "Keywords are generally ignored by Search Engines."
-msgstr "Kata kunci biasanya diabaikan oleh Mesin Pencarian."
+msgstr "<b>BEMÆRK:</b> Keywords bliver generelt ignoreret af søgemaskiner."
 
 #: lib/admin/seo-settings.php:276
 msgid "Homepage Robots Meta Tags:"
-msgstr "Tag Meta Robots Halaman depan:"
+msgstr "Startside META nøgleord (kommasepareret max. 20 ord, skal helst forekomme på startsiden)"
 
 #: lib/admin/seo-settings.php:280 lib/admin/seo-settings.php:283
 #: lib/admin/seo-settings.php:286
 msgid "Apply %s to the homepage?"
-msgstr "Terapkan %s ke halaman depan?"
+msgstr "Anvend %s på hjemmesiden?"
 
 #: lib/admin/seo-settings.php:305
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no SEO value whatsoever. They just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "Secara standar, WordPress menempatkan beberapa tag di dokumen %1$s Anda. Kebanyakan tag ini tidak perlu, dan tidak menyediakan nilai SEO apapun. Mereka hanya membuat situs Anda lebih lambat untuk memuatnya. Pilih tag yang akan Anda sertakan di dokumen %1$s Anda. Jika Anda tidak tahu apapun, biarkan dia tidak dicentang."
+msgstr "Som standard, placerer WordPress flere tags i dit dokument %1$s. De fleste af disse tags er helt unødvendige, og de skaber ingen SEO værdi overhovedet. De gør bare dit websted langsommere at indlæse. Vælg de tags som du vil have til at indgå i din dokument %1$s. Hold dig til standardopsætningen og ændre kun de emner, hvor du kender konsekvensen. "
 
 #: lib/admin/seo-settings.php:307
 msgid "Relationship Link Tags:"
-msgstr "Tag Tautan Hubungan:"
+msgstr "Relationship Link Tags"
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
-msgstr "Tag tautan %s Tulisan yang Berdekatan"
+msgstr "Sidestillede indlægs %s link tags"
 
 #: lib/admin/seo-settings.php:314
 msgid "Windows Live Writer Support:"
-msgstr "Dukungan Penulis Langsung Windows"
+msgstr "Windows Live Writer Support:"
 
 #: lib/admin/seo-settings.php:318
 msgid "Include Windows Live Writer Support Tag?"
-msgstr "Sertakan Tag Dukungan Penulis Langsung Windows?"
+msgstr "Anvend Windows Live Writer Support Tag?"
 
 #: lib/admin/seo-settings.php:321
 msgid "Shortlink Tag:"
-msgstr "Tag Tautan singkat:"
+msgstr "Shortlink Tag:"
 
 #: lib/admin/seo-settings.php:325
 msgid "Include Shortlink tag?"
-msgstr "Sertakan tag Tautan singkat?"
+msgstr "Anvend Shortlink tag?"
 
 #: lib/admin/seo-settings.php:326
 msgid "The shortlink tag might have some use for 3rd party service discoverability, but it has no SEO value whatsoever."
-msgstr "Tag shortlink mungkin beberapa digunakan untuk kemampuan pencarian layanan pihak ke-3, tetapi tidak memiliki nilai SEO apapun"
+msgstr "Kortlink tag kan have betydning for 3. parts service opdagelsesevne, men det har ingen SEO værdi overhovedet."
 
 #: lib/admin/seo-settings.php:348
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
-msgstr "Tergantung pada situasi, Anda dapat atau tidak ingin halaman arsip berikut diindeks oleh mesin pencarian. Hanya Anda yang dapat membuat tekad itu."
+msgstr "Din situation afgør, om du ønsker eller ikke ønsker at de nævnte arkiv-sider skal indekseres af søgemaskiner. Kun du kan træffe den beslutning."
 
 #: lib/admin/seo-settings.php:352 lib/admin/seo-settings.php:376
 msgid "Apply %s to Category Archives?"
-msgstr "Terapkan %s ke Arsip Kategori?"
+msgstr "Anvend %s i Kategori Arkiv?"
 
 #: lib/admin/seo-settings.php:355 lib/admin/seo-settings.php:379
 msgid "Apply %s to Tag Archives?"
-msgstr "Terapkan %s ke Arsip Tag?"
+msgstr "Anvend %s i Tag Arkiv?"
 
 #: lib/admin/seo-settings.php:358 lib/admin/seo-settings.php:382
 msgid "Apply %s to Author Archives?"
-msgstr "Terapkan %s ke Arsip Penulis?"
+msgstr "Anvend %s i Forfatter Arkiv?"
 
 #: lib/admin/seo-settings.php:361 lib/admin/seo-settings.php:385
 msgid "Apply %s to Date Archives?"
-msgstr "Terapkan %s ke Arsip Tanggal?"
+msgstr "Anvend %s i Dato Arkiv?"
 
 #: lib/admin/seo-settings.php:364 lib/admin/seo-settings.php:388
 msgid "Apply %s to Search Archives?"
-msgstr "Terapkan %s ke Arsip Pencarian?"
+msgstr "Anvend %s i Søge Arkiv?"
 
 #: lib/admin/seo-settings.php:367
 msgid "Some search engines will cache pages in your site (e.g Google Cache). The %1$s tag will prevent them from doing so. Choose what archives you want to %1$s."
-msgstr "Beberapa mesin pencarian akan men-cache halaman di situs Anda (misalnya Google Cache). Tag 1%$s akan mencegah mereka melakukannya. Pilih arsip apa yang Anda ingin %1$s."
+msgstr "Nogle søgemaskiner vil cache sider på dit websted (f.eks Google Cache). Dette %1$s tag vil forhindre dem i at gøre det. Vælg hvilke arkiver du vil %1$s."
 
 #: lib/admin/seo-settings.php:371
 msgid "Apply %s to Entire Site?"
-msgstr "Terapkan%s ke Situs Keseluruhan?"
+msgstr "Tilføj %s til hele Siten?"
 
 #: lib/admin/seo-settings.php:391
 msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr "Kadang-kadang, mesin pencarian menggunakan sumber daya seperti Open Directory Project dan Yahoo! Directory untuk menemukan judul dan deskripsi untuk konten Anda. Umumnya, Anda tidak ingin mereka melakukan hal ini. Tag %s dan%s mencegah mereka melakukannya."
+msgstr "Fra tid til anden bruger søgemaskiner ressourcer som Open Directory Project og Yahoo! Directory til at finde titler og beskrivelser på dit indhold. For det meste er det ikke ønskværdigt. Dette %s og %s tags forhindrer søgemaskinerne i at gøre det. "
 
 #: lib/admin/seo-settings.php:395 lib/admin/seo-settings.php:398
 msgid "Apply %s to your site?"
-msgstr "Terapkan%s ke situs Anda?"
+msgstr "Tilføj %s til din site?"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
-msgstr "Arsip Halaman Canonical"
+msgstr "Canonical pagineret Arkiv"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Pilihan ini mengarahkan mesin pencarian ke halaman pertama dari arsip, jika melihat halaman paginasi. Jika Anda tidak tahu apa artinya ini, biarkan saja."
+msgstr "Denne indstilling peger søgemaskiner til den første side i et arkiv, hvis det er en pagineret side. Hvis du ikke ved hvad dette betyder, skal du lade den være tændt."
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr "Pengaturan Arsip"
+msgstr "Arkiv indstillinger"
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr "Judul Atas Arsip"
+msgstr "Arkiv overskrift"
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Biarkan kosong jika Anda tidak ingin menampilkan judul atas."
+msgstr "Skal være blank hvis der ikke skal vises en overskrift"
 
 #: lib/admin/term-meta.php:66
 msgid "Archive Intro Text"
-msgstr "Teks Pendahuluan Arsip"
+msgstr "Arkiv introduktions tekst"
 
 #: lib/admin/term-meta.php:69
 msgid "Leave empty if you do not want to display any intro text."
-msgstr "Biarkan kosong jika Anda tidak ingin menampilkan teks pendahuluan apapun."
+msgstr "Skal være blank hvis der ikke skal vises en intro tekst"
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:158
 msgid "Custom Document %s"
-msgstr "Dokumen kostum %s"
+msgstr "Custom Dokument %s"
 
 #: lib/admin/term-meta.php:130 lib/admin/user-meta.php:165
 msgid "%s Description"
-msgstr "Deskripsi %s"
+msgstr "%s Beskrivelse"
 
 #: lib/admin/term-meta.php:137 lib/admin/user-meta.php:172
 msgid "%s Keywords"
-msgstr "Kata kunci %s"
+msgstr "%s Keywords"
 
 #: lib/admin/term-meta.php:140 lib/admin/user-meta.php:175
 msgid "Comma separated list"
-msgstr "Daftar dipisahkan koma"
+msgstr "Kommasepareret liste"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:180
 msgid "Robots Meta"
-msgstr "Meta Robot"
+msgstr "Robots Meta"
 
 #: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:183
 #: lib/admin/user-meta.php:185 lib/admin/user-meta.php:187
 msgid "Apply %s to this archive?"
-msgstr "Terapkan %s ke arsip ini?"
+msgstr "Anvend %s i dette arkiv?"
 
 #: lib/admin/term-meta.php:206 lib/admin/user-meta.php:224
 msgid "Choose Layout"
-msgstr "Pilih Layout"
+msgstr "Vælg Layout"
 
 #: lib/admin/theme-settings.php:85
 msgid "Follow me on Twitter"
-msgstr "Ikuti saya di Twitter"
+msgstr "Følg mig på twitter"
 
 #: lib/admin/theme-settings.php:204
 msgid "Information"
-msgstr "Informasi"
+msgstr "Information"
 
 #: lib/admin/theme-settings.php:207
 msgid "Color Style"
-msgstr "Gaya Warna"
+msgstr "Farve valg"
 
 #: lib/admin/theme-settings.php:209
 msgid "Custom Feeds"
-msgstr "Umpan Kostum"
+msgstr "Custom Feeds"
 
 #: lib/admin/theme-settings.php:210
 msgid "Default Layout"
-msgstr "Layout Standar"
+msgstr "Standard layout"
 
 #: lib/admin/theme-settings.php:213
 msgid "Header Settings"
-msgstr "Pengaturan Header"
+msgstr "Header indstillinger"
 
 #: lib/admin/theme-settings.php:216
 msgid "Navigation Settings"
-msgstr "Pengaturan Navigasi"
+msgstr "Navigations indstillinger"
 
 #: lib/admin/theme-settings.php:218
 msgid "Breadcrumbs"
-msgstr "Potongan alamat"
+msgstr "Brødkrummer"
 
 #: lib/admin/theme-settings.php:219
 msgid "Comments and Trackbacks"
-msgstr "Komentar dan Lacakbalik"
+msgstr "Kommentarer og Trackbacks"
 
 #: lib/admin/theme-settings.php:220
 msgid "Content Archives"
-msgstr "Arsip Konten"
+msgstr "Præsentation af ældre indhold"
 
 #: lib/admin/theme-settings.php:221
 msgid "Blog Page"
-msgstr "Halaman Blog"
+msgstr "Blog Side"
 
 #: lib/admin/theme-settings.php:224
 msgid "Header and Footer Scripts"
-msgstr "Skrip Header dan Footer"
+msgstr "Header og Footer Scripts"
 
 #: lib/admin/theme-settings.php:265
 msgid "Version:"
-msgstr "Versi:"
+msgstr "Version:"
 
 #: lib/admin/theme-settings.php:265
 msgid "Released:"
-msgstr "Dirilis:"
+msgstr "Released:"
 
 #: lib/admin/theme-settings.php:269
 msgid "Display Theme Information in your document source"
-msgstr "Tampilkan Informasi Tema di sumber dokumen Anda"
+msgstr "Vis Tema Oplysninger i dit dokument kilde"
 
 #: lib/admin/theme-settings.php:272
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "Ini dapat membantu untuk mendiagnosis masalah dengan tema Anda ketika mencari bantuan dalam <a href=\"%s\" target=\"_blank\"> dukungan forum </a>."
+msgstr "<b>Bemærk:</b> Dette kan være nyttigt til at diagnosticere problemer med dit tema, når de søger hjælp i <a href=\"%s\" target=\"_blank\">onlinefora</a>"
 
 #: lib/admin/theme-settings.php:276
 msgid "Enable Automatic Updates"
-msgstr "Aktifkan Pembaruan Otomatis"
+msgstr "Tillad Automatiske Opdateringer"
 
 #: lib/admin/theme-settings.php:281
 msgid "Notify"
-msgstr "Beritahukan"
+msgstr "Send besked til:"
 
 #: lib/admin/theme-settings.php:283
 msgid "when updates are available"
-msgstr "ketika pembaruan tersedia"
+msgstr "når der er nye opdateringer"
 
 #: lib/admin/theme-settings.php:286
 msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
-msgstr "Jika Anda memberikan alamat email di atas, blog Anda dapat mengirimkan email Anda ketika versi baru Genesis tersedia."
+msgstr "Skriver du en e-mail adresse i feltet, får du besked, når en ny version af Genesis er klar"
 
 #: lib/admin/theme-settings.php:308
 msgid "Color Style:"
-msgstr "Gaya Warna: "
+msgstr "Farve valg:"
 
 #: lib/admin/theme-settings.php:310
 msgid "Default"
-msgstr "Standar"
+msgstr "Standard"
 
 #: lib/admin/theme-settings.php:322
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Pilih gaya warna dari senarai pilihan dan simpan perubahan Anda."
+msgstr "Vælg venligst farve i listen og gem dine indstillinger"
 
 #: lib/admin/theme-settings.php:368
 msgid "Use for blog title/logo:"
-msgstr "Gunakan untuk judul blog/logo:"
+msgstr "Brug som blog-titel/logo:"
 
 #: lib/admin/theme-settings.php:370
 msgid "Dynamic text"
-msgstr "Teks dinamis"
+msgstr "Dynamisk tekst"
 
 #: lib/admin/theme-settings.php:371
 msgid "Image logo"
-msgstr "Gambar logo"
+msgstr "Billed/Grafik logo"
 
 #: lib/admin/theme-settings.php:396
 msgid "Primary Navigation"
-msgstr "Navigasi Utama"
+msgstr "Primære Navigation"
 
 #: lib/admin/theme-settings.php:400
 msgid "Include Primary Navigation Menu?"
-msgstr "Sertakan Navigation Menu Utama?"
+msgstr "Anvend Primary Navigation Menu?"
 
 #: lib/admin/theme-settings.php:406 lib/admin/theme-settings.php:451
 msgid "Enable Fancy Dropdowns?"
-msgstr "Aktifkan dropdown Fancy?"
+msgstr "Brug Fancy Dropdowns?"
 
 #: lib/admin/theme-settings.php:411
 msgid "Enable Extras on Right Side?"
-msgstr "Aktifkan Ekstra di Sisi Kanan?"
+msgstr "Vis Ektras i højre side?"
 
 #: lib/admin/theme-settings.php:416
 msgid "Display the following:"
-msgstr "Tampilan berikut:"
+msgstr "Vis følgende:"
 
 #: lib/admin/theme-settings.php:418
 msgid "Today's date"
-msgstr "Tanggal hari ini"
+msgstr "Dags dato"
 
 #: lib/admin/theme-settings.php:419
 msgid "RSS feed links"
-msgstr "Tautan umpan RSS"
+msgstr "RSS feed links"
 
 #: lib/admin/theme-settings.php:420
 msgid "Search form"
-msgstr "Form pencarian"
+msgstr "Søgeformular"
 
 #: lib/admin/theme-settings.php:421
 msgid "Twitter link"
-msgstr "Tautan Twitter"
+msgstr "Link til Twitter"
 
 #: lib/admin/theme-settings.php:426
 msgid "Enter Twitter ID:"
-msgstr "Masukkan ID Twitter:"
+msgstr "Indtast Twitter ID:"
 
 #: lib/admin/theme-settings.php:430
 msgid "Twitter Link Text:"
-msgstr "Teks Tautan Twitter:"
+msgstr "Tekst til Twitter Link"
 
 #: lib/admin/theme-settings.php:441
 msgid "Secondary Navigation"
-msgstr "Navigasi Kedua"
+msgstr "Sekundær Navigation"
 
 #: lib/admin/theme-settings.php:445
 msgid "Include Secondary Navigation Menu?"
-msgstr "Sertakan Navigation Menu Sekunder?"
+msgstr "Anvend Sekundære Navigation Menu?"
 
 #: lib/admin/theme-settings.php:458
 msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr "Untuk menggunakan menu navigasi, Anda harus membangun <a href=\"%s\">Menu kustom</a>, kemudian menugaskannya ke Lokasi Menu yang tepat. "
+msgstr "For at bruge navigationsmenuer skal du først lave en <a href=\"%s\">brugerdefineret menu</a>, og derefter tilføje den til et menuområde."
 
 #: lib/admin/theme-settings.php:477
 msgid "Enter your custom feed URI:"
-msgstr "Masukkan umpan URI kostum Anda:"
+msgstr "Angiv den brugerdefinerede feed URI:"
 
 #: lib/admin/theme-settings.php:481 lib/admin/theme-settings.php:489
 msgid "Redirect Feed?"
-msgstr "Umpan Redirect?"
+msgstr "Omdiriger Feed?"
 
 #: lib/admin/theme-settings.php:485
 msgid "Enter your custom comments feed URI:"
-msgstr "Masukkan umpan URI komentar kostum Anda:"
+msgstr "Angiv den brugerdefinerede kommentar feed URI:"
 
 #: lib/admin/theme-settings.php:492
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Jika umpan kostum Anda tidak ditangani oleh Feedburner, kami tidak menyarankan bahwa Anda menggunakan redirect pilihan."
+msgstr "Hvis dit brugerdefinerede feed(s) ikke kommer fra Feedburner, vil vi ikke anbefale, at du omdirigerer dit feed. Det vil ikke fungere ordentligt. "
 
 #: lib/admin/theme-settings.php:511
 msgid "Enable Comments"
-msgstr "Aktifkan Komentar"
+msgstr "Tillad Kommentarer"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
-msgstr "pada tulisan?"
+msgstr "Aktiver på indlæg?"
 
 #: lib/admin/theme-settings.php:516 lib/admin/theme-settings.php:525
 msgid "on pages?"
-msgstr "pada halaman?"
+msgstr "Aktiver på sider?"
 
 #: lib/admin/theme-settings.php:520
 msgid "Enable Trackbacks"
-msgstr "Aktifkan Trackbacks"
+msgstr "Tillad Trackbacks"
 
 #: lib/admin/theme-settings.php:528
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr "Komentar dan Trackbacks juga dapat dinonaktifkan berdasarkan posting / halaman per saat membuat / mengedit posting / halaman."
+msgstr "<b>BEMÆRK:</b> Kommentarer og Trackbacks kan også slås fra per indlæg/side, når du skriver nye, eller ændrer indlæg/sider"
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
-msgstr "Aktifkan pada:"
+msgstr "Tillad i:"
 
 #: lib/admin/theme-settings.php:549
 msgid "Front Page"
-msgstr "Halaman depan"
+msgstr "Startside"
 
 #: lib/admin/theme-settings.php:552
 msgid "Posts"
-msgstr "Tulisan"
+msgstr "Indlæg"
 
 #: lib/admin/theme-settings.php:555
 msgid "Pages"
-msgstr "Halaman"
+msgstr "Sider"
 
 #: lib/admin/theme-settings.php:558
 msgid "Archives"
-msgstr "Arsip"
+msgstr "Arkiver"
 
 #: lib/admin/theme-settings.php:561
 msgid "404 Page"
-msgstr "Halaman 404"
+msgstr "404 fejl side"
 
 #: lib/admin/theme-settings.php:564
 msgid "Attachment Page"
-msgstr "Halaman Lampiran"
+msgstr "Vedhæftnings side"
 
 #: lib/admin/theme-settings.php:567
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Breadcrumbs adalah cara yang bagus untuk membiarkan pengunjung Anda mencari tahu di mana mereka berada di situs Anda dengan hanya sekilas. Anda dapat mengaktifkan / menonaktifkan mereka pada area tertentu dari situs Anda."
+msgstr "Brødkrummer er gode til hurtigt at vise besøgende, hvor de befinder sig på dit websted. Du kan aktivere / deaktivere dem på udvalgte dele af dit site."
 
 #: lib/admin/theme-settings.php:587
 msgid "Select one of the following:"
-msgstr "Pilih salah satu dari berikut:"
+msgstr "Vælg en af følgende:"
 
 #: lib/admin/theme-settings.php:593
 msgid "Display post content"
-msgstr "Tampilkan isi posting"
+msgstr "Vis indlæggets indhold"
 
 #: lib/admin/theme-settings.php:594
 msgid "Display post excerpts"
-msgstr "Tampilkan kutipan tulisan"
+msgstr "Vis uddrag af indlægget"
 
 #: lib/admin/theme-settings.php:605
 msgid "Limit content to"
-msgstr "Batasi konten sampai"
+msgstr "Længde af uddrag"
 
 #: lib/admin/theme-settings.php:607
 msgid "characters"
-msgstr "karakter"
+msgstr "tegn"
 
 #: lib/admin/theme-settings.php:610
 msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
-msgstr "Menggunakan opsi ini akan membatasi teks dan menghapus semua format dari teks yang ditampilkan. Untuk menggunakan opsi ini, pilih \"Tampilkan isi tulisan\" di kotak pilihan atas."
+msgstr "Bruger du denne indstilling begrænses teksten og al formatering af teksten fjernes. Hvis du vil bruge denne mulighed, skal du vælge \" Vis indlæggets indhold\" i boksen over denne tekst."
 
 #: lib/admin/theme-settings.php:615
 msgid "Include the Featured Image?"
-msgstr "Sertakan Gambar yang ditampilkan?"
+msgstr "Anvend det udvalgte billed?"
 
 #: lib/admin/theme-settings.php:619
 msgid "Image Size:"
-msgstr "Ukuran Gambar: "
+msgstr "Billedstørrelse:"
 
 #: lib/admin/theme-settings.php:630
 msgid "Select Post Navigation Technique:"
-msgstr "Pilih Teknik Navigasi Tulisan:"
+msgstr "Vælg Indlægs Navigation metode:"
 
 #: lib/admin/theme-settings.php:632
 msgid "Older / Newer"
-msgstr "Lebih Lama / Lebih Baru"
+msgstr "Ældre / Nyere"
 
 #: lib/admin/theme-settings.php:633
 msgid "Previous / Next"
-msgstr "Sebelumnya / Berikutnya"
+msgstr "Forrige / Næste"
 
 #: lib/admin/theme-settings.php:634
 msgid "Numeric"
-msgstr "Numerik"
+msgstr "Numre"
 
 #: lib/admin/theme-settings.php:638
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr "Pilihan ini akan mempengaruhi setiap daftar halaman blog, termasuk arsip, penulis, blog, kategori, pencarian, dan halaman tag."
+msgstr "Disse indstillinger vil påvirke enhver blog liste side, herunder arkiver, forfatter, blog, kategori, søgning og tag sider."
 
 #: lib/admin/theme-settings.php:657
 msgid "Display which category:"
-msgstr "Tampilkan kategori yang mana:"
+msgstr "Vis disse katagorier:"
 
 #: lib/admin/theme-settings.php:658
 msgid "All Categories"
-msgstr "Semua Kategori"
+msgstr "Alle kategorier"
 
 #: lib/admin/theme-settings.php:662
 msgid "Exclude the following Category IDs:"
-msgstr "Kecualikan ID Kategori berikut:"
+msgstr "Udelad følgende Kategori ID's:"
 
 #: lib/admin/theme-settings.php:664
 msgid "Comma separated - 1,2,3 for example"
-msgstr "Dipisahkan koma - 1,2,3 misalnya"
+msgstr "Kommasepareret - 1,2,3 for eksempel"
 
 #: lib/admin/theme-settings.php:669
 msgid "Number of Posts to Show:"
-msgstr "Jumlah Tulisan yang Ditampilkan: "
+msgstr "Antal indlæg som vises:"
 
 #: lib/admin/theme-settings.php:690 lib/admin/theme-settings.php:700
 msgid "Enter scripts or code you would like output to %s:"
-msgstr "Masukkan skrip atau kode yang ingin Anda tampilkan ke %s: "
+msgstr "Indtast scripts/code som skal sendes til %s:"
 
 #: lib/admin/theme-settings.php:695 lib/admin/theme-settings.php:705
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr "Hook %1$s mengeksekusi tepat sebelum tag penutup %2$s di dokumen sumber."
+msgstr "<b>Bemærk:</b> %1$s hook udføres umiddelbart før den afsluttende %2$s tag i dokumentets kildekode."
 
 #: lib/admin/user-meta.php:40
 msgid "User Permissions"
-msgstr "Hak Akses Pengguna"
+msgstr "Brugerrettigheder"
 
 #: lib/admin/user-meta.php:44
 msgid "Genesis Admin Menus"
-msgstr "Menu Admin Genesis"
+msgstr "Genesis Admin menuer"
 
 #: lib/admin/user-meta.php:47
 msgid "Enable Genesis Admin Menu?"
-msgstr "Aktifkan Menu Admin Genesis?"
+msgstr "Aktiver Genesis Admin menu?"
 
 #: lib/admin/user-meta.php:49
 msgid "Enable SEO Settings Submenu?"
-msgstr "Aktifkan Submenu Pengaturan SEO?"
+msgstr "Aktiver SEO undermenuen?"
 
 #: lib/admin/user-meta.php:51
 msgid "Enable Import/Export Submenu?"
-msgstr "Aktifkan Submenu Impor/Ekspor?"
+msgstr "Aktiver Import/Export undermenu?"
 
 #: lib/admin/user-meta.php:88
 msgid "Author Archive Settings"
-msgstr "Pengaturan Arsip Penulis"
+msgstr "Forfatter arkiv indstillinger"
 
 #: lib/admin/user-meta.php:89 lib/admin/user-meta.php:154
 #: lib/admin/user-meta.php:220
 msgid "These settings apply to this author's archive pages."
-msgstr "Pengaturan ini berlaku untuk halaman arsip penulis ini."
+msgstr "Disse indstillinger gælder for denne forfatters arkiv sider."
 
 #: lib/admin/user-meta.php:93
 msgid "Custom Archive Headline"
-msgstr "Headline Arsip Kostum"
+msgstr "Custom arkiv overskrift"
 
 #: lib/admin/user-meta.php:96
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "Akan menampilkan dalam tag%s di bagian atas halaman pertama"
+msgstr "Vises i %s tag i toppen af den første side"
 
 #: lib/admin/user-meta.php:101
 msgid "Custom Description Text"
-msgstr "Teks Deskripsi Kostum"
+msgstr "Custom beskrivelse tekst"
 
 #: lib/admin/user-meta.php:104
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr "Teks ini akan menjadi paragraf pertama, dan ditampilkan di halaman pertama"
+msgstr "Denne tekst vil være det første afsnit og vises på den første side"
 
 #: lib/admin/user-meta.php:109
 msgid "Author Box"
-msgstr "Kotak Pengarang"
+msgstr "Forfatter boks"
 
 #: lib/admin/user-meta.php:112
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Aktifkan Kotak Penulis pada Tulisan Pengguna ini?"
+msgstr "Aktiver forfatter boks på denne brugers indlæg?"
 
 #: lib/admin/user-meta.php:114
 msgid "Enable Author Box on this User's Archives?"
-msgstr "Aktifkan Kotak Penulis pada Arsip Pengguna ini?"
+msgstr "Aktiver forfatter box på denne brugers arkiv?"
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Anda tidak dapat menggunakan %s untuk membuat dua menu di subclass yang sama. Silahkan gunakan subclass yang terpisah untuk setiap menu."
+msgstr "Du kan ikke bruge %s til at lave to menuer i samme subclass. Brug venligsts seperate subclasses til hver menu."
 
 #: lib/classes/admin.php:415 lib/classes/admin.php:424
 #: lib/classes/admin.php:527 lib/classes/admin.php:546
 msgid "Are you sure you want to reset?"
-msgstr "Anda yakin ingin mereset?"
+msgstr "Er du sikker på, at du vil nulstille?"
 
 #: lib/classes/breadcrumb.php:53
 msgid "Home"
-msgstr "Beranda"
+msgstr "Startside"
 
 #: lib/classes/breadcrumb.php:62
 msgid "You are here: "
-msgstr "Anda di sini: "
+msgstr "Du er her: "
 
 #: lib/classes/breadcrumb.php:63 lib/classes/breadcrumb.php:64
 #: lib/classes/breadcrumb.php:65 lib/classes/breadcrumb.php:66
 #: lib/classes/breadcrumb.php:68 lib/classes/breadcrumb.php:69
 msgid "Archives for "
-msgstr "Arsip untuk"
+msgstr "Arkiv for "
 
 #: lib/classes/breadcrumb.php:67
 msgid "Search for "
-msgstr "Pencarian untuk"
+msgstr "Søg efter "
 
 #: lib/classes/breadcrumb.php:70
 msgid "Not found: "
-msgstr "Tidak ditemukan:"
+msgstr "Ikke fundet: "
 
 #: lib/classes/breadcrumb.php:119 lib/classes/breadcrumb.php:214
 #: lib/classes/breadcrumb.php:315
 msgid "View %s"
-msgstr "Tampilkan %s"
+msgstr "Se %s"
 
 #: lib/classes/breadcrumb.php:247 lib/classes/breadcrumb.php:251
 #: lib/classes/breadcrumb.php:256
 msgid "(Edit)"
-msgstr "(Sunting)"
+msgstr "(rediger)"
 
 #: lib/classes/breadcrumb.php:264 lib/classes/breadcrumb.php:273
 msgid "View archives for %s"
-msgstr "Tampilkan arsip untuk %s"
+msgstr "Se arkiver for %s"
 
 #: lib/classes/breadcrumb.php:279
 msgid "View archives for %s %s"
-msgstr "Tampilkan arsip untuk %s %s"
+msgstr "Se arkiver for %s %s"
 
 #: lib/classes/breadcrumb.php:334
 msgid "View all posts in %s"
-msgstr "Tampilkan semua tulisan dalam %s"
+msgstr "Se alle indlæg i %s"
 
 #: lib/classes/breadcrumb.php:355
 msgid "View all %s"
-msgstr "Lihat semua %s"
+msgstr "Se alle %s"
 
 #: lib/classes/breadcrumb.php:418
 msgid "View all items in %s"
-msgstr "Lihat semua item dalam %s"
+msgstr "Vis alle elementer i %s"
 
 #: lib/functions/admin.php:15
 msgid "This file no longer needs to be included."
-msgstr "Berkas ini tidak lagi perlu disertakan."
+msgstr "Denne fil behøver ikke længere at være inkluderet."
 
 #: lib/functions/formatting.php:291
 msgid "seconds"
-msgstr "detik"
+msgstr "sekunder"
 
 #: lib/functions/formatting.php:326
 msgid "and"
-msgstr "dan"
+msgstr "og"
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
-msgstr "Konten-Sidebar"
+msgstr "Indhold-Sidebar"
 
 #: lib/functions/layout.php:46
 msgid "Sidebar-Content"
-msgstr "Sidebar-Konten"
+msgstr "Sidebar-Indhold"
 
 #: lib/functions/layout.php:54
 msgid "Content-Sidebar-Sidebar"
-msgstr "Konten-Sidebar-Sidebar"
+msgstr "Indhold-Sidebar-Sidebar"
 
 #: lib/functions/layout.php:62
 msgid "Sidebar-Sidebar-Content"
-msgstr "Sidebar-Sidebar-Konten"
+msgstr "Sidebar-Sidebar-Indhold"
 
 #: lib/functions/layout.php:70
 msgid "Sidebar-Content-Sidebar"
-msgstr "Sidebar-Konten-Sidebar"
+msgstr "Sidebar-Indhold-Sidebar"
 
 #: lib/functions/layout.php:78
 msgid "Full Width Content"
-msgstr "Konten Lebar Penuh"
+msgstr "Indhold i fuld bredde"
 
 #: lib/functions/layout.php:122
 msgid "No Label Selected"
-msgstr "Tidak ada Label Terpilih"
+msgstr "Der ikke valgt nogen label"
 
 #: lib/functions/menu.php:74
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr "Argumen, \"context\", telah diganti dengan \"theme_location\" di array $args."
+msgstr "Argumentet \"context\", er blevet erstattet med \"theme_location\" i $args array'et."
 
 #: lib/functions/seo.php:118
 msgid "Have you tried our Scribe SEO software? Do keyword research, content optimization, and link building without leaving WordPress. <b>Genesis owners save over 50&#37; using the promo code FIRST when you sign up</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr "Apakah Anda sudah mencoba piranti Scribe SEO? Lakukan riset kata kunci, optimasi konten, dan pembangunan tautan tanpa meninggalkan WordPress. <b>Pemilik Genesis akan menghemat lebih 50&#37; dengan menggunakan kode promo FIRST ketika Anda mendaftar akun Anda</b>. <a href=\"%s\" target=\"_blank\">Klik di sini untuk info lebih lanjut</a>."
+msgstr "Har du prøvet vores Scribe SEO software? Lav keyword research, indholds optimering, og link-building uden at forlade WordPress. <b>Genesis ejere sparer over 50&#37; når de bruger promo koden FIRST når de tilmelder sig</b>. <a href=\"%s\" target=\"_blank\">Klik her for mere information</a>.\n"
 
 #: lib/functions/seo.php:120
 msgid "Dismiss"
-msgstr ""
+msgstr "Afvis"
 
 #: lib/functions/upgrade.php:376
 msgid "Congratulations! You are now rocking Genesis %s"
-msgstr "Selamat! Anda sekarang sedang memainkan Genesis %s"
+msgstr "Tillykke! Du er nu på beatet med Genesis %s"
 
 #: lib/functions/upgrade.php:401
 msgid "Click here to complete the upgrade"
-msgstr "Klik di sini untuk menyelesaikan pembaruan"
+msgstr "Klik her får at afslutte opdateringen"
 
 #: lib/functions/upgrade.php:426
 msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s tersedia. <a href=\"%s\" class=\"thickbox thickbox-preview\">Cek apa saja yang baru </a> atau <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">perbarui sekarang</a>."
+msgstr "Genesis %s er tilgængelig nu. <a href=\"%s\" class=\"thickbox thickbox-preview\">Se hvad der er blevet ændret</a> eller <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">opdatere nu</a>."
 
 #: lib/functions/upgrade.php:430
 msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
-msgstr "Pembaruan Genesis akan menimpa versi Genesis yang diinstal. Apakah Anda yakin ingin memperbarui?. \"Batal\" untuk berhenti, \"OK\" untuk memperbarui."
+msgstr "Hvis du opdatere Genesis uden at oversætte sprogfilen, bliver Genesis ændret og dit Theme bliver overskrevet og er derefter på engelsk. Er du sikker på at du vil opdatere?. Klik \"Annulere\" for at stoppen nu, \"OK\" for at opdatere."
 
 #: lib/functions/upgrade.php:472
 msgid "Genesis %s is available for %s"
-msgstr "Genesis %s tersedia untuk %s"
+msgstr "Genesis %s er tilgængelig til %s"
 
 #: lib/functions/upgrade.php:473
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s sekarang tersedia. Kami telah menyediakan 1-klik update untuk tema ini, jadi harap login ke dasbor Anda dan perbarui demi kenyamanan Anda yang lebih awal."
+msgstr "Genesis %s er tilgængelig. Hvis du ikke bruger et oversættelses-plugin, så kontakt din webmaster for at få opdateret din sprogfil før, du opdaterer Genesis"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Left"
-msgstr "Header Kiri"
+msgstr "Header venstre"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Right"
-msgstr "Header Kanan"
+msgstr "Header Højre"
 
 #: lib/functions/widgetize.php:64
 msgid "This is the widget area in the header."
-msgstr "Ini merupakan area widget di header."
+msgstr "Dette er widget området i headeren."
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
-msgstr "Sidebar Utama"
+msgstr "Primær Sidebar"
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "Ini merupakan bar samping utama jika Anda menggunakan pilihan layout dua atau tiga kolom."
+msgstr "Dette er den primære Sidebar, hvis du bruger 2 eller 3 spalter som sitelayout"
 
 #: lib/functions/widgetize.php:79
 msgid "Secondary Sidebar"
-msgstr "Sidebar Kedua"
+msgstr "Sekundær Sidebar"
 
 #: lib/functions/widgetize.php:80
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "Ini merupakan bar samping kedua jika Anda menggunakan pilihan layout tiga kolom."
+msgstr "Dette er den sekundære sidebar hvis du bruger det 3 spaltede sidelayout"
 
 #: lib/functions/widgetize.php:112
 msgid "Footer %d"
@@ -986,195 +986,195 @@ msgstr "Footer %d"
 
 #: lib/functions/widgetize.php:113
 msgid "Footer %d widget area."
-msgstr "Area widget %d footer."
+msgstr "Footer %d widget område."
 
 #: lib/js/load-scripts.php:86
 msgid "Select / Deselect All"
-msgstr "Pilih / Batalkan Semua"
+msgstr "Vælg / fravælg alle"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Kembali ke atas halaman"
+msgstr "Tilbage til toppen af siden"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
-msgstr "oleh"
+msgstr "fra"
 
 #: lib/shortcodes/footer.php:241
 msgid "Log in"
-msgstr "Catat masuk"
+msgstr "Log ind"
 
 #: lib/shortcodes/footer.php:243
 msgid "Log out"
-msgstr "Catat keluar"
+msgstr "Log ud"
 
 #: lib/shortcodes/post.php:43
 msgid "ago"
-msgstr "lalu"
+msgstr "siden"
 
 #: lib/shortcodes/post.php:140
 msgid "Visit %s&#8217;s website"
-msgstr "Kunjungi %s&#8217;s situs"
+msgstr "Besøgt %s&#8217;s hjemmeside"
 
 #: lib/shortcodes/post.php:205
 msgid "% Comments"
-msgstr "% Komentar"
+msgstr "% kommentarer"
 
 #: lib/shortcodes/post.php:206
 msgid "1 Comment"
-msgstr "1 Komentar"
+msgstr "1 kommentar"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
-msgstr "Tinggalkan Komentar"
+msgstr "Skriv en kommentar"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
-msgstr "Ditag dengan:"
+msgstr "Tags: "
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Ditempatkan di bawah:"
+msgstr "Skrevet i: "
 
 #: lib/structure/comments.php:56
 msgid "<h3>Comments</h3>"
-msgstr "<h3>Komentar</h3>"
+msgstr "<h3>Kommentarer</h3>"
 
 #: lib/structure/comments.php:107
 msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>Lacakbalik</h3>"
+msgstr "<h3>Trackbacks</h3>"
 
 #: lib/structure/comments.php:176
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
-msgstr "<cite class=\"fn\">%s </cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:176
 msgid "says"
-msgstr "mengatakan"
+msgstr "siger"
 
 #: lib/structure/comments.php:180
 msgid "%1$s at %2$s"
-msgstr "%1$s pada %2$s"
+msgstr "%1$s på %2$s"
 
 #: lib/structure/comments.php:181
 msgid "Edit"
-msgstr "Sunting"
+msgstr "Rediger"
 
 #: lib/structure/comments.php:186
 msgid "Your comment is awaiting moderation."
-msgstr "Komentar Anda sedang menunggu persetujuan."
+msgstr "Din kommentar venter på at blive godkendt"
 
 #: lib/structure/comments.php:243
 msgid "Name"
-msgstr "Nama"
+msgstr "Navn"
 
 #: lib/structure/comments.php:249
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: lib/structure/comments.php:255
 msgid "Website"
-msgstr "Situs"
+msgstr "Websted"
 
 #: lib/structure/comments.php:269
 msgid "Speak Your Mind"
-msgstr "Utarakan Pikiran Anda"
+msgstr "Skriv en kommentar"
 
 #: lib/structure/footer.php:111
 msgid "Copyright"
-msgstr "Hak Cipta"
+msgstr "Copyright"
 
 #: lib/structure/footer.php:111
 msgid "on"
-msgstr "pada"
+msgstr "til"
 
 #: lib/structure/loops.php:191
 msgid "Read more&hellip;"
-msgstr "Baca selengkapnya &hellip;"
+msgstr "Læs mere&hellip;"
 
 #: lib/structure/loops.php:200
 msgid "You are using invalid arguments with the %s function."
-msgstr "Anda menggunakan argumen yang tidak valid dengan fungsi %s."
+msgstr "Du bruger ugyldige argumenter til denn %s funktion."
 
 #: lib/structure/menu.php:175
 msgid "Comments"
-msgstr "Komentar"
+msgstr "Kommentarer"
 
 #: lib/structure/post.php:189 lib/structure/post.php:191
 msgid "[Read more...]"
-msgstr "[Selengkapnya ...]"
+msgstr "[Læs mere...]"
 
 #: lib/structure/post.php:208
 msgid "Sorry, no posts matched your criteria."
-msgstr "Maaf, tidak ada tulisan yang memenuhi kriteria Anda."
+msgstr "Desværre, ingen indlæg passede det, du søgte. "
 
 #: lib/structure/post.php:234 lib/widgets/featured-post-widget.php:51
 msgid "By"
-msgstr "Oleh"
+msgstr "Af"
 
 #: lib/structure/post.php:308
 msgid "About"
-msgstr "Tentang"
+msgstr "Om"
 
 #: lib/structure/post.php:348
 msgid "Older Posts"
-msgstr "Posting Lebih Lama"
+msgstr "Ældre indlæg"
 
 #: lib/structure/post.php:349
 msgid "Newer Posts"
-msgstr "Posting Lebih Baru"
+msgstr "Nyere indlæg"
 
 #: lib/structure/post.php:370 lib/structure/post.php:434
 msgid "Previous Page"
-msgstr "Halaman Sebelumnya"
+msgstr "Forrige side"
 
 #: lib/structure/post.php:371 lib/structure/post.php:464
 msgid "Next Page"
-msgstr "Halaman Berikutnya"
+msgstr "Næste side"
 
 #: lib/structure/search.php:25
 msgid "Search this website %s"
-msgstr "Cari di situs ini %s"
+msgstr "Søg på dette websted %s"
 
 #: lib/structure/search.php:27
 msgid "Search"
-msgstr "Cari"
+msgstr "Søg"
 
 #: lib/structure/sidebar.php:24
 msgid "Primary Sidebar Widget Area"
-msgstr "Area Widget Sidebar Utama"
+msgstr "Hover Sidebar Widget område"
 
 #: lib/structure/sidebar.php:27
 msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Ini adalah Area Widget Sidebar Utama. Anda dapat menambahkan konten ke daerah ini dengan mengunjungi <a href=\"%s\">Panel Widget </a> anda dan menambahkan widget baru untuk daerah ini."
+msgstr "Her er hoved Sidebar Widget området. Du kan tilføje indhold ved at besøge dit <a href=\"%s\">Widgets Panel</a> og tilføje nye widgets til dette område."
 
 #: lib/structure/sidebar.php:45
 msgid "Secondary Sidebar Widget Area"
-msgstr "Area Widget Sidebar Kedua"
+msgstr "Smalle Sidebar Widget område"
 
 #: lib/structure/sidebar.php:48
 msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Ini adalah Area Widget Sidebar Kedua. Anda dapat menambahkan konten ke daerah ini dengan mengunjungi <a href=\"%s\">Panel Widget</a> Anda dan menambahkan widget baru untuk daerah ini."
+msgstr "Her er det smalle Sidebar Widget område. Du kan tilføje indhold ved at besøge dit <a href=\"%s\">Widgets Panel</a> og tilføje nye widgets til dette område."
 
 #: lib/tools/post-templates.php:132
 msgid "Single Post Template"
-msgstr "Templat Halaman Tunggal"
+msgstr "Enkelt Indlæg Template"
 
 #: lib/tools/post-templates.php:157
 msgid "Post Template"
-msgstr "Templat Tulisan"
+msgstr "Indlæg Template"
 
 #: lib/tools/post-templates.php:162
 msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
-msgstr "Beberapa tema memiliki template kostum yang dapat Anda gunakan untuk tulisan tunggal yang mungkin memiliki fitur tambahan atau tata letak yang kostum. Jika demikian, Anda akan melihat mereka di atas."
+msgstr "Nogle temaer har brugerdefinerede skabeloner, du kan bruge til enkelt indlæg, der måtte have ekstra funktioner eller brugerdefinerede layout. Hvis dette tema har skabeloner vil du se dem ovenfor."
 
 #: lib/widgets/enews-widget.php:44
 msgid "Displays Feedburner email subscribe form"
-msgstr "Tampilkan form email berlangganan Feedburner"
+msgstr "Vis Feedburners e-mail abonnements formular"
 
 #: lib/widgets/enews-widget.php:47
 msgid "Genesis - eNews and Updates"
-msgstr "Genesis - eNews dan Pembaruan"
+msgstr "Genesis - eNews og Updates"
 
 #: lib/widgets/enews-widget.php:115 lib/widgets/featured-page-widget.php:165
 #: lib/widgets/featured-post-widget.php:221
@@ -1183,62 +1183,62 @@ msgstr "Genesis - eNews dan Pembaruan"
 #: lib/widgets/latest-tweets-widget.php:181
 #: lib/widgets/user-profile-widget.php:136
 msgid "Title"
-msgstr "Judul"
+msgstr "Titel"
 
 #: lib/widgets/enews-widget.php:120
 msgid "Text To Show"
-msgstr "Teks Untuk Ditampilkan"
+msgstr "Vis denne tekst"
 
 #: lib/widgets/enews-widget.php:125
 msgid "Google/Feedburner ID"
-msgstr "ID Google / Feedburner"
+msgstr "Google/Feedburner ID"
 
 #: lib/widgets/enews-widget.php:130
 msgid "Enter your email address..."
-msgstr "Masukkan alamat email Anda ..."
+msgstr "Skriv din e-mail-adresse ..."
 
 #: lib/widgets/enews-widget.php:131
 msgid "Input Text"
-msgstr "Input Teks"
+msgstr "Input tekst"
 
 #: lib/widgets/enews-widget.php:136
 msgid "Go"
-msgstr "Lanjutkan"
+msgstr "Send"
 
 #: lib/widgets/enews-widget.php:137
 msgid "Button Text"
-msgstr "Teks Tombol"
+msgstr "Knappens tekst"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "Tampilkan thumbnail dengan halaman yang ditampilkan"
+msgstr "Vis feature-side med thumbnails"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Halaman yang ditampilkan"
+msgstr "Genesis - Fremhævet Side"
 
 #: lib/widgets/featured-page-widget.php:104
 msgid "by"
-msgstr "oleh"
+msgstr "af"
 
 #: lib/widgets/featured-page-widget.php:170
 msgid "Page"
-msgstr "Halaman"
+msgstr "Side"
 
 #: lib/widgets/featured-page-widget.php:178
 #: lib/widgets/featured-post-widget.php:307
 msgid "Show Featured Image"
-msgstr "Tampilkan Gambar yang Ditampilkan"
+msgstr "Vis det udvalgte billed"
 
 #: lib/widgets/featured-page-widget.php:182
 #: lib/widgets/featured-post-widget.php:311
 msgid "Image Size"
-msgstr "Ukuran Gambar"
+msgstr "Billedstørrelse"
 
 #: lib/widgets/featured-page-widget.php:194
 #: lib/widgets/featured-post-widget.php:323
 msgid "Image Alignment"
-msgstr "Perataan Gambar"
+msgstr "Billedjustering"
 
 #: lib/widgets/featured-page-widget.php:196
 #: lib/widgets/featured-post-widget.php:295
@@ -1246,43 +1246,43 @@ msgstr "Perataan Gambar"
 #: lib/widgets/user-profile-widget.php:160
 #: lib/widgets/user-profile-widget.php:180
 msgid "None"
-msgstr "Tidak ada"
+msgstr "Ingen"
 
 #: lib/widgets/featured-page-widget.php:206
 msgid "Show Page Title"
-msgstr "Tampilkan Judul Halaman"
+msgstr "Vis Sidetitel"
 
 #: lib/widgets/featured-page-widget.php:211
 msgid "Show Page Byline"
-msgstr "Tampilkan Halaman dalam Baris"
+msgstr "Vis Side Byline"
 
 #: lib/widgets/featured-page-widget.php:216
 msgid "Show Page Content"
-msgstr "Tampilkan Konten Halaman"
+msgstr "Vis Side Indhold"
 
 #: lib/widgets/featured-page-widget.php:220
 msgid "Content Character Limit"
-msgstr "Batas Karakter di Konten"
+msgstr "Indhold tegngrænsen"
 
 #: lib/widgets/featured-page-widget.php:225
 msgid "More Text"
-msgstr "Teks Lainnya"
+msgstr "Mere tekst"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "[Read More...]"
-msgstr "[Baca selengkapnya ...]"
+msgstr "[Læs videre...]"
 
 #: lib/widgets/featured-post-widget.php:58
 msgid "More Posts from this Category"
-msgstr "Tulisan Lainnya dari Kategori ini"
+msgstr "Flere indlæg fra denne kategori"
 
 #: lib/widgets/featured-post-widget.php:63
 msgid "Displays featured posts with thumbnails"
-msgstr "Tampilkan fitur posting dengan thumbnail"
+msgstr "Vis feature-indlæg indlæg med thumbnails"
 
 #: lib/widgets/featured-post-widget.php:72
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Tulisan yang Ditampilkan"
+msgstr "Genesis - Feature Indlæg"
 
 #: lib/widgets/featured-post-widget.php:230
 msgid "Category"
@@ -1291,23 +1291,23 @@ msgstr "Kategori"
 #: lib/widgets/featured-post-widget.php:244
 #: lib/widgets/featured-post-widget.php:382
 msgid "Number of Posts to Show"
-msgstr "Jumlah posting yang Ditampilkan"
+msgstr "Antallet af indlæg som skal vises"
 
 #: lib/widgets/featured-post-widget.php:249
 msgid "Number of Posts to Offset"
-msgstr "Jumlah posting untuk Offset"
+msgstr "Antal af indlæg der ikke vises"
 
 #: lib/widgets/featured-post-widget.php:254
 msgid "Order By"
-msgstr "Diurut berdasarkan"
+msgstr "Ordnes efter"
 
 #: lib/widgets/featured-post-widget.php:256
 msgid "Date"
-msgstr "Tanggal"
+msgstr "Dato"
 
 #: lib/widgets/featured-post-widget.php:258
 msgid "Parent"
-msgstr "Induk"
+msgstr "Forældre"
 
 #: lib/widgets/featured-post-widget.php:259
 msgid "ID"
@@ -1315,256 +1315,256 @@ msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:260
 msgid "Comment Count"
-msgstr "Jumlah Komentar"
+msgstr "Antal kommentarer"
 
 #: lib/widgets/featured-post-widget.php:261
 msgid "Random"
-msgstr "Acak"
+msgstr "Tilfældig"
 
 #: lib/widgets/featured-post-widget.php:266
 msgid "Sort Order"
-msgstr "Urutan Daftar"
+msgstr "Sorteringsrækkefølge"
 
 #: lib/widgets/featured-post-widget.php:268
 msgid "Descending (3, 2, 1)"
-msgstr "Menurun (3, 2, 1)"
+msgstr "Faldende (3, 2, 1)"
 
 #: lib/widgets/featured-post-widget.php:269
 msgid "Ascending (1, 2, 3)"
-msgstr "Menaik (1, 2, 3)"
+msgstr "Stigende (1, 2, 3)"
 
 #: lib/widgets/featured-post-widget.php:279
 msgid "Show Author Gravatar"
-msgstr "Tampilkan Gravatar Penulis"
+msgstr "Vis forfatter Gravatar"
 
 #: lib/widgets/featured-post-widget.php:283
 #: lib/widgets/user-profile-widget.php:146
 msgid "Gravatar Size"
-msgstr "Ukuran Gravatar"
+msgstr "Gravatar størrelse"
 
 #: lib/widgets/featured-post-widget.php:285
 msgid "Small (45px)"
-msgstr "Kecil (45px)"
+msgstr "Lille (45px)"
 
 #: lib/widgets/featured-post-widget.php:286
 msgid "Medium (65px)"
-msgstr "Menengah (65px)"
+msgstr "Mellem (65px)"
 
 #: lib/widgets/featured-post-widget.php:287
 msgid "Large (85px)"
-msgstr "Besar (85px)"
+msgstr "Stor (85px)"
 
 #: lib/widgets/featured-post-widget.php:288
 msgid "Extra Large (125px)"
-msgstr "Ekstra Besar (125px)"
+msgstr "Ekstra stor (125px)"
 
 #: lib/widgets/featured-post-widget.php:293
 #: lib/widgets/user-profile-widget.php:158
 msgid "Gravatar Alignment"
-msgstr "Perataan Gravatar"
+msgstr "Gravatar justering"
 
 #: lib/widgets/featured-post-widget.php:341
 msgid "Show Post Title"
-msgstr "Tampilkan Judul Tulisan"
+msgstr "Vis Indlæggets Titel"
 
 #: lib/widgets/featured-post-widget.php:346
 msgid "Show Post Info"
-msgstr "Tampilkan Info Tulisan"
+msgstr "Vis Post Info"
 
 #: lib/widgets/featured-post-widget.php:351
 msgid "Content Type"
-msgstr "Tipe Konten"
+msgstr "Indholdstype"
 
 #: lib/widgets/featured-post-widget.php:353
 msgid "Show Content"
-msgstr "Tampilkan Konten"
+msgstr "Vis indhold"
 
 #: lib/widgets/featured-post-widget.php:354
 msgid "Show Excerpt"
-msgstr "Tampilkan Ringkasan"
+msgstr "Vis uddrag"
 
 #: lib/widgets/featured-post-widget.php:355
 msgid "Show Content Limit"
-msgstr "Tampilkan Batas Konten"
+msgstr "Vis indholds grænse"
 
 #: lib/widgets/featured-post-widget.php:356
 msgid "No Content"
-msgstr "Tanpa Konten"
+msgstr "Ingen indhold"
 
 #: lib/widgets/featured-post-widget.php:366
 msgid "More Text (if applicable)"
-msgstr "Teks Selengkapnya (jika diterapkan)"
+msgstr "Mere Tekst (hvis relevant)"
 
 #: lib/widgets/featured-post-widget.php:374
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Untuk menampilkan daftar tulisan yang tidak diurutkan lainnya dari kategori ini, silahkan isi informasi di bawah ini"
+msgstr "For at vise en uordnet liste af indlæg fra denne kategori, bedes du udfylde nedenstående oplysninger"
 
 #: lib/widgets/featured-post-widget.php:392
 msgid "Show Category Archive Link"
-msgstr "Tampilkan Tautan Kategori Arsip"
+msgstr "Vis Kategori Arkiv Links"
 
 #: lib/widgets/featured-post-widget.php:396
 msgid "Link Text"
-msgstr "Teks Tautan"
+msgstr "Link Tekst"
 
 #: lib/widgets/latest-tweets-widget.php:49
 msgid "Display a list of your latest tweets."
-msgstr "Menampilkan senarai dari tweet terakhir Anda."
+msgstr "Vis en liste af dine seneste tweets"
 
 #: lib/widgets/latest-tweets-widget.php:58
 msgid "Genesis - Latest Tweets"
-msgstr "Genesis - Tweet Terakhir"
+msgstr "Genesis - Seneste Tweets"
 
 #: lib/widgets/latest-tweets-widget.php:98
 msgid "The Twitter API is taking too long to respond. Please try again later."
-msgstr "Twitter API terlalu lama merespon. Silakan coba lagi nanti."
+msgstr "Twitter API tager for lang tid at svare. Prøv venligst igen senere."
 
 #: lib/widgets/latest-tweets-widget.php:101
 msgid "There was an error while attempting to contact the Twitter API. Please try again."
-msgstr "Ada kesalahan ketika mencoba untuk menghubungi API Twitter. Silakan coba lagi."
+msgstr "Der opstod en fejl under forsøget på at kontakte Twitter API. Prøv igen senere."
 
 #: lib/widgets/latest-tweets-widget.php:104
 msgid "The Twitter API returned an error while processing your request. Please try again."
-msgstr "API Twitter mengembalikan kesalahan saat memproses permintaan Anda. Silakan coba lagi."
+msgstr "Twitter API returnerede en fejl under behandlingen af din anmodning. Prøv venligst igen."
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
-msgstr "sekitar %s lalu"
+msgstr "omkring %s siden"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
-msgstr "Username Twitter"
+msgstr "Twitter brugernavn"
 
 #: lib/widgets/latest-tweets-widget.php:191
 msgid "Number of Tweets to Show"
-msgstr "Jumlah Tweets yang Ditampilkan"
+msgstr "Antal af Tweets der skal vises"
 
 #: lib/widgets/latest-tweets-widget.php:197
 msgid "Hide @ Replies"
-msgstr "Sembunyikan @ Balasan"
+msgstr "Skjul @ Svar"
 
 #: lib/widgets/latest-tweets-widget.php:201
 msgid "Load new Tweets every"
-msgstr "Muat Tweets baru setiap"
+msgstr "Hent nye Tweets hver"
 
 #: lib/widgets/latest-tweets-widget.php:203
 msgid "5 Min."
-msgstr "5 Menit"
+msgstr "5 Min."
 
 #: lib/widgets/latest-tweets-widget.php:204
 msgid "15 Minutes"
-msgstr "15 Menit"
+msgstr "15 Minutter"
 
 #: lib/widgets/latest-tweets-widget.php:205
 msgid "30 Minutes"
-msgstr "30 Menit"
+msgstr "30 Minutter"
 
 #: lib/widgets/latest-tweets-widget.php:206
 msgid "1 Hour"
-msgstr "1 Jam"
+msgstr "1 Time"
 
 #: lib/widgets/latest-tweets-widget.php:207
 msgid "2 Hours"
-msgstr "2 Jam"
+msgstr "2 Timer"
 
 #: lib/widgets/latest-tweets-widget.php:208
 msgid "4 Hours"
-msgstr "4 Jam"
+msgstr "4 Timer"
 
 #: lib/widgets/latest-tweets-widget.php:209
 msgid "12 Hours"
-msgstr "12 Jam"
+msgstr "12 Timer"
 
 #: lib/widgets/latest-tweets-widget.php:210
 msgid "24 Hours"
-msgstr "24 Jam"
+msgstr "24 Timer"
 
 #: lib/widgets/latest-tweets-widget.php:216
 msgid "Include link to twitter page?"
-msgstr "Sertakan tautan ke halaman twitter?"
+msgstr "Anvend link til twitter side?"
 
 #: lib/widgets/latest-tweets-widget.php:220
 msgid "Link Text (required)"
-msgstr "Teks Tautan (diperlukan)"
+msgstr "Link tekst (kræves)"
 
 #: lib/widgets/menu-categories-widget.php:42
 #: lib/widgets/menu-pages-widget.php:42
 msgid "This widget has been deprecated, and will eventually be removed. DO NOT use it. You have been warned."
-msgstr "Widget ini telah ditinggalkan, dan akan dihapus. JANGAN menggunakannya. Anda telah diperingati."
+msgstr "This widget er forældet, og vil med tiden blive fjernet. Brug den IKKE. Nu er du advaret."
 
 #: lib/widgets/menu-categories-widget.php:45
 msgid "Genesis - Category Menu"
-msgstr "Genesis - Menu Kategori"
+msgstr "Genesis - Kategori menu"
 
 #: lib/widgets/menu-categories-widget.php:120
 #: lib/widgets/menu-pages-widget.php:126
 msgid "This widget has been deprecated, and will eventually be removed. We suggest that you <a href=\"%s\">create a menu</a> and use the \"Custom Menu\" widget instead."
-msgstr "Widget ini telah ditinggalkan, dan akan dihapus. Kami menyarankan agar Anda <a href=\"%s\">membuat menu</a> dan menggunakan widget \"Menu Kostum\" sebagai penggantinya."
+msgstr "This widget er forældet, og vil med tiden blive fjernet. Vi foreslår at du <a href=\"%s\">laver en menu</a> og bruger \"Brugerdefineret menu\" widget i stedet."
 
 #: lib/widgets/menu-pages-widget.php:51
 msgid "Genesis - Page Menu"
-msgstr "Genesis - Menu Halaman"
+msgstr "Genesis - Side menu"
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "[Read More %s]"
-msgstr "[Baca Selengkapnya %s]"
+msgstr "[Læs mere %s]"
 
 #: lib/widgets/user-profile-widget.php:48
 msgid "Displays user profile block with Gravatar"
-msgstr "Tampilkan blok profil pengguna dengan Gravatar"
+msgstr "Vis bruger profil kasse med Gravatar"
 
 #: lib/widgets/user-profile-widget.php:57
 msgid "Genesis - User Profile"
-msgstr "Genesis - Profil Pengguna"
+msgstr "Genesis - Brugerprofil"
 
 #: lib/widgets/user-profile-widget.php:96
 msgid "View My Blog Posts"
-msgstr "Tampilkan Tulisan Blog Saya"
+msgstr "Se mine blogindlæg"
 
 #: lib/widgets/user-profile-widget.php:141
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Pilih pengguna. Alamat email untuk akun ini akan digunakan untuk menarik gambar Gravatar."
+msgstr "Vælg en bruger. Kontoens e-mail-adresse vil blive brugt til at tilføje brugerens Gravatar billede."
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Small"
-msgstr "Kecil"
+msgstr "Lille"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Medium"
-msgstr "Menengah"
+msgstr "Mellem"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Large"
-msgstr "Besar"
+msgstr "Stor"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Extra Large"
-msgstr "Ekstra besar"
+msgstr "Ekstra Stor"
 
 #: lib/widgets/user-profile-widget.php:167
 msgid "Select which text you would like to use as the author description"
-msgstr "Pilih teks yang ingin Anda gunakan sebagai deskripsi penulis"
+msgstr "Vælg hvilken tekst, du ønsker at bruge som forfatteren beskrivelse"
 
 #: lib/widgets/user-profile-widget.php:170
 msgid "Author Bio"
-msgstr "Biografi Penulis"
+msgstr "Forfatter Biografi"
 
 #: lib/widgets/user-profile-widget.php:172
 msgid "Custom Text (below)"
-msgstr "Teks Kostum (di bawah)"
+msgstr "Standard Tekst (nedenfor)"
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Custom Text Content"
-msgstr "Teks Kostum (di bawah)"
+msgstr "Brugerdefineret indhold"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Pilih halaman \"Tentang Saya\" yang ditambahkan dari dari daftar di bawah ini. Ini akan menjadi halaman yang dikaitkan terakhir pada bagian tentang saya."
+msgstr "Vælg dit udvidede \"Om mig \" side fra listen nedenfor. Dette vil være den side der knyttes til enden af omkring mig sektionen"
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"
-msgstr "Teks tautan halaman yang diperluas"
+msgstr "Udvidet sidelinktekst"
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
-msgstr "Tampilkan tautan Arsip Penulis?"
+msgstr "Vis Forfatter Arkiv Link?"

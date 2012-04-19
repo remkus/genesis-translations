@@ -3,8 +3,8 @@ Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
 Tags: genesis, translations,
 Requires at least: 3.1
-Tested up to: 3.3 beta 4
-Stable tag: 1.0.1
+Tested up to: 3.3.1
+Stable tag: 1.4.1
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
@@ -14,21 +14,29 @@ This plugin translates your Genesis powered WordPress site easily with one of th
 
 No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;!
 
+Currently the following translations are available for Genesis 1.8.x
+
+* Dutch - nl_NL
+* German - de_DE
+* French - fr_FR
+* Danish - da_DK
+* Finnish - fi
+* Romanian - ro_RO
+* Indonesian - id_ID
+* Vietnamese - vi_VI
+* Spanish - es_ES
+* Greek - el_GR (90%)
+* Swedish - sv_SE (90%)
+
+
 Currently the following translations are available for Genesis 1.7.x:
 
-* Dutch - nl_NL (Nederlands)
-* German - de_DE (Deutsch)
-* French - fr_FR (Fran&ccedil;ais)
-* Spanish - es_ES (Espa&ntilde;ol)
 * Italian - it_IT (Italiano)
-* Finnish - fi
-* Swedish - sv_SE
-* Indonesian id_ID
 * Portuguese-Brazilian - pt_BR
 * Polish - pl_PL ( 96% ready )
 * Hebrew - he_IL ( 95% ready )
 * Japanese - ja( 84% ready )
-* Romanian - ro_RO ( 84% ready )
+
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://www.forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
@@ -67,6 +75,33 @@ No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
 
+= 1.4.1 = 
+
+SVN somehow did not pick up the languages files. Second try.
+
+= 1.4.0 =
+
+Updated a bunch of translations from http://translate.studiopress.com/
+Added Hungarian, Turkish and Portuguese.
+
+= 1.3.1 =
+
+* Added the Vietnamese translation and re-added the Greek version to make the file was accurate.
+
+= 1.3 = 
+
+* Updated a bunch to translations to match the translation strings of Genesis 1.8: nl_NL, de_DE, fr_FR, da_DK, fi, ro_RO, id_ID, es_ES, el_GR and sv_SE. 
+
+= 1.2 =
+
+* Added the Danish translation that was ready for about 87%.
+* Re-added the Portuguese translation files as they had gotten lost somehow. Apologies to all who got affected.
+* Updated the Finnish version.
+
+= 1.1 = 
+
+Added Greek el_GR to the translations. Note, not all strings have been properly translated to Greek yet, but most of the important stuff has.
+
 = 1.0.1 = 
 
 Fixing a typo. It happens.
@@ -80,6 +115,10 @@ Fixing a typo. It happens.
 * First release. Just testing things out.
 
 == Upgrade Notice ==
+
+= 1.1 = 
+
+* Adding Greek to translations.
 
 = 0.1 =
 

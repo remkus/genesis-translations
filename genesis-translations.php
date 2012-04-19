@@ -2,14 +2,14 @@
 /**
 * This plugin translates your Genesis powered WordPress site easily into one of the available languages. 
 *
-* @package GenesisTranslations
+* @package Genesis
 * @author Remkus de Vries
 *
 * Plugin Name: Genesis Translations
-* Plugin URI: http://remkusdevries.com/
+* Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
 * Description: This plugin will translate Genesis in the available languages.
 * Author: Remkus de Vries
-* Version: 1.0.1
+* Version: 1.4.1
 * Author URI: http://remkusdevries.com/
 * License: GPLv2
 * Text Domain: genesis-translations
@@ -89,7 +89,7 @@ function fst_genesis_translations_version_check( $str, $length=10 ) {
 	return $res;
 }
 
-add_action( 'load_textdomain','fst_set_genesis_language_dir' );
+add_action( 'genesis_init','fst_set_genesis_language_dir', 1 ); // notices fix by @daankortenbach
 /**
  * Defining the Genesis Language constants
  * 
