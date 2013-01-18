@@ -1,16 +1,16 @@
 === Genesis Translations ===
 Contributors: DeFries
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
+Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
-Tested up to: 3.4.1
-Stable tag: 1.7
+Tested up to: 3.5.
+Stable tag: 1.8.0
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
 == Description ==
 
-This plugin translates your Genesis powered WordPress site easily with one of the available languages. 
+This plugin translates your Genesis powered WordPress site easily with one of the available languages.
 
 No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;!
 
@@ -18,7 +18,7 @@ Currently the following translations are available for Genesis 1.8.x
 
 * Danish - da_DK
 * Dutch - nl_NL
-* Italian - it_IT 
+* Italian - it_IT
 * German - de_DE
 * Finnish - fi
 * Romanian - ro_RO
@@ -31,7 +31,7 @@ Currently the following translations are available for Genesis 1.8.x
 * Turkish - tr_TR
 * Russian - ru_RU
 * Norwegian - nb_NO
-* Portuguese-Brazilian - pt_BR 
+* Portuguese-Brazilian - pt_BR
 * Greek - el_GR (90%)
 * Hebrew - he_IL (95% ready)
 * Polish - pl_PL (89% ready)
@@ -65,7 +65,7 @@ Or search for "Genesis Translations" via your plugins menu.
 
 You most certainly can. [Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
 
-= Where can I find the list of languages being worked on? = 
+= Where can I find the list of languages being worked on? =
 
 Visit the [StudioPress GlotPress installation](http://translate.studiopress.com/projects/genesis-framework/genesis-18 "GlotPress installation") to see the complete list of languages being worked on.
 
@@ -83,7 +83,12 @@ No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
 
-= 1.7.0 = 
+= 1.8.0 =
+
+* Updated the translations to reflect the changes made to in the genesis.pot file related to the Genesis 1.9 update
+* Updated German (de_DE), Finnish (fi) and Dutch (nl_NL)
+
+= 1.7.0 =
 
 Added Norwegian ( nb_NO ) and huge update to Portuguese Brazilian. Small updates to French, Danish and Russian
 
@@ -95,7 +100,7 @@ Few minor updates Bulgarian, Romanian, Chinese and Portuguese Brazilian, but mos
 
 Basically all of the languages saw small updates. Swedish and Danish got a big overhaul in grammar and such. Hungarian, Portuguese and Chinese is added as well as Icelandic for the front-end only.
 
-= 1.4.1 = 
+= 1.4.1 =
 
 SVN somehow did not pick up the languages files. Second try.
 
@@ -108,9 +113,9 @@ Added Hungarian, Turkish and Portuguese.
 
 * Added the Vietnamese translation and re-added the Greek version to make the file was accurate.
 
-= 1.3 = 
+= 1.3 =
 
-* Updated a bunch to translations to match the translation strings of Genesis 1.8: nl_NL, de_DE, fr_FR, da_DK, fi, ro_RO, id_ID, es_ES, el_GR and sv_SE. 
+* Updated a bunch to translations to match the translation strings of Genesis 1.8: nl_NL, de_DE, fr_FR, da_DK, fi, ro_RO, id_ID, es_ES, el_GR and sv_SE.
 
 = 1.2 =
 
@@ -118,17 +123,17 @@ Added Hungarian, Turkish and Portuguese.
 * Re-added the Portuguese translation files as they had gotten lost somehow. Apologies to all who got affected.
 * Updated the Finnish version.
 
-= 1.1 = 
+= 1.1 =
 
 Added Greek el_GR to the translations. Note, not all strings have been properly translated to Greek yet, but most of the important stuff has.
 
-= 1.0.1 = 
+= 1.0.1 =
 
 Fixing a typo. It happens.
 
 = 1.0 =
 
-* Stable release. Updated some code here and there. Added the Portuguese Brazilian, Hebrew, Japanese and Romanian languages. 
+* Stable release. Updated some code here and there. Added the Portuguese Brazilian, Hebrew, Japanese and Romanian languages.
 
 = 0.1 =
 
@@ -136,7 +141,7 @@ Fixing a typo. It happens.
 
 == Upgrade Notice ==
 
-= 1.1 = 
+= 1.1 =
 
 * Adding Greek to translations.
 
