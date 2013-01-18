@@ -30,11 +30,12 @@ Currently the following translations are available for Genesis 1.8.x
 * Indonesian - id_ID
 * Turkish - tr_TR
 * Russian - ru_RU
+* Norwegian - nb_NO
+* Portuguese-Brazilian - pt_BR 
 * Greek - el_GR (90%)
 * Hebrew - he_IL (95% ready)
 * Polish - pl_PL (89% ready)
 * Portuguese - pt_PT (88% ready)
-* Portuguese-Brazilian - pt_BR (88% ready)
 * Hungarian - hu_HU (86% ready)
 * Japanese - ja(77% ready)
 * Chinese - zh_CN (68% ready)
@@ -81,6 +82,10 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
+
+= 1.7.0 = 
+
+Added Norwegian ( nb_NO ) and huge update to Portuguese Brazilian. Small updates to French, Danish and Russian
 
 = 1.6.0 =
 

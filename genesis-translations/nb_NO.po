@@ -1,8 +1,8 @@
-# Translation of Genesis 1.8 in Danish
+# Translation of Genesis 1.8 in Norwegian
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-08-23 08:10:07+0000\n"
+"PO-Revision-Date: 2012-08-23 08:13:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,11 +12,11 @@ msgstr ""
 
 #: 404.php:33
 msgid "Not Found, Error 404"
-msgstr "Ikke fundet, fejl 404"
+msgstr "Ikke funnet, feil 404"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Den side, du kigger efter, eksisterer ikke længere. Måske kan det hjælpe, hvis du besøger <a href=\"%s\">forsiden</a> og ser, om du kan finde det, du søger. Du kan også bruge søgefunktionen eller den nedenstående oversigt over hjemmesidens indhold. "
+msgstr "Siden du leter etter finnes ikke lenger. Du vil kanskje returnere til nettstedets <a href=\"%s\">hjemmeside</a> og se om du kan finne det du leter etter der. Du kan også forsøke å finne det med informasjonen nedenfor."
 
 #: 404.php:39 page_archive.php:35
 msgid "Pages:"
@@ -32,439 +32,439 @@ msgstr "Forfattere:"
 
 #: 404.php:58 page_archive.php:54
 msgid "Monthly:"
-msgstr "Måneder:"
+msgstr "Månedlig:"
 
 #: 404.php:63 page_archive.php:59
 msgid "Recent Posts:"
-msgstr "Seneste indlæg:"
+msgstr "Siste innlegg:"
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Dette indlæg er beskyttet med et kodeord. Skriv kodeordet for at se kommentarer."
+msgstr "Dette innlegget er passordbeskyttet. Skriv inn passordet for å se kommentarene."
 
 #: lib/init.php:44
 msgid "Primary Navigation Menu"
-msgstr "Primary Navigation Menu"
+msgstr "Primær navigasjonsmeny"
 
 #: lib/init.php:44
 msgid "Secondary Navigation Menu"
-msgstr "Secondary Navigation Menu"
+msgstr "Sekundær navigasjonsmeny"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Import/Export"
+msgstr "Genesis - import/eksport"
 
 #: lib/admin/import-export.php:46
 msgid "Import/Export"
-msgstr "Importer/Exporter"
+msgstr "Importér/Eksportér"
 
 #: lib/admin/import-export.php:81
 msgid "Import Genesis Settings File"
-msgstr "Importer Genesis Indstillingsfil"
+msgstr "Importér Genesis innstillingsfil"
 
 #: lib/admin/import-export.php:83
 msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
-msgstr "Upload data filen fra din computer (. json) og vi vil importere dine indstillinger."
+msgstr "Last opp datafilen (<code>.json</code>) fra maskinen din og vi vil importere innstillingene dine."
 
 #: lib/admin/import-export.php:84
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Vælg filen fra din computer og klik på \"Upload og Importer\""
+msgstr "Velg filen du vil laste opp fra din datamaskin og klikk \"Last opp fil og importér\""
 
 #: lib/admin/import-export.php:89
 msgid "Upload File: (Maximum Size: %s)"
-msgstr "Upload fil: (Maksimal størrelse: %s)"
+msgstr "Last opp fil: (Max. størrelse: %s)"
 
 #: lib/admin/import-export.php:92
 msgid "Upload File and Import"
-msgstr "Upload fil og importer"
+msgstr "Last opp fil og importér"
 
 #: lib/admin/import-export.php:100
 msgid "Export Genesis Settings File"
-msgstr "Eksporter Genesis Indstillingsfil"
+msgstr "Eksportér Genesis innstillingsfil"
 
 #: lib/admin/import-export.php:102
 msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
-msgstr "Når du klikker på knappen nedenfor, vil Genesis generere en JSON fil, som du kan gemme på din computer."
+msgstr "Når du klikker på knappen under, vil Genesis generere en datafil (<code>.json</code>) som du kan lagre på maskinen din."
 
 #: lib/admin/import-export.php:103
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "Når du har downloadet filen og gemt den, kan du importere den på et andet site ved hjælp af importfunktionen. "
+msgstr "Når du har lagret den nedlastede filen kan du bruke importfunksjonen på et annet nettsted for å importere disse dataene."
 
 #: lib/admin/import-export.php:110
 msgid "Download Export File"
-msgstr "Download Eksport fil"
+msgstr "Last ned eksportfil"
 
 #: lib/admin/import-export.php:142
 msgid "Settings successfully imported."
-msgstr "Indstillingerne er blevet importeret!"
+msgstr "Innstillingene ble importert."
 
 #: lib/admin/import-export.php:144
 msgid "There was a problem importing your settings. Please try again."
-msgstr "Der opstod et problem ved import af dine indstillinger. Prøv venligst igen."
+msgstr "Et problem oppsto ved import av innstillingene dine. Prøv igjen."
 
 #: lib/admin/import-export.php:162
 msgid "Theme Settings"
-msgstr "Tema indstillinger"
+msgstr "Temainnstillinger"
 
 #: lib/admin/import-export.php:166
 msgid "SEO Settings"
-msgstr "SEO indstillinger"
+msgstr "SEO-innstillinger"
 
 #: lib/admin/import-export.php:188
 msgid "No export options available."
-msgstr "Der er ingen tilgængelig eksport funktion"
+msgstr "Ingen eksportalternativer er tilgjengelige."
 
 #: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
 #: lib/admin/user-meta.php:153
 msgid "Theme SEO Settings"
-msgstr "Tema SEO indstillinger"
+msgstr "Tema SEO-innstillinger"
 
 #: lib/admin/inpost-metaboxes.php:54
 msgid "Custom Document Title"
-msgstr "Dokumentets titel"
+msgstr "Tilpasset dokumenttittel"
 
 #: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
 msgid "Characters Used: %s"
-msgstr "Antal anvendte tegn: %s"
+msgstr "Tegn brukt : %s"
 
 #: lib/admin/inpost-metaboxes.php:57
 msgid "Custom Post/Page Meta Description"
-msgstr "Indstilling Indlæg/Side Meta beskrivelse"
+msgstr "Tilpasset innlegg/Meta beskrivelse for side"
 
 #: lib/admin/inpost-metaboxes.php:60
 msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr "Indstilling Indlæg/Side Meta keywords, adskil med komma"
+msgstr "Tilpasset innlegg/Nøkkelord for siden, kommaseparert"
 
 #: lib/admin/inpost-metaboxes.php:63
 msgid "Custom Canonical URI"
-msgstr "Indstilling Canonical URI"
+msgstr "Tilpasset kanonisk URI"
 
 #: lib/admin/inpost-metaboxes.php:66
 msgid "Custom Redirect URI"
-msgstr "Custom Redirect URI"
+msgstr "Tilpasset omdirigerings-URI"
 
 #: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:175
 msgid "Robots Meta Settings"
-msgstr "Robot Meta Indstillinger"
+msgstr "Meta-innstillinger for roboter"
 
 #: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
 #: lib/admin/inpost-metaboxes.php:81
 msgid "Apply %s to this post/page"
-msgstr "Tilføj %s til dette Indlæg/Side"
+msgstr "Legg til %s i dette innlegget/denne siden"
 
 #: lib/admin/inpost-metaboxes.php:86
 msgid "Custom Tracking/Conversion Code"
-msgstr "Indstil Tracking/Conversion kode"
+msgstr "Tilpasset sporing/konverteringskode"
 
 #: lib/admin/inpost-metaboxes.php:186 lib/admin/term-meta.php:202
 #: lib/admin/user-meta.php:219
 msgid "Layout Settings"
-msgstr "Layout indstillinger"
+msgstr "Layout-innstillinger"
 
 #: lib/admin/inpost-metaboxes.php:210 lib/admin/term-meta.php:211
 #: lib/admin/user-meta.php:229
 msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Default Layout set in <a href=\"%s\">Theme indstillinger</a>"
+msgstr "Standard layout-sett i <a href=\"%s\">Temainnstillinger</a>"
 
 #: lib/admin/inpost-metaboxes.php:217
 msgid "Custom Body Class"
-msgstr "Custom Body klasse"
+msgstr "Tilpasset Body Class"
 
 #: lib/admin/inpost-metaboxes.php:220
 msgid "Custom Post Class"
-msgstr "Custom Post klasse"
+msgstr "Tilpasset innleggsklasse"
 
 #: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
 msgid "README"
-msgstr "README"
+msgstr "LES MEG"
 
 #: lib/admin/readme-menu.php:68
 msgid "The %s file was not found in the child theme, or it was empty."
-msgstr "%s filen blev ikke fundet i child themet, eller også var den tom."
+msgstr "%s filen ble ikke funnet i Child-temaet, eller den var tom."
 
 #: lib/admin/seo-settings.php:43
 msgid "Genesis - SEO Settings"
-msgstr "Genesis - SEO indstillinger"
+msgstr "Genesis - SEO-innstillinger"
 
 #: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:64
 #: lib/classes/admin.php:104
 msgid "Save Settings"
-msgstr "Gem indstillingerne"
+msgstr "Lagre innstillinger"
 
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:65
 #: lib/classes/admin.php:105
 msgid "Reset Settings"
-msgstr "Nulstil indstillingerne"
+msgstr "Nullstill innstillinger"
 
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:66
 #: lib/classes/admin.php:106
 msgid "Settings saved."
-msgstr "SEO indstillingerne er gemt"
+msgstr "Innstillinger lagret."
 
 #: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:67
 #: lib/classes/admin.php:107
 msgid "Settings reset."
-msgstr "SEO indstillinger nulstillet"
+msgstr "Innstillinger nullstilt."
 
 #: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:68
 #: lib/classes/admin.php:108
 msgid "Error saving settings."
-msgstr "Problem med at gemme indstillingerne"
+msgstr "Feil ved lagring av innstillinger."
 
 #: lib/admin/seo-settings.php:172
 msgid "Doctitle Settings"
-msgstr "Doctitle indstillinger"
+msgstr "Innstillinger for doc-tittel"
 
 #: lib/admin/seo-settings.php:173
 msgid "Homepage Settings"
-msgstr "Startside indstillinger"
+msgstr "Nettstedsinnstillinger"
 
 #: lib/admin/seo-settings.php:174
 msgid "Document Head Settings"
-msgstr "Dokument Head indstillinger"
+msgstr "Dokument Head-innstillinger"
 
 #: lib/admin/seo-settings.php:176
 msgid "Archives Settings"
-msgstr "Arkiv indstillinger"
+msgstr "Arkivinnstillinger"
 
 #: lib/admin/seo-settings.php:193
 msgid "The Document Title is the single most important SEO tag in your document source. It succinctly informs search engines of what information is contained in the document. The doctitle changes from page to page, but these options will help you control what it looks by default."
-msgstr "Dokument-titlen er det vigtigste SEO tag i dokumentets kildekode"
+msgstr "Dokument tittelen er den viktigste SEO tag i din dokument kilde. Den informerer konsist søkemotorene om hvilken informasjon som finnes i dokumentet. Dokumenttittelen endrer seg fra side til side, men disse alternativene vil hjelpe deg til å kontrollere hvordan den ser ut som standard."
 
 #: lib/admin/seo-settings.php:195
 msgid "<b>By default</b>, the homepage doctitle will contain the site title, the single post and page doctitle will contain the post/page title, archive pages will contain the archive type, etc."
-msgstr "<b>Som standard</b>, indeholder startsidens doctitle sitets titel, det enkelte indlæg og sides doctitle vil indeholde indlæggets/sidens titel, arkivsiderne vil indeholde arkiv type, osv."
+msgstr "Hjemmesidens dokumenttittel vil inneholde sidetittelen <b>som standard</b>. Det enkelte innlegg og sidens dokumenttittel vil inneholde innlegg-/sidetittel, arkivsider vil inneholde arkivtype etc"
 
 #: lib/admin/seo-settings.php:199
 msgid "Append Site Description to Doctitle on homepage?"
-msgstr "Tilføj site beskrivelse til doctitle på startside?"
+msgstr "Tilføy sidebeskrivelse til dokumenttittel på hjemmesiden?"
 
 #: lib/admin/seo-settings.php:204
 msgid "Append Site Name to Doctitle on inner pages?"
-msgstr "Tilføj site navn til doctitle på indholds sider?"
+msgstr "Tilføy hjemmesidens navn til dokumenttittel på indre sider?"
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr "Doctitle (%s) tilføj Lokation:"
+msgstr "Plassering for tilføying av dokumenttittel (%s):"
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
-msgstr "Bestemmer hvilken side den indsatte doctitle tekst skal vises på"
+msgstr "Avgjør hvilken side den tilføyde dokumenttittelteksten skal plasseres på."
 
 #: lib/admin/seo-settings.php:213
 msgid "Left"
-msgstr "venstre"
+msgstr "Venstre"
 
 #: lib/admin/seo-settings.php:216
 msgid "Right"
-msgstr "højre"
+msgstr "Høyre"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr "Doctitle (<code>&lt;title&gt;</code>) deler:"
+msgstr "Dokumenttittel (<code>&lt;title&gt;</code>) separator:"
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
-msgstr "<b>BEMÆRK:</b> Hvis doctitle består af to dele (titel &amp; tilføjet tekst), så står doctitle deleren imellem dem."
+msgstr "Hvis dokumenttittelen består av to deler (tittel &amp; tilføyd tekst), vil dokumenttittelseparatoren bli plassert mellom dem."
 
 #: lib/admin/seo-settings.php:244
 msgid "Which text would you like to be wrapped in %s tags?"
-msgstr "Hvilken tekst skal pakkes ind i %s tags?"
+msgstr "Hvilken tekst foretrekker du blir plassert i %s tags?"
 
 #: lib/admin/seo-settings.php:245
 msgid "The %s tag is, arguably, the second most important SEO tag in the document source. Choose wisely."
-msgstr "Dette tag,  %s, er den næstvigtigste SEO tag i dokumentets kildekode. Vælg det med omhu"
+msgstr "%s tagen er trolig den nest viktigste SEO tagen i dokumentkilden. Velg klokt."
 
 #: lib/admin/seo-settings.php:249
 msgid "Site Title"
-msgstr "Site titel"
+msgstr "Tittel for nettsted"
 
 #: lib/admin/seo-settings.php:252
 msgid "Site Description"
-msgstr "Site beskrivelse, max. 180 tegn"
+msgstr "Beskrivelse av nettsted"
 
 #: lib/admin/seo-settings.php:255
 msgid "Neither. I'll manually wrap my own text on the homepage"
-msgstr "Ingen af delene. Jeg pakker selv teksten manuelt til hjemmesiden"
+msgstr "Ingen av dem. Jeg vil manuelt plassere min egen tekst på hjemmesiden"
 
 #: lib/admin/seo-settings.php:259
 msgid "Home Doctitle:"
-msgstr "Startside doctitle:"
+msgstr "Hjem dokumenttittel:"
 
 #: lib/admin/seo-settings.php:261
 msgid "If you leave the doctitle field blank, your site&rsquo;s title will be used instead."
-msgstr "<b>BEMÆRK: </b> Hvis du lader doctitle feltet stå tomt, bliver dit websteds titel anvendt i stedet."
+msgstr "Hvis du lar dokumenttittelfeltet være blankt, vil din side&rsquo;s tittelen din ble benyttet i stedet."
 
 #: lib/admin/seo-settings.php:265
 msgid "Home META Description:"
-msgstr "Startside META beskrivelse"
+msgstr "HJEM metabeskrivelse:"
 
 #: lib/admin/seo-settings.php:267
 msgid "The META Description can be used to determine the text used under the title on search engine results pages."
-msgstr "<b>BEMÆRK:</b> META Beskrivelse kan bruges til at bestemme den tekst der vises under titlen på søgemaskiners resultatsider."
+msgstr "META beskrivelsen kan brukes til å bestemme teksten under tittelen på søkemotorers resultatsider."
 
 #: lib/admin/seo-settings.php:271
 msgid "Home META Keywords (comma separated):"
-msgstr "Startside META Søgeord (kommasepareret)"
+msgstr "Meta nøkkelord for Hjem (kommadelt):"
 
 #: lib/admin/seo-settings.php:273
 msgid "Keywords are generally ignored by Search Engines."
-msgstr "<b>BEMÆRK:</b> Keywords bliver generelt ignoreret af søgemaskiner."
+msgstr "Nøkkelord blir vanligvis ignorert av søkemotorer."
 
 #: lib/admin/seo-settings.php:276
 msgid "Homepage Robots Meta Tags:"
-msgstr "Startside META nøgleord (kommasepareret max. 20 ord, skal helst forekomme på startsiden)"
+msgstr "Meta tagger for hjemmesideroboter:"
 
 #: lib/admin/seo-settings.php:280 lib/admin/seo-settings.php:283
 #: lib/admin/seo-settings.php:286
 msgid "Apply %s to the homepage?"
-msgstr "Anvend %s på hjemmesiden?"
+msgstr "Tilføy %s til hjemmesiden?"
 
 #: lib/admin/seo-settings.php:305
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no SEO value whatsoever. They just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "Som standard, placerer WordPress flere tags i dit dokument %1$s. De fleste af disse tags er helt unødvendige, og de skaber ingen SEO værdi overhovedet. De gør bare dit websted langsommere at indlæse. Vælg de tags som du vil have til at indgå i din dokument %1$s. Hold dig til standardopsætningen og ændre kun de emner, hvor du kender konsekvensen. "
+msgstr "Som standard legger Wordpress til flere tagger i ditt dokument %1$s. De fleste av disse taggene er unødvendige, og har ingen SEO verdi. De gjør at siden din laster tregere. Velg hvilke tagger som du ønsker skal være inkludert i ditt dokument %1$s. Hvis du ikke skjønner dette lar du boksen være uten avkryssing.  "
 
 #: lib/admin/seo-settings.php:307
 msgid "Relationship Link Tags:"
-msgstr "Relationship Link Tags"
+msgstr "Forhold linktagger:"
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
-msgstr "Sidestillede indlægs %s link tags"
+msgstr "Tilstøtende innlegg %s linktagger"
 
 #: lib/admin/seo-settings.php:314
 msgid "Windows Live Writer Support:"
-msgstr "Windows Live Writer Support:"
+msgstr "Windows Live Writer støtte:"
 
 #: lib/admin/seo-settings.php:318
 msgid "Include Windows Live Writer Support Tag?"
-msgstr "Anvend Windows Live Writer Support Tag?"
+msgstr "Inkludér Windows Live Writer supporttag?"
 
 #: lib/admin/seo-settings.php:321
 msgid "Shortlink Tag:"
-msgstr "Shortlink Tag:"
+msgstr "shortlink tag:"
 
 #: lib/admin/seo-settings.php:325
 msgid "Include Shortlink tag?"
-msgstr "Anvend Shortlink tag?"
+msgstr "Inkludér Shortlink tag?"
 
 #: lib/admin/seo-settings.php:326
 msgid "The shortlink tag might have some use for 3rd party service discoverability, but it has no SEO value whatsoever."
-msgstr "Kortlink tag kan have betydning for at nogle 3. parts services finder dit inhold, men disse tags har overhovedet ingen SEO-værdi."
+msgstr "Shortlinktaggen kan brukes av noen tredjerpartstjenester, men har ingen SEO verdi i det hele tatt."
 
 #: lib/admin/seo-settings.php:348
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
-msgstr "Din situation afgør, om du ønsker eller ikke ønsker at de nævnte arkiv-sider skal indekseres af søgemaskiner. Kun du kan træffe den beslutning."
+msgstr "Avhengig av din situasjon, ønsker du/ønsker du ikke følgende arkivsider indeksert av søkemotorer. Bare du kan ta den avgjørelsen."
 
 #: lib/admin/seo-settings.php:352 lib/admin/seo-settings.php:376
 msgid "Apply %s to Category Archives?"
-msgstr "Anvend %s i Kategori Arkiv?"
+msgstr "Legg %s til Kategoriarkiver?"
 
 #: lib/admin/seo-settings.php:355 lib/admin/seo-settings.php:379
 msgid "Apply %s to Tag Archives?"
-msgstr "Anvend %s i Tag Arkiv?"
+msgstr "Legg %s til Tagarkiver?"
 
 #: lib/admin/seo-settings.php:358 lib/admin/seo-settings.php:382
 msgid "Apply %s to Author Archives?"
-msgstr "Anvend %s i Forfatter Arkiv?"
+msgstr "Legg %s til Forfatterarkiver?"
 
 #: lib/admin/seo-settings.php:361 lib/admin/seo-settings.php:385
 msgid "Apply %s to Date Archives?"
-msgstr "Anvend %s i Dato Arkiv?"
+msgstr "Legg %s til Datoarkiver?"
 
 #: lib/admin/seo-settings.php:364 lib/admin/seo-settings.php:388
 msgid "Apply %s to Search Archives?"
-msgstr "Anvend %s i Søge Arkiv?"
+msgstr "Legg %s til Søkearkiver?"
 
 #: lib/admin/seo-settings.php:367
 msgid "Some search engines will cache pages in your site (e.g Google Cache). The %1$s tag will prevent them from doing so. Choose what archives you want to %1$s."
-msgstr "Nogle søgemaskiner vil cache sider på dit websted (f.eks Google Cache). Dette %1$s tag vil forhindre dem i at gøre det. Vælg hvilke arkiver du vil %1$s."
+msgstr "Noen søkemotorer vil cache sidene til nettstedet ditt (f.eks. Google Cache). %1$s taggen vil forhindre dem i å gjøre det. Velg hvilke arkiver du ønsker å %1$s."
 
 #: lib/admin/seo-settings.php:371
 msgid "Apply %s to Entire Site?"
-msgstr "Tilføj %s til hele Siten?"
+msgstr "Legg %s til hele nettstedet?"
 
 #: lib/admin/seo-settings.php:391
 msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr "Fra tid til anden bruger søgemaskiner ressourcer som Open Directory Project og Yahoo! Directory til at finde titler og beskrivelser på dit indhold. For det meste er det ikke ønskværdigt. Dette %s og %s tags forhindrer søgemaskinerne i at gøre det. "
+msgstr "Iblant benytter søkemotorer ressurser som Open Directory Project og Yahoo! Directory for å finne tittler og beskrivelser av innholdet ditt. Du vil vanligvis ikke ønske at skal gjøre dette. %s og %s tagger forhindrer dem i dette."
 
 #: lib/admin/seo-settings.php:395 lib/admin/seo-settings.php:398
 msgid "Apply %s to your site?"
-msgstr "Tilføj %s til dit site?"
+msgstr "Legg %s til nettstedet ditt?"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
-msgstr "Canonical pagineret Arkiv"
+msgstr "Kanonisk sidenummererte arkiver"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Denne indstilling sender søgemaskiner til den første af flere nummererede sider eller til den primære side for et bestemt emne. Hvis du ikke kender konsekvensen ved at slå funktionen fra, skal skal du lade den være aktiveret."
+msgstr "Dette alternativet sender søkemotorer til den første siden i et arkiv, dersom den ser på en nummerert side. Dersom du ikke vet hva dette betyr så la det være valgt."
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr "Arkiv indstillinger"
+msgstr "Arkivinnstillinger."
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr "Arkiv overskrift"
+msgstr "Arkivtittel"
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Skal være blank hvis der ikke skal vises en overskrift"
+msgstr "La være tomt dersom du ikke ønsker å vise en tittel."
 
 #: lib/admin/term-meta.php:66
 msgid "Archive Intro Text"
-msgstr "Arkiv introduktions tekst"
+msgstr "Introtekst for arkiv"
 
 #: lib/admin/term-meta.php:69
 msgid "Leave empty if you do not want to display any intro text."
-msgstr "Skal være blank hvis der ikke skal vises en intro tekst"
+msgstr "La stå tomt hvis du ikke vil vise noen introtekst."
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:158
 msgid "Custom Document %s"
-msgstr "Custom Dokument %s"
+msgstr "Tilpasset dokument %s"
 
 #: lib/admin/term-meta.php:130 lib/admin/user-meta.php:165
 msgid "%s Description"
-msgstr "%s Beskrivelse"
+msgstr "%s beskrivelse"
 
 #: lib/admin/term-meta.php:137 lib/admin/user-meta.php:172
 msgid "%s Keywords"
-msgstr "%s Keywords"
+msgstr "%s nøkkelord"
 
 #: lib/admin/term-meta.php:140 lib/admin/user-meta.php:175
 msgid "Comma separated list"
-msgstr "Kommasepareret liste"
+msgstr "Kommaseparert liste"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:180
 msgid "Robots Meta"
-msgstr "Robot Meta"
+msgstr "Roboter Meta"
 
 #: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:183
 #: lib/admin/user-meta.php:185 lib/admin/user-meta.php:187
 msgid "Apply %s to this archive?"
-msgstr "Anvend %s i dette arkiv?"
+msgstr "Legg %s til dette arkivet?"
 
 #: lib/admin/term-meta.php:206 lib/admin/user-meta.php:224
 msgid "Choose Layout"
-msgstr "Vælg Layout"
+msgstr "Velg layout"
 
 #: lib/admin/theme-settings.php:85
 msgid "Follow me on Twitter"
-msgstr "Følg mig på twitter"
+msgstr "Følg meg på Twitter"
 
 #: lib/admin/theme-settings.php:204
 msgid "Information"
-msgstr "Information"
+msgstr "Informasjon"
 
 #: lib/admin/theme-settings.php:207
 msgid "Color Style"
-msgstr "Farve valg"
+msgstr "Fargestil"
 
 #: lib/admin/theme-settings.php:209
 msgid "Custom Feeds"
-msgstr "Custom Feeds"
+msgstr "Tilpassede feeder"
 
 #: lib/admin/theme-settings.php:210
 msgid "Default Layout"
@@ -472,67 +472,67 @@ msgstr "Standard layout"
 
 #: lib/admin/theme-settings.php:213
 msgid "Header Settings"
-msgstr "Header indstillinger"
+msgstr "Header-innstillinger"
 
 #: lib/admin/theme-settings.php:216
 msgid "Navigation Settings"
-msgstr "Navigations indstillinger"
+msgstr "Navigasjonsinnstillinger"
 
 #: lib/admin/theme-settings.php:218
 msgid "Breadcrumbs"
-msgstr "Brødkrummer"
+msgstr "Brødsmuler/navigasjonsstier"
 
 #: lib/admin/theme-settings.php:219
 msgid "Comments and Trackbacks"
-msgstr "Kommentarer og Trackbacks"
+msgstr "Kommentarer og tilbakesporing"
 
 #: lib/admin/theme-settings.php:220
 msgid "Content Archives"
-msgstr "Præsentation af ældre indhold"
+msgstr "Innholdsarkiver"
 
 #: lib/admin/theme-settings.php:221
 msgid "Blog Page"
-msgstr "Blog Forside"
+msgstr "Bloggside"
 
 #: lib/admin/theme-settings.php:224
 msgid "Header and Footer Scripts"
-msgstr "Header og Footer Scripts"
+msgstr "Header og Footer skript"
 
 #: lib/admin/theme-settings.php:265
 msgid "Version:"
-msgstr "Version:"
+msgstr "Versjon"
 
 #: lib/admin/theme-settings.php:265
 msgid "Released:"
-msgstr "Released:"
+msgstr "Utgitt:"
 
 #: lib/admin/theme-settings.php:269
 msgid "Display Theme Information in your document source"
-msgstr "Vis oplysninger om dit tema i din kildekode"
+msgstr "Vis temainformasjon i kildekoden din"
 
 #: lib/admin/theme-settings.php:272
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "<b>Bemærk:</b> Dette kan være nyttigt til at diagnosticere problemer med dit tema, når de søger hjælp i <a href=\"%s\" target=\"_blank\">onlinefora</a>"
+msgstr "Dette kan være til hjelp ved diagnostisering av problemer med temaet ditt når du søker hjelp i <a href=\"%s\" target=\"_blank\">støtteforaene</a>."
 
 #: lib/admin/theme-settings.php:276
 msgid "Enable Automatic Updates"
-msgstr "Tillad Automatiske Opdateringer"
+msgstr "Aktivér automatiske oppdateringer "
 
 #: lib/admin/theme-settings.php:281
 msgid "Notify"
-msgstr "Send besked til:"
+msgstr "Varsle"
 
 #: lib/admin/theme-settings.php:283
 msgid "when updates are available"
-msgstr "når der er nye opdateringer"
+msgstr "når oppdateringer er tilgjengelige"
 
 #: lib/admin/theme-settings.php:286
 msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
-msgstr "Skriver du en e-mail adresse i feltet, får du besked, når en ny version af Genesis er klar"
+msgstr "Hvis du oppgir en epost-adresse ovenfor, kan bloggen din sende deg en epost når en ny versjon av Genesis er tilgjengelig."
 
 #: lib/admin/theme-settings.php:308
 msgid "Color Style:"
-msgstr "Farve valg:"
+msgstr "Fargestil:"
 
 #: lib/admin/theme-settings.php:310
 msgid "Default"
@@ -540,35 +540,35 @@ msgstr "Standard"
 
 #: lib/admin/theme-settings.php:322
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Vælg venligst farve i listen og gem dine indstillinger"
+msgstr "Velg fargestilen fra nedtrekkslisten og lagre innstillingene dine."
 
 #: lib/admin/theme-settings.php:368
 msgid "Use for blog title/logo:"
-msgstr "Brug som blog-titel/logo:"
+msgstr "Bruk for blogtittel/logo: "
 
 #: lib/admin/theme-settings.php:370
 msgid "Dynamic text"
-msgstr "Dynamisk tekst"
+msgstr "dynamisk tekst"
 
 #: lib/admin/theme-settings.php:371
 msgid "Image logo"
-msgstr "Billed/Grafik logo"
+msgstr "Bildelogo"
 
 #: lib/admin/theme-settings.php:396
 msgid "Primary Navigation"
-msgstr "Primære Navigation"
+msgstr "Primær navigasjon"
 
 #: lib/admin/theme-settings.php:400
 msgid "Include Primary Navigation Menu?"
-msgstr "Anvend Primary Navigation Menu?"
+msgstr "Inkludér primær navigasjonsmeny?"
 
 #: lib/admin/theme-settings.php:406 lib/admin/theme-settings.php:451
 msgid "Enable Fancy Dropdowns?"
-msgstr "Brug Fancy Dropdowns?"
+msgstr "Aktivér stilig nedtrekksmeny? "
 
 #: lib/admin/theme-settings.php:411
 msgid "Enable Extras on Right Side?"
-msgstr "Vis ekstra funktioner i højre side?"
+msgstr "Aktivér tillegg på høyre side?"
 
 #: lib/admin/theme-settings.php:416
 msgid "Display the following:"
@@ -576,63 +576,63 @@ msgstr "Vis følgende:"
 
 #: lib/admin/theme-settings.php:418
 msgid "Today's date"
-msgstr "Dags dato"
+msgstr "Dagens dato"
 
 #: lib/admin/theme-settings.php:419
 msgid "RSS feed links"
-msgstr "RSS feed links"
+msgstr "RSS feed linker"
 
 #: lib/admin/theme-settings.php:420
 msgid "Search form"
-msgstr "Søgeformular"
+msgstr "Søkeskjema"
 
 #: lib/admin/theme-settings.php:421
 msgid "Twitter link"
-msgstr "Link til Twitter"
+msgstr "Twitter link"
 
 #: lib/admin/theme-settings.php:426
 msgid "Enter Twitter ID:"
-msgstr "Indtast Twitter ID:"
+msgstr "Skriv inn Twitter ID:"
 
 #: lib/admin/theme-settings.php:430
 msgid "Twitter Link Text:"
-msgstr "Tekst til Twitter Link"
+msgstr "Twitter Link tekst"
 
 #: lib/admin/theme-settings.php:441
 msgid "Secondary Navigation"
-msgstr "Sekundær Navigation"
+msgstr "Sekundær navigasjon"
 
 #: lib/admin/theme-settings.php:445
 msgid "Include Secondary Navigation Menu?"
-msgstr "Anvend Sekundære Navigation Menu?"
+msgstr "Inkludér sekundær navigasjonsmeny?"
 
 #: lib/admin/theme-settings.php:458
 msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr "For at bruge navigationsmenuer skal du først lave en <a href=\"%s\">brugerdefineret menu</a>, og derefter tilføje den til et menuområde."
+msgstr "For å benytte navigasjonsmenyer må du opprette en <a href=\"%s\">tilpasset meny</a> og så legge den til i den korrekte menyplasseringen."
 
 #: lib/admin/theme-settings.php:477
 msgid "Enter your custom feed URI:"
-msgstr "Angiv den brugerdefinerede feed URI:"
+msgstr "Skriv inn din tilpassede feed URI:"
 
 #: lib/admin/theme-settings.php:481 lib/admin/theme-settings.php:489
 msgid "Redirect Feed?"
-msgstr "Omdiriger Feed?"
+msgstr "Omdirigér feed?"
 
 #: lib/admin/theme-settings.php:485
 msgid "Enter your custom comments feed URI:"
-msgstr "Angiv den brugerdefinerede kommentar feed URI:"
+msgstr "Skriv inn din tilpassede kommentarfeed URI:"
 
 #: lib/admin/theme-settings.php:492
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Hvis dit brugerdefinerede feed(s) ikke kommer fra Feedburner, vil vi ikke anbefale, at du omdirigerer dit feed. Det vil ikke fungere ordentligt. "
+msgstr "Hvis din(e) tilpassede feed(er) ikke håndteres av Feedburner, anbefaler vi ikke at du benytter omdirigeringsalternativene."
 
 #: lib/admin/theme-settings.php:511
 msgid "Enable Comments"
-msgstr "Tillad Kommentarer"
+msgstr "Aktivér kommentarer"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
-msgstr "på indlæg?"
+msgstr "i innlegg?"
 
 #: lib/admin/theme-settings.php:516 lib/admin/theme-settings.php:525
 msgid "on pages?"
@@ -640,23 +640,23 @@ msgstr "på sider?"
 
 #: lib/admin/theme-settings.php:520
 msgid "Enable Trackbacks"
-msgstr "Tillad Trackbacks"
+msgstr "Aktivér tilbakesporing"
 
 #: lib/admin/theme-settings.php:528
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr "<b>BEMÆRK:</b> Kommentarer og Trackbacks kan også slås fra per indlæg/side, når du skriver nye, eller ændrer indlæg/sider"
+msgstr "Kommentarer og tilbakesporing kan også deaktiveres på per innlegg/per side basis ved oppretting/redigering av innlegg/sider."
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
-msgstr "Anvend på:"
+msgstr "Aktivér på:"
 
 #: lib/admin/theme-settings.php:549
 msgid "Front Page"
-msgstr "Startside"
+msgstr "Forsiden"
 
 #: lib/admin/theme-settings.php:552
 msgid "Posts"
-msgstr "Indlæg"
+msgstr "Innlegg"
 
 #: lib/admin/theme-settings.php:555
 msgid "Pages"
@@ -668,31 +668,31 @@ msgstr "Arkiver"
 
 #: lib/admin/theme-settings.php:561
 msgid "404 Page"
-msgstr "404 fejl side"
+msgstr "404-siide"
 
 #: lib/admin/theme-settings.php:564
 msgid "Attachment Page"
-msgstr "Vedhæftnings side"
+msgstr "Vedleggsside"
 
 #: lib/admin/theme-settings.php:567
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Brødkrummer er gode til hurtigt at vise besøgende, hvor de befinder sig på dit websted. Du kan aktivere / deaktivere dem på udvalgte dele af dit site."
+msgstr "Brødsmuler/navigasjonssti er en fin måte å la dine besøkende finne ut hvor de er på ditt nettsted med bare et øyekast. Du kan aktivere/deaktivere dem på visse områder på nettstedet ditt."
 
 #: lib/admin/theme-settings.php:587
 msgid "Select one of the following:"
-msgstr "Vælg en af følgende:"
+msgstr "Velg en av de følgende:"
 
 #: lib/admin/theme-settings.php:593
 msgid "Display post content"
-msgstr "Vis indlæggets indhold"
+msgstr "Vis innleggsinnhold"
 
 #: lib/admin/theme-settings.php:594
 msgid "Display post excerpts"
-msgstr "Vis uddrag af indlægget"
+msgstr "Vis innleggsutdrag"
 
 #: lib/admin/theme-settings.php:605
 msgid "Limit content to"
-msgstr "Længde af uddrag"
+msgstr "Begrens innhold til"
 
 #: lib/admin/theme-settings.php:607
 msgid "characters"
@@ -700,173 +700,173 @@ msgstr "tegn"
 
 #: lib/admin/theme-settings.php:610
 msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
-msgstr "Bruger du denne indstilling begrænses teksten og al formatering af teksten fjernes. Hvis du vil bruge denne mulighed, skal du vælge \" Vis indlæggets indhold\" i boksen over denne tekst."
+msgstr "Dersom du bruker dette alternativet vil det begrense og fjerne all formattering fra den viste teksten. For å benytte dette valget, velg \"Vis inlegg innhold\" i boksen over."
 
 #: lib/admin/theme-settings.php:615
 msgid "Include the Featured Image?"
-msgstr "Anvend det udvalgte billed?"
+msgstr "Inkludér det fremhevede bildet?"
 
 #: lib/admin/theme-settings.php:619
 msgid "Image Size:"
-msgstr "Billedstørrelse:"
+msgstr "Bildestørrelse"
 
 #: lib/admin/theme-settings.php:630
 msgid "Select Post Navigation Technique:"
-msgstr "Vælg Indlægs Navigation metode:"
+msgstr "Velg Innleggsnavigeringsteknikk:"
 
 #: lib/admin/theme-settings.php:632
 msgid "Older / Newer"
-msgstr "Ældre / Nyere"
+msgstr "Eldre/nyere"
 
 #: lib/admin/theme-settings.php:633
 msgid "Previous / Next"
-msgstr "Forrige / Næste"
+msgstr "Forrige/neste"
 
 #: lib/admin/theme-settings.php:634
 msgid "Numeric"
-msgstr "Numre"
+msgstr "Numerisk"
 
 #: lib/admin/theme-settings.php:638
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr "Disse indstillinger vil påvirke enhver blog liste side, herunder arkiver, forfatter, blog, kategori, søgning og tag sider."
+msgstr "Disse valgene får innvirkning på alle blogglistesider, inkludert arkiv-, forfatter-, blogg-, kategori-, søke- og taggsider."
 
 #: lib/admin/theme-settings.php:657
 msgid "Display which category:"
-msgstr "Vis disse katagorier:"
+msgstr "Vis hvilken kategori:"
 
 #: lib/admin/theme-settings.php:658
 msgid "All Categories"
-msgstr "Alle kategorier"
+msgstr "Alle kaegorier"
 
 #: lib/admin/theme-settings.php:662
 msgid "Exclude the following Category IDs:"
-msgstr "Udelad følgende Kategori ID's:"
+msgstr "Ekskludér følgende kategori IDer:"
 
 #: lib/admin/theme-settings.php:664
 msgid "Comma separated - 1,2,3 for example"
-msgstr "Kommasepareret - 1,2,3 for eksempel"
+msgstr "Kommaseparert - for eksempel 1,2,3"
 
 #: lib/admin/theme-settings.php:669
 msgid "Number of Posts to Show:"
-msgstr "Antal indlæg som vises:"
+msgstr "Antall innlegg å vise"
 
 #: lib/admin/theme-settings.php:690 lib/admin/theme-settings.php:700
 msgid "Enter scripts or code you would like output to %s:"
-msgstr "Indtast scripts/code som skal sendes til %s:"
+msgstr "Skriv inn skript eller kode du vil kjøre til %s:"
 
 #: lib/admin/theme-settings.php:695 lib/admin/theme-settings.php:705
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr "<b>Bemærk:</b> %1$s hook udføres umiddelbart før den afsluttende %2$s tag i dokumentets kildekode."
+msgstr "%1$s hooken kjører umiddelbart før lukking av %2$s taggen i dokumentkilden."
 
 #: lib/admin/user-meta.php:40
 msgid "User Permissions"
-msgstr "Brugerrettigheder"
+msgstr "Brukertillatelser"
 
 #: lib/admin/user-meta.php:44
 msgid "Genesis Admin Menus"
-msgstr "Genesis Admin menuer"
+msgstr "Genesis admin menyer"
 
 #: lib/admin/user-meta.php:47
 msgid "Enable Genesis Admin Menu?"
-msgstr "Aktiver Genesis Admin menu?"
+msgstr "Aktivér Genesis admin meny?"
 
 #: lib/admin/user-meta.php:49
 msgid "Enable SEO Settings Submenu?"
-msgstr "Aktiver SEO undermenuen?"
+msgstr "Aktivér undermeny for SEO-innstillinger?"
 
 #: lib/admin/user-meta.php:51
 msgid "Enable Import/Export Submenu?"
-msgstr "Aktiver Import/Export undermenu?"
+msgstr "Aktivér undermeny for Import/Eksport?"
 
 #: lib/admin/user-meta.php:88
 msgid "Author Archive Settings"
-msgstr "Forfatter arkiv indstillinger"
+msgstr "Innstillinger for forfatterarkiv"
 
 #: lib/admin/user-meta.php:89 lib/admin/user-meta.php:154
 #: lib/admin/user-meta.php:220
 msgid "These settings apply to this author's archive pages."
-msgstr "Disse indstillinger gælder for denne forfatters arkiv sider."
+msgstr "Disse instillingene gjelder for denne forfatterens arkivsider."
 
 #: lib/admin/user-meta.php:93
 msgid "Custom Archive Headline"
-msgstr "Custom arkiv overskrift"
+msgstr "Tilpasset arkivtittel"
 
 #: lib/admin/user-meta.php:96
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "Vises i %s tag i toppen af den første side"
+msgstr "Vil vises i %s taggen øverst på den første siden"
 
 #: lib/admin/user-meta.php:101
 msgid "Custom Description Text"
-msgstr "Custom beskrivelse tekst"
+msgstr "Tilpasset beskrivelsestekst"
 
 #: lib/admin/user-meta.php:104
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr "Denne tekst vil være det første afsnit og vises på den første side"
+msgstr "Denne teksten vil være det første avsnittet, og vises på den første siden"
 
 #: lib/admin/user-meta.php:109
 msgid "Author Box"
-msgstr "Forfatter boks"
+msgstr "Forfatterboks"
 
 #: lib/admin/user-meta.php:112
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Aktiver forfatter boks på denne brugers indlæg?"
+msgstr "Aktivr forfatterboks for denne brukerens innlegg?"
 
 #: lib/admin/user-meta.php:114
 msgid "Enable Author Box on this User's Archives?"
-msgstr "Aktiver forfatter box på denne brugers arkiv?"
+msgstr "Aktivér forfatterboks for denne brukerens arkiv?"
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Du kan ikke bruge %s til at lave to menuer i samme subclass. Brug venligsts seperate subclasses til hver menu."
+msgstr "Du kan ikke bruke %s for å opprette to menyer i samme underklasse. Bruk separate underklasser for hver meny."
 
 #: lib/classes/admin.php:415 lib/classes/admin.php:424
 #: lib/classes/admin.php:527 lib/classes/admin.php:546
 msgid "Are you sure you want to reset?"
-msgstr "Er du sikker på, at du vil nulstille?"
+msgstr "Er du sikker på at du vil nullstille?"
 
 #: lib/classes/breadcrumb.php:53
 msgid "Home"
-msgstr "Startside"
+msgstr "Hjem"
 
 #: lib/classes/breadcrumb.php:62
 msgid "You are here: "
-msgstr "Du er her: "
+msgstr "Du er her:"
 
 #: lib/classes/breadcrumb.php:63 lib/classes/breadcrumb.php:64
 #: lib/classes/breadcrumb.php:65 lib/classes/breadcrumb.php:66
 #: lib/classes/breadcrumb.php:68 lib/classes/breadcrumb.php:69
 msgid "Archives for "
-msgstr "Arkiv for "
+msgstr "Arkiver for"
 
 #: lib/classes/breadcrumb.php:67
 msgid "Search for "
-msgstr "Søg efter "
+msgstr "Søk etter"
 
 #: lib/classes/breadcrumb.php:70
 msgid "Not found: "
-msgstr "Ikke fundet: "
+msgstr "Ikke funnet:"
 
 #: lib/classes/breadcrumb.php:119 lib/classes/breadcrumb.php:214
 #: lib/classes/breadcrumb.php:315
 msgid "View %s"
-msgstr "Se %s"
+msgstr "Vis %s"
 
 #: lib/classes/breadcrumb.php:247 lib/classes/breadcrumb.php:251
 #: lib/classes/breadcrumb.php:256
 msgid "(Edit)"
-msgstr "(rediger)"
+msgstr "(Redigér)"
 
 #: lib/classes/breadcrumb.php:264 lib/classes/breadcrumb.php:273
 msgid "View archives for %s"
-msgstr "Se arkiver for %s"
+msgstr "Se i arkiver etter %s"
 
 #: lib/classes/breadcrumb.php:279
 msgid "View archives for %s %s"
-msgstr "Se arkiver for %s %s"
+msgstr "Se i arkiver for %s %s"
 
 #: lib/classes/breadcrumb.php:334
 msgid "View all posts in %s"
-msgstr "Se alle indlæg i %s"
+msgstr "Se alle inlegg i %s"
 
 #: lib/classes/breadcrumb.php:355
 msgid "View all %s"
@@ -874,11 +874,11 @@ msgstr "Se alle %s"
 
 #: lib/classes/breadcrumb.php:418
 msgid "View all items in %s"
-msgstr "Vis alle elementer i %s"
+msgstr "Vis alle enheter i %s"
 
 #: lib/functions/admin.php:15
 msgid "This file no longer needs to be included."
-msgstr "Denne fil behøver ikke længere at være inkluderet."
+msgstr "Det er ikke lenger nødvendig å inkludere denne filen."
 
 #: lib/functions/formatting.php:291
 msgid "seconds"
@@ -890,67 +890,67 @@ msgstr "og"
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
-msgstr "Indhold-Sidebar"
+msgstr "Innhold-Sidefelt"
 
 #: lib/functions/layout.php:46
 msgid "Sidebar-Content"
-msgstr "Sidebar-Indhold"
+msgstr "Sidefelt-Innhold"
 
 #: lib/functions/layout.php:54
 msgid "Content-Sidebar-Sidebar"
-msgstr "Indhold-Sidebar-Sidebar"
+msgstr "Innhold-Sidefelt-Sidefelt"
 
 #: lib/functions/layout.php:62
 msgid "Sidebar-Sidebar-Content"
-msgstr "Sidebar-Sidebar-Indhold"
+msgstr "Sidefelt-Sidefelt-Innhold"
 
 #: lib/functions/layout.php:70
 msgid "Sidebar-Content-Sidebar"
-msgstr "Sidebar-Indhold-Sidebar"
+msgstr "Sidefelt-Innhold-Sidefelt"
 
 #: lib/functions/layout.php:78
 msgid "Full Width Content"
-msgstr "Indhold i fuld bredde"
+msgstr "Full bredde innhold"
 
 #: lib/functions/layout.php:122
 msgid "No Label Selected"
-msgstr "Der ikke valgt nogen label"
+msgstr "Ingen Label valgt"
 
 #: lib/functions/menu.php:74
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr "Argumentet \"context\", er blevet erstattet med \"theme_location\" i $args array'et."
+msgstr "Argument \"context\" er byttet ut med \"theme_location\" i $args array."
 
 #: lib/functions/seo.php:118
 msgid "Have you tried our Scribe SEO software? Do keyword research, content optimization, and link building without leaving WordPress. <b>Genesis owners save over 50&#37; using the promo code FIRST when you sign up</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr "Har du prøvet vores Scribe SEO software? Lav keyword research, indholds optimering, og link-building uden at forlade WordPress. <b>Genesis ejere sparer over 50&#37; når de bruger promo koden FIRST når de tilmelder sig</b>. <a href=\"%s\" target=\"_blank\">Klik her for mere information</a>.\n"
+msgstr "Har du prøvd vårt Scribe SEO program? Gjør nøkkelord research, innholdsoptimalisering og linkbygging uten å forlate WordPress. <b>Eiere av Genesis sparer over 50&#37; ved å benyttet rabattkoden FIRST når du bestiller.</b>. <a href=\"%s\" target=\"_blank\">Klikk her for mer info</a>."
 
 #: lib/functions/seo.php:120
 msgid "Dismiss"
-msgstr "Afvis"
+msgstr "Se bort fra"
 
 #: lib/functions/upgrade.php:376
 msgid "Congratulations! You are now rocking Genesis %s"
-msgstr "Tillykke! Du er nu på beatet med Genesis %s"
+msgstr "Gratulerer! Du kjører nå Genesis %s"
 
 #: lib/functions/upgrade.php:401
 msgid "Click here to complete the upgrade"
-msgstr "Klik her får at afslutte opdateringen"
+msgstr "Klikk her for å fullføre oppgraderingen"
 
 #: lib/functions/upgrade.php:426
 msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s er tilgængelig nu. <a href=\"%s\" class=\"thickbox thickbox-preview\">Se hvad der er blevet ændret</a> eller <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">opdatere nu</a>."
+msgstr "Genesis %s er tilgjengelig. <a href=\"%s\" class=\"thickbox thickbox-preview\">Finn ut hva som er nytt</a> eller <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">oppdatér nå</a>."
 
 #: lib/functions/upgrade.php:430
 msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
-msgstr "Hvis du opdaterer Genesis uden at oversætte sprogfilen, bliver Genesis ændret, dit tema bliver overskrevet, og det er derefter på engelsk. Er du sikker på at du vil opdatere?. Klik \"Annulere\" for at stoppen nu, \"OK\" for at opdatere."
+msgstr "Oppgradering av Genesis vil overskrive gjeldende innstallerte versjon av Genesis. Er du sikker på at du vil oppgradere. \"Cancel\" for å stoppe, \"OK\" for å oppgradere."
 
 #: lib/functions/upgrade.php:472
 msgid "Genesis %s is available for %s"
-msgstr "Genesis %s er tilgængelig til %s"
+msgstr "Genesis %s er tilgjengelig for %s"
 
 #: lib/functions/upgrade.php:473
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s er tilgængelig. Hvis du ikke bruger et oversættelses-plugin, så kontakt din webmaster for at få opdateret din sprogfil før, du opdaterer Genesis"
+msgstr "Genesis %s er nå tilgjengelig. Vi tilbyr 1-klikk oppdateringer for dette temaet, så logg inn i kontrollpanelet ditt og oppdatér så snart som mulig"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Left"
@@ -958,27 +958,27 @@ msgstr "Header venstre"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Right"
-msgstr "Header Højre"
+msgstr "Header høyre"
 
 #: lib/functions/widgetize.php:64
 msgid "This is the widget area in the header."
-msgstr "Dette er widget området i headeren."
+msgstr "Dette er widgetområdet i header'en."
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
-msgstr "Primær Sidebar"
+msgstr "Primært sidefelt"
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "Dette er den primære Sidebar, hvis du bruger 2 eller 3 spalter som sitelayout"
+msgstr "Dette er det primære sidefeltet dersom du bruker to eller tre kolonners layout."
 
 #: lib/functions/widgetize.php:79
 msgid "Secondary Sidebar"
-msgstr "Sekundær Sidebar"
+msgstr "Sekundært sidefelt"
 
 #: lib/functions/widgetize.php:80
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "Dette er den sekundære sidebar hvis du bruger det 3 spaltede sidelayout"
+msgstr "Dette er det sekundære sidefeltet dersom du bruker to eller tre kolonners layout. "
 
 #: lib/functions/widgetize.php:112
 msgid "Footer %d"
@@ -986,27 +986,27 @@ msgstr "Footer %d"
 
 #: lib/functions/widgetize.php:113
 msgid "Footer %d widget area."
-msgstr "Footer %d widget område."
+msgstr "Footer %d widgetområde."
 
 #: lib/js/load-scripts.php:86
 msgid "Select / Deselect All"
-msgstr "Vælg / fravælg alle"
+msgstr "Velg / Forkast alle"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Til top af side"
+msgstr "Gå til toppen av siden"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
-msgstr "fra"
+msgstr "av"
 
 #: lib/shortcodes/footer.php:241
 msgid "Log in"
-msgstr "Log ind"
+msgstr "Logg inn"
 
 #: lib/shortcodes/footer.php:243
 msgid "Log out"
-msgstr "Log ud"
+msgstr "Logg ut"
 
 #: lib/shortcodes/post.php:43
 msgid "ago"
@@ -1014,11 +1014,11 @@ msgstr "siden"
 
 #: lib/shortcodes/post.php:140
 msgid "Visit %s&#8217;s website"
-msgstr "Besøgt %s&#8217;s hjemmeside"
+msgstr "Besøk %s&#8217;s nettsted"
 
 #: lib/shortcodes/post.php:205
 msgid "% Comments"
-msgstr "% kommentarer"
+msgstr "% Kommentarer"
 
 #: lib/shortcodes/post.php:206
 msgid "1 Comment"
@@ -1026,15 +1026,15 @@ msgstr "1 kommentar"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
-msgstr "Skriv kommentar"
+msgstr "Legg igjen en kommentar"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
-msgstr "Tags: "
+msgstr "Tagget med:"
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Skrevet i: "
+msgstr "Lagret under"
 
 #: lib/structure/comments.php:56
 msgid "<h3>Comments</h3>"
@@ -1042,7 +1042,7 @@ msgstr "<h3>Kommentarer</h3>"
 
 #: lib/structure/comments.php:107
 msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>Trackbacks</h3>"
+msgstr "<h3>Tilbakesporinger</h3>"
 
 #: lib/structure/comments.php:176
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
@@ -1050,19 +1050,19 @@ msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:176
 msgid "says"
-msgstr "siger"
+msgstr "sier"
 
 #: lib/structure/comments.php:180
 msgid "%1$s at %2$s"
-msgstr "%1$s på %2$s"
+msgstr "%1$s ved %2$s"
 
 #: lib/structure/comments.php:181
 msgid "Edit"
-msgstr "Rediger"
+msgstr "Redigér"
 
 #: lib/structure/comments.php:186
 msgid "Your comment is awaiting moderation."
-msgstr "Din kommentar venter på at blive godkendt"
+msgstr "Kommentaren din venter på moderering."
 
 #: lib/structure/comments.php:243
 msgid "Name"
@@ -1070,31 +1070,31 @@ msgstr "Navn"
 
 #: lib/structure/comments.php:249
 msgid "Email"
-msgstr "E-mail"
+msgstr "Epost-adresse"
 
 #: lib/structure/comments.php:255
 msgid "Website"
-msgstr "Websted"
+msgstr "Nettsted"
 
 #: lib/structure/comments.php:269
 msgid "Speak Your Mind"
-msgstr "Skriv kommentar"
+msgstr "Si det du mener"
 
 #: lib/structure/footer.php:111
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Kopirett"
 
 #: lib/structure/footer.php:111
 msgid "on"
-msgstr "til"
+msgstr "på"
 
 #: lib/structure/loops.php:191
 msgid "Read more&hellip;"
-msgstr "Læs mere&hellip;"
+msgstr "Les mer&hellip;"
 
 #: lib/structure/loops.php:200
 msgid "You are using invalid arguments with the %s function."
-msgstr "Du bruger ugyldige argumenter til denn %s funktion."
+msgstr "Du bruker ugyldige argumenter med %s funksjonen."
 
 #: lib/structure/menu.php:175
 msgid "Comments"
@@ -1102,15 +1102,15 @@ msgstr "Kommentarer"
 
 #: lib/structure/post.php:189 lib/structure/post.php:191
 msgid "[Read more...]"
-msgstr "[Læs mere...]"
+msgstr "[Les mer...]"
 
 #: lib/structure/post.php:208
 msgid "Sorry, no posts matched your criteria."
-msgstr "Desværre, ingen indlæg passede det, du søgte. "
+msgstr "Beklager, ingen innlegg matchet dine kriterier."
 
 #: lib/structure/post.php:234 lib/widgets/featured-post-widget.php:51
 msgid "By"
-msgstr "Af"
+msgstr "Av"
 
 #: lib/structure/post.php:308
 msgid "About"
@@ -1118,11 +1118,11 @@ msgstr "Om"
 
 #: lib/structure/post.php:348
 msgid "Older Posts"
-msgstr "Ældre indlæg"
+msgstr "Eldre innlegg"
 
 #: lib/structure/post.php:349
 msgid "Newer Posts"
-msgstr "Nyere indlæg"
+msgstr "Nyere innlegg"
 
 #: lib/structure/post.php:370 lib/structure/post.php:434
 msgid "Previous Page"
@@ -1130,51 +1130,51 @@ msgstr "Forrige side"
 
 #: lib/structure/post.php:371 lib/structure/post.php:464
 msgid "Next Page"
-msgstr "Næste side"
+msgstr "Neste side"
 
 #: lib/structure/search.php:25
 msgid "Search this website %s"
-msgstr "Søg på dette websted %s"
+msgstr "Søk på dette nettstedet %s"
 
 #: lib/structure/search.php:27
 msgid "Search"
-msgstr "Søg"
+msgstr "Søk"
 
 #: lib/structure/sidebar.php:24
 msgid "Primary Sidebar Widget Area"
-msgstr "Hover Sidebar Widget område"
+msgstr "Widgetområde i primært sidefelt"
 
 #: lib/structure/sidebar.php:27
 msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Her er hoved Sidebar Widget området. Du kan tilføje indhold ved at besøge dit <a href=\"%s\">Widgets Panel</a> og tilføje nye widgets til dette område."
+msgstr "Dette er widgetområdet i primært sidefelt. Du kan legge til innhold på dette området ved å gå til <a href=\"%s\">Widgetpanelet</a> ditt og legge til nye widgeter på dette området."
 
 #: lib/structure/sidebar.php:45
 msgid "Secondary Sidebar Widget Area"
-msgstr "Smalle Sidebar Widget område"
+msgstr "Widgetområde i sekundært sidefelt"
 
 #: lib/structure/sidebar.php:48
 msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Her er det smalle Sidebar Widget område. Du kan tilføje indhold ved at besøge dit <a href=\"%s\">Widgets Panel</a> og tilføje nye widgets til dette område."
+msgstr "Dette er widgetområdet i sekundært sidefelt. Du kan legge til innhold på dette området ved å gå til <a href=\"%s\">Widgetpanelet</a> ditt og legge til nye widgeter på dette området. \t"
 
 #: lib/tools/post-templates.php:132
 msgid "Single Post Template"
-msgstr "Enkelt Indlæg Template"
+msgstr "Mal for enkeltinnlegg"
 
 #: lib/tools/post-templates.php:157
 msgid "Post Template"
-msgstr "Indlæg Template"
+msgstr "Innleggsmal"
 
 #: lib/tools/post-templates.php:162
 msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
-msgstr "Nogle temaer har brugerdefinerede skabeloner, du kan bruge til enkelt indlæg, der måtte have ekstra funktioner eller brugerdefinerede layout. Hvis dette tema har skabeloner vil du se dem ovenfor."
+msgstr "Noen temaer har tilpassede maler du kan benytte til enkeltinnlegg som kanskje har tilleggsegenskaper eller justert layout. Hvis det er tilfellet, vil du se dem ovenfor."
 
 #: lib/widgets/enews-widget.php:44
 msgid "Displays Feedburner email subscribe form"
-msgstr "Vis Feedburners e-mail abonnements formular"
+msgstr "Viser epostabonnementsskjema for Feedburner"
 
 #: lib/widgets/enews-widget.php:47
 msgid "Genesis - eNews and Updates"
-msgstr "Genesis - eNews og Updates"
+msgstr "Genesis - eNyheter og oppdateringer"
 
 #: lib/widgets/enews-widget.php:115 lib/widgets/featured-page-widget.php:165
 #: lib/widgets/featured-post-widget.php:221
@@ -1183,11 +1183,11 @@ msgstr "Genesis - eNews og Updates"
 #: lib/widgets/latest-tweets-widget.php:181
 #: lib/widgets/user-profile-widget.php:136
 msgid "Title"
-msgstr "Titel"
+msgstr "Tittel"
 
 #: lib/widgets/enews-widget.php:120
 msgid "Text To Show"
-msgstr "Vis denne tekst"
+msgstr "Tekst å vise"
 
 #: lib/widgets/enews-widget.php:125
 msgid "Google/Feedburner ID"
@@ -1195,31 +1195,31 @@ msgstr "Google/Feedburner ID"
 
 #: lib/widgets/enews-widget.php:130
 msgid "Enter your email address..."
-msgstr "Skriv din e-mail-adresse ..."
+msgstr "Skriv inn epost-adressen din..."
 
 #: lib/widgets/enews-widget.php:131
 msgid "Input Text"
-msgstr "Input tekst"
+msgstr "Skriv inn tekst"
 
 #: lib/widgets/enews-widget.php:136
 msgid "Go"
-msgstr "Send"
+msgstr "Gå"
 
 #: lib/widgets/enews-widget.php:137
 msgid "Button Text"
-msgstr "Knappens tekst"
+msgstr "Knappetekst"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "Vis feature-side med thumbnails"
+msgstr "Viser fremhevet side med miniatyrbilder"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Fremhævet Side"
+msgstr "Genesis - fremhevet side"
 
 #: lib/widgets/featured-page-widget.php:104
 msgid "by"
-msgstr "af"
+msgstr "av"
 
 #: lib/widgets/featured-page-widget.php:170
 msgid "Page"
@@ -1228,17 +1228,17 @@ msgstr "Side"
 #: lib/widgets/featured-page-widget.php:178
 #: lib/widgets/featured-post-widget.php:307
 msgid "Show Featured Image"
-msgstr "Vis det udvalgte billed"
+msgstr "Vis fremhevet bilde"
 
 #: lib/widgets/featured-page-widget.php:182
 #: lib/widgets/featured-post-widget.php:311
 msgid "Image Size"
-msgstr "Billedstørrelse"
+msgstr "Bildestørrelse"
 
 #: lib/widgets/featured-page-widget.php:194
 #: lib/widgets/featured-post-widget.php:323
 msgid "Image Alignment"
-msgstr "Billedjustering"
+msgstr "Bildeplassering"
 
 #: lib/widgets/featured-page-widget.php:196
 #: lib/widgets/featured-post-widget.php:295
@@ -1250,39 +1250,39 @@ msgstr "Ingen"
 
 #: lib/widgets/featured-page-widget.php:206
 msgid "Show Page Title"
-msgstr "Vis Sidetitel"
+msgstr "Vis sidetittel"
 
 #: lib/widgets/featured-page-widget.php:211
 msgid "Show Page Byline"
-msgstr "Vis Side Byline"
+msgstr "Vis side byline"
 
 #: lib/widgets/featured-page-widget.php:216
 msgid "Show Page Content"
-msgstr "Vis Side Indhold"
+msgstr "Vis sideinnhold"
 
 #: lib/widgets/featured-page-widget.php:220
 msgid "Content Character Limit"
-msgstr "Indhold tegngrænsen"
+msgstr "Tegnbegrensning i innhold"
 
 #: lib/widgets/featured-page-widget.php:225
 msgid "More Text"
-msgstr "Mere tekst"
+msgstr "Mer tekst"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "[Read More...]"
-msgstr "[Læs videre...]"
+msgstr "[Les mer...]"
 
 #: lib/widgets/featured-post-widget.php:58
 msgid "More Posts from this Category"
-msgstr "Flere indlæg fra denne kategori"
+msgstr "Flere innlegg fra denne kategorien"
 
 #: lib/widgets/featured-post-widget.php:63
 msgid "Displays featured posts with thumbnails"
-msgstr "Vis feature-indlæg med thumbnails"
+msgstr "Viser fremhevde innlegg med miniatyrbilder"
 
 #: lib/widgets/featured-post-widget.php:72
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Feature Indlæg"
+msgstr "Genesis - fremhevede innlegg"
 
 #: lib/widgets/featured-post-widget.php:230
 msgid "Category"
@@ -1291,15 +1291,15 @@ msgstr "Kategori"
 #: lib/widgets/featured-post-widget.php:244
 #: lib/widgets/featured-post-widget.php:382
 msgid "Number of Posts to Show"
-msgstr "Antallet af indlæg som skal vises"
+msgstr "Antall innlegg å vise"
 
 #: lib/widgets/featured-post-widget.php:249
 msgid "Number of Posts to Offset"
-msgstr "Antal af indlæg der ikke vises"
+msgstr "Antall innlegg å skjule"
 
 #: lib/widgets/featured-post-widget.php:254
 msgid "Order By"
-msgstr "Ordnes efter"
+msgstr "Sortér etter"
 
 #: lib/widgets/featured-post-widget.php:256
 msgid "Date"
@@ -1307,7 +1307,7 @@ msgstr "Dato"
 
 #: lib/widgets/featured-post-widget.php:258
 msgid "Parent"
-msgstr "Forældre"
+msgstr "Forelder"
 
 #: lib/widgets/featured-post-widget.php:259
 msgid "ID"
@@ -1315,23 +1315,23 @@ msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:260
 msgid "Comment Count"
-msgstr "Antal kommentarer"
+msgstr "Kommentartelling"
 
 #: lib/widgets/featured-post-widget.php:261
 msgid "Random"
-msgstr "Tilfældig"
+msgstr "Tilfeldig"
 
 #: lib/widgets/featured-post-widget.php:266
 msgid "Sort Order"
-msgstr "Sorteringsrækkefølge"
+msgstr "Sorteringsrekkefølge"
 
 #: lib/widgets/featured-post-widget.php:268
 msgid "Descending (3, 2, 1)"
-msgstr "Faldende (3, 2, 1)"
+msgstr "Synkende"
 
 #: lib/widgets/featured-post-widget.php:269
 msgid "Ascending (1, 2, 3)"
-msgstr "Stigende (1, 2, 3)"
+msgstr "Stigende"
 
 #: lib/widgets/featured-post-widget.php:279
 msgid "Show Author Gravatar"
@@ -1344,88 +1344,88 @@ msgstr "Gravatar størrelse"
 
 #: lib/widgets/featured-post-widget.php:285
 msgid "Small (45px)"
-msgstr "Lille (45px)"
+msgstr "Lite (45px)"
 
 #: lib/widgets/featured-post-widget.php:286
 msgid "Medium (65px)"
-msgstr "Mellem (65px)"
+msgstr "Middels (65px)"
 
 #: lib/widgets/featured-post-widget.php:287
 msgid "Large (85px)"
-msgstr "Stor (85px)"
+msgstr "Stort (85px)"
 
 #: lib/widgets/featured-post-widget.php:288
 msgid "Extra Large (125px)"
-msgstr "Ekstra stor (125px)"
+msgstr "Ekstra stort (125px)"
 
 #: lib/widgets/featured-post-widget.php:293
 #: lib/widgets/user-profile-widget.php:158
 msgid "Gravatar Alignment"
-msgstr "Gravatar justering"
+msgstr "Gravatar plassering"
 
 #: lib/widgets/featured-post-widget.php:341
 msgid "Show Post Title"
-msgstr "Vis Indlæggets Titel"
+msgstr "Vis innleggstittel"
 
 #: lib/widgets/featured-post-widget.php:346
 msgid "Show Post Info"
-msgstr "Vis Post Info"
+msgstr "Vis innleggsinfo"
 
 #: lib/widgets/featured-post-widget.php:351
 msgid "Content Type"
-msgstr "Indholdstype"
+msgstr "Innholdstype"
 
 #: lib/widgets/featured-post-widget.php:353
 msgid "Show Content"
-msgstr "Vis indhold"
+msgstr "Vis innhold"
 
 #: lib/widgets/featured-post-widget.php:354
 msgid "Show Excerpt"
-msgstr "Vis uddrag"
+msgstr "Vis utdrag"
 
 #: lib/widgets/featured-post-widget.php:355
 msgid "Show Content Limit"
-msgstr "Vis indholds grænse"
+msgstr "Vis innholdsbegrensning"
 
 #: lib/widgets/featured-post-widget.php:356
 msgid "No Content"
-msgstr "Ingen indhold"
+msgstr "Intet innhold"
 
 #: lib/widgets/featured-post-widget.php:366
 msgid "More Text (if applicable)"
-msgstr "Mere Tekst (hvis relevant)"
+msgstr "Mer tekst (hvis aktuelt)"
 
 #: lib/widgets/featured-post-widget.php:374
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "For at vise en usorteret liste af indlæg fra denne kategori, bedes du udfylde nedenstående oplysninger"
+msgstr "Fyll ut informasjonen nedenfor for å vise en usortert liste over ytterligere innlegg i denne kategorien"
 
 #: lib/widgets/featured-post-widget.php:392
 msgid "Show Category Archive Link"
-msgstr "Vis Kategori Arkiv Links"
+msgstr "Vis link for kategoriarkiv"
 
 #: lib/widgets/featured-post-widget.php:396
 msgid "Link Text"
-msgstr "Link Tekst"
+msgstr "Lenketekst"
 
 #: lib/widgets/latest-tweets-widget.php:49
 msgid "Display a list of your latest tweets."
-msgstr "Vis en liste af dine seneste tweets"
+msgstr "Vis en liste over dine siste tweeter."
 
 #: lib/widgets/latest-tweets-widget.php:58
 msgid "Genesis - Latest Tweets"
-msgstr "Genesis - Seneste Tweets"
+msgstr "Genesis - siste tweeter"
 
 #: lib/widgets/latest-tweets-widget.php:98
 msgid "The Twitter API is taking too long to respond. Please try again later."
-msgstr "Twitter API tager for lang tid at svare. Prøv venligst igen senere."
+msgstr "Twitter API bruker for lang tid på å svare. Prøv igjen seinere."
 
 #: lib/widgets/latest-tweets-widget.php:101
 msgid "There was an error while attempting to contact the Twitter API. Please try again."
-msgstr "Der opstod en fejl under forsøget på at kontakte Twitter API. Prøv igen senere."
+msgstr "Det oppsto en feil ved forsøk på å kontakte Twitter API. Prøv igjen."
 
 #: lib/widgets/latest-tweets-widget.php:104
 msgid "The Twitter API returned an error while processing your request. Please try again."
-msgstr "Twitter API returnerede en fejl under behandlingen af din anmodning. Prøv venligst igen."
+msgstr "Twitter API returnerte en feilmelding under behandling av anmodningen din. Prøv igjen"
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
@@ -1433,138 +1433,138 @@ msgstr "for %s siden"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
-msgstr "Twitter brugernavn"
+msgstr "Twitter brukernavn"
 
 #: lib/widgets/latest-tweets-widget.php:191
 msgid "Number of Tweets to Show"
-msgstr "Antal af Tweets der skal vises"
+msgstr "Antall tweeter å vise"
 
 #: lib/widgets/latest-tweets-widget.php:197
 msgid "Hide @ Replies"
-msgstr "Skjul @ Svar"
+msgstr "Skjul @ svar"
 
 #: lib/widgets/latest-tweets-widget.php:201
 msgid "Load new Tweets every"
-msgstr "Hent nye Tweets hver"
+msgstr "Last nye tweeter hver(t)"
 
 #: lib/widgets/latest-tweets-widget.php:203
 msgid "5 Min."
-msgstr "5 Min."
+msgstr "5. minutt"
 
 #: lib/widgets/latest-tweets-widget.php:204
 msgid "15 Minutes"
-msgstr "15 Minutter"
+msgstr "15. minutt"
 
 #: lib/widgets/latest-tweets-widget.php:205
 msgid "30 Minutes"
-msgstr "30 Minutter"
+msgstr "halvtime"
 
 #: lib/widgets/latest-tweets-widget.php:206
 msgid "1 Hour"
-msgstr "1 Time"
+msgstr "time"
 
 #: lib/widgets/latest-tweets-widget.php:207
 msgid "2 Hours"
-msgstr "2 Timer"
+msgstr "2. time"
 
 #: lib/widgets/latest-tweets-widget.php:208
 msgid "4 Hours"
-msgstr "4 Timer"
+msgstr "4. time"
 
 #: lib/widgets/latest-tweets-widget.php:209
 msgid "12 Hours"
-msgstr "12 Timer"
+msgstr "12. time"
 
 #: lib/widgets/latest-tweets-widget.php:210
 msgid "24 Hours"
-msgstr "24 Timer"
+msgstr "24. time"
 
 #: lib/widgets/latest-tweets-widget.php:216
 msgid "Include link to twitter page?"
-msgstr "Anvend link til twitter side?"
+msgstr "Inkludér link til twittersiden?"
 
 #: lib/widgets/latest-tweets-widget.php:220
 msgid "Link Text (required)"
-msgstr "Link tekst (kræves)"
+msgstr "Link tekst (påkrevd)"
 
 #: lib/widgets/menu-categories-widget.php:42
 #: lib/widgets/menu-pages-widget.php:42
 msgid "This widget has been deprecated, and will eventually be removed. DO NOT use it. You have been warned."
-msgstr "This widget er forældet, og vil med tiden blive fjernet. Brug den IKKE. Nu er du advaret."
+msgstr "Denne widget'en er ikke lenger godkjent og vil bli fjernet. IKKE bruk den. Du er herved advart."
 
 #: lib/widgets/menu-categories-widget.php:45
 msgid "Genesis - Category Menu"
-msgstr "Genesis - Kategori menu"
+msgstr "Genesis - kategorimeny"
 
 #: lib/widgets/menu-categories-widget.php:120
 #: lib/widgets/menu-pages-widget.php:126
 msgid "This widget has been deprecated, and will eventually be removed. We suggest that you <a href=\"%s\">create a menu</a> and use the \"Custom Menu\" widget instead."
-msgstr "This widget er forældet, og vil med tiden blive fjernet. Vi foreslår at du <a href=\"%s\">laver en menu</a> og bruger \"Brugerdefineret menu\" widget i stedet."
+msgstr "Denne widget'en er ikke lenger godkjent og vil bli fjernet. Vi foreslår at du <a href=\"%s\">oppretter en meny</a> og benytter \"Custom Menu\"-widgeten i stedet."
 
 #: lib/widgets/menu-pages-widget.php:51
 msgid "Genesis - Page Menu"
-msgstr "Genesis - Side menu"
+msgstr "Genesis - sidemeny"
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "[Read More %s]"
-msgstr "[Læs mere %s]"
+msgstr "[Les mer %s]"
 
 #: lib/widgets/user-profile-widget.php:48
 msgid "Displays user profile block with Gravatar"
-msgstr "Vis bruger profil kasse med Gravatar"
+msgstr "Viser brukers profilblokk med Gravatar"
 
 #: lib/widgets/user-profile-widget.php:57
 msgid "Genesis - User Profile"
-msgstr "Genesis - Brugerprofil"
+msgstr "Genesis - brukerprofil"
 
 #: lib/widgets/user-profile-widget.php:96
 msgid "View My Blog Posts"
-msgstr "Se mine blogindlæg"
+msgstr "Vis mine bloginnlegg"
 
 #: lib/widgets/user-profile-widget.php:141
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Vælg en bruger. Kontoens e-mail-adresse vil blive brugt til at tilføje brugerens Gravatar billede."
+msgstr "Velg en bruker. Epost-adressen til denne kontoen vil benyttes for å dra inn Gravatarbildet."
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Small"
-msgstr "Lille"
+msgstr "Lite"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Medium"
-msgstr "Mellem"
+msgstr "Middels"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Large"
-msgstr "Stor"
+msgstr "Stort"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Extra Large"
-msgstr "Ekstra Stor"
+msgstr "Ekstra stort"
 
 #: lib/widgets/user-profile-widget.php:167
 msgid "Select which text you would like to use as the author description"
-msgstr "Vælg hvilken tekst, du ønsker at bruge som forfatteren beskrivelse"
+msgstr "Velg hvilken tekst du ønsker åbenyttet som forfatterbeskrivelsen."
 
 #: lib/widgets/user-profile-widget.php:170
 msgid "Author Bio"
-msgstr "Forfatter Biografi"
+msgstr "Forfatterbiografi"
 
 #: lib/widgets/user-profile-widget.php:172
 msgid "Custom Text (below)"
-msgstr "Standard Tekst (nedenfor)"
+msgstr "Tilpasset tekst (nedenfor)"
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Custom Text Content"
-msgstr "Brugerdefineret indhold"
+msgstr "Tilpasset tekstinnhold"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Vælg din udvidede \"Om mig \" side fra listen nedenfor. Den valgte side bliver linket i bunden af \"Om mig\" siden"
+msgstr "Velg den utvidede \"Om meg\"-siden fra listen nedenfor. Dette vil være den siden det linkes til på slutten av \"Om meg\"-seksjonen."
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"
-msgstr "Udvidet sidelinktekst"
+msgstr "Linktekst på utvidet side."
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
-msgstr "Vis Forfatter Arkiv Link?"
+msgstr "Vis link til forfatterarkiv?"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-07-26 11:30:42+0000\n"
+"PO-Revision-Date: 2012-07-30 08:30:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -994,7 +994,7 @@ msgstr "Выделить все / Отменить выделение"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Вернуться в начало страницы"
+msgstr "В начало"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
@@ -1018,7 +1018,7 @@ msgstr "Посетите сайт %s"
 
 #: lib/shortcodes/post.php:205
 msgid "% Comments"
-msgstr "% комм."
+msgstr "% коммент."
 
 #: lib/shortcodes/post.php:206
 msgid "1 Comment"
@@ -1034,7 +1034,7 @@ msgstr "Помечено:"
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Опубликовано в:"
+msgstr "Раздел: "
 
 #: lib/structure/comments.php:56
 msgid "<h3>Comments</h3>"
@@ -1086,7 +1086,7 @@ msgstr "Copyright"
 
 #: lib/structure/footer.php:111
 msgid "on"
-msgstr "на"
+msgstr "&"
 
 #: lib/structure/loops.php:191
 msgid "Read more&hellip;"
