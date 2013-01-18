@@ -9,7 +9,7 @@
 * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
 * Description: This plugin will translate Genesis in the available languages.
 * Author: Remkus de Vries
-* Version: 1.8.0
+* Version: 1.8.1
 * Author URI: http://remkusdevries.com/
 * License: GPLv2
 * Text Domain: genesis-translations
@@ -21,7 +21,7 @@
 *
 */
 define( 'GENTRANS_FILE','genesis-translations/genesis-translations.php' );
-define( 'GENTRANS_VERSION','1.8.0' );
+define( 'GENTRANS_VERSION','1.8.1' );
 
 /**
  * The text domain for the plugin
@@ -63,6 +63,29 @@ function fst_genesis_translations_activation_check() {
 		deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
 		wp_die( sprintf( __( 'Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s or greater for these translations to make any sense.', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', $latest, '</a>' ) );
 	}
+}
+/**
+ * Used to cutoff a string to a set length if it exceeds the specified length
+ *
+ * @author Nick Croft
+ * @link http://designsbynickthegeek.com/
+ *
+ * @since 0.1
+ * @version 0.2
+ * @param string $str Any string that might need to be shortened
+ * @param string $length Any whole integer
+ * @return string
+ */
+function fst_genesis_translations_version_check( $str, $length=10 ) {
+
+	if ( strlen( $str ) > $length ) {
+		return substr( $str, 0, $length );
+
+	} else {
+		$res = $str;
+	}
+
+	return $res;
 }
 
 add_action( 'genesis_init','fst_set_genesis_language_dir', 1 );
