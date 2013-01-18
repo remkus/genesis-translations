@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-03-12 11:55:08+0000\n"
+"PO-Revision-Date: 2012-06-21 12:51:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr "Bulunamadı, Hata 404"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Görüntülemeye çalıştığınız sayfa bulunamadı. <a href=\"%s\">homepage</a> e geri dönebilirsiniz"
+msgstr "Görüntülemeye çalıştığınız sayfa bulunamadı. <a href=\"%s\">Anasayfa</a>ya geri dönebilirsiniz"
 
 #: 404.php:39 page_archive.php:35
 msgid "Pages:"
@@ -36,7 +36,7 @@ msgstr "Aylık:"
 
 #: 404.php:63 page_archive.php:59
 msgid "Recent Posts:"
-msgstr "Eski Yazılar:"
+msgstr "Yeni Yazılar:"
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
@@ -72,7 +72,7 @@ msgstr "Dosyayı bilgisayarınızdan seçin ve \"Dosyayı Yükle ve İçe Aktar\
 
 #: lib/admin/import-export.php:89
 msgid "Upload File: (Maximum Size: %s)"
-msgstr "Yükleme Dosyası: (Maksimum Boyut: %s)"
+msgstr "Dosya Yükle: (Maksimum Boyut: %s)"
 
 #: lib/admin/import-export.php:92
 msgid "Upload File and Import"
@@ -117,7 +117,7 @@ msgstr "Dışa aktarma seçeneği mevcut değildir."
 #: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
 #: lib/admin/user-meta.php:153
 msgid "Theme SEO Settings"
-msgstr ""
+msgstr "Tema SEO Ayarları"
 
 #: lib/admin/inpost-metaboxes.php:54
 msgid "Custom Document Title"
@@ -159,7 +159,7 @@ msgstr "Özel İzleme/Dönüşüm Kodu"
 #: lib/admin/inpost-metaboxes.php:186 lib/admin/term-meta.php:202
 #: lib/admin/user-meta.php:219
 msgid "Layout Settings"
-msgstr ""
+msgstr "Ana Düzen Ayarları"
 
 #: lib/admin/inpost-metaboxes.php:210 lib/admin/term-meta.php:211
 #: lib/admin/user-meta.php:229
@@ -180,7 +180,7 @@ msgstr "Oku Bunu"
 
 #: lib/admin/readme-menu.php:68
 msgid "The %s file was not found in the child theme, or it was empty."
-msgstr ""
+msgstr "%s dosyası tema içinde bulunamadı, ya da bulundu ama boştu."
 
 #: lib/admin/seo-settings.php:43
 msgid "Genesis - SEO Settings"
@@ -209,7 +209,7 @@ msgstr "Ayarlar sıfırlandı."
 #: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:68
 #: lib/classes/admin.php:108
 msgid "Error saving settings."
-msgstr ""
+msgstr "Ayarlar kaydedilrken bir hata oluştu."
 
 #: lib/admin/seo-settings.php:172
 msgid "Doctitle Settings"
@@ -245,7 +245,7 @@ msgstr "Site Adını iç sayfalarda DocTitle (Belge Başlığı) olarak değişt
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr ""
+msgstr "DocTitle (Belge Başlığı) (%s) Hangi Tarafa Eklensin:"
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
@@ -261,7 +261,7 @@ msgstr "Sağ"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr ""
+msgstr "DocTitle (Belge Başlığı) (<code>&lt;title&gt;</code>) Ayraçı:"
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
@@ -289,7 +289,7 @@ msgstr "İkisi de değil. anasayfada  metnimi kendim böleceğim."
 
 #: lib/admin/seo-settings.php:259
 msgid "Home Doctitle:"
-msgstr ""
+msgstr "Başlangıç Sayfası DocTitle (Belge Başlığı):"
 
 #: lib/admin/seo-settings.php:261
 msgid "If you leave the doctitle field blank, your site&rsquo;s title will be used instead."
@@ -297,7 +297,7 @@ msgstr "DocTitle (Belge Başlığı) alanını boş bırakırsanız, yerine your
 
 #: lib/admin/seo-settings.php:265
 msgid "Home META Description:"
-msgstr ""
+msgstr "Başlangıç Sayfası META Tanım:"
 
 #: lib/admin/seo-settings.php:267
 msgid "The META Description can be used to determine the text used under the title on search engine results pages."
@@ -305,7 +305,7 @@ msgstr "META Açıklaması, arama motoru sonuç sayfalarında başlık altında 
 
 #: lib/admin/seo-settings.php:271
 msgid "Home META Keywords (comma separated):"
-msgstr ""
+msgstr "Başlangıç Sayfası META Anahtar Kelimeler (virgülle ayrılmış)"
 
 #: lib/admin/seo-settings.php:273
 msgid "Keywords are generally ignored by Search Engines."
@@ -330,7 +330,7 @@ msgstr "Sponsorlu Bağlantılar"
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
-msgstr ""
+msgstr "Yazıları %s link etiketlerini bitiştir. "
 
 #: lib/admin/seo-settings.php:314
 msgid "Windows Live Writer Support:"
@@ -394,31 +394,31 @@ msgstr "Sitenize %s uygula?"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
-msgstr ""
+msgstr "Kanonik Sayfalanmış Arşivler"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr ""
+msgstr "Bu opsiyon arama motorlarını sayfalara bölünmüş bir arşivin ilk sayfasına yönelendirir. Bu size bir anlam ifade etmediyse bırakın açık kalsın."
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr ""
+msgstr "Arşiv Ayarları"
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr ""
+msgstr "Arşiv Başlığı"
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
-msgstr ""
+msgstr "Başlık görünsün istemiyorsanız boş bırakın"
 
 #: lib/admin/term-meta.php:66
 msgid "Archive Intro Text"
-msgstr ""
+msgstr "Arşiv Giriş Metni"
 
 #: lib/admin/term-meta.php:69
 msgid "Leave empty if you do not want to display any intro text."
-msgstr ""
+msgstr "Giriş metni görünsün istemiyorsanız boş bırakın"
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:158
 msgid "Custom Document %s"
@@ -452,7 +452,7 @@ msgstr "Düzen Seçiniz"
 
 #: lib/admin/theme-settings.php:85
 msgid "Follow me on Twitter"
-msgstr ""
+msgstr "Twitter'da takip et"
 
 #: lib/admin/theme-settings.php:204
 msgid "Information"
@@ -460,15 +460,15 @@ msgstr "Bilgilendirme"
 
 #: lib/admin/theme-settings.php:207
 msgid "Color Style"
-msgstr ""
+msgstr "Renk Stili"
 
 #: lib/admin/theme-settings.php:209
 msgid "Custom Feeds"
-msgstr "Özel Feeds"
+msgstr "Özel Beslemeler"
 
 #: lib/admin/theme-settings.php:210
 msgid "Default Layout"
-msgstr "Önerilen Düzen"
+msgstr "Varsayılan Düzen"
 
 #: lib/admin/theme-settings.php:213
 msgid "Header Settings"
@@ -512,7 +512,7 @@ msgstr "Döküman kaynağınızda Tema açıklaması gösterilsin"
 
 #: lib/admin/theme-settings.php:272
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr ""
+msgstr "<a href=\"%s\" target=\"_blank\">support forums</a> da temanızdaki problemleri teşhis etmek için yardım aradığınızda bu işinize yarayabilir."
 
 #: lib/admin/theme-settings.php:276
 msgid "Enable Automatic Updates"
@@ -532,7 +532,7 @@ msgstr "E-mail adresinizi aşağı yazdığınız takdirde, Genesis'in yeni vers
 
 #: lib/admin/theme-settings.php:308
 msgid "Color Style:"
-msgstr ""
+msgstr "Renk Stili:"
 
 #: lib/admin/theme-settings.php:310
 msgid "Default"
@@ -540,7 +540,7 @@ msgstr "Standart"
 
 #: lib/admin/theme-settings.php:322
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr ""
+msgstr "Lütfen listeden rengi seçin ve ayarlarınızı kaydedin."
 
 #: lib/admin/theme-settings.php:368
 msgid "Use for blog title/logo:"
@@ -608,7 +608,7 @@ msgstr "İkincil Navigasyon Menüsünü içersin mi?"
 
 #: lib/admin/theme-settings.php:458
 msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr ""
+msgstr "Navigasyon menülerini kullanmak için  önce bir <a href=\"%s\">özel menü</a> yaratmalı, sonra onu ilgili menü lokasyonuna atamalısınız. "
 
 #: lib/admin/theme-settings.php:477
 msgid "Enter your custom feed URI:"
@@ -624,11 +624,11 @@ msgstr "Kendi yorumlar besleme URL niz :"
 
 #: lib/admin/theme-settings.php:492
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr ""
+msgstr "Eğer özel beslemeniz Feedburner tarafından yapılmıyorsa bu yönlendirme opsiyonunu kullanmanızı tavsiye etmiyoruz."
 
 #: lib/admin/theme-settings.php:511
 msgid "Enable Comments"
-msgstr "Yorumlar Aktif?"
+msgstr "Yorumları etkinleştir"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
@@ -644,7 +644,7 @@ msgstr "Geribildirimleri Aktifle"
 
 #: lib/admin/theme-settings.php:528
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr ""
+msgstr "Yazı/sayfa oluşturulurken/düzenlenirken her bir yazı/sayfa için ayrıca yorum ve geri bildirimlerde inaktif yapılabilir."
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
@@ -656,7 +656,7 @@ msgstr "Ön Sayfa"
 
 #: lib/admin/theme-settings.php:552
 msgid "Posts"
-msgstr "Mesajlar"
+msgstr "Yazılar"
 
 #: lib/admin/theme-settings.php:555
 msgid "Pages"
@@ -672,11 +672,11 @@ msgstr "404 hata sayfası"
 
 #: lib/admin/theme-settings.php:564
 msgid "Attachment Page"
-msgstr ""
+msgstr "Eklentiler Sayfası:"
 
 #: lib/admin/theme-settings.php:567
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr ""
+msgstr "Breadcrumbs ziyaretçilern bir bakışta sitenizin neresinde olduklarını anlamalarına imkan veren en iyi yollardan biridir.  Sitenizin herhangi bir bölümünde onları aktif/inaktif yapabilirsiniz."
 
 #: lib/admin/theme-settings.php:587
 msgid "Select one of the following:"
@@ -704,11 +704,11 @@ msgstr "Bu seçeneğin kullanılması görüntülenen yazı formatının  yazı 
 
 #: lib/admin/theme-settings.php:615
 msgid "Include the Featured Image?"
-msgstr "Yayımlanan imajı içersin mi?"
+msgstr "Önce çıkarılan görsel dahil edilsin mi?"
 
 #: lib/admin/theme-settings.php:619
 msgid "Image Size:"
-msgstr ""
+msgstr "Resim Büyüklüğü:"
 
 #: lib/admin/theme-settings.php:630
 msgid "Select Post Navigation Technique:"
@@ -716,7 +716,7 @@ msgstr "Yazı Gezinme Tekniğini Belirle:"
 
 #: lib/admin/theme-settings.php:632
 msgid "Older / Newer"
-msgstr "Yeni/Eski"
+msgstr "Eski/Yeni"
 
 #: lib/admin/theme-settings.php:633
 msgid "Previous / Next"
@@ -748,19 +748,19 @@ msgstr "Virgülle ayırın- örnek: 1,2,3"
 
 #: lib/admin/theme-settings.php:669
 msgid "Number of Posts to Show:"
-msgstr ""
+msgstr "Gösterilecek yazı sayısı"
 
 #: lib/admin/theme-settings.php:690 lib/admin/theme-settings.php:700
 msgid "Enter scripts or code you would like output to %s:"
-msgstr ""
+msgstr "%s a çıkmasını istediğiniz script yada kodu girin"
 
 #: lib/admin/theme-settings.php:695 lib/admin/theme-settings.php:705
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr ""
+msgstr "%1$s çapası döküman kaynağındaki %2$s etiketini kapatmadan hemen önce sonlandırır."
 
 #: lib/admin/user-meta.php:40
 msgid "User Permissions"
-msgstr ""
+msgstr "Kullanıcı İzinleri"
 
 #: lib/admin/user-meta.php:44
 msgid "Genesis Admin Menus"
@@ -780,7 +780,7 @@ msgstr "İçe/Dışa aktar Alt menüsünü Aktifle?"
 
 #: lib/admin/user-meta.php:88
 msgid "Author Archive Settings"
-msgstr ""
+msgstr "Yazar Arşiv Ayarları"
 
 #: lib/admin/user-meta.php:89 lib/admin/user-meta.php:154
 #: lib/admin/user-meta.php:220
@@ -793,7 +793,7 @@ msgstr "Özel Arşiv Başlığı"
 
 #: lib/admin/user-meta.php:96
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "İlk sayfanın en üstünde %s etiket gösterilecek"
+msgstr "İlk sayfanın en üstünde %s etiketi gösterilecek"
 
 #: lib/admin/user-meta.php:101
 msgid "Custom Description Text"
@@ -817,7 +817,7 @@ msgstr "Bu kullanıcın Arşivlerinde Yazar kutusunu Aktifle?"
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr ""
+msgstr "Aynı alt sınıf içerisinde iki menü oluşturmak için %s kullanamazsınız. Lütfen her bir menü için farklı alt sınıf kullanınız. "
 
 #: lib/classes/admin.php:415 lib/classes/admin.php:424
 #: lib/classes/admin.php:527 lib/classes/admin.php:546
@@ -858,11 +858,11 @@ msgstr "(Düzenle)"
 
 #: lib/classes/breadcrumb.php:264 lib/classes/breadcrumb.php:273
 msgid "View archives for %s"
-msgstr "%s için Arşiv Görünümü"
+msgstr "%s için arşivi görüntüle"
 
 #: lib/classes/breadcrumb.php:279
 msgid "View archives for %s %s"
-msgstr "%s %s için Arşiv Görünümü "
+msgstr "%s %s için arşivi görüntüle"
 
 #: lib/classes/breadcrumb.php:334
 msgid "View all posts in %s"
@@ -874,11 +874,11 @@ msgstr "%s 'nın tümünü gör"
 
 #: lib/classes/breadcrumb.php:418
 msgid "View all items in %s"
-msgstr "%s içindeki tüm parçaları Göster?"
+msgstr "%s içindeki tüm parçaları göster?"
 
 #: lib/functions/admin.php:15
 msgid "This file no longer needs to be included."
-msgstr ""
+msgstr "Artık bu dosyanın dahil edilmesine gerek yok."
 
 #: lib/functions/formatting.php:291
 msgid "seconds"
@@ -910,7 +910,7 @@ msgstr "Kenar Çubuğu - İçerik - Kenar Çubuğu"
 
 #: lib/functions/layout.php:78
 msgid "Full Width Content"
-msgstr "Geniş görünümlü içerik"
+msgstr "Tam sayfa içerik"
 
 #: lib/functions/layout.php:122
 msgid "No Label Selected"
@@ -918,15 +918,17 @@ msgstr "Seçilmiş etiket yok"
 
 #: lib/functions/menu.php:74
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr ""
+msgstr "\"context\" argümanı, in the $args array daki  \"theme_location\" ile değiştirildi"
 
 #: lib/functions/seo.php:118
 msgid "Have you tried our Scribe SEO software? Do keyword research, content optimization, and link building without leaving WordPress. <b>Genesis owners save over 50&#37; using the promo code FIRST when you sign up</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
 msgstr ""
+"Scribe SEO yazılımını denediniz mi? Wordpress den ayrılmadan \n"
+"anahtar kelime araması, içerik optimizasyonu ve link yapılandırma yapabilirsiniz.<b>Genesis kullanıcıları üye olurken FIRST promosyon kodunu kullanarak 50&#37 nin üzerinde indirim alabilirler.</b>. <a href=\"%s\" target=\"_blank\">Daha fazla bilgi için tıklayın</a>. "
 
 #: lib/functions/seo.php:120
 msgid "Dismiss"
-msgstr ""
+msgstr "İptal Et"
 
 #: lib/functions/upgrade.php:376
 msgid "Congratulations! You are now rocking Genesis %s"
@@ -938,7 +940,7 @@ msgstr "Güncellemeyi tamamlamak için buraya tıklayınız"
 
 #: lib/functions/upgrade.php:426
 msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s yayımlandı. <a href=\"%s\" class=\"thickbox thickbox-preview\">Neler Yeni</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
+msgstr "Genesis %s yayımlandı. <a href=\"%s\" class=\"thickbox thickbox-preview\">Neler Yeni Bak</a> veya <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">Hemen Güncelle</a>."
 
 #: lib/functions/upgrade.php:430
 msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
@@ -946,7 +948,7 @@ msgstr "Güncelleme dosyası şuan ki Genesis kurulumuzun üzerine yazılacak. G
 
 #: lib/functions/upgrade.php:472
 msgid "Genesis %s is available for %s"
-msgstr "Genesis %s erişelibilir %s için"
+msgstr "Genesis %s %s için uygun"
 
 #: lib/functions/upgrade.php:473
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
@@ -954,7 +956,7 @@ msgstr "Genesis %s yayında. Bu tema için 1 tıklama ile güncelleme sunuyoruz,
 
 #: lib/functions/widgetize.php:63
 msgid "Header Left"
-msgstr ""
+msgstr "Sol Başlık"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Right"
@@ -962,7 +964,7 @@ msgstr "Sağ başlık"
 
 #: lib/functions/widgetize.php:64
 msgid "This is the widget area in the header."
-msgstr ""
+msgstr "Üst kısım bileşen alanı"
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
@@ -970,7 +972,7 @@ msgstr "Birincil kenar çubuğu"
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr ""
+msgstr "İki veya üç sütunlu tema kullananlar için birincil kenar çubuğu"
 
 #: lib/functions/widgetize.php:79
 msgid "Secondary Sidebar"
@@ -978,7 +980,7 @@ msgstr "İkincil kenar çubuğu"
 
 #: lib/functions/widgetize.php:80
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr ""
+msgstr "İki veya üç sütunlu tema kullananlar için ikincil kenar çubuğu "
 
 #: lib/functions/widgetize.php:112
 msgid "Footer %d"
@@ -990,7 +992,7 @@ msgstr ""
 
 #: lib/js/load-scripts.php:86
 msgid "Select / Deselect All"
-msgstr "Seç/ Seçme Hepsini"
+msgstr "Hepsini Seç/ Seçimi Kaldır"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
@@ -1026,15 +1028,15 @@ msgstr "1 Yorum"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
-msgstr "Yorum bırakabilirsiniz"
+msgstr "Yorum yapın"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
-msgstr "Etiketlenmiş"
+msgstr "Etiket"
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Dosyalandı:"
+msgstr "Kategori:"
 
 #: lib/structure/comments.php:56
 msgid "<h3>Comments</h3>"
@@ -1110,7 +1112,7 @@ msgstr "Üzgünüz, sizin aradığınız kriterlere uygun yazı yok."
 
 #: lib/structure/post.php:234 lib/widgets/featured-post-widget.php:51
 msgid "By"
-msgstr "Tarafından"
+msgstr "Yazıyı giren"
 
 #: lib/structure/post.php:308
 msgid "About"
@@ -1134,7 +1136,7 @@ msgstr "Sonraki Sayfa"
 
 #: lib/structure/search.php:25
 msgid "Search this website %s"
-msgstr "Bu web sayfasında ara %s"
+msgstr "Bu sitede ara %s"
 
 #: lib/structure/search.php:27
 msgid "Search"
@@ -1266,7 +1268,7 @@ msgstr "İçerik karakter limiti"
 
 #: lib/widgets/featured-page-widget.php:225
 msgid "More Text"
-msgstr "Devamı yazısı"
+msgstr "Yazının devamı"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "[Read More...]"
@@ -1429,7 +1431,7 @@ msgstr "İsteğinizi gerçekleştirirken Twitter API ile bir hata oluştu. Lütf
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
-msgstr ""
+msgstr "Yaklaşık %s önce"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
@@ -1494,7 +1496,7 @@ msgstr ""
 
 #: lib/widgets/menu-categories-widget.php:45
 msgid "Genesis - Category Menu"
-msgstr ""
+msgstr "Genesis - Kategori menüsü"
 
 #: lib/widgets/menu-categories-widget.php:120
 #: lib/widgets/menu-pages-widget.php:126
@@ -1503,7 +1505,7 @@ msgstr ""
 
 #: lib/widgets/menu-pages-widget.php:51
 msgid "Genesis - Page Menu"
-msgstr ""
+msgstr "Genesis - Sayfa Menüsü"
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "[Read More %s]"
@@ -1557,7 +1559,7 @@ msgstr "Özel yazı (aşağıda)"
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Custom Text Content"
-msgstr ""
+msgstr "Özel Yazı İçeriği"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
@@ -1569,4 +1571,4 @@ msgstr ""
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
-msgstr "Yazarın Arşiv Yazılarını Göster?"
+msgstr "Yazarın Arşivini Göster?"

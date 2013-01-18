@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-03-12 11:48:07+0000\n"
+"PO-Revision-Date: 2012-06-21 10:48:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,11 @@ msgstr "Måneder:"
 
 #: 404.php:63 page_archive.php:59
 msgid "Recent Posts:"
-msgstr "Seneste artikler:"
+msgstr "Seneste indlæg:"
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Denne artikel er beskyttet med et kodeord. Skriv kodeordet for at se kommentarer."
+msgstr "Dette indlæg er beskyttet med et kodeord. Skriv kodeordet for at se kommentarer."
 
 #: lib/init.php:44
 msgid "Primary Navigation Menu"
@@ -125,15 +125,15 @@ msgstr "Indstilling dokumenttitel"
 
 #: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
 msgid "Characters Used: %s"
-msgstr "Antal brugte tegn: %s"
+msgstr "Antal anvendte tegn: %s"
 
 #: lib/admin/inpost-metaboxes.php:57
 msgid "Custom Post/Page Meta Description"
-msgstr "Indstilling Artikel/Side Meta beskrivelse"
+msgstr "Indstilling Indlæg/Side Meta beskrivelse"
 
 #: lib/admin/inpost-metaboxes.php:60
 msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr "Indstilling Artikel/Side Meta keywords, delt med komma"
+msgstr "Indstilling Indlæg/Side Meta keywords, adskil med komma"
 
 #: lib/admin/inpost-metaboxes.php:63
 msgid "Custom Canonical URI"
@@ -145,12 +145,12 @@ msgstr "Custom Redirect URI"
 
 #: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:175
 msgid "Robots Meta Settings"
-msgstr "Robots Meta Indstillinger"
+msgstr "Robot Meta Indstillinger"
 
 #: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
 #: lib/admin/inpost-metaboxes.php:81
 msgid "Apply %s to this post/page"
-msgstr "Tilføj %s til denne Artikel/Side"
+msgstr "Tilføj %s til dette Indlæg/Side"
 
 #: lib/admin/inpost-metaboxes.php:86
 msgid "Custom Tracking/Conversion Code"
@@ -233,7 +233,7 @@ msgstr "Dokument-titlen er det vigtigste SEO tag i dokumentes kildekode"
 
 #: lib/admin/seo-settings.php:195
 msgid "<b>By default</b>, the homepage doctitle will contain the site title, the single post and page doctitle will contain the post/page title, archive pages will contain the archive type, etc."
-msgstr "<b>Som standard</b>, indeholder startsidens doctitle sitens titel, en enkelt artikel og side doctitle vil indeholde indlægges/sidens titel, arkivsiderne vil indeholde arkiv type, osv."
+msgstr "<b>Som standard</b>, indeholder startsidens doctitle sitets titel, det enkelte indlæg og sides doctitle vil indeholde indlæggets/sidens titel, arkivsiderne vil indeholde arkiv type, osv."
 
 #: lib/admin/seo-settings.php:199
 msgid "Append Site Description to Doctitle on homepage?"
@@ -350,7 +350,7 @@ msgstr "Anvend Shortlink tag?"
 
 #: lib/admin/seo-settings.php:326
 msgid "The shortlink tag might have some use for 3rd party service discoverability, but it has no SEO value whatsoever."
-msgstr "Kortlink tag kan have betydning for 3. parts service opdagelsesevne, men det har ingen SEO værdi overhovedet."
+msgstr "Kortlink tag kan have betydning for at nogle 3. parts services finder dit inhold, men disse tags har overhovedet ingen SEO-værdi."
 
 #: lib/admin/seo-settings.php:348
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
@@ -390,7 +390,7 @@ msgstr "Fra tid til anden bruger søgemaskiner ressourcer som Open Directory Pro
 
 #: lib/admin/seo-settings.php:395 lib/admin/seo-settings.php:398
 msgid "Apply %s to your site?"
-msgstr "Tilføj %s til din site?"
+msgstr "Tilføj %s til dit site?"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
@@ -398,7 +398,7 @@ msgstr "Canonical pagineret Arkiv"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Denne indstilling peger søgemaskiner til den første side i et arkiv, hvis det er en pagineret side. Hvis du ikke ved hvad dette betyder, skal du lade den være tændt."
+msgstr "Denne indstilling sender søgemaskiner til den første af flere nummererede sider eller til den primære side for et bestemt emne. Hvis du ikke kender konsekvensen ved at slå funktionen fra, skal skal du lade den være aktiveret."
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
@@ -438,7 +438,7 @@ msgstr "Kommasepareret liste"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:180
 msgid "Robots Meta"
-msgstr "Robots Meta"
+msgstr "Robot Meta"
 
 #: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:183
@@ -492,7 +492,7 @@ msgstr "Præsentation af ældre indhold"
 
 #: lib/admin/theme-settings.php:221
 msgid "Blog Page"
-msgstr "Blog Side"
+msgstr "Blog Forside"
 
 #: lib/admin/theme-settings.php:224
 msgid "Header and Footer Scripts"
@@ -568,7 +568,7 @@ msgstr "Brug Fancy Dropdowns?"
 
 #: lib/admin/theme-settings.php:411
 msgid "Enable Extras on Right Side?"
-msgstr "Vis Ektras i højre side?"
+msgstr "Vis ekstra funktioner i højre side?"
 
 #: lib/admin/theme-settings.php:416
 msgid "Display the following:"
@@ -632,11 +632,11 @@ msgstr "Tillad Kommentarer"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
-msgstr "Aktiver på indlæg?"
+msgstr "på indlæg?"
 
 #: lib/admin/theme-settings.php:516 lib/admin/theme-settings.php:525
 msgid "on pages?"
-msgstr "Aktiver på sider?"
+msgstr "på sider?"
 
 #: lib/admin/theme-settings.php:520
 msgid "Enable Trackbacks"
@@ -648,7 +648,7 @@ msgstr "<b>BEMÆRK:</b> Kommentarer og Trackbacks kan også slås fra per indlæ
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
-msgstr "Tillad i:"
+msgstr "Anvend på:"
 
 #: lib/admin/theme-settings.php:549
 msgid "Front Page"
@@ -994,7 +994,7 @@ msgstr "Vælg / fravælg alle"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Tilbage til toppen af siden"
+msgstr "Til toppen af siden"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
@@ -1026,7 +1026,7 @@ msgstr "1 kommentar"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
-msgstr "Skriv en kommentar"
+msgstr "Skriv kommentar"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
@@ -1078,7 +1078,7 @@ msgstr "Websted"
 
 #: lib/structure/comments.php:269
 msgid "Speak Your Mind"
-msgstr "Skriv en kommentar"
+msgstr "Skriv kommentar"
 
 #: lib/structure/footer.php:111
 msgid "Copyright"
@@ -1278,7 +1278,7 @@ msgstr "Flere indlæg fra denne kategori"
 
 #: lib/widgets/featured-post-widget.php:63
 msgid "Displays featured posts with thumbnails"
-msgstr "Vis feature-indlæg indlæg med thumbnails"
+msgstr "Vis feature-indlæg med thumbnails"
 
 #: lib/widgets/featured-post-widget.php:72
 msgid "Genesis - Featured Posts"
@@ -1397,7 +1397,7 @@ msgstr "Mere Tekst (hvis relevant)"
 
 #: lib/widgets/featured-post-widget.php:374
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "For at vise en uordnet liste af indlæg fra denne kategori, bedes du udfylde nedenstående oplysninger"
+msgstr "For at vise en usorteret liste af indlæg fra denne kategori, bedes du udfylde nedenstående oplysninger"
 
 #: lib/widgets/featured-post-widget.php:392
 msgid "Show Category Archive Link"
@@ -1429,7 +1429,7 @@ msgstr "Twitter API returnerede en fejl under behandlingen af din anmodning. Pr�
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
-msgstr "omkring %s siden"
+msgstr "for %s siden"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
@@ -1559,7 +1559,7 @@ msgstr "Brugerdefineret indhold"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Vælg dit udvidede \"Om mig \" side fra listen nedenfor. Dette vil være den side der knyttes til enden af omkring mig sektionen"
+msgstr "Vælg din udvidede \"Om mig \" side fra listen nedenfor. Den valgte side bliver linket i bunden af \"Om mig\" siden"
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"

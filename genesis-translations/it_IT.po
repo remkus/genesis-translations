@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-03-12 11:52:50+0000\n"
+"PO-Revision-Date: 2012-06-21 10:49:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -245,7 +245,7 @@ msgstr "Allega il nome del sito al DocTitle delle pagine interne?"
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr ""
+msgstr "Posizione del Doctitle (%s)"
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
@@ -261,7 +261,7 @@ msgstr "Destra"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr ""
+msgstr "Separatore del Doctitle  (<code>&lt;title&gt;</code>)"
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
@@ -330,7 +330,7 @@ msgstr "Relazioni Link Tags:"
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
-msgstr ""
+msgstr "Post adiacenti %s tags di collegamento"
 
 #: lib/admin/seo-settings.php:314
 msgid "Windows Live Writer Support:"
@@ -986,7 +986,7 @@ msgstr "Piè di Pagina %d"
 
 #: lib/functions/widgetize.php:113
 msgid "Footer %d widget area."
-msgstr ""
+msgstr "%d widget area del Footer"
 
 #: lib/js/load-scripts.php:86
 msgid "Select / Deselect All"
@@ -1078,9 +1078,7 @@ msgstr "Sito Web"
 
 #: lib/structure/comments.php:269
 msgid "Speak Your Mind"
-msgstr ""
-"Esprimi un tuo parere\n"
-"\n"
+msgstr "Lascia il tuo commento"
 
 #: lib/structure/footer.php:111
 msgid "Copyright"
@@ -1565,7 +1563,7 @@ msgstr "Scegli la pagina \"About Me\" dalla lista qui sotto. Questa pagina sarà
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"
-msgstr ""
+msgstr "Link di testo per la pagina estesa."
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"

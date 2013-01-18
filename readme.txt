@@ -3,8 +3,8 @@ Contributors: DeFries
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
 Tags: genesis, translations,
 Requires at least: 3.1
-Tested up to: 3.3.1
-Stable tag: 1.4.1
+Tested up to: 3.4
+Stable tag: 1.6
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
@@ -16,31 +16,33 @@ No need to fuss about with your `functions.php` file or uploading `.mo` and `.po
 
 Currently the following translations are available for Genesis 1.8.x
 
-* Dutch - nl_NL
-* German - de_DE
-* French - fr_FR
 * Danish - da_DK
+* Dutch - nl_NL
+* Italian - it_IT 
+* German - de_DE
 * Finnish - fi
 * Romanian - ro_RO
-* Indonesian - id_ID
 * Vietnamese - vi_VI
+* Bulgarian - bg_BG
+* Swedish - sv_SE
 * Spanish - es_ES
+* French - fr_FR
+* Indonesian - id_ID
+* Turkish - tr_TR
 * Greek - el_GR (90%)
-* Swedish - sv_SE (90%)
+* Hebrew - he_IL (95% ready)
+* Polish - pl_PL (89% ready)
+* Portuguese - pt_PT (88% ready)
+* Portuguese-Brazilian - pt_BR (88% ready)
+* Hungarian - hu_HU (86% ready)
+* Japanese - ja(77% ready)
+* Chinese - zh_CN (68% ready)
+* Icelandic - is_IS (front-end only)
 
 
-Currently the following translations are available for Genesis 1.7.x:
+So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
-* Italian - it_IT (Italiano)
-* Portuguese-Brazilian - pt_BR
-* Polish - pl_PL ( 96% ready )
-* Hebrew - he_IL ( 95% ready )
-* Japanese - ja( 84% ready )
-
-
-So you don't see your language up here and you would like to see it added? [Please contact me](http://www.forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
-
-This plugin only works on the [Genesis Framework](http://www.forsite.nu/go/genesis/ "Genesis Framework").
+This plugin only works on the [Genesis Framework](http://forsitemedia.net/go/genesis/ "Genesis Framework").
 
 == Installation ==
 
@@ -55,25 +57,33 @@ Or search for "Genesis Translations" via your plugins menu.
 
 = How can I see my language added to this plugin? =
 
-[Please contact me](http://www.forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+[Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
 
 = Can I make a suggestion =
 
-You most certainly can. [Please contact me](http://www.forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+You most certainly can. [Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
 
 = Where can I find the list of languages being worked on? = 
 
-Visit the [StudioPress GlotPress installation](http://translate.studiopress.com/projects/genesis-framework/genesis-17 "GlotPress installation") to see the complete list of languages being worked on.
+Visit the [StudioPress GlotPress installation](http://translate.studiopress.com/projects/genesis-framework/genesis-18 "GlotPress installation") to see the complete list of languages being worked on.
 
 = I have your plugin activated but I don't see an options page =
 
 That's because there isn't any. If you have one of the provided languages properly configured in your `wp-config.php` file, then upon activation you should see all matters Genesis automagically translated.
+
+= When I've activated your plugin there are still some words in English on my site =
+
+Most likely you either have words hardcoded in your child theme's `functions.php` file or you're working with outdated (or incomplete) WordPress translation.
 
 == Screenshots ==
 
 No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
+
+= 1.5.0 =
+
+Basically all of the languages saw small updates. Swedish and Danish got a big overhaul in grammar and such. Hungarian, Portuguese and Chinese is added as well as Icelandic for the front-end only.
 
 = 1.4.1 = 
 

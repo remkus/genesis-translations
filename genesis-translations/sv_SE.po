@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-03-12 11:51:21+0000\n"
+"PO-Revision-Date: 2012-06-21 10:56:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,15 +44,15 @@ msgstr "Detta inlägg är lösenordsskyddat. Ange lösenordet för att visa komm
 
 #: lib/init.php:44
 msgid "Primary Navigation Menu"
-msgstr "Primär Navigeringsmeny"
+msgstr "Primär navigeringsmeny"
 
 #: lib/init.php:44
 msgid "Secondary Navigation Menu"
-msgstr "Sekundär Navigeringsmeny"
+msgstr "Sekundär navigeringsmeny"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Importera/Exportera"
+msgstr "Genesis - importera/exportera"
 
 #: lib/admin/import-export.php:46
 msgid "Import/Export"
@@ -172,7 +172,7 @@ msgstr "Anpassad »Body Class«"
 
 #: lib/admin/inpost-metaboxes.php:220
 msgid "Custom Post Class"
-msgstr "Anpassad Inläggs Grupp"
+msgstr "Anpassad inläggsgrupp"
 
 #: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
 msgid "README"
@@ -194,7 +194,7 @@ msgstr "Spara inställningar"
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:65
 #: lib/classes/admin.php:105
 msgid "Reset Settings"
-msgstr "Återställ Inställningar"
+msgstr "Återställ inställningar"
 
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:66
 #: lib/classes/admin.php:106
@@ -217,7 +217,7 @@ msgstr "Doctitle Inställningar"
 
 #: lib/admin/seo-settings.php:173
 msgid "Homepage Settings"
-msgstr "Hemsidan Inställningar"
+msgstr "Hemsidesinställningar"
 
 #: lib/admin/seo-settings.php:174
 msgid "Document Head Settings"
@@ -225,7 +225,7 @@ msgstr "Dokument sidhuvudinställningar"
 
 #: lib/admin/seo-settings.php:176
 msgid "Archives Settings"
-msgstr "Arkiv Inställningar"
+msgstr "Arkivinställningar"
 
 #: lib/admin/seo-settings.php:193
 msgid "The Document Title is the single most important SEO tag in your document source. It succinctly informs search engines of what information is contained in the document. The doctitle changes from page to page, but these options will help you control what it looks by default."
@@ -245,7 +245,7 @@ msgstr "Lägg webbplatsens namn till \"Doctitle\" på inre sidor?"
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr "Doctitle (%s) Bifoga Plats:"
+msgstr "Doctitle (%s) bifoga plats:"
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
@@ -261,11 +261,11 @@ msgstr "Höger"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr "Doctitle (<code>&lt;title&gt;</code>) Separator:"
+msgstr "Doctitle (<code>&lt;title&gt;</code>) separerare:"
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
-msgstr "Om doctitle består av två delar (Titel & bifogas text), så kommer Doctitle Separator att gå mellan dem."
+msgstr "Om doctitle består av två delar (Titel & bifogas text), så kommer Doctitle separerare att gå mellan dem."
 
 #: lib/admin/seo-settings.php:244
 msgid "Which text would you like to be wrapped in %s tags?"
@@ -313,12 +313,14 @@ msgstr "Nyckelord är ignoreras vanligtvis av sökmotorerna."
 
 #: lib/admin/seo-settings.php:276
 msgid "Homepage Robots Meta Tags:"
-msgstr "Homepage Robotars MetaTaggar:"
+msgstr ""
+"Startsida robotar metataggare\n"
+"Homepage Robotars MetaTaggar:"
 
 #: lib/admin/seo-settings.php:280 lib/admin/seo-settings.php:283
 #: lib/admin/seo-settings.php:286
 msgid "Apply %s to the homepage?"
-msgstr "Använd %s till hemsidan?"
+msgstr "Använd %s till startsidan?"
 
 #: lib/admin/seo-settings.php:305
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no SEO value whatsoever. They just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
@@ -326,7 +328,7 @@ msgstr "Som standard placerar WordPress flera taggar i dokumentet%1$s. De flesta
 
 #: lib/admin/seo-settings.php:307
 msgid "Relationship Link Tags:"
-msgstr "Förhållningssätt mellan Länkar och Taggar:"
+msgstr "Förhållningssätt mellan länkar och taggar:"
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
@@ -342,7 +344,7 @@ msgstr "Inkludera Windows Live Writer Support Tagg?"
 
 #: lib/admin/seo-settings.php:321
 msgid "Shortlink Tag:"
-msgstr "Snabblänks Tagg:"
+msgstr "Snabblänkstagg:"
 
 #: lib/admin/seo-settings.php:325
 msgid "Include Shortlink tag?"
@@ -358,27 +360,27 @@ msgstr "Beroende på din situation, du kanske eller kanske inte vill att följan
 
 #: lib/admin/seo-settings.php:352 lib/admin/seo-settings.php:376
 msgid "Apply %s to Category Archives?"
-msgstr "Applicera%s till Kategori Arkiv?"
+msgstr "Applicera%s till kategoriarkiv?"
 
 #: lib/admin/seo-settings.php:355 lib/admin/seo-settings.php:379
 msgid "Apply %s to Tag Archives?"
-msgstr "Tillämpa%s på Tag Arkiv?"
+msgstr "Tillämpa%s på taggarkiv?"
 
 #: lib/admin/seo-settings.php:358 lib/admin/seo-settings.php:382
 msgid "Apply %s to Author Archives?"
-msgstr "Tillämpa%s på Författarens Arkiv?"
+msgstr "Tillämpa%s på författarens arkiv?"
 
 #: lib/admin/seo-settings.php:361 lib/admin/seo-settings.php:385
 msgid "Apply %s to Date Archives?"
-msgstr "Tillämpa%s på Datum-arkiv?"
+msgstr "Tillämpa%s på datumarkiv?"
 
 #: lib/admin/seo-settings.php:364 lib/admin/seo-settings.php:388
 msgid "Apply %s to Search Archives?"
-msgstr "Tillämpa%s på Sök Arkiv?"
+msgstr "Tillämpa%s på sökarkiv?"
 
 #: lib/admin/seo-settings.php:367
 msgid "Some search engines will cache pages in your site (e.g Google Cache). The %1$s tag will prevent them from doing so. Choose what archives you want to %1$s."
-msgstr "Vissa sökmotorer kommer kommer använda cache på din webbplats sidor (t.ex. Google Cache). %1$s taggen kommer att hindra dem från att göra det. Välj vad arkiv du vill%1$s."
+msgstr "Vissa sökmotorer kommer kommer använda cache på din webbsidor (t.ex. Google Cache). %1$s taggen kommer att hindra dem från att göra det. Välj vilka arkiv du vill%1$s."
 
 #: lib/admin/seo-settings.php:371
 msgid "Apply %s to Entire Site?"
@@ -394,7 +396,7 @@ msgstr "Tillämpa%s på din webbplats?"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
-msgstr "Canoniska sidnumrerade Arkiv"
+msgstr "Canoniska sidnumrerade arkiv"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
@@ -402,11 +404,11 @@ msgstr "Detta alternativ pekar sökmotorer på första sidan i ett arkiv, om du 
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr "Inställningar för Arkiv"
+msgstr "Arkivinställningar"
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr "Rubrik för arkiv"
+msgstr "Arkivrubrik"
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
@@ -422,23 +424,23 @@ msgstr "Lämna tom om du inte vill visa någon introduktionstext."
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:158
 msgid "Custom Document %s"
-msgstr "Anpassat Dokument %s"
+msgstr "Anpassad dokument %s"
 
 #: lib/admin/term-meta.php:130 lib/admin/user-meta.php:165
 msgid "%s Description"
-msgstr "%s Beskrivning"
+msgstr "Beskrivning för %s"
 
 #: lib/admin/term-meta.php:137 lib/admin/user-meta.php:172
 msgid "%s Keywords"
-msgstr "%s Sökord"
+msgstr "Sökord för %s"
 
 #: lib/admin/term-meta.php:140 lib/admin/user-meta.php:175
 msgid "Comma separated list"
-msgstr "Komma-separerad lista"
+msgstr "Kommaseparerad lista"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:180
 msgid "Robots Meta"
-msgstr "Robotar Meta"
+msgstr "Robotmeta"
 
 #: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:183
@@ -448,7 +450,7 @@ msgstr "Tillämpa%s på detta arkiv?"
 
 #: lib/admin/term-meta.php:206 lib/admin/user-meta.php:224
 msgid "Choose Layout"
-msgstr "Välj Layout"
+msgstr "Välj layout"
 
 #: lib/admin/theme-settings.php:85
 msgid "Follow me on Twitter"
@@ -472,23 +474,23 @@ msgstr "Standardlayout"
 
 #: lib/admin/theme-settings.php:213
 msgid "Header Settings"
-msgstr "Sidhuvud Inställningar"
+msgstr "Sidhuvudsinställningar"
 
 #: lib/admin/theme-settings.php:216
 msgid "Navigation Settings"
-msgstr "Navigering Inställningar"
+msgstr "Navigeringsinställningar"
 
 #: lib/admin/theme-settings.php:218
 msgid "Breadcrumbs"
-msgstr "Breadcrumbs"
+msgstr "Brödsmulor"
 
 #: lib/admin/theme-settings.php:219
 msgid "Comments and Trackbacks"
-msgstr "Kommentarer och Trackbacks"
+msgstr "Kommentarer och trackbacks"
 
 #: lib/admin/theme-settings.php:220
 msgid "Content Archives"
-msgstr "Innehåll Arkiv"
+msgstr "Innehållsarkiv"
 
 #: lib/admin/theme-settings.php:221
 msgid "Blog Page"
@@ -496,7 +498,7 @@ msgstr "Bloggsida"
 
 #: lib/admin/theme-settings.php:224
 msgid "Header and Footer Scripts"
-msgstr "Sidhuvud och sidfot Skript"
+msgstr "Skript för sidhuvud och sidfot"
 
 #: lib/admin/theme-settings.php:265
 msgid "Version:"
@@ -628,7 +630,7 @@ msgstr "Om din egen feed (s) inte hanteras av Feedburner, rekommenderar vi inte 
 
 #: lib/admin/theme-settings.php:511
 msgid "Enable Comments"
-msgstr "Aktivera Kommentarer"
+msgstr "Aktivera kommentarer"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
@@ -640,11 +642,11 @@ msgstr "på sidor?"
 
 #: lib/admin/theme-settings.php:520
 msgid "Enable Trackbacks"
-msgstr "Aktivera Trackbacks"
+msgstr "Aktivera trackbacks"
 
 #: lib/admin/theme-settings.php:528
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr "Kommentarer och Trackbacks kan också vara inaktiverat på en per post/sida-basis när du skapar/redigerar inlägg/sidor."
+msgstr "Kommentarer och trackbacks kan också vara inaktiverat på en per post/sida-basis när du skapar/redigerar inlägg/sidor."
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
@@ -668,7 +670,7 @@ msgstr "Arkiv"
 
 #: lib/admin/theme-settings.php:561
 msgid "404 Page"
-msgstr "404 Sidan"
+msgstr "404 sidan"
 
 #: lib/admin/theme-settings.php:564
 msgid "Attachment Page"
@@ -676,7 +678,7 @@ msgstr "Sida för bilagor"
 
 #: lib/admin/theme-settings.php:567
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Ströbröd är ett utmärkt sätt att låta besökarna ta reda på var de är på din webbplats med bara ett ögonkast. Du kan aktivera / avaktivera dem på vissa delar av din webbplats."
+msgstr "Brödsmulor är ett utmärkt sätt att låta besökarna ta reda på var de är på din webbplats med bara ett ögonkast. Du kan aktivera / avaktivera dem på vissa delar av din webbplats."
 
 #: lib/admin/theme-settings.php:587
 msgid "Select one of the following:"
@@ -712,15 +714,15 @@ msgstr "Bildstorlek"
 
 #: lib/admin/theme-settings.php:630
 msgid "Select Post Navigation Technique:"
-msgstr "Välj Post Navigation Teknik:"
+msgstr "Välj postnavigeringsteknik:"
 
 #: lib/admin/theme-settings.php:632
 msgid "Older / Newer"
-msgstr "Äldre / Nyare"
+msgstr "Äldre / nyare"
 
 #: lib/admin/theme-settings.php:633
 msgid "Previous / Next"
-msgstr "Tidigare / Nästa"
+msgstr "Tidigare / nästa"
 
 #: lib/admin/theme-settings.php:634
 msgid "Numeric"
@@ -736,7 +738,7 @@ msgstr "Visa vilken kategori:"
 
 #: lib/admin/theme-settings.php:658
 msgid "All Categories"
-msgstr "Alla Kategorier"
+msgstr "Alla kategorier"
 
 #: lib/admin/theme-settings.php:662
 msgid "Exclude the following Category IDs:"
@@ -764,11 +766,11 @@ msgstr "Användarbehörigheter"
 
 #: lib/admin/user-meta.php:44
 msgid "Genesis Admin Menus"
-msgstr "Genesis Admin Menyer"
+msgstr "Genesis adminmenyer"
 
 #: lib/admin/user-meta.php:47
 msgid "Enable Genesis Admin Menu?"
-msgstr "Aktivera Genesis Adminmeny?"
+msgstr "Aktivera Genesis adminmeny?"
 
 #: lib/admin/user-meta.php:49
 msgid "Enable SEO Settings Submenu?"
@@ -776,7 +778,7 @@ msgstr "Aktivera SEO undermenyns inställningar?"
 
 #: lib/admin/user-meta.php:51
 msgid "Enable Import/Export Submenu?"
-msgstr "Aktivera Import / Export Undermeny?"
+msgstr "Aktivera Import / Export undermeny?"
 
 #: lib/admin/user-meta.php:88
 msgid "Author Archive Settings"
@@ -789,7 +791,7 @@ msgstr "Dessa inställningar tillämpas på denna författarens arkivsidor."
 
 #: lib/admin/user-meta.php:93
 msgid "Custom Archive Headline"
-msgstr "Anpassad Arkiv Rubrik"
+msgstr "Anpassad arkivrubrik"
 
 #: lib/admin/user-meta.php:96
 msgid "Will display in the %s tag at the top of the first page"
@@ -797,7 +799,7 @@ msgstr "Kommer att visas i %s taggen längst upp på första sidan"
 
 #: lib/admin/user-meta.php:101
 msgid "Custom Description Text"
-msgstr "Anpassad Textbeskrivning "
+msgstr "Anpassad textbeskrivning "
 
 #: lib/admin/user-meta.php:104
 msgid "This text will be the first paragraph, and display on the first page"
@@ -805,15 +807,15 @@ msgstr "Denna text kommer att vara det första stycket, och visas på första si
 
 #: lib/admin/user-meta.php:109
 msgid "Author Box"
-msgstr "Författar-ruta"
+msgstr "Författarruta"
 
 #: lib/admin/user-meta.php:112
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Aktivera Författarerutan på den här användarens inlägg?"
+msgstr "Aktivera författarerutan på den här användarens inlägg?"
 
 #: lib/admin/user-meta.php:114
 msgid "Enable Author Box on this User's Archives?"
-msgstr "Aktivera Författarerutan på den här användarens arkiv?"
+msgstr "Aktivera författarerutan på den här användarens arkiv?"
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
@@ -890,7 +892,7 @@ msgstr "och"
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
-msgstr "Content-Sidebar"
+msgstr "Innehåll-Sidebar"
 
 #: lib/functions/layout.php:46
 msgid "Sidebar-Content"
@@ -1018,11 +1020,11 @@ msgstr "Besök %s&#8217;s webbsida"
 
 #: lib/shortcodes/post.php:205
 msgid "% Comments"
-msgstr "% Kommentarer"
+msgstr "% kommentarer"
 
 #: lib/shortcodes/post.php:206
 msgid "1 Comment"
-msgstr "1 Kommentar"
+msgstr "1 kommentar"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
@@ -1118,15 +1120,15 @@ msgstr "Om"
 
 #: lib/structure/post.php:348
 msgid "Older Posts"
-msgstr "Äldre Inlägg"
+msgstr "Äldre inlägg"
 
 #: lib/structure/post.php:349
 msgid "Newer Posts"
-msgstr "Nyare Inlägg"
+msgstr "Nyare inlägg"
 
 #: lib/structure/post.php:370 lib/structure/post.php:434
 msgid "Previous Page"
-msgstr "Föregående Sida"
+msgstr "Föregående sida"
 
 #: lib/structure/post.php:371 lib/structure/post.php:464
 msgid "Next Page"
@@ -1158,11 +1160,11 @@ msgstr "Detta är området för den sekundära Sidpanelen Widget. Du kan lägga 
 
 #: lib/tools/post-templates.php:132
 msgid "Single Post Template"
-msgstr "Mall för enskilt Inlägg"
+msgstr "Enskild inläggsmall"
 
 #: lib/tools/post-templates.php:157
 msgid "Post Template"
-msgstr "Inlägg Mall"
+msgstr "Inläggsmall"
 
 #: lib/tools/post-templates.php:162
 msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
@@ -1195,15 +1197,15 @@ msgstr "Google/Feedburner ID "
 
 #: lib/widgets/enews-widget.php:130
 msgid "Enter your email address..."
-msgstr "Fyll i din Email-adress"
+msgstr "Fyll i din e-mailadress"
 
 #: lib/widgets/enews-widget.php:131
 msgid "Input Text"
-msgstr "Mata in text"
+msgstr "Skriv text"
 
 #: lib/widgets/enews-widget.php:136
 msgid "Go"
-msgstr "Sök"
+msgstr "Ok"
 
 #: lib/widgets/enews-widget.php:137
 msgid "Button Text"
@@ -1215,7 +1217,7 @@ msgstr "Visar utvald sida med miniatyrbilder"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Utvald Sida"
+msgstr "Genesis - Utvald sida"
 
 #: lib/widgets/featured-page-widget.php:104
 msgid "by"
@@ -1228,7 +1230,7 @@ msgstr "Sida"
 #: lib/widgets/featured-page-widget.php:178
 #: lib/widgets/featured-post-widget.php:307
 msgid "Show Featured Image"
-msgstr "Visa Dagens bild"
+msgstr "Visa utvald bild"
 
 #: lib/widgets/featured-page-widget.php:182
 #: lib/widgets/featured-post-widget.php:311
@@ -1254,15 +1256,15 @@ msgstr "Visa sidans titel"
 
 #: lib/widgets/featured-page-widget.php:211
 msgid "Show Page Byline"
-msgstr "Visa Sida Byline"
+msgstr "Visa sida byline"
 
 #: lib/widgets/featured-page-widget.php:216
 msgid "Show Page Content"
-msgstr "Visa Sidinnehåll"
+msgstr "Visa sidinnehåll"
 
 #: lib/widgets/featured-page-widget.php:220
 msgid "Content Character Limit"
-msgstr "Innehåll Tecken Begränsning"
+msgstr "Teckenbegränsning för innehåll"
 
 #: lib/widgets/featured-page-widget.php:225
 msgid "More Text"
@@ -1282,7 +1284,7 @@ msgstr "Visar utvalda inlägg med miniatyrbilder"
 
 #: lib/widgets/featured-post-widget.php:72
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Utvalda inlägg"
+msgstr "Genesis - utvalda inlägg"
 
 #: lib/widgets/featured-post-widget.php:230
 msgid "Category"
@@ -1335,16 +1337,16 @@ msgstr "Stigande"
 
 #: lib/widgets/featured-post-widget.php:279
 msgid "Show Author Gravatar"
-msgstr "Visa Författare Gravatar"
+msgstr "Visa författar-Gravatar"
 
 #: lib/widgets/featured-post-widget.php:283
 #: lib/widgets/user-profile-widget.php:146
 msgid "Gravatar Size"
-msgstr "Gravatar Storlek"
+msgstr "Gravatar storlek"
 
 #: lib/widgets/featured-post-widget.php:285
 msgid "Small (45px)"
-msgstr "Small (45px)"
+msgstr "Liten (45px)"
 
 #: lib/widgets/featured-post-widget.php:286
 msgid "Medium (65px)"
@@ -1352,20 +1354,20 @@ msgstr "Medium (65px)"
 
 #: lib/widgets/featured-post-widget.php:287
 msgid "Large (85px)"
-msgstr "Large (85px) "
+msgstr "Stor (85px) "
 
 #: lib/widgets/featured-post-widget.php:288
 msgid "Extra Large (125px)"
-msgstr "Extra Large (125px)"
+msgstr "Extra stor (125px)"
 
 #: lib/widgets/featured-post-widget.php:293
 #: lib/widgets/user-profile-widget.php:158
 msgid "Gravatar Alignment"
-msgstr "Gravatar Alignment"
+msgstr "Gravatar justering"
 
 #: lib/widgets/featured-post-widget.php:341
 msgid "Show Post Title"
-msgstr "Visa Inläggstitel"
+msgstr "Visa inläggstitel"
 
 #: lib/widgets/featured-post-widget.php:346
 msgid "Show Post Info"
@@ -1377,11 +1379,11 @@ msgstr "Innehållstyp"
 
 #: lib/widgets/featured-post-widget.php:353
 msgid "Show Content"
-msgstr "Visa Innehåll"
+msgstr "Visa innehåll"
 
 #: lib/widgets/featured-post-widget.php:354
 msgid "Show Excerpt"
-msgstr "Visa Utdrag"
+msgstr "Visa utdrag"
 
 #: lib/widgets/featured-post-widget.php:355
 msgid "Show Content Limit"
@@ -1401,7 +1403,7 @@ msgstr "För att visa en oordnad lista med mer inlägg från denna kategori, fyl
 
 #: lib/widgets/featured-post-widget.php:392
 msgid "Show Category Archive Link"
-msgstr "Visa Kategori Arkiv Länk"
+msgstr "Visa kategoris arkivlänk"
 
 #: lib/widgets/featured-post-widget.php:396
 msgid "Link Text"
@@ -1433,7 +1435,7 @@ msgstr "ungefär%s sedan"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
-msgstr "Twitter Användarnamn"
+msgstr "Twitter användarnamn"
 
 #: lib/widgets/latest-tweets-widget.php:191
 msgid "Number of Tweets to Show"
@@ -1449,7 +1451,7 @@ msgstr "Ladda nya Tweets varje"
 
 #: lib/widgets/latest-tweets-widget.php:203
 msgid "5 Min."
-msgstr "5 Min."
+msgstr "5 min."
 
 #: lib/widgets/latest-tweets-widget.php:204
 msgid "15 Minutes"
@@ -1494,7 +1496,7 @@ msgstr "Denna widget är föråldrad och kommer eventuellt att bli borttagen. An
 
 #: lib/widgets/menu-categories-widget.php:45
 msgid "Genesis - Category Menu"
-msgstr "Genesis - Kategori Meny"
+msgstr "Genesis - kategorimeny"
 
 #: lib/widgets/menu-categories-widget.php:120
 #: lib/widgets/menu-pages-widget.php:126
@@ -1503,7 +1505,7 @@ msgstr "Denna widget är inaktuell, och kommer så småningom att tas bort. Vi f
 
 #: lib/widgets/menu-pages-widget.php:51
 msgid "Genesis - Page Menu"
-msgstr "Genesis - Meny för sidor"
+msgstr "Genesis - Sidmeny"
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "[Read More %s]"
@@ -1515,7 +1517,7 @@ msgstr "Visar användarprofil-block med Gravatar"
 
 #: lib/widgets/user-profile-widget.php:57
 msgid "Genesis - User Profile"
-msgstr "Genesis - Användarprofil"
+msgstr "Genesis - användarprofil"
 
 #: lib/widgets/user-profile-widget.php:96
 msgid "View My Blog Posts"
@@ -1523,11 +1525,11 @@ msgstr "Visa mina blogginlägg"
 
 #: lib/widgets/user-profile-widget.php:141
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Välj en användare. E-postadressen för detta kontot kommer att användas för att styra Gravatar bilden."
+msgstr "Välj en användare. E-postadressen för detta kontot kommer att användas för att styra Gravatarbilden."
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Small"
-msgstr "Small"
+msgstr "Liten"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Medium"
@@ -1535,19 +1537,19 @@ msgstr "Medium"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Large"
-msgstr "Large"
+msgstr "Stor"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Extra Large"
-msgstr "Extra Large"
+msgstr "Extra stor"
 
 #: lib/widgets/user-profile-widget.php:167
 msgid "Select which text you would like to use as the author description"
-msgstr "Välj vilken text du vill använda som författar-beskrivning"
+msgstr "Välj vilken text du vill använda som författarbeskrivning"
 
 #: lib/widgets/user-profile-widget.php:170
 msgid "Author Bio"
-msgstr "Författare Bio"
+msgstr "Författare biografi"
 
 #: lib/widgets/user-profile-widget.php:172
 msgid "Custom Text (below)"
@@ -1567,4 +1569,4 @@ msgstr "Utökad länktext för sidan"
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
-msgstr "Visa Författare Arkiv Länk?"
+msgstr "Visa författarens arkivlänk?"

@@ -1,442 +1,440 @@
-# Translation of Genesis 1.8 in Romanian
+# Translation of Genesis 1.8 in Chinese (China)
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-06-21 10:52:07+0000\n"
+"PO-Revision-Date: 2012-06-21 12:55:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Genesis 1.8\n"
 
 #: 404.php:33
 msgid "Not Found, Error 404"
-msgstr "Nu poate fi găsit, Eroare 404"
+msgstr "HTTP 错误 404 - 找不到文件或目录"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Pagina pe care o cautați nu mai există. Vă puteți întoarce la <a href=\"%s\"> pagina de pornire </a> pentru a vedea dacă puteți găsi ceea ce cautați. Sau puteţi încerca să o cautați folosind informaţiile de mai jos."
+msgstr "您要查找的页面可能已被删除，已更改名称或者暂时不可用。 您可以尝试返回到本站的<a href=\"%s\">首页</a>或用以下的资源找到您要的信息。"
 
 #: 404.php:39 page_archive.php:35
 msgid "Pages:"
-msgstr "Pagini:"
+msgstr "页面："
 
 #: 404.php:44 page_archive.php:40
 msgid "Categories:"
-msgstr "Categorii:"
+msgstr "分类目录："
 
 #: 404.php:53 page_archive.php:49
 msgid "Authors:"
-msgstr "Autori:"
+msgstr "作者："
 
 #: 404.php:58 page_archive.php:54
 msgid "Monthly:"
-msgstr "Lunar:"
+msgstr "存档文章："
 
 #: 404.php:63 page_archive.php:59
 msgid "Recent Posts:"
-msgstr "Postări recente:"
+msgstr "最新文章："
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Această postare este protejată cu o parolă. Introduceţi parola pentru a vizualiza comentariile."
+msgstr "这是一篇受密码保护的文章，您需要输入密码以查看评论。"
 
 #: lib/init.php:44
 msgid "Primary Navigation Menu"
-msgstr "Meniu de navigare principal"
+msgstr "主导航菜单"
 
 #: lib/init.php:44
 msgid "Secondary Navigation Menu"
-msgstr "Meniu de navigare secundar"
+msgstr "副导航菜单"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Import / Export"
+msgstr "Genesis 导入/导出"
 
 #: lib/admin/import-export.php:46
 msgid "Import/Export"
-msgstr "Import / Export"
+msgstr "导入/导出"
 
 #: lib/admin/import-export.php:81
 msgid "Import Genesis Settings File"
-msgstr "Import setări fișiere Genesis"
+msgstr "导入Genesis设置文件"
 
 #: lib/admin/import-export.php:83
 msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
-msgstr "Incarca fisierul data  (<code>.json</code>) din calculatorul tau si noi vom importa setarile tale."
+msgstr "从本地电脑上传数据文件(<code>.json</code>)，我们会导入你的设置"
 
 #: lib/admin/import-export.php:84
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Selecteaza fisierul din calculatorul tau si da click pe \" Incarca fisier si importa\". "
+msgstr "从本地电脑选择文件，然后点击“Upload file and Import\""
 
 #: lib/admin/import-export.php:89
 msgid "Upload File: (Maximum Size: %s)"
-msgstr "Încărcare fișier: (Dimensiune maximă: %s)"
+msgstr "上传文件：（最大：%s）"
 
 #: lib/admin/import-export.php:92
 msgid "Upload File and Import"
-msgstr "Incarca fisier si importa. "
+msgstr "上传文件并导入"
 
 #: lib/admin/import-export.php:100
 msgid "Export Genesis Settings File"
-msgstr "Fișier setări export Genesis"
+msgstr "导出Genesis设置文件"
 
 #: lib/admin/import-export.php:102
 msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
-msgstr "Apasa butonul de mai jos si Genesis va genera un fisier date (<code>.json</code>) pe care tu trebuie sa il salvezi pe calculatorul tau. "
+msgstr "当你点击下面按钮时，Genesis会生成一个数据文件(<code>.json</code>)可保存到你本地电脑"
 
 #: lib/admin/import-export.php:103
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "După ce aţi salvat fişierul descărcat, puteţi utiliza funcţia de import pe un alt site pentru a importa aceste date."
+msgstr "一旦你保存了下载的文件，你可以使用导入功能将此文件导入到别的网站上。"
 
 #: lib/admin/import-export.php:110
 msgid "Download Export File"
-msgstr "Fișier export descărcare "
+msgstr "下载导出文件"
 
 #: lib/admin/import-export.php:142
 msgid "Settings successfully imported."
-msgstr "Setari importate cu succes."
+msgstr "设置已成功导入。"
 
 #: lib/admin/import-export.php:144
 msgid "There was a problem importing your settings. Please try again."
-msgstr "A apărut o problemă la importul setărilor dvs. Vă rugăm să încercaţi din nou."
+msgstr "导入设置时出现了一个问题，请重试。"
 
 #: lib/admin/import-export.php:162
 msgid "Theme Settings"
-msgstr "Setări temă"
+msgstr "主题设置"
 
 #: lib/admin/import-export.php:166
 msgid "SEO Settings"
-msgstr "Setări SEO"
+msgstr "SEO 设置"
 
 #: lib/admin/import-export.php:188
 msgid "No export options available."
-msgstr "Nu există opţiuni de export."
+msgstr "没有导入选项"
 
 #: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
 #: lib/admin/user-meta.php:153
 msgid "Theme SEO Settings"
-msgstr "Tema setari SEO."
+msgstr "主题SEO设置"
 
 #: lib/admin/inpost-metaboxes.php:54
 msgid "Custom Document Title"
-msgstr "Titlul personalizat al documentului"
+msgstr "自定义文档标题"
 
 #: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
 msgid "Characters Used: %s"
-msgstr "Caractere folosite: %s"
+msgstr "字符已经使用：%s"
 
 #: lib/admin/inpost-metaboxes.php:57
 msgid "Custom Post/Page Meta Description"
-msgstr "Postare personalizata / Descriere Meta Page"
+msgstr "自定文章/页面 Meta 描述"
 
 #: lib/admin/inpost-metaboxes.php:60
 msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr ""
-"Postare personalizată/ Meta Cuvinte cheie pentru pagină, separate\n"
-" prin virgulă"
+msgstr "自定义文章/页面 Meta 关键字，以逗号分隔"
 
 #: lib/admin/inpost-metaboxes.php:63
 msgid "Custom Canonical URI"
-msgstr "URI Generice"
+msgstr "自订义标准 URI"
 
 #: lib/admin/inpost-metaboxes.php:66
 msgid "Custom Redirect URI"
-msgstr "URI personalizat redirecționare"
+msgstr "自定义重定向URI"
 
 #: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:175
 msgid "Robots Meta Settings"
-msgstr "Robots Meta Setări"
+msgstr "Robots Meta 设置"
 
 #: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
 #: lib/admin/inpost-metaboxes.php:81
 msgid "Apply %s to this post/page"
-msgstr "Aplicaţi %s la acest post / pagină"
+msgstr "启用 %s 到这文章/页面"
 
 #: lib/admin/inpost-metaboxes.php:86
 msgid "Custom Tracking/Conversion Code"
-msgstr "Urmărire personalizată / Cod de conversie"
+msgstr "自定义跟踪/转换代码"
 
 #: lib/admin/inpost-metaboxes.php:186 lib/admin/term-meta.php:202
 #: lib/admin/user-meta.php:219
 msgid "Layout Settings"
-msgstr "Setari layout. "
+msgstr "布局设置"
 
 #: lib/admin/inpost-metaboxes.php:210 lib/admin/term-meta.php:211
 #: lib/admin/user-meta.php:229
 msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Layout stabilit implicit în <a href=\"%s\"> Setări temă </a>"
+msgstr "默认布局的设置在 <a href=\"%s\">主题设置</a>里"
 
 #: lib/admin/inpost-metaboxes.php:217
 msgid "Custom Body Class"
-msgstr "Clasa corp personalizata"
+msgstr "自定义body class"
 
 #: lib/admin/inpost-metaboxes.php:220
 msgid "Custom Post Class"
-msgstr "Clasa post personalizata"
+msgstr "自定义文章类别"
 
 #: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
 msgid "README"
-msgstr "README"
+msgstr "读我"
 
 #: lib/admin/readme-menu.php:68
 msgid "The %s file was not found in the child theme, or it was empty."
-msgstr "%s fisierul nu a fost gasit in tema inrudita, ori aceasta era goala."
+msgstr "子主题没有找到%s文件，或文件为空"
 
 #: lib/admin/seo-settings.php:43
 msgid "Genesis - SEO Settings"
-msgstr "Genesis - Setări SEO"
+msgstr "Genesis - SEO 设置"
 
 #: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:64
 #: lib/classes/admin.php:104
 msgid "Save Settings"
-msgstr "Salvaţi setările"
+msgstr "保存设置"
 
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:65
 #: lib/classes/admin.php:105
 msgid "Reset Settings"
-msgstr "Resetați setările"
+msgstr "复位设置"
 
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:66
 #: lib/classes/admin.php:106
 msgid "Settings saved."
-msgstr "Setari salvate."
+msgstr "保存设置"
 
 #: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:67
 #: lib/classes/admin.php:107
 msgid "Settings reset."
-msgstr "Setari resetate."
+msgstr "重置设置"
 
 #: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:68
 #: lib/classes/admin.php:108
 msgid "Error saving settings."
-msgstr "Eroare salvare setari."
+msgstr "保存设置出错"
 
 #: lib/admin/seo-settings.php:172
 msgid "Doctitle Settings"
-msgstr "Setări Titlu document"
+msgstr "Doctitle 设置"
 
 #: lib/admin/seo-settings.php:173
 msgid "Homepage Settings"
-msgstr "Setări Pagină de pornire"
+msgstr "首页设置"
 
 #: lib/admin/seo-settings.php:174
 msgid "Document Head Settings"
-msgstr "Setări Header document"
+msgstr "文档头 （Document Head）设置"
 
 #: lib/admin/seo-settings.php:176
 msgid "Archives Settings"
-msgstr "Setări Arhive"
+msgstr "档案设置"
 
 #: lib/admin/seo-settings.php:193
 msgid "The Document Title is the single most important SEO tag in your document source. It succinctly informs search engines of what information is contained in the document. The doctitle changes from page to page, but these options will help you control what it looks by default."
-msgstr "Titlul documentului este cea mai importanta eticheta SEO  din documentul sursa. Acesta informează succint motoarele de căutare asupra informațiilor din document. Titlul se modifică de la o pagină la alta, dar aceste opțiuni vă vor ajuta să controlați ceea ce se caută în mod implicit."
+msgstr "文档的标题是源文档中一个最重要的 SEO 标签。它简明扼要地告知搜索引擎包含于文档中的信息。Doctitle 每页皆有变化，但这选项可以帮助您控制它的默认外观。"
 
 #: lib/admin/seo-settings.php:195
 msgid "<b>By default</b>, the homepage doctitle will contain the site title, the single post and page doctitle will contain the post/page title, archive pages will contain the archive type, etc."
-msgstr "<b> În mod implicit </b>, titlul paginii de pornire va contine titlul site-ului, titlul postării unice şi paginii va conține titlul postării/ paginii, paginile de arhivă vor conţine tipul de arhivă, etc"
+msgstr "<b>默认情况下</b>，首页的 doctitle 将包含网站的标题，新加的空白文章和页面 doctitle 将包含文章/页面的标题，页面档案将包含档案类型等。"
 
 #: lib/admin/seo-settings.php:199
 msgid "Append Site Description to Doctitle on homepage?"
-msgstr "Adăugați descrierea site-ului la titlul din pagina de pornire?"
+msgstr "附加网站描述于首页的 Doctitle？"
 
 #: lib/admin/seo-settings.php:204
 msgid "Append Site Name to Doctitle on inner pages?"
-msgstr "Adăugați numele site-ului la titlul din paginile interioare?"
+msgstr "附加网站名称于内页的 Doctitle?"
 
 #: lib/admin/seo-settings.php:208
 msgid "Doctitle (%s) Append Location:"
-msgstr "Locatie adaugare titlu (%s):"
+msgstr ""
 
 #: lib/admin/seo-settings.php:209
 msgid "Determines what side the appended doctitle text will go on."
-msgstr "Determina unde se afiseaza titlu."
+msgstr ""
 
 #: lib/admin/seo-settings.php:213
 msgid "Left"
-msgstr "Stânga"
+msgstr "左"
 
 #: lib/admin/seo-settings.php:216
 msgid "Right"
-msgstr "Dreapta"
+msgstr "右"
 
 #: lib/admin/seo-settings.php:221
 msgid "Doctitle (<code>&lt;title&gt;</code>) Separator:"
-msgstr "(<code>&lt;title&gt;</code>) separator titlu:"
+msgstr ""
 
 #: lib/admin/seo-settings.php:223
 msgid "If the doctitle consists of two parts (Title &amp; Appended Text), then the Doctitle Separator will go between them."
-msgstr "Daca titlul este format din doua parti (Title &amp; Appended Text), atunci separatorul de titlu va fi inserat intre cele doua parti."
+msgstr ""
 
 #: lib/admin/seo-settings.php:244
 msgid "Which text would you like to be wrapped in %s tags?"
-msgstr "Ce text doriţi să marcaţi cu etichetele %s ?"
+msgstr "您想将哪一个文本包含在 %s tags?"
 
 #: lib/admin/seo-settings.php:245
 msgid "The %s tag is, arguably, the second most important SEO tag in the document source. Choose wisely."
-msgstr "Eticheta %s este, probabil, a doua etichetă SEO ca importanţă din documentul sursă. Alege cu înţelepciune."
+msgstr "这 %s 标签，可以说是源文档中第二个最重要的 SEO 标签。请明智的选择。"
 
 #: lib/admin/seo-settings.php:249
 msgid "Site Title"
-msgstr "Titlul site-ului"
+msgstr "网站标题"
 
 #: lib/admin/seo-settings.php:252
 msgid "Site Description"
-msgstr "Descrierea site-ului"
+msgstr "网站描述"
 
 #: lib/admin/seo-settings.php:255
 msgid "Neither. I'll manually wrap my own text on the homepage"
-msgstr "Niciuna. Voi integra manual propriul text în pagina de pornire."
+msgstr "都不是。我会自己包含我自己的文本于首页。"
 
 #: lib/admin/seo-settings.php:259
 msgid "Home Doctitle:"
-msgstr "Titlu homepage."
+msgstr ""
 
 #: lib/admin/seo-settings.php:261
 msgid "If you leave the doctitle field blank, your site&rsquo;s title will be used instead."
-msgstr "Daca nu completezi campul de titlu, va fi preluat automat titlul site&rsquo;s ."
+msgstr ""
 
 #: lib/admin/seo-settings.php:265
 msgid "Home META Description:"
-msgstr "Descriere Meta Home."
+msgstr ""
 
 #: lib/admin/seo-settings.php:267
 msgid "The META Description can be used to determine the text used under the title on search engine results pages."
-msgstr "Descrierea Meta e utilizata pentru a determina textul ce va aparea sub titlu in listele de rezultate din motoarele de cautare. "
+msgstr ""
 
 #: lib/admin/seo-settings.php:271
 msgid "Home META Keywords (comma separated):"
-msgstr "Cuvinte cheie Meta Home (separate de virgula)."
+msgstr "主页 META 关键词（逗号分隔）："
 
 #: lib/admin/seo-settings.php:273
 msgid "Keywords are generally ignored by Search Engines."
-msgstr "Cuvintele cheie sunt in general ignorate de motoarele de cautare. "
+msgstr ""
 
 #: lib/admin/seo-settings.php:276
 msgid "Homepage Robots Meta Tags:"
-msgstr "Meta Etichete pagină de pornire"
+msgstr "首页 Robots Meta 标签:"
 
 #: lib/admin/seo-settings.php:280 lib/admin/seo-settings.php:283
 #: lib/admin/seo-settings.php:286
 msgid "Apply %s to the homepage?"
-msgstr "Aplicaţi %s la pagina de pornire?"
+msgstr "启用 %s 于首页?"
 
 #: lib/admin/seo-settings.php:305
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no SEO value whatsoever. They just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "În mod implicit, WordPress include mai multe etichete în document %1$s . Cele mai multe dintre aceste etichete sunt complet inutile şi nu aduc nicio valoare SEO. Ele fac doar ca site-ul să se încarce mai lent . Alegeţi etichetele pe care vreţi să le includeţi în document %1$s . Dacă nu ştiţi ce înseamna ceva, lăsaţi-l nebifat."
+msgstr "默认情况下, WordPress 放置一些标签在您的文档中 %1$s。这些标签，大多数是完全不必要的和没有提供 SEO 的价值。它们只会让你的网站更慢的加载。选择哪一些标签你想要包含您的文档中 %1$s。 如果你不知道这是什么意思，请让他留空。"
 
 #: lib/admin/seo-settings.php:307
 msgid "Relationship Link Tags:"
-msgstr "Etichete linkuri de legătură "
+msgstr "相关链接标签："
 
 #: lib/admin/seo-settings.php:311
 msgid "Adjacent Posts %s link tags"
-msgstr "Etichete posturi invecinate %s "
+msgstr ""
 
 #: lib/admin/seo-settings.php:314
 msgid "Windows Live Writer Support:"
-msgstr "Suport Windows Live Writer:"
+msgstr "Windows Live Writer 支持:"
 
 #: lib/admin/seo-settings.php:318
 msgid "Include Windows Live Writer Support Tag?"
-msgstr "Includeți Windows Live Writer Tag?"
+msgstr "包含 Windows Live Writer 支持标签?"
 
 #: lib/admin/seo-settings.php:321
 msgid "Shortlink Tag:"
-msgstr "Etichetă Shortlink:"
+msgstr "捷径连接标签："
 
 #: lib/admin/seo-settings.php:325
 msgid "Include Shortlink tag?"
-msgstr "Includeţi eticheta Shortlink?"
+msgstr "包含捷径连接标签？"
 
 #: lib/admin/seo-settings.php:326
 msgid "The shortlink tag might have some use for 3rd party service discoverability, but it has no SEO value whatsoever."
-msgstr "E posibil ca eticheta shortlink sa fie utila, dar nu are nicio valoare SEO."
+msgstr ""
 
 #: lib/admin/seo-settings.php:348
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
-msgstr "În funcţie de situaţia dvs., puteți dori sau nu ca următoarele pagini de arhivă să fie indexate de către motoarele de căutare. Doar dvs. puteți lua această decizie."
+msgstr "依照您的情况，您可能要或不要以下的档案页面被搜索引擎索引。只有你能作出决定。"
 
 #: lib/admin/seo-settings.php:352 lib/admin/seo-settings.php:376
 msgid "Apply %s to Category Archives?"
-msgstr "Aplicați %s la arhiva de categorii?"
+msgstr "启用 %s 到分类档案?"
 
 #: lib/admin/seo-settings.php:355 lib/admin/seo-settings.php:379
 msgid "Apply %s to Tag Archives?"
-msgstr "Aplicaţi %s la arhivele de etichete?"
+msgstr "启用 %s 到标签档案?"
 
 #: lib/admin/seo-settings.php:358 lib/admin/seo-settings.php:382
 msgid "Apply %s to Author Archives?"
-msgstr "Aplicaţi %s la Arhivele Autor?"
+msgstr "启用 %s 到作者档案?"
 
 #: lib/admin/seo-settings.php:361 lib/admin/seo-settings.php:385
 msgid "Apply %s to Date Archives?"
-msgstr "Aplicaţi %s la Arhivele Data?"
+msgstr "启用 %s 到日期档案?"
 
 #: lib/admin/seo-settings.php:364 lib/admin/seo-settings.php:388
 msgid "Apply %s to Search Archives?"
-msgstr "Aplicaţi %s la arhivele de căutări?"
+msgstr "启用 %s 到搜索档案?"
 
 #: lib/admin/seo-settings.php:367
 msgid "Some search engines will cache pages in your site (e.g Google Cache). The %1$s tag will prevent them from doing so. Choose what archives you want to %1$s."
-msgstr "Unele motoare de căutare vor păstra paginile site-ului dvs. în cache (de exemplu, Google Cache). Eticheta %1$s le va împiedica să facă acest lucru. Alegeți ce arhive vreți să %1$s."
+msgstr "一些搜索引擎会缓存你的网站页面（例如：谷歌缓存）。 这 %1$s 标签将阻止它们这样做。选择哪一个档案您要 %1$s。"
 
 #: lib/admin/seo-settings.php:371
 msgid "Apply %s to Entire Site?"
-msgstr "Aplicaţi %s la tot site-ul?"
+msgstr "启用 %s 于整个网站？"
 
 #: lib/admin/seo-settings.php:391
 msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr "Ocazional, motoarele de căutare utilizează resurse precum Open Directory Project şi Yahoo Directory pentru a găsi titluri şi descrieri pentru conţinutul dvs.. În general, nu veți dori acest lucru. Etichetele %s şi %s le împiedică să facă acest lucru."
+msgstr "有时，搜索引擎使用资源如：开放目录专案 （Open Directory Project） 和雅虎！目录 （Yahoo! Directory） 来找到您的内容的标题和描述。一般来说，你不会希望他们这样做。这 %s and %s 标签将会阻止它们这样做。"
 
 #: lib/admin/seo-settings.php:395 lib/admin/seo-settings.php:398
 msgid "Apply %s to your site?"
-msgstr "Aplicaţi %s site-ului dvs.?"
+msgstr "启用 %s 于您的网站？"
 
 #: lib/admin/seo-settings.php:419
 msgid "Canonical Paginated Archives"
-msgstr "Arhive numerotate generale"
+msgstr "标准 Paginated 档案"
 
 #: lib/admin/seo-settings.php:420
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Această opțiune îndreaptă motoarele de căutare spre prima pagină a unei arhive, în cazul unei pagini formatate. Dacă nu ştiţi ce înseamnă acest lucru, treceți mai departe fără a modifica."
+msgstr "这个选项指引搜索引擎到第一页的某一档案（如果在浏览 paginated 页面）。如果你不知道这是什么意思，请忽视它。"
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr "Setari arhiva."
+msgstr ""
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr "Titlu arhiva."
+msgstr ""
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Lasa liber daca nu vrei sa afisezi un titlu."
+msgstr ""
 
 #: lib/admin/term-meta.php:66
 msgid "Archive Intro Text"
-msgstr "Text intro arhiva."
+msgstr ""
 
 #: lib/admin/term-meta.php:69
 msgid "Leave empty if you do not want to display any intro text."
-msgstr "Lasa liber daca nu vrei sa afisezi un text."
+msgstr ""
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:158
 msgid "Custom Document %s"
-msgstr "Document personalizat %s"
+msgstr "自定义文档 %s"
 
 #: lib/admin/term-meta.php:130 lib/admin/user-meta.php:165
 msgid "%s Description"
-msgstr "%s Descriere"
+msgstr "%s 描述"
 
 #: lib/admin/term-meta.php:137 lib/admin/user-meta.php:172
 msgid "%s Keywords"
-msgstr "Cuvinte cheie %s"
+msgstr "%s 标签"
 
 #: lib/admin/term-meta.php:140 lib/admin/user-meta.php:175
 msgid "Comma separated list"
-msgstr "Listă separată prin virgulă"
+msgstr "逗号分隔列表"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:180
 msgid "Robots Meta"
@@ -446,737 +444,737 @@ msgstr "Robots Meta"
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:183
 #: lib/admin/user-meta.php:185 lib/admin/user-meta.php:187
 msgid "Apply %s to this archive?"
-msgstr "Aplicaţi %s la această arhivă?"
+msgstr "启用 %s 到这档案？"
 
 #: lib/admin/term-meta.php:206 lib/admin/user-meta.php:224
 msgid "Choose Layout"
-msgstr "Alege format"
+msgstr ""
 
 #: lib/admin/theme-settings.php:85
 msgid "Follow me on Twitter"
-msgstr "Urmareste-ma pe Twitter."
+msgstr ""
 
 #: lib/admin/theme-settings.php:204
 msgid "Information"
-msgstr "Informaţii"
+msgstr "信息"
 
 #: lib/admin/theme-settings.php:207
 msgid "Color Style"
-msgstr "Stil culoare"
+msgstr ""
 
 #: lib/admin/theme-settings.php:209
 msgid "Custom Feeds"
-msgstr "Feed-uri personalizate"
+msgstr "自定义 Feeds"
 
 #: lib/admin/theme-settings.php:210
 msgid "Default Layout"
-msgstr "Layout presetat."
+msgstr ""
 
 #: lib/admin/theme-settings.php:213
 msgid "Header Settings"
-msgstr "Setari Header."
+msgstr ""
 
 #: lib/admin/theme-settings.php:216
 msgid "Navigation Settings"
-msgstr "Setari navigare."
+msgstr ""
 
 #: lib/admin/theme-settings.php:218
 msgid "Breadcrumbs"
-msgstr "Căi"
+msgstr "面包屑"
 
 #: lib/admin/theme-settings.php:219
 msgid "Comments and Trackbacks"
-msgstr "Comentarii si notificari."
+msgstr ""
 
 #: lib/admin/theme-settings.php:220
 msgid "Content Archives"
-msgstr "Arhive de conținut "
+msgstr "内容档案"
 
 #: lib/admin/theme-settings.php:221
 msgid "Blog Page"
-msgstr "Pagina blog"
+msgstr "日志页面"
 
 #: lib/admin/theme-settings.php:224
 msgid "Header and Footer Scripts"
-msgstr "Scripturi Header si Footer."
+msgstr ""
 
 #: lib/admin/theme-settings.php:265
 msgid "Version:"
-msgstr "Versiune:"
+msgstr "版本："
 
 #: lib/admin/theme-settings.php:265
 msgid "Released:"
-msgstr "Lansat:"
+msgstr "发行："
 
 #: lib/admin/theme-settings.php:269
 msgid "Display Theme Information in your document source"
-msgstr "Afișează Informații tema în documentul sursă"
+msgstr "显示主题信息于您的源文档"
 
 #: lib/admin/theme-settings.php:272
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "Aceasta optiune poate fi utila pentru rezolvarea problemelor legate de teme cand cauti solutii  <a href=\"%s\" target=\"_blank\">pe forumuri</a>."
+msgstr ""
 
 #: lib/admin/theme-settings.php:276
 msgid "Enable Automatic Updates"
-msgstr "Activează actualizările automate"
+msgstr "启用自动更新"
 
 #: lib/admin/theme-settings.php:281
 msgid "Notify"
-msgstr "Notifică"
+msgstr "通知"
 
 #: lib/admin/theme-settings.php:283
 msgid "when updates are available"
-msgstr "atunci când sunt disponibile actualizări"
+msgstr "当有可用的更新"
 
 #: lib/admin/theme-settings.php:286
 msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
-msgstr "Daca ne lasi o adresa de email, te vom anunta cand este disponibila o noua versiune Genesis."
+msgstr ""
 
 #: lib/admin/theme-settings.php:308
 msgid "Color Style:"
-msgstr "Stil culoare."
+msgstr ""
 
 #: lib/admin/theme-settings.php:310
 msgid "Default"
-msgstr "Implicit"
+msgstr ""
 
 #: lib/admin/theme-settings.php:322
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Te rugam sa selectezi stilul de culoare din lista defilanta si sa salvezi setarile."
+msgstr ""
 
 #: lib/admin/theme-settings.php:368
 msgid "Use for blog title/logo:"
-msgstr "Utilizați pentru titlu blog/ logo:"
+msgstr "使用日志的标题/标志"
 
 #: lib/admin/theme-settings.php:370
 msgid "Dynamic text"
-msgstr "Text dinamic"
+msgstr "动态文本"
 
 #: lib/admin/theme-settings.php:371
 msgid "Image logo"
-msgstr "Imagine logo"
+msgstr "图像标志"
 
 #: lib/admin/theme-settings.php:396
 msgid "Primary Navigation"
-msgstr "Navigare principala"
+msgstr "主导航"
 
 #: lib/admin/theme-settings.php:400
 msgid "Include Primary Navigation Menu?"
-msgstr "Include Meniu de navigare principal?"
+msgstr "包含主导航菜单？"
 
 #: lib/admin/theme-settings.php:406 lib/admin/theme-settings.php:451
 msgid "Enable Fancy Dropdowns?"
-msgstr "Activează liste de defilare speciale?"
+msgstr "启用花式下拉列表？"
 
 #: lib/admin/theme-settings.php:411
 msgid "Enable Extras on Right Side?"
-msgstr "Activează opțiunile suplimentare în partea dreaptă?"
+msgstr "启用右侧的附加？"
 
 #: lib/admin/theme-settings.php:416
 msgid "Display the following:"
-msgstr "Afişează următoarele:"
+msgstr "显示下列："
 
 #: lib/admin/theme-settings.php:418
 msgid "Today's date"
-msgstr "Data de azi"
+msgstr "今天的日期"
 
 #: lib/admin/theme-settings.php:419
 msgid "RSS feed links"
-msgstr "RSS feed link-uri"
+msgstr "RSS feed 链接"
 
 #: lib/admin/theme-settings.php:420
 msgid "Search form"
-msgstr "Formular de căutare"
+msgstr "搜索表单"
 
 #: lib/admin/theme-settings.php:421
 msgid "Twitter link"
-msgstr "Link Twitter"
+msgstr "Twitter 链接"
 
 #: lib/admin/theme-settings.php:426
 msgid "Enter Twitter ID:"
-msgstr "Introduceţi ID-ul Twitter:"
+msgstr "输入 Twitter ID:"
 
 #: lib/admin/theme-settings.php:430
 msgid "Twitter Link Text:"
-msgstr "Twitter Link Text:"
+msgstr "Twitter 链接文本:"
 
 #: lib/admin/theme-settings.php:441
 msgid "Secondary Navigation"
-msgstr "Navigare secundară"
+msgstr "副导航"
 
 #: lib/admin/theme-settings.php:445
 msgid "Include Secondary Navigation Menu?"
-msgstr "Includeţi Meniu de navigare secundar?"
+msgstr "包含副导航菜单？"
 
 #: lib/admin/theme-settings.php:458
 msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr "Pentru a putea utiliza meniurile de navigare, trebuie sa creezi un <a href=\"%s\">custom menu</a>, apoi sa il atribui in locatia corecta din meniu."
+msgstr ""
 
 #: lib/admin/theme-settings.php:477
 msgid "Enter your custom feed URI:"
-msgstr "Introduceţi feed personalizat URI:"
+msgstr "输入您的自定义 feed URI："
 
 #: lib/admin/theme-settings.php:481 lib/admin/theme-settings.php:489
 msgid "Redirect Feed?"
-msgstr "Redirecționați Feed?"
+msgstr "重定向 Feed?"
 
 #: lib/admin/theme-settings.php:485
 msgid "Enter your custom comments feed URI:"
-msgstr "Enter your custom comments feed URI:"
+msgstr "输入您的自定义评论 feed URI："
 
 #: lib/admin/theme-settings.php:492
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Daca feedurile personalizate nu sunt gestionate de Feedburner, nu recomandam utilizarea optiunilor de redirectionare. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:511
 msgid "Enable Comments"
-msgstr "Activează Comentarii"
+msgstr "启用评论"
 
 #: lib/admin/theme-settings.php:513 lib/admin/theme-settings.php:522
 msgid "on posts?"
-msgstr "la postări?"
+msgstr "在文章？"
 
 #: lib/admin/theme-settings.php:516 lib/admin/theme-settings.php:525
 msgid "on pages?"
-msgstr "pe pagini?"
+msgstr "在页面？"
 
 #: lib/admin/theme-settings.php:520
 msgid "Enable Trackbacks"
-msgstr "Activează Urmăritori"
+msgstr "启用引用（Trackbacks）"
 
 #: lib/admin/theme-settings.php:528
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr "Comentariile si urmaritorii pot fi dezactivate per post/ pagina cand se creaza/ editeaza posturile/ paginile. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:546
 msgid "Enable on:"
-msgstr "Activeaza pe:"
+msgstr ""
 
 #: lib/admin/theme-settings.php:549
 msgid "Front Page"
-msgstr "Front page"
+msgstr ""
 
 #: lib/admin/theme-settings.php:552
 msgid "Posts"
-msgstr "Postări"
+msgstr "文章"
 
 #: lib/admin/theme-settings.php:555
 msgid "Pages"
-msgstr "Pagini"
+msgstr ""
 
 #: lib/admin/theme-settings.php:558
 msgid "Archives"
-msgstr "Arhive"
+msgstr ""
 
 #: lib/admin/theme-settings.php:561
 msgid "404 Page"
-msgstr "Pagina 404"
+msgstr ""
 
 #: lib/admin/theme-settings.php:564
 msgid "Attachment Page"
-msgstr "Atasare pagina"
+msgstr ""
 
 #: lib/admin/theme-settings.php:567
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Caile sunt o modalitate excelenta de a informa vizitatorii unde se afla in site. Le poti activa/ dezactiva pe anumite zone ale siteului. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:587
 msgid "Select one of the following:"
-msgstr "Selectaţi una din următoarele:"
+msgstr "选择下列其一："
 
 #: lib/admin/theme-settings.php:593
 msgid "Display post content"
-msgstr "Afișează conținutul postării"
+msgstr "显示文章内容"
 
 #: lib/admin/theme-settings.php:594
 msgid "Display post excerpts"
-msgstr "Afișează fragmente din postare"
+msgstr "显示文章摘要"
 
 #: lib/admin/theme-settings.php:605
 msgid "Limit content to"
-msgstr "Limitează conținutul la"
+msgstr "限制内容到"
 
 #: lib/admin/theme-settings.php:607
 msgid "characters"
-msgstr "caractere"
+msgstr "字符"
 
 #: lib/admin/theme-settings.php:610
 msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
-msgstr "Folosind aceasta optiuni, vei limita textul si anula formatarile pe textul afisat. Pentru a utiliza optiunea, alege \"Afiseaza continut postare\" din lista de deasupra. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:615
 msgid "Include the Featured Image?"
-msgstr "Includeți imaginea recomandată?"
+msgstr ""
 
 #: lib/admin/theme-settings.php:619
 msgid "Image Size:"
-msgstr "Dimensiune imagine:"
+msgstr ""
 
 #: lib/admin/theme-settings.php:630
 msgid "Select Post Navigation Technique:"
-msgstr "Selectați modalitatea de navigare în postare:"
+msgstr "选取文章导航技术"
 
 #: lib/admin/theme-settings.php:632
 msgid "Older / Newer"
-msgstr "Mai vechi / mai noi"
+msgstr "下页/上页"
 
 #: lib/admin/theme-settings.php:633
 msgid "Previous / Next"
-msgstr "Anterioară / următoare"
+msgstr "下一页/上一页"
 
 #: lib/admin/theme-settings.php:634
 msgid "Numeric"
-msgstr "Numeric"
+msgstr "数字"
 
 #: lib/admin/theme-settings.php:638
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr "Aceste optiuni se vor aplica tuturor paginilor de listare, inclusiv arhive, autor, blog, categorie, cautare si etichete."
+msgstr ""
 
 #: lib/admin/theme-settings.php:657
 msgid "Display which category:"
-msgstr "Afișează ce categorie:"
+msgstr "显示那一个分类："
 
 #: lib/admin/theme-settings.php:658
 msgid "All Categories"
-msgstr "Toate categoriile"
+msgstr "所有分类"
 
 #: lib/admin/theme-settings.php:662
 msgid "Exclude the following Category IDs:"
-msgstr "Exclude următoarele ID-uri de categorie:"
+msgstr "排除下列的分类 ID："
 
 #: lib/admin/theme-settings.php:664
 msgid "Comma separated - 1,2,3 for example"
-msgstr "Separate prin virgulă - de exemplu 1,2,3"
+msgstr "逗号分隔 - 例如：1,2,3"
 
 #: lib/admin/theme-settings.php:669
 msgid "Number of Posts to Show:"
-msgstr "Numarul de postari afisate:"
+msgstr ""
 
 #: lib/admin/theme-settings.php:690 lib/admin/theme-settings.php:700
 msgid "Enter scripts or code you would like output to %s:"
-msgstr "Introdu scriptul sau codul pe care vrei sa il integrezi in %s:"
+msgstr ""
 
 #: lib/admin/theme-settings.php:695 lib/admin/theme-settings.php:705
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr "%1$s carligul este executat imediat inaintea inchiderii %2$s etichetei in documentul sursa."
+msgstr ""
 
 #: lib/admin/user-meta.php:40
 msgid "User Permissions"
-msgstr "Permisiuni Utilizator."
+msgstr ""
 
 #: lib/admin/user-meta.php:44
 msgid "Genesis Admin Menus"
-msgstr "Meniuri Admin Genesis"
+msgstr ""
 
 #: lib/admin/user-meta.php:47
 msgid "Enable Genesis Admin Menu?"
-msgstr "Activează meniul Admin Genesis?"
+msgstr ""
 
 #: lib/admin/user-meta.php:49
 msgid "Enable SEO Settings Submenu?"
-msgstr "Activează Submeniul Setări SEO?"
+msgstr ""
 
 #: lib/admin/user-meta.php:51
 msgid "Enable Import/Export Submenu?"
-msgstr "Activează Import / Export Submeniu?"
+msgstr ""
 
 #: lib/admin/user-meta.php:88
 msgid "Author Archive Settings"
-msgstr "Setari arhiva autor."
+msgstr ""
 
 #: lib/admin/user-meta.php:89 lib/admin/user-meta.php:154
 #: lib/admin/user-meta.php:220
 msgid "These settings apply to this author's archive pages."
-msgstr "Aceste setări se aplică la arhiva de pagini a acestui autor."
+msgstr ""
 
 #: lib/admin/user-meta.php:93
 msgid "Custom Archive Headline"
-msgstr "Denumire arhivă personalizată"
+msgstr ""
 
 #: lib/admin/user-meta.php:96
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "Va afișa eticheta %s în partea de sus a primei pagini"
+msgstr ""
 
 #: lib/admin/user-meta.php:101
 msgid "Custom Description Text"
-msgstr "Text descriere personalizată"
+msgstr ""
 
 #: lib/admin/user-meta.php:104
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr "Acest text va fi primul paragraf  şi va fi afișat pe prima pagină"
+msgstr ""
 
 #: lib/admin/user-meta.php:109
 msgid "Author Box"
-msgstr "Caseta Autor"
+msgstr "作者框"
 
 #: lib/admin/user-meta.php:112
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Activează Caseta Autor în postările acestui utilizator?"
+msgstr ""
 
 #: lib/admin/user-meta.php:114
 msgid "Enable Author Box on this User's Archives?"
-msgstr "Activează Caseta Autor în arhivele acest utilizator?"
+msgstr ""
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Nu poti utiliza %s pentru a crea doua meniuri in aceeasi subclasa. Te rugam sa folosesti subclase separate pentru fiecare meniu."
+msgstr ""
 
 #: lib/classes/admin.php:415 lib/classes/admin.php:424
 #: lib/classes/admin.php:527 lib/classes/admin.php:546
 msgid "Are you sure you want to reset?"
-msgstr "Sunteţi sigur că doriţi să resetaţi?"
+msgstr "您肯定您要复位吗？"
 
 #: lib/classes/breadcrumb.php:53
 msgid "Home"
-msgstr "Acasa"
+msgstr "首页"
 
 #: lib/classes/breadcrumb.php:62
 msgid "You are here: "
-msgstr "Sunteţi aici:"
+msgstr "你在这："
 
 #: lib/classes/breadcrumb.php:63 lib/classes/breadcrumb.php:64
 #: lib/classes/breadcrumb.php:65 lib/classes/breadcrumb.php:66
 #: lib/classes/breadcrumb.php:68 lib/classes/breadcrumb.php:69
 msgid "Archives for "
-msgstr "Arhive pentru"
+msgstr "。。。的档案"
 
 #: lib/classes/breadcrumb.php:67
 msgid "Search for "
-msgstr "Caută"
+msgstr "搜索"
 
 #: lib/classes/breadcrumb.php:70
 msgid "Not found: "
-msgstr "Nu a fost găsit:"
+msgstr ""
 
 #: lib/classes/breadcrumb.php:119 lib/classes/breadcrumb.php:214
 #: lib/classes/breadcrumb.php:315
 msgid "View %s"
-msgstr "Vezi %s"
+msgstr ""
 
 #: lib/classes/breadcrumb.php:247 lib/classes/breadcrumb.php:251
 #: lib/classes/breadcrumb.php:256
 msgid "(Edit)"
-msgstr "(Editează)"
+msgstr "（编辑）"
 
 #: lib/classes/breadcrumb.php:264 lib/classes/breadcrumb.php:273
 msgid "View archives for %s"
-msgstr "Vezi arhivele pentru %s"
+msgstr ""
 
 #: lib/classes/breadcrumb.php:279
 msgid "View archives for %s %s"
-msgstr "Vezi arhivele pentru %s %s"
+msgstr ""
 
 #: lib/classes/breadcrumb.php:334
 msgid "View all posts in %s"
-msgstr "Vezi toate postările din %s"
+msgstr "检视所有文章在 %s"
 
 #: lib/classes/breadcrumb.php:355
 msgid "View all %s"
-msgstr "Vezi toate %s"
+msgstr ""
 
 #: lib/classes/breadcrumb.php:418
 msgid "View all items in %s"
-msgstr "Vezi toate elementele din %s"
+msgstr ""
 
 #: lib/functions/admin.php:15
 msgid "This file no longer needs to be included."
-msgstr "Nu este nevoie sa mai incluzi acest document."
+msgstr ""
 
 #: lib/functions/formatting.php:291
 msgid "seconds"
-msgstr "Secunde"
+msgstr ""
 
 #: lib/functions/formatting.php:326
 msgid "and"
-msgstr "si"
+msgstr ""
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
-msgstr "Continut-Bara."
+msgstr ""
 
 #: lib/functions/layout.php:46
 msgid "Sidebar-Content"
-msgstr "Bara-Continut. "
+msgstr ""
 
 #: lib/functions/layout.php:54
 msgid "Content-Sidebar-Sidebar"
-msgstr "Continut-Bara-Bara."
+msgstr ""
 
 #: lib/functions/layout.php:62
 msgid "Sidebar-Sidebar-Content"
-msgstr "Bara-Bara-Continut."
+msgstr ""
 
 #: lib/functions/layout.php:70
 msgid "Sidebar-Content-Sidebar"
-msgstr "Bara-Continut-Bara."
+msgstr ""
 
 #: lib/functions/layout.php:78
 msgid "Full Width Content"
-msgstr "Lățime maximă de conținut"
+msgstr "全宽内容"
 
 #: lib/functions/layout.php:122
 msgid "No Label Selected"
-msgstr "Nu au fost selectate etichete"
+msgstr ""
 
 #: lib/functions/menu.php:74
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr "Argumentul \"context\" a fost inlocuit cu \"theme_location\" in sirul $args."
+msgstr ""
 
 #: lib/functions/seo.php:118
 msgid "Have you tried our Scribe SEO software? Do keyword research, content optimization, and link building without leaving WordPress. <b>Genesis owners save over 50&#37; using the promo code FIRST when you sign up</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr "Ai incercat softul nostru Scribe SEO? Cauta cuvinte cheie, optimizeaza continutul si fa link building fara sa iesi din Wordpress. <b> Clientii Genesis pot economisi pana la 50&#37; utilizand codul promo FIRST la inregistrare</b>. <a href=\"%s\" target=\"_blank\">Click pentru mai multe detalii</a>."
+msgstr ""
 
 #: lib/functions/seo.php:120
 msgid "Dismiss"
-msgstr "Renunta"
+msgstr ""
 
 #: lib/functions/upgrade.php:376
 msgid "Congratulations! You are now rocking Genesis %s"
-msgstr "Felicitări! Aveți la degetul mic Genesis %s"
+msgstr ""
 
 #: lib/functions/upgrade.php:401
 msgid "Click here to complete the upgrade"
-msgstr "Click aici pentru a finaliza actualizarea"
+msgstr "点击这里来完成升级"
 
 #: lib/functions/upgrade.php:426
 msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s este disponibil. <a href=\"%s\" class=\"thickbox thickbox-preview\"> Vezi noutățile </a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\"> actualizează acum </a>."
+msgstr "Genesis %s 已可用。 <a href=\"%s\" class=\"thickbox thickbox-preview\">看看有什么新事物</a> 或 <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">现在升级</a>。"
 
 #: lib/functions/upgrade.php:430
 msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
-msgstr "Actualizarea Genesis va înlocui setările actuale ale Genesis. Eşti sigur că dorești să faci această actualizare?  Apasă \"Cancel\" pentru a opri, \"OK\" pentru a actualiza."
+msgstr "升级 Genesis 将盖写当前安装的 Genesis 版本。你确定要升级？。\"取消\" 以作停止, \"是的\" 以作升级。"
 
 #: lib/functions/upgrade.php:472
 msgid "Genesis %s is available for %s"
-msgstr "Genesis %s este disponibil pentru %s"
+msgstr "Genesis %s 已可用于 %s"
 
 #: lib/functions/upgrade.php:473
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s este acum disponibil. Am furnizat actualizări rapide pentru această temă, vă rugăm să vă conectați și să realizați actualizarea cât mai curând posibil."
+msgstr "Genesis %s 现在已可用。 我们已为这个主题提供‘一键更新’，所以当您方便时，尽早登录您的控制面板更新主题。"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Left"
-msgstr "Antet stanga"
+msgstr ""
 
 #: lib/functions/widgetize.php:63
 msgid "Header Right"
-msgstr "Antet dreapta"
+msgstr ""
 
 #: lib/functions/widgetize.php:64
 msgid "This is the widget area in the header."
-msgstr "Aceasta este zona widget din antet."
+msgstr ""
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
-msgstr "Bara principală"
+msgstr ""
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "Aceasta este bara principala daca utilizezi layoutul cu doua sau trei coloane."
+msgstr ""
 
 #: lib/functions/widgetize.php:79
 msgid "Secondary Sidebar"
-msgstr "Bara secundară"
+msgstr ""
 
 #: lib/functions/widgetize.php:80
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "Aceasta este bara secundara in cazul in care utilizezi layoutul cu trei coloane."
+msgstr ""
 
 #: lib/functions/widgetize.php:112
 msgid "Footer %d"
-msgstr "Subsol %d"
+msgstr ""
 
 #: lib/functions/widgetize.php:113
 msgid "Footer %d widget area."
-msgstr "Zona widget in Footer %d."
+msgstr ""
 
 #: lib/js/load-scripts.php:86
 msgid "Select / Deselect All"
-msgstr "Selectează / Deselectează Toate"
+msgstr ""
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Revenire la partea de sus a paginii"
+msgstr "回到页面顶部"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
-msgstr "de"
+msgstr "由"
 
 #: lib/shortcodes/footer.php:241
 msgid "Log in"
-msgstr "Autentificare"
+msgstr "登录"
 
 #: lib/shortcodes/footer.php:243
 msgid "Log out"
-msgstr "Ieșire din cont"
+msgstr "登出"
 
 #: lib/shortcodes/post.php:43
 msgid "ago"
-msgstr "în urmă"
+msgstr ""
 
 #: lib/shortcodes/post.php:140
 msgid "Visit %s&#8217;s website"
-msgstr "Vizitaţi site-ul %s&#8217;"
+msgstr "访问 %s&#8217;s 网站"
 
 #: lib/shortcodes/post.php:205
 msgid "% Comments"
-msgstr "% Comentarii"
+msgstr "% 评论"
 
 #: lib/shortcodes/post.php:206
 msgid "1 Comment"
-msgstr "1 Comentariu"
+msgstr "1 评论"
 
 #: lib/shortcodes/post.php:207
 msgid "Leave a Comment"
-msgstr "Lăsaţi un comentariu"
+msgstr "留言"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
-msgstr "Etichetate cu:"
+msgstr "标签："
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Arhivate la:"
+msgstr "档案于："
 
 #: lib/structure/comments.php:56
 msgid "<h3>Comments</h3>"
-msgstr "<h3> Comentarii  </h3>"
+msgstr "<h3>评论</h3>"
 
 #: lib/structure/comments.php:107
 msgid "<h3>Trackbacks</h3>"
-msgstr " <h3> Urmăritori </h3>"
+msgstr "<h3>引用 （Trackbacks）</h3>"
 
 #: lib/structure/comments.php:176
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
-msgstr "<cite class=\"fn\">%s </cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:176
 msgid "says"
-msgstr "spune"
+msgstr "说"
 
 #: lib/structure/comments.php:180
 msgid "%1$s at %2$s"
-msgstr "%1$s la %2$s"
+msgstr "%1$s 在 %2$s"
 
 #: lib/structure/comments.php:181
 msgid "Edit"
-msgstr "Editare"
+msgstr "编辑"
 
 #: lib/structure/comments.php:186
 msgid "Your comment is awaiting moderation."
-msgstr "Comentariul dvs. așteaptă validarea moderatorului."
+msgstr "您的评论正在等待审核。"
 
 #: lib/structure/comments.php:243
 msgid "Name"
-msgstr "Nume"
+msgstr "姓名"
 
 #: lib/structure/comments.php:249
 msgid "Email"
-msgstr "E-mail"
+msgstr "电邮地址（Email）"
 
 #: lib/structure/comments.php:255
 msgid "Website"
-msgstr "Website"
+msgstr "网站"
 
 #: lib/structure/comments.php:269
 msgid "Speak Your Mind"
-msgstr "Spune-ți părerea"
+msgstr "说出您的感想"
 
 #: lib/structure/footer.php:111
 msgid "Copyright"
-msgstr "Drepturi de autor"
+msgstr "版权"
 
 #: lib/structure/footer.php:111
 msgid "on"
-msgstr "pe"
+msgstr ""
 
 #: lib/structure/loops.php:191
 msgid "Read more&hellip;"
-msgstr "Citește mai mult &hellip;"
+msgstr ""
 
 #: lib/structure/loops.php:200
 msgid "You are using invalid arguments with the %s function."
-msgstr "Folosiți argumente invalide cu funcția %s."
+msgstr ""
 
 #: lib/structure/menu.php:175
 msgid "Comments"
-msgstr "Comentarii"
+msgstr "评论"
 
 #: lib/structure/post.php:189 lib/structure/post.php:191
 msgid "[Read more...]"
-msgstr "[Citeşte mai mult ...]"
+msgstr "[阅读全文...]"
 
 #: lib/structure/post.php:208
 msgid "Sorry, no posts matched your criteria."
-msgstr "Ne pare rău, nu există postări pentru această căutare."
+msgstr "对不起，没有文章能符合您的标准。"
 
 #: lib/structure/post.php:234 lib/widgets/featured-post-widget.php:51
 msgid "By"
-msgstr "De"
+msgstr "由"
 
 #: lib/structure/post.php:308
 msgid "About"
-msgstr "Despre"
+msgstr "关于"
 
 #: lib/structure/post.php:348
 msgid "Older Posts"
-msgstr "Postări mai vechi"
+msgstr "下页"
 
 #: lib/structure/post.php:349
 msgid "Newer Posts"
-msgstr "Postări mai noi"
+msgstr "上页"
 
 #: lib/structure/post.php:370 lib/structure/post.php:434
 msgid "Previous Page"
-msgstr "Pagina anterioară"
+msgstr ""
 
 #: lib/structure/post.php:371 lib/structure/post.php:464
 msgid "Next Page"
-msgstr "Pagina următoare"
+msgstr ""
 
 #: lib/structure/search.php:25
 msgid "Search this website %s"
-msgstr "Caută în site %s"
+msgstr ""
 
 #: lib/structure/search.php:27
 msgid "Search"
-msgstr "Căutare"
+msgstr "搜索"
 
 #: lib/structure/sidebar.php:24
 msgid "Primary Sidebar Widget Area"
-msgstr "Bara principală de Widgeturi"
+msgstr "主侧栏小工具区"
 
 #: lib/structure/sidebar.php:27
 msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Aceasta este coloana laterala principala pentru widget-uri. Puteţi adăuga conţinut în această zonă vizitând <a href=\"%s\"> Widgets Panel </a> şi adăugând noi widget-uri."
+msgstr "这是主侧栏小工具区. 您可以访问 <a href=\"%s\">小工具面板</a>来加入您的内容或加入新的小工具于这区。"
 
 #: lib/structure/sidebar.php:45
 msgid "Secondary Sidebar Widget Area"
-msgstr "Secondary Sidebar Widget Area"
+msgstr "副侧栏小工具区"
 
 #: lib/structure/sidebar.php:48
 msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Aceasta este coloana laterala secundara pentru widget-uri. Puteţi adăuga conţinut în această zonă vizitând <a href=\"%s\"> Widgets Panel </a> şi adăugând noi widget-uri. "
+msgstr "这是副侧栏小工具区. 您可以访问<a href=\"%s\">小工具面板</a>来加入您的内容或加入新的小工具于这区。"
 
 #: lib/tools/post-templates.php:132
 msgid "Single Post Template"
-msgstr "Șablon postare unică"
+msgstr "新加空白文章模板"
 
 #: lib/tools/post-templates.php:157
 msgid "Post Template"
-msgstr "Șablon postare"
+msgstr "文章模板"
 
 #: lib/tools/post-templates.php:162
 msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
-msgstr "Unele teme au șabloane personalizate pe care le puteţi folosi pentru postările unice care ar putea avea caracteristici suplimentare sau machete personalizate. Dacă doriți, le veți vedea mai sus."
+msgstr "某些主题有自定义的模板，可能有附加特点和自定义布局，您能使用它于新加空白文章。如果有，你会在上列会看到它们。"
 
 #: lib/widgets/enews-widget.php:44
 msgid "Displays Feedburner email subscribe form"
-msgstr "Afișează formularul de abonare pe e-mail la FeedBurner "
+msgstr "显示 Feedburner 电子邮件订阅表格"
 
 #: lib/widgets/enews-widget.php:47
 msgid "Genesis - eNews and Updates"
-msgstr "Genesis - eNews şi Actualizări"
+msgstr "Genesis - e 新闻和更新"
 
 #: lib/widgets/enews-widget.php:115 lib/widgets/featured-page-widget.php:165
 #: lib/widgets/featured-post-widget.php:221
@@ -1185,62 +1183,62 @@ msgstr "Genesis - eNews şi Actualizări"
 #: lib/widgets/latest-tweets-widget.php:181
 #: lib/widgets/user-profile-widget.php:136
 msgid "Title"
-msgstr "Titlu"
+msgstr "标题"
 
 #: lib/widgets/enews-widget.php:120
 msgid "Text To Show"
-msgstr "Text pentru afișare"
+msgstr "要显示的文本"
 
 #: lib/widgets/enews-widget.php:125
 msgid "Google/Feedburner ID"
-msgstr "ID Google/ Feedburner"
+msgstr "谷歌 Google/Feedburner ID"
 
 #: lib/widgets/enews-widget.php:130
 msgid "Enter your email address..."
-msgstr "Introduceți adresa de e-mail ..."
+msgstr "输入您的电子邮件地址。。。"
 
 #: lib/widgets/enews-widget.php:131
 msgid "Input Text"
-msgstr "Text de inserat"
+msgstr "输入文本"
 
 #: lib/widgets/enews-widget.php:136
 msgid "Go"
-msgstr "Du-te"
+msgstr "提交"
 
 #: lib/widgets/enews-widget.php:137
 msgid "Button Text"
-msgstr "Buton Text"
+msgstr "按钮文本"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "Afişează miniatura imagine pentru pagina speciala"
+msgstr "显示特色页面和它的缩略图。"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Pagină recomandată"
+msgstr "Genesis - 特色页面"
 
 #: lib/widgets/featured-page-widget.php:104
 msgid "by"
-msgstr "de"
+msgstr "由"
 
 #: lib/widgets/featured-page-widget.php:170
 msgid "Page"
-msgstr "Pagină"
+msgstr "页面"
 
 #: lib/widgets/featured-page-widget.php:178
 #: lib/widgets/featured-post-widget.php:307
 msgid "Show Featured Image"
-msgstr "Arată imaginea recomandată"
+msgstr ""
 
 #: lib/widgets/featured-page-widget.php:182
 #: lib/widgets/featured-post-widget.php:311
 msgid "Image Size"
-msgstr "Dimensiune imagine"
+msgstr "图像尺寸"
 
 #: lib/widgets/featured-page-widget.php:194
 #: lib/widgets/featured-post-widget.php:323
 msgid "Image Alignment"
-msgstr "Aliniere imagine"
+msgstr "图像对齐"
 
 #: lib/widgets/featured-page-widget.php:196
 #: lib/widgets/featured-post-widget.php:295
@@ -1248,68 +1246,68 @@ msgstr "Aliniere imagine"
 #: lib/widgets/user-profile-widget.php:160
 #: lib/widgets/user-profile-widget.php:180
 msgid "None"
-msgstr "Niciunul"
+msgstr "没有"
 
 #: lib/widgets/featured-page-widget.php:206
 msgid "Show Page Title"
-msgstr "Afișează titlul paginii"
+msgstr "显示页面标题"
 
 #: lib/widgets/featured-page-widget.php:211
 msgid "Show Page Byline"
-msgstr "Afișează numele paginii"
+msgstr "显示页面署名"
 
 #: lib/widgets/featured-page-widget.php:216
 msgid "Show Page Content"
-msgstr "Afișează conținutul paginii"
+msgstr "显示页面内容"
 
 #: lib/widgets/featured-page-widget.php:220
 msgid "Content Character Limit"
-msgstr "Limită caractere conținut"
+msgstr "内容文字限制"
 
 #: lib/widgets/featured-page-widget.php:225
 msgid "More Text"
-msgstr "Mai mult text"
+msgstr "更多文本"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "[Read More...]"
-msgstr "[Citește mai mult ...]"
+msgstr "[阅读全文...]"
 
 #: lib/widgets/featured-post-widget.php:58
 msgid "More Posts from this Category"
-msgstr "Mai multe postări din această categorie"
+msgstr "这分类更多的文章"
 
 #: lib/widgets/featured-post-widget.php:63
 msgid "Displays featured posts with thumbnails"
-msgstr "Afișează miniatură imagine pentru postările speciale"
+msgstr "显示特色文章和它的缩略图"
 
 #: lib/widgets/featured-post-widget.php:72
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Postări recomandate"
+msgstr "Genesis - 特色文章"
 
 #: lib/widgets/featured-post-widget.php:230
 msgid "Category"
-msgstr "Categorie"
+msgstr "分类"
 
 #: lib/widgets/featured-post-widget.php:244
 #: lib/widgets/featured-post-widget.php:382
 msgid "Number of Posts to Show"
-msgstr "Numărul de postări afișate"
+msgstr "显示文章的数量"
 
 #: lib/widgets/featured-post-widget.php:249
 msgid "Number of Posts to Offset"
-msgstr "Numărul de postări la offset"
+msgstr "抵消文章的数量"
 
 #: lib/widgets/featured-post-widget.php:254
 msgid "Order By"
-msgstr "Ordonează după"
+msgstr "依序排列"
 
 #: lib/widgets/featured-post-widget.php:256
 msgid "Date"
-msgstr "Dată"
+msgstr "日期"
 
 #: lib/widgets/featured-post-widget.php:258
 msgid "Parent"
-msgstr "Parent"
+msgstr "父级"
 
 #: lib/widgets/featured-post-widget.php:259
 msgid "ID"
@@ -1317,256 +1315,256 @@ msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:260
 msgid "Comment Count"
-msgstr "Total comentarii"
+msgstr "评语计数"
 
 #: lib/widgets/featured-post-widget.php:261
 msgid "Random"
-msgstr "La întâmplare"
+msgstr "随机"
 
 #: lib/widgets/featured-post-widget.php:266
 msgid "Sort Order"
-msgstr "Ordine de sortare"
+msgstr "排序"
 
 #: lib/widgets/featured-post-widget.php:268
 msgid "Descending (3, 2, 1)"
-msgstr "Descrescătoare (3, 2, 1)"
+msgstr "递减 (3,2,1)"
 
 #: lib/widgets/featured-post-widget.php:269
 msgid "Ascending (1, 2, 3)"
-msgstr "Crescătoare (1, 2, 3)"
+msgstr "升序 (1,2,3)"
 
 #: lib/widgets/featured-post-widget.php:279
 msgid "Show Author Gravatar"
-msgstr "Afișează Gravatar-ul autorului"
+msgstr "显示作者的 Gravatar"
 
 #: lib/widgets/featured-post-widget.php:283
 #: lib/widgets/user-profile-widget.php:146
 msgid "Gravatar Size"
-msgstr "Dimensiune Gravatar"
+msgstr "Gravatar 尺寸"
 
 #: lib/widgets/featured-post-widget.php:285
 msgid "Small (45px)"
-msgstr "Mic (45pixeli)"
+msgstr "小 (45px)"
 
 #: lib/widgets/featured-post-widget.php:286
 msgid "Medium (65px)"
-msgstr "Mediu (65pixeli)"
+msgstr "中 (65px)"
 
 #: lib/widgets/featured-post-widget.php:287
 msgid "Large (85px)"
-msgstr "Mare (85pixeli)"
+msgstr "大 (85px)"
 
 #: lib/widgets/featured-post-widget.php:288
 msgid "Extra Large (125px)"
-msgstr "Foarte mare (125pixeli)"
+msgstr "特大 (125px)"
 
 #: lib/widgets/featured-post-widget.php:293
 #: lib/widgets/user-profile-widget.php:158
 msgid "Gravatar Alignment"
-msgstr "Aliniere Gravatar "
+msgstr "Gravatar 对齐"
 
 #: lib/widgets/featured-post-widget.php:341
 msgid "Show Post Title"
-msgstr "Afișează titlu postare "
+msgstr "显示文章标题"
 
 #: lib/widgets/featured-post-widget.php:346
 msgid "Show Post Info"
-msgstr "Arată Info postare"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:351
 msgid "Content Type"
-msgstr "Tip conţinut"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:353
 msgid "Show Content"
-msgstr "Arată conținut"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:354
 msgid "Show Excerpt"
-msgstr "Arată fragment"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:355
 msgid "Show Content Limit"
-msgstr "Arată limita de conținut"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:356
 msgid "No Content"
-msgstr "Niciun conţinut"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:366
 msgid "More Text (if applicable)"
-msgstr "Mai mult text (dacă este cazul)"
+msgstr "更多文本（如合用）"
 
 #: lib/widgets/featured-post-widget.php:374
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Pentru a afişa o listă neordonată cu mai multe postări din această categorie, vă rugăm să completaţi informaţiile de mai jos"
+msgstr "如要显示此类别的更多文章于无序列表，请填写下列的信息："
 
 #: lib/widgets/featured-post-widget.php:392
 msgid "Show Category Archive Link"
-msgstr "Arată linkul către arhiva de categorie"
+msgstr "显示类别档案链接"
 
 #: lib/widgets/featured-post-widget.php:396
 msgid "Link Text"
-msgstr "Text Link"
+msgstr "链接文本"
 
 #: lib/widgets/latest-tweets-widget.php:49
 msgid "Display a list of your latest tweets."
-msgstr "Afiseaza o lista cu cele mai recente tweets. "
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:58
 msgid "Genesis - Latest Tweets"
-msgstr "Genesis - Ultimele Tweets"
+msgstr "Genesis - 最新 Tweets"
 
 #: lib/widgets/latest-tweets-widget.php:98
 msgid "The Twitter API is taking too long to respond. Please try again later."
-msgstr "API-ul Twitter se încarcă foarte greu. Vă rugăm să încercaţi din nou mai târziu."
+msgstr "Twitter 的 API 用了太多的时间回应。请稍后再试。"
 
 #: lib/widgets/latest-tweets-widget.php:101
 msgid "There was an error while attempting to contact the Twitter API. Please try again."
-msgstr "A apărut o eroare în timp ce încercam conectarea cu API Twitter. Vă rugăm să încercaţi din nou."
+msgstr "有一个错误，当试图联系 Twitter 的 API。请再试一次。"
 
 #: lib/widgets/latest-tweets-widget.php:104
 msgid "The Twitter API returned an error while processing your request. Please try again."
-msgstr "API-ul Twitter a returnat o eroare în timpul procesării cererii dumneavoastră. Vă rugăm să încercaţi din nou."
+msgstr "Twitter的 API返回一个错误，当在处理您的请求。请再试一次。"
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
-msgstr "aproximativ %s în urmă"
+msgstr "大约 %s 之前"
 
 #: lib/widgets/latest-tweets-widget.php:186
 msgid "Twitter Username"
-msgstr "Nume de utilizator Twitter"
+msgstr "Twitter 用户名"
 
 #: lib/widgets/latest-tweets-widget.php:191
 msgid "Number of Tweets to Show"
-msgstr "Numărul de Tweets afișate"
+msgstr "显示 Tweets 的数量"
 
 #: lib/widgets/latest-tweets-widget.php:197
 msgid "Hide @ Replies"
-msgstr "Ascunde @ Raspunsuri"
+msgstr "隐藏 @ Replies"
 
 #: lib/widgets/latest-tweets-widget.php:201
 msgid "Load new Tweets every"
-msgstr "Încărcați Tweets noi la fiecare"
+msgstr "加载新 Tweets 每"
 
 #: lib/widgets/latest-tweets-widget.php:203
 msgid "5 Min."
-msgstr "5 min."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:204
 msgid "15 Minutes"
-msgstr "15 min."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:205
 msgid "30 Minutes"
-msgstr "30 minute."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:206
 msgid "1 Hour"
-msgstr "1 ora."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:207
 msgid "2 Hours"
-msgstr "2 ore."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:208
 msgid "4 Hours"
-msgstr "4 ore."
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:209
 msgid "12 Hours"
-msgstr "12 ore"
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:210
 msgid "24 Hours"
-msgstr "24 ore"
+msgstr ""
 
 #: lib/widgets/latest-tweets-widget.php:216
 msgid "Include link to twitter page?"
-msgstr "Includeți link către pagina de Twitter?"
+msgstr "包含链接到 Twitter 页面？"
 
 #: lib/widgets/latest-tweets-widget.php:220
 msgid "Link Text (required)"
-msgstr "Text Link (necesar)"
+msgstr "链接文本（必填）"
 
 #: lib/widgets/menu-categories-widget.php:42
 #: lib/widgets/menu-pages-widget.php:42
 msgid "This widget has been deprecated, and will eventually be removed. DO NOT use it. You have been warned."
-msgstr "Acest widget este depasit si va fi suprimat. NU IL UTILIZA. Te-am avertizat."
+msgstr ""
 
 #: lib/widgets/menu-categories-widget.php:45
 msgid "Genesis - Category Menu"
-msgstr "Genesis - Meniu categorie"
+msgstr ""
 
 #: lib/widgets/menu-categories-widget.php:120
 #: lib/widgets/menu-pages-widget.php:126
 msgid "This widget has been deprecated, and will eventually be removed. We suggest that you <a href=\"%s\">create a menu</a> and use the \"Custom Menu\" widget instead."
-msgstr "Acest widget este depasit si va fi suprimat. Iti sugeram sa <a href=\"%s\">create a menu</a> si sa utilizezi widgetul Meniu Personalizat."
+msgstr ""
 
 #: lib/widgets/menu-pages-widget.php:51
 msgid "Genesis - Page Menu"
-msgstr "Genesis - Meniu Pagina"
+msgstr ""
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "[Read More %s]"
-msgstr "[Citește mai mult %s]"
+msgstr ""
 
 #: lib/widgets/user-profile-widget.php:48
 msgid "Displays user profile block with Gravatar"
-msgstr "Afişează profilul utilizatorului cu Gravatar"
+msgstr "显示被阻挡 Gravatar 的用户简介"
 
 #: lib/widgets/user-profile-widget.php:57
 msgid "Genesis - User Profile"
-msgstr "Genesis - Profil utilizator"
+msgstr "Genesis - 用户简介"
 
 #: lib/widgets/user-profile-widget.php:96
 msgid "View My Blog Posts"
-msgstr "Arată postările din blogul meu"
+msgstr "检视我的博客文章"
 
 #: lib/widgets/user-profile-widget.php:141
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Selectaţi un utilizator. Adresa de e-mail pentru acest cont va fi atașată pentru imaginea Gravatar."
+msgstr "选择一个用户。这账户的电子邮件地址将会用在下拉 Gravatar 图像。"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Small"
-msgstr "Mic"
+msgstr "小"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Medium"
-msgstr "Mediu"
+msgstr "中"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Large"
-msgstr "Mare"
+msgstr "大"
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Extra Large"
-msgstr "Foarte mare"
+msgstr "特大"
 
 #: lib/widgets/user-profile-widget.php:167
 msgid "Select which text you would like to use as the author description"
-msgstr "Selectați textul pe care doriţi să îl utilizaţi ca descrierea autor"
+msgstr "选择哪一些文本您要用于作者的描述"
 
 #: lib/widgets/user-profile-widget.php:170
 msgid "Author Bio"
-msgstr "Biografie autor"
+msgstr "作者简历"
 
 #: lib/widgets/user-profile-widget.php:172
 msgid "Custom Text (below)"
-msgstr "Text personalizat (mai jos)"
+msgstr "自定义文本（如下）"
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Custom Text Content"
-msgstr "Continut personalizat"
+msgstr ""
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Alegeți pagina extinsă \"Despre mine\" din lista de mai jos. Aceasta pagină va fi inserată la finalul secțiunii \"despre mine\". "
+msgstr "选择您下列的扩展 \"关于我\" 页面。这将会是链接于‘关于我’最后部分的页面。"
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"
-msgstr "Text pagina extinsa"
+msgstr ""
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
-msgstr "Afișează linkul către arhiva de autor?"
+msgstr "显示作者档案链接？"

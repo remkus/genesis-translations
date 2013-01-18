@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-03-12 11:49:55+0000\n"
+"PO-Revision-Date: 2012-06-21 10:51:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +48,7 @@ msgstr "Ensisijainen Navigaatiovalikko"
 
 #: lib/init.php:44
 msgid "Secondary Navigation Menu"
-msgstr "Toissijainen navigaatiovalikko"
+msgstr "Toissijainen Navigaatiovalikko"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
@@ -309,7 +309,7 @@ msgstr "Koti META avainsanat (pilkulla eroteltuina):"
 
 #: lib/admin/seo-settings.php:273
 msgid "Keywords are generally ignored by Search Engines."
-msgstr "Hakukoneet ohittavat tavallisesti avainsanat"
+msgstr "Hakukoneet ohittavat tavallisesti avainsanat."
 
 #: lib/admin/seo-settings.php:276
 msgid "Homepage Robots Meta Tags:"
@@ -830,7 +830,7 @@ msgstr "Alkuun"
 
 #: lib/classes/breadcrumb.php:62
 msgid "You are here: "
-msgstr "Olet täällä:"
+msgstr "Olet täällä: "
 
 #: lib/classes/breadcrumb.php:63 lib/classes/breadcrumb.php:64
 #: lib/classes/breadcrumb.php:65 lib/classes/breadcrumb.php:66
@@ -966,7 +966,7 @@ msgstr "Tämä on vimpainalue ylätunnisteessa."
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
-msgstr "Ensisijainen sivupalkkki"
+msgstr "Ensisijainen sivupalkki"
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
