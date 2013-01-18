@@ -1,10 +1,10 @@
 === Genesis Translations ===
 Contributors: DeFries
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4UVLDL3LEG2QG
+Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
 Tested up to: 3.5.
-Stable tag: 1.8
+Stable tag: 1.8.0
 
 Translate your Genesis powered WordPress site into one of the available languages.
 

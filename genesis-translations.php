@@ -1,6 +1,6 @@
 <?php
 /**
-* This plugin translates your Genesis powered WordPress site easily into one of the available languages. 
+* This plugin translates your Genesis powered WordPress site easily into one of the available languages.
 *
 * @package Genesis
 * @author Remkus de Vries
@@ -18,10 +18,10 @@
 
 /**
 * Defining Genesis Translation constants
-* 
+*
 */
 define( 'GENTRANS_FILE','genesis-translations/genesis-translations.php' );
-define( 'GENTRANS_VERSION','1.7' );
+define( 'GENTRANS_VERSION','1.8.0' );
 
 /**
  * The text domain for the plugin
@@ -32,7 +32,7 @@ define( 'GTRANS_DOMAIN' , 'genesis-translations' );
 
 /**
  * Load the text domain for translation of the plugin
- * 
+ *
  * @since 1.0
  */
 load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/languages' );
@@ -65,42 +65,18 @@ function fst_genesis_translations_activation_check() {
 	}
 }
 
-/**
- * Used to cutoff a string to a set length if it exceeds the specified length
- *
- * @author Nick Croft
- * @link http://designsbynickthegeek.com/
- *
- * @since 0.1
- * @version 0.2
- * @param string $str Any string that might need to be shortened
- * @param string $length Any whole integer
- * @return string
- */
-function fst_genesis_translations_version_check( $str, $length=10 ) {
-
-	if ( strlen( $str ) > $length ) {
-		return substr( $str, 0, $length );
-
-	} else {
-		$res = $str;
-	}
-
-	return $res;
-}
-
-add_action( 'genesis_init','fst_set_genesis_language_dir', 1 ); // notices fix by @daankortenbach
+add_action( 'genesis_init','fst_set_genesis_language_dir', 1 );
 /**
  * Defining the Genesis Language constants
- * 
- * @author Remkus de Vries 
+ *
+ * @author Remkus de Vries, Daan Kortenbach
  * @access public
  * @return void
  */
 function fst_set_genesis_language_dir() {
-	
+
 	$fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ),"", plugin_basename( __FILE__ ) );
-	
+
 	define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
-	
+
 }
