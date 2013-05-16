@@ -1,18 +1,18 @@
-# Translation of Genesis 1.9 in Portuguese (Brazil)
+# Translation of Genesis 1.9 in Portuguese (Portugal)
 # This file is distributed under the same license as the Genesis 1.9 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-31 14:38:34+0000\n"
+"PO-Revision-Date: 2013-05-16 11:58:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Genesis 1.9\n"
 
 #: lib/admin/whats-new.php:72
 msgid "You may notice that the default Genesis style sheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
-msgstr "Você poderá notar que a folha de estilos padrão do Genesis é um pouco menor, e no front end pareça diferente. Nós atualizamos o design padrão e estendemos a largura do layout para 1152px. Agora você tem mais espaço para mostrar seu conteúdo."
+msgstr "Vai notar que a folha de estilo padrão (css) do Genesis está mais curta, e no Front End a visualização, diferente. Atualizamos o design padrão e aumentamos a largura do layout para 1152px. Agora tem mais espaço para exibir o seu conteúdo."
 
 #: 404.php:33
 msgid "Not Found, Error 404"
@@ -20,7 +20,7 @@ msgstr "Não encontrado, erro 404"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "A página que você está procurando não existe mais. Você pode voltar à <a href=\"%s\">homepage</a> para ver se consegue encontrar o que está procurando. Ou, você pode tentar encontrar com as informações abaixo."
+msgstr "A página que procura não existe. Pode voltar para a  <a href=\"%s\">homepage</a> e tentar encontrar o que procura. Como alternativa, pode tentar pesquisar através das informações abaixo."
 
 #: 404.php:39 lib/structure/post.php:219 page_archive.php:35
 msgid "Pages:"
@@ -44,7 +44,7 @@ msgstr "Posts Recentes:"
 
 #: comments.php:24
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Este Post é protegido por senha. Digite a senha para ver os comentários."
+msgstr "Este Post está protegido por senha. Digite a senha para ver os comentários."
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
@@ -60,7 +60,7 @@ msgstr "Importar configurações do Genesis"
 
 #: lib/admin/import-export.php:83
 msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
-msgstr "Envie o arquivo de dados (<code>.json</code>) a partir do seu computador e nós importamos as configurações."
+msgstr "Envie o arquivo de dados (<code>. json</code>) a partir do seu computador e nós importamos as configurações."
 
 #: lib/admin/import-export.php:84
 msgid "Choose the file from your computer and click \"Upload file and Import\""
@@ -80,7 +80,7 @@ msgstr "Exportar configurações do Genesis"
 
 #: lib/admin/import-export.php:102
 msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
-msgstr "Ao clicar no botão abaixo, o Genesis irá gerar um arquivo de dados (<code>.json</code>) para você salvar em seu computador."
+msgstr "Ao clicar no botão abaixo, o Genesis vai gerar um arquivo de dados (<code>.json</code>) para  salvar no seu computador."
 
 #: lib/admin/import-export.php:103
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
@@ -177,7 +177,7 @@ msgstr "LEIA-ME"
 
 #: lib/admin/readme-menu.php:68
 msgid "The %s file was not found in the child theme, or it was empty."
-msgstr "O arquivo %s não foi encontrado no tema-filho ou está vazio"
+msgstr "O %s ficheiro não foi encontrado no Child Theme, ou estava vazio"
 
 #: lib/admin/seo-settings.php:43
 msgid "Genesis - SEO Settings"
@@ -206,11 +206,11 @@ msgstr "Configurações reiniciadas."
 #: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:73
 #: lib/classes/admin.php:108
 msgid "Error saving settings."
-msgstr "Erro ao salvar as configurações"
+msgstr "Erro ao gravar configurações."
 
 #: lib/admin/seo-settings.php:173
 msgid "Document Title Settings"
-msgstr "Configurações de Título do Documento"
+msgstr "Configurações do Titulo do Documento"
 
 #: lib/admin/seo-settings.php:174
 msgid "Homepage Settings"
@@ -226,27 +226,27 @@ msgstr "Configurações de Arquivos"
 
 #: lib/admin/seo-settings.php:194
 msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
-msgstr "O título do documento (%s) é por si o elemento mais importante no código fonte em termos de <abbr title=\"Search engine optimization\">SEO</abbr>. Ele sucintamente informa os mecanismos de busca de qual informação está contida no documento. O título pode, e deve, ser diferente em cada página, mas essas opções irão ajudar a controlar como eles irão aparecer por padrão."
+msgstr "O titulo do documento (%s) é o elemento  mais importante no codigo de fonte do seu documento para <abbr title=\"Search engine optimization\">SEO</abbr> Resumidamente, permite aos motores de busca identificar que tipo de informação o documento contém. O titulo pode, e deve ser, diferente em cada página; estas opções ajuda-lo-ão a controlar a sua visualização por defeito."
 
 #: lib/admin/seo-settings.php:196
 msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
-msgstr "<strong>Por padrão</strong>, o título do documento da página irá conter o título do site, os título do documento dos posts únicos e páginas irão conter o título do post ou da página, as páginas de arquivo irão conter o tipo de arquivo, etc."
+msgstr "<strong>Por defeito</strong>, o título do documento da página inicial irá conter o título do site, a página de post irá conter o Titulo do Post e a pagina de documento irá conter Título do Documento, as páginas de arquivo irão conter o Tipo de Arquivo, etc."
 
 #: lib/admin/seo-settings.php:200
 msgid "Add site description (tagline) to %s on home page?"
-msgstr "Adicionar descrição do site (tagline) para %s na home page?"
+msgstr "Adicionar a descrição do site (tagline) ao %s na home page?"
 
 #: lib/admin/seo-settings.php:205
 msgid "Add site name to %s on inner pages?"
-msgstr "Adicionar nome do site para %s nas páginas internas?"
+msgstr "Adicionar nome do site ao %s às paginas ?"
 
 #: lib/admin/seo-settings.php:209
 msgid "Document Title Additions Location:"
-msgstr "Localização dos Aditivos do Título do Documento:"
+msgstr "Título do Documento com Adição de Localização:"
 
 #: lib/admin/seo-settings.php:210
 msgid "Determines which side the added title text will go on."
-msgstr "Determina em qual lado o título adicionado ficará."
+msgstr "Determina o lado onde será posicionado o Texto do Titulo"
 
 #: lib/admin/seo-settings.php:214 lib/widgets/featured-page-widget.php:191
 #: lib/widgets/featured-post-widget.php:290
@@ -264,19 +264,19 @@ msgstr "Direito"
 
 #: lib/admin/seo-settings.php:222
 msgid "Document Title Separator:"
-msgstr "Separador do Título do Documento:"
+msgstr "Separador do Titulo do Documento"
 
 #: lib/admin/seo-settings.php:224
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr "Se o título consistir de duas partes (título original e adição opcional), então o separador irá ficar entre eles."
+msgstr "Se o Titulo estiver dividido em duas partes ( Titulo Original e frase de suporte, opcional), o separador situar-se-á entre eles"
 
 #: lib/admin/seo-settings.php:245
 msgid "Which text would you like to be wrapped in %s tags?"
-msgstr "Qual o texto que você gostaria de ser abrangido por %s tags?"
+msgstr "Qual o texto que você gostaria de ser envolvido em %s tags?"
 
 #: lib/admin/seo-settings.php:246
 msgid "The %s tag is, arguably, the second most important <abbr title=\"Search engine optimization\">SEO</abbr> tag in the document source. Choose wisely."
-msgstr "A tag %s, é sem dúvida, a segunda mais importante tag <abbr title=\"Search engine optimization\">SEO</abbr> no código fonte do documento. Escolha com sabedoria."
+msgstr "A tag %s é, sem dúvida, a segunda mais importante <abbr title=\"Search motor optimization\"> SEO</abbr> marca na origem do documento. Escolha-a criteriosamente."
 
 #: lib/admin/seo-settings.php:250
 msgid "Site Title"
@@ -292,23 +292,23 @@ msgstr "Nenhum dos dois. Vou manualmente colocar meu próprio texto na página i
 
 #: lib/admin/seo-settings.php:260
 msgid "Homepage Document Title:"
-msgstr "Título do Documento da Página:"
+msgstr "Titulo do documento da Homepage"
 
 #: lib/admin/seo-settings.php:262
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "Se você deixar o campo do título do documento em branco, o título do seu site será usado."
+msgstr "Se deixar em branco o Titulo do Documento, será utilizado o Titulo do Site site&#8217;s, no seu lugar"
 
 #: lib/admin/seo-settings.php:266
 msgid "Home Meta Description:"
-msgstr "Descrição Meta da Página Inicial:"
+msgstr "Meta Descrição da Home"
 
 #: lib/admin/seo-settings.php:268
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr "A descrição meta pode ser usada para determinar o texto usado abaixo do título nas páginas de resultados dos mecanismos de busca."
+msgstr "A Meta descrição pode ser utilizada para determinar o texto usado sob o título, nas páginas resultantes de pesquisas."
 
 #: lib/admin/seo-settings.php:272
 msgid "Home Meta Keywords (comma separated):"
-msgstr "Palavras-Chave Meta da Página Inicial (separadas por vírgula):"
+msgstr "Meta palavras-chave da Home (separadas por virgula)"
 
 #: lib/admin/seo-settings.php:274
 msgid "Keywords are generally ignored by Search Engines."
@@ -325,27 +325,27 @@ msgstr "Aplicar %s na página inicial?"
 
 #: lib/admin/seo-settings.php:290
 msgid "Homepage Author"
-msgstr "Autor da Página Inicial"
+msgstr "Homepage do Autor"
 
 #: lib/admin/seo-settings.php:293
 msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr "Selecione o usuário que você deseja usar como o %s para a página inicial. Certifique-se de que o usuário que você selecionar tenha adicionado o endereço da sua conta Google+ na página do seu perfil."
+msgstr "Selecionar o utilizador que pretende definir como %s para a homepage. Verifique se o utilizador que selecionou, adicionou o seu perfil Google+, quando editou as definições do seu perfil aqui."
 
 #: lib/admin/seo-settings.php:298
 msgid "Select User"
-msgstr "Selecione Usuário"
+msgstr "Selecionar Utilizador"
 
 #: lib/admin/seo-settings.php:321
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "Por padrão, Wordpress possue diversas tags no seu documento %1$s. A maioria dessas tags são completamente desnecessárias e não fornecem valor algum para <abbr title=\"Search engine optimization\">SEO</abbr>; elas só fazem o site carregar mais lento. Escolha quais tags você deseja incluir no seu documento %1$s. Se você não souber o que algo significa, deixe desmarcado."
+msgstr "Por defeito, o WordPress coloca várias tags no seu documento%1$s. A maioria dessas tags são completamente desnecessárias, e não oferecem <abbr title=\"Search motor optimization\"> SEO </abbr> valor acrescentado; simplesmente tornam o site mais lento. Escolha quais as tags que pretende incluir no seu documento %1$s. Se tiver dúvidas ou não souber o que selecionar, deixe em branco."
 
 #: lib/admin/seo-settings.php:323
 msgid "Relationship Link Tags:"
-msgstr "Link Tags de Relacionamento:"
+msgstr "Relacionamento de Link Tags:"
 
 #: lib/admin/seo-settings.php:327
 msgid "Adjacent Posts %s link tags"
-msgstr "Link tags %s de Posts Adjacentes"
+msgstr "Tags de link para Posts Relacionados %s"
 
 #: lib/admin/seo-settings.php:330
 msgid "Windows Live Writer Support:"
@@ -365,7 +365,7 @@ msgstr "Incluir tag com link curto?"
 
 #: lib/admin/seo-settings.php:344
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr "<span class=\"genesis-admin-note\">Nota:</span> O shortlink tag pode ter algum uso para serviços de terceiros, mas não possue valor algum para <abbr title=\"Search engine optimization\">SEO</abbr>."
+msgstr "<span class=\"genesis-admin-note\"> Nota: </span> A tag shortlink pode ter alguma utilidade para a identificação de serviço de terceiros, mas não tem qualquer valor para <abbr title=\"Search engine optimization\"> SEO </abbr>"
 
 #: lib/admin/seo-settings.php:366
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
@@ -393,7 +393,7 @@ msgstr "Aplicar %s para Pesquisa de Arquivos?"
 
 #: lib/admin/seo-settings.php:385
 msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
-msgstr "Alguns mecanismos de busca irão fazer cache das páginas do seu site (ex: Google Cache). A tag %1$s irá impedir que isso seja feito. Escolha quais arquivos você deseja que %1$s seja aplicado."
+msgstr "Alguns motores de busca armazenam em cache, páginas do seu site (por exemplo, cache do Google). A tag %1$s impede-os de fazê-lo. Selecione quais os arquivos que pretende ter %1$s indexados."
 
 #: lib/admin/seo-settings.php:389
 msgid "Apply %s to Entire Site?"
@@ -401,11 +401,11 @@ msgstr "Aplicar %s para o Site Inteiro?"
 
 #: lib/admin/seo-settings.php:409
 msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr "Às vezes, os motores de busca utilizam fontes como o Open Directory Project (ODP) e o Diretório do Yahoo! para encontrar títulos e descrições para o seu conteúdo. Normalmente, você não vai querer isso. As tags %s e %s impedem que isso aconteça."
+msgstr "Às vezes, os motores de busca utilizam fontes como o Open Directory Project (ODP) e o Diretório do Yahoo! para encontrar títulos e descrições para o seu conteúdo. Normalmente, isso não é desejavel. As tags %s e %s impedem que isso aconteça."
 
 #: lib/admin/seo-settings.php:413 lib/admin/seo-settings.php:416
 msgid "Apply %s to your site?"
-msgstr "Aplicar %s para o seu site?"
+msgstr "Aplicar %s ao seu site?"
 
 #: lib/admin/seo-settings.php:437
 msgid "Canonical Paginated Archives"
@@ -413,27 +413,27 @@ msgstr "Arquivos Canônicos Paginados"
 
 #: lib/admin/seo-settings.php:440
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Esta opção aponta motores de busca para a primeira página de um arquivo, se visualizar uma página paginada. Se você não sabe o que isto significa, deixe-a."
+msgstr "Esta opção aponta os motores de busca para a primeira página de um arquivo, se detectarem uma página indexada. Se não sabe o que isto significa, deixe em branco."
 
 #: lib/admin/term-meta.php:55
 msgid "Archive Settings"
-msgstr "Arquivar Configurações"
+msgstr "Configurações de Arquivo"
 
 #: lib/admin/term-meta.php:59
 msgid "Archive Headline"
-msgstr "Arquivar Manchete"
+msgstr "Cabeçalho do Arquivo"
 
 #: lib/admin/term-meta.php:62
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Deixe em branco se não quiser mostrar uma manchete."
+msgstr "Deixe em branco, se pretender ocultar o cabeçalho"
 
 #: lib/admin/term-meta.php:66
 msgid "Archive Intro Text"
-msgstr "Arquivar Texto de Introdução"
+msgstr "Texto introdutório do Arquivo"
 
 #: lib/admin/term-meta.php:69
 msgid "Leave empty if you do not want to display any intro text."
-msgstr "Deixe em branco se não quiser mostrar um texto de introdução."
+msgstr "Deixe em branco, se pretender ocultar o cabeçalho"
 
 #: lib/admin/term-meta.php:123 lib/admin/user-meta.php:187
 msgid "Custom Document %s"
@@ -453,7 +453,7 @@ msgstr "Lista separada por vírgulas"
 
 #: lib/admin/term-meta.php:145 lib/admin/user-meta.php:209
 msgid "Robots Meta"
-msgstr "Meta Robots"
+msgstr "Robots Meta"
 
 #: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
 #: lib/admin/term-meta.php:152 lib/admin/user-meta.php:212
@@ -495,7 +495,7 @@ msgstr "Navegação"
 
 #: lib/admin/theme-settings.php:236
 msgid "Breadcrumbs"
-msgstr "Breadcrumbs"
+msgstr "Sequencia de Navegação"
 
 #: lib/admin/theme-settings.php:238
 msgid "Comments and Trackbacks"
@@ -507,7 +507,7 @@ msgstr "Arquivos de conteúdo"
 
 #: lib/admin/theme-settings.php:240
 msgid "Blog Page Template"
-msgstr "Template da Página do Blog"
+msgstr "Template da Pagina do Blog"
 
 #: lib/admin/theme-settings.php:243
 msgid "Header and Footer Scripts"
@@ -527,7 +527,7 @@ msgstr "Exibir informações do tema no código fonte do documento"
 
 #: lib/admin/theme-settings.php:292
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "Isto pode ser útil para diagnosticar problemas com o seu tema na busca de assistência no <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Isto pode ser útil para diagnosticar problemas com o seu tema na busca de assistência no <a href=\"%s\" target=\"_blank\">forums de suporte</a>."
 
 #: lib/admin/theme-settings.php:296
 msgid "Enable Automatic Updates"
@@ -543,11 +543,11 @@ msgstr "quando houver atualizações disponíveis"
 
 #: lib/admin/theme-settings.php:306
 msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
-msgstr "Se você fornecer um endereço de e-mail acima, seu blog pode enviar uma mensagem quando uma nova versão do Genesis estiver disponível."
+msgstr "Se fornecer um endereço de e-mail acima, o seu blog pode enviar um e-mail,  quando uma nova versão do Genesis estiver disponível."
 
 #: lib/admin/theme-settings.php:329
 msgid "Color Style:"
-msgstr "Estilo de Cor:"
+msgstr "Estilo de Cor"
 
 #: lib/admin/theme-settings.php:331 lib/tools/post-templates.php:159
 msgid "Default"
@@ -555,11 +555,11 @@ msgstr "Padrão"
 
 #: lib/admin/theme-settings.php:343
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Por favor, selecione o estilo de cor na lista suspensa e salve suas configurações."
+msgstr "Por favor, selecione o Estilo de Cor através da lista contida no Drop Down e salve as suas alterações"
 
 #: lib/admin/theme-settings.php:389
 msgid "Use for site title/logo:"
-msgstr "Usar como título do site/logo:"
+msgstr "Utilize para Titulo/Logo do site"
 
 #: lib/admin/theme-settings.php:391
 msgid "Dynamic text"
@@ -571,7 +571,7 @@ msgstr "Logotipo em imagem"
 
 #: lib/admin/theme-settings.php:418
 msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr "A fim de usar os menus de navegação, você deve construir um <a href=\"%s\">menu personalizado</a>, em seguida, atribuí-lo ao Menu de Localização apropriado. "
+msgstr "A fim de usar os menus de navegação, deve construir um <a href=\"%s\">menu personalizado</a>, em seguida, atribuí-lo ao Menu na Localização apropriada."
 
 #: lib/admin/theme-settings.php:423
 msgid "Primary Navigation"
@@ -599,7 +599,7 @@ msgstr "Links dos feeds RSS"
 
 #: lib/admin/theme-settings.php:441
 msgid "Search form"
-msgstr "Formulário de busca"
+msgstr "Formulário de pesquisa"
 
 #: lib/admin/theme-settings.php:442
 msgid "Twitter link"
@@ -607,7 +607,7 @@ msgstr "Link do Twitter"
 
 #: lib/admin/theme-settings.php:447
 msgid "Enter Twitter ID:"
-msgstr "Informe o ID do Twitter:"
+msgstr "Introduza o ID do Twitter:"
 
 #: lib/admin/theme-settings.php:451
 msgid "Twitter Link Text:"
@@ -631,7 +631,7 @@ msgstr "URL personalizada para o Feed de comentários:"
 
 #: lib/admin/theme-settings.php:502
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Se o seu feed personalizado (s) não são mantido por Feedburner, não recomendamos que você use as opções de redirecionamento. "
+msgstr "Se os seus feeds personalizados não são tratados pelo Feedburner, não recomendamos que utilize as opções de redirecionamento."
 
 #: lib/admin/theme-settings.php:521
 msgid "Enable Comments"
@@ -667,7 +667,7 @@ msgstr "Página de Posts"
 
 #: lib/admin/theme-settings.php:566
 msgid "Homepage"
-msgstr "Página Inicial"
+msgstr "Homepage"
 
 #: lib/admin/theme-settings.php:570 lib/structure/menu.php:149
 msgid "Posts"
@@ -687,11 +687,11 @@ msgstr "Página 404"
 
 #: lib/admin/theme-settings.php:582
 msgid "Attachment Page"
-msgstr "Página de anexos"
+msgstr "Página Anexa"
 
 #: lib/admin/theme-settings.php:585
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Breadcrumbs são uma ótima maneira de deixar seus visitantes descobrirem onde eles estão no seu site com apenas um olhar. Você pode ativar / desativá-los em certas áreas do seu site."
+msgstr "A Sequencia de Navegação é uma excelente opção, que permite aos seus visitantes saber onde estão, de relance, e qual foi a sequência de cliques que lhes permitiu chegar onde estão.  Pode ativar / desativar esta opção  apenas em determinadas áreas do seu site."
 
 #: lib/admin/theme-settings.php:605
 msgid "Select one of the following:"
@@ -723,7 +723,7 @@ msgstr "Incluir a imagem destacada?"
 
 #: lib/admin/theme-settings.php:637
 msgid "Image Size:"
-msgstr "Tamanha da Imagem: "
+msgstr "Tamanho da Imagem"
 
 #: lib/admin/theme-settings.php:648
 msgid "Select Post Navigation Technique:"
@@ -747,7 +747,7 @@ msgstr "Estas opções afetarão quaisquer páginas de listagens do blog, inclui
 
 #: lib/admin/theme-settings.php:674
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr "Esses configurações se aplicam a qualquer página ao qual foi concedido o modelo de página \"Blog\", não para a página inicial ou páginas de arquivos."
+msgstr "Essas configurações aplicam-se a qualquer página dada a  \"Blog\" modelo de página, mas  não à página inicial ou páginas de arquivo de Posts"
 
 #: lib/admin/theme-settings.php:679
 msgid "Display which category:"
@@ -759,7 +759,7 @@ msgstr "Todas as categorias"
 
 #: lib/admin/theme-settings.php:684
 msgid "Exclude the following Category IDs:"
-msgstr "Excluir os seguintes IDs de Categoria:"
+msgstr "Excluir sd seguintes Categorias (ID):"
 
 #: lib/admin/theme-settings.php:686
 msgid "Comma separated - 1,2,3 for example"
@@ -767,15 +767,15 @@ msgstr "Separado por vírgulas - 1,2,3 por exemplo"
 
 #: lib/admin/theme-settings.php:691
 msgid "Number of Posts to Show:"
-msgstr "Número de posts para mostrar: "
+msgstr "Número de Posts a exibir"
 
 #: lib/admin/theme-settings.php:712 lib/admin/theme-settings.php:722
 msgid "Enter scripts or code you would like output to %s:"
-msgstr "Coloque o script ou código que você gostaria de gerar para %s:"
+msgstr "Digite os scripts ou código que pretende ter para %s:"
 
 #: lib/admin/theme-settings.php:717 lib/admin/theme-settings.php:727
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr "O gancho %1$s executa imediatamente antes da tag %2$s final no código do documento."
+msgstr "O hook %1$s é executado imediatamente antes da tag %2$s de encerramento no código de fonte do documento."
 
 #: lib/admin/user-meta.php:25
 msgid "Google+"
@@ -783,7 +783,7 @@ msgstr "Google+"
 
 #: lib/admin/user-meta.php:73
 msgid "User Permissions"
-msgstr "Permissões de Usuário"
+msgstr "Permissões do Utilizador"
 
 #: lib/admin/user-meta.php:77
 msgid "Genesis Admin Menus"
@@ -803,28 +803,28 @@ msgstr "Habilitar o sub-menu Importar/Exportar?"
 
 #: lib/admin/user-meta.php:119
 msgid "Author Archive Settings"
-msgstr "Arquivo de configurações do autor "
+msgstr "Configurações do Arquivo de Autor"
 
 #: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
 #: lib/admin/user-meta.php:247
 msgid "These settings apply to this author's archive pages."
-msgstr "Essas configurações se aplicam às páginas de arquivo do autor."
+msgstr "Essas configurações se aplicam às páginas do autor do arquivo."
 
 #: lib/admin/user-meta.php:124
 msgid "Custom Archive Headline"
-msgstr "Manchete personalizada do arquivo"
+msgstr "Arquivo de títulos personalizados"
 
 #: lib/admin/user-meta.php:127
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "Será exibido na tag %s no topo da primeira página"
+msgstr "Será exibido na tag o%s no topo da primeira página"
 
 #: lib/admin/user-meta.php:132
 msgid "Custom Description Text"
-msgstr "Descrição Personalizada"
+msgstr "Descrição de Texto Personalizada"
 
 #: lib/admin/user-meta.php:135
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr "Este texto será o primeiro parágrafo, e exibido na primeira página"
+msgstr "Este texto será o primeiro parágrafo a ser exibido na primeira página"
 
 #: lib/admin/user-meta.php:140
 msgid "Author Box"
@@ -832,7 +832,7 @@ msgstr "Box do autor"
 
 #: lib/admin/user-meta.php:143
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Habilitar o box do autor para os posts deste usuário?"
+msgstr "Habilitar a box do autor para os posts deste utulizador?"
 
 #: lib/admin/user-meta.php:145
 msgid "Enable Author Box on this User's Archives?"
@@ -840,96 +840,96 @@ msgstr "Habilitar o box do autor nos arquivos deste usuário?"
 
 #: lib/admin/whats-new.php:38
 msgid "Welcome to Genesis %s"
-msgstr "Bem vindo ao Genesis %s"
+msgstr "Benvindo ao Genesis %s"
 
 #: lib/admin/whats-new.php:65
 msgid "Thank you for updating to the latest version! Using Genesis %s will give you more options than you've ever had and your website will continue to purr like a kitten."
-msgstr "Obrigado por atualizar para a última versão! Usar o Genesis %s te dará muito mais opções do que você já teve e o seu website continuará a ronronar como um gatinho."
+msgstr "Obrigado por atualizar para a versão mais recente! Ao utilizar Genesis %s terá mais opções do que já alguma vez teve e seu site continuará a ronronar como um gatinho."
 
 #: lib/admin/whats-new.php:68
 msgid "What&#8217;s New"
-msgstr "O que há de novo"
+msgstr "Quais&#8217;s são as novidades?"
 
 #: lib/admin/whats-new.php:71
 msgid "Updated Design and Wider Layout"
-msgstr "Design Atualizado e Layout Mais Amplo"
+msgstr "Design atualizado e Layout mais largo"
 
 #: lib/admin/whats-new.php:73
 msgid "Updated Security Audit"
-msgstr "Auditoria de Segurança Atualizada"
+msgstr "Auditor de Seguraça Actualizado"
 
 #: lib/admin/whats-new.php:74
 msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
-msgstr "É muito importante para nós fornecer o melhor framework possível, então, novamente contratamos o desenvolvedor chefe do Wordpress, Mark Jaquith, para fazer uma verificação de segurança completa do código, como fizemos no passado."
+msgstr "É muito importante para nós  fornecer-lhe a melhor Framework possível, e para isso contratamos Líder de Desenvolvimento do Wordpress - Mark Jaquith para efectuar uma revisão completa do código de segurança, tal como fez no passado."
 
 #: lib/admin/whats-new.php:75
 msgid "Google Author Highlights"
-msgstr "Destaques do Google Author"
+msgstr "Destaques Google Autor"
 
 #: lib/admin/whats-new.php:76
 msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
-msgstr "Genesis agora oferece suporte ao recurso de autoria do Google. Isso permite que o Google associe o seu conteúdo com sua conta Google+. Altere seu perfil, encontre o campo onde você pode informar o endereço da sua conta Google+ e salve. Genesis irá fazer o resto. E se você quiser associar um autor com a página inicial, você pode fazer isso nas Configurações SEO."
+msgstr "Genesis agora oferece suporte para destacar autor. Isso permite ao Google associar o seu conteúdo com o seu conteúdo Google+. Basta editar o seu perfil, encontrar o campo onde pode digitar o URL conta Google+, e salvar. Genesis faz o resto. E se pretender associar um autor a uma  página inicial,  pode fazer isso nas Configurações de SEO."
 
 #: lib/admin/whats-new.php:78
 msgid "Deprecating Widgets"
-msgstr "Widgets Descontinuados"
+msgstr "Widgets obsoletos"
 
 #: lib/admin/whats-new.php:79
 msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
-msgstr "Genesis sempre inclui alguns widgets úteis para ajudar a construir sites mais fácil e rápido. Ultimamente, percebemos que alguns desses widgets deveriam ser plugins na realidade, então autores podem atualizá-los mais frequentemente, e você consegue mais atualizações. Então, os widgets \"eNews & Updates\" e \"Últimos Tweets\" foram portados como plugins e serão eventualmente removidos do Genesis."
+msgstr "nesis sempre incluiu alguns widgets úteis para ajudá-lo a construir seus sites com a maior facilidade e o mais rapidamente possivel. Mas, ultimamente, nós percebemos que alguns desses widgets deve ser realmente plugins, por isso os autores podem notifica-lo com as atualizações mais freqüentemente, e dessa forma terá acesso a código mais atualizado. Assim, a  \\\"eNews & Updates \\\" e  \\\"Tweets mais recentes \\\" widgets estão a ser transferidos para plugins, e esses widgets, por enquanto, nativos, acabarão  por ser removidos da Framework Genesis."
 
 #: lib/admin/whats-new.php:81
 msgid "Genesis Category/Page Menu Widgets Removed"
-msgstr "Widgets de Menu de Categorias/Páginas Genesis Removido"
+msgstr "O widget do Genesis para o menu Categoria/página foi removido"
 
 #: lib/admin/whats-new.php:82
 msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."
-msgstr "Nós descontinuamos o widget de menus de Categorias e Páginas há algumas versões atrás, e nessa versão, nós o removemos completamente do framework. Se você ainda estiver usando um desses widgets, você verá que seu menu não será mais exibido."
+msgstr "Abdicámos  do Widget de Menu para  Categoria e Página,  algumas versões atrás, e, a partir desta versão, deixa de estra definitivamente excluida da Framework. Se ainda está a utilizar algum desses widgets, vai aperceber-se que o seu menu deixou de estar visivel."
 
 #: lib/admin/whats-new.php:83
 msgid "You will need to build a <a href=\"%s\">custom menu</a> and add the custom menu widget to the Header Right widget area."
-msgstr "Você precisa criar um <a href=\"%s\">menu personalizado</a> e adicionar o widget de menu personalizado na área de widget à direita do cabeçalho."
+msgstr "Vai necessitar de construir <a href=\"%s\">menu personalizado</a> e adicionar o widget de menu personalizado na area de widgets situada à direita no Cabeçalho"
 
 #: lib/admin/whats-new.php:85
 msgid "Other Geeky Stuff"
-msgstr "Outras Coisas Nerds"
+msgstr "Outras coisas Engenhosas"
 
 #: lib/admin/whats-new.php:86
 msgid "We also fixed a lot of little bugs, improved some things, and generally made the framework a more solid foundation for you to use. We hope you enjoy this latest release!"
-msgstr "Nós também resolvemos vários bugs, melhoramos algumas coisas e de modo geral fizemos o framework ter uma fundação mais sólida para você usar. Esperamos que você aproveite essa versão!"
+msgstr "Eliminanos uma série de bugs, foram introduzidas várias melhorias nalgumas funcionalidades, e na generalidade, a framework está muito mais sólida e consistente. Esperamos que tire o máximo partido  desta última versão!"
 
 #: lib/admin/whats-new.php:91
 msgid "Genesis 2.0 Roadmap"
-msgstr "Mapa do Genesis 2.0"
+msgstr "Guião do Genesis 2.0"
 
 #: lib/admin/whats-new.php:93
 msgid "Support for HTML5 Markup"
-msgstr "Suporte para Linguagem de Marcação HTML5"
+msgstr "Suporte à codificação HTML5"
 
 #: lib/admin/whats-new.php:94
 msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
-msgstr "Nós temos grandes planos para uma nova estrutura de marcação no Genesis 2.0, tudo desenvolvido com HTML5."
+msgstr "Temos planos para uma nova estrutura Genesis 2.0, totalmente construida em HTML5"
 
 #: lib/admin/whats-new.php:96
 msgid "A New Mobile Strategy"
-msgstr "Uma Nova Estratégia Móvel"
+msgstr "Um nova estratégia Mobile"
 
 #: lib/admin/whats-new.php:97
 msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
-msgstr "Caso você não consiga dizer, nós somos grandes fãs de fazer design para dispositivos móveis por aqui. Então, estaremos fazendo algumas coisas que irão facilitar muito a tarefa de tornar seu site pronto para dispositivos móveis com o Genesis na versão 2.0."
+msgstr "Somos grandes fãs de design para dispositivos móveisi. Continuamos a desenvolver funcionalidades que vão tornar muito mais fácil a obtenção da versão mobile do seu site com Genesis em 2,0."
 
 #: lib/admin/whats-new.php:103
 msgid "Project Leads"
-msgstr "Líderes do Projeto"
+msgstr "Guias orientadoras do Projecto"
 
 #: lib/admin/whats-new.php:109 lib/admin/whats-new.php:114
 #: lib/admin/whats-new.php:119
 msgid "Lead Developer"
-msgstr "Desenvolvedor Líder"
+msgstr "Responsavel pelo Desenvolvimento"
 
 #: lib/admin/whats-new.php:127
 msgid "Contributors"
-msgstr "Contribuidores"
+msgstr "Contribuintes"
 
 #: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
 #: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
@@ -937,19 +937,19 @@ msgstr "Contribuidores"
 #: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
 #: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
 msgid "Contributor"
-msgstr "Contribuidor"
+msgstr "Contribuinte"
 
 #: lib/admin/whats-new.php:185
 msgid "Go to Theme Settings &rarr;"
-msgstr "Ir para Configurações do Tema &rarr;"
+msgstr "Ir para as Configurações do Tema &rarr;"
 
 #: lib/admin/whats-new.php:186
 msgid "Go to SEO Settings &rarr;"
-msgstr "Ir para Configurações SEO &rarr;"
+msgstr "Ir para as Configurações SEO &rarr;"
 
 #: lib/classes/admin.php:118
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Você não pode usar %s para criar dois menus na mesma subclasse. Por facor, separe as subclasses para cada menu."
+msgstr "Não é possivel utilizar %s para criar dois menus na mesma subclasse. Por favor utilize subclasses separadas para cada menu."
 
 #: lib/classes/admin.php:415 lib/classes/admin.php:424
 #: lib/classes/admin.php:527 lib/classes/admin.php:546
@@ -958,11 +958,11 @@ msgstr "Tem certeza de que deseja redefinir?"
 
 #: lib/classes/breadcrumb.php:54 lib/functions/menu.php:133
 msgid "Home"
-msgstr "Inicial"
+msgstr "Home"
 
 #: lib/classes/breadcrumb.php:63
 msgid "You are here: "
-msgstr "Você está aqui: "
+msgstr "Está aqui: "
 
 #: lib/classes/breadcrumb.php:64 lib/classes/breadcrumb.php:65
 #: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
@@ -1005,7 +1005,7 @@ msgstr "Exibindo todos os itens em %s"
 
 #: lib/functions/admin.php:15
 msgid "This file no longer needs to be included."
-msgstr "Este arquivo já não precisa ser incluído."
+msgstr "Já não é necessário incluir este ficheiro"
 
 #: lib/functions/formatting.php:292
 msgctxt "time difference"
@@ -1068,7 +1068,7 @@ msgstr "e"
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
-msgstr "Conteúdo-Barra lateral"
+msgstr "Conteúdo-Sidebar"
 
 #: lib/functions/layout.php:46
 msgid "Sidebar-Content"
@@ -1076,15 +1076,15 @@ msgstr "Sidebar-Conteúdo"
 
 #: lib/functions/layout.php:54
 msgid "Content-Sidebar-Sidebar"
-msgstr "Conteúdo-Barra lateral-Barra lateral"
+msgstr "Conteúdo-Sidebar-Sidebar"
 
 #: lib/functions/layout.php:62
 msgid "Sidebar-Sidebar-Content"
-msgstr "Barra lateral-Barra lateral-Conteúdo"
+msgstr "Sidebar-Sidebar-Conteúdo"
 
 #: lib/functions/layout.php:70
 msgid "Sidebar-Content-Sidebar"
-msgstr "Barra lateral-Conteúdo-Barra lateral"
+msgstr "Sidebar-Conteúdo-Sidebar"
 
 #: lib/functions/layout.php:78
 msgid "Full Width Content"
@@ -1096,19 +1096,19 @@ msgstr "Nenhuma Etiqueta Selecionada"
 
 #: lib/functions/menu.php:104
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr "O argumento, \"context\", foi substituído por \"theme_location\" nas array $args. "
+msgstr "O argumento \"context\",  foi substituido por \"theme_location\" neste array de $args."
 
 #: lib/functions/seo.php:122
 msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr "Você já experimentou nosso software de marketing de conteúdo Scribe? Faça pesquisas, otimização de conteúdo, website e construção de relacionamento sem sair do Wordpress. <b>Proprietários do Genesis economizam bastante usando o link para a página que criamos especialmente para você</b>.  <a href=\"%s\" target=\"_blank\">Clique aqui para mais informações</a>."
+msgstr "Já experimentou o nosso software de marketing de conteúdo Scribe? Faça uma pesquisa, conteúdo e otimização do site, e construção de links sem deixar WordPress. <b> proprietários Gênesis economizam bastante quando utilizam o link especial na página especial que criamos para si </b>.<a href=\"%s\" target=\"_blank\"> Clique aqui para mais informações </a>."
 
 #: lib/functions/seo.php:124
 msgid "Dismiss"
-msgstr "Rejeitar"
+msgstr "Abortar"
 
 #: lib/functions/upgrade.php:411
 msgid "Congratulations! You are now rocking Genesis %s"
-msgstr "Parabéns! Você está executando o Genesis %s"
+msgstr "Parabéns! O Genesis %s está operacional"
 
 #: lib/functions/upgrade.php:436
 msgid "Click here to complete the upgrade"
@@ -1116,7 +1116,7 @@ msgstr "Clique aqui para completar a atualização"
 
 #: lib/functions/upgrade.php:461
 msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s está disponível. <a href=\"%s\" class=\"thickbox thickbox-preview\">Confira as novidades</a> ou <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">atualize agora</a>."
+msgstr "Genesis %s está disponível. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
 
 #: lib/functions/upgrade.php:465
 msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
@@ -1128,27 +1128,27 @@ msgstr "Genesis %s está disponível para %s"
 
 #: lib/functions/upgrade.php:508
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s já está disponível. Nós fornecemos atualizações de um clique para este tema, por favor entre em seu painel e atualize o mais cedo possível. "
+msgstr "Genesis%s já está disponível. Nós fornecemos um clique de atualizações para este tema, por favor entre em seu painel e atualize o mais cedo possível."
 
 #: lib/functions/widgetize.php:63
 msgid "Header Left"
-msgstr "Cabeçalho esquerdo"
+msgstr "Cabeçalho à esquerda"
 
 #: lib/functions/widgetize.php:63
 msgid "Header Right"
-msgstr "Cabeçalho direito"
+msgstr "Cabeçalho à direita"
 
 #: lib/functions/widgetize.php:64
 msgid "This is the widget area in the header."
-msgstr "Esta é a area de aplicativos no cabeçalho."
+msgstr "Esta é a área de Widgets para o Cabeçalho"
 
 #: lib/functions/widgetize.php:71
 msgid "Primary Sidebar"
-msgstr "Barra lateral primária"
+msgstr "Sidebar primária"
 
 #: lib/functions/widgetize.php:72
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "Esta é a barra lateral primária, se você estiver usando uma opção de layout com duas ou três colunas."
+msgstr "Esta é a sidebar principal se estiver a utilizar a opção de layout com 3 colunas"
 
 #: lib/functions/widgetize.php:79
 msgid "Secondary Sidebar"
@@ -1156,7 +1156,7 @@ msgstr "Sidebar secundária"
 
 #: lib/functions/widgetize.php:80
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "Esta é a barra lateral secundária, se você estiver usando uma opção de layout de três colunas site."
+msgstr "Esta é a sidebar secundária, se estiver a utilizar a opção de layout com 3 colunas"
 
 #: lib/functions/widgetize.php:112
 msgid "Footer %d"
@@ -1164,7 +1164,7 @@ msgstr "Rodapé %d"
 
 #: lib/functions/widgetize.php:113
 msgid "Footer %d widget area."
-msgstr "Rodapé %d widget área."
+msgstr "Área de widget do Rodapé %d"
 
 #: lib/init.php:47
 msgid "Primary Navigation Menu"
@@ -1200,7 +1200,7 @@ msgstr "atrás"
 
 #: lib/shortcodes/post.php:140
 msgid "Visit %s&#x02019;s website"
-msgstr "Visite o website %s"
+msgstr "Visite %s&#x02019;s website"
 
 #: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
 msgid "% Comments"
@@ -1216,11 +1216,11 @@ msgstr "Deixe um comentário"
 
 #: lib/shortcodes/post.php:247
 msgid "Tagged With: "
-msgstr "Marcados com: "
+msgstr "Marcados com:"
 
 #: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
 msgid "Filed Under: "
-msgstr "Arquivado em: "
+msgstr "Arquivado em:"
 
 #: lib/shortcodes/post.php:364 lib/structure/comments.php:189
 #: lib/structure/post.php:207 lib/widgets/featured-page-widget.php:103
@@ -1249,7 +1249,7 @@ msgstr "%1$s em %2$s"
 
 #: lib/structure/comments.php:195
 msgid "Your comment is awaiting moderation."
-msgstr "Seu comentário está aguardando moderação."
+msgstr "O seu comentário aguarda moderação."
 
 #: lib/structure/comments.php:252
 msgid "Name"
@@ -1265,7 +1265,7 @@ msgstr "Website"
 
 #: lib/structure/comments.php:278
 msgid "Speak Your Mind"
-msgstr "Deixe seu comentário"
+msgstr "Deixe o seu comentário"
 
 #: lib/structure/footer.php:110
 msgid "Copyright"
@@ -1277,7 +1277,7 @@ msgstr "em"
 
 #: lib/structure/loops.php:192
 msgid "Read more"
-msgstr "Ler mais"
+msgstr "Leia mais"
 
 #: lib/structure/menu.php:150
 msgid "Comments"
@@ -1301,11 +1301,11 @@ msgstr "Sobre"
 
 #: lib/structure/post.php:379
 msgid "Older Posts"
-msgstr "Postagens mais antigas"
+msgstr "Posts mais antigos"
 
 #: lib/structure/post.php:380
 msgid "Newer Posts"
-msgstr "Postagens mais recentes"
+msgstr "Posts mais recentes"
 
 #: lib/structure/post.php:400 lib/structure/post.php:462
 msgid "Previous Page"
@@ -1317,11 +1317,11 @@ msgstr "Próxima página"
 
 #: lib/structure/search.php:23
 msgid "Search this website"
-msgstr "Buscar no site"
+msgstr "Pesquisar neste site"
 
 #: lib/structure/search.php:25
 msgid "Search"
-msgstr "Ok"
+msgstr "Pesquisa"
 
 #: lib/structure/sidebar.php:24
 msgid "Primary Sidebar Widget Area"
@@ -1341,19 +1341,19 @@ msgstr "Esta é a área de Widget da Barra Lateral Secundária. Você pode adici
 
 #: lib/tools/post-templates.php:132
 msgid "Single Post Template"
-msgstr "Post Modelo Único"
+msgstr "Modelo da página do Post"
 
 #: lib/tools/post-templates.php:157
 msgid "Post Template"
-msgstr "Modelo de Postagem"
+msgstr "Modelo de Post"
 
 #: lib/tools/post-templates.php:162
 msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
-msgstr "Alguns temas tem modelos personalizados que você pode usar para posts individuais que possam ter recursos adicionais ou layouts personalizados. Se for o caso, você vai vê-los acima. "
+msgstr "Alguns temas tem modelos personalizados que você pode usar para posts individuais que possam ter recursos adicionais ou layouts personalizados. Se assim for,  vai vê-los acima."
 
 #: lib/widgets/enews-widget.php:38
 msgid "Enter your email address ..."
-msgstr "Informe seu endereço de email ..."
+msgstr "Introduza o seu endereço de email"
 
 #: lib/widgets/enews-widget.php:39
 msgid "Go"
@@ -1371,15 +1371,15 @@ msgstr "Genesis - eNews e Atualizações"
 #: lib/widgets/latest-tweets-widget.php:181
 #: lib/widgets/latest-tweets-widget.php:190
 msgid "This widget has been deprecated, and should no longer be used."
-msgstr "Esse widget foi descontinuado e não deve ser mais usado."
+msgstr "Este Widget está obsoleto, e não deve continuar a usa-lo."
 
 #: lib/widgets/enews-widget.php:116
 msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
-msgstr "Se você deseja continuar usando a funcionalidade do widget eNews, por favor, permita que um administrador de site <a href=\"%s\" target=\"_blank\">instale o plugin</a> e substitua esse widget pelo widget Genesis eNews Extended."
+msgstr "Se pretender continua a utilizar as funcionalidades do Widget eNews, por favor, através de um utilizador com privilegios de administração <a href=\"%s\" target=\"_blank\">instale este plugin</a> e substitua o widget existente  pelo Genesis eNews Extended widget."
 
 #: lib/widgets/enews-widget.php:125
 msgid "If you would like to continue to use the eNews widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
-msgstr "Se você deseja continuar usando a funcionalidade do widget eNews, por favor <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">instale o plugin</a> e substitua esse widget pelo widget Genesis eNews Extended. "
+msgstr "Se pretender continua a utilizar as funcionalidades do Widget eNews, por favor <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">instale este plugin</a> e substitua o widget existente pelo Genesis eNews Extended widget."
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
@@ -1471,11 +1471,11 @@ msgstr "Categoria"
 #: lib/widgets/featured-post-widget.php:238
 #: lib/widgets/featured-post-widget.php:376
 msgid "Number of Posts to Show"
-msgstr "Número de posts a exibir"
+msgstr "Número de posts à exibir"
 
 #: lib/widgets/featured-post-widget.php:243
 msgid "Number of Posts to Offset"
-msgstr "Número de posts para relacionar"
+msgstr "Número de posts para exibir"
 
 #: lib/widgets/featured-post-widget.php:248
 msgid "Order By"
@@ -1577,7 +1577,7 @@ msgstr "Leia mais (se aplicável)"
 
 #: lib/widgets/featured-post-widget.php:368
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Para exibir uma lista desordenada de mais posts desta categoria, por favor, preencha o formulário abaixo"
+msgstr "Para exibir uma lista não ordenada de mais posts desta categoria, por favor, preencha o formulário abaixo"
 
 #: lib/widgets/featured-post-widget.php:386
 msgid "Show Category Archive Link"
@@ -1589,7 +1589,7 @@ msgstr "Link do Texto"
 
 #: lib/widgets/latest-tweets-widget.php:49
 msgid "Display a list of your latest tweets."
-msgstr "Exiba uma lista dos seus últimos tuítes."
+msgstr "Exibir uma lista dos seus últimos Tweets"
 
 #: lib/widgets/latest-tweets-widget.php:58
 msgid "Genesis - Latest Tweets"
@@ -1597,7 +1597,7 @@ msgstr "Genesis - Últimos Tweets"
 
 #: lib/widgets/latest-tweets-widget.php:98
 msgid "The Twitter API is taking too long to respond. Please try again later."
-msgstr "A API do Twitter está demorando muito para responder. Por favor, tente novamente mais tarde."
+msgstr "A API do Twitter está a demorar muito a responder. Por favor, tente novamente mais tarde."
 
 #: lib/widgets/latest-tweets-widget.php:101
 msgid "There was an error while attempting to contact the Twitter API. Please try again."
@@ -1609,27 +1609,27 @@ msgstr "A API do Twitter retornou um erro ao processar o pedido. Por favor, tent
 
 #: lib/widgets/latest-tweets-widget.php:118
 msgid "about %s ago"
-msgstr "por volta de %s atrás"
+msgstr "sobre %s atrás"
 
 #: lib/widgets/latest-tweets-widget.php:182
 msgid "If you would like to continue to use the Latest Tweets widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a>."
-msgstr "Se você deseja continuar usando a funcionalidade do widget Últimos Tweets, por favor, permita que um administrador de site <a href=\"%s\" target=\"_blank\">instale o plugin</a>."
+msgstr "Se pretender continuar a utilizar as funcionalidades dos Ultimos Tweets, por favor, através de um utilizador com privilegios de administração <a href=\"%s\" target=\"_blank\">instale este plugin</a>."
 
 #: lib/widgets/latest-tweets-widget.php:191
 msgid "If you would like to continue to use the Latest Tweets widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">install this plugin</a>."
-msgstr "Se você deseja continuar usando a funcionalidade do widget Últimos Tweets, por favor <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">instale o plugin</a>."
+msgstr "Se pretender continuar a utilizar as funcionalidades dos Ultimos Tweets, por favor <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">instale este plugin</a>."
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "Read More"
-msgstr "Ler Mais"
+msgstr "Leia mais"
 
 #: lib/widgets/user-profile-widget.php:48
 msgid "Displays user profile block with Gravatar"
-msgstr "Exibe o bloco de perfil de usuário com Gravatar"
+msgstr "Exibe o bloco de perfil do utilizador com Gravatar"
 
 #: lib/widgets/user-profile-widget.php:57
 msgid "Genesis - User Profile"
-msgstr "Genesis - Perfil de Usuário"
+msgstr "Genesis - Perfil do Utilizador"
 
 #: lib/widgets/user-profile-widget.php:96
 msgid "View My Blog Posts"
@@ -1637,7 +1637,7 @@ msgstr "Veja os meus Posts"
 
 #: lib/widgets/user-profile-widget.php:141
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Selecione um usuário. O endereço de email desta conta será usada para carregar o Gravatar associado."
+msgstr "Selecione um utilizador. O endereço de email desta conta será usada para carregar o Gravatar associado."
 
 #: lib/widgets/user-profile-widget.php:149
 msgid "Small"
@@ -1657,7 +1657,7 @@ msgstr "Extra Grande"
 
 #: lib/widgets/user-profile-widget.php:167
 msgid "Select which text you would like to use as the author description"
-msgstr "Selecione qual o texto que você gostaria de usar como a descrição do autor"
+msgstr "Selecione qual o texto que pretende definir como a descrição do autor"
 
 #: lib/widgets/user-profile-widget.php:170
 msgid "Author Bio"
@@ -1669,15 +1669,15 @@ msgstr "Personalizar o texto (abaixo)"
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Custom Text Content"
-msgstr "Personalizar o texto do conteúdo"
+msgstr "Conteudo de texto personalizado"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Escolha a a página extendida de \"Sobre mim\" dentre a lista abaixo. Esta será a página será linkada ao final da seção \"Sobre mim\"."
+msgstr "Escolha a opção \"Sobre mim\" na lista abaixo. Esta página será ligado ao final da seção \"Sobre mim\"."
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Extended page link text"
-msgstr "Texto extendido da página de links"
+msgstr "Texto para o Link de extensão de página"
 
 #: lib/widgets/user-profile-widget.php:190
 msgid "Show Author Archive Link?"
@@ -1685,4 +1685,4 @@ msgstr "Mostrar link para o arquivo do Autor?"
 
 #: search.php:28
 msgid "Search Results for:"
-msgstr "Resultados da Busca por:"
+msgstr "Resultados para a pesquisa de:"

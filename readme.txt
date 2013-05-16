@@ -4,7 +4,7 @@ Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.8.5
+Stable tag: 1.9.0
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
@@ -16,6 +16,9 @@ No need to fuss about with your `functions.php` file or uploading `.mo` and `.po
 
 Currently the following translations are available for Genesis 1.9.x
 
+* Arabic - ar
+* Afrikaans - af
+* Croatian - hr
 * Danish - da_DK
 * Dutch - nl_NL
 * Italian - it_IT
@@ -32,13 +35,13 @@ Currently the following translations are available for Genesis 1.9.x
 * Russian - ru_RU
 * Norwegian - nb_NO
 * Portuguese-Brazilian - pt_BR
-* Greek - el_GR (90%)
-* Hebrew - he_IL (95% ready)
-* Polish - pl_PL (89% ready)
-* Portuguese - pt_PT (88% ready)
-* Hungarian - hu_HU (86% ready)
-* Japanese - ja(77% ready)
-* Chinese - zh_CN (68% ready)
+* Greek - el_GR
+* Hebrew - he_IL
+* Polish - pl_PL
+* Portuguese - pt_PT
+* Hungarian - hu_HU
+* Japanese - ja
+* Chinese - zh_CN
 * Icelandic - is_IS (front-end only)
 
 
@@ -82,6 +85,11 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
+
+= 1.9.0 =
+
+* Added Arabic (ar), Afrikaans (af) & Croatian (hr)
+* Updated es_MX, da_DK, sv_SE, pt_PR, hu_HU,
 
 = 1.8.4 =
 

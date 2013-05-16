@@ -5,7 +5,7 @@
 * Tags: genesis, translations,
 * Requires at least: 3.1
 * Tested up to: 3.5.
-* Stable tag: 1.8.4
+* Stable tag: 1.9.0
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
@@ -84,6 +84,10 @@ No screenshots (yet). Let me know if you need some.
 
 ##Changelog
 
+### 1.9.0
+
+* Added Arabic (ar), Afrikaans (af) & Croatian (hr)
+* Updated es_MX, da_DK, sv_SE, pt_PR, hu_HU,
 
 ### 1.8.4 =
 

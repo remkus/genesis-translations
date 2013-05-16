@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.9 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-31 14:40:52+0000\n"
+"PO-Revision-Date: 2013-05-16 11:52:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:72
 msgid "You may notice that the default Genesis style sheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
-msgstr ""
+msgstr "Te habrás dado cuenta que la hoja de stilos por default en Genesis es un poco mas corta, y en la portada termina viéndose diferente. Actualizamos el diseño por default y extendimos el ancho de la plantilla a 1152px. Ahora tenés mas espacio para mostrar tu contenido."
 
 #: 404.php:33
 msgid "Not Found, Error 404"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:205
 msgid "Add site name to %s on inner pages?"
-msgstr ""
+msgstr "Agregar el nombre del sitio a %s o a las páginas interiores?"
 
 #: lib/admin/seo-settings.php:209
 msgid "Document Title Additions Location:"
@@ -264,7 +264,7 @@ msgstr "Derecha"
 
 #: lib/admin/seo-settings.php:222
 msgid "Document Title Separator:"
-msgstr ""
+msgstr "Separador del Document Title:"
 
 #: lib/admin/seo-settings.php:224
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
@@ -284,7 +284,7 @@ msgstr "Título del Sitio"
 
 #: lib/admin/seo-settings.php:253
 msgid "Site Description (Tagline)"
-msgstr ""
+msgstr "Site Description (Tagline)"
 
 #: lib/admin/seo-settings.php:256
 msgid "Neither. I'll manually wrap my own text on the homepage"
@@ -292,23 +292,23 @@ msgstr "Tampoco. Yo manualmente envolveré mi propio texto en la página de inic
 
 #: lib/admin/seo-settings.php:260
 msgid "Homepage Document Title:"
-msgstr ""
+msgstr "Homepage Document Title:"
 
 #: lib/admin/seo-settings.php:262
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr ""
+msgstr "Si dejas el campo document title en blanco, se usará el título de tu sitio en su lugar."
 
 #: lib/admin/seo-settings.php:266
 msgid "Home Meta Description:"
-msgstr ""
+msgstr "Home Meta Description:"
 
 #: lib/admin/seo-settings.php:268
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr ""
+msgstr "La etiqueta meta description puede ser usada para determinar el texto que aparecerá de bajo del título en las páginas de resultados de búsqueda."
 
 #: lib/admin/seo-settings.php:272
 msgid "Home Meta Keywords (comma separated):"
-msgstr ""
+msgstr "Home Meta Keywords (separadas por coma):"
 
 #: lib/admin/seo-settings.php:274
 msgid "Keywords are generally ignored by Search Engines."
@@ -325,15 +325,15 @@ msgstr "¿Aplicar %s a la página de Inicio?"
 
 #: lib/admin/seo-settings.php:290
 msgid "Homepage Author"
-msgstr ""
+msgstr "Autor de la homepage"
 
 #: lib/admin/seo-settings.php:293
 msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr ""
+msgstr "Seleccionar el usuario que desee que sea usado como el %s de la homepage. Asegúrese que dicho usuario haya completado la dirección de su perfil de Google+ en la pantalla de perfiles."
 
 #: lib/admin/seo-settings.php:298
 msgid "Select User"
-msgstr ""
+msgstr "Seleccionar usuario"
 
 #: lib/admin/seo-settings.php:321
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
@@ -559,7 +559,7 @@ msgstr "Por favor, Seleccione el estilo de color de la lista desplegable y guard
 
 #: lib/admin/theme-settings.php:389
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "Usar para el título/logo del sitio"
 
 #: lib/admin/theme-settings.php:391
 msgid "Dynamic text"
@@ -880,7 +880,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:81
 msgid "Genesis Category/Page Menu Widgets Removed"
-msgstr ""
+msgstr "Los widgets de menúes Categoría/Página de Genesis fueron removidos"
 
 #: lib/admin/whats-new.php:82
 msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."

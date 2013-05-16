@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.9 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-31 14:37:25+0000\n"
+"PO-Revision-Date: 2013-05-16 11:56:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -559,7 +559,7 @@ msgstr "Vælg venligst farve i listen og gem dine indstillinger"
 
 #: lib/admin/theme-settings.php:389
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "Brug til sidens titel/logo:"
 
 #: lib/admin/theme-settings.php:391
 msgid "Dynamic text"
@@ -856,7 +856,7 @@ msgstr "Opdateret design og et bredere layout"
 
 #: lib/admin/whats-new.php:73
 msgid "Updated Security Audit"
-msgstr ""
+msgstr "Opdateret sikkerheds kontrol"
 
 #: lib/admin/whats-new.php:74
 msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
@@ -864,7 +864,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:75
 msgid "Google Author Highlights"
-msgstr ""
+msgstr "Google forfatter højdepunkter"
 
 #: lib/admin/whats-new.php:76
 msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
@@ -872,11 +872,11 @@ msgstr ""
 
 #: lib/admin/whats-new.php:78
 msgid "Deprecating Widgets"
-msgstr ""
+msgstr "Udgåede widgets"
 
 #: lib/admin/whats-new.php:79
 msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
-msgstr ""
+msgstr "Genesis har altid indeholdt en række nyttige Widgets, men vi har på det seneste erkendt, at nogle af disse widgets bør være plugins, så udviklere hurtigere kan udgive opdateringer og sørge for, at koden er up to date. Derfor bliver \"eNews & Updates\" og \"Latest Tweets\" widgets porteret til plugins og fjernet fra Genesis"
 
 #: lib/admin/whats-new.php:81
 msgid "Genesis Category/Page Menu Widgets Removed"
@@ -900,19 +900,19 @@ msgstr ""
 
 #: lib/admin/whats-new.php:91
 msgid "Genesis 2.0 Roadmap"
-msgstr ""
+msgstr "Genesis 2.0 udviklingsplan"
 
 #: lib/admin/whats-new.php:93
 msgid "Support for HTML5 Markup"
-msgstr ""
+msgstr "Support til HTML5 Markup"
 
 #: lib/admin/whats-new.php:94
 msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
-msgstr ""
+msgstr "Vi har store planer for at implementere en ny markup struktur i Genesis 2.0, som udelukkende vil bygge på HTML5."
 
 #: lib/admin/whats-new.php:96
 msgid "A New Mobile Strategy"
-msgstr ""
+msgstr "Ny strategi for mobil"
 
 #: lib/admin/whats-new.php:97
 msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
@@ -929,7 +929,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:127
 msgid "Contributors"
-msgstr ""
+msgstr "Bidragydere"
 
 #: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
 #: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
@@ -937,7 +937,7 @@ msgstr ""
 #: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
 #: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
 msgid "Contributor"
-msgstr ""
+msgstr "Bidragyder"
 
 #: lib/admin/whats-new.php:185
 msgid "Go to Theme Settings &rarr;"
@@ -1010,61 +1010,61 @@ msgstr "Denne fil behøver ikke længere at være inkluderet."
 #: lib/functions/formatting.php:292
 msgctxt "time difference"
 msgid "seconds"
-msgstr ""
+msgstr "sekunder"
 
 #: lib/functions/formatting.php:296
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s år"
+msgstr[1] "%s år"
 
 #: lib/functions/formatting.php:297
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s måned"
+msgstr[1] "%s måneder"
 
 #: lib/functions/formatting.php:298
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s uge"
+msgstr[1] "%s uger"
 
 #: lib/functions/formatting.php:299
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s dag"
+msgstr[1] "%s dage"
 
 #: lib/functions/formatting.php:300
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s time"
+msgstr[1] "%s timer"
 
 #: lib/functions/formatting.php:301
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s minut"
+msgstr[1] "%s minutter"
 
 #: lib/functions/formatting.php:302
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s sekund"
+msgstr[1] "%s sekunder"
 
 #: lib/functions/formatting.php:327
 msgctxt "separator in time difference"
 msgid "and"
-msgstr ""
+msgstr "og"
 
 #: lib/functions/layout.php:37
 msgid "Content-Sidebar"
@@ -1100,7 +1100,7 @@ msgstr "Argumentet \"context\", er blevet erstattet med \"theme_location\" i $ar
 
 #: lib/functions/seo.php:122
 msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr ""
+msgstr "Har du prøvet Scribe marketing software? Optimer research, indhold og website og byg forretningsmæssige relattioner uden at forlade WordPress.<b>Brugere af Genesis får et specielt tilbud, hvis de benytter linket på den side, vi har oprettet.</b>. <a href=\"%s\" target=\"_blank\">Få mere information her</a>."
 
 #: lib/functions/seo.php:124
 msgid "Dismiss"
@@ -1180,7 +1180,7 @@ msgstr "Vælg / fravælg alle"
 
 #: lib/shortcodes/footer.php:41
 msgid "Return to top of page"
-msgstr "Til toppen af siden"
+msgstr "Tilbage til toppen"
 
 #: lib/shortcodes/footer.php:176
 msgid "by "
@@ -1200,7 +1200,7 @@ msgstr "siden"
 
 #: lib/shortcodes/post.php:140
 msgid "Visit %s&#x02019;s website"
-msgstr ""
+msgstr "Besøg %s&#x02019;s website"
 
 #: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
 msgid "% Comments"
@@ -1277,7 +1277,7 @@ msgstr "til"
 
 #: lib/structure/loops.php:192
 msgid "Read more"
-msgstr ""
+msgstr "Læs mere"
 
 #: lib/structure/menu.php:150
 msgid "Comments"
@@ -1317,7 +1317,7 @@ msgstr "Næste side"
 
 #: lib/structure/search.php:23
 msgid "Search this website"
-msgstr ""
+msgstr "Søg i sitet"
 
 #: lib/structure/search.php:25
 msgid "Search"
@@ -1353,7 +1353,7 @@ msgstr "Nogle temaer har brugerdefinerede skabeloner, du kan bruge til enkelt in
 
 #: lib/widgets/enews-widget.php:38
 msgid "Enter your email address ..."
-msgstr ""
+msgstr "Skriv din e-mailadresse"
 
 #: lib/widgets/enews-widget.php:39
 msgid "Go"
@@ -1371,7 +1371,7 @@ msgstr "Genesis - eNews og Updates"
 #: lib/widgets/latest-tweets-widget.php:181
 #: lib/widgets/latest-tweets-widget.php:190
 msgid "This widget has been deprecated, and should no longer be used."
-msgstr ""
+msgstr "Det frarådes at anvende denne widget, fordi den ikke længere supporteres"
 
 #: lib/widgets/enews-widget.php:116
 msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
@@ -1621,7 +1621,7 @@ msgstr ""
 
 #: lib/widgets/user-profile-widget.php:42
 msgid "Read More"
-msgstr ""
+msgstr "Læs mere"
 
 #: lib/widgets/user-profile-widget.php:48
 msgid "Displays user profile block with Gravatar"
