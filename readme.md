@@ -5,11 +5,11 @@
 * Tags: genesis, translations,
 * Requires at least: 3.1
 * Tested up to: 3.5.
-* Stable tag: 1.8.0
+* Stable tag: 1.8.4
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
-## Description 
+## Description
 
 This plugin translates your Genesis powered WordPress site easily with one of the available languages.
 
@@ -47,7 +47,7 @@ So you don't see your language up here and you would like to see it added? [Plea
 
 This plugin only works on the [Genesis Framework](http://forsitemedia.net/go/genesis/ "Genesis Framework").
 
-### Installation 
+### Installation
 
 Installation of this plugin works like any other plugin out there. Either:
 
@@ -82,7 +82,24 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 No screenshots (yet). Let me know if you need some.
 
-##Changelog 
+##Changelog
+
+
+### 1.8.4 =
+
+* Updated Hungarian language files. Again.
+
+### 1.8.3 =
+
+* Updated Danish, Dutch, German, Hebrew, French and added Mexican Spanish
+
+### 1.8.2
+
+* Updated various languages
+
+### 1.8.1
+
+* Accidentally deleted helper function. Sorry about that folks.
 
 #### 1.8.0
 
@@ -91,7 +108,7 @@ No screenshots (yet). Let me know if you need some.
 
 #### 1.7.0
 
-* Added Norwegian ( nb_NO ) and huge update to Portuguese Brazilian. 
+* Added Norwegian ( nb_NO ) and huge update to Portuguese Brazilian.
 * Small updates to French, Danish and Russian
 
 #### 1.6.0
@@ -100,8 +117,8 @@ No screenshots (yet). Let me know if you need some.
 
 #### 1.5.0
 
-* Basically all of the languages saw small updates. 
-* Swedish and Danish got a big overhaul in grammar and such. 
+* Basically all of the languages saw small updates.
+* Swedish and Danish got a big overhaul in grammar and such.
 * Hungarian, Portuguese and Chinese is added as well as Icelandic for the front-end only.
 
 #### 1.4.1
@@ -137,15 +154,15 @@ Fixing a typo. It happens.
 
 #### 1.0
 
-* Stable release. 
-* Updated some code here and there. 
+* Stable release.
+* Updated some code here and there.
 * Added the Portuguese Brazilian, Hebrew, Japanese and Romanian languages.
 
 #### 0.1
 
 * First release. Just testing things out.
 
-### Upgrade Notice 
+### Upgrade Notice
 
 #### 1.1
 
@@ -156,7 +173,7 @@ Fixing a typo. It happens.
 * Upgrade from nothingness just to be one of the cool kids.
 
 
-## Other Notes 
+## Other Notes
 
 This plugin couldn't have been possible without the help of the following translators:
 
