@@ -5,18 +5,19 @@
 * Tags: genesis, translations,
 * Requires at least: 3.1
 * Tested up to: 3.5.
-* Stable tag: 1.9.0
+* Stable tag: 1.9.1
 
-Translate your Genesis powered WordPress site into one of the available languages.
+Translate your Genesis Framework powered WordPress site into one of the available languages.
 
 ## Description
 
-This plugin translates your Genesis powered WordPress site easily with one of the available languages.
+This plugin translates your Genesis powered WordPress site easily with one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
-No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;!
+Currently the following translations are available for Genesis 1.9.x
 
-Currently the following translations are available for Genesis 1.8.x
-
+* Afrikaans - Af
+* Arabic - Ar
+* Croatian - hr
 * Danish - da_DK
 * Dutch - nl_NL
 * Italian - it_IT
@@ -33,15 +34,14 @@ Currently the following translations are available for Genesis 1.8.x
 * Russian - ru_RU
 * Norwegian - nb_NO
 * Portuguese-Brazilian - pt_BR
-* Greek - el_GR (90%)
-* Hebrew - he_IL (95% ready)
-* Polish - pl_PL (89% ready)
-* Portuguese - pt_PT (88% ready)
-* Hungarian - hu_HU (86% ready)
-* Japanese - ja(77% ready)
-* Chinese - zh_CN (68% ready)
+* Greek - el_GR
+* Hebrew - he_IL
+* Polish - pl_PL
+* Portuguese - pt_PT
+* Hungarian - hu_HU
+* Japanese - ja
+* Chinese - zh_CN
 * Icelandic - is_IS (front-end only)
-
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
@@ -83,6 +83,10 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 ##Changelog
+
+### 1.9.1
+
+* small changes here and there
 
 ### 1.9.0
 

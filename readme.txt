@@ -4,15 +4,13 @@ Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.9.0
+Stable tag: 1.9.1
 
-Translate your Genesis powered WordPress site into one of the available languages.
+Translate your Genesis Framework powered WordPress site into one of the available languages.
 
 == Description ==
 
-This plugin translates your Genesis powered WordPress site easily with one of the available languages.
-
-No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;!
+This plugin translates your Genesis powered WordPress site easily with one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
 Currently the following translations are available for Genesis 1.9.x
 
