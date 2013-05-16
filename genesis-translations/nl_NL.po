@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 1.9 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-18 08:31:03+0000\n"
+"PO-Revision-Date: 2013-01-31 14:35:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -329,7 +329,7 @@ msgstr "Homepage Auteur"
 
 #: lib/admin/seo-settings.php:293
 msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr ""
+msgstr "Selecteer de gebruiker die gebruikt moet worden als %s voor de homepage. Zorg ervoor dat de gebruiker het Google+ profiel adres in het profiel heeft ingevoerd."
 
 #: lib/admin/seo-settings.php:298
 msgid "Select User"
@@ -337,7 +337,7 @@ msgstr "Selecteer gebruiker"
 
 #: lib/admin/seo-settings.php:321
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr ""
+msgstr "Standaard plaatst WordPress diverse tags in je document %1$s. Veel van deze tags zijn niet noodzakelijk, dragen niet bij aan de <abbr title=\"zoekmachine optimalisatie\">SEO</abbr>  en vertragen je website. Kies hier welke tags je in je document %1$s wilt hebben. Als je het niet zeker weet, laat het dan uitgevinkt staan."
 
 #: lib/admin/seo-settings.php:323
 msgid "Relationship Link Tags:"

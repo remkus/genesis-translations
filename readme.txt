@@ -3,8 +3,8 @@ Contributors: DeFries
 Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
-Tested up to: 3.5.
-Stable tag: 1.8.0
+Tested up to: 3.5.1
+Stable tag: 1.8.4
 
 Translate your Genesis powered WordPress site into one of the available languages.
 
@@ -14,7 +14,7 @@ This plugin translates your Genesis powered WordPress site easily with one of th
 
 No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;!
 
-Currently the following translations are available for Genesis 1.8.x
+Currently the following translations are available for Genesis 1.9.x
 
 * Danish - da_DK
 * Dutch - nl_NL
@@ -83,6 +83,22 @@ No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
 
+= 1.8.4 =
+
+* Updated Hungarian language files. Again.
+
+= 1.8.3 =
+
+* Updated Danish, Dutch, German, Hebrew, French and added Mexican Spanish
+
+= 1.8.2 =
+
+* Updated various languages
+
+= 1.8.1 =
+
+* Accidentally deleted helper function. Sorry about that folks.
+
 = 1.8.0 =
 
 * Updated the translations to reflect the changes made to in the genesis.pot file related to the Genesis 1.9 update
@@ -140,6 +156,10 @@ Fixing a typo. It happens.
 * First release. Just testing things out.
 
 == Upgrade Notice ==
+
+= 1.8.1 =
+
+* Update to reflect changes in Genesis 1.9
 
 = 1.1 =
 

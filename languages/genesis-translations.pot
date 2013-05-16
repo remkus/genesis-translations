@@ -1,0 +1,45 @@
+# Copyright (C) 2013 Genesis Translations
+# This file is distributed under the same license as the Genesis Translations package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Translations 1.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/genesis-translations\n"
+"POT-Creation-Date: 2013-01-31 16:43:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: genesis-translations.php:57
+msgid ""
+"Whoa.. the translation this plugin only works, really, when you have "
+"installed the %1$sGenesis Framework%2$s"
+msgstr ""
+
+#: genesis-translations.php:64
+msgid ""
+"Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s "
+"or greater for these translations to make any sense."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Translations"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://remkusdevries.com/plugins/genesis-translations/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin will translate Genesis in the available languages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Remkus de Vries"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://remkusdevries.com/"
+msgstr ""
