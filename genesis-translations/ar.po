@@ -1,0 +1,1716 @@
+# Translation of Genesis 1.9 in Arabic
+# This file is distributed under the same license as the Genesis 1.9 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-16 11:54:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 1.9\n"
+
+#: lib/admin/whats-new.php:72
+msgid "You may notice that the default Genesis style sheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
+msgstr "قد تلاحظون أن ملف التنسيق الإفتراضي لإطار العمل قصير قليلا، ويبدوا مختلفا في الموقع، لقد قمنا بتحديث التصميم الإفتراضي ووسعنا العرض الخاص بالتخطيط الى 1152 بيكسل، الآن يمكنكم عرض الكثير بدل القليل الذي كان."
+
+#: 404.php:33
+msgid "Not Found, Error 404"
+msgstr "خطأ 404 - غير موجود"
+
+#: 404.php:35
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "يبدوا أن الصفحة التي تبحثون عنها غير موجودة، قد تكون حذفت او تم تغييرها، ربما بالإمكان العثور عما ترغبون في المعلومات أدناه"
+
+#: 404.php:39 lib/structure/post.php:219 page_archive.php:35
+msgid "Pages:"
+msgstr "حسب الصفحات:"
+
+#: 404.php:44 page_archive.php:40
+msgid "Categories:"
+msgstr "حسب التصنيفات:"
+
+#: 404.php:53 page_archive.php:49
+msgid "Authors:"
+msgstr "حسب الكتاب:"
+
+#: 404.php:58 page_archive.php:54
+msgid "Monthly:"
+msgstr "حسب الشهر:"
+
+#: 404.php:63 page_archive.php:59
+msgid "Recent Posts:"
+msgstr "حسب أحدث المقالات:"
+
+#: comments.php:24
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "هذه المقالة محمية بكلمة مرور، الرجاء إدخالها للإستمرار أكثر"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "التصدير والإستيراد"
+
+#: lib/admin/import-export.php:46
+msgid "Import/Export"
+msgstr "التصدير والإستيراد"
+
+#: lib/admin/import-export.php:81
+msgid "Import Genesis Settings File"
+msgstr "إستيراد ملف إعدادات إطار العمل"
+
+#: lib/admin/import-export.php:83
+msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
+msgstr "الرجاء رفع ملف بإمتداد (<code>.json</code>) من جهازكم ونحن سنتكفل باستيراد جميع الإعدادات"
+
+#: lib/admin/import-export.php:84
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "الرجاء إختيار الملف من  جهازكم والنقر على زر \"رفع وإستيراد\""
+
+#: lib/admin/import-export.php:89
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "رفع الملف: (أقصى حجم: %s)"
+
+#: lib/admin/import-export.php:92
+msgid "Upload File and Import"
+msgstr "رفع واستيراد الملف"
+
+#: lib/admin/import-export.php:100
+msgid "Export Genesis Settings File"
+msgstr "تصدير ملف إعدادات إطار العمل"
+
+#: lib/admin/import-export.php:102
+msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
+msgstr "عند النقر على الزر أسفلة، سيقوم إطار العمل بتوليد ملف بإمتداد (<code>.json</code>) لكم لتقوموا بحفظه في جهازكم."
+
+#: lib/admin/import-export.php:103
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "عندما تقومون بحفظ  الملف المحمل، سيكون بإستطاعتكم إستعماله لإستيراد نفس هذه الإعدادات لموقع ثان."
+
+#: lib/admin/import-export.php:110
+msgid "Download Export File"
+msgstr "تحميل ملف التصدير"
+
+#: lib/admin/import-export.php:142
+msgid "Settings successfully imported."
+msgstr "تم إستيراد الإعدادات بنجاح"
+
+#: lib/admin/import-export.php:144
+msgid "There was a problem importing your settings. Please try again."
+msgstr "لقد وقع خلل ما منع عملية إستيراد الإعدادات بنجاح، الرجاء المحاولة مجددا"
+
+#: lib/admin/import-export.php:162 lib/admin/theme-settings.php:58
+#: lib/admin/theme-settings.php:59
+msgid "Theme Settings"
+msgstr "إعدادات القالب"
+
+#: lib/admin/import-export.php:166 lib/admin/seo-settings.php:44
+msgid "SEO Settings"
+msgstr "إعدادات SEO"
+
+#: lib/admin/import-export.php:188
+msgid "No export options available."
+msgstr "لا توجد أي خصائص مصدرة حاليا"
+
+#: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "إعدادات SEO للقالب"
+
+#: lib/admin/inpost-metaboxes.php:54
+msgid "Custom Document Title"
+msgstr "عنوان مخصص للتدوينة/للصفحة"
+
+#: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
+msgid "Characters Used: %s"
+msgstr "الحروف المتسعملة: %s"
+
+#: lib/admin/inpost-metaboxes.php:57
+msgid "Custom Post/Page Meta Description"
+msgstr "وصف ميتا مخصص للتدوينة/الصفحة"
+
+#: lib/admin/inpost-metaboxes.php:60
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "كلمات ميتا مفتاحية مخصصة للتدوينة/الصفحة، مفصولة بفاصلة إنجليزية"
+
+#: lib/admin/inpost-metaboxes.php:63
+msgid "Custom Canonical URI"
+msgstr "وسم مخصص"
+
+#: lib/admin/inpost-metaboxes.php:66
+msgid "Custom Redirect URI"
+msgstr "وسم إعادة توجيه مخصص"
+
+#: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:176
+msgid "Robots Meta Settings"
+msgstr "إعدادات مخصصة لعناكب البحث"
+
+#: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
+#: lib/admin/inpost-metaboxes.php:81
+msgid "Apply %s to this post/page"
+msgstr "تطبيق وسم %s على هذه التدوينة/الصفحة"
+
+#: lib/admin/inpost-metaboxes.php:86
+msgid "Custom Tracking/Conversion Code"
+msgstr "شفرة متابعة مخصصة"
+
+#: lib/admin/inpost-metaboxes.php:161 lib/admin/term-meta.php:202
+#: lib/admin/user-meta.php:246
+msgid "Layout Settings"
+msgstr "إعدادات تخطيط الموقع"
+
+#: lib/admin/inpost-metaboxes.php:185 lib/admin/term-meta.php:211
+#: lib/admin/user-meta.php:256
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "التخطيط المعين سلفا في <a href=\"%s\">إعدادات القالب</a>"
+
+#: lib/admin/inpost-metaboxes.php:192
+msgid "Custom Body Class"
+msgstr "تنسيق مخصص للـ Body"
+
+#: lib/admin/inpost-metaboxes.php:195
+msgid "Custom Post Class"
+msgstr "تنسيق مخصص للتدوينة"
+
+#: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
+msgid "README"
+msgstr "إقرأني"
+
+#: lib/admin/readme-menu.php:68
+msgid "The %s file was not found in the child theme, or it was empty."
+msgstr "لم يتم العثور على ملف %s في القالب الفرعي، او أنه فارغ"
+
+#: lib/admin/seo-settings.php:43
+msgid "Genesis - SEO Settings"
+msgstr "إعدادات SEO"
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:104
+msgid "Save Settings"
+msgstr "حفظ التغيرات"
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:105
+msgid "Reset Settings"
+msgstr "إستعادة الإعدادات الرئيسية"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:106
+msgid "Settings saved."
+msgstr "تم حفظ التغيرات بنجاح."
+
+#: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:107
+msgid "Settings reset."
+msgstr "تم إستعادة الإعدادات الإفتراضية بنجاح."
+
+#: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:73
+#: lib/classes/admin.php:108
+msgid "Error saving settings."
+msgstr "خلل أثناء حفظ الإعدادات."
+
+#: lib/admin/seo-settings.php:173
+msgid "Document Title Settings"
+msgstr "إعدادات عناوين التدوينات والصفحات"
+
+#: lib/admin/seo-settings.php:174
+msgid "Homepage Settings"
+msgstr "إعدادات الصفحة الرئيسية"
+
+#: lib/admin/seo-settings.php:175
+msgid "Document Head Settings"
+msgstr "إعدادات ترويسة التدوينات والصفحات"
+
+#: lib/admin/seo-settings.php:177
+msgid "Archives Settings"
+msgstr "إعدادات الأرشيف"
+
+#: lib/admin/seo-settings.php:194
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "عنوان التدوينات والصفحات (%s) هو أهم عنصر في إعدادات <abbr title=\"Search engine optimization\">SEO</abbr> فهو يعلم محركات البحث بماهية المحتوى المنشور، العنوان يجب أن يكون مختلفا من مقال لآخر لمزيد من ثقة محركات البحث، هذه الإعدادات ستساعدكم على التمييز أكثر عما يجب عمله وما لا يجب عمله بشكل إفتراضي."
+
+#: lib/admin/seo-settings.php:196
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong>بشكل إفتراضي</strong> عنوان الصفحة الرئيسية يحوي إسم الموقع او المدونة الرئيسي، عناوين التدوينات المنفردة او الصفحات تحوي إسم المحتوى المنشور فيها وصفحة الأرشيف ستحوي نوع الأرشيف ... الخ"
+
+#: lib/admin/seo-settings.php:200
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "إضافة وصف المدونة او الموقع إلى وسم %s في الصفحة الرئيسية ؟"
+
+#: lib/admin/seo-settings.php:205
+msgid "Add site name to %s on inner pages?"
+msgstr "إظافة إسم المدونة او الموقع إلى وسم %s في الصفحات الداخلية ؟"
+
+#: lib/admin/seo-settings.php:209
+msgid "Document Title Additions Location:"
+msgstr "إتجاه عناوين التدوينات والصفحات:"
+
+#: lib/admin/seo-settings.php:210
+msgid "Determines which side the added title text will go on."
+msgstr "إختاروا الإتجاه الذي ستقوم عناوين التدوينات والصفحات بمحاذاته"
+
+#: lib/admin/seo-settings.php:214 lib/widgets/featured-page-widget.php:191
+#: lib/widgets/featured-post-widget.php:290
+#: lib/widgets/featured-post-widget.php:320
+#: lib/widgets/user-profile-widget.php:161
+msgid "Left"
+msgstr "محاذات على اليسار"
+
+#: lib/admin/seo-settings.php:217 lib/widgets/featured-page-widget.php:192
+#: lib/widgets/featured-post-widget.php:291
+#: lib/widgets/featured-post-widget.php:321
+#: lib/widgets/user-profile-widget.php:162
+msgid "Right"
+msgstr "محاذات على اليمين"
+
+#: lib/admin/seo-settings.php:222
+msgid "Document Title Separator:"
+msgstr "فواصل عناوين التدوينات والصفحات:"
+
+#: lib/admin/seo-settings.php:224
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "في حال كان العنوان مركبا من جزئين او أكثر، سيتم الفصل بينها بفاصل، يمكنكم تخصيص فاصل من هذا الإعداد."
+
+#: lib/admin/seo-settings.php:245
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "أي نص ترغبون بإدراجه ضمن وسم %s ؟"
+
+#: lib/admin/seo-settings.php:246
+msgid "The %s tag is, arguably, the second most important <abbr title=\"Search engine optimization\">SEO</abbr> tag in the document source. Choose wisely."
+msgstr "وسم %s هو بدون منازع ثان أهم مكون للـ <abbr title=\"Search engine optimization\">SEO</abbr> في مصدر الأصلي للتديونات والصفحات، الرجاء الإختيار بحكمة"
+
+#: lib/admin/seo-settings.php:250
+msgid "Site Title"
+msgstr "عنوان المدونة او الموقع"
+
+#: lib/admin/seo-settings.php:253
+msgid "Site Description (Tagline)"
+msgstr "وصف المدونة او الموقع"
+
+#: lib/admin/seo-settings.php:256
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "سأقوم بإدراج نص مخصص بنفسي في الصفحة الرئيسية"
+
+#: lib/admin/seo-settings.php:260
+msgid "Homepage Document Title:"
+msgstr "عنوان مخصص للصفحة الرئيسية:"
+
+#: lib/admin/seo-settings.php:262
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "في حال تركتم حقل العنوان المخصص فارغا سيتم إستعمال العنوان الإفتراضي للمدونة او الموقع المعين في إعدادات وورد بريس سلفا"
+
+#: lib/admin/seo-settings.php:266
+msgid "Home Meta Description:"
+msgstr "وصف مخصص للصفحة الرئيسية"
+
+#: lib/admin/seo-settings.php:268
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "الوصف يمكن إستعماله لتحديد النص أسفل العنوان في نتائج محركات البحث."
+
+#: lib/admin/seo-settings.php:272
+msgid "Home Meta Keywords (comma separated):"
+msgstr "الكلمات المفتاحية المخصصة (مفصولة بفاصلة إنجليزية):"
+
+#: lib/admin/seo-settings.php:274
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "أهمية الكلمات المفتاحية تتغير من  محرك بحث لآخر."
+
+#: lib/admin/seo-settings.php:277
+msgid "Homepage Robots Meta Tags:"
+msgstr "وسوم مخصصة لعناكب البحث"
+
+#: lib/admin/seo-settings.php:281 lib/admin/seo-settings.php:284
+#: lib/admin/seo-settings.php:287
+msgid "Apply %s to the homepage?"
+msgstr "تطبيق وسم %s في الصفحة الرئيسية"
+
+#: lib/admin/seo-settings.php:290
+msgid "Homepage Author"
+msgstr "الكاتب"
+
+#: lib/admin/seo-settings.php:293
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "إختاروا الكاتب الذي ترغبون بأن يكون هو من يطبق عليه وسم %s للصفحة الرئيسية، تأكدوا من إضافة رابط حسابكم الشخصي في Google+ في صفحة حسابكم في إعدادات وورد بريس."
+
+#: lib/admin/seo-settings.php:298
+msgid "Select User"
+msgstr "إختاروا كاتبا"
+
+#: lib/admin/seo-settings.php:321
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "بشكل إفتراضي وورد بريس يقوم بإضافة العديد من الوسوم الى منطقة %1$s، أغلب هذه الوسوم غير ضرورية، ولا توفر اي قيمة للـ <abbr title=\"Search engine optimization\">SEO</abbr> والأسوء أنها تجعل من موقعكم ثقيل في التحميل، هنا يمكنكم التحكم في أي وسم يتم إضافته في منطقة %1$s."
+
+#: lib/admin/seo-settings.php:323
+msgid "Relationship Link Tags:"
+msgstr "علاقة وسوم الرابط:"
+
+#: lib/admin/seo-settings.php:327
+msgid "Adjacent Posts %s link tags"
+msgstr "مجاورة وسم %s للتدوينات او الصفحات لوسوم الرابط"
+
+#: lib/admin/seo-settings.php:330
+msgid "Windows Live Writer Support:"
+msgstr "دعم Windows Live Writer:"
+
+#: lib/admin/seo-settings.php:334
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "إدراج وسم دعم Windows Live Writer؟"
+
+#: lib/admin/seo-settings.php:337
+msgid "Shortlink Tag:"
+msgstr "رابط مختصر للوسم:"
+
+#: lib/admin/seo-settings.php:341
+msgid "Include Shortlink tag?"
+msgstr "إدراج رابط مختصر للوسم؟"
+
+#: lib/admin/seo-settings.php:344
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr " <span class=\"genesis-admin-note\">ملاحظة:</span>الرابط المختصر للوسم قد يستعمل لطرف ثالث بدون ملاحظة منكم ولكن لا يحوي أي قيمة للـ <abbr title=\"Search engine optimization\">SEO</abbr> على الإطلاق"
+
+#: lib/admin/seo-settings.php:366
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "بالإعتماد على رغبتكم، قد ترغبون وقد لا ترغبون بأرشفة الصفحات التالية في محركات البحث، أنتم من يقرر هذا الأمر."
+
+#: lib/admin/seo-settings.php:370 lib/admin/seo-settings.php:394
+msgid "Apply %s to Category Archives?"
+msgstr "تطبيق وسم %s على أرشيف التصنيف ؟"
+
+#: lib/admin/seo-settings.php:373 lib/admin/seo-settings.php:397
+msgid "Apply %s to Tag Archives?"
+msgstr "تطبيق وسم %s على أرشيف الوسم ؟"
+
+#: lib/admin/seo-settings.php:376 lib/admin/seo-settings.php:400
+msgid "Apply %s to Author Archives?"
+msgstr "تطبيق وسم %s على أرشيف الكاتب ؟"
+
+#: lib/admin/seo-settings.php:379 lib/admin/seo-settings.php:403
+msgid "Apply %s to Date Archives?"
+msgstr "تطبيق وسم %s على أرشيف التواريخ ؟"
+
+#: lib/admin/seo-settings.php:382 lib/admin/seo-settings.php:406
+msgid "Apply %s to Search Archives?"
+msgstr "تطبيق وسم %s على أرشيف البحث ؟"
+
+#: lib/admin/seo-settings.php:385
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "بعض محركات البحث ستخزن صفحات مدونتكم او موقعكم (جوجل مثلا) وسم %1$s سيمنعهم من هذا، إختاروا أي أرشيف ترغبون بتطبيق وسم %1$s عليه"
+
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to Entire Site?"
+msgstr "تطبيق وسم %s على المدونة او الموقع ككل ؟"
+
+#: lib/admin/seo-settings.php:409
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "أحيانا محركات البحث تستعمل أدلة المواقع الكبيرة مثل DMoz لتعثر على على عناوين ووصف لمحتوى مدونتكم او موقعكم، عموما قد لا ترغبون بأن تقوم محركات البحث بهذا الأمر، لأن المحتوى الخاص بكم متجدد دوما، وسوم %s و %s ستمنعهم من هذا الأمر."
+
+#: lib/admin/seo-settings.php:413 lib/admin/seo-settings.php:416
+msgid "Apply %s to your site?"
+msgstr "تطبيق وسم %s على مدونتكم او موقعكم ؟"
+
+#: lib/admin/seo-settings.php:437
+msgid "Canonical Paginated Archives"
+msgstr "الأرشيف المرقم"
+
+#: lib/admin/seo-settings.php:440
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "هذا الخيار يساعد محركات البحث في العثور على أول صفحة للأرشيف، هذا في حال كنتم تستخدمون نظام الترقيم في المدونة او الموقع، في حال لم تعرفوا ما هذا الخيار، الرجاء تركه مفعلا."
+
+#: lib/admin/term-meta.php:55
+msgid "Archive Settings"
+msgstr "إعدادات الأرشيف"
+
+#: lib/admin/term-meta.php:59
+msgid "Archive Headline"
+msgstr "ترويسة الأرشيف"
+
+#: lib/admin/term-meta.php:62
+msgid "Leave empty if you do not want to display a headline."
+msgstr "أتركوه فارغا في حال لم ترغبوا في عرض الترويسة"
+
+#: lib/admin/term-meta.php:66
+msgid "Archive Intro Text"
+msgstr "النص الترحيبي للأرشيف"
+
+#: lib/admin/term-meta.php:69
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "أتركوه فارغا في حال لم ترغبوا في عرض النص الترحيبي للأرشيف"
+
+#: lib/admin/term-meta.php:123 lib/admin/user-meta.php:187
+msgid "Custom Document %s"
+msgstr "وسم %s مخصص"
+
+#: lib/admin/term-meta.php:130 lib/admin/user-meta.php:194
+msgid "%s Description"
+msgstr "وصف %s"
+
+#: lib/admin/term-meta.php:137 lib/admin/user-meta.php:201
+msgid "%s Keywords"
+msgstr "كلما مفتاحية %s"
+
+#: lib/admin/term-meta.php:140 lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "الرجاء الفصل بين كل كلمة وأخرى بفاصلة إنجليزية"
+
+#: lib/admin/term-meta.php:145 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "عناكب البحث"
+
+#: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
+#: lib/admin/term-meta.php:152 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:214 lib/admin/user-meta.php:216
+msgid "Apply %s to this archive?"
+msgstr "تطبيق وسم %s على هذا الأرشيف ؟"
+
+#: lib/admin/term-meta.php:206 lib/admin/user-meta.php:251
+msgid "Choose Layout"
+msgstr "إختاروا تخطيطا"
+
+#: lib/admin/theme-settings.php:91
+msgid "Follow me on Twitter"
+msgstr "تابعوني على Twitter"
+
+#: lib/admin/theme-settings.php:221
+msgid "Information"
+msgstr "المعلومات العامة"
+
+#: lib/admin/theme-settings.php:224
+msgid "Color Style"
+msgstr "ألوان التنسيق"
+
+#: lib/admin/theme-settings.php:226
+msgid "Custom Feeds"
+msgstr "التلقيمات الإخبارية المخصصة"
+
+#: lib/admin/theme-settings.php:227
+msgid "Default Layout"
+msgstr "التخطيط الإفتراضي"
+
+#: lib/admin/theme-settings.php:230
+msgid "Header"
+msgstr "الترويسة"
+
+#: lib/admin/theme-settings.php:233
+msgid "Navigation"
+msgstr "التصفح"
+
+#: lib/admin/theme-settings.php:236
+msgid "Breadcrumbs"
+msgstr "التصفح التدريجي"
+
+#: lib/admin/theme-settings.php:238
+msgid "Comments and Trackbacks"
+msgstr "التعليقات والتنبيهات"
+
+#: lib/admin/theme-settings.php:239
+msgid "Content Archives"
+msgstr "أرشيف المحتوى"
+
+#: lib/admin/theme-settings.php:240
+msgid "Blog Page Template"
+msgstr "قالب صفحة المدونة"
+
+#: lib/admin/theme-settings.php:243
+msgid "Header and Footer Scripts"
+msgstr "شفرات أعلى وأسفل الموقع (Header & Footer)"
+
+#: lib/admin/theme-settings.php:284
+msgid "Version:"
+msgstr "رقم نسخة إطار العمل:"
+
+#: lib/admin/theme-settings.php:284
+msgid "Released:"
+msgstr "أطلقت بتاريخ:"
+
+#: lib/admin/theme-settings.php:288
+msgid "Display Theme Information in your document source"
+msgstr "إظهار معلومات القالب في الشفرة المصدرية"
+
+#: lib/admin/theme-settings.php:292
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "هذا الأمر قد يكون ذا أهمية كبيرة عند تحليل المشكلات التي قد تصادفك مع الإستخدام الدائم، هذا الإعداد مهم عند طلب المساعدة في <a href=\"%s\" target=\"_blank\">منتديات الدعم الفني</a>."
+
+#: lib/admin/theme-settings.php:296
+msgid "Enable Automatic Updates"
+msgstr "تفعيل التحديثات التلقائية"
+
+#: lib/admin/theme-settings.php:301
+msgid "Notify"
+msgstr "الرجاء تنبيه"
+
+#: lib/admin/theme-settings.php:303
+msgid "when updates are available"
+msgstr "عند توفر نسخة أحدث من إطار العمل او القالب"
+
+#: lib/admin/theme-settings.php:306
+msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
+msgstr "في حال أدخلتم بريدكم في الحقل أعلاه سيقوم الوورد بريس بإرسال تنبيه للبريد المدخل بوجود نسخة جديدة من إطار العمل أو القالب"
+
+#: lib/admin/theme-settings.php:329
+msgid "Color Style:"
+msgstr "لون القالب"
+
+#: lib/admin/theme-settings.php:331 lib/tools/post-templates.php:159
+msgid "Default"
+msgstr "الإفتراضي"
+
+#: lib/admin/theme-settings.php:343
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "الرجاء إختيار لون القالب من القائمة المنسدلة وحفظ التغيرات بعد ذلك."
+
+#: lib/admin/theme-settings.php:389
+msgid "Use for site title/logo:"
+msgstr "يستعمل من أجل عنوان او شعار المدونة او الموقع"
+
+#: lib/admin/theme-settings.php:391
+msgid "Dynamic text"
+msgstr "النص الديناميكي"
+
+#: lib/admin/theme-settings.php:392
+msgid "Image logo"
+msgstr "صورة الشعار"
+
+#: lib/admin/theme-settings.php:418
+msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
+msgstr "بغية إستعمال خاصية القوائم، الرجاء التوجه الى <a href=\"%s\">القوائم</a> وتخصيص القوائم التي ترغبون بها"
+
+#: lib/admin/theme-settings.php:423
+msgid "Primary Navigation"
+msgstr "القائمة الرئيسية"
+
+#: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:465
+msgid "Enable Fancy Dropdowns?"
+msgstr "تفعيل خاصية الإنسدال السحري للقوائم"
+
+#: lib/admin/theme-settings.php:432
+msgid "Enable Extras on Right Side?"
+msgstr "تفعيل الجانب الأيمن الزائد"
+
+#: lib/admin/theme-settings.php:437
+msgid "Display the following:"
+msgstr "عرض التالي:"
+
+#: lib/admin/theme-settings.php:439
+msgid "Today's date"
+msgstr "تاريخ اليوم"
+
+#: lib/admin/theme-settings.php:440
+msgid "RSS feed links"
+msgstr "روابط تلقيمات إخبارية (RSS)"
+
+#: lib/admin/theme-settings.php:441
+msgid "Search form"
+msgstr "نموذج البحث"
+
+#: lib/admin/theme-settings.php:442
+msgid "Twitter link"
+msgstr "رابط Twitter"
+
+#: lib/admin/theme-settings.php:447
+msgid "Enter Twitter ID:"
+msgstr "الرجاء إدخال إسم حساب Twitter:"
+
+#: lib/admin/theme-settings.php:451
+msgid "Twitter Link Text:"
+msgstr "نص رابط Twitter:"
+
+#: lib/admin/theme-settings.php:461
+msgid "Secondary Navigation"
+msgstr "القائمة الثانوية"
+
+#: lib/admin/theme-settings.php:487
+msgid "Enter your custom feed URI:"
+msgstr "الرجاء إدخال رابط التلقيمات الإخبارية المخصصة"
+
+#: lib/admin/theme-settings.php:491 lib/admin/theme-settings.php:499
+msgid "Redirect Feed?"
+msgstr "إعادة توجيه التلقيمات ؟"
+
+#: lib/admin/theme-settings.php:495
+msgid "Enter your custom comments feed URI:"
+msgstr "الرجاء إدخال رابط تلقيمات التعليقات الإخبارية المخصصة"
+
+#: lib/admin/theme-settings.php:502
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "في حال كانت تلقيماتكم الإخبارية غير مدارة من قبل FeedBurner نحن لا ننصح باستعمال خاصية إعادة التوجيه"
+
+#: lib/admin/theme-settings.php:521
+msgid "Enable Comments"
+msgstr "تفعيل التعليقات"
+
+#: lib/admin/theme-settings.php:523 lib/admin/theme-settings.php:532
+msgid "on posts?"
+msgstr "في التدوينات"
+
+#: lib/admin/theme-settings.php:526 lib/admin/theme-settings.php:535
+msgid "on pages?"
+msgstr "في الصفحات"
+
+#: lib/admin/theme-settings.php:530
+msgid "Enable Trackbacks"
+msgstr "تفعيل التنبيهات"
+
+#: lib/admin/theme-settings.php:538
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "يمكن تفعيل وتعطيل التعليقات والتنبيهات من التدوينات والصفحات المنفردة أيضا عند إنشائها او تحريرها"
+
+#: lib/admin/theme-settings.php:556
+msgid "Enable on:"
+msgstr "تفعيل التصفح التدريجي في كل من:"
+
+#: lib/admin/theme-settings.php:560
+msgid "Front Page"
+msgstr "صفحة الإستقبال"
+
+#: lib/admin/theme-settings.php:563
+msgid "Posts Page"
+msgstr "صفحة التدوينات"
+
+#: lib/admin/theme-settings.php:566
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#: lib/admin/theme-settings.php:570 lib/structure/menu.php:149
+msgid "Posts"
+msgstr "التدوينات"
+
+#: lib/admin/theme-settings.php:573
+msgid "Pages"
+msgstr "الصفحات"
+
+#: lib/admin/theme-settings.php:576
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: lib/admin/theme-settings.php:579
+msgid "404 Page"
+msgstr "صفحة الخطأ (404)"
+
+#: lib/admin/theme-settings.php:582
+msgid "Attachment Page"
+msgstr "صفحة المرفقات"
+
+#: lib/admin/theme-settings.php:585
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "التصفح التدريجي هو وسيلة رائعة وجد مفيدة ليعرف الزوار أين هم في موقعك، هنا يمكنكم التحكم أين يظهر التصفح التدريجي وأين تختفي"
+
+#: lib/admin/theme-settings.php:605
+msgid "Select one of the following:"
+msgstr "إختاروا من التالي:"
+
+#: lib/admin/theme-settings.php:611
+msgid "Display post content"
+msgstr "عرض كامل محتوى التدوينات"
+
+#: lib/admin/theme-settings.php:612
+msgid "Display post excerpts"
+msgstr "عرض مقتطف التدوينات فقط"
+
+#: lib/admin/theme-settings.php:623 lib/widgets/featured-post-widget.php:353
+msgid "Limit content to"
+msgstr "تحديد المحتوى الظاهر الى"
+
+#: lib/admin/theme-settings.php:625 lib/widgets/featured-post-widget.php:355
+msgid "characters"
+msgstr "حرف"
+
+#: lib/admin/theme-settings.php:628
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "باستعمال هذا الخيار سيتم إختصار المحتوى للعدد الذي اخترتموه أعلاه، لإستعمال هذا الخيار الرجاء إختيار \"عرض كامل محتوى التدوينات\" من القائمة المنسدلة أعلاه."
+
+#: lib/admin/theme-settings.php:633
+msgid "Include the Featured Image?"
+msgstr " ؟تضمين الصورة البارزة"
+
+#: lib/admin/theme-settings.php:637
+msgid "Image Size:"
+msgstr "حجم الصورة:"
+
+#: lib/admin/theme-settings.php:648
+msgid "Select Post Navigation Technique:"
+msgstr "إختاروا طريقة ترقيم صفحات التدوينات:"
+
+#: lib/admin/theme-settings.php:650
+msgid "Older / Newer"
+msgstr "مواضيع أقدم / مواضيع أحدث"
+
+#: lib/admin/theme-settings.php:651
+msgid "Previous / Next"
+msgstr "السابق / التالي"
+
+#: lib/admin/theme-settings.php:652
+msgid "Numeric"
+msgstr "ترقيم رقمي "
+
+#: lib/admin/theme-settings.php:656
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "هذه الإعدادات  ستمس جميع صفحات القالب التي تحوي تدوينات بداخلها مثل: الصفحة الرئيسية للمدونة، صفحة الأرشيف، صفحة الكاتب، التصنيفات، نتائج البحث وأيضا صفحة الوسوم."
+
+#: lib/admin/theme-settings.php:674
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "هذا الإعداد سيتم فقط الصفحات التي تستعمل قالب \"المدونة\" "
+
+#: lib/admin/theme-settings.php:679
+msgid "Display which category:"
+msgstr "إختاروا أي تصنيف"
+
+#: lib/admin/theme-settings.php:680 lib/widgets/featured-post-widget.php:231
+msgid "All Categories"
+msgstr "جميع التصنيفات"
+
+#: lib/admin/theme-settings.php:684
+msgid "Exclude the following Category IDs:"
+msgstr "إستثناء التصنيفات التالية (الرجاء وضع معرفات التصنيفات فقط):"
+
+#: lib/admin/theme-settings.php:686
+msgid "Comma separated - 1,2,3 for example"
+msgstr "الرجاء الفصل بينها بفاصلة إنجليزية"
+
+#: lib/admin/theme-settings.php:691
+msgid "Number of Posts to Show:"
+msgstr "عدد المواضيع لعرضها"
+
+#: lib/admin/theme-settings.php:712 lib/admin/theme-settings.php:722
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "الرجاء إدخال الشفرة التي ترغبون بإدراجها في منطقة %s"
+
+#: lib/admin/theme-settings.php:717 lib/admin/theme-settings.php:727
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "وسم %1$s يتم تنفيذه قبل غلق وسم %2$s في الكود المصدري"
+
+#: lib/admin/user-meta.php:25
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/user-meta.php:73
+msgid "User Permissions"
+msgstr "صلاحيات المستخدم"
+
+#: lib/admin/user-meta.php:77
+msgid "Genesis Admin Menus"
+msgstr "شريط أدوات الإدارة"
+
+#: lib/admin/user-meta.php:80
+msgid "Enable Genesis Admin Menu?"
+msgstr "تفعيل شريط أدوات الإدارة ؟"
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr " تفعيل إعدادات SEO للقائمة الثانوية"
+
+#: lib/admin/user-meta.php:84
+msgid "Enable Import/Export Submenu?"
+msgstr "تفعيل تصدير وإستيراد القائمة الثانوية"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "إعدادات  أرشيف الكاتب"
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:247
+msgid "These settings apply to this author's archive pages."
+msgstr "هذه الإعدادات تنطبق على صفحات أرشيف هذا الكاتب فقط"
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "ترويسة الأرشيف المخصصة"
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "سيتم إظهارها في وسم %s في أعلى أول صفحة"
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "نص الوصف المخصص"
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "هذا النص سيكون الفقرة الأولى وسيعرض في الصفحة الأولى"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "صندوق عن الكاتب"
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "تفعيل صندوق عن \"عن الكاتب\" في أسفل مواضيع هذا الكاتب ؟"
+
+#: lib/admin/user-meta.php:145
+msgid "Enable Author Box on this User's Archives?"
+msgstr "تفعيل صندوق عن \"عن الكاتب\" في أسفل مواضيع أرشيف هذا الكاتب ؟"
+
+#: lib/admin/whats-new.php:38
+msgid "Welcome to Genesis %s"
+msgstr "مرحبا بكم في إطار عمل Genesis %s"
+
+#: lib/admin/whats-new.php:65
+msgid "Thank you for updating to the latest version! Using Genesis %s will give you more options than you've ever had and your website will continue to purr like a kitten."
+msgstr "شكرا لكم على الترقية لآخر نسخة، باستعمالكم لإطار العمل Genesis %s ستتمتعون بالقوة الكاملة لوورد بريس كما لم تشعروا بها من قبل"
+
+#: lib/admin/whats-new.php:68
+msgid "What&#8217;s New"
+msgstr "ما الجديد ؟"
+
+#: lib/admin/whats-new.php:71
+msgid "Updated Design and Wider Layout"
+msgstr "تحديث التصميم والتخطيط"
+
+#: lib/admin/whats-new.php:73
+msgid "Updated Security Audit"
+msgstr "تحديث التدقيق الأمني"
+
+#: lib/admin/whats-new.php:74
+msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
+msgstr "إنه لمن المهم للغاية بالنسبة لنا أن نوفر أفضل أطر العمل على الإطلاق، لذا ومرة أخرى قمنا بتوظيف رئيس مطوري وورد بريس الأم السيد Mark Jaquith ليقوم بعمل مراجعة شاملة لأمان الشفرة المصدرية لإطار العمل Genesis"
+
+#: lib/admin/whats-new.php:75
+msgid "Google Author Highlights"
+msgstr "إبراز الكاتب في Google"
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
+msgstr "إطار العمل Genesis يوفر الآن إبراز الكاتب في نتائج بحث محرك البحث Google تماما كما هو منصوح به من قبل هذا الأخير عبر ربط المدونة او الموقع بحسابكم في الشبكة الإجتماعية Google+، لعمل هذا الربط الآلي البسيط، الرجاء زيارة حسابكم عبر لوحة تحكم الوورد بريس وإضافة رابط حسابكم في خانة Google+"
+
+#: lib/admin/whats-new.php:78
+msgid "Deprecating Widgets"
+msgstr "مربعات جانبية غير مفعلة"
+
+#: lib/admin/whats-new.php:79
+msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
+msgstr "إطار العمل Genesis يوفر مربعات جانبية خاصة ومميزة مدمجة معه لكن مؤخرا قررنا أنه من الأفضل فصلها عن إطار العمل ليكون لكيهما المتسع من المجال للتطوير بشكل أكثر، لذا ومن النسخة 1.9.1 تم جعل مربعي \"الإشتراك البريدي\" و \"زقزقات توتير\" عبارة عن إضافة وورد بريس منفصلة تتمتع بالتطوير والتحديث الخاص بها بما يتماشي مع التوافق التام مع إطار العمل Genesis"
+
+#: lib/admin/whats-new.php:81
+msgid "Genesis Category/Page Menu Widgets Removed"
+msgstr "تم إزالة مربع قوائم الصفحات والتصنفات الجانبي"
+
+#: lib/admin/whats-new.php:82
+msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."
+msgstr "للأسف الشديد، لقد تم إزالة مربع  \"قوائم الصفحات والتصنيفات\" منذ عدة إصدارات خلت، نتأسف لهذا الأمر، لكننا وجدناه افضل لإطار العمل"
+
+#: lib/admin/whats-new.php:83
+msgid "You will need to build a <a href=\"%s\">custom menu</a> and add the custom menu widget to the Header Right widget area."
+msgstr "أنتم بحاجة أن تنشئوا <a href=\"%s\">قوائم مخصصة</a> ثم تضيفوا مربع القوائم الى القائمة الجانبية لأعلى يمين المدونة"
+
+#: lib/admin/whats-new.php:85
+msgid "Other Geeky Stuff"
+msgstr "أمور أخرى"
+
+#: lib/admin/whats-new.php:86
+msgid "We also fixed a lot of little bugs, improved some things, and generally made the framework a more solid foundation for you to use. We hope you enjoy this latest release!"
+msgstr "لقد صححنا عدة علل وحسنا بعض الأمور وبالعموم لقد جعلنا إطار العمل أحسن وأفضل من ذي قبل لراحة إستعمالكم له، نأمل أن تعيشوا تجربة إستخدام رائعة."
+
+#: lib/admin/whats-new.php:91
+msgid "Genesis 2.0 Roadmap"
+msgstr "الطريق الى النسخة 2.0 من إطار العمل Genesis"
+
+#: lib/admin/whats-new.php:93
+msgid "Support for HTML5 Markup"
+msgstr "دعم كبير لتقنية HTML5"
+
+#: lib/admin/whats-new.php:94
+msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
+msgstr "لدينا خطط كبيرة لدعم بنية جديدة في نسخة إطار العمل Genesis 2.0، بدعم مطلق وكامل من تقنية HTML5"
+
+#: lib/admin/whats-new.php:96
+msgid "A New Mobile Strategy"
+msgstr "إستراتيجية التوافق مع الموبايل"
+
+#: lib/admin/whats-new.php:97
+msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
+msgstr "في حال لم تلاحظوا، فإننا من كبار المعجبين بالتصميم المتلائم، لكل الأجهزة وخصوصا الموبايلات، لذا فنحن نعمل على شيء سيجعل من تجربة التصميم المتلائم شيئا أسهل من ذي قبل، ستحصلون على شيء أسهل، أروع وأكثر ملائمة مع النسخة 2.0 من إطار العمل Genesis."
+
+#: lib/admin/whats-new.php:103
+msgid "Project Leads"
+msgstr "المشرفون على المشروع"
+
+#: lib/admin/whats-new.php:109 lib/admin/whats-new.php:114
+#: lib/admin/whats-new.php:119
+msgid "Lead Developer"
+msgstr "المطورون الأساسيون"
+
+#: lib/admin/whats-new.php:127
+msgid "Contributors"
+msgstr "المشاركون"
+
+#: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
+#: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
+#: lib/admin/whats-new.php:153 lib/admin/whats-new.php:158
+#: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
+#: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
+msgid "Contributor"
+msgstr "مساهم"
+
+#: lib/admin/whats-new.php:185
+msgid "Go to Theme Settings &rarr;"
+msgstr "الذهاب الى إعدادات القالب &rarr;"
+
+#: lib/admin/whats-new.php:186
+msgid "Go to SEO Settings &rarr;"
+msgstr "الذهاب الى إعدادات SEO &rarr;"
+
+#: lib/classes/admin.php:118
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "لا يمكنكم إستعمال %s لإنشاء قائمتين في نفس المكان، الرجاء فصلهما وإختيار قائمتين مختلفتين"
+
+#: lib/classes/admin.php:415 lib/classes/admin.php:424
+#: lib/classes/admin.php:527 lib/classes/admin.php:546
+msgid "Are you sure you want to reset?"
+msgstr "هل أنتم متأكدون من رغبتكم في إستعادة الإعدادات الإفتراضية"
+
+#: lib/classes/breadcrumb.php:54 lib/functions/menu.php:133
+msgid "Home"
+msgstr "الرئيسية"
+
+#: lib/classes/breadcrumb.php:63
+msgid "You are here: "
+msgstr "أنتم في:"
+
+#: lib/classes/breadcrumb.php:64 lib/classes/breadcrumb.php:65
+#: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
+#: lib/classes/breadcrumb.php:69 lib/classes/breadcrumb.php:70
+msgid "Archives for "
+msgstr "أرشيف "
+
+#: lib/classes/breadcrumb.php:68
+msgid "Search for "
+msgstr "البحث عن"
+
+#: lib/classes/breadcrumb.php:71
+msgid "Not found: "
+msgstr "غير موجود:"
+
+#: lib/classes/breadcrumb.php:120 lib/classes/breadcrumb.php:215
+#: lib/classes/breadcrumb.php:281
+msgid "View %s"
+msgstr "مشاهدة %s"
+
+#: lib/classes/breadcrumb.php:300
+msgid "View all posts in %s"
+msgstr "مشاهدة جميع المواضيع في %s"
+
+#: lib/classes/breadcrumb.php:321
+msgid "View all %s"
+msgstr "مشاهدة جميع %s"
+
+#: lib/classes/breadcrumb.php:403 lib/classes/breadcrumb.php:427
+msgid "View archives for %s"
+msgstr "مشاهدة أرشيف %s"
+
+#: lib/classes/breadcrumb.php:433
+msgid "View archives for %s %s"
+msgstr "مشاهدى أرشيف %s %s"
+
+#: lib/classes/breadcrumb.php:525
+msgid "View all items in %s"
+msgstr "مشاهدة جميع العناصر في %s"
+
+#: lib/functions/admin.php:15
+msgid "This file no longer needs to be included."
+msgstr "لم يعد من المطلوب تضمين هذا الملف"
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "seconds"
+msgstr "ثواني"
+
+#: lib/functions/formatting.php:296
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "بدون سنوات"
+msgstr[1] "سنة واحدة"
+msgstr[2] "سنتان"
+msgstr[3] "%s من السنوات"
+msgstr[4] "%s من السنوات"
+msgstr[5] "%s من السنوات"
+
+#: lib/functions/formatting.php:297
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "بدون شهور"
+msgstr[1] "شهر واحد"
+msgstr[2] "شهران"
+msgstr[3] "%s من الشهور"
+msgstr[4] "%s من الشهور"
+msgstr[5] "%s من الشهور"
+
+#: lib/functions/formatting.php:298
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "بدون أسابيع"
+msgstr[1] "أسبوع واحد"
+msgstr[2] "اسبوعان"
+msgstr[3] "%s من الأسابيع"
+msgstr[4] "%s من الأسابيع"
+msgstr[5] "%s من الأسابيع"
+
+#: lib/functions/formatting.php:299
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "بدون أيام"
+msgstr[1] "يوم واحد"
+msgstr[2] "يومان"
+msgstr[3] "%s من الأيام"
+msgstr[4] "%s من الأيام"
+msgstr[5] "%s من الأيام"
+
+#: lib/functions/formatting.php:300
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "بدون ساعات"
+msgstr[1] "ساعة واحدة"
+msgstr[2] "ساعتان"
+msgstr[3] "%s من الساعات"
+msgstr[4] "%s من الساعات"
+msgstr[5] "%s من الساعات"
+
+#: lib/functions/formatting.php:301
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "بدون دقائق"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتان"
+msgstr[3] "%s من الدقائق"
+msgstr[4] "%s من الدقائق"
+msgstr[5] "%s من الدقائق"
+
+#: lib/functions/formatting.php:302
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "بدون ثواني"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتان"
+msgstr[3] "%s من الثواني"
+msgstr[4] "%s من الثواني"
+msgstr[5] "%s من الثواني"
+
+#: lib/functions/formatting.php:327
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "و"
+
+#: lib/functions/layout.php:37
+msgid "Content-Sidebar"
+msgstr "القائمة الجانبية على اليمين"
+
+#: lib/functions/layout.php:46
+msgid "Sidebar-Content"
+msgstr "القائمة الجانبية على اليسار"
+
+#: lib/functions/layout.php:54
+msgid "Content-Sidebar-Sidebar"
+msgstr "قائمتين جانبيتين على اليمين"
+
+#: lib/functions/layout.php:62
+msgid "Sidebar-Sidebar-Content"
+msgstr "قائمتين جانبيتين على اليسار"
+
+#: lib/functions/layout.php:70
+msgid "Sidebar-Content-Sidebar"
+msgstr "قائمتين جانبيتين واحدة على اليمين وواحدة على اليسار"
+
+#: lib/functions/layout.php:78
+msgid "Full Width Content"
+msgstr "بعرض كامل بدون قوائم جانبية"
+
+#: lib/functions/layout.php:123
+msgid "No Label Selected"
+msgstr "بدون إختيار"
+
+#: lib/functions/menu.php:104
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "لقد تم إستبدال الحجة \"context\" بـ \"theme_location\" في مصفوفة  $args ."
+
+#: lib/functions/seo.php:122
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "هل سبق وجرتم برنامجنا للإشتراك والنشر التجاري ؟ به الكثير من مزايا محركات البحث والمحتوى الأصلى وتحضير المواقع لتناسب وتلائم تقنيات SEO كل هذا بدون مغادرة لوحة تحكم الوورد بريس، <b>مستخدموا إطار العمل Genesis يحصلون على تخفيضات كبيرة</b>. <a href=\"%s\" target=\"_blank\">المزيد من هنا</a>."
+
+#: lib/functions/seo.php:124
+msgid "Dismiss"
+msgstr "إخفاء الملاحظة"
+
+#: lib/functions/upgrade.php:411
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "مبارك، أنتم الآن تتمتعون بمزايا إطار العمل %s"
+
+#: lib/functions/upgrade.php:436
+msgid "Click here to complete the upgrade"
+msgstr "الرجاء النقر هنا لإستكمال الترقية"
+
+#: lib/functions/upgrade.php:461
+msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
+msgstr "النسخة %s من إطار العمل Genesis  متوفرة . <a href=\"%s\" class=\"thickbox thickbox-preview\">تعرفوا على ما الجديد في هذه النسخة</a> او <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">قوموا بالترقية الآن</a>."
+
+#: lib/functions/upgrade.php:465
+msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
+msgstr "الترقية الى النسخة الجديد سيلغي التنصيب الحالي لهذه النسخة، هل أنتم متأكدون من رغبتكم في الترقية ؟ الرجاء النقر على \"إلغاء\" لإلغاء الترقية او \"إستمرار\" لمواصلة الترقية"
+
+#: lib/functions/upgrade.php:507
+msgid "Genesis %s is available for %s"
+msgstr "إطار العمل Genesis %s متوفر من أجل %s"
+
+#: lib/functions/upgrade.php:508
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "النسخة %s من إطار العمل Genesis  متوفرة، لراحتكم وفرنا ترقية سريعة بسيطة بنقرة زر واحدة فقط، الرجاء التوجه الى لوحة التحكم والقيام بالترقية "
+
+#: lib/functions/widgetize.php:63
+msgid "Header Left"
+msgstr "أعلى الموقع على اليسار"
+
+#: lib/functions/widgetize.php:63
+msgid "Header Right"
+msgstr "أعلى الموقع على اليمين"
+
+#: lib/functions/widgetize.php:64
+msgid "This is the widget area in the header."
+msgstr "هذه منطقة المربعات الجانبية في أعلى الموقع"
+
+#: lib/functions/widgetize.php:71
+msgid "Primary Sidebar"
+msgstr "القائمة الجانبية الرئيسية"
+
+#: lib/functions/widgetize.php:72
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنتم تستخدمون تخطيط يتضمن عمودين او ثلاث"
+
+#: lib/functions/widgetize.php:79
+msgid "Secondary Sidebar"
+msgstr "القائمة الجانبية الثانوية"
+
+#: lib/functions/widgetize.php:80
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنتم تستخدمون تخطيط يتضمن ثلاث أعمدة"
+
+#: lib/functions/widgetize.php:112
+msgid "Footer %d"
+msgstr "القائمة الجانبية لأسفل الموقع %d"
+
+#: lib/functions/widgetize.php:113
+msgid "Footer %d widget area."
+msgstr "منطقة المربعات الجانبية لأسفل الموقع رقم %d"
+
+#: lib/init.php:47
+msgid "Primary Navigation Menu"
+msgstr "القائمة التصفح الرئيسية"
+
+#: lib/init.php:48
+msgid "Secondary Navigation Menu"
+msgstr "القائمة التصفح الرئيسية"
+
+#: lib/js/load-scripts.php:85
+msgid "Select / Deselect All"
+msgstr "إختيار الكل / عدم إختيار الكل"
+
+#: lib/shortcodes/footer.php:41
+msgid "Return to top of page"
+msgstr "العودة للأعلى"
+
+#: lib/shortcodes/footer.php:176
+msgid "by "
+msgstr "بواسطة"
+
+#: lib/shortcodes/footer.php:241
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: lib/shortcodes/footer.php:243
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: lib/shortcodes/post.php:43
+msgid "ago"
+msgstr "خلت"
+
+#: lib/shortcodes/post.php:140
+msgid "Visit %s&#x02019;s website"
+msgstr "زيارة موقع %s"
+
+#: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
+msgid "% Comments"
+msgstr "% من التعليقات"
+
+#: lib/shortcodes/post.php:206 lib/widgets/featured-page-widget.php:101
+msgid "1 Comment"
+msgstr "تعليق واحد فقط"
+
+#: lib/shortcodes/post.php:207 lib/widgets/featured-page-widget.php:101
+msgid "Leave a Comment"
+msgstr "أتركوا تعليقا"
+
+#: lib/shortcodes/post.php:247
+msgid "Tagged With: "
+msgstr "موسوم بـ:"
+
+#: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
+msgid "Filed Under: "
+msgstr "تحت تصنيف:"
+
+#: lib/shortcodes/post.php:364 lib/structure/comments.php:189
+#: lib/structure/post.php:207 lib/widgets/featured-page-widget.php:103
+msgid "(Edit)"
+msgstr "(تحرير)"
+
+#: lib/structure/comments.php:63
+msgid "<h3>Comments</h3>"
+msgstr "<h3>التعليقات</h3>"
+
+#: lib/structure/comments.php:114
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>التنبيهات</h3>"
+
+#: lib/structure/comments.php:184
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:184
+msgid "says"
+msgstr "قال"
+
+#: lib/structure/comments.php:188
+msgid "%1$s at %2$s"
+msgstr "%1$s بتوقيت %2$s"
+
+#: lib/structure/comments.php:195
+msgid "Your comment is awaiting moderation."
+msgstr "شكرا جزيلا لكم، تعليقكم ينتظر موافقة عبد الحفيظ، متصفحا سعيدا في ثنايا المدونة"
+
+#: lib/structure/comments.php:252
+msgid "Name"
+msgstr "  الإسم الكريم"
+
+#: lib/structure/comments.php:258
+msgid "Email"
+msgstr "  البريد الإليكتروني"
+
+#: lib/structure/comments.php:264
+msgid "Website"
+msgstr "  الموقع الإليكتروني (إن وجد)"
+
+#: lib/structure/comments.php:278
+msgid "Speak Your Mind"
+msgstr "شاركونا بآرائكم"
+
+#: lib/structure/footer.php:110
+msgid "Copyright"
+msgstr "كافة الحقوق محفوظة"
+
+#: lib/structure/footer.php:110
+msgid "on"
+msgstr "   "
+
+#: lib/structure/loops.php:192
+msgid "Read more"
+msgstr "قراءة المزيد"
+
+#: lib/structure/menu.php:150
+msgid "Comments"
+msgstr "تعليقات"
+
+#: lib/structure/post.php:214 lib/structure/post.php:216
+msgid "[Read more...]"
+msgstr "[المزيد ...]"
+
+#: lib/structure/post.php:233
+msgid "Sorry, no posts matched your criteria."
+msgstr "جد متأسفين، لكننا لم نتمكن من العثور على أي نتائج تطابق ما تبحثون عنه"
+
+#: lib/structure/post.php:259 lib/widgets/featured-page-widget.php:98
+msgid "by"
+msgstr "بقلم"
+
+#: lib/structure/post.php:334
+msgid "About"
+msgstr "عن "
+
+#: lib/structure/post.php:379
+msgid "Older Posts"
+msgstr "مواضيع أقدم"
+
+#: lib/structure/post.php:380
+msgid "Newer Posts"
+msgstr "مواضيع أحدث"
+
+#: lib/structure/post.php:400 lib/structure/post.php:462
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: lib/structure/post.php:401 lib/structure/post.php:492
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: lib/structure/search.php:23
+msgid "Search this website"
+msgstr "إبحثوا في ثنايا المدونة"
+
+#: lib/structure/search.php:25
+msgid "Search"
+msgstr "البحث"
+
+#: lib/structure/sidebar.php:24
+msgid "Primary Sidebar Widget Area"
+msgstr "منطقة المربعات الجانبية الرئيسية"
+
+#: lib/structure/sidebar.php:27
+msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "هذه هي منطقة المربعات الجانبية الرئيسية، يمكنكم إضافة محتوى لها عبر <a href=\"%s\">المربعات الجانبية</a> بسحب وإلقاء المربعات الجنبية في المناطق المرغوب بها"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "منطقة المربعات الجانبية الثانوية"
+
+#: lib/structure/sidebar.php:48
+msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "هذه هي منطقة المربعات الجانبية الثانوية، يمكنكم إضافة محتوى لها عبر <a href=\"%s\">المربعات الجانبية</a> بسحب وإلقاء المربعات الجنبية في المناطق المرغوب بها"
+
+#: lib/tools/post-templates.php:132
+msgid "Single Post Template"
+msgstr "قالب التدوينة المنفردة"
+
+#: lib/tools/post-templates.php:157
+msgid "Post Template"
+msgstr "قالب التدوينة"
+
+#: lib/tools/post-templates.php:162
+msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
+msgstr "بعض القوالب لها قوالب مخصصة للتدوينات المنفردة مما قد يضيف ميزة إضافية للتخطيط، في حال كانت كذلك، سترونها أعلاه"
+
+#: lib/widgets/enews-widget.php:38
+msgid "Enter your email address ..."
+msgstr "أدخلوا بريدكم الإليكتروني هنا"
+
+#: lib/widgets/enews-widget.php:39
+msgid "Go"
+msgstr "إشتركوا"
+
+#: lib/widgets/enews-widget.php:44
+msgid "Displays Feedburner email subscribe form"
+msgstr "عرض مربع الإشتراك الخاص بـ FeedBurner"
+
+#: lib/widgets/enews-widget.php:47
+msgid "Genesis - eNews and Updates"
+msgstr "الإشتراك البريدي"
+
+#: lib/widgets/enews-widget.php:115 lib/widgets/enews-widget.php:124
+#: lib/widgets/latest-tweets-widget.php:181
+#: lib/widgets/latest-tweets-widget.php:190
+msgid "This widget has been deprecated, and should no longer be used."
+msgstr "هذا المربع الجانبي تم التخلي عنه، لا يجدر بكم إستعماله، في كان كانت له إضافة مخصصة، سيتم تنبيهكم لها"
+
+#: lib/widgets/enews-widget.php:116
+msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr "في حال رغبتم في الإستمرار في إستعمال المربع الجانبي، الرجاء <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">تنصيب هذه الإضافة</a> واستبدال هذا المربع بالمربع الذي سيظهر لاحقا بعد التنصيب"
+
+#: lib/widgets/enews-widget.php:125
+msgid "If you would like to continue to use the eNews widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr "في حال رغبتم في الإستمرار في إستعمال المربع الجانبي، الرجاء <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">تنصيب هذه الإضافة</a> واستبدال هذا المربع بالمربع الذي سيظهر لاحقا بعد التنصيب"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "عرض الصفحة المميزة"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "صفحة ميزة"
+
+#: lib/widgets/featured-page-widget.php:159
+#: lib/widgets/featured-post-widget.php:215
+#: lib/widgets/featured-post-widget.php:251
+#: lib/widgets/featured-post-widget.php:371
+#: lib/widgets/user-profile-widget.php:136
+msgid "Title"
+msgstr "العنوان"
+
+#: lib/widgets/featured-page-widget.php:164
+msgid "Page"
+msgstr "الصفحة"
+
+#: lib/widgets/featured-page-widget.php:172
+#: lib/widgets/featured-post-widget.php:301
+msgid "Show Featured Image"
+msgstr "إظهار الصورة البارزة"
+
+#: lib/widgets/featured-page-widget.php:176
+#: lib/widgets/featured-post-widget.php:305
+msgid "Image Size"
+msgstr "حجم الصورة"
+
+#: lib/widgets/featured-page-widget.php:188
+#: lib/widgets/featured-post-widget.php:317
+msgid "Image Alignment"
+msgstr "محاذات الصورة"
+
+#: lib/widgets/featured-page-widget.php:190
+#: lib/widgets/featured-post-widget.php:289
+#: lib/widgets/featured-post-widget.php:319
+#: lib/widgets/user-profile-widget.php:160
+#: lib/widgets/user-profile-widget.php:180
+msgid "None"
+msgstr "بدون محاذات"
+
+#: lib/widgets/featured-page-widget.php:200
+msgid "Show Page Title"
+msgstr "إظهار عنوان الصفحة"
+
+#: lib/widgets/featured-page-widget.php:205
+msgid "Show Page Byline"
+msgstr "إظهار صفحة في كل سطر"
+
+#: lib/widgets/featured-page-widget.php:210
+msgid "Show Page Content"
+msgstr "إظهار محتوى الصفحة"
+
+#: lib/widgets/featured-page-widget.php:214
+msgid "Content Character Limit"
+msgstr "حد حروف المحتوى"
+
+#: lib/widgets/featured-page-widget.php:219
+msgid "More Text"
+msgstr "نص قراءة المزيد"
+
+#: lib/widgets/featured-post-widget.php:51
+msgid "By"
+msgstr "بقلم"
+
+#: lib/widgets/featured-post-widget.php:54
+msgid "[Read More...]"
+msgstr "[المزيد ...]"
+
+#: lib/widgets/featured-post-widget.php:58
+msgid "More Posts from this Category"
+msgstr "مواضيع أخرى من هذا التصنيف"
+
+#: lib/widgets/featured-post-widget.php:63
+msgid "Displays featured posts with thumbnails"
+msgstr "إظهار المواضيع المميزة مع الصور البارزة"
+
+#: lib/widgets/featured-post-widget.php:72
+msgid "Genesis - Featured Posts"
+msgstr "مواضيع مميزة"
+
+#: lib/widgets/featured-post-widget.php:224
+msgid "Category"
+msgstr "التصنيف"
+
+#: lib/widgets/featured-post-widget.php:238
+#: lib/widgets/featured-post-widget.php:376
+msgid "Number of Posts to Show"
+msgstr "عدد التدوينات لعرضها"
+
+#: lib/widgets/featured-post-widget.php:243
+msgid "Number of Posts to Offset"
+msgstr "عدد التدوينات لموازنتها"
+
+#: lib/widgets/featured-post-widget.php:248
+msgid "Order By"
+msgstr "الترتيب حسب"
+
+#: lib/widgets/featured-post-widget.php:250
+msgid "Date"
+msgstr "التاريخ"
+
+#: lib/widgets/featured-post-widget.php:252
+msgid "Parent"
+msgstr "الرئيسي"
+
+#: lib/widgets/featured-post-widget.php:253
+msgid "ID"
+msgstr "المعرف"
+
+#: lib/widgets/featured-post-widget.php:254
+msgid "Comment Count"
+msgstr "عدد التعليقات"
+
+#: lib/widgets/featured-post-widget.php:255
+msgid "Random"
+msgstr "عشوائيا"
+
+#: lib/widgets/featured-post-widget.php:260
+msgid "Sort Order"
+msgstr "كيفية الترتيب"
+
+#: lib/widgets/featured-post-widget.php:262
+msgid "Descending (3, 2, 1)"
+msgstr "تنازليا"
+
+#: lib/widgets/featured-post-widget.php:263
+msgid "Ascending (1, 2, 3)"
+msgstr "تصاعديا"
+
+#: lib/widgets/featured-post-widget.php:273
+msgid "Show Author Gravatar"
+msgstr "إظهار صورة الكاتب الرمزية"
+
+#: lib/widgets/featured-post-widget.php:277
+#: lib/widgets/user-profile-widget.php:146
+msgid "Gravatar Size"
+msgstr "حجم الصورة الرمزية"
+
+#: lib/widgets/featured-post-widget.php:279
+msgid "Small (45px)"
+msgstr "صغيرة (45 بيكسل)"
+
+#: lib/widgets/featured-post-widget.php:280
+msgid "Medium (65px)"
+msgstr "متوسطة (65 بيكسل)"
+
+#: lib/widgets/featured-post-widget.php:281
+msgid "Large (85px)"
+msgstr "كبيرة (85 بيكسل)"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Extra Large (125px)"
+msgstr "كبيرة للغاية (125 بيكسل)"
+
+#: lib/widgets/featured-post-widget.php:287
+#: lib/widgets/user-profile-widget.php:158
+msgid "Gravatar Alignment"
+msgstr "محاذات الصورة الرمزية"
+
+#: lib/widgets/featured-post-widget.php:335
+msgid "Show Post Title"
+msgstr "إظهار عنوان التدوينة"
+
+#: lib/widgets/featured-post-widget.php:340
+msgid "Show Post Info"
+msgstr "إظهار معلومات التدوينة"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Content Type"
+msgstr "إظهار نوع المحتوى"
+
+#: lib/widgets/featured-post-widget.php:347
+msgid "Show Content"
+msgstr "إظهار المحتوى"
+
+#: lib/widgets/featured-post-widget.php:348
+msgid "Show Excerpt"
+msgstr "إظهار المقتطف"
+
+#: lib/widgets/featured-post-widget.php:349
+msgid "Show Content Limit"
+msgstr "إظهار حد المحتوى"
+
+#: lib/widgets/featured-post-widget.php:350
+msgid "No Content"
+msgstr "بدون محتوى"
+
+#: lib/widgets/featured-post-widget.php:360
+msgid "More Text (if applicable)"
+msgstr "نص قراءة المزيد (في حال وجد)"
+
+#: lib/widgets/featured-post-widget.php:368
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "الرجاء إكمال المعلومات أسفله في حال رغبتم في إظهار  قائمة غير مرتبة من هذا التصنيف"
+
+#: lib/widgets/featured-post-widget.php:386
+msgid "Show Category Archive Link"
+msgstr "إظهار رابط أرشيف التصنيف"
+
+#: lib/widgets/featured-post-widget.php:390
+msgid "Link Text"
+msgstr "رابط النص"
+
+#: lib/widgets/latest-tweets-widget.php:49
+msgid "Display a list of your latest tweets."
+msgstr "إظهار قائمة بآخر زقزقاتكم على Twiter"
+
+#: lib/widgets/latest-tweets-widget.php:58
+msgid "Genesis - Latest Tweets"
+msgstr "زقزقات Twitter"
+
+#: lib/widgets/latest-tweets-widget.php:98
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr "الواجهة البرمجية لـ Twitter تأخذ وقتا طويلا للتحميل، الرجاء المحاولة مجددا"
+
+#: lib/widgets/latest-tweets-widget.php:101
+msgid "There was an error while attempting to contact the Twitter API. Please try again."
+msgstr "لقد حصل خلل ما أثناء المحاولة للإتصال بالواجهة البرمجية لـ Twitter، الرجاء المحاولة مجددا."
+
+#: lib/widgets/latest-tweets-widget.php:104
+msgid "The Twitter API returned an error while processing your request. Please try again."
+msgstr "الواجهة البرمجية لـ Twitter ردت برسالة خطأ أثناء معالجة طلبكم، الرجاء المحاولة مجددا"
+
+#: lib/widgets/latest-tweets-widget.php:118
+msgid "about %s ago"
+msgstr "منذ حوالي %s مضت"
+
+#: lib/widgets/latest-tweets-widget.php:182
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a>."
+msgstr "للإستمرار بإستعمال مربع آخر الزقزقات من Twitter الرجاء <a href=\"%s\" target=\"_blank\">تنصيب هذه الإضافة</a>."
+
+#: lib/widgets/latest-tweets-widget.php:191
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">install this plugin</a>."
+msgstr "للإستمرار في إستعمال مربع آخر الزقزقات  الرجاء <a href=\"%s\" class=\"thickbox\" title=\"تنصيب إضافة Genesis Latest Tweets\">تنصيب هذه الإضافة</a>."
+
+#: lib/widgets/user-profile-widget.php:42
+msgid "Read More"
+msgstr "قراءة المزيد"
+
+#: lib/widgets/user-profile-widget.php:48
+msgid "Displays user profile block with Gravatar"
+msgstr "لعرض ملف الكاتب الشخصي مع صورة رمزية له"
+
+#: lib/widgets/user-profile-widget.php:57
+msgid "Genesis - User Profile"
+msgstr "ملف الكاتب"
+
+#: lib/widgets/user-profile-widget.php:96
+msgid "View My Blog Posts"
+msgstr "مشاهدة جميع مقالاتي"
+
+#: lib/widgets/user-profile-widget.php:141
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "الرجاء إختيار كاتب، بريده سيستخدم لجلب الصورة الرمزية من Gravatar"
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Small"
+msgstr "صغيرة"
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Medium"
+msgstr "متوسطة"
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Large"
+msgstr "كبيرة"
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Extra Large"
+msgstr "كبيرة للغاية"
+
+#: lib/widgets/user-profile-widget.php:167
+msgid "Select which text you would like to use as the author description"
+msgstr "الرجاء إختيار أي نص ترغبون بأن يستعمل كوصف للكاتب"
+
+#: lib/widgets/user-profile-widget.php:170
+msgid "Author Bio"
+msgstr "نبذة عن الكاتب"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Custom Text (below)"
+msgstr "نص مخصص (أسفله)"
+
+#: lib/widgets/user-profile-widget.php:173
+msgid "Custom Text Content"
+msgstr "محتوى نصي مخصص"
+
+#: lib/widgets/user-profile-widget.php:179
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "الرجاء إختيار صفحة \"عن الكاتب\" الموسعة من القائمة أسفله، ستكون هذه هي الصفحة الموصولة بالرابط أسفل النبذة"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Extended page link text"
+msgstr "نص رابط الصفحة الموسعة"
+
+#: lib/widgets/user-profile-widget.php:190
+msgid "Show Author Archive Link?"
+msgstr "إظهار رابط ارشيف الكاتب ؟"
+
+#: search.php:28
+msgid "Search Results for:"
+msgstr "نتائج البحث عن:"
