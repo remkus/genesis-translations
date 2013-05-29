@@ -9,7 +9,7 @@
 * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
 * Description: This plugin will translate Genesis in the available languages.
 * Author: Remkus de Vries
-* Version: 1.9.1
+* Version: 1.9.2
 * Author URI: http://remkusdevries.com/
 * License: GPLv2
 * Text Domain: genesis-translations
@@ -21,7 +21,7 @@
 *
 */
 define( 'GENTRANS_FILE','genesis-translations/genesis-translations.php' );
-define( 'GENTRANS_VERSION','1.9.1' );
+define( 'GENTRANS_VERSION','1.9.2' );
 
 /**
  * The text domain for the plugin
@@ -48,21 +48,21 @@ register_activation_hook( __FILE__, 'fst_genesis_translations_activation_check' 
  */
 function fst_genesis_translations_activation_check() {
 
-	$latest = '1.7';
+  $latest = '1.7';
 
-	$theme_info = get_theme_data( get_template_directory() . '/style.css' );
+  $theme_info = get_theme_data( get_template_directory() . '/style.css' );
 
-	if ( basename( get_template_directory() ) != 'genesis' ) {
-		deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-		wp_die( sprintf( __( 'Whoa.. the translation this plugin only works, really, when you have installed the %1$sGenesis Framework%2$s', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', '</a>' ) );
-	}
+  if ( basename( get_template_directory() ) != 'genesis' ) {
+    deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
+    wp_die( sprintf( __( 'Whoa.. the translation this plugin only works, really, when you have installed the %1$sGenesis Framework%2$s', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', '</a>' ) );
+  }
 
-	$version = fst_genesis_translations_version_check( $theme_info['Version'], 3 );
+  $version = fst_genesis_translations_version_check( $theme_info['Version'], 3 );
 
-	if ( version_compare( $version, $latest, '<' ) ) {
-		deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-		wp_die( sprintf( __( 'Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s or greater for these translations to make any sense.', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', $latest, '</a>' ) );
-	}
+  if ( version_compare( $version, $latest, '<' ) ) {
+    deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
+    wp_die( sprintf( __( 'Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s or greater for these translations to make any sense.', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', $latest, '</a>' ) );
+  }
 }
 /**
  * Used to cutoff a string to a set length if it exceeds the specified length
@@ -78,14 +78,14 @@ function fst_genesis_translations_activation_check() {
  */
 function fst_genesis_translations_version_check( $str, $length=10 ) {
 
-	if ( strlen( $str ) > $length ) {
-		return substr( $str, 0, $length );
+  if ( strlen( $str ) > $length ) {
+    return substr( $str, 0, $length );
 
-	} else {
-		$res = $str;
-	}
+  } else {
+    $res = $str;
+  }
 
-	return $res;
+  return $res;
 }
 
 add_action( 'genesis_init','fst_set_genesis_language_dir', 1 );
@@ -98,8 +98,8 @@ add_action( 'genesis_init','fst_set_genesis_language_dir', 1 );
  */
 function fst_set_genesis_language_dir() {
 
-	$fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ),"", plugin_basename( __FILE__ ) );
+  $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ),"", plugin_basename( __FILE__ ) );
 
-	define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
+  define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
 
 }

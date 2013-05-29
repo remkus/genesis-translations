@@ -4,7 +4,7 @@ Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.9.1
+Stable tag: 1.9.2
 
 Translate your Genesis Framework powered WordPress site into one of the available languages.
 
@@ -83,6 +83,14 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
+
+= 1.9.2 =
+
+* Updates to various languages + added Welsh (cy)
+
+= 1.9.1 =
+
+* Updated a few things in readme
 
 = 1.9.0 =
 
