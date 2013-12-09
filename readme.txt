@@ -2,45 +2,17 @@
 Contributors: DeFries
 Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
-Requires at least: 3.1
-Tested up to: 3.5.1
-Stable tag: 1.9.3
+Requires at least: 3.3
+Tested up to: 3.8
+Stable tag: 2.0.0
 
-Translate your Genesis Framework powered WordPress site into one of the available languages.
+This plugin translates the Genesis Framework into one of the available languages.
 
 == Description ==
 
-This plugin translates your Genesis powered WordPress site easily with one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
+This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
-Currently the following translations are available for Genesis 1.9.x
-
-* Arabic - ar
-* Afrikaans - af
-* Croatian - hr
-* Danish - da_DK
-* Dutch - nl_NL
-* Italian - it_IT
-* German - de_DE
-* Finnish - fi
-* Romanian - ro_RO
-* Vietnamese - vi_VI
-* Bulgarian - bg_BG
-* Swedish - sv_SE
-* Spanish - es_ES
-* French - fr_FR
-* Indonesian - id_ID
-* Turkish - tr_TR
-* Russian - ru_RU
-* Norwegian - nb_NO
-* Portuguese-Brazilian - pt_BR
-* Greek - el_GR
-* Hebrew - he_IL
-* Polish - pl_PL
-* Portuguese - pt_PT
-* Hungarian - hu_HU
-* Japanese - ja
-* Chinese - zh_CN
-* Icelandic - is_IS (front-end only)
+Check http://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
 
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
@@ -68,7 +40,7 @@ You most certainly can. [Please contact me](http://forsitemedia.net/contact/ "Pl
 
 = Where can I find the list of languages being worked on? =
 
-Visit the [StudioPress GlotPress installation](http://translate.studiopress.com/projects/genesis-framework/genesis-18 "GlotPress installation") to see the complete list of languages being worked on.
+Visit the [StudioPress GlotPress installation](http://translate.studiopress.com/projects/genesis-framework/genesis-20 "GlotPress installation") to see the complete list of languages being worked on.
 
 = I have your plugin activated but I don't see an options page =
 
@@ -78,11 +50,19 @@ That's because there isn't any. If you have one of the provided languages proper
 
 Most likely you either have words hardcoded in your child theme's `functions.php` file or you're working with outdated (or incomplete) WordPress translation.
 
+= I'd like to help out with the translations =
+
+Fantastic! Go ahead and register [here](http://translate.studiopress.com/home/ "here") and we'll get you sorted.
+
 == Screenshots ==
 
 No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
+
+= 2.0.0 =
+
+* Large update to (finally) reflect the changes made in Genesis 2.0. Lots of improved translations across the board. Too many to mention specifically.
 
 = 1.9.2 =
 

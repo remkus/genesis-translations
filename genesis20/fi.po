@@ -1,0 +1,2090 @@
+# Translation of Genesis 2.0 in Finnish
+# This file is distributed under the same license as the Genesis 2.0 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-09 16:29:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 2.0\n"
+
+#: lib/admin/import-export.php:74
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "Voit tuoda tiedoston jonka olet aikaisemmin vienyt. Tiedoston nimi alkaa %s seuraten yhtä tai useampaa lyhennettä, näyttäen mitkä asetukset se sisältää, ja lisäksi päivämäärä ja kellonaika milloin se vietiin tiedostoon."
+
+#: lib/admin/cpt-archive-settings.php:260
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "Muokattu dokumentin otsikko asettaa sivun otsikon ja se näkyy selaimissa ja hakukoneissa."
+
+#: lib/admin/cpt-archive-settings.php:286
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr "Muokattu luokan määritys lisää luokan HTML:ään joka mahdollistaa CSS muokkaukset juuri tämän artikkelin arkistosivuun."
+
+#: lib/admin/cpt-archive-settings.php:248
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr "Arkiston esittelyteksti asettaa määrityksen tekstille ennen arkiston sisältöä, ja se näytetään sisällön katsojalle."
+
+#: lib/admin/theme-settings.php:292
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "Yleisasetuksissa voit määritellä määrätyt kategoriat jotka näytetään pudotusvalikossa, ja poistaa näkyvistä kategoriat ID-numeron perusteella, tai voit jopa valita kuinka monta artikkelia näytät tällä sivulla."
+
+#: lib/admin/theme-settings.php:294
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr "Löydät lisätietoa tästä ominaisuudesta <a href=\"%s\" target=\"_blank\">Kuinka lisäät artikkeli kategoriasivun ohjeesta.</a>"
+
+#: lib/admin/theme-settings.php:249
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "Nämä valinnat voidaan laajentaa ja rajata lapsiteemassa. Lisäksi monet lapsiteemat eivät mahdollista erilaisia kotisivun ulkoasuja koska ne on suunniteltu määrätylle sivun ulkoasulle."
+
+#: lib/admin/whats-new.php:91
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr "Me pyrimme parantamaan koko ajan. Kutsu sitä sairaudeksi, mutta me haluamme tehdä asiat toimimaan todella, todella hyvin. Tässä on lista teknisistä muutoksista viimeisimmässä versiossa."
+
+#: lib/admin/cpt-archive-settings.php:247
+msgid "The Archive Headline sets the title seen on the archive page"
+msgstr "Arkiston otsikkorivi asettaa otsikon joka näkyy arkistosivulla"
+
+#: lib/admin/cpt-archive-settings.php:264
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Robots Meta tägit kertovat hakukoneille kuinka kohdellaan arkistosivua. Noindex tarkoittaa ettei sivua indeksoida ollenkaan, ja se ei näy hakutuloksissa. Nofollow tarkoittaa älä seuraa mitään linkkejä tältä sivulta eteenpäin ja noarchive tarkoittaa ettei sivusta tehdä arkistokopiota."
+
+#: lib/admin/seo-settings.php:339
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "Käytä semanttista HTML5 sivua ja kappaleen otsikoita koko sivuston osalta?"
+
+#: lib/admin/whats-new.php:79
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr "Haluamme pitää Genesiksen mahdollisimman kevyänä sinulle, kukaan ei halua kottikärryllisiä ohjelmistoa. Joten men poistimme Latest Tweets vimpaimen, eNews vimpaimen, the \"post templates\" artikkelin tyyliominaisuuden, ja \"tehostetut alasvetovalikot\" asetuksen. Mutta älä huolestu! Jos haluat ne takaisin, klikkaa alla olevia lisäosia asentaaksesi ne jotka teimme sinulle."
+
+#: lib/admin/import-export.php:149
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "Kun painat alla olevaa nappia, Genesis luo datatiedoston (%s) jonka voit tallentaa tietokoneellesi."
+
+#: lib/admin/theme-settings.php:291
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "Tämä toimii Blogipohjalla, joka on sivupohja joka näyttää viimeiset artikkelit. Täm'ä näytetään kun käyttäjät tulevat kotisivullesi."
+
+#: lib/admin/cpt-archive-settings.php:261
+msgid ""
+"The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+" "
+msgstr ""
+"Metakuvaus ja avainsanat täyttävät metatägit arkistosivulla. Metkuvaus on lyhyt tekstin pätkä joka ilmestyy hakukoneiston tuloksissa.\n"
+" "
+
+#: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
+msgid "These options can be extended or limited by the child theme."
+msgstr "Näita asetuksia voidaan laajentaa tai pienentää lapsiteeman avulla."
+
+#: lib/admin/import-export.php:75
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "Kun olet ladannut tuontitiedoston, se korvaa automaattisesti nykyiset asetukset."
+
+#: lib/admin/import-export.php:130
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr "Lataa datatiedosto (%s) omalta koneeltasi ja tuomme sinun asetuksesi."
+
+#: lib/admin/cpt-archive-settings.php:276
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr "Tämä antaa mahdollisuuden valita arkistosivun ulkoasun. Suurimmalla osalla lapsisivuja näet nämä valinnat:"
+
+#: lib/admin/whats-new.php:73
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr "Jos käytät teemaa HTML5 ominaisuuksilla, Genesis luo lähdetiedoston käyttäen microdataa. Et tiedä mitä tämä on? Emme syytä sinua. Katso <a href=\"%s\" target=\"_blank\">tämä selostus</a>. Edelleen sekavaa? Älä huolehdi. Tästä syystä käytämme kehystä (framework). Me teimme kaiken tutkinnan ja muokkasimme siten että halukoneistot osaavat käyttää hyväksi Microdataa jota ne etsivät. Sinun ei siis tarvitse tehdä sitä. On hyvä olla Genesis käyttäjä."
+
+#: lib/admin/import-export.php:79
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr "Voit videä Genesis-kohtaiset asetukset varmistaaksesi ne, tai kopioida ne toiselle sivustolle. Lapsiteemat ja lisäosat voivat tehdä lisävalintoja valintalistaan. Asetukset viedään %s muodossa."
+
+#: lib/admin/whats-new.php:70
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr "Genesis on aina ollut viimeisimmällä aallonharjalla web-teknologiassa, ja Genesis 2.0 jatkaa tätä erinomaista perintöä. Yhdellä rivillä koodia lapsiteemassa Genesis luo HTML 5 markup - muodot vanhoista XHTML tägeistä. Lisäksi jokainen teema jonka teemme tulevaisuudessa tehdään  HTML5:lla."
+
+#: lib/admin/theme-settings.php:626
+msgid "Load Superfish Script?"
+msgstr "Lataa Superfish Script?"
+
+#: lib/admin/theme-settings.php:493
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr "Jos annat sähköpostin yläpuolelle, sinulle lähetetään sähköpostimuistutus kun uusi Genesis-versio on saatavilla."
+
+#: lib/admin/theme-settings.php:293
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr "Blogipohjassa on muutamia erityisiä ominaisuuksia jotka antavat sinun määritellä mitkä kategoriat näytetään kullakin sivulla käyttäen teemapohjaa. Tämä on hyödyllistä jos sinulla on \"News/uutis\" kategoria (tai jotakin muuta) jonka haluat näyttää erikseen."
+
+#: lib/functions/deprecated.php:32
+msgid "data in style sheet files"
+msgstr "data tyylitiedoston tiedostoissa"
+
+#: lib/structure/sidebar.php:65
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Tämä on %s. Voit lisätä sisältöä tälle alueelle vierailemalla sinun <a href=\"%s\">vimpaimen valikko</a> ja lisäämällä uusia vimpaimia tähän."
+
+#: lib/admin/theme-settings.php:254
+msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
+msgstr "<strong>Dynaaminen teksti</strong> valinta käyttää sivuston otsikko -  ja sivuston kuvaus -kenttiä otsikoissa määritellyistä sivustoasetuksista.."
+
+#: lib/admin/theme-settings.php:255
+msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr ""
+"<strong>Image logo</strong> valinta käyttää kuvan logotiedostoa ylätunnisteessa sivun otsikon ja kuvauksen sijaan. Tämä asetus lisää .header-image class määrityksen sivustolle, mahdollistaen oman lapsiteeman tyylitiedoston kuvan käyttämisen CSS-tyylitiedostossa.\n"
+"Oletuksena logo talletaan nimellä logo.png ja talletetaan lapsiteeman kuvat-hakemistoon ."
+
+#: lib/admin/theme-settings.php:259
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr "Ensisijaisen valikon lisäosat normaalisti näytetään ensisijaisen valikon oikeassa reunassa."
+
+#: lib/admin/theme-settings.php:261
+msgid "Today's date displays the current date"
+msgstr "Tämä päivä näyttää nykyisen ajan"
+
+#: lib/admin/theme-settings.php:262
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr "RSS-syötteen linkki näyttää linkin sivustosi RSS-syötteesi josta lukija voi sen tilata omaan haluamaansa uutislukijaansa."
+
+#: lib/admin/theme-settings.php:263
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr "Search form displays a small search form utilizing the WordPress search functionality."
+
+#: lib/admin/theme-settings.php:264
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr "Twitter linkki näyttää linkin Twitter-profiiliisi, kuten Twitter ID asetuksissa. Lisää tähän ainoastaan Twitter-käyttäjänimesi."
+
+#: lib/admin/theme-settings.php:638
+msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
+msgstr "Nähdäksesi Ensisijaisen valikon asetukset, sinun pitää rakentaa <a href=\"%s\">muokattu valikko</a>, ja sijoittaa sen Ensisijaisen valikon sijaintiin."
+
+#: lib/functions/upgrade.php:559
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr "Genesis %s on saatavilla. <a href=\"%s\" %s>Katso mitä uutta</a> tai <a href=\"%s\" %s>päivitä nyt.</a>"
+
+#: lib/admin/import-export.php:68
+msgid "This allows you to import or export Genesis Settings."
+msgstr "Tämä mahdollistaa Genesis asetusten tuonnin tai viennin."
+
+#: lib/admin/import-export.php:69
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "Tämä on erityisesti tarkoitettu Genesiksen omiin asetuksiin ja se ei sisälly artikkeli-, sivu- tai media-asetuksiin jotka ovat WordPressin sisäänrakennettuja ominaisuuksia joita Tuo/Vie valikko tekee."
+
+#: lib/admin/import-export.php:70
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "Se ei sisällä muita asetuksia lisäosille, vimpaimille, tai artikkeli/sivu/termi/käyttäjä-kohtaisiin asetuksiin."
+
+#: lib/admin/import-export.php:73 lib/admin/import-export.php:88
+msgid "Import"
+msgstr "Tuo"
+
+#: lib/admin/import-export.php:75
+msgid "This cannot be undone"
+msgstr "Tätä toimintoa ei voi peruuttaa"
+
+#: lib/admin/import-export.php:78 lib/admin/import-export.php:93
+msgid "Export"
+msgstr "Vie"
+
+#: lib/admin/import-export.php:79
+msgid "JavaScript Object Notation"
+msgstr "JavaScript objektin merkintätapa"
+
+#: lib/admin/import-export.php:79
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:374
+msgid "For more information:"
+msgstr "Lisätietoja:"
+
+#: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:375
+msgid "Get Support"
+msgstr "Hanki tukea"
+
+#: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:376
+msgid "Genesis Snippets"
+msgstr "Genesis katkelmat (snippets)"
+
+#: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:377
+msgid "Genesis Tutorials"
+msgstr "Genesis oppaat"
+
+#: lib/admin/seo-settings.php:170
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr "Genesis SEO (search engine optimization) on kohtelias, ja se inaktivoi itsensä kun kaikkein yleisimmät  SEO lisäosat (esim. All-in-One SEO, WordPress SEO, jne) ovat aktiivisena."
+
+#: lib/admin/seo-settings.php:171
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr "Jos et näe SEO asetukset alivalikkoa, sinulla on mitä todennäköisemmin joku toinen SEO lisäosa aktiivisena."
+
+#: lib/admin/seo-settings.php:172
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr "Jos näet valikon, tämän valikon avaaminen mahdollistaa yleiset SEO asetukset sivustollesi. "
+
+#: lib/admin/seo-settings.php:173
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr "Jokaisella sivulla, artikkelilla ja termillä on oma SEO asetus. Oletusasetukset ovat suositeltuja. Jos haluat muuttaa SEO asetuksia, valinnat sisältävät sisäiset kuvaukset."
+
+#: lib/admin/seo-settings.php:174
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr "Löydät alapuolelta muutaman ytimekkään huomion jokaisen valinnan osalta:"
+
+#: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
+msgid "Doctitle Settings"
+msgstr "Dokumentin otsikon asetukset"
+
+#: lib/admin/seo-settings.php:178
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr "<strong>Lisää sivuston kuvaus</strong> lisää sivuston kuvauksen yleisasetuksista kotisivun (Home) otsikon jälkeen."
+
+#: lib/admin/seo-settings.php:179
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr "<strong>Lisää sivuston nimi</strong> lisää sivuston nimen yleisasetuksistaotsikon jälkeen sisäsivulle."
+
+#: lib/admin/seo-settings.php:180
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr "<strong>Dokumentinotsikon sijainnin lisäys</strong> määrittelee mille puolelle otsikkoa lisätään aikaisemmin mainitut kappaleet."
+
+#: lib/admin/seo-settings.php:181
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr "<strong>Dokumenttiotsikon erotin</strong> on merkki joka laitetaan otsikon ja lisätyn tekstin väliin."
+
+#: lib/admin/seo-settings.php:185
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr "Nämä ovat etusivulle tarkoitetut SEO asetukset. Huomio: nämä asetukset eivät mene päälle jos etusivuksi on asetettu staattinen sivu. Jos käytät staattista etusivua WordPagen aloitussivuna, aseta SEO asetukset ko. sivulle erikseen."
+
+#: lib/admin/seo-settings.php:186
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr "Voit myös määritellä jos sivuston otsikko, kuvaus tai muokattu teksti sisällytetään &lt;h1&gt; tag (ensisijainen otsikko HTML:ssä)."
+
+#: lib/admin/seo-settings.php:187
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr "Lisätäksesi muokatun tekstin sinun pitää joko muokata php-tiedostoa tai käyttää tekstivimpainta mikäli vimpain-kotisivua tukeva sivu sitä tukee."
+
+#: lib/admin/seo-settings.php:188
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr "Dokumentin otsikko asetukset määrittelevät mitä tulee <title></title> avainsanoiksi (tags) (ei näy selaimissa) kotisivulle."
+
+#: lib/admin/seo-settings.php:189
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr "Aloitussisvun META kuvaus ja avainsanat määrittelevät meta-asetukset. META kuvaus on lyhyt tekstimainos joka näkyy hakukoneistojen tuloksissa."
+
+#: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr "Suurin osa hakukoneista ei käytä avainsanoja tai antavat niille hyvin vähän huomiota; kuitenkin kannattaa huomioida että tapauskohtaiset avainsanat tulevat yleistymään ja auttavat sisältösi osalta. Jos sisältö ei vastaa haluamasi avainsanoja, silloin sinun pitää miettiä sisältöä huolellisemmin."
+
+#: lib/admin/seo-settings.php:191
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Kotisivun robittien metatägit kertovat hakukoneille kuinka käsitellä kotisivua. Noindex-määritys tarkoittaa ettei sivua indeksoida ollenkaan, ja se ei näy hakutuloksissa. Nofollow-määrityksellä ei saurata mitään linkkejä tältä sivulta ja noarchive-määritys ei tee arkistointiversiota sivusta."
+
+#: lib/admin/seo-settings.php:195
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr "Yhteyslinkkien tägit ovat tägejä jotka WordPress lisää. Niillä ei tällä hetkellä ole SEO arvoa mutta hidastavat sivustoasi. Ne eivät ole oletuksena päällä mutta jos sinulla on erityisiä tarpeita lisäosalle tai muuten ei niin tavallisella käytössä, voit aktivoida ne tästä."
+
+#: lib/admin/seo-settings.php:196
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr "Voit lisätä Windows Live Writer tuen jos käytät ohjelmaa joka tukee tätä ja sisältää pikalinkin tägin jos tämä on 3. osapuolen ohjelman vaatimus."
+
+#: lib/admin/seo-settings.php:200
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr "Noarchive ja noindex asetukset ovat selostettu sivuston kotiasetuksissa. Tässä voit valita mitä muita sivuston osia ko. asetukset koskevat."
+
+#: lib/admin/seo-settings.php:201
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr "Vähintään yksi arkisto pitäisi indeksoida, mutta useamman arkiston indekstointi normaalisti aiheuttaa kaksoisversioiden rankaisuja (useat sivut samalla sisällöllä manipuloivat hakukoneita)."
+
+#: lib/admin/seo-settings.php:202
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr "Suurimmalle osalle sivustoista joko kotisivu tai blogisivu (käyttäen blogipohjaa) toimii indeksinä joten se on syynä että oletuksena ei indeksoida kategorioita, avainsanoja, päiviä tai hakuja."
+
+#: lib/admin/seo-settings.php:206
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr "Kanoniset linkit osoittavat hakukoneet sivutetun sisällön etusivulle (hakukoneiden pitää valita \"suositeltavin linkki\" kun useampia kaksoiskappaleita löytyy sivuista)."
+
+#: lib/admin/seo-settings.php:207
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr "Tämä kertoo heille “tämä on sivutettu sisältö ja 1. sivu alkaa tästä\"  ja auttaa välttämään avainsanojen leviämisen useimmille sivuille."
+
+#: lib/admin/seo-settings.php:236
+msgid "SEO Archives"
+msgstr "SEO arkistot"
+
+#: lib/admin/theme-settings.php:223
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr "Teeman asetukset määrittelevät kuinka teema toimii. Tämän valikon avulla voit ohjata monia tavallisia ja jopa edistyksellisiä ominaisuuksia. Jotkut aliteemat lisäävät ylimääräisiä valikoita tähän listaan, mahdollistaen erilaisia väriteemoja tai esimerkiksi diaesityksen (slider) asetukset.Jokainen valinta voidaan avata ja sulkea valintaruudusta. Kaikki valinnat voidaan vetää haluamaasi järjestykseen tai jopa piilottaa  klikkaamalla \"Näytön asetukset\" ioikeasta yläkulmasta ja aktivoimalla valinnat joita et halua nähdä. Alla näet valinnat jotka yhteisiä kaikille aliteemoille ..."
+
+#: lib/admin/theme-settings.php:227
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr "Tietolaatikko näyttää sinulle nykyisen Genesis teeman tiedot ja näyttää sen haluttaessa."
+
+#: lib/admin/theme-settings.php:228
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr "Normaalisti, tätä valintaa ei pitäisi ottaa pois. Voit myös mahdollistaa automaattipäivitykset."
+
+#: lib/admin/theme-settings.php:229
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr "Tämä i tarkoita sitä että päivitykset tehdään ilman suostumustasi; se vain muistuttaa että päivitys on saatavilla. Sinun täytyy valita se tehdäksesi varsinaisen päivityksen."
+
+#: lib/admin/theme-settings.php:230
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr ""
+"If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated.\n"
+"\n"
+"Jos annat sähköpostiosoitteesi ja valitset muistuta-valinnan ko. emailosoitteeseen kun päivitys on saatavilla, sivustosi lähettää sähköpostia kun päivitys voidaan suorittaa. Ei, päivitykset vaikuttavat vain tiedostoihin joita päivitetään."
+
+#: lib/admin/theme-settings.php:234
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "Jos käytät Feedburneria RRS-syotteiden hoitamiseen, voit käyttää tätä toimintoa määrittääksesi sivustosi alkuperäisen feedin (syötteen) ohjautumaan Feedburnerin feediin (syötteeseen)."
+
+#: lib/admin/theme-settings.php:235
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr "Täyttämällä syötteen linkit kutsumalla pääsivuston syötettä, se näytetään linkkinä Feedburneriin."
+
+#: lib/admin/theme-settings.php:236
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr "Valitsemalla \"ohjaa syöte\" valinnan. kaikki liikenne oletussyötteen linkkien sijasta ohjataan Feedburnerin linkkiin."
+
+#: lib/admin/theme-settings.php:240
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr "Tästä voit määritellä oletusulkoasun koko sivustollesi. Suurimmassa osassa aliteemoja näet nämä vaihtoehdot:"
+
+#: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
+msgid "Content Sidebar"
+msgstr "sisältö sivupalkki"
+
+#: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
+msgid "Sidebar Content"
+msgstr "Sivupalkin sisältö"
+
+#: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
+msgid "Sidebar Content Sidebar"
+msgstr "sivupalkki sisältö sivupalkki"
+
+#: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
+msgid "Content Sidebar Sidebar"
+msgstr "sisältö sivupalkki sivupalkki"
+
+#: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
+msgid "Sidebar Sidebar Content"
+msgstr "sivupalkki sivupalkki sisältö"
+
+#: lib/admin/theme-settings.php:250
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr "Tämä ulkoasu voidaan ylikirjoittaa artikkeli/sivu/termi ulkoasumäärityksissä erikseen jokaisella artikkeli/sivu/termi - määrityksissä."
+
+#: lib/admin/theme-settings.php:270
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr "Tällä valinnalla voit määritellä missä \"leipämurut\" näkyvät. Leipämuru on navigointityökalu joka näyttää millä sivulla vierailija on kullakin hetkellä sivustolla."
+
+#: lib/admin/theme-settings.php:274
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr "Tämä mahdollistaa koko sivuston laajuisen määrityksen josko kommentit ja paluuviitteet (muistutukset kun joku linkitttää sivullesi) on aktivoitu artikkeleille ja sivuille."
+
+#: lib/admin/theme-settings.php:275
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr "Jos aktivoit kommentit tai paluuviiiteet, ko. valinta voidaan poistaa yksittäiseltä artikkelilta tai sivulta. Jos poista valinnan tässä, niitä ei voida aktivoida yksittäiselle artikkelille tai sivulle."
+
+#: lib/admin/theme-settings.php:279
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr "Genesis teeman asetuksissa voit vaihtaa sivuston laajuisen sisällön arkistot valinnat määritelläksesi mitä näytetään sivuston arkistoissa."
+
+#: lib/admin/theme-settings.php:280
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr "Arkistot sisältävät sivut joissa käytetty blokipohjaa, avainsanat sivuja, päivämääräarkisto, kirjoittajan arkistot, ja viimeiset artikkelit jos ei ole määritelty muokattua kotisivua."
+
+#: lib/admin/theme-settings.php:281
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr "Ensimmäinen valinta mahdollistaa artikkelin sisällön tai artikkelin lyhennelmän näyttämisen. Sisällön näyttäminen asetus näyttää koko artikkelin aina  <!--more--> tagiin asti jos sitä on käytetty (tämä on HTML kommentti tägi joka ei näy selaimessa)."
+
+#: lib/admin/theme-settings.php:282
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr "Se voidaan hoitaa toisella kentällä  \"Limit content to [___] characters\" rajata sisältö määrättyyn määrään kirjaimia ja välilyöntejä. Tämä poistaa HTML koodit mutta mahdollistaa tarkemmat ja helposti vaihdettavat pituudet kuin lyhennelmät."
+
+#: lib/admin/theme-settings.php:283
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr "Näyttöartikkelin lyhennelmä asetus näyttää ensimmäiset 55 sanaa artkkelista poistaen kaikki HTML koodit tai manuaalinen/muokattu lyhennelmä lisätty artikkelin muokkausnäyttöön."
+
+#: lib/admin/theme-settings.php:284
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr "'Sisällytä artikkelin kuva?' asetus näyttää pikkukuvan ensimmäisestä liitetystä kuvasta tai artikkelikuvasta."
+
+#: lib/admin/theme-settings.php:285
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr "Tätä valintaa ei pitäisi käyttää artikkelin sisällössä ellei sisällössä ole rajoitettu tuplakuvia (kaksoiskappaleita kuvista)."
+
+#: lib/admin/theme-settings.php:286
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr " 'Kuvan koko' lista muodostetaan teemassa määritellyistä kuvien kokomäärityksistä."
+
+#: lib/admin/theme-settings.php:287
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr "Artikkelin navigaatiotekniikka mahdollistaa sinun valitsevan yhden kolmesta navigaatiomenetelmästä."
+
+#: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
+msgid "Blog Page"
+msgstr "Blogin sivu"
+
+#: lib/admin/theme-settings.php:298
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr ""
+"Tämä antaa sinulle kaksi kenttää jotka näkyvät <head></head> sivustollasi ja juuri ennen  </body>. Nämä näkyvät sivuston jokaisella sivulla ja ovat erinomainen tapa lisätä analyysikoodi- ja muita skriptejä. Et voi käyttää PHP-kieltä näissä kentissä. Jos sinun täytyy käyttää PHP-kieltä niin tällöin kannattaa katsoa Genesis Simple Hooks lisäosaa.\n"
+"\n"
+
+#: lib/admin/theme-settings.php:301
+msgid "How Home Pages Work"
+msgstr "Kuinka kotisivut toimivat"
+
+#: lib/admin/theme-settings.php:302
+msgid "Most Genesis child themes include a custom home page."
+msgstr "Suurin osa Genesis aliteemoista sisältävät muokatun kotisivun (Home sivu)."
+
+#: lib/admin/theme-settings.php:303
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr "Käyttääksesi tämän tyylistä aloitussivua, varmista että viimeiset artikkelit näytetään kotisivulla. Voit asettaa blogipohjalle asetuksen millä näytetään blogityylinen lista viimeisistä artikkeleista toisella sivulla."
+
+#: lib/admin/theme-settings.php:304
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr "Tämä kotisivu asetetaan tyypillisesti sivupalkin vimpainasetuksissa. Asetukseen pääsee Ulkoasu - asetuksissa vimpainmenun kautta."
+
+#: lib/admin/theme-settings.php:305
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr "Aliteemat jotka sisältävät tämän tyyliset kotisivut sisältävät teemakohtaiset lisäoppitunnit. Niihin pääsee käsiksi ko. aliteeman tukifoorumin kautta."
+
+#: lib/admin/theme-settings.php:306
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr "Jos ttemasi käyttää muokattua kotisivua and haluat näyttää viimeisimmät artikkelit blogimuodossa, älä käytä blogipohjaa. Sen sijaan sinun pitää nimetä home.php tiedoston nimeksi home-old.php."
+
+#: lib/admin/theme-settings.php:307
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr "Toinen ylein kotisivu on \"blog\"-tyyppinen kotisivu jota käytetään suurimassa osassa ilmaisia aliteemoja. Tämä näyttää viimeisimmät artikkelit ja ei vaadi lisäasetuksia."
+
+#: lib/admin/theme-settings.php:308
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr "Kolmas kotisivutyyli on uusi dynaaminen kotisivu. Tämä on tyypillistä uusille aliteemoille. Se näyttää uusimmat artikkelit blogtyylisesti ellet asenna vimpaimia kotisivun sivupalkkeihin."
+
+#: lib/admin/theme-settings.php:309
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr "Tämä asetus on suositeltavin koska se mahdollistaa helpoiten blogin näyttämisen etusivulla (ei tarvetta nimetä home.php tiedostoa) ja ja ei aiheuta ongelmaa siinä tapauksessa että mitään sisältöä ei näkyisi kun teema alunperin asennetaan."
+
+#: lib/admin/theme-settings.php:368
+msgid "Home Pages"
+msgstr "Kotisivut"
+
+#: 404.php:41 lib/structure/post.php:335 page_archive.php:30
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: 404.php:46 page_archive.php:35
+msgid "Categories:"
+msgstr "Kategoriat: "
+
+#: 404.php:51 page_archive.php:40
+msgid "Authors:"
+msgstr "Kirjoittajat:"
+
+#: 404.php:56 page_archive.php:45
+msgid "Monthly:"
+msgstr "Kuukausittain:"
+
+#: 404.php:61 page_archive.php:50
+msgid "Recent Posts:"
+msgstr "Viimeiset artikkelit:"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Tämä artikkeli on salasanasuojattu. Anna salasana nähdäksesi kommentit."
+
+#: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
+msgid "Custom Document Title"
+msgstr "Muokattu dokumentin otsikko"
+
+#: lib/admin/inpost-metaboxes.php:49
+msgid "Custom Post/Page Meta Description"
+msgstr "Muokattun artikkelin/sivun metakuvaus"
+
+#: lib/admin/inpost-metaboxes.php:52
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Muokatun artikkelin/sivun metahakusanat, pilkulla erotettuna"
+
+#: lib/admin/inpost-metaboxes.php:55
+msgid "Custom Canonical URI"
+msgstr "Muokattu kanonikaalinen URI"
+
+#: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
+msgid "Robots Meta Settings"
+msgstr "Hakurobottien meta-asetukset"
+
+#: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+msgid "Apply %s to this post/page"
+msgstr "Ota käyttöön %s tähän artikkeliin/sivuun?"
+
+#: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "Oletusulkoasu <a href=\"%s\">Teeman asetukset</a>"
+
+#: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:313
+msgid "Theme Settings"
+msgstr "Teeman asetukset"
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:269 lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42 lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+msgid "SEO Settings"
+msgstr "SEO asetukset"
+
+#: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+msgid "Homepage Settings"
+msgstr "Kotisivun asetukset"
+
+#: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
+msgid "Archives Settings"
+msgstr "Arkistot asetukset"
+
+#: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+msgid "Document Head Settings"
+msgstr "Dokumentin pääasetukset"
+
+#: lib/admin/seo-settings.php:41
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - SEO asetukset"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+msgid "Reset Settings"
+msgstr "Nollaa asetukset"
+
+#: lib/js/load-scripts.php:146
+msgid "Are you sure you want to reset?"
+msgstr "Oletko varma että haluta nollata?"
+
+#: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
+#: lib/widgets/featured-post-widget.php:353
+#: lib/widgets/featured-post-widget.php:383
+#: lib/widgets/user-profile-widget.php:166
+msgid "Left"
+msgstr "Vasen"
+
+#: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
+#: lib/widgets/featured-post-widget.php:354
+#: lib/widgets/featured-post-widget.php:384
+#: lib/widgets/user-profile-widget.php:167
+msgid "Right"
+msgstr "Oikea"
+
+#: lib/admin/seo-settings.php:347
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "Minkä tekstit haluaisit sisällyttää %s tageihin?"
+
+#: lib/admin/seo-settings.php:351
+msgid "Site Title"
+msgstr "Sivuston otsikko"
+
+#: lib/admin/seo-settings.php:357
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "Ei kumpikaan. Muokkaan manuaalisesti oman tekstini pääsivulle"
+
+#: lib/admin/seo-settings.php:379
+msgid "Homepage Robots Meta Tags:"
+msgstr "Kotisivun robottimetatagit:"
+
+#: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to the homepage?"
+msgstr "Mukauta %s pääsivulle?"
+
+#: lib/admin/seo-settings.php:542
+msgid "Canonical Paginated Archives"
+msgstr "Kanonikaaliset sivutetut arkistot"
+
+#: lib/admin/seo-settings.php:545
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "Tämä valinta osoittaa hakukoneistoille arkiston ensimmäiselle sivulla, jos käytetään sivutettua sivua. Jos et tiedä mitä tämä tarkoittaa, jätä huomioimatta."
+
+#: lib/admin/seo-settings.php:426
+msgid "Relationship Link Tags:"
+msgstr "Sukulaisuuslinkkien tagit:"
+
+#: lib/admin/seo-settings.php:433
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Write tuki:"
+
+#: lib/admin/seo-settings.php:437
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Sisällytä Windows Live Writer Tuen tagit?"
+
+#: lib/admin/seo-settings.php:440
+msgid "Shortlink Tag:"
+msgstr "Lyhytlinkin tagi:"
+
+#: lib/admin/seo-settings.php:444
+msgid "Include Shortlink tag?"
+msgstr "Sisällytä lyhytlinkkien tagit?"
+
+#: lib/admin/seo-settings.php:470
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "Omasta tilanteestasi riippuen joko haluat tai et seuraavien arkistosibujen indeksoituvan hakukoneistoissa. Ainoastaan sinä voit tehdä ko. määrityksen."
+
+#: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
+msgid "Apply %s to Category Archives?"
+msgstr "Ota käyttöön %s kategoria-arkistot?"
+
+#: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
+msgid "Apply %s to Tag Archives?"
+msgstr "Ota käyttöön %s tagien arkistoihin?"
+
+#: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
+msgid "Apply %s to Author Archives?"
+msgstr "Mukauta %s kirjoittajan arkistoihin?"
+
+#: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
+msgid "Apply %s to Date Archives?"
+msgstr "Ota käyttöön %s päivämääräarkistoihin?"
+
+#: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
+msgid "Apply %s to Search Archives?"
+msgstr "Sovella %s hakuarkistoihin?"
+
+#: lib/admin/seo-settings.php:493
+msgid "Apply %s to Entire Site?"
+msgstr "Ota käyttöön %s koko sivustolle?"
+
+#: lib/admin/seo-settings.php:513
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "Joskus hakukoneet käyttävät resursseja kuten Open Directory Project ja Yahoo! Directory etsiäkseen otsikoita ja kuvauksia sisällön osalta. Normaalisti et halua niiden tekevän noin. %s ja %s tagit estävät ko. toimenpiteen."
+
+#: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
+msgid "Apply %s to your site?"
+msgstr "Käytä %s sivustoosi?"
+
+#: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "Pilkulla erotettu lista"
+
+#: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Hakurobottien metatieto"
+
+#: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
+msgid "Apply %s to this archive?"
+msgstr "Ota käyttöön %s tässä arkistossa?"
+
+#: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
+#: lib/admin/theme-settings.php:408
+msgid "Information"
+msgstr "Tieto"
+
+#: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
+#: lib/admin/theme-settings.php:413
+msgid "Custom Feeds"
+msgstr "Muokatut syötteet"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "Kirjoittajan ikkuna"
+
+#: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
+#: lib/admin/theme-settings.php:423
+msgid "Breadcrumbs"
+msgstr "Linkkipolut"
+
+#: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
+#: lib/admin/theme-settings.php:426
+msgid "Content Archives"
+msgstr "Sisällön arkistot"
+
+#: lib/admin/theme-settings.php:475
+msgid "Version:"
+msgstr "Versio:"
+
+#: lib/admin/theme-settings.php:475
+msgid "Released:"
+msgstr "Julkaistu:"
+
+#: lib/admin/theme-settings.php:482
+msgid "Enable Automatic Updates"
+msgstr "Salli automaattipäivitykset"
+
+#: lib/admin/theme-settings.php:488
+msgid "Notify"
+msgstr "Muistuta"
+
+#: lib/admin/theme-settings.php:490
+msgid "when updates are available"
+msgstr "kun päivitykset ovat tarjolla"
+
+#: lib/admin/theme-settings.php:599
+msgid "Dynamic text"
+msgstr "Dynaaminen teksti"
+
+#: lib/admin/theme-settings.php:600
+msgid "Image logo"
+msgstr "Kuvalogo"
+
+#: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:60
+msgid "Full Width Content"
+msgstr "Koko leveyden sisältö"
+
+#: lib/admin/theme-settings.php:887
+msgid "Comma separated - 1,2,3 for example"
+msgstr "Pilkulla erotettu - 1,2,3 esimerkiksi"
+
+#: lib/admin/theme-settings.php:644
+msgid "Display the following:"
+msgstr "Näytä seuraava:"
+
+#: lib/admin/theme-settings.php:647
+msgid "Today's date"
+msgstr "Tämä päivä"
+
+#: lib/admin/theme-settings.php:648
+msgid "RSS feed links"
+msgstr "RSS syötteen linkit"
+
+#: lib/admin/theme-settings.php:649
+msgid "Search form"
+msgstr "Hakulomake"
+
+#: lib/admin/theme-settings.php:650
+msgid "Twitter link"
+msgstr "Twitter linkki"
+
+#: lib/admin/theme-settings.php:655
+msgid "Enter Twitter ID:"
+msgstr "Kirjoita Twitterin käyttäjätunnus:"
+
+#: lib/admin/theme-settings.php:659
+msgid "Twitter Link Text:"
+msgstr "Twitter-linkin teksti:"
+
+#: lib/admin/theme-settings.php:684
+msgid "Enter your custom feed URI:"
+msgstr "Lisää muokatun syötteesi URI:"
+
+#: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
+msgid "Redirect Feed?"
+msgstr "Uudelleenohjaa syöte?"
+
+#: lib/admin/theme-settings.php:692
+msgid "Enter your custom comments feed URI:"
+msgstr "Kirjoita muokatun kommentointisyötteen URI:"
+
+#: lib/admin/theme-settings.php:719
+msgid "Enable Comments"
+msgstr "Salli kommentit"
+
+#: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
+msgid "on posts?"
+msgstr "artikkeleissa?"
+
+#: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
+msgid "on pages?"
+msgstr "sivuilla?"
+
+#: lib/admin/theme-settings.php:728
+msgid "Enable Trackbacks"
+msgstr "Aktivoi paluuviitteet"
+
+#: lib/admin/theme-settings.php:805
+msgid "Select one of the following:"
+msgstr "Valitse yksi seuraavista:"
+
+#: lib/admin/theme-settings.php:811
+msgid "Display post content"
+msgstr "Näytä artikkelin sisältö"
+
+#: lib/admin/theme-settings.php:812
+msgid "Display post excerpts"
+msgstr "Näytä artikkelin lyhennelmä"
+
+#: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
+msgid "Limit content to"
+msgstr "Rajoita sisältö"
+
+#: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
+msgid "characters"
+msgstr "merkit"
+
+#: lib/widgets/featured-page-widget.php:202
+#: lib/widgets/featured-post-widget.php:368
+msgid "Image Size"
+msgstr "Kuvan koko"
+
+#: lib/admin/theme-settings.php:848
+msgid "Select Post Navigation Technique:"
+msgstr "Valitse Artikkelin navigaatiotekniikka:"
+
+#: lib/admin/theme-settings.php:850
+msgid "Older / Newer"
+msgstr "Vanhempi / Uudempi"
+
+#: lib/admin/theme-settings.php:851
+msgid "Previous / Next"
+msgstr "Edellinen / Seuraava"
+
+#: lib/admin/theme-settings.php:852
+msgid "Numeric"
+msgstr "Numeerinen"
+
+#: lib/admin/theme-settings.php:880
+msgid "Display which category:"
+msgstr "Näytä kategoriat"
+
+#: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
+msgid "All Categories"
+msgstr "Kaikki kategoriat"
+
+#: lib/admin/theme-settings.php:885
+msgid "Exclude the following Category IDs:"
+msgstr "Sulje pois seuraavat kategoria-tunnukset (IDs):"
+
+#: lib/widgets/featured-post-widget.php:296
+#: lib/widgets/featured-post-widget.php:439
+msgid "Number of Posts to Show"
+msgstr "Näytettävien artikkelien lukumäärä"
+
+#: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
+msgid "Home"
+msgstr "Alkuun"
+
+#: lib/functions/upgrade.php:536
+msgid "Click here to complete the upgrade"
+msgstr "Paina tästä tehdäksesi päivityksen"
+
+#: lib/functions/upgrade.php:606
+msgid "Genesis %s is available for %s"
+msgstr "Genesis %s on julkaistu %s"
+
+#: lib/functions/upgrade.php:607
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Genesis %s on nyt julkaistu. Olemme mahdollistaneet yhden klikkauksen päivityksen tälle teemalle. Kirjaudu hallintapaneelisi ja päivitä mahdollisuuksien mukaan oma teemasi."
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "Palaa sivun alkuun"
+
+#: lib/shortcodes/footer.php:240
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: lib/shortcodes/footer.php:242
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: lib/shortcodes/post.php:249
+msgid "Leave a Comment"
+msgstr "Kommentoi"
+
+#: lib/shortcodes/post.php:248
+msgid "1 Comment"
+msgstr "Yksi kommentti"
+
+#: lib/shortcodes/post.php:247
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: lib/shortcodes/post.php:293
+msgid "Tagged With: "
+msgstr "Avainsanoilla: "
+
+#: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
+msgid "Filed Under: "
+msgstr "Kategoriassa: "
+
+#: lib/shortcodes/post.php:423 lib/structure/comments.php:233
+#: lib/structure/comments.php:298 lib/structure/post.php:280
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: lib/structure/comments.php:79
+msgid "<h3>Comments</h3>"
+msgstr "<h3>Kommentit</h3>"
+
+#: lib/structure/comments.php:143
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>Paluuviitteet</h3>"
+
+#: lib/structure/comments.php:228
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:228 lib/structure/comments.php:289
+msgid "says"
+msgstr "sanoo"
+
+#: lib/structure/comments.php:232
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s:ssa"
+
+#: lib/structure/comments.php:239 lib/structure/comments.php:305
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa muokkausta."
+
+#: lib/structure/comments.php:380
+msgid "Name"
+msgstr "Nimi"
+
+#: lib/structure/comments.php:386
+msgid "Email"
+msgstr "Sähköposti"
+
+#: lib/structure/comments.php:392
+msgid "Website"
+msgstr "WWW-sivu"
+
+#: lib/structure/comments.php:401
+msgid "Speak Your Mind"
+msgstr "Sana on vapaa - ota kantaa ja kommentoi"
+
+#: lib/structure/footer.php:145
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lib/init.php:58
+msgid "Primary Navigation Menu"
+msgstr "Ensisijainen Navigaatiovalikko"
+
+#: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
+msgid "Posts"
+msgstr "Artikkelit"
+
+#: lib/structure/menu.php:185
+msgid "Comments"
+msgstr "Kommentit"
+
+#: lib/structure/post.php:287 lib/structure/post.php:289
+msgid "[Read more...]"
+msgstr "[Lue lisää...]"
+
+#: lib/widgets/featured-post-widget.php:53
+msgid "By"
+msgstr ":"
+
+#: lib/structure/post.php:507 lib/structure/post.php:517
+msgid "About"
+msgstr "Tietoja"
+
+#: lib/structure/post.php:567
+msgid "Older Posts"
+msgstr "Vanhemmat artikkelit"
+
+#: lib/structure/post.php:568
+msgid "Newer Posts"
+msgstr "Uusimmat artikkelit"
+
+#: lib/structure/search.php:33
+msgid "Search"
+msgstr "Etsi"
+
+#: lib/structure/sidebar.php:27
+msgid "Primary Sidebar Widget Area"
+msgstr "Ensisijaisen sivupalkin vimpainalue"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "Toissijainen sivupalkki vimpaimet alue"
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "Olet täällä: "
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+msgid "Archives for "
+msgstr "Arkistot"
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "etsi"
+
+#: lib/classes/breadcrumb.php:352
+msgid "View all posts in %s"
+msgstr "Näytä kaikki %s artikkelit "
+
+#: lib/widgets/featured-page-widget.php:185
+#: lib/widgets/featured-post-widget.php:273
+#: lib/widgets/featured-post-widget.php:309
+#: lib/widgets/featured-post-widget.php:434
+#: lib/widgets/user-profile-widget.php:141
+msgid "Title"
+msgstr "Otsikko"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Näytä mukautettu sivu postimerkkinäkymän kanssa"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Genesis - Suositellut (Featured) sivu"
+
+#: lib/shortcodes/footer.php:175 lib/structure/post.php:381
+msgid "by"
+msgstr ":"
+
+#: lib/widgets/featured-page-widget.php:190
+msgid "Page"
+msgstr "Sivu"
+
+#: lib/widgets/featured-page-widget.php:214
+#: lib/widgets/featured-post-widget.php:380
+msgid "Image Alignment"
+msgstr "Kuvan tasaus"
+
+#: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
+#: lib/widgets/featured-post-widget.php:352
+#: lib/widgets/featured-post-widget.php:382
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+msgid "None"
+msgstr "Ei mitään"
+
+#: lib/widgets/featured-page-widget.php:226
+msgid "Show Page Title"
+msgstr "Näytä Sivun otsikko"
+
+#: lib/widgets/featured-page-widget.php:231
+msgid "Show Page Content"
+msgstr "Näytä sivun sisältö"
+
+#: lib/widgets/featured-page-widget.php:235
+msgid "Content Character Limit"
+msgstr "Sisällön merkkien rajoitus"
+
+#: lib/widgets/featured-page-widget.php:240
+msgid "More Text"
+msgstr "Lisää tekstiä"
+
+#: lib/widgets/featured-post-widget.php:65
+msgid "Displays featured posts with thumbnails"
+msgstr "Näytä Suositellut artikkelit postimerkkikoossa"
+
+#: lib/widgets/featured-post-widget.php:74
+msgid "Genesis - Featured Posts"
+msgstr "Genesis - suositeltavat artikkelit"
+
+#: lib/widgets/featured-post-widget.php:56
+msgid "[Read More...]"
+msgstr "[Lue lisää...]"
+
+#: lib/widgets/featured-post-widget.php:60
+msgid "More Posts from this Category"
+msgstr "Lisää artikkeleita tästä kategoriasta"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Category"
+msgstr "Kategoria"
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "Number of Posts to Offset"
+msgstr "Artikkelien lukumäärä korvattavissa"
+
+#: lib/widgets/featured-post-widget.php:306
+msgid "Order By"
+msgstr "Järjestä"
+
+#: lib/widgets/featured-post-widget.php:308
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: lib/widgets/featured-post-widget.php:310
+msgid "Parent"
+msgstr "Emo"
+
+#: lib/widgets/featured-post-widget.php:311
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Comment Count"
+msgstr "Kommentien lukumäärä"
+
+#: lib/widgets/featured-post-widget.php:313
+msgid "Random"
+msgstr "Satunnainen"
+
+#: lib/widgets/featured-post-widget.php:318
+msgid "Sort Order"
+msgstr "Lajittelujärjestys"
+
+#: lib/widgets/featured-post-widget.php:320
+msgid "Descending (3, 2, 1)"
+msgstr "Laskeva (3,2,1)"
+
+#: lib/widgets/featured-post-widget.php:321
+msgid "Ascending (1, 2, 3)"
+msgstr "Nouseva (1, 2, 3)"
+
+#: lib/widgets/featured-post-widget.php:336
+msgid "Show Author Gravatar"
+msgstr "Näytä kirjoittajan Gravatar"
+
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/user-profile-widget.php:151
+msgid "Gravatar Size"
+msgstr "Gravatarin koko"
+
+#: lib/widgets/featured-post-widget.php:342
+msgid "Small (45px)"
+msgstr "pieni (45 pikseliä)"
+
+#: lib/widgets/featured-post-widget.php:343
+msgid "Medium (65px)"
+msgstr "keski (65 pikseliä)"
+
+#: lib/widgets/featured-post-widget.php:344
+msgid "Large (85px)"
+msgstr "Suuri (85 pikseliä)"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Extra Large (125px)"
+msgstr "Erikoissuuri (125 pikseliä)"
+
+#: lib/widgets/featured-post-widget.php:350
+#: lib/widgets/user-profile-widget.php:163
+msgid "Gravatar Alignment"
+msgstr "Gravatar asemointi"
+
+#: lib/widgets/featured-post-widget.php:398
+msgid "Show Post Title"
+msgstr "Näytä sivun otsikko"
+
+#: lib/widgets/featured-post-widget.php:423
+msgid "More Text (if applicable)"
+msgstr "Lisää tekstiä (jos sovellettavissa)"
+
+#: lib/widgets/featured-post-widget.php:431
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "Näyttääksesi ei-järjestyksessä olevan listan artikkeleista tästä kategoriasta, täytä alla oleva tieto"
+
+#: lib/widgets/featured-post-widget.php:449
+msgid "Show Category Archive Link"
+msgstr "Näytä kategorian arkistot linkki"
+
+#: lib/widgets/featured-post-widget.php:453
+msgid "Link Text"
+msgstr "Linkin teksti"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "näyttää käyttäjäprofiilin Gravatarin kanssa"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "Genesis - käyttäjäprofiili"
+
+#: lib/widgets/user-profile-widget.php:102
+msgid "View My Blog Posts"
+msgstr "Näytä blogini artikkelit"
+
+#: lib/widgets/user-profile-widget.php:146
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Valitse käyttäjä. Tämän tunnuksen sähköpostiosoitetta käytetään Gravatarin kuvassa. "
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Small"
+msgstr "Pieni"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Medium"
+msgstr "Keskisuuri"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Large"
+msgstr "suuri"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Extra Large"
+msgstr "Erikoissuuri"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Select which text you would like to use as the author description"
+msgstr "Valitse minkä tekstin haluat näkyvän kirjoittajan kuvauksessa"
+
+#: lib/widgets/user-profile-widget.php:175
+msgid "Author Bio"
+msgstr "Kirjoittajan valokuva"
+
+#: lib/widgets/user-profile-widget.php:177
+msgid "Custom Text (below)"
+msgstr "Muokattu teksti (alla)"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Valitse laajennettu \"Tietoja minusta\" sivu alla olevasta liststa. Siitä tehdään linkitetty sivus tietoja minusta osan loppuun."
+
+#: lib/widgets/user-profile-widget.php:195
+msgid "Show Author Archive Link?"
+msgstr "Näytä kirjoittajan (Author) arkistolinkit?"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "Genesis - Tuo/Vie"
+
+#: lib/admin/import-export.php:128
+msgid "Import Genesis Settings File"
+msgstr "Tuo Genesis asetukset tiedosto"
+
+#: lib/admin/import-export.php:136
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Lataa tiedosto: (maksimikoko: %s)"
+
+#: lib/admin/import-export.php:147
+msgid "Export Genesis Settings File"
+msgstr "Vie Genesis asetukset tiedosto"
+
+#: lib/admin/import-export.php:150
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "Kun olet tallentanut ladatun tiedoston, voi käyttää Tuo-ominaisuutta toisella sivustolla tuodaksesi tämän datan."
+
+#: lib/admin/import-export.php:157
+msgid "Download Export File"
+msgstr "Lataa Vientitiedosto"
+
+#: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
+msgid "Characters Used: %s"
+msgstr "Merkkejä käytetty: %s"
+
+#: lib/admin/inpost-metaboxes.php:58
+msgid "Custom Redirect URI"
+msgstr "Muokattu uudelleenohjattu URI"
+
+#: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
+msgid "Custom Body Class"
+msgstr "Muokattu sisältöluokka"
+
+#: lib/admin/inpost-metaboxes.php:245
+msgid "Custom Post Class"
+msgstr "Muokattu artikkelin luokka"
+
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+msgid "Import/Export"
+msgstr "Tuo/Vie"
+
+#: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
+msgid "Choose Layout"
+msgstr "Valitse ulkoasu"
+
+#: lib/admin/theme-settings.php:833
+msgid "Include the Featured Image?"
+msgstr "Sisällytä suositellut (Featured) kuva?"
+
+#: lib/admin/user-meta.php:76
+msgid "Genesis Admin Menus"
+msgstr "Genesis ylläpitäjän (Admin) valikot"
+
+#: lib/admin/user-meta.php:79
+msgid "Enable Genesis Admin Menu?"
+msgstr "Aktivoi Genesis ylläpitäjän (Admin) valikko?"
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr "Aktivoi SEO asetukset alivalinta?"
+
+#: lib/admin/user-meta.php:85
+msgid "Enable Import/Export Submenu?"
+msgstr "Näytä Tuo/Vie alivalikko?"
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Ota käyttöön kirjoittajan (Author) info tämän käyttäjän (User) artikkeleihin?"
+
+#: lib/admin/user-meta.php:146
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Aktivoi kirjoittajan (Author) laatikko tämän käyttäjän (User) arkistoissa?"
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:248
+msgid "These settings apply to this author's archive pages."
+msgstr "Nämä asetukset mukauttavat tämän kirjoittajan sivuja."
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "Muokatun arkiston otsikko"
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "näkyy %s tägin 1. sivun yläreunassa"
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "Muokattu kuvausteksti"
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "Tämä teksti tulee ensimmäiseen kappaleeseen, ja näkyy ensimmäisellä sivulla"
+
+#: lib/functions/upgrade.php:512
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "Onneksi olkoon! Käytät nyt Genesis %s versiota"
+
+#: lib/widgets/featured-page-widget.php:198
+#: lib/widgets/featured-post-widget.php:364
+msgid "Show Featured Image"
+msgstr "Näytä Suositeltava kuva"
+
+#: lib/widgets/featured-post-widget.php:403
+msgid "Show Post Info"
+msgstr "Näytä Artikkelin info"
+
+#: lib/widgets/featured-post-widget.php:408
+msgid "Content Type"
+msgstr "Sisällön tyyppi"
+
+#: lib/widgets/featured-post-widget.php:410
+msgid "Show Content"
+msgstr "Näytä sisältö"
+
+#: lib/widgets/featured-post-widget.php:411
+msgid "Show Excerpt"
+msgstr "Näytä lyhennelmä"
+
+#: lib/widgets/featured-post-widget.php:412
+msgid "Show Content Limit"
+msgstr "Näytä sisällön rajoitus"
+
+#: lib/widgets/featured-post-widget.php:413
+msgid "No Content"
+msgstr "Ei sisältöä"
+
+#: lib/classes/breadcrumb.php:60
+msgid "Not found: "
+msgstr "Ei löydy:"
+
+#: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
+msgid "View %s"
+msgstr "Näytä %s"
+
+#: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
+msgid "View archives for %s"
+msgstr "Näytä %s arkistot"
+
+#: lib/classes/breadcrumb.php:497
+msgid "View archives for %s %s"
+msgstr "Näytä %s %s Arkistot"
+
+#: lib/classes/breadcrumb.php:386
+msgid "View all %s"
+msgstr "Näytä kaikki %s"
+
+#: lib/classes/breadcrumb.php:561
+msgid "View all items in %s"
+msgstr "Näytä kaikki osat %s"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Right"
+msgstr "Ylätunniste - oikea reuna"
+
+#: lib/functions/widgetize.php:117
+msgid "Primary Sidebar"
+msgstr "Ensisijainen sivupalkki"
+
+#: lib/functions/widgetize.php:126
+msgid "Secondary Sidebar"
+msgstr "Toissijainen sivupalkki"
+
+#: lib/admin/import-export.php:191
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Asetuksien tuonnissa ilmeni ongelmia. Kokeile uudestaan."
+
+#: lib/functions/layout.php:109
+msgid "No Label Selected"
+msgstr "Ei solua valittu"
+
+#: lib/functions/widgetize.php:159
+msgid "Footer %d"
+msgstr "Alatunniste %d"
+
+#: lib/admin/import-export.php:235
+msgid "No export options available."
+msgstr "Vientiasetuksia ei tarjolla."
+
+#: lib/js/load-scripts.php:143
+msgid "Select / Deselect All"
+msgstr "Valitse / Poista kaikki"
+
+#: lib/shortcodes/post.php:42
+msgid "ago"
+msgstr "sitten"
+
+#: lib/structure/post.php:589 lib/structure/post.php:655
+msgid "Previous Page"
+msgstr "Edellinen sivu"
+
+#: lib/structure/post.php:590 lib/structure/post.php:685
+msgid "Next Page"
+msgstr "Seuraava Sivu"
+
+#: lib/admin/theme-settings.php:539
+msgid "Default"
+msgstr "Oletus"
+
+#: lib/admin/import-export.php:131
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Lataa tiedosto koneeltasi ja klikkaa \"Lataa tiedosto ja Tuo\""
+
+#: lib/admin/import-export.php:139
+msgid "Upload File and Import"
+msgstr "Lataa tiedosto ja Tuo"
+
+#: lib/admin/import-export.php:189
+msgid "Settings successfully imported."
+msgstr "Asetukset tuotu onnistuneesti."
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+msgid "Settings reset."
+msgstr "Nollaa asetukset."
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+msgid "Settings saved."
+msgstr "Asetukset talletettu."
+
+#: lib/admin/seo-settings.php:376
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "Hakukoneet ohittavat tavallisesti avainsanat."
+
+#: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
+#: lib/admin/theme-settings.php:414
+msgid "Default Layout"
+msgstr "Oletusulkoasu"
+
+#: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
+#: lib/admin/theme-settings.php:425
+msgid "Comments and Trackbacks"
+msgstr "Kommentit ja paluuviitteet"
+
+#: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
+#: lib/admin/theme-settings.php:430
+msgid "Header and Footer Scripts"
+msgstr "Ylätunnisteen ja alatunnisteen scriptit"
+
+#: lib/admin/theme-settings.php:478
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Tämä voi olla avuksi selvittääksesi ongelmia teemasi kanssa kun etsit apua  <a href=\"%s\" target=\"_blank\">tukiforumeista</a>."
+
+#: lib/admin/theme-settings.php:699
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "Jos mukautetut syötteet (mukautettu syöte) eivät ole Feedburnerin kautta, emme suosittele että käytät uudelleenohjausvalintaa."
+
+#: lib/admin/theme-settings.php:736
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "Kommentit ja paluuviitteet voidaan ottaa pois käytöstä per artikkeli/sivu kun tehdään/muokataan artikkeleita/sivuja."
+
+#: lib/admin/theme-settings.php:755
+msgid "Enable on:"
+msgstr "Salli:"
+
+#: lib/admin/theme-settings.php:759
+msgid "Front Page"
+msgstr "Etusivu"
+
+#: lib/admin/theme-settings.php:772
+msgid "Pages"
+msgstr "Sivut"
+
+#: lib/admin/theme-settings.php:775
+msgid "Archives"
+msgstr "Arkistot"
+
+#: lib/admin/theme-settings.php:778
+msgid "404 Page"
+msgstr "404 sivu"
+
+#: lib/admin/theme-settings.php:784
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "Hakemistopuu on erinomainen tapa näyttää yhdellä silmäyksellä missä kohtaa olet sivustolla. Voit myös määritellä millä alueilla hakemisto näkyy ja millä ei."
+
+#: lib/admin/theme-settings.php:828
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "Tällä valinnalla rajoitetaan tekstin ja sen osien muokkaus näkyvissä olevasta tekstistä. Käyttääksesi tätä valintaa, valitse \"Näytä artikkelin sisältö\" yllä olevasta valintalaatikosta."
+
+#: lib/admin/theme-settings.php:856
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Nämä valinnat vaikuttavat sivujen listauksiin, sisältäen arkisto-, kirjoittaja-, blog-, kategoaria-, etsi- ja tag-sivut."
+
+#: lib/functions/formatting.php:284
+msgctxt "time difference"
+msgid "seconds"
+msgstr "sekuntia"
+
+#: lib/functions/formatting.php:288
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s vuosi"
+msgstr[1] "%s vuotta"
+
+#: lib/functions/formatting.php:289
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s kuukausi"
+msgstr[1] "%s kuukautta"
+
+#: lib/functions/formatting.php:290
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s viikko"
+msgstr[1] "%s viikkoa"
+
+#: lib/functions/formatting.php:291
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s päivä"
+msgstr[1] "%s päivää"
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s tunti"
+msgstr[1] "%s tunnit"
+
+#: lib/functions/formatting.php:293
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuutti"
+msgstr[1] "%s minuuttia"
+
+#: lib/functions/formatting.php:294
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s sekunti"
+msgstr[1] "%s sekuntia"
+
+#: lib/functions/formatting.php:319
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "ja"
+
+#: lib/functions/layout.php:39
+msgid "Content-Sidebar"
+msgstr "sisältö-sivupalkki"
+
+#: lib/functions/layout.php:44
+msgid "Sidebar-Content"
+msgstr "sivupalkki-sisältö"
+
+#: lib/functions/layout.php:48
+msgid "Content-Sidebar-Sidebar"
+msgstr "sisältö-sivupalkki-sivupalkki"
+
+#: lib/functions/layout.php:52
+msgid "Sidebar-Sidebar-Content"
+msgstr "sivupalkkki-sivupalkki-sisältö"
+
+#: lib/functions/layout.php:56
+msgid "Sidebar-Content-Sidebar"
+msgstr "sivupalkki-sisältö-sivupalkki"
+
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "SEO teeman asetukset"
+
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:275
+#: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
+msgid "Layout Settings"
+msgstr "Ulkoasuasetukset"
+
+#: lib/admin/seo-settings.php:430
+msgid "Adjacent Posts %s link tags"
+msgstr "Viereisten artikkelien %s linkkiavainsanat"
+
+#: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
+msgid "Archive Settings"
+msgstr "Arkistoasetukset"
+
+#: lib/admin/theme-settings.php:88
+msgid "Follow me on Twitter"
+msgstr "Seuraa minua Twitterissä"
+
+#: lib/admin/theme-settings.php:411
+msgid "Color Style"
+msgstr "Värityylit"
+
+#: lib/admin/theme-settings.php:781
+msgid "Attachment Page"
+msgstr "Liitesivu"
+
+#: lib/admin/theme-settings.php:837
+msgid "Image Size:"
+msgstr "Kuvan koko:"
+
+#: lib/admin/theme-settings.php:892
+msgid "Number of Posts to Show:"
+msgstr "Näytettävien artikkelien lukumäärä:"
+
+#: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "Sisällytä skripti tai koodi jonka haluat tulevan %s:"
+
+#: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "%1$s hook (koukku) käynnistyy välittömästi ennen kuin %2$s avainsana dokumenttilähteessä."
+
+#: lib/admin/theme-settings.php:537
+msgid "Color Style:"
+msgstr "Värityyli:"
+
+#: lib/admin/theme-settings.php:551
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Valitse värityyli alasvetovalikosta ja tallenna asetuksesi."
+
+#: lib/admin/user-meta.php:72
+msgid "User Permissions"
+msgstr "Käyttäjäoikeudet"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "Arkistoasetusten kirjoittaja"
+
+#: lib/classes/admin.php:119
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "Et voi käyttää %s tehdäksesi kahta valikkoa samaan aliluokkaan. Käytä eri aliluokkia jokaiseen valikkoon."
+
+#: lib/functions/menu.php:91
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "Argumentti, \"context\", on korvattu \"theme_location\" merkinnällä $args valinnassa."
+
+#: lib/functions/seo.php:127
+msgid "Dismiss"
+msgstr "Hylkää"
+
+#: lib/functions/widgetize.php:118
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Tämä on ensisijainen sivupalkki jos käytät kahden tai kolmen sarakkeen valintavaihtoehtoa ulkoasussa."
+
+#: lib/functions/widgetize.php:127
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "Tämä on toissijainen sivupalkki jos käytät kolmen sarakkeen valintavaihtoehtoa ulkoasussa."
+
+#: lib/functions/widgetize.php:160
+msgid "Footer %d widget area."
+msgstr "Alatunnisteen %d vimpainalue."
+
+#: lib/widgets/user-profile-widget.php:189
+msgid "Extended page link text"
+msgstr "Laajennettu sivun linkkiteksti"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Left"
+msgstr "Otsikko vasen"
+
+#: lib/functions/widgetize.php:109
+msgid "This is the widget area in the header."
+msgstr "Tämä on vimpainalue ylätunnisteessa."
+
+#: lib/init.php:59
+msgid "Secondary Navigation Menu"
+msgstr "Toissijainen Navigaatiovalikko"
+
+#: lib/widgets/user-profile-widget.php:178
+msgid "Custom Text Content"
+msgstr "Muokattu tekstin sisältö"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+msgid "Error saving settings."
+msgstr "Virhe asetusten tallennuksessa."
+
+#: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
+msgid "Archive Headline"
+msgstr "Arkiston otsikko"
+
+#: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Jätä tyhjäksi jos et halua näyttää otsikkoa."
+
+#: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
+msgid "Archive Intro Text"
+msgstr "Arkiston esittelyteksti"
+
+#: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Jätä tyhjäksi mikäli et halua näyttää esittelytekstiä."
+
+#: lib/structure/footer.php:145
+msgid "on"
+msgstr "milloin:"
+
+#: lib/admin/seo-settings.php:392
+msgid "Homepage Author"
+msgstr "Etusivun kirjoittaja"
+
+#: lib/admin/seo-settings.php:395
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "Valitse käyttäjä jota käytetään %s etusivulla . Varmista että ko. käyttäjän Google+ profiilin osoite on käyttäjän omissa tiedoissa."
+
+#: lib/admin/seo-settings.php:400
+msgid "Select User"
+msgstr "Valitse käyttäjä"
+
+#: lib/admin/theme-settings.php:597
+msgid "Use for site title/logo:"
+msgstr "Käytä sivusto otsikkoon/logoon:"
+
+#: lib/admin/user-meta.php:26
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/whats-new.php:39
+msgid "Welcome to Genesis %s"
+msgstr "Tervetuloa Genesis %s"
+
+#: lib/admin/whats-new.php:66
+msgid "What&#8217;s New"
+msgstr "Mitä uutta"
+
+#: lib/admin/whats-new.php:112
+msgid "Project Leads"
+msgstr "Projektin vetäjät"
+
+#: lib/admin/whats-new.php:156
+msgid "Go to Theme Settings &rarr;"
+msgstr "Siirry Teeman asetuksiin &rarr;"
+
+#: lib/admin/whats-new.php:157
+msgid "Go to SEO Settings &rarr;"
+msgstr "Siirry SEO asetuksiin &rarr;"
+
+#: lib/shortcodes/post.php:170
+msgid "Visit %s&#x02019;s website"
+msgstr "Vieraile %s&#x02019 nettisivustolla"
+
+#: lib/structure/loops.php:253
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: lib/structure/search.php:31
+msgid "Search this website"
+msgstr "Etsi tältä sivustolta"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "Lue lisää"
+
+#: lib/admin/seo-settings.php:263
+msgid "Document Title Settings"
+msgstr "Dokumentit otsikon asetukset"
+
+#: lib/admin/seo-settings.php:285
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "Dokumentin otsikko (%s) on tärkein yksittäinen elementti dokumentin sisällön osalta<abbr title=\"Search engine optimization\">SEO - asetuksissa</abbr>. Se ilmoittaa ytimekkäästi hakukoneille mitä dokumentti oikeasti sisältää. Otsikko kannattaa, ja se pitäisi, olla eri joka sivulla mutta nämä asetukset auttavat sinua kontrolloimaan miltä se oletuksena näyttää."
+
+#: lib/admin/seo-settings.php:287
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong>Oletuksena</strong>, etusivun dokumentin otsikko sisältää sivuston otsikon, yksittäinen artikkeli and sivun dokumentin otsikot sisältävät artikkelin tai sivun otsikon, arkistosivut sisältävät arkistotyypin, jne."
+
+#: lib/admin/seo-settings.php:291
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Lisää sivuston kuvaus (tagline)  %s etusivulle?"
+
+#: lib/admin/seo-settings.php:296
+msgid "Add site name to %s on inner pages?"
+msgstr "Lisää sivuston nimi %s sisemmille sivuille?"
+
+#: lib/admin/seo-settings.php:300
+msgid "Document Title Additions Location:"
+msgstr "Dukumentin otsikon lisäysten sijainti:"
+
+#: lib/admin/seo-settings.php:301
+msgid "Determines which side the added title text will go on."
+msgstr "Määrittelee mille puolelle lisätty otsikkoteksti sijoitetaan."
+
+#: lib/admin/seo-settings.php:313
+msgid "Document Title Separator:"
+msgstr "Dokumentin otsikon erotinmerkki:"
+
+#: lib/admin/seo-settings.php:315
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Jos otsikko sisältää kaksi osaa (alkuperäinen otsikko ja haluttu lisäys), erotinnerkki laitetaan niiden väliin."
+
+#: lib/admin/seo-settings.php:354
+msgid "Site Description (Tagline)"
+msgstr "Sivuston kuvaus (Tagline)"
+
+#: lib/admin/seo-settings.php:362
+msgid "Homepage Document Title:"
+msgstr "Etusivun dokumentin otsikko:"
+
+#: lib/admin/seo-settings.php:364
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Jos jätät dokumentin otsikkokentän tyhjäksi, sivustosi&#8217 otsikkoa käytetään sen sijaan.\n"
+
+#: lib/admin/seo-settings.php:368
+msgid "Home Meta Description:"
+msgstr "Etusivun metakuvaus:"
+
+#: lib/admin/seo-settings.php:370
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "Metakuvausta voidaan käyttää hakutuloksien näkymäsivuissa otsikon alla."
+
+#: lib/admin/seo-settings.php:374
+msgid "Home Meta Keywords (comma separated):"
+msgstr "Etusivun metahakusabat (pilkulla erotettuna):"
+
+#: lib/admin/seo-settings.php:424
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "Oletuksena WordPress sijoittaa useita tägejä sokumenttisi %1$. Suurin osa näistä tägeistä ovat tarpeettomia ja eivät anna mitään lisäarvoa <abbr title=\"Search engine optimization\">SEO</abbr> optimoinnissa; ne vain hidastavat sivuston lataamista. Valitse mitkä tägit haluat dokumenttisi %1$s. Jos et tiedä mitä laitat, älä tee tätä valintaa."
+
+#: lib/admin/seo-settings.php:447
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr "<span class=\"genesis-admin-note\">Huomio:</span> Lyhyen linkin tägillä on jotain käyttöä kolmannen osapuolen havaittavuudessa mutta sillä ei ole <abbr title=\"Search engine optimization\">SEO</abbr> -arvoa ollenkaan optimoinnin osalta."
+
+#: lib/admin/seo-settings.php:489
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "Jotkut hakukoneet käyttävät välimuistia (esimerkiksi Google Cache). %1$s tägi estää niitä käyttämästä ko. ominaisuutta. Valitse mitkä arkistot sinä haluat %1$s vaikuttavan välimuistiasetukseen."
+
+#: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
+#: lib/admin/theme-settings.php:417
+msgid "Header"
+msgstr "Otsikko"
+
+#: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
+#: lib/admin/theme-settings.php:420
+msgid "Navigation"
+msgstr "Navigaatio"
+
+#: lib/admin/theme-settings.php:427
+msgid "Blog Page Template"
+msgstr "Blokisivun pohja"
+
+#: lib/admin/theme-settings.php:762
+msgid "Posts Page"
+msgstr "Artikkelit sivu"
+
+#: lib/admin/theme-settings.php:765
+msgid "Homepage"
+msgstr "Etusivu"
+
+#: lib/admin/theme-settings.php:875
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Nämä asetukset vaikuttavat mihin tahansa sivuun joka on \"Blog\" sivumallin tyylillä, mutta eivät etusivun tai artikkelien arkistosivuihin."
+
+#: lib/functions/seo.php:125
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "Oletko kokeillut Scribe sisältömarkkinointiohjelmaa? Tee tutkimus-, sisältö- ja nettisivuston optimointia ja asiakkuushallintaan suoraan WordPressissä. <b>Genesis lisenssin haltijat voivat säästää paljon kun käyttävät erityistä linkki jonka olemma luoneet juuri sinulle</b>. <a href=\"%s\" target=\"_blank\">Klikkaa saadaksesi lisätietoa</a>."
+
+#: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+msgid "Lead Developer"
+msgstr "Pääsuunnittelija"
+
+#: lib/admin/whats-new.php:136
+msgid "Contributors"
+msgstr "Avustajat"
+
+#: lib/admin/whats-new.php:147
+msgid "Contributor"
+msgstr "Avustaja"
+
+#: search.php:22
+msgid "Search Results for:"
+msgstr "Hakutulokset haulla: "
+
+#: 404.php:27
+msgid "Not found, error 404"
+msgstr "Ei löydy, 404 virhe"
+
+#: 404.php:32
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr "Sivu jota etsit ei ole enää olemassa. Voit ehkä palata takaisin <a href=\"%s\">etusivulle</a> ja katsoa jos löydät haluamasi sivun. Tai voit käyttää alla olevaa haku-kenttää."
+
+#: lib/admin/cpt-archive-settings.php:55
+msgid "Archive"
+msgstr "Arkisto"
+
+#: lib/admin/cpt-archive-settings.php:158
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr "Näytä <a href=\"%s\">%s arkisto</a>."
+
+#: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr "Metakuvaus"
+
+#: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr "Meta avainsanat"
+
+#: lib/admin/cpt-archive-settings.php:193
+msgid "Robots Meta Tags:"
+msgstr "Robottien metatägit"
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+msgid "Apply %s to this archive"
+msgstr "Käytä %s tähän arkistoon"
+
+#: lib/admin/inpost-metaboxes.php:141
+msgid "Scripts"
+msgstr "Skriptit"
+
+#: lib/admin/inpost-metaboxes.php:158
+msgid "Page-specific Scripts"
+msgstr "Sivu-kohtaiset scriptit"
+
+#: lib/admin/inpost-metaboxes.php:160
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr "Sopiva muokattuun seurantaan, muuntamiseen tai muuhun sivu-kohtaiseen scriptiin. Pitää sisältää %s tägit."
+
+#: lib/admin/seo-settings.php:342
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr "HTML5 sallii monia %s tägejä dokumentin lähdekoodissa, olettaen niiden olevan pääotsikkona alueella jossa ne esiintyvät. Kuitenkin noudattaen tätä standardia sillä voi olla negatiivinen vaikutus SEO - määrityksiin (SEO = Search Engine Optimisation)."
+
+#: lib/admin/theme-settings.php:634
+msgid "Primary Navigation Extras"
+msgstr "Ensisijaisen navigaation lisäykset"
+
+#: lib/functions/deprecated.php:67
+msgid "decimal or hexidecimal entities"
+msgstr "desimaali- tai heksadesimaaliyhteisöt"
+
+#: lib/js/load-scripts.php:144
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Kaikki muutokset menetetään jos poistut tältä sivustolta."
+
+#: lib/js/load-scripts.php:145
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr "Genesis päivitys ylikirjoittaa nykyisen Genesis version päälle. Oletko varma että haluat päivittää?. Paina \"Cancel\" lopettaaksesi, \"OK\" päivittääksesi."
+
+#: lib/structure/comments.php:296
+msgid "at"
+msgstr ":"
+
+#: lib/structure/post.php:313
+msgid "Permalink"
+msgstr "Permalink"
+
+#: lib/structure/post.php:351
+msgid "Sorry, no content matched your criteria."
+msgstr "Anteeksi, mikään kriteria ei täyty."
+
+#: lib/widgets/featured-post-widget.php:327
+msgid "Exclude Previously Displayed Posts?"
+msgstr "Jätä huomioimatta aikaisemmin näytetyt artikkelit?"
+
+#: lib/admin/whats-new.php:63
+msgid "Congratulations! You're now running Genesis %s."
+msgstr "Onnittelut! Käytät nyt Genesis-versiota %s."
+
+#: lib/admin/whats-new.php:69
+msgid "HTML5 Markup"
+msgstr "HTML5 Markup"
+
+#: lib/admin/whats-new.php:72
+msgid "Microdata"
+msgstr "Mikrodata"
+
+#: lib/admin/whats-new.php:75
+msgid "A Brand New Design"
+msgstr "Täysin uusi ulkoasu"
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr "Genesis käyttää uudistettua ulkoasua. Olemme käyttäneet hyväksi HTML5 markup - kieltä, kuten myös CSS3 - muotoiluja. Uskoaksemme tulet pitämään tästä."
+
+#: lib/admin/whats-new.php:78
+msgid "Removing Features"
+msgstr "Poistetaan ominaisuuksia"
+
+#: lib/admin/whats-new.php:83
+msgid "Genesis Latest Tweets Widget"
+msgstr "Genesis Viimeiset Syötteet (Latest Tweets) vimpain"
+
+#: lib/admin/whats-new.php:84
+msgid "Genesis eNews Extended"
+msgstr "Genesis eNews laajennettuna"
+
+#: lib/admin/whats-new.php:85
+msgid "Single Post Template"
+msgstr "Yksittäisen artikkelin malli"
+
+#: lib/admin/whats-new.php:86
+msgid "Fancy Dropdowns"
+msgstr "Tehostetut pudotusvalikot"
+
+#: lib/admin/whats-new.php:90
+msgid "Boring, but important"
+msgstr "tylsää, mutta tärkeää"
+
+#: lib/admin/whats-new.php:95
+msgid "Better named loop hooks for HTML5."
+msgstr "Paremmin nimetyt loop hooks (koukut) HTML5:lle."
+
+#: lib/admin/whats-new.php:96
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr "Verkkopäivitys päivittää nyt Genesis tietokannan kaikille sivustoille verkossa kun WordPress on asennettuna moniasennus (multisite) - ympäristöön."
+
+#: lib/admin/whats-new.php:97
+msgid "Widget classes are now coded in PHP5 format."
+msgstr "Vimpainluokat on nyt koodattu PHP5 muodossa."
+
+#: lib/admin/whats-new.php:98
+msgid "Admin CSS and Javascript are now minified."
+msgstr "Ylläpidon CSS ja Javascript ovat nyt minifoitu."
+
+#: lib/admin/whats-new.php:99
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr "Sisäkkäiset HTML kommentit on poistettu sivun koon pienentämiseksi."
+
+#: lib/admin/whats-new.php:100
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr "Scricpts valinnan on nyt oma metabox kun sisältöä muokataan."
+
+#: lib/admin/whats-new.php:101
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr "Muokatun artikkelityypin arkistosivuilla on nyt asetukset sivu jossa voit määritellä halutun tuloksen."
+
+#: lib/admin/whats-new.php:102
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr "Genesis merkistsee näytetyt sisällön IDt jotta voit jättää huomioimatta merkinnät etteivät ne näy kahteen kertaan sivulla."
+
+#: lib/admin/whats-new.php:103
+msgid "Entries without titles now display a permalink after the post content."
+msgstr "Merkinnät ilman otsikoita näyttävät nyt permalinkin artikkelin sisällön jälkeen."
+
+#: lib/functions/general.php:345
+msgid "Install %s"
+msgstr "Asenna %s"
+
+#: 404.php:39
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "Sivua jota yritit etsiä, ei enää ole olemassa. Voit kuitenkin etsiä pääsivun <a href=\"%s\">etusivun</a> kautta jos löydät sen avulla haluamasi tiedon. Tai voit etsiä alla olevan tiedon perusteella."
