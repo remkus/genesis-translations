@@ -1,0 +1,2083 @@
+# Translation of Genesis 2.0 in Bulgarian
+# This file is distributed under the same license as the Genesis 2.0 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-09 16:33:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 2.0\n"
+
+#: lib/admin/import-export.php:74
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "Можете да импортирате файл, който е изнесен преди това. Името на файла ще започне с %s последвано от едно или повече низове, показващи какви настройки съдържа, накрая последвано от датата и часа, за да бъде изнесено."
+
+#: lib/admin/cpt-archive-settings.php:260
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "Потребителстото заглавие на документа определя заглавието на страницата, както се вижда в браузъри и търсачки."
+
+#: lib/admin/cpt-archive-settings.php:286
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr "Custom Body Class добавя класа на тялото таг в HTML за да позволи CSS модификация единствено за архив страницата на тази публикация."
+
+#: lib/admin/cpt-archive-settings.php:248
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr "The Archive Intro Text поставя текста, преди архивните записи да въведат съдържанието на зрителя."
+
+#: lib/admin/theme-settings.php:292
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "В общите настройки можете да изберете определена категория за да се покаже от падащото меню, и да изключите категории от ID, или дори да изберете колко мнения искате да се покажат на тази страница."
+
+#: lib/admin/theme-settings.php:294
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr "Можете да намерите повече за тази функция в <a href=\"%s\" target=\"_blank\"> How to Add a Post Category Page tutorial.</a>"
+
+#: lib/admin/theme-settings.php:249
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "Тези опции може да бъдат удължени или ограничени с детето тема. Освен това, много от децата теми не позволяват различни оформления на началната страница, тъй като те са предназначени за конкретно оформление на началната страница."
+
+#: lib/admin/whats-new.php:91
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr "Ние винаги се подобряваме. Наречете го болест, но ние бихме искали да направим нещата да работят много, много добре. Ето списък на техническите промени в тази най-нова версия."
+
+#: lib/admin/cpt-archive-settings.php:247
+msgid "The Archive Headline sets the title seen on the archive page"
+msgstr "The Archive Headline поставя заглавието и се вижда на архив страницата"
+
+#: lib/admin/cpt-archive-settings.php:264
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "The Robots Meta Tags казва търсачките как да се справят с архив страницата. Noindex означава да не се индексира страницата на всички, и тя няма да се появи в резултатите от търсенето. Nofollow означава да не се следват връзките от тази страница и noarchive им казва да не прави архив копие на страницата."
+
+#: lib/admin/seo-settings.php:339
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "Използвайте семантично HTML5 страница и секционната позиция на целия сайт?"
+
+#: lib/admin/whats-new.php:79
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr "Ние искаме да запазим Genesis като лек и възможен за вас, никой не иска да използва раздут софтуер. Така че ние премахнахме Последна Tweets джаджа, eNews джаджа, \"пост шаблони\" функция, и \"въображаемо падащите менюта\" настройки. Но не се страхувайте! Ако искате тези характеристики обратно, кликнете по-долу, за да инсталирате най-удобните плъгини които сме създали за вас."
+
+#: lib/admin/import-export.php:149
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "Когато щракнете върху бутона по-долу, Genesis ще генерира файл с данни (%s) за да запишете на вашия компютър."
+
+#: lib/admin/theme-settings.php:291
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "Това работи с блог шаблон, който е една страница шаблон, който показва най-новите мнения. Това е, което хората виждат, когато кацнат на началната си страница."
+
+#: lib/admin/cpt-archive-settings.php:261
+msgid ""
+"The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+" "
+msgstr "Мета описание и ключови думи за попълване на мета тагове за архива страница. Мета описанието е кратък текст отзив, които се появяват в резултатите от търсенето. \n"
+
+#: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
+msgid "These options can be extended or limited by the child theme."
+msgstr "Тези опции може да бъдат удължени или ограничени с детето тема."
+
+#: lib/admin/import-export.php:75
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "След като качите файла внос, той автоматично ще презапише съществуващите си настройки."
+
+#: lib/admin/import-export.php:130
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr "Качете файл с данни (%s) от вашия компютър и ще импортирате настройките си."
+
+#: lib/admin/cpt-archive-settings.php:276
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr "Това ви позволява да изберете оформлението за архивната страницата. В по-голямата част от децата теми ще видите тези опции:"
+
+#: lib/admin/whats-new.php:73
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr "Ако използвате една тема с HTML5 поддръжка, Genesis ще изведе свои маркирано използвани микроданни .. Не сте сигурен какво е това? Ние не ви обвиняваме. Обърнете внимание на <a href=\"%s\" target=\"_blank\">this explanation</a>. Все още сте объркани? Не се притеснявайте. Ето защо сте с framework. Направихме всички изследвания и промени маркирани да обслужват търсачките с микроданни, те търсят, така че не е нужно вие да търсите. Добре е това да бъде Genesis потребител."
+
+#: lib/admin/import-export.php:79
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr "Можете да експортирате вашите Genesis свързани настройки, за да ги архивирате, или да ги копирате в друг сайт. Детските теми и плъгини могат да добавят свои собствени отметки в списъка. Настройките се изнасят в %s формат."
+
+#: lib/admin/whats-new.php:70
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr "Genesis винаги е била на върха на технологията в Мрежата, и Genesis 2.0 продължава с тази отлична традиция. С един ред код в детето тема, Genesis ще изведе HTML5 маркирано на мястото на старите XHTML тагове. Също така, всяка тема, която ние изграждаме в бъдеще ще бъде разработена на HTML5."
+
+#: lib/admin/theme-settings.php:626
+msgid "Load Superfish Script?"
+msgstr "Поставете Superfish Script?"
+
+#: lib/admin/theme-settings.php:493
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr "Ако въведете имейл адреса по-горе, вие ще бъдете уведомени по електронната поща, когато нова версия на Genesis е на разположение."
+
+#: lib/admin/theme-settings.php:293
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr "Има някои особености на блог шаблона, който ви позволява да определите кои категории да се показват на всяка страница с помощта на шаблон, което е полезно ако имате \"Новини\" категория (или нещо друго), които искате да покажете поотделно."
+
+#: lib/functions/deprecated.php:32
+msgid "data in style sheet files"
+msgstr "Данни в различни стилове файлове"
+
+#: lib/structure/sidebar.php:65
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Това е %s. Можете да добавите съдържанието на тази област, като посетите <a href=\"%s\">Widgets Panel</a> и добавите нови джаджи в тази област. "
+
+#: lib/admin/theme-settings.php:254
+msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
+msgstr "The <strong>Dynamic text</strong> опция ще използвате Сайт Заглавие и описание на сайта от настройките на сайта ви във вашата глава."
+
+#: lib/admin/theme-settings.php:255
+msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr "The <strong>Image logo</strong> опция ще използвате файл с изображение лого в хедъра вместо заглавието на сайта и описание. Тази настройка добавя. заглавно изображение клас към вашия сайт, което ви позволява да се уточни заглавната част на изображението в style.css детето тема. По подразбиране, логото може да се запише като logo.png и запамети в папка снимки на детето тема."
+
+#: lib/admin/theme-settings.php:259
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr "Първичните Екстри Навигации обикновено се показват от дясната страна на основното ви меню."
+
+#: lib/admin/theme-settings.php:261
+msgid "Today's date displays the current date"
+msgstr "Днешна дата показва текущата дата"
+
+#: lib/admin/theme-settings.php:262
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr "RSS емисия линк показва линк към RSS за сайта ви, че читателят може да се абонира за вашия сайт с помощта на feedreader по техен избор."
+
+#: lib/admin/theme-settings.php:263
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr "Формата за търсене показва малка форма за търсене използвана за търсене  на WordPress функционалности."
+
+#: lib/admin/theme-settings.php:264
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr "Twitter линка показва линк към вашия профил Twitter, както е посочено в Twitter ID настройката. Въведете само потребителското си име в тази настройка."
+
+#: lib/admin/theme-settings.php:638
+msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
+msgstr "За да видите Основни настройки на навигационното меню, трябва да изградите a <a href=\"%s\">custom menu</a>, след това  го задайте към основното меню."
+
+#: lib/functions/upgrade.php:559
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr "Genesis %s is available. <a href=\"%s\" %s> Провери за новости</a> or <a href=\"%s\" %s>update now.</a>"
+
+#: lib/admin/import-export.php:68
+msgid "This allows you to import or export Genesis Settings."
+msgstr "Това ви позволява да внасяте или изнасяте Genesis настройки."
+
+#: lib/admin/import-export.php:69
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "Това е специфичен Genesis за настройки и не включва публикации, страници, или снимки, това са вграденията които WordPress внос / износ менюто прави."
+
+#: lib/admin/import-export.php:70
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "Той също така не включва други настройки за приставки, приспособления или пост / страница / план / потребител специфични настройки."
+
+#: lib/admin/import-export.php:73 lib/admin/import-export.php:88
+msgid "Import"
+msgstr "Импортиране"
+
+#: lib/admin/import-export.php:75
+msgid "This cannot be undone"
+msgstr "Това не може да бъде отменено"
+
+#: lib/admin/import-export.php:78 lib/admin/import-export.php:93
+msgid "Export"
+msgstr "Експортиране"
+
+#: lib/admin/import-export.php:79
+msgid "JavaScript Object Notation"
+msgstr "JavaScript Object Notation"
+
+#: lib/admin/import-export.php:79
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:374
+msgid "For more information:"
+msgstr "За повече информация:"
+
+#: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:375
+msgid "Get Support"
+msgstr "Вземи поддръжка"
+
+#: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:376
+msgid "Genesis Snippets"
+msgstr "Genesis Откъси"
+
+#: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:377
+msgid "Genesis Tutorials"
+msgstr "Genesis Уроци"
+
+#: lib/admin/seo-settings.php:170
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr "Genesis SEO (Search Engine Optimization) е учтив, и ще се деактивира, когато най-популярните плъгини SEO (например, All-In-One SEO, WordPress SEO и т.н.) са активни."
+
+#: lib/admin/seo-settings.php:171
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr "Ако не виждате SEO Settings подменюто, тогава най-вероятно има друг активен  SEO плъгин."
+
+#: lib/admin/seo-settings.php:172
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr "Ако видите менюто, след отваряне на менюто ще ви позволи да зададете общите настройки SEO за вашия сайт."
+
+#: lib/admin/seo-settings.php:173
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr "Всяка страница, пост, и срок ще имат свои собствени настройки на SEO. Настройките по подразбиране се препоръчват за повечето потребители. Ако желаете да коригирате вашите SEO настройки, кутиите включват вътрешни описания."
+
+#: lib/admin/seo-settings.php:174
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr "По-долу ще намерите няколко кратки бележки относно опциите за всяко поле:"
+
+#: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
+msgid "Doctitle Settings"
+msgstr "Doctitle Настройки"
+
+#: lib/admin/seo-settings.php:178
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr "<strong>Append Site Description</strong>ще въведете описание на сайта си от Общи настройки след заглавието на началната си страница."
+
+#: lib/admin/seo-settings.php:179
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr "<strong>Append Site Name</strong> ще постави името на сайта от общите настройки след заглавието на вътрешна страница."
+
+#: lib/admin/seo-settings.php:180
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr "<strong>Doctitle Append Location</strong> определя коя част на заглавието да добавите от споменатите по-горе продукти."
+
+#: lib/admin/seo-settings.php:181
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr "The <strong>Doctitle Separator</strong> е знак, че ще мине между заглавието и текста за добавяне."
+
+#: lib/admin/seo-settings.php:185
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr "Това са специфични настройки SEO  на началната страница. Забележка: тези настройки няма да се прилагат, ако статичната страница е зададена на първа страница. Ако използвате помощта на статична страница WordPress като ваша начална страница, ще трябва да зададете SEO настройки на съответната страница."
+
+#: lib/admin/seo-settings.php:186
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr "Можете също да зададете,ако в участъка има заглавие на сайта, Описание, или свой ​​собствен текст,който трябва да бъде опакован в &lt;h1&gt; tag (the primary heading in HTML)."
+
+#: lib/admin/seo-settings.php:187
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr "За да добавите персонализиран текст ще трябва или да редактирате на php файла, или да използвате текст джаджа на една от джаджите за  поддръжка на начална страница."
+
+#: lib/admin/seo-settings.php:188
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr "Началните doctitle определят какво ще се появи в рамките на  <title></title> tags (unseen in the browser) за началната страница."
+
+#: lib/admin/seo-settings.php:189
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr "Начално META описания и ключови думи попълване на мета тагове за началната страница. META описанито е кратък текст отпечатана отправка, който се появява в резултатите от търсенето."
+
+#: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr "Повечето търсачки не използват ключови думи в този момент или им отделят много малко внимание, въпреки, че е подходящо да се използват в случай, ключови думи и да им се  отделя повече внимание в бъдеще, както и да ви  помогат на вашето съдържание. Ако съдържанието не съвпада с вашите целеви ключови думи след това може да се наложи да се разгледа съдържанието по-внимателно."
+
+#: lib/admin/seo-settings.php:191
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Начална страница Robots Meta Tags казва на  търсачките как да се справят с началната страница. Noindex означава да не се индексира страницата на всички, и тя няма да се появи в резултатите от търсенето. Nofollow  означава средствата да не се следват връзките от тази страница и NOARCHIVE им казва да не прави архив копие на страницата."
+
+#: lib/admin/seo-settings.php:195
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr "The Relationship Link Tags са добавени тагове от WordPress, които в момента нямат никаква стойност SEO, но бавно зареждат вашият сайт надолу. Те се изключват по подразбиране, но ако имате конкретна необходимост need&#8212;за плъгин или други нетипични употреби&#8212;след това можете да разрешите ако е необходимо тук."
+
+#: lib/admin/seo-settings.php:196
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr "Можете също така да добавите поддръжка за Windows Live Writer, ако използвате софтуер, който поддържа и включва кратки линкови татове ако това се изисква от всяка трета страна услуга."
+
+#: lib/admin/seo-settings.php:200
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr "NOARCHIVE и Noindex са обяснени в началните настройки. Тук можете да изберете какви други части на сайта да прилагате от тези възможности."
+
+#: lib/admin/seo-settings.php:201
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr "Най-малко един архив следва да бъде индексиран, но индексиране на множество архиви обикновено ще доведе до дублиране на съдържанието (няколко страници с идентично съдържание изглежда манипулативно за търсачките)."
+
+#: lib/admin/seo-settings.php:202
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr "За повечето сайтове началната страница или блог страницата (с помощта на блога шаблон) ще послужи като този индекс, ето защо по подразбиране не индексира категории, етикети, автори, дати или търсения."
+
+#: lib/admin/seo-settings.php:206
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr "Canonical връзки ще намерят търсачките на първа страница на прономеровано съдържание (търсачките трябва да изберат \"предпочитана връзка\", когато има дублиране на съдържанието на страници)."
+
+#: lib/admin/seo-settings.php:207
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr "Това им казва: \"Това е пейджър съдържанието и първата страница започва тук\" и помага да се избегне разпространение на ключови думи в няколко страници."
+
+#: lib/admin/seo-settings.php:236
+msgid "SEO Archives"
+msgstr "SEO Архив"
+
+#: lib/admin/theme-settings.php:223
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr "Вашата тема настройки осигурява контрол над това как темата работи. Вие ще бъдете в състояние да контролирате много общи и дори разширени функции от това меню. Някои малки теми могат да добавят допълнителни елементи на менюто към този списък, включително и възможността за избор на различни цветови схеми или да зададете специфични тематични функции като слайдер. Всяка от кутиите може да се срине, като щракнете върху полето с глава и разширение със същото. Те могат също така да се влачат в произволен ред или дори ако желаете скрити, като кликнете върху \"Screen Options\" в горния десен ъгъл на екрана и \"махнете отметката\" на кутиите, които не искате да видите. По-долу ще намерите елементи, общи за всяка  тема ..."
+
+#: lib/admin/theme-settings.php:227
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr "Информационната кутия ви позволява да видите текущата информация в Genesis тема и ще я  покаже, ако желаете."
+
+#: lib/admin/theme-settings.php:228
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr "Обикновено, това трябва да бъде отметнато. Можете също да го настроите да се  актуализира автоматично."
+
+#: lib/admin/theme-settings.php:229
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr "Това не означава, че актуализацията ще стане автоматично, без вашето разрешение, тя просто ще ви уведоми, че има налична актуализация. Трябва да го селектирате за да извърши актуализацията."
+
+#: lib/admin/theme-settings.php:230
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr ""
+"Ако въведете имейл адрес и изберете да ви уведоми на този имейл адрес, когато има налична актуализация, вашият сайт ще ви изпрати имейл, кога може да се извърши актуализацията. \n"
+"Не, промените засягат само файловете, които се актуализират."
+
+#: lib/admin/theme-settings.php:234
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "Ако използвате Feedburner за да отговорим на вашите RSS канал (и) можете да използвате тази функция, за да настроите началната емисията на сайта, за да се пренасочи към вашия Feedburner feed."
+
+#: lib/admin/theme-settings.php:235
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr "С попълването на feed връзки, призоваващи за основно подаване на  сайт, той ще се покаже като линк към Feedburner."
+
+#: lib/admin/theme-settings.php:236
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr "Чрез проверка на \"Пренасочване Feed\" кутия, целият трафик по подразбиране feed  връзки ще бъдат пренасочени към Feedburner връзка, вместо."
+
+#: lib/admin/theme-settings.php:240
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr "Това ви позволява да изберете стандартния план за целия си сайт. По-голямата част от детските теми ще видите в тези опции:"
+
+#: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
+msgid "Content Sidebar"
+msgstr "Съдържание Sidebar"
+
+#: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
+msgid "Sidebar Content"
+msgstr "Sidebar съдържание"
+
+#: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
+msgid "Sidebar Content Sidebar"
+msgstr "Sidebar Съдържание Sidebar"
+
+#: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
+msgid "Content Sidebar Sidebar"
+msgstr "Съдържание Sidebar Sidebar"
+
+#: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
+msgid "Sidebar Sidebar Content"
+msgstr "Sidebar Sidebar Съдържание"
+
+#: lib/admin/theme-settings.php:250
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr "Това разположение може да бъде преодоляно в post/page/term опциите за оформление на всеки post/page/term."
+
+#: lib/admin/theme-settings.php:270
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr "Тази кутия ви позволява да дефинирате къде \"Breadcrumbs\" се показва. Breadcrumb е навигационен инструмент, който показва, къде е  един посетител  в сайта във всеки един момент."
+
+#: lib/admin/theme-settings.php:274
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr "Това позволява на сайта широко решение дали коментарите и проследявания (известия, когато някой постави линкове към вашия сайт) са разрешени за постове и страници."
+
+#: lib/admin/theme-settings.php:275
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr "Ако разрешите коментар или проследявания тук, той може да бъде прекратен по индивидуален пост или страница. Ако забраните тук, те не могат да бъдат активирани за всеки отделен пост или страница."
+
+#: lib/admin/theme-settings.php:279
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr "В настройките на Genesis темата можете да промените  Съдържанието на Архивните опции за контрол на това, което се показва в архивите на сайта."
+
+#: lib/admin/theme-settings.php:280
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr "Архива включва кавито и да е страници с помощта на блог шаблона, категория страници, тагове страници, дата архив, автор архиви, и на последните мнения, ако там няма потребителска начална страница."
+
+#: lib/admin/theme-settings.php:281
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr "Първата опция ви дава възможност да се покаже съдържанието на публикацията или публикуваната извадка. Настройките на дисплея, съдържанието на публикациите ще покаже целия пост включително HTML код до <!--more--> етикет, ако се използва (това е HTML за маркер коментар той не се показва в браузъра)."
+
+#: lib/admin/theme-settings.php:282
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr "Той може да бъде свързан с второто поле \"Limit content to [___] characters\"  за ограничаване на съдържанието на определен брой букви или пространства. Това ще премахне всички HTML, но позволява по-точно и лесно да се промени дължината от извадката."
+
+#: lib/admin/theme-settings.php:283
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr "Настройките на дисплея, откъс мненията ще покажат първите 55 думи на поста, после също отстраняване и почистване на включени HTML или ръчно / потребителски откъси добавя в пост екрана за редактиране."
+
+#: lib/admin/theme-settings.php:284
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr "The 'Include post image?' настройката ви позволява да се покаже картината на първото прикачено изображение или функционален образ."
+
+#: lib/admin/theme-settings.php:285
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr "Тази опция не трябва да се използва с пост съдържанието освен ако съдържанието е ограничено за избягване на дублиращи се изображения."
+
+#: lib/admin/theme-settings.php:286
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr "The 'Image Size' списък е населен с налични размери на изображението, определени в темата."
+
+#: lib/admin/theme-settings.php:287
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr "Post Navigation техника ви позволява да изберете един от трите метода за навигация."
+
+#: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
+msgid "Blog Page"
+msgstr "Блог Страница"
+
+#: lib/admin/theme-settings.php:298
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr "Това осигурява две полета, които ще изведе до <head></head> на сайта си и точно преди </body>. Те ще се появят на всяка страница от сайта и са чудесен начин да добавите аналитичен код и други скриптове. Не можете да използвате PHP в тези области. Ако трябва да използвате PHP след това трябва да се търсят в прости плъгини Genesis куки."
+
+#: lib/admin/theme-settings.php:301
+msgid "How Home Pages Work"
+msgstr "Как Работи Началната Страница "
+
+#: lib/admin/theme-settings.php:302
+msgid "Most Genesis child themes include a custom home page."
+msgstr "Повечето Genesis деца теми включват потребителска начална страница."
+
+#: lib/admin/theme-settings.php:303
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr "За да използвате този тип на началната страница, се уверете, че всички мнения са настроени да се показват на първа страница. Можете да настроите страница с блог шаблон за да покаже на блог списъка стила на последните мнения на друга страница."
+
+#: lib/admin/theme-settings.php:304
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr "Тази начална страница обикновено показва настройка чрез джаджи в странични ленти за началната страница. Това може да се намери на страницата за Widgets менюто по външен вид."
+
+#: lib/admin/theme-settings.php:305
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr "Дете темите, които включват този тип начална страница обикновено включват допълнителни специфични теми уроци, които могат да бъдат достъпни чрез публикация на върха на темата помощния форум."
+
+#: lib/admin/theme-settings.php:306
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr "Ако вашата тема използва персонализирана начална страница и искате да се показват най-новите мнения в блог формат, не използвайте шаблона блог. Вместо това, вие трябва да преименувате файла home.php на home-old.php."
+
+#: lib/admin/theme-settings.php:307
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr "Друга обща начална страница е \"блог\" тип начална страница, която е обща за повечето от свободни теми дете. Това показва най-новите публикации и не изисква допълнителна настройка."
+
+#: lib/admin/theme-settings.php:308
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr "Третият вид на началната страница е новата динамична начална страница. Това е най-често за най-новите теми дете. Тя ще покаже най-новите мнения в блог листа, освен ако поставите джаджи в страничните ленти на началната страница."
+
+#: lib/admin/theme-settings.php:309
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr "Тази настройка е за предпочитане, защото е по-лесно да се покаже един блог на първа страница (няма нужда да преименувате файла home.php) и няма объркване на това дали няма съдържание на началната страница, когато темата е първоначално инсталирана."
+
+#: lib/admin/theme-settings.php:368
+msgid "Home Pages"
+msgstr "Начална Страница"
+
+#: 404.php:41 lib/structure/post.php:335 page_archive.php:30
+msgid "Pages:"
+msgstr "Страница:"
+
+#: 404.php:46 page_archive.php:35
+msgid "Categories:"
+msgstr "Категории:"
+
+#: 404.php:51 page_archive.php:40
+msgid "Authors:"
+msgstr "Автори:"
+
+#: 404.php:56 page_archive.php:45
+msgid "Monthly:"
+msgstr "Месечен:"
+
+#: 404.php:61 page_archive.php:50
+msgid "Recent Posts:"
+msgstr "Последните публикации:"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Тази публикация е защитена с парола. Въведете парола, за да видите коментари."
+
+#: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
+msgid "Custom Document Title"
+msgstr "Заглавие на документ по избор"
+
+#: lib/admin/inpost-metaboxes.php:49
+msgid "Custom Post/Page Meta Description"
+msgstr "Персонална публикация / Страница с мета описание"
+
+#: lib/admin/inpost-metaboxes.php:52
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Избор след / Page Мета ключови думи, разделени със запетая"
+
+#: lib/admin/inpost-metaboxes.php:55
+msgid "Custom Canonical URI"
+msgstr "Персонализиран канонически URI"
+
+#: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
+msgid "Robots Meta Settings"
+msgstr "Настройки на мета работи"
+
+#: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+msgid "Apply %s to this post/page"
+msgstr "Прилагане на% S за тази публикация / страница"
+
+#: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "По подразбиране, разположена в <a href=\"%s\">Theme Settings</a>"
+
+#: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:313
+msgid "Theme Settings"
+msgstr "Тема настройки"
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:269 lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42 lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+msgid "SEO Settings"
+msgstr "SEO Настройки"
+
+#: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+msgid "Homepage Settings"
+msgstr "Настройки на началната страница"
+
+#: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
+msgid "Archives Settings"
+msgstr "Архивни настройки"
+
+#: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+msgid "Document Head Settings"
+msgstr "Настройки на head документи"
+
+#: lib/admin/seo-settings.php:41
+msgid "Genesis - SEO Settings"
+msgstr "Генезис - SEO Настройки"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+msgid "Save Settings"
+msgstr "Запазване на  настройките"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+msgid "Reset Settings"
+msgstr "Възстановяване на настройките"
+
+#: lib/js/load-scripts.php:146
+msgid "Are you sure you want to reset?"
+msgstr "Сигурни ли сте че искате да възстановите?"
+
+#: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
+#: lib/widgets/featured-post-widget.php:353
+#: lib/widgets/featured-post-widget.php:383
+#: lib/widgets/user-profile-widget.php:166
+msgid "Left"
+msgstr "Наляво"
+
+#: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
+#: lib/widgets/featured-post-widget.php:354
+#: lib/widgets/featured-post-widget.php:384
+#: lib/widgets/user-profile-widget.php:167
+msgid "Right"
+msgstr "Надясно"
+
+#: lib/admin/seo-settings.php:347
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "Кой текст бихте искали да бъде опакован в %s етикет?"
+
+#: lib/admin/seo-settings.php:351
+msgid "Site Title"
+msgstr "Заглавие на сайта"
+
+#: lib/admin/seo-settings.php:357
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "Нито единият. Аз ще приключа ръчно моят собствен текст на началната страница."
+
+#: lib/admin/seo-settings.php:379
+msgid "Homepage Robots Meta Tags:"
+msgstr "Начална страница Robots Meta Tags:"
+
+#: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to the homepage?"
+msgstr "Прилагане на %s  към началната страница?"
+
+#: lib/admin/seo-settings.php:542
+msgid "Canonical Paginated Archives"
+msgstr "Канонически архиви на номерирани страници"
+
+#: lib/admin/seo-settings.php:545
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "Тази опция посочва търсачка на първата страница на архива ако разглеждате номерована  страница. Ако не знаете какво означава това, оставете го."
+
+#: lib/admin/seo-settings.php:426
+msgid "Relationship Link Tags:"
+msgstr "Връзка на линкове:"
+
+#: lib/admin/seo-settings.php:433
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Writer Support:"
+
+#: lib/admin/seo-settings.php:437
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Включете Windows Live таг поддръжката на записващите устройства?"
+
+#: lib/admin/seo-settings.php:440
+msgid "Shortlink Tag:"
+msgstr "Кратък Линк Етикет:"
+
+#: lib/admin/seo-settings.php:444
+msgid "Include Shortlink tag?"
+msgstr "Включва кратките линк тагове ?"
+
+#: lib/admin/seo-settings.php:470
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "В зависимост от ситуацията, вие може или не може да искате следните архив да бъде индексиран от търсачките. Само вие може да направи тази преценка."
+
+#: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
+msgid "Apply %s to Category Archives?"
+msgstr "Прилагане на %s категория архиви?"
+
+#: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
+msgid "Apply %s to Tag Archives?"
+msgstr "Прилагане на %s  към tag Архив?"
+
+#: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
+msgid "Apply %s to Author Archives?"
+msgstr "Приложете %s към авторските архиви?"
+
+#: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
+msgid "Apply %s to Date Archives?"
+msgstr "Приложете%s към дата архивите?"
+
+#: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
+msgid "Apply %s to Search Archives?"
+msgstr "Прилагане на %s към  архива за търсене?"
+
+#: lib/admin/seo-settings.php:493
+msgid "Apply %s to Entire Site?"
+msgstr "Прилага се %s към целия сайт?"
+
+#: lib/admin/seo-settings.php:513
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "Понякога търсачките използват ресурси като проект с отворена директория и директория Yahoo! Директории, за  намериени заглавия и описания за вашето съдържание. Като цяло вие няма да искате те да правят това. %s and %s таговете им пречат да го прави."
+
+#: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
+msgid "Apply %s to your site?"
+msgstr "Прилагане на %s  към вашия сайт?"
+
+#: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "Разделени със запетая"
+
+#: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Robots Meta"
+
+#: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
+msgid "Apply %s to this archive?"
+msgstr "Прилагане на %s  към този архив?"
+
+#: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
+#: lib/admin/theme-settings.php:408
+msgid "Information"
+msgstr "Информация"
+
+#: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
+#: lib/admin/theme-settings.php:413
+msgid "Custom Feeds"
+msgstr "Потребителски канали"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "Автор кутия"
+
+#: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
+#: lib/admin/theme-settings.php:423
+msgid "Breadcrumbs"
+msgstr "Навигационните пътища"
+
+#: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
+#: lib/admin/theme-settings.php:426
+msgid "Content Archives"
+msgstr "Съдържание на архив"
+
+#: lib/admin/theme-settings.php:475
+msgid "Version:"
+msgstr "Версия:"
+
+#: lib/admin/theme-settings.php:475
+msgid "Released:"
+msgstr "Издаден:"
+
+#: lib/admin/theme-settings.php:482
+msgid "Enable Automatic Updates"
+msgstr "Разрешаване на автоматична актуализация"
+
+#: lib/admin/theme-settings.php:488
+msgid "Notify"
+msgstr "Известия"
+
+#: lib/admin/theme-settings.php:490
+msgid "when updates are available"
+msgstr "Когато актуализациите  са достъпни"
+
+#: lib/admin/theme-settings.php:599
+msgid "Dynamic text"
+msgstr "Динамичен текст"
+
+#: lib/admin/theme-settings.php:600
+msgid "Image logo"
+msgstr "Изображение на логото"
+
+#: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:60
+msgid "Full Width Content"
+msgstr "Пълна ширина на съдържанието"
+
+#: lib/admin/theme-settings.php:887
+msgid "Comma separated - 1,2,3 for example"
+msgstr "Разделен със запетая - 1,2,3 например"
+
+#: lib/admin/theme-settings.php:644
+msgid "Display the following:"
+msgstr "Показване на следното:"
+
+#: lib/admin/theme-settings.php:647
+msgid "Today's date"
+msgstr "Днешната дата"
+
+#: lib/admin/theme-settings.php:648
+msgid "RSS feed links"
+msgstr "RSS емисия връзки"
+
+#: lib/admin/theme-settings.php:649
+msgid "Search form"
+msgstr "форма за търсене"
+
+#: lib/admin/theme-settings.php:650
+msgid "Twitter link"
+msgstr "Twitter връзка"
+
+#: lib/admin/theme-settings.php:655
+msgid "Enter Twitter ID:"
+msgstr "Въведете Twitter ID:"
+
+#: lib/admin/theme-settings.php:659
+msgid "Twitter Link Text:"
+msgstr "Twitter текст за връзка:"
+
+#: lib/admin/theme-settings.php:684
+msgid "Enter your custom feed URI:"
+msgstr "Въведете вашия потребителски URI поддръжка:"
+
+#: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
+msgid "Redirect Feed?"
+msgstr "Пренасочване на потокът?"
+
+#: lib/admin/theme-settings.php:692
+msgid "Enter your custom comments feed URI:"
+msgstr "Въведете вашия потребителски коментар за   URI поддръжка:"
+
+#: lib/admin/theme-settings.php:719
+msgid "Enable Comments"
+msgstr "Активиране на коментарите"
+
+#: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
+msgid "on posts?"
+msgstr "на публикации?"
+
+#: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
+msgid "on pages?"
+msgstr "на страници?"
+
+#: lib/admin/theme-settings.php:728
+msgid "Enable Trackbacks"
+msgstr "Разрешаване на проследявания"
+
+#: lib/admin/theme-settings.php:805
+msgid "Select one of the following:"
+msgstr "Изберете едно от следните неща:"
+
+#: lib/admin/theme-settings.php:811
+msgid "Display post content"
+msgstr "Покажи съдържанието на публикацията."
+
+#: lib/admin/theme-settings.php:812
+msgid "Display post excerpts"
+msgstr "Покажи откъси от публикацията"
+
+#: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
+msgid "Limit content to"
+msgstr "Лимит на съдържанието"
+
+#: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
+msgid "characters"
+msgstr "Символи"
+
+#: lib/widgets/featured-page-widget.php:202
+#: lib/widgets/featured-post-widget.php:368
+msgid "Image Size"
+msgstr "Размер на снимка"
+
+#: lib/admin/theme-settings.php:848
+msgid "Select Post Navigation Technique:"
+msgstr "Селектирайте публикуваната навигационна техника:"
+
+#: lib/admin/theme-settings.php:850
+msgid "Older / Newer"
+msgstr "По-стари / нови"
+
+#: lib/admin/theme-settings.php:851
+msgid "Previous / Next"
+msgstr "Назад / Напред"
+
+#: lib/admin/theme-settings.php:852
+msgid "Numeric"
+msgstr "цифров"
+
+#: lib/admin/theme-settings.php:880
+msgid "Display which category:"
+msgstr "Показва коя категория:"
+
+#: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
+msgid "All Categories"
+msgstr "Всички категории"
+
+#: lib/admin/theme-settings.php:885
+msgid "Exclude the following Category IDs:"
+msgstr "Изключете следните ID категории:"
+
+#: lib/widgets/featured-post-widget.php:296
+#: lib/widgets/featured-post-widget.php:439
+msgid "Number of Posts to Show"
+msgstr "Брой на публикации за показване"
+
+#: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
+msgid "Home"
+msgstr "начало"
+
+#: lib/functions/upgrade.php:536
+msgid "Click here to complete the upgrade"
+msgstr "Щракнете тук за да завършите надгражданията"
+
+#: lib/functions/upgrade.php:606
+msgid "Genesis %s is available for %s"
+msgstr "Регистрацията % S е на разположение за% S"
+
+#: lib/functions/upgrade.php:607
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Регистрацията % S е вече на разположение. Осигурили сме 1-клик актуализации за тази тема, така че, моля  влезте в таблото и актуализирайте при първа възможност."
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "Върни се назад към началната страница"
+
+#: lib/shortcodes/footer.php:240
+msgid "Log in"
+msgstr "Вход"
+
+#: lib/shortcodes/footer.php:242
+msgid "Log out"
+msgstr "Изход"
+
+#: lib/shortcodes/post.php:249
+msgid "Leave a Comment"
+msgstr "Оставете коментар"
+
+#: lib/shortcodes/post.php:248
+msgid "1 Comment"
+msgstr "коментар"
+
+#: lib/shortcodes/post.php:247
+msgid "% Comments"
+msgstr "% Коментари"
+
+#: lib/shortcodes/post.php:293
+msgid "Tagged With: "
+msgstr "Маркирани с"
+
+#: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
+msgid "Filed Under: "
+msgstr "Пила под"
+
+#: lib/shortcodes/post.php:423 lib/structure/comments.php:233
+#: lib/structure/comments.php:298 lib/structure/post.php:280
+msgid "(Edit)"
+msgstr "(редактирам)"
+
+#: lib/structure/comments.php:79
+msgid "<h3>Comments</h3>"
+msgstr "<h3>Коментари</h3>"
+
+#: lib/structure/comments.php:143
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>Проследявания</h3>"
+
+#: lib/structure/comments.php:228
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:228 lib/structure/comments.php:289
+msgid "says"
+msgstr "казва"
+
+#: lib/structure/comments.php:232
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: lib/structure/comments.php:239 lib/structure/comments.php:305
+msgid "Your comment is awaiting moderation."
+msgstr "Вашия коментар е в очакване на умереност."
+
+#: lib/structure/comments.php:380
+msgid "Name"
+msgstr "име"
+
+#: lib/structure/comments.php:386
+msgid "Email"
+msgstr "имейл"
+
+#: lib/structure/comments.php:392
+msgid "Website"
+msgstr "уебсайт"
+
+#: lib/structure/comments.php:401
+msgid "Speak Your Mind"
+msgstr "Изкажете мнението си"
+
+#: lib/structure/footer.php:145
+msgid "Copyright"
+msgstr "Авторско право"
+
+#: lib/init.php:58
+msgid "Primary Navigation Menu"
+msgstr "Основно навигационно меню"
+
+#: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
+msgid "Posts"
+msgstr "Публикации"
+
+#: lib/structure/menu.php:185
+msgid "Comments"
+msgstr "Коментари"
+
+#: lib/structure/post.php:287 lib/structure/post.php:289
+msgid "[Read more...]"
+msgstr "[Прочети повече...]"
+
+#: lib/widgets/featured-post-widget.php:53
+msgid "By"
+msgstr "от"
+
+#: lib/structure/post.php:507 lib/structure/post.php:517
+msgid "About"
+msgstr "за"
+
+#: lib/structure/post.php:567
+msgid "Older Posts"
+msgstr "стара публикации"
+
+#: lib/structure/post.php:568
+msgid "Newer Posts"
+msgstr "нова публикации"
+
+#: lib/structure/search.php:33
+msgid "Search"
+msgstr "Търсене"
+
+#: lib/structure/sidebar.php:27
+msgid "Primary Sidebar Widget Area"
+msgstr "Основна странична лента на инструмента за пространство"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "Помощна странична лента на инструмента за пространство."
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "Вие сте тук:"
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+msgid "Archives for "
+msgstr "Архив за:"
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "Търсене за:"
+
+#: lib/classes/breadcrumb.php:352
+msgid "View all posts in %s"
+msgstr "Виж всички"
+
+#: lib/widgets/featured-page-widget.php:185
+#: lib/widgets/featured-post-widget.php:273
+#: lib/widgets/featured-post-widget.php:309
+#: lib/widgets/featured-post-widget.php:434
+#: lib/widgets/user-profile-widget.php:141
+msgid "Title"
+msgstr "Надпис"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Показва черта от страницата в миниатюри"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Генезис- препоръчани страници"
+
+#: lib/shortcodes/footer.php:175 lib/structure/post.php:381
+msgid "by"
+msgstr "от"
+
+#: lib/widgets/featured-page-widget.php:190
+msgid "Page"
+msgstr "Страница"
+
+#: lib/widgets/featured-page-widget.php:214
+#: lib/widgets/featured-post-widget.php:380
+msgid "Image Alignment"
+msgstr "Подравняване на снимката"
+
+#: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
+#: lib/widgets/featured-post-widget.php:352
+#: lib/widgets/featured-post-widget.php:382
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+msgid "None"
+msgstr "Нищо"
+
+#: lib/widgets/featured-page-widget.php:226
+msgid "Show Page Title"
+msgstr "Показване на наименованието на страницата"
+
+#: lib/widgets/featured-page-widget.php:231
+msgid "Show Page Content"
+msgstr "Показване на съдържанието на страницата"
+
+#: lib/widgets/featured-page-widget.php:235
+msgid "Content Character Limit"
+msgstr "Лимит на съдържащите се символи"
+
+#: lib/widgets/featured-page-widget.php:240
+msgid "More Text"
+msgstr "Още текст"
+
+#: lib/widgets/featured-post-widget.php:65
+msgid "Displays featured posts with thumbnails"
+msgstr "Показва препоръчани публикации с миниатюри."
+
+#: lib/widgets/featured-post-widget.php:74
+msgid "Genesis - Featured Posts"
+msgstr "Генезис- избрани публикации"
+
+#: lib/widgets/featured-post-widget.php:56
+msgid "[Read More...]"
+msgstr "[Прочети повече...]"
+
+#: lib/widgets/featured-post-widget.php:60
+msgid "More Posts from this Category"
+msgstr "Още публикации от тази категория"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Category"
+msgstr "Категория"
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "Number of Posts to Offset"
+msgstr "Брой публикации за изместване"
+
+#: lib/widgets/featured-post-widget.php:306
+msgid "Order By"
+msgstr "Подреждане по"
+
+#: lib/widgets/featured-post-widget.php:308
+msgid "Date"
+msgstr "Дата"
+
+#: lib/widgets/featured-post-widget.php:310
+msgid "Parent"
+msgstr "Източник/причина"
+
+#: lib/widgets/featured-post-widget.php:311
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Comment Count"
+msgstr "Преброяване на коментарите"
+
+#: lib/widgets/featured-post-widget.php:313
+msgid "Random"
+msgstr "Случаен"
+
+#: lib/widgets/featured-post-widget.php:318
+msgid "Sort Order"
+msgstr "Ред на сортиране"
+
+#: lib/widgets/featured-post-widget.php:320
+msgid "Descending (3, 2, 1)"
+msgstr "Низходящ (3, 2, 1)"
+
+#: lib/widgets/featured-post-widget.php:321
+msgid "Ascending (1, 2, 3)"
+msgstr "Възходящ (1, 2, 3)"
+
+#: lib/widgets/featured-post-widget.php:336
+msgid "Show Author Gravatar"
+msgstr "Покажи Аватара"
+
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/user-profile-widget.php:151
+msgid "Gravatar Size"
+msgstr "Размер на аватара"
+
+#: lib/widgets/featured-post-widget.php:342
+msgid "Small (45px)"
+msgstr "Малък (45px)"
+
+#: lib/widgets/featured-post-widget.php:343
+msgid "Medium (65px)"
+msgstr "Среден (65px)"
+
+#: lib/widgets/featured-post-widget.php:344
+msgid "Large (85px)"
+msgstr "Голям (85px)"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Extra Large (125px)"
+msgstr "Екстра голям (125px)"
+
+#: lib/widgets/featured-post-widget.php:350
+#: lib/widgets/user-profile-widget.php:163
+msgid "Gravatar Alignment"
+msgstr "Подравняване  на аватара"
+
+#: lib/widgets/featured-post-widget.php:398
+msgid "Show Post Title"
+msgstr "Покажи публикуваното наименование"
+
+#: lib/widgets/featured-post-widget.php:423
+msgid "More Text (if applicable)"
+msgstr "Още текст (ако е приложим)"
+
+#: lib/widgets/featured-post-widget.php:431
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "За да се покаже неподреден списък на повече публикации от тази категория, моля попълнете информацията по-долу."
+
+#: lib/widgets/featured-post-widget.php:449
+msgid "Show Category Archive Link"
+msgstr "Показване на категория архивни връзки"
+
+#: lib/widgets/featured-post-widget.php:453
+msgid "Link Text"
+msgstr "Връзка на текст"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "Показва потребителски блок профил на аватара"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "Генезис - потребителски профил"
+
+#: lib/widgets/user-profile-widget.php:102
+msgid "View My Blog Posts"
+msgstr "Преглед на моите блог публикации "
+
+#: lib/widgets/user-profile-widget.php:146
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Изберете потребител. Адресът на електронната поща за този профил ще бъде използван, за да дръпнем  изображението от аватара."
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Small"
+msgstr "малък"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Medium"
+msgstr "среден"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Large"
+msgstr "голям"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Extra Large"
+msgstr "много голям"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Select which text you would like to use as the author description"
+msgstr "Изберете текста, който бихте искали да използвате  като авторско описание"
+
+#: lib/widgets/user-profile-widget.php:175
+msgid "Author Bio"
+msgstr "автор био"
+
+#: lib/widgets/user-profile-widget.php:177
+msgid "Custom Text (below)"
+msgstr "Потребителски Текст (по-долу)"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Изберете продължителната  \"За мен \" страница от списъка по-долу. Това ще бъде страницата, свързана  в края на моя  раздел."
+
+#: lib/widgets/user-profile-widget.php:195
+msgid "Show Author Archive Link?"
+msgstr "Покажи аватар архивната връзка?"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "Генезис -  - Импорт / Експорт"
+
+#: lib/admin/import-export.php:128
+msgid "Import Genesis Settings File"
+msgstr "Внос Генезис Настройки на файла"
+
+#: lib/admin/import-export.php:136
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Качи файл: (максимален размер: %s)"
+
+#: lib/admin/import-export.php:147
+msgid "Export Genesis Settings File"
+msgstr "Генезис Настройки на експорта на файла"
+
+#: lib/admin/import-export.php:150
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "След като сте записали изтегления файл, можете да използвате функцията за внос на друго място, за да импортирате тези данни."
+
+#: lib/admin/import-export.php:157
+msgid "Download Export File"
+msgstr "Изтеглете документация по износа"
+
+#: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
+msgid "Characters Used: %s"
+msgstr "Знаците, използвани: %s"
+
+#: lib/admin/inpost-metaboxes.php:58
+msgid "Custom Redirect URI"
+msgstr "Персонализирано пренасочване URI"
+
+#: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
+msgid "Custom Body Class"
+msgstr "Потребителски еталон"
+
+#: lib/admin/inpost-metaboxes.php:245
+msgid "Custom Post Class"
+msgstr "Потребителски  публикации по класове"
+
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+msgid "Import/Export"
+msgstr "Импорт / Експорт"
+
+#: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
+msgid "Choose Layout"
+msgstr "Изберете оформление"
+
+#: lib/admin/theme-settings.php:833
+msgid "Include the Featured Image?"
+msgstr "Включване на избраното  изображение?"
+
+#: lib/admin/user-meta.php:76
+msgid "Genesis Admin Menus"
+msgstr "Genesis администраторски менюта"
+
+#: lib/admin/user-meta.php:79
+msgid "Enable Genesis Admin Menu?"
+msgstr "Разрешаване на Генезис  Администраторски менюта?"
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr "Активирайте SEO настройките на подменюто?"
+
+#: lib/admin/user-meta.php:85
+msgid "Enable Import/Export Submenu?"
+msgstr "Активирайте Импорт / Експорт подменюто?"
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Активирайте авторската  кутия за мнения на този потребител?"
+
+#: lib/admin/user-meta.php:146
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Активиране на авторската кутия на този потребителски архив?"
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:248
+msgid "These settings apply to this author's archive pages."
+msgstr "Тези настройки важат за тези авторски архивни страници."
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "Потребителско Архивно Заглавие"
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "Ще се показва в %s  таг в горната част на първата страница"
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "Потребителско текстово описание"
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "Този текст ще бъде първия параграф  и се показва на първа страница"
+
+#: lib/functions/upgrade.php:512
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "Поздравления!Вие сте регистриран %s"
+
+#: lib/widgets/featured-page-widget.php:198
+#: lib/widgets/featured-post-widget.php:364
+msgid "Show Featured Image"
+msgstr "Показване на избратото изображение"
+
+#: lib/widgets/featured-post-widget.php:403
+msgid "Show Post Info"
+msgstr "Показване на информационната публикация"
+
+#: lib/widgets/featured-post-widget.php:408
+msgid "Content Type"
+msgstr "Тип съдържание"
+
+#: lib/widgets/featured-post-widget.php:410
+msgid "Show Content"
+msgstr "Показване на съдържанието"
+
+#: lib/widgets/featured-post-widget.php:411
+msgid "Show Excerpt"
+msgstr "Поазване на извадки"
+
+#: lib/widgets/featured-post-widget.php:412
+msgid "Show Content Limit"
+msgstr "Показване на лимит на съдържание"
+
+#: lib/widgets/featured-post-widget.php:413
+msgid "No Content"
+msgstr "Няма съдържание"
+
+#: lib/classes/breadcrumb.php:60
+msgid "Not found: "
+msgstr "Не е намерена:"
+
+#: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
+msgid "View %s"
+msgstr "преглед %s"
+
+#: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
+msgid "View archives for %s"
+msgstr "Преглед на архивите %s"
+
+#: lib/classes/breadcrumb.php:497
+msgid "View archives for %s %s"
+msgstr "Преглед на архивите %s %s"
+
+#: lib/classes/breadcrumb.php:386
+msgid "View all %s"
+msgstr "Виж всички"
+
+#: lib/classes/breadcrumb.php:561
+msgid "View all items in %s"
+msgstr "Виж всички елементи"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Right"
+msgstr "Заглавие отдясно"
+
+#: lib/functions/widgetize.php:117
+msgid "Primary Sidebar"
+msgstr "Основна странична лента"
+
+#: lib/functions/widgetize.php:126
+msgid "Secondary Sidebar"
+msgstr "Помощна странична лента"
+
+#: lib/admin/import-export.php:191
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Имаше проблем при импортирането на вашите настройки. Моля, опитайте отново."
+
+#: lib/functions/layout.php:109
+msgid "No Label Selected"
+msgstr "Не е избран надпис"
+
+#: lib/functions/widgetize.php:159
+msgid "Footer %d"
+msgstr "Долен %d"
+
+#: lib/admin/import-export.php:235
+msgid "No export options available."
+msgstr "Няма налични възможности за износ."
+
+#: lib/js/load-scripts.php:143
+msgid "Select / Deselect All"
+msgstr "Избор / Премахнете отметките на всички"
+
+#: lib/shortcodes/post.php:42
+msgid "ago"
+msgstr "Преди"
+
+#: lib/structure/post.php:589 lib/structure/post.php:655
+msgid "Previous Page"
+msgstr "предишен страница"
+
+#: lib/structure/post.php:590 lib/structure/post.php:685
+msgid "Next Page"
+msgstr "до страница"
+
+#: lib/admin/theme-settings.php:539
+msgid "Default"
+msgstr "По подразбиране"
+
+#: lib/admin/import-export.php:131
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Изберете файла от вашия компютър и щракнете върху  \"Качи файл и внос \""
+
+#: lib/admin/import-export.php:139
+msgid "Upload File and Import"
+msgstr "Качи файл и внос"
+
+#: lib/admin/import-export.php:189
+msgid "Settings successfully imported."
+msgstr "Настройките са внесени успешно."
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+msgid "Settings reset."
+msgstr "Настройките възстановени."
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+msgid "Settings saved."
+msgstr "Настройките са запазени."
+
+#: lib/admin/seo-settings.php:376
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "Ключовите думи обикновено са игнорирани от търсачките."
+
+#: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
+#: lib/admin/theme-settings.php:414
+msgid "Default Layout"
+msgstr "Оформление по подразбиране"
+
+#: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
+#: lib/admin/theme-settings.php:425
+msgid "Comments and Trackbacks"
+msgstr "Коментари и проследявания"
+
+#: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
+#: lib/admin/theme-settings.php:430
+msgid "Header and Footer Scripts"
+msgstr "Горен и долен колонтитул на скриптове"
+
+#: lib/admin/theme-settings.php:478
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Това може да бъде полезно за диагностициране на проблеми с вашата тема, когато се търси помощ в <a href=\"%s\" target=\"_blank\">помощен форум</a>."
+
+#: lib/admin/theme-settings.php:699
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "Ако вашият Потребителска поддръжка не са обработва от Feedburner, ние не препоръчваме да използвате опциите на пренасочване."
+
+#: lib/admin/theme-settings.php:736
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "Коментарите и проследяванията могат да бъдат прекратени за всяка публикация /  основна страница  при създаване / редактиране на публикации / страници."
+
+#: lib/admin/theme-settings.php:755
+msgid "Enable on:"
+msgstr "Възможност за:"
+
+#: lib/admin/theme-settings.php:759
+msgid "Front Page"
+msgstr "Заглавна страница"
+
+#: lib/admin/theme-settings.php:772
+msgid "Pages"
+msgstr "Страници"
+
+#: lib/admin/theme-settings.php:775
+msgid "Archives"
+msgstr "Архиви"
+
+#: lib/admin/theme-settings.php:778
+msgid "404 Page"
+msgstr "404 страница"
+
+#: lib/admin/theme-settings.php:784
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "Навигационните пътища са чудесен начин за отдаването на посетителите ви   да разберат, къде се намират в твоя сайт  само с един поглед. Можете да ги включите / изключите  на определени области във вашия сайт."
+
+#: lib/admin/theme-settings.php:828
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "Използването на тази опция ще ограничи текста и ще  лиши цялото форматиране от показания текст. За да използвате тази опция, изберете  \"Display post content\"  в селектираното поле  по-горе."
+
+#: lib/admin/theme-settings.php:856
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Тези опции ще се отразят на всеки блог, обявени страници,включително архив, автор, блог, категория, търсене и таг страници."
+
+#: lib/functions/formatting.php:284
+msgctxt "time difference"
+msgid "seconds"
+msgstr "секунди"
+
+#: lib/functions/formatting.php:288
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "Единствено число: %s година"
+msgstr[1] "Множествено число: %s години"
+
+#: lib/functions/formatting.php:289
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "Единствено число: %s месец"
+msgstr[1] "Множествено число: %s месеци"
+
+#: lib/functions/formatting.php:290
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "Единствено число: %s седмица"
+msgstr[1] "Множествено число: %s седмици"
+
+#: lib/functions/formatting.php:291
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "Единствено число: %s ден"
+msgstr[1] "Множествено число: %s дни"
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "Единствено число: %s час"
+msgstr[1] "Множествено число: %s часове"
+
+#: lib/functions/formatting.php:293
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "Единствено число: %s минута"
+msgstr[1] "Множествено число: %s минути"
+
+#: lib/functions/formatting.php:294
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "Единствено число: %s секунда"
+msgstr[1] "Множествено число: %s секунди"
+
+#: lib/functions/formatting.php:319
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "край"
+
+#: lib/functions/layout.php:39
+msgid "Content-Sidebar"
+msgstr "Съдържание-Странична лента"
+
+#: lib/functions/layout.php:44
+msgid "Sidebar-Content"
+msgstr "Странична лента-Съдържание"
+
+#: lib/functions/layout.php:48
+msgid "Content-Sidebar-Sidebar"
+msgstr "Съдържание-Странична лента-Странична лента"
+
+#: lib/functions/layout.php:52
+msgid "Sidebar-Sidebar-Content"
+msgstr "Странична лента-Странична лента-Съдържание"
+
+#: lib/functions/layout.php:56
+msgid "Sidebar-Content-Sidebar"
+msgstr "Странична лента-Съдържание-Странична лента"
+
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "Тема SEO Настройки"
+
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:275
+#: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
+msgid "Layout Settings"
+msgstr "Настройки на макета"
+
+#: lib/admin/seo-settings.php:430
+msgid "Adjacent Posts %s link tags"
+msgstr "Прилежащите публикации %s линк тагове"
+
+#: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
+msgid "Archive Settings"
+msgstr "Архив на настройки"
+
+#: lib/admin/theme-settings.php:88
+msgid "Follow me on Twitter"
+msgstr "Последвайте ме в Twitter"
+
+#: lib/admin/theme-settings.php:411
+msgid "Color Style"
+msgstr "Стил на цвят"
+
+#: lib/admin/theme-settings.php:781
+msgid "Attachment Page"
+msgstr "Прикачена страница"
+
+#: lib/admin/theme-settings.php:837
+msgid "Image Size:"
+msgstr "Размер на снимката:"
+
+#: lib/admin/theme-settings.php:892
+msgid "Number of Posts to Show:"
+msgstr "Показване на номера на публикации:"
+
+#: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "Въведете скриптове или кодът, който бихте искали извън  %s:"
+
+#: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr " %1$s куката се изпълнява непосредствено преди затварянето%2$s  етикет в документа източник."
+
+#: lib/admin/theme-settings.php:537
+msgid "Color Style:"
+msgstr "Стил цвят:"
+
+#: lib/admin/theme-settings.php:551
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Моля изберете стил на цвета от падащия списък и запазете настройките си."
+
+#: lib/admin/user-meta.php:72
+msgid "User Permissions"
+msgstr "Потребителски разрешения"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "Настройки на Авторски Архив"
+
+#: lib/classes/admin.php:119
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "Не можете да използвате %s за създаването на две менюта в същия подклас."
+
+#: lib/functions/menu.php:91
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "Аргументът, \"context\", е заменен с  \"theme_location \" в $args масив."
+
+#: lib/functions/seo.php:127
+msgid "Dismiss"
+msgstr "Отхвърляне"
+
+#: lib/functions/widgetize.php:118
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Това е основната страничната лента, ако използвате две или три колони от  опцията за оформлението на сайта."
+
+#: lib/functions/widgetize.php:127
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "Това е средната  странична лента ако използвате трите  колони за  оформлението на сайта."
+
+#: lib/functions/widgetize.php:160
+msgid "Footer %d widget area."
+msgstr "Долна %d област на притурка."
+
+#: lib/widgets/user-profile-widget.php:189
+msgid "Extended page link text"
+msgstr "Разширен текст за връзка на страница"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Left"
+msgstr "Заглавие отляво"
+
+#: lib/functions/widgetize.php:109
+msgid "This is the widget area in the header."
+msgstr "Това е инсталираната област в заглавната част."
+
+#: lib/init.php:59
+msgid "Secondary Navigation Menu"
+msgstr "Помощно Навигационно Меню"
+
+#: lib/widgets/user-profile-widget.php:178
+msgid "Custom Text Content"
+msgstr "Потребителски Текст съдържание"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+msgid "Error saving settings."
+msgstr "Грешка в запаметяване на настройките."
+
+#: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
+msgid "Archive Headline"
+msgstr "Архив на заглавие"
+
+#: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Оставете празно, ако не искате да покажете заглавието."
+
+#: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
+msgid "Archive Intro Text"
+msgstr "Архив на въведения текст"
+
+#: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Оставете празно, ако не искате да покажете някой въведен текст."
+
+#: lib/structure/footer.php:145
+msgid "on"
+msgstr "на"
+
+#: lib/admin/seo-settings.php:392
+msgid "Homepage Author"
+msgstr "Homepage Author"
+
+#: lib/admin/seo-settings.php:395
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "Изберете потребителя, който искате да се използва като %s за началната страница. Уверете се, че потребителя, който изберете е добавил Google+ адрес профил на профилния екран за редактиране."
+
+#: lib/admin/seo-settings.php:400
+msgid "Select User"
+msgstr "Селектирайте потребителя"
+
+#: lib/admin/theme-settings.php:597
+msgid "Use for site title/logo:"
+msgstr "Използвайте за заглавие на сайта / лого:"
+
+#: lib/admin/user-meta.php:26
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/whats-new.php:39
+msgid "Welcome to Genesis %s"
+msgstr "Добре дошли в %s"
+
+#: lib/admin/whats-new.php:66
+msgid "What&#8217;s New"
+msgstr "Какво&#8217;s Ново"
+
+#: lib/admin/whats-new.php:112
+msgid "Project Leads"
+msgstr "Project Leads"
+
+#: lib/admin/whats-new.php:156
+msgid "Go to Theme Settings &rarr;"
+msgstr "Отидете на Тема Настройки &rarr;"
+
+#: lib/admin/whats-new.php:157
+msgid "Go to SEO Settings &rarr;"
+msgstr "Отидете на SEO настройки &rarr;"
+
+#: lib/shortcodes/post.php:170
+msgid "Visit %s&#x02019;s website"
+msgstr "Посетете %s&#x02019;s уеб сайта"
+
+#: lib/structure/loops.php:253
+msgid "Read more"
+msgstr "Прочетете повече"
+
+#: lib/structure/search.php:31
+msgid "Search this website"
+msgstr "Търсете този уеб сайт"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "Прочетете повече"
+
+#: lib/admin/seo-settings.php:263
+msgid "Document Title Settings"
+msgstr "Настройки на заглавието на документа"
+
+#: lib/admin/seo-settings.php:285
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "Наименованието на документа (%s) е най-важният елемент в документа източник за <abbr title=\"Search engine optimization\">SEO</abbr>. Това накратко информира търсачките каква информация се съдържа в документа. Заглавията може и трябва да са различни за всяка страница, но тези опции ще ви помогнат да контролирате това, как тя ще изглежда по подразбиране."
+
+#: lib/admin/seo-settings.php:287
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong>По подразбиране</strong>, на началната страница заглавието на документа ще се съдържа в сайта заглавие, един пост и заглавие на страницата на документите ще съдържа пощата или заглавието на страницата, на архивните страници ще съдържа архивен вид и т.н."
+
+#: lib/admin/seo-settings.php:291
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Добави описание на обекта (слоган) за %s на началната страница?"
+
+#: lib/admin/seo-settings.php:296
+msgid "Add site name to %s on inner pages?"
+msgstr "Добави името на сайта за %s на вътрешни страници?"
+
+#: lib/admin/seo-settings.php:300
+msgid "Document Title Additions Location:"
+msgstr "Документ Заглавие Допълнително Местонахождение:"
+
+#: lib/admin/seo-settings.php:301
+msgid "Determines which side the added title text will go on."
+msgstr "Определя коя страна на добавения текст заглавие ще продължи."
+
+#: lib/admin/seo-settings.php:313
+msgid "Document Title Separator:"
+msgstr "Разделител Заглавие на документ:"
+
+#: lib/admin/seo-settings.php:315
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Ако заглавието се състои от две части (оригинално заглавие и избор допълнение), а след това на сепаратора ще отидат в между тях."
+
+#: lib/admin/seo-settings.php:354
+msgid "Site Description (Tagline)"
+msgstr "Сайт описание  (Лозунгът)"
+
+#: lib/admin/seo-settings.php:362
+msgid "Homepage Document Title:"
+msgstr "Заглавие страница на документа:"
+
+#: lib/admin/seo-settings.php:364
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Ако оставите в документа празно полето за заглавие, вашият сайт&#8217;s заглавието ще се използва."
+
+#: lib/admin/seo-settings.php:368
+msgid "Home Meta Description:"
+msgstr "Начало на мета описание:"
+
+#: lib/admin/seo-settings.php:370
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "Мета описание може да се използва за да се определи използваният текст под заглавието на резултатите от търсените страници."
+
+#: lib/admin/seo-settings.php:374
+msgid "Home Meta Keywords (comma separated):"
+msgstr "Начални Мета Клучови думи (comma separated):"
+
+#: lib/admin/seo-settings.php:424
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "По подразбиране, WordPress поставя няколко тагове в документа %1$s. Повечето от тези маркери са напълно ненужни, и не носят <abbr title=\"Търсачка двигателя оптимизация\"> SEO </abbr> никаква стойност, те просто правят сайта ви по-бавно за зареждане. Изберете кой от таговете желаете да включите в документа %1$s. Ако не знаете нещо оставете го нерегистриран."
+
+#: lib/admin/seo-settings.php:447
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr "<span class=\"genesis-admin-note\">Забележка:</span> Shortlink етикета може да има някаква полза за трета страна услуга откриваемост,  но тя няма <abbr title=\"Search engine optimization\">SEO</abbr> никаква стойност."
+
+#: lib/admin/seo-settings.php:489
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "Някои търсачки ще кешират страниците в сайта ви (например Google Cache). %1$s tag S ще им попречи да го направят. Изберете кои архиви искате   %1$s да се прилагат."
+
+#: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
+#: lib/admin/theme-settings.php:417
+msgid "Header"
+msgstr "Header"
+
+#: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
+#: lib/admin/theme-settings.php:420
+msgid "Navigation"
+msgstr "Навигация"
+
+#: lib/admin/theme-settings.php:427
+msgid "Blog Page Template"
+msgstr "Шаблон Блог Страница"
+
+#: lib/admin/theme-settings.php:762
+msgid "Posts Page"
+msgstr "Страница Публикации"
+
+#: lib/admin/theme-settings.php:765
+msgid "Homepage"
+msgstr "Начална страница"
+
+#: lib/admin/theme-settings.php:875
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Тези настройки важат за всяка страница, като се има предвид \"Blog\" страница шаблон , не начална страница или страници с архивни публикации."
+
+#: lib/functions/seo.php:125
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "Опитвали ли сте нашия Scribe маркетинг на съдържанието софтуер? Направи изследване  на съдържанието и оптимизацията на сайт, и изграждане на отношения, без да напускаш WordPress. <b> Genesis собственици спестяват много, когато се използва специален линк на специална страница, която сме създали само за вас</b>. <a href=\"%s\" target=\"_blank\"> Кликнете тук за повече информация </a>."
+
+#: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+msgid "Lead Developer"
+msgstr "Водещ Разработчик"
+
+#: lib/admin/whats-new.php:136
+msgid "Contributors"
+msgstr "Сътрудници"
+
+#: lib/admin/whats-new.php:147
+msgid "Contributor"
+msgstr "Сътрудник"
+
+#: search.php:22
+msgid "Search Results for:"
+msgstr "Търси резултати за:"
+
+#: 404.php:27
+msgid "Not found, error 404"
+msgstr "Не е намерена, грешка 404"
+
+#: 404.php:32
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr "Страницата, която търсите вече не съществува. Може би вие можете да се върнете обратно към <a href=\"%s\">homepage</a> и вижте дали можете да намерите това, което търсите. Или, можете да опитате да го намерите, като използвате формата за търсене по-долу."
+
+#: lib/admin/cpt-archive-settings.php:55
+msgid "Archive"
+msgstr "Архив"
+
+#: lib/admin/cpt-archive-settings.php:158
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr "Виж архива на <a href=\"%s\">%s archive</a>."
+
+#: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr "Мета Описание"
+
+#: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr "Мета Ключови думи"
+
+#: lib/admin/cpt-archive-settings.php:193
+msgid "Robots Meta Tags:"
+msgstr "Мета Роботи Тагове"
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+msgid "Apply %s to this archive"
+msgstr "Приложи %s към този архив"
+
+#: lib/admin/inpost-metaboxes.php:141
+msgid "Scripts"
+msgstr "Скриптове"
+
+#: lib/admin/inpost-metaboxes.php:158
+msgid "Page-specific Scripts"
+msgstr "Специфична Страница Скриптове"
+
+#: lib/admin/inpost-metaboxes.php:160
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr "Подходящ за потребителско проследяване, преобразуване или други специфични за страницата скрипт. Трябва да включва тагове %s."
+
+#: lib/admin/seo-settings.php:342
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr "HTML5 позволява множество тагове множествена  %s в документа източник, при условие че те са основното заглавие на раздела, в който те се появяват. Въпреки това, след този стандарт може да има незначително отрицателно въздействие върху SEO."
+
+#: lib/admin/theme-settings.php:634
+msgid "Primary Navigation Extras"
+msgstr "Основни Навигационни Екстри"
+
+#: lib/functions/deprecated.php:67
+msgid "decimal or hexidecimal entities"
+msgstr "десетични или шестнадесетичен субекти"
+
+#: lib/js/load-scripts.php:144
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Промените, които сте направили, ще бъдат загубени, ако излезете от тази страница."
+
+#: lib/js/load-scripts.php:145
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr "Актуализиране на Genesis ще замени сегашната инсталирана версия на Genesis. Наистина ли искате да актуализирате?. \"Cancel\", за да спре, \"OK\", за да актуализирате."
+
+#: lib/structure/comments.php:296
+msgid "at"
+msgstr "до"
+
+#: lib/structure/post.php:313
+msgid "Permalink"
+msgstr "Препратка"
+
+#: lib/structure/post.php:351
+msgid "Sorry, no content matched your criteria."
+msgstr "За съжаление, няма съдържание отговарящо на зададените критерии."
+
+#: lib/widgets/featured-post-widget.php:327
+msgid "Exclude Previously Displayed Posts?"
+msgstr "Изключи Предходните Екранни Публикации?"
+
+#: lib/admin/whats-new.php:63
+msgid "Congratulations! You're now running Genesis %s."
+msgstr "Поздравления! Сега Genesis работи %s."
+
+#: lib/admin/whats-new.php:69
+msgid "HTML5 Markup"
+msgstr "HTML5 Маркиране"
+
+#: lib/admin/whats-new.php:72
+msgid "Microdata"
+msgstr "Микроданни"
+
+#: lib/admin/whats-new.php:75
+msgid "A Brand New Design"
+msgstr "Марков Нов Дизайн"
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr "Genesis е с спортен нов и свеж облик. И ние сме се възползвали от новия HTML5 маркиране, както и от някои шик CSS3. Ние мислим, че ще ви хареса."
+
+#: lib/admin/whats-new.php:78
+msgid "Removing Features"
+msgstr "Премахване на функции"
+
+#: lib/admin/whats-new.php:83
+msgid "Genesis Latest Tweets Widget"
+msgstr "Genesis последни съобщения в Twitter джаджа"
+
+#: lib/admin/whats-new.php:84
+msgid "Genesis eNews Extended"
+msgstr "Genesis Интернет новини разширения"
+
+#: lib/admin/whats-new.php:85
+msgid "Single Post Template"
+msgstr "Единичен шаблон публикация."
+
+#: lib/admin/whats-new.php:86
+msgid "Fancy Dropdowns"
+msgstr "Fancy падащите менюта"
+
+#: lib/admin/whats-new.php:90
+msgid "Boring, but important"
+msgstr "Досадно, но важно"
+
+#: lib/admin/whats-new.php:95
+msgid "Better named loop hooks for HTML5."
+msgstr "По добре loop hooks for HTML5."
+
+#: lib/admin/whats-new.php:96
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr "Network Upgrade сега актуализира базата данни Genesis за всички сайтове в мрежата, когато текущите WordPress е в режим на много места."
+
+#: lib/admin/whats-new.php:97
+msgid "Widget classes are now coded in PHP5 format."
+msgstr "Джаджите класове сега са кодирани в PHP5 формат."
+
+#: lib/admin/whats-new.php:98
+msgid "Admin CSS and Javascript are now minified."
+msgstr "Admin CSS and Javascript are now minified."
+
+#: lib/admin/whats-new.php:99
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr "Вътрешните HTML коментари са били премахнати, за да се намали размера на страницата."
+
+#: lib/admin/whats-new.php:100
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr "Скрипт опцията вече има своя метабокси при редактиране на запис."
+
+#: lib/admin/whats-new.php:101
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr "Персонализирани публикувани архивни страници сега имат настройки, така че можете да контролирате изхода."
+
+#: lib/admin/whats-new.php:102
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr "Genesis проследява показани IDs влизания, така че можете да оттеглите записите ако се показват два пъти на една страница."
+
+#: lib/admin/whats-new.php:103
+msgid "Entries without titles now display a permalink after the post content."
+msgstr "Влизания без заглавия сега показват постоянна връзка след пост съдържанието."
+
+#: lib/functions/general.php:345
+msgid "Install %s"
+msgstr "Инасталирай %s"
+
+#: 404.php:39
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "Страницата, която търсите вече не съществува. Може би можете да се върнете обратно към сайта <a href=\"%s\">начало</a> и вижте дали можете да намерите това, което търсите. Или  можете да опитате да го намерите с информацията по-долу."

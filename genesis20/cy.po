@@ -1,0 +1,1702 @@
+# Translation of Genesis 1.9 in Welsh
+# This file is distributed under the same license as the Genesis 1.9 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-29 15:33:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 1.9\n"
+
+#: lib/admin/whats-new.php:72
+msgid "You may notice that the default Genesis style sheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
+msgstr "Efallai y sylwch fod y daflen arddull Genesis ychydig yn fyrrach, ac yn edrych yn wahanol ar y blaen. Rydym wedi diweddaru'r dyluniad rhagosodedig ac wedi estyn lled y cynllun i 1152px. Nawr, mae gennych fwy o le i ddangos eich cynnwys."
+
+#: 404.php:33
+msgid "Not Found, Error 404"
+msgstr "Heb ei Ganfod, Gwall 404"
+
+#: 404.php:35
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "Nid yw'r dudalen rydych yn chwilio amdani'n bodoli bellach. Efallai y gallech ddychwelyd i <a href=\"%s\">dudalen hafan</a> y wefan a gweld a allwch ddod o hyd i'r hyn rydych yn chwilio amdano. Neu, gallwch geisio dod o hyd iddo gyda'r wybodaeth isod. "
+
+#: 404.php:39 lib/structure/post.php:219 page_archive.php:35
+msgid "Pages:"
+msgstr "Tudalennau:"
+
+#: 404.php:44 page_archive.php:40
+msgid "Categories:"
+msgstr "Categorïau: "
+
+#: 404.php:53 page_archive.php:49
+msgid "Authors:"
+msgstr "Awduron: "
+
+#: 404.php:58 page_archive.php:54
+msgid "Monthly:"
+msgstr "Misol: "
+
+#: 404.php:63 page_archive.php:59
+msgid "Recent Posts:"
+msgstr "Pyst Diweddar: "
+
+#: comments.php:24
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Gwarchodir y post hwn gan gyfrinair. Rhowch y cyfrinair i mewn i weld y sylwadau. "
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "Genesis - Mewnforio/Allforio "
+
+#: lib/admin/import-export.php:46
+msgid "Import/Export"
+msgstr "Mewnforio/Allforio"
+
+#: lib/admin/import-export.php:81
+msgid "Import Genesis Settings File"
+msgstr "Mewnforio Ffeil Gosodiadau Genesis "
+
+#: lib/admin/import-export.php:83
+msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
+msgstr "Llwytho'r ffeil ddata (<code>.json</code>) i fyny o'ch cyfrifiadur ac fe wnawn fewnforio'ch gosodiadau."
+
+#: lib/admin/import-export.php:84
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Dewis y ffeil o'ch cyfrifiadur a chliciwch ar \"Llwytho Ffeil i Fyny a'i Mewnforio\" "
+
+#: lib/admin/import-export.php:89
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Llwytho Ffeil i Fyny: (Uchafswm Maint: %s) "
+
+#: lib/admin/import-export.php:92
+msgid "Upload File and Import"
+msgstr "Llwytho Ffeil i Fyny a'i Mewnforio "
+
+#: lib/admin/import-export.php:100
+msgid "Export Genesis Settings File"
+msgstr "Allforio Ffeil Gosodiadau Genesis "
+
+#: lib/admin/import-export.php:102
+msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
+msgstr "Pan gliciwch ar y botwm isod, bydd Genesis yn creu ffeil ddata (<code>.json</code>) i chi ei chadw ar eich cyfrifiadur. "
+
+#: lib/admin/import-export.php:103
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "Ar ôl i chi gadw'r ffeil wedi'i lawrlwytho, gallwch ddefnyddio'r swyddogaeth mewnforio hon ar wefan arall i fewnforio'r data hwn. "
+
+#: lib/admin/import-export.php:110
+msgid "Download Export File"
+msgstr "Lawrlwytho Ffeil Allforio "
+
+#: lib/admin/import-export.php:142
+msgid "Settings successfully imported."
+msgstr "Gosodiadau wedi'u mewnforio'n llwyddiannus. "
+
+#: lib/admin/import-export.php:144
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Bu problem wrth fewnforio'ch gosodiadau. Rhowch gynnig arall. "
+
+#: lib/admin/import-export.php:162 lib/admin/theme-settings.php:58
+#: lib/admin/theme-settings.php:59
+msgid "Theme Settings"
+msgstr "Gosodiadau Thema "
+
+#: lib/admin/import-export.php:166 lib/admin/seo-settings.php:44
+msgid "SEO Settings"
+msgstr "Gosodiadau SEO "
+
+#: lib/admin/import-export.php:188
+msgid "No export options available."
+msgstr "Dim opsiynau allforio ar gael. "
+
+#: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "Gosodiadau SEO Thema "
+
+#: lib/admin/inpost-metaboxes.php:54
+msgid "Custom Document Title"
+msgstr "Teitl y Ddogfen i'w Haddasu "
+
+#: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
+msgid "Characters Used: %s"
+msgstr "Nodau a Ddefnyddiwyd: %s "
+
+#: lib/admin/inpost-metaboxes.php:57
+msgid "Custom Post/Page Meta Description"
+msgstr "Post i'w Addasu/Disgrifiad Meta Tudalen "
+
+#: lib/admin/inpost-metaboxes.php:60
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Post i'w Addasu/Geiriau Allweddol Meta Tudalen, wedi'u gwahanu â choma "
+
+#: lib/admin/inpost-metaboxes.php:63
+msgid "Custom Canonical URI"
+msgstr "URI Canonaidd i'w Addasu "
+
+#: lib/admin/inpost-metaboxes.php:66
+msgid "Custom Redirect URI"
+msgstr "URI Ailgyfeirio i'w Addasu "
+
+#: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:176
+msgid "Robots Meta Settings"
+msgstr "Gosodiadau Meta Robotiaid "
+
+#: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
+#: lib/admin/inpost-metaboxes.php:81
+msgid "Apply %s to this post/page"
+msgstr "Cymhwyso %s i'r post/dudalen hwn/hon "
+
+#: lib/admin/inpost-metaboxes.php:86
+msgid "Custom Tracking/Conversion Code"
+msgstr "Olrhain i'w Addasu/Côd Trosi "
+
+#: lib/admin/inpost-metaboxes.php:161 lib/admin/term-meta.php:202
+#: lib/admin/user-meta.php:246
+msgid "Layout Settings"
+msgstr "Gosodiadau'r Cynllun "
+
+#: lib/admin/inpost-metaboxes.php:185 lib/admin/term-meta.php:211
+#: lib/admin/user-meta.php:256
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "Cynllun rhagosodedig wedi'i osod mewn <a href=\"%s\">Gosodiadau Thema</a> "
+
+#: lib/admin/inpost-metaboxes.php:192
+msgid "Custom Body Class"
+msgstr "Dosbarth Corff i'w Addasu "
+
+#: lib/admin/inpost-metaboxes.php:195
+msgid "Custom Post Class"
+msgstr "Dosbarth Post i'w Addasu "
+
+#: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
+msgid "README"
+msgstr "DARLLENWCHFI "
+
+#: lib/admin/readme-menu.php:68
+msgid "The %s file was not found in the child theme, or it was empty."
+msgstr "Ni chafwyd hyd i'r ffeil %s yn y thema plentyn, neu roedd hi'n wag. "
+
+#: lib/admin/seo-settings.php:43
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - Gosodiadau SEO "
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:104
+msgid "Save Settings"
+msgstr "Cadw'r Gosodiadau "
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:105
+msgid "Reset Settings"
+msgstr "Ailosod y Gosodiadau "
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:106
+msgid "Settings saved."
+msgstr "Gosodiadau wedi'u cadw. "
+
+#: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:107
+msgid "Settings reset."
+msgstr "Gosodiadau wedi'u hailosod. "
+
+#: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:73
+#: lib/classes/admin.php:108
+msgid "Error saving settings."
+msgstr "Gwall wrth gadw'r gosodiadau. "
+
+#: lib/admin/seo-settings.php:173
+msgid "Document Title Settings"
+msgstr "Gosodiadau Teitl y Ddogfen "
+
+#: lib/admin/seo-settings.php:174
+msgid "Homepage Settings"
+msgstr "Gosodiadau'r Dudalen Hafan "
+
+#: lib/admin/seo-settings.php:175
+msgid "Document Head Settings"
+msgstr "Prif Osodiadau'r Ddogfen "
+
+#: lib/admin/seo-settings.php:177
+msgid "Archives Settings"
+msgstr "Gosodiadau'r Archifau "
+
+#: lib/admin/seo-settings.php:194
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "Teitl y ddogfen (%s) yw'r elfen bwysicaf un yn eich ffynhonnell ddogfennau ar gyfer <abbr title=\"Optimeiddio peiriannau chwilio\">SEO</abbr>. Mae'n rhoi gwybod i beiriannau chwilio yn gryno pa wybodaeth sydd yn y ddogfen. Gall a dylai'r teitl fod yn wahanol ar bob tudalen, ond bydd yr opsiynau hyn yn eich helpu i reoli sut bydd yn edrych yn ôl y rhagosodiadau. "
+
+#: lib/admin/seo-settings.php:196
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong>Yn ôl y rhagosodiadau</strong>, bydd teitl dogfen y dudalen hafan yn cynnwys teitl y wefan, y post unigol a bydd teitlau dogfennau tudalennau'n cynnwys teitl y post neu'r dudalen, bydd y tudalennau archif yn cynnwys y math o archif, etc. "
+
+#: lib/admin/seo-settings.php:200
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Ychwanegu disgrifiad gwefan (llinell dagiau) at %s ar y dudalen hafan? "
+
+#: lib/admin/seo-settings.php:205
+msgid "Add site name to %s on inner pages?"
+msgstr "Ychwanegu enw'r wefan %s ar y tudalennau mewnol? "
+
+#: lib/admin/seo-settings.php:209
+msgid "Document Title Additions Location:"
+msgstr "Lleoliad Ychwanegiadau Teitlau Dogfennau: "
+
+#: lib/admin/seo-settings.php:210
+msgid "Determines which side the added title text will go on."
+msgstr "Yn pennu ar ba ochr y bydd testun y teitl yn mynd. "
+
+#: lib/admin/seo-settings.php:214 lib/widgets/featured-page-widget.php:191
+#: lib/widgets/featured-post-widget.php:290
+#: lib/widgets/featured-post-widget.php:320
+#: lib/widgets/user-profile-widget.php:161
+msgid "Left"
+msgstr "Chwith "
+
+#: lib/admin/seo-settings.php:217 lib/widgets/featured-page-widget.php:192
+#: lib/widgets/featured-post-widget.php:291
+#: lib/widgets/featured-post-widget.php:321
+#: lib/widgets/user-profile-widget.php:162
+msgid "Right"
+msgstr "De"
+
+#: lib/admin/seo-settings.php:222
+msgid "Document Title Separator:"
+msgstr "Gwahanwr Teitlau Dogfennau: "
+
+#: lib/admin/seo-settings.php:224
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Os yw'r teitl yn cynnwys dwy ran (y teitl gwreiddiol a'r ychwanegiad opsiynol), bydd y gwahanydd yn mynd rhyngddyn nhw. "
+
+#: lib/admin/seo-settings.php:245
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "Pa destun hoffech chi iddo gael ei amlapio mewn tagiau %s? "
+
+#: lib/admin/seo-settings.php:246
+msgid "The %s tag is, arguably, the second most important <abbr title=\"Search engine optimization\">SEO</abbr> tag in the document source. Choose wisely."
+msgstr "Gellir dadlau mai'r tag %s yw'r tag <abbr title=\"Optimeiddio peiriant chwilio\">SEO</abbr> ail bwysicaf yn y ffynhonnell ddogfennau. Dewiswch yn ddoeth. "
+
+#: lib/admin/seo-settings.php:250
+msgid "Site Title"
+msgstr "Teitl y Wefan "
+
+#: lib/admin/seo-settings.php:253
+msgid "Site Description (Tagline)"
+msgstr "Disgrifiad o'r Wefan (Llinell Dagiau) "
+
+#: lib/admin/seo-settings.php:256
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "Nid y naill na'r llall. Byddaf yn amlapio fy nhestun fy hun ar y dudalen hafan "
+
+#: lib/admin/seo-settings.php:260
+msgid "Homepage Document Title:"
+msgstr "Teitl Dogfen y Dudalen Hafan: "
+
+#: lib/admin/seo-settings.php:262
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Os ydych wedi gadael maes teitl y ddogfen yn wag, caiff teitl eich gwefan &#8217;s ei ddefnyddio yn ei le. "
+
+#: lib/admin/seo-settings.php:266
+msgid "Home Meta Description:"
+msgstr "Disgrifiad Meta Hafan: "
+
+#: lib/admin/seo-settings.php:268
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "Gellir defnyddio'r disgrifiad meta i bennu'r testun a ddefnyddir o dan y teitl ar dudalennau canlyniadau'r peiriant chwilio. "
+
+#: lib/admin/seo-settings.php:272
+msgid "Home Meta Keywords (comma separated):"
+msgstr "Geiriau Allweddol Meta Hafan (wedi'u gwahanu â choma): "
+
+#: lib/admin/seo-settings.php:274
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "Geiriau allweddol a anwybyddir yn gyffredinol gan beiriannau chwilio. "
+
+#: lib/admin/seo-settings.php:277
+msgid "Homepage Robots Meta Tags:"
+msgstr "Tagiau Meta Robotiaid Tudalennau Hafan  "
+
+#: lib/admin/seo-settings.php:281 lib/admin/seo-settings.php:284
+#: lib/admin/seo-settings.php:287
+msgid "Apply %s to the homepage?"
+msgstr "Cymhwyso %s i'r dudalen hafan? "
+
+#: lib/admin/seo-settings.php:290
+msgid "Homepage Author"
+msgstr "Awdur y Dudalen Hafan "
+
+#: lib/admin/seo-settings.php:293
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "Dewiswch y defnyddiwr yr hoffech iddo gael ei ddefnyddio fel %s ar gyfer y dudalen hafan. Gwnewch yn siŵr bod y defnyddiwr rydych yn ei ddewis wedi nodi ei gyfeiriad proffil Google+ ar y sgrîn golygu proffiliau. "
+
+#: lib/admin/seo-settings.php:298
+msgid "Select User"
+msgstr "Dewiswch Ddefnyddiwr "
+
+#: lib/admin/seo-settings.php:321
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "Yn ôl y rhagosodiadau, bydd WordPress yn rhoi sawl tag yn %1$s eich dogfen. Mae'r rhan fwyaf o'r tagiau hyn yn gwbl ddiangen, ac nid ydynt yn rhoi gwerth <abbr title=\"Optimeiddio peiriant chwilio\">SEO</abbr> o gwbl; maen nhw ond yn ei gwneud hi'n arafach llwytho'ch gwefan. Dewiswch pa dagiau yr hoffech iddyn nhw gael eu cynnwys yn %1$s eich dogfen. Os nad ydych yn gwybod beth yw rhywbeth, gadewch e heb ei dicio. "
+
+#: lib/admin/seo-settings.php:323
+msgid "Relationship Link Tags:"
+msgstr "Tagiau Dolen Berthynas:"
+
+#: lib/admin/seo-settings.php:327
+msgid "Adjacent Posts %s link tags"
+msgstr "Tagiau dolen %s pyst gyferbyn "
+
+#: lib/admin/seo-settings.php:330
+msgid "Windows Live Writer Support:"
+msgstr "Cefnogaeth Ysgrifennydd Windows Live: "
+
+#: lib/admin/seo-settings.php:334
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Cynnwys Tag Cefnogi Ysgrifennydd Windows Live? "
+
+#: lib/admin/seo-settings.php:337
+msgid "Shortlink Tag:"
+msgstr "Tag Dolen Fer: "
+
+#: lib/admin/seo-settings.php:341
+msgid "Include Shortlink tag?"
+msgstr "Cynnwys tag dolen fer? "
+
+#: lib/admin/seo-settings.php:344
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr "<span class=\"genesis-admin-note\">Nodyn:</span> Gallai'r tag dolen fer fod yn ddefnyddiol ar gyfer darganfod gwasanaethau 3ydd parti, ond nid oes ganddo werth <abbr title=\"Optimeiddio peiriant chwilio\">SEO</abbr> o gwbl. "
+
+#: lib/admin/seo-settings.php:366
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "Gan ddibynnu ar eich sefyllfa, efallai yr hoffech i'r tudalennau archif canlynol gael eu mynegeio gan beiriant chwilio. Dim ond chi sy'n gallu penderfynu ar hynny. "
+
+#: lib/admin/seo-settings.php:370 lib/admin/seo-settings.php:394
+msgid "Apply %s to Category Archives?"
+msgstr "Cymhwyso %s i Archifau Categori? "
+
+#: lib/admin/seo-settings.php:373 lib/admin/seo-settings.php:397
+msgid "Apply %s to Tag Archives?"
+msgstr "Cymhwyso %s i Archifau Tag? "
+
+#: lib/admin/seo-settings.php:376 lib/admin/seo-settings.php:400
+msgid "Apply %s to Author Archives?"
+msgstr "Cymhwyso %s i Archifau Awdur? "
+
+#: lib/admin/seo-settings.php:379 lib/admin/seo-settings.php:403
+msgid "Apply %s to Date Archives?"
+msgstr "Cymhwyso %s i Archifau Dyddiad? "
+
+#: lib/admin/seo-settings.php:382 lib/admin/seo-settings.php:406
+msgid "Apply %s to Search Archives?"
+msgstr "Cymhwyso %s i Archifau Chwilio? "
+
+#: lib/admin/seo-settings.php:385
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "Bydd rhai peiriannau chwilio'n storio tudalennau yn eich gwefan (e.e. Google Cache). Bydd y tag %1$s yn eu hatal rhag gwneud hynny. Dewiswch pa archifau rydych am i %1$s gael eu cymhwyso iddynt."
+
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to Entire Site?"
+msgstr "Cymhwyso %s i'r wefan gyfan? "
+
+#: lib/admin/seo-settings.php:409
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "Ambell waith, mae peiriannau chwilio'n defnyddio adnoddau fel y Prosiect Cyfeiriadur Agored a Chyfeiriadur Yahoo! i ddod o hyd i deitlau a disgrifiadau ar gyfer eich cynnwys. Yn gyffredinol, ni fyddwch am iddynt wneud hyn. Bydd y tagiau %s a %s yn eu hatal rhag gwneud hyn. "
+
+#: lib/admin/seo-settings.php:413 lib/admin/seo-settings.php:416
+msgid "Apply %s to your site?"
+msgstr "Cymhwyso %s i'ch gwefan? "
+
+#: lib/admin/seo-settings.php:437
+msgid "Canonical Paginated Archives"
+msgstr "Archifau Tudalenedig Canonaidd "
+
+#: lib/admin/seo-settings.php:440
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "Mae'r opsiwn hwn yn cyfeirio peiriannau chwilio i dudalen gyntaf archif, os ydych yn edrych ar dudalen dudalenedig. Os nad ydych yn gwybod beth mae hyn yn ei olygu. "
+
+#: lib/admin/term-meta.php:55
+msgid "Archive Settings"
+msgstr "Gosodiadau Archifau "
+
+#: lib/admin/term-meta.php:59
+msgid "Archive Headline"
+msgstr "Pennawd Archif "
+
+#: lib/admin/term-meta.php:62
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Gadewch hyn yn wag os nad ydych am ddangos pennawd. "
+
+#: lib/admin/term-meta.php:66
+msgid "Archive Intro Text"
+msgstr "Testun Cyflwyniad Archif "
+
+#: lib/admin/term-meta.php:69
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Gadewch hyn yn wag os nad ydych am ddangos testun cyflwyniad. "
+
+#: lib/admin/term-meta.php:123 lib/admin/user-meta.php:187
+msgid "Custom Document %s"
+msgstr "Dogfen i'w Haddasu %s"
+
+#: lib/admin/term-meta.php:130 lib/admin/user-meta.php:194
+msgid "%s Description"
+msgstr "%s Disgrifiad "
+
+#: lib/admin/term-meta.php:137 lib/admin/user-meta.php:201
+msgid "%s Keywords"
+msgstr "%s Geiriau Allweddol "
+
+#: lib/admin/term-meta.php:140 lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "Rhestr wedi'i gwahanu â choma "
+
+#: lib/admin/term-meta.php:145 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Meta Robotiaid "
+
+#: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
+#: lib/admin/term-meta.php:152 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:214 lib/admin/user-meta.php:216
+msgid "Apply %s to this archive?"
+msgstr "Cymhwyso %s i'r archif hwn? "
+
+#: lib/admin/term-meta.php:206 lib/admin/user-meta.php:251
+msgid "Choose Layout"
+msgstr "Dewis Cynllun "
+
+#: lib/admin/theme-settings.php:91
+msgid "Follow me on Twitter"
+msgstr "Dilynwch fi ar Twitter "
+
+#: lib/admin/theme-settings.php:221
+msgid "Information"
+msgstr "Gwybodaeth "
+
+#: lib/admin/theme-settings.php:224
+msgid "Color Style"
+msgstr "Arddull Liwiau "
+
+#: lib/admin/theme-settings.php:226
+msgid "Custom Feeds"
+msgstr "Porthiannau i'w Haddasu "
+
+#: lib/admin/theme-settings.php:227
+msgid "Default Layout"
+msgstr "Cynllun Rhagosodedig "
+
+#: lib/admin/theme-settings.php:230
+msgid "Header"
+msgstr "Pennawd "
+
+#: lib/admin/theme-settings.php:233
+msgid "Navigation"
+msgstr "Llywio"
+
+#: lib/admin/theme-settings.php:236
+msgid "Breadcrumbs"
+msgstr "Briwsion Bara"
+
+#: lib/admin/theme-settings.php:238
+msgid "Comments and Trackbacks"
+msgstr "Sylwadau ac Olrhain "
+
+#: lib/admin/theme-settings.php:239
+msgid "Content Archives"
+msgstr "Archifau Cynnwys"
+
+#: lib/admin/theme-settings.php:240
+msgid "Blog Page Template"
+msgstr "Templed Tudalen Blog "
+
+#: lib/admin/theme-settings.php:243
+msgid "Header and Footer Scripts"
+msgstr "Sgriptiau Penynnau a Throedynnau "
+
+#: lib/admin/theme-settings.php:284
+msgid "Version:"
+msgstr "Fersiwn: "
+
+#: lib/admin/theme-settings.php:284
+msgid "Released:"
+msgstr "Cyhoeddwyd: "
+
+#: lib/admin/theme-settings.php:288
+msgid "Display Theme Information in your document source"
+msgstr "Dangos gwybodaeth thema yn ffynhonnell eich dogfen "
+
+#: lib/admin/theme-settings.php:292
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Gall hyn fod yn ddefnyddiol ar gyfer diagnosio problemau gyda'ch thema wrth geisio cymorth yn y <a href=\"%s\" target=\"_blank\">fforymau cefnogi</a>. "
+
+#: lib/admin/theme-settings.php:296
+msgid "Enable Automatic Updates"
+msgstr "Galluogi Diweddaru Awtomatig "
+
+#: lib/admin/theme-settings.php:301
+msgid "Notify"
+msgstr "Rhoi gwybod "
+
+#: lib/admin/theme-settings.php:303
+msgid "when updates are available"
+msgstr "pan fo diweddariad ar gael "
+
+#: lib/admin/theme-settings.php:306
+msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
+msgstr "Os rhowch gyfeiriad e-bost uchod, gall eich blog eich e-bostio pan fo fersiwn newydd o Genesis ar gael."
+
+#: lib/admin/theme-settings.php:329
+msgid "Color Style:"
+msgstr "Arddull Liwiau:"
+
+#: lib/admin/theme-settings.php:331 lib/tools/post-templates.php:159
+msgid "Default"
+msgstr "Rhagosodiad "
+
+#: lib/admin/theme-settings.php:343
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Dewiswch yr arddull liwiau o'r gwymplen a chadwch eich gosodiadau. "
+
+#: lib/admin/theme-settings.php:389
+msgid "Use for site title/logo:"
+msgstr "Defnyddiwch ar gyfer teitl/logo'r wefan: "
+
+#: lib/admin/theme-settings.php:391
+msgid "Dynamic text"
+msgstr "Testun deinamig "
+
+#: lib/admin/theme-settings.php:392
+msgid "Image logo"
+msgstr "Logo delwedd "
+
+#: lib/admin/theme-settings.php:418
+msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
+msgstr "Er mwyn defnyddio'r dewislenni llywio, mae'n rhaid creu <a href=\"%s\">dewislen i'w haddasu</a>, yna ei neilltuo i'r Lleoliad Dewislen priodol. "
+
+#: lib/admin/theme-settings.php:423
+msgid "Primary Navigation"
+msgstr "Llywio Cynradd "
+
+#: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:465
+msgid "Enable Fancy Dropdowns?"
+msgstr "Galluogi Cwymplenni Crand? "
+
+#: lib/admin/theme-settings.php:432
+msgid "Enable Extras on Right Side?"
+msgstr "Galluogi Ychwanegiadau ar yr Ochr Dde? "
+
+#: lib/admin/theme-settings.php:437
+msgid "Display the following:"
+msgstr "Dangoswch y canlynol: "
+
+#: lib/admin/theme-settings.php:439
+msgid "Today's date"
+msgstr "Dyddiad heddiw "
+
+#: lib/admin/theme-settings.php:440
+msgid "RSS feed links"
+msgstr "Dolenni porthiannau RSS "
+
+#: lib/admin/theme-settings.php:441
+msgid "Search form"
+msgstr "Chwilio o "
+
+#: lib/admin/theme-settings.php:442
+msgid "Twitter link"
+msgstr "Dolen Twitter"
+
+#: lib/admin/theme-settings.php:447
+msgid "Enter Twitter ID:"
+msgstr "Nodwch eich ID Twitter: "
+
+#: lib/admin/theme-settings.php:451
+msgid "Twitter Link Text:"
+msgstr "Testun Dolen Twitter: "
+
+#: lib/admin/theme-settings.php:461
+msgid "Secondary Navigation"
+msgstr "Llywio Eilaidd "
+
+#: lib/admin/theme-settings.php:487
+msgid "Enter your custom feed URI:"
+msgstr "Nodwch eich URI porthiant i'w addasu: "
+
+#: lib/admin/theme-settings.php:491 lib/admin/theme-settings.php:499
+msgid "Redirect Feed?"
+msgstr "Ailgyfeirio Porthiant? "
+
+#: lib/admin/theme-settings.php:495
+msgid "Enter your custom comments feed URI:"
+msgstr "Nodwch eich URI porthiant sylwadau i'w addasu: "
+
+#: lib/admin/theme-settings.php:502
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "Os nad yw'ch porthiant i'w addasu'n cael ei drin gan Feedburner, nid ydym yn argymell defnyddio'r opsiynau ailgyfeirio."
+
+#: lib/admin/theme-settings.php:521
+msgid "Enable Comments"
+msgstr "Galluogi Sylwadau "
+
+#: lib/admin/theme-settings.php:523 lib/admin/theme-settings.php:532
+msgid "on posts?"
+msgstr "ar byst? "
+
+#: lib/admin/theme-settings.php:526 lib/admin/theme-settings.php:535
+msgid "on pages?"
+msgstr "ar dudalennau? "
+
+#: lib/admin/theme-settings.php:530
+msgid "Enable Trackbacks"
+msgstr "Galluogi Olrhain "
+
+#: lib/admin/theme-settings.php:538
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "Gellir analluogi sylwadau ac olrhain hefyd fesul post/tudalen wrth greu/olygu pyst/tudalennau. "
+
+#: lib/admin/theme-settings.php:556
+msgid "Enable on:"
+msgstr "Galluogi ar: "
+
+#: lib/admin/theme-settings.php:560
+msgid "Front Page"
+msgstr "y dudalen flaen "
+
+#: lib/admin/theme-settings.php:563
+msgid "Posts Page"
+msgstr "y dudalen pyst "
+
+#: lib/admin/theme-settings.php:566
+msgid "Homepage"
+msgstr "y dudalen hafan "
+
+#: lib/admin/theme-settings.php:570 lib/structure/menu.php:149
+msgid "Posts"
+msgstr "pyst"
+
+#: lib/admin/theme-settings.php:573
+msgid "Pages"
+msgstr "tudalennau "
+
+#: lib/admin/theme-settings.php:576
+msgid "Archives"
+msgstr "archifau "
+
+#: lib/admin/theme-settings.php:579
+msgid "404 Page"
+msgstr "tudalen 404 "
+
+#: lib/admin/theme-settings.php:582
+msgid "Attachment Page"
+msgstr "tudalen atodi "
+
+#: lib/admin/theme-settings.php:585
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "Mae briwsion bara'n ffordd wych o roi gwybod i bobl sy'n mynd ar eich gwefan lle maen nhw trwy gipolwg yn unig. Gallwch eu galluogi/hanalluogi ar rannau penodol o'ch gwefan. "
+
+#: lib/admin/theme-settings.php:605
+msgid "Select one of the following:"
+msgstr "Dewiswch un o'r canlynol: "
+
+#: lib/admin/theme-settings.php:611
+msgid "Display post content"
+msgstr "Dangos cynnwys post "
+
+#: lib/admin/theme-settings.php:612
+msgid "Display post excerpts"
+msgstr "Dangos rhannau o bost "
+
+#: lib/admin/theme-settings.php:623 lib/widgets/featured-post-widget.php:353
+msgid "Limit content to"
+msgstr "Cyfyngu cynnwys i "
+
+#: lib/admin/theme-settings.php:625 lib/widgets/featured-post-widget.php:355
+msgid "characters"
+msgstr "o gymeriadau "
+
+#: lib/admin/theme-settings.php:628
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "Bydd defnyddio'r opsiwn hwn yn cyfyngu'r testun ac yn tynnu'r holl fformatio o'r testun a ddangosir. Er mwyn defnyddio'r opsiwn hwn, dewiswch \"Dangos cynnwys post\" yn y blwch dewis uchod. "
+
+#: lib/admin/theme-settings.php:633
+msgid "Include the Featured Image?"
+msgstr "Cynnwys y Ddelwedd a Ddangosir? "
+
+#: lib/admin/theme-settings.php:637
+msgid "Image Size:"
+msgstr "Maint y Ddelwedd: "
+
+#: lib/admin/theme-settings.php:648
+msgid "Select Post Navigation Technique:"
+msgstr "Dewis Techneg Llywio Pyst: "
+
+#: lib/admin/theme-settings.php:650
+msgid "Older / Newer"
+msgstr "Hŷn/Newyddach"
+
+#: lib/admin/theme-settings.php:651
+msgid "Previous / Next"
+msgstr "Blaenorol/Nesaf "
+
+#: lib/admin/theme-settings.php:652
+msgid "Numeric"
+msgstr "Rhifol "
+
+#: lib/admin/theme-settings.php:656
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Bydd yr opsiynau hyn yn effeithio ar unrhyw dudalen restriadau blog, gan gynnwys tudalennau archif, awdur, blog, categori, chwiliad, a thudalennau tag."
+
+#: lib/admin/theme-settings.php:674
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Bydd y gosodiadau hyn yn berthnasol i unrhyw dempled tudalen \"Blog\", nid y dudalen na thudalennau archifau post. "
+
+#: lib/admin/theme-settings.php:679
+msgid "Display which category:"
+msgstr "Dangos pa gategori: "
+
+#: lib/admin/theme-settings.php:680 lib/widgets/featured-post-widget.php:231
+msgid "All Categories"
+msgstr "Pob Categori"
+
+#: lib/admin/theme-settings.php:684
+msgid "Exclude the following Category IDs:"
+msgstr "Eithrio'r IDs categori canlynol: "
+
+#: lib/admin/theme-settings.php:686
+msgid "Comma separated - 1,2,3 for example"
+msgstr "Wedi'u gwahanu â choma - 1,2,3 er enghraifft "
+
+#: lib/admin/theme-settings.php:691
+msgid "Number of Posts to Show:"
+msgstr "Nifer y pyst i'w dangos: "
+
+#: lib/admin/theme-settings.php:712 lib/admin/theme-settings.php:722
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "Nodwch y sgriptiau neu'r codau yr hoffech eu hallbynnu i %s: "
+
+#: lib/admin/theme-settings.php:717 lib/admin/theme-settings.php:727
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "Mae'r bachyn %1$s yn gweithredu ar unwaith cyn y tag %2$s cloi yn y ffynhonnell ddogfen. "
+
+#: lib/admin/user-meta.php:25
+msgid "Google+"
+msgstr "Google+ "
+
+#: lib/admin/user-meta.php:73
+msgid "User Permissions"
+msgstr "Caniatâd Defnyddwyr "
+
+#: lib/admin/user-meta.php:77
+msgid "Genesis Admin Menus"
+msgstr "Dewislenni Gweinyddu Genesis"
+
+#: lib/admin/user-meta.php:80
+msgid "Enable Genesis Admin Menu?"
+msgstr "Galluogi Dewislen Weinyddu Genesis? "
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr "Galluogi Is-ddewislen Osodiadau SEO? "
+
+#: lib/admin/user-meta.php:84
+msgid "Enable Import/Export Submenu?"
+msgstr "Galluogi Is-ddewislen Fewnforio/Allforio? "
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "Gosodiadau Archif Awdur "
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:247
+msgid "These settings apply to this author's archive pages."
+msgstr "Mae'r gosodiadau hyn yn berthnasol i dudalennau archif yr awdur hwn. "
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "Pennawd Archif i'w Addasu "
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "I'w weld yn y tag %s ar ben y dudalen gyntaf "
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "Testun Disgrifiad i'w Addasu "
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "Y testun hwn fydd y paragraff cyntaf a bydd i'w weld ar y dudalen gyntaf "
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "Blwch Awdur "
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Galluogi Blwch Awdur ar Byst y Defnyddiwr hwn? "
+
+#: lib/admin/user-meta.php:145
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Galluogi Blwch Awdur ar Archifau'r Defnyddiwr hwn? "
+
+#: lib/admin/whats-new.php:38
+msgid "Welcome to Genesis %s"
+msgstr "Croeso i Genesis %s"
+
+#: lib/admin/whats-new.php:65
+msgid "Thank you for updating to the latest version! Using Genesis %s will give you more options than you've ever had and your website will continue to purr like a kitten."
+msgstr "Diolch am ddiweddaru'r fersiwn ddiweddaraf! Bydd defnyddio Genesis %s yn rhoi mwy o opsiynau i chi nag erioed a bydd eich gwefan yn parhau i weithredu'n esmwyth. "
+
+#: lib/admin/whats-new.php:68
+msgid "What&#8217;s New"
+msgstr "Beth&#8217;sy'n Newydd "
+
+#: lib/admin/whats-new.php:71
+msgid "Updated Design and Wider Layout"
+msgstr "Dyluniad wedi'i Ddiweddaru a Chynllun Lletach "
+
+#: lib/admin/whats-new.php:73
+msgid "Updated Security Audit"
+msgstr "Archwiliad Diogelwch wedi'i Ddiweddaru "
+
+#: lib/admin/whats-new.php:74
+msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
+msgstr "Mae'n bwysig iawn i ni ein bod yn rhoi'r fframwaith gorau posibl i chi, felly unwaith eto llogwyd Mark Jaquith, Prif Ddatblygwr WordPress, i gynnal adolygiad cyflawn o'r côd diogelwch fel mae wedi'i wneud yn y gorffennol. "
+
+#: lib/admin/whats-new.php:75
+msgid "Google Author Highlights"
+msgstr "Uchafbwyntiau Awdur Google "
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
+msgstr "Mae Genesis nawr yn cynnig cefnogaeth ar gyfer amlygu awdur. Mae hyn yn caniatáu i Google gysylltu'ch cynnwys â chynnwys Google+. Golygwch eich proffil, dewch o hyd i'r maes lle gallwch nodi'ch URL cyfrif Google+, a'i gadw. Mae Genesis yn gwneud y gweddill. Ac os ydych chi eisiau cysylltu awdur â'r dudalen hafan, gallwch wneud hynny yn Gosodiadau SEO. "
+
+#: lib/admin/whats-new.php:78
+msgid "Deprecating Widgets"
+msgstr "Anghymeradwyo Dyfeisiau "
+
+#: lib/admin/whats-new.php:79
+msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
+msgstr "Mae Genesis bob amser wedi cynnwys dyfeisiau defnyddiol i'ch helpu i adeiladu'ch gwefannau'n gyflymach ac yn haws. Ond yn ddiweddar, sylweddolon ni y dylai rhai o'r dyfeisiau hyn fod yn ategion, fel y gall awduron ddiweddaru'n amlach, a chewch gôd mwy cyfoes. Felly, mae'r dyfeisiau \"e-Newyddion a Diweddariadau\" a \"Thrydarau Diweddaraf\" yn cael eu cludo i ategion ac yn y pen draw cânt eu dileu o Genesis. "
+
+#: lib/admin/whats-new.php:81
+msgid "Genesis Category/Page Menu Widgets Removed"
+msgstr "Dilëwyd Dyfeisiau Categori Genesis/Dewislen Tudalennau "
+
+#: lib/admin/whats-new.php:82
+msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."
+msgstr "Anghymeradwywyd y dyfeisiau categori a dewislen tudalennau ychydig o gyhoeddiadau yn ôl, ac ers y cyhoeddiad hwn, rydyn ni wedi'u dileu o'r fframwaith yn gyfan gwbl. Os oeddech chi'n dal i ddefnyddio'r naill ddyfais neu'r llall, byddwch yn sylwi nad yw'ch dewislen i'w gweld bellach. "
+
+#: lib/admin/whats-new.php:83
+msgid "You will need to build a <a href=\"%s\">custom menu</a> and add the custom menu widget to the Header Right widget area."
+msgstr "Bydd angen i chi lunio <a href=\"%s\">dewislen bwrpasol</a> ac ychwanegu dyfais y ddewislen i'w haddasu at y man dyfais Pennyn De. "
+
+#: lib/admin/whats-new.php:85
+msgid "Other Geeky Stuff"
+msgstr "Pethau Gici Eraill "
+
+#: lib/admin/whats-new.php:86
+msgid "We also fixed a lot of little bugs, improved some things, and generally made the framework a more solid foundation for you to use. We hope you enjoy this latest release!"
+msgstr "Rydyn ni hefyd wedi atgyweirio llawer o namau bach, wedi gwella rhai pethau, ac yn gyffredinol wedi gwneud y fframwaith yn sylfaen cadarnach i chi ei ddefnyddio. Gobeithio y byddwch yn mwynhau'r cyhoeddiad hwn! "
+
+#: lib/admin/whats-new.php:91
+msgid "Genesis 2.0 Roadmap"
+msgstr "Map Ffordd Genesis 2.0 "
+
+#: lib/admin/whats-new.php:93
+msgid "Support for HTML5 Markup"
+msgstr "Cefnogaeth ar gyfer Marcio HTML5 "
+
+#: lib/admin/whats-new.php:94
+msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
+msgstr "Mae gennym gynlluniau mawr ar gyfer strwythur marcio newydd yn Genesis 2.0, y cyfan wedi'i lunio â HTML5. "
+
+#: lib/admin/whats-new.php:96
+msgid "A New Mobile Strategy"
+msgstr "Strategaeth Symudol Newydd "
+
+#: lib/admin/whats-new.php:97
+msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
+msgstr "Rhag ofn nad yw'n amlwg, rydyn ni'n hoff iawn o ddylunio ar gyfer dyfeisiau symudol yma. Felly, rydyn ni'n mynd i fod yn gwneud rhai pethau a fydd yn hwyluso paratoi'ch gwefan gyda Genesis yn 2.0. "
+
+#: lib/admin/whats-new.php:103
+msgid "Project Leads"
+msgstr "Prif Swyddogion y Prosiect "
+
+#: lib/admin/whats-new.php:109 lib/admin/whats-new.php:114
+#: lib/admin/whats-new.php:119
+msgid "Lead Developer"
+msgstr "Datblygwr Arweiniol "
+
+#: lib/admin/whats-new.php:127
+msgid "Contributors"
+msgstr "Cyfranwyr "
+
+#: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
+#: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
+#: lib/admin/whats-new.php:153 lib/admin/whats-new.php:158
+#: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
+#: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
+msgid "Contributor"
+msgstr "Cyfrannwr "
+
+#: lib/admin/whats-new.php:185
+msgid "Go to Theme Settings &rarr;"
+msgstr "Ewch i Osodiadau Thema &rarr; "
+
+#: lib/admin/whats-new.php:186
+msgid "Go to SEO Settings &rarr;"
+msgstr "Ewch i Osodiadau SEO &rarr; "
+
+#: lib/classes/admin.php:118
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "Ni allwch ddefnyddio %s i greu dwy ddewislen yn yr un isddosbarth. Defnyddiwch isddosbarthiadau gwahanol ar gyfer pob dewislen. "
+
+#: lib/classes/admin.php:415 lib/classes/admin.php:424
+#: lib/classes/admin.php:527 lib/classes/admin.php:546
+msgid "Are you sure you want to reset?"
+msgstr "Ydych chi'n siŵr eich bod am ailosod? "
+
+#: lib/classes/breadcrumb.php:54 lib/functions/menu.php:133
+msgid "Home"
+msgstr "Hafan "
+
+#: lib/classes/breadcrumb.php:63
+msgid "You are here: "
+msgstr "Rydych chi yma: "
+
+#: lib/classes/breadcrumb.php:64 lib/classes/breadcrumb.php:65
+#: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
+#: lib/classes/breadcrumb.php:69 lib/classes/breadcrumb.php:70
+msgid "Archives for "
+msgstr "Archifau ar gyfer "
+
+#: lib/classes/breadcrumb.php:68
+msgid "Search for "
+msgstr "Chwiliwch am "
+
+#: lib/classes/breadcrumb.php:71
+msgid "Not found: "
+msgstr "Heb ganfod: "
+
+#: lib/classes/breadcrumb.php:120 lib/classes/breadcrumb.php:215
+#: lib/classes/breadcrumb.php:281
+msgid "View %s"
+msgstr "Gweld %s"
+
+#: lib/classes/breadcrumb.php:300
+msgid "View all posts in %s"
+msgstr "Gweld pob post yn %s"
+
+#: lib/classes/breadcrumb.php:321
+msgid "View all %s"
+msgstr "Gweld pob %s "
+
+#: lib/classes/breadcrumb.php:403 lib/classes/breadcrumb.php:427
+msgid "View archives for %s"
+msgstr "Gweld archifau ar gyfer %s "
+
+#: lib/classes/breadcrumb.php:433
+msgid "View archives for %s %s"
+msgstr "Gweld archifau ar gyfer %s %s "
+
+#: lib/classes/breadcrumb.php:525
+msgid "View all items in %s"
+msgstr "Gweld pob eitem yn %s"
+
+#: lib/functions/admin.php:15
+msgid "This file no longer needs to be included."
+msgstr "Does dim angen cynnwys y ffeil hon bellach. "
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "seconds"
+msgstr "eiliadau "
+
+#: lib/functions/formatting.php:296
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s blwyddyn "
+msgstr[1] "%s blwyddyn "
+msgstr[2] "%s blwyddyn "
+msgstr[3] "%s blwyddyn "
+
+#: lib/functions/formatting.php:297
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mis "
+msgstr[1] "%s mis "
+msgstr[2] "%s mis "
+msgstr[3] "%s mis "
+
+#: lib/functions/formatting.php:298
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s wythnos"
+msgstr[1] "%s wythnos"
+msgstr[2] "%s wythnos"
+msgstr[3] "%s wythnos"
+
+#: lib/functions/formatting.php:299
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dydd"
+msgstr[1] "%s dydd"
+msgstr[2] "%s dydd"
+msgstr[3] "%s dydd"
+
+#: lib/functions/formatting.php:300
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s awr"
+msgstr[1] "%s awr"
+msgstr[2] "%s awr"
+msgstr[3] "%s awr"
+
+#: lib/functions/formatting.php:301
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s munud "
+msgstr[1] "%s munud "
+msgstr[2] "%s munud "
+msgstr[3] "%s munud "
+
+#: lib/functions/formatting.php:302
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s eiliad"
+msgstr[1] "%s eiliad"
+msgstr[2] "%s eiliad"
+msgstr[3] "%s eiliad"
+
+#: lib/functions/formatting.php:327
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "a "
+
+#: lib/functions/layout.php:37
+msgid "Content-Sidebar"
+msgstr "Cynnwys-Bar Ochr "
+
+#: lib/functions/layout.php:46
+msgid "Sidebar-Content"
+msgstr "Bar Ochr-Cynnwys "
+
+#: lib/functions/layout.php:54
+msgid "Content-Sidebar-Sidebar"
+msgstr "Cynnwys-Bar Ochr-Bar Ochr "
+
+#: lib/functions/layout.php:62
+msgid "Sidebar-Sidebar-Content"
+msgstr "Bar Ochr-Bar Ochr-Cynnwys "
+
+#: lib/functions/layout.php:70
+msgid "Sidebar-Content-Sidebar"
+msgstr "Bar Ochr-Cynnwys-Bar Ochr "
+
+#: lib/functions/layout.php:78
+msgid "Full Width Content"
+msgstr "Cynnwys Lled Llawn"
+
+#: lib/functions/layout.php:123
+msgid "No Label Selected"
+msgstr "Dim Label wedi'i Ddewis "
+
+#: lib/functions/menu.php:104
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "Mae'r ddadl, \"cyd-destun\", wedi'i disodli gan \"leoliad_thema\" yn yr aräe $args. "
+
+#: lib/functions/seo.php:122
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "Ydych chi wedi rhoi cynnig ar Scribe, ein meddalwedd marchnata cynnwys? Gwnewch ymchwil, optimeiddio cynnwys a gwefannau, a meithrin perthynas heb adael WordPress. <b>Mae perchnogion Genesis yn arbed llawer wrth ddefnyddio'r ddolen arbennig ar y dudalen arbennig rydym wedi'i chreu'n bwrpasol i chi</b>. <a href=\"%s\" target=\"_blank\">Cliciwch yma am fwy o wybodaeth</a>. "
+
+#: lib/functions/seo.php:124
+msgid "Dismiss"
+msgstr "Anwybyddu "
+
+#: lib/functions/upgrade.php:411
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "Llongyfarchiadau! Rydych chi nawr yn feistr ar Genesis %s "
+
+#: lib/functions/upgrade.php:436
+msgid "Click here to complete the upgrade"
+msgstr "Cliciwch yma i gwblhau'r gwaith uwchraddio "
+
+#: lib/functions/upgrade.php:461
+msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
+msgstr "Mae Genesis %s ar gael. <a href=\"%s\" class=\"thickbox thickbox-preview\">Dewch i weld yr hyn sy'n newydd</a> neu <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">uwchraddio nawr</a>. "
+
+#: lib/functions/upgrade.php:465
+msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
+msgstr "Bydd uwchraddio Genesis yn trosysgrifo'r fersiwn bresennol o Genesis. Ydych chi'n siŵr eich bod am uwchraddio? \"Canslwch\" i stopio, \"Iawn\" i uwchraddio. "
+
+#: lib/functions/upgrade.php:507
+msgid "Genesis %s is available for %s"
+msgstr "Mae Genesis %s ar gael ar gyfer %s "
+
+#: lib/functions/upgrade.php:508
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Mae Genesis %s nawr ar gael. Rydyn ni wedi darparu diweddariadau un clic ar gyfer y thema hon, felly mewngofnodwch i'ch dangosfwrdd cyn gynted ag y bydd yn gyfleus i chi. "
+
+#: lib/functions/widgetize.php:63
+msgid "Header Left"
+msgstr "Penynnau Chwith "
+
+#: lib/functions/widgetize.php:63
+msgid "Header Right"
+msgstr "Penynnau De "
+
+#: lib/functions/widgetize.php:64
+msgid "This is the widget area in the header."
+msgstr "Dyma'r man dyfeisiau yn y pennyn. "
+
+#: lib/functions/widgetize.php:71
+msgid "Primary Sidebar"
+msgstr "Prif Far Ochr "
+
+#: lib/functions/widgetize.php:72
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Dyma'r prif far ochr os ydych chi'n defnyddio opsiwn cynllun gwefan dwy neu dair colofn. "
+
+#: lib/functions/widgetize.php:79
+msgid "Secondary Sidebar"
+msgstr "Bar Ochr Eilaidd "
+
+#: lib/functions/widgetize.php:80
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "Dyma'r bar ochr eilaidd os ydych chi'n defnyddio opsiwn cynllun gwefan tair colofn. "
+
+#: lib/functions/widgetize.php:112
+msgid "Footer %d"
+msgstr "Troedyn %d "
+
+#: lib/functions/widgetize.php:113
+msgid "Footer %d widget area."
+msgstr "Man dyfeisiau %d troedynnau. "
+
+#: lib/init.php:47
+msgid "Primary Navigation Menu"
+msgstr "Prif Ddewislen Lywio "
+
+#: lib/init.php:48
+msgid "Secondary Navigation Menu"
+msgstr "Dewislen Lywio Eilaidd "
+
+#: lib/js/load-scripts.php:85
+msgid "Select / Deselect All"
+msgstr "Dewis/Dad-ddewis Pob Un "
+
+#: lib/shortcodes/footer.php:41
+msgid "Return to top of page"
+msgstr "Dychwelyd i frig y dudalen "
+
+#: lib/shortcodes/footer.php:176
+msgid "by "
+msgstr "trwy "
+
+#: lib/shortcodes/footer.php:241
+msgid "Log in"
+msgstr "Mewngofnodi "
+
+#: lib/shortcodes/footer.php:243
+msgid "Log out"
+msgstr "Allgofnodi "
+
+#: lib/shortcodes/post.php:43
+msgid "ago"
+msgstr "yn ôl "
+
+#: lib/shortcodes/post.php:140
+msgid "Visit %s&#x02019;s website"
+msgstr "Mynd i wefan %s&#x02019;s "
+
+#: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
+msgid "% Comments"
+msgstr "% Sylwadau "
+
+#: lib/shortcodes/post.php:206 lib/widgets/featured-page-widget.php:101
+msgid "1 Comment"
+msgstr "1 sylw"
+
+#: lib/shortcodes/post.php:207 lib/widgets/featured-page-widget.php:101
+msgid "Leave a Comment"
+msgstr "Gadael Sylw "
+
+#: lib/shortcodes/post.php:247
+msgid "Tagged With: "
+msgstr "Tagiwyd Â: "
+
+#: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
+msgid "Filed Under: "
+msgstr "Ffeiliwyd Dan: "
+
+#: lib/shortcodes/post.php:364 lib/structure/comments.php:189
+#: lib/structure/post.php:207 lib/widgets/featured-page-widget.php:103
+msgid "(Edit)"
+msgstr "(Golygu) "
+
+#: lib/structure/comments.php:63
+msgid "<h3>Comments</h3>"
+msgstr "<h3>Sylwadau</h3> "
+
+#: lib/structure/comments.php:114
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>Olrhain</h3> "
+
+#: lib/structure/comments.php:184
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:184
+msgid "says"
+msgstr "yn dweud "
+
+#: lib/structure/comments.php:188
+msgid "%1$s at %2$s"
+msgstr "%1$s yn %2$s "
+
+#: lib/structure/comments.php:195
+msgid "Your comment is awaiting moderation."
+msgstr "Mae'ch sylw wrthi'n cael ei gymedroli. "
+
+#: lib/structure/comments.php:252
+msgid "Name"
+msgstr "Enw "
+
+#: lib/structure/comments.php:258
+msgid "Email"
+msgstr "E-bost "
+
+#: lib/structure/comments.php:264
+msgid "Website"
+msgstr "Gwefan "
+
+#: lib/structure/comments.php:278
+msgid "Speak Your Mind"
+msgstr "Dweud eich Dweud "
+
+#: lib/structure/footer.php:110
+msgid "Copyright"
+msgstr "Hawlfraint "
+
+#: lib/structure/footer.php:110
+msgid "on"
+msgstr "ar "
+
+#: lib/structure/loops.php:192
+msgid "Read more"
+msgstr "Darllen mwy "
+
+#: lib/structure/menu.php:150
+msgid "Comments"
+msgstr "Sylwadau "
+
+#: lib/structure/post.php:214 lib/structure/post.php:216
+msgid "[Read more...]"
+msgstr "[Darllen mwy...] "
+
+#: lib/structure/post.php:233
+msgid "Sorry, no posts matched your criteria."
+msgstr "Blin iawn, doedd yr un post yn cyfateb i'ch meini prawf. "
+
+#: lib/structure/post.php:259 lib/widgets/featured-page-widget.php:98
+msgid "by"
+msgstr "ger"
+
+#: lib/structure/post.php:334
+msgid "About"
+msgstr "Ynghylch "
+
+#: lib/structure/post.php:379
+msgid "Older Posts"
+msgstr "Pyst Hŷn "
+
+#: lib/structure/post.php:380
+msgid "Newer Posts"
+msgstr "Pyst Newyddach"
+
+#: lib/structure/post.php:400 lib/structure/post.php:462
+msgid "Previous Page"
+msgstr "Tudalen Flaenorol "
+
+#: lib/structure/post.php:401 lib/structure/post.php:492
+msgid "Next Page"
+msgstr "Tudalen Nesaf "
+
+#: lib/structure/search.php:23
+msgid "Search this website"
+msgstr "Chwilio'r wefan hon"
+
+#: lib/structure/search.php:25
+msgid "Search"
+msgstr "Chwilio "
+
+#: lib/structure/sidebar.php:24
+msgid "Primary Sidebar Widget Area"
+msgstr "Prif Fan Dyfeisiau Bar Ochr "
+
+#: lib/structure/sidebar.php:27
+msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Dyma'r Prif Fan Dyfeisiau Bar Ochr. Gallwch ychwanegu cynnwys at y man hwn trwy fynd i'ch <a href=\"%s\">Panel Dyfeisiau</a> ac ychwanegu dyfeisiau newydd at y man hwn. "
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "Man Dyfeisiau Bar Ochr Eilaidd "
+
+#: lib/structure/sidebar.php:48
+msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Dyma'r Man Dyfeisiau Bar Ochr Eilaidd. Gallwch ychwanegu cynnwys at y man hwn trwy fynd i'ch <a href=\"%s\">Panel Dyfeisiau</a> ac ychwanegu dyfeisiau newydd at y man hwn. "
+
+#: lib/tools/post-templates.php:132
+msgid "Single Post Template"
+msgstr "Templed Un Post "
+
+#: lib/tools/post-templates.php:157
+msgid "Post Template"
+msgstr "Templed Post "
+
+#: lib/tools/post-templates.php:162
+msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
+msgstr "Mae gan rai themâu dempledi i'w hgaddasu y gallwch eu defnyddio ar gyfer pyst sengl a all gynnwys nodweddion ychwanegol neu gynlluniau i'w haddasu. Os gwnewch hyn, byddwch yn eu gweld uchod."
+
+#: lib/widgets/enews-widget.php:38
+msgid "Enter your email address ..."
+msgstr "Nodi'ch cyfeiriad e-bost ... "
+
+#: lib/widgets/enews-widget.php:39
+msgid "Go"
+msgstr "Ewch "
+
+#: lib/widgets/enews-widget.php:44
+msgid "Displays Feedburner email subscribe form"
+msgstr "Dangos ffurflen tanysgrifio e-byst Feedburner "
+
+#: lib/widgets/enews-widget.php:47
+msgid "Genesis - eNews and Updates"
+msgstr "Genesis - e-Newyddion a Diweddariadau "
+
+#: lib/widgets/enews-widget.php:115 lib/widgets/enews-widget.php:124
+#: lib/widgets/latest-tweets-widget.php:181
+#: lib/widgets/latest-tweets-widget.php:190
+msgid "This widget has been deprecated, and should no longer be used."
+msgstr "Mae'r ddyfais hon wedi'i anghymeradwyo ac ni ddylid ei ddefnyddio bellach. "
+
+#: lib/widgets/enews-widget.php:116
+msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr "Os hoffech barhau i ddefnyddio ymarferoldeb dyfais e-Newyddion, gofynnwch i weinyddwr gwefan <a href=\"%s\" target=\"_blank\">osod y safle ategion hwn</a> a defnyddiwch ddyfais Estynedig e-Newyddion Genesis i ddisodli'r ddyfais hon. "
+
+#: lib/widgets/enews-widget.php:125
+msgid "If you would like to continue to use the eNews widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
+msgstr "Os hoffech barhau i ddefnyddio ymarferoldeb dyfais e-Newyddion, <a href=\"%s\" class=\"thickbox\" title=\"gosodwch ddyfais Estynedig e-Newyddion Genesis\">gosodwch y safle ategion hwn</a> a defnyddiwch ddyfais Estynedig e-Newyddion Genesis i ddisodli'r ddyfais hon."
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Dangos y dudalen a ddangosir â mân-luniau "
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Genesis - Tudalen a Ddangosir "
+
+#: lib/widgets/featured-page-widget.php:159
+#: lib/widgets/featured-post-widget.php:215
+#: lib/widgets/featured-post-widget.php:251
+#: lib/widgets/featured-post-widget.php:371
+#: lib/widgets/user-profile-widget.php:136
+msgid "Title"
+msgstr "Teitl "
+
+#: lib/widgets/featured-page-widget.php:164
+msgid "Page"
+msgstr "Tudalen "
+
+#: lib/widgets/featured-page-widget.php:172
+#: lib/widgets/featured-post-widget.php:301
+msgid "Show Featured Image"
+msgstr "Dangos y Ddelwedd a Ddangosir "
+
+#: lib/widgets/featured-page-widget.php:176
+#: lib/widgets/featured-post-widget.php:305
+msgid "Image Size"
+msgstr "Maint y Ddelwedd "
+
+#: lib/widgets/featured-page-widget.php:188
+#: lib/widgets/featured-post-widget.php:317
+msgid "Image Alignment"
+msgstr "Alinio Delweddau "
+
+#: lib/widgets/featured-page-widget.php:190
+#: lib/widgets/featured-post-widget.php:289
+#: lib/widgets/featured-post-widget.php:319
+#: lib/widgets/user-profile-widget.php:160
+#: lib/widgets/user-profile-widget.php:180
+msgid "None"
+msgstr "Dim "
+
+#: lib/widgets/featured-page-widget.php:200
+msgid "Show Page Title"
+msgstr "Dangos Teitl y Dudalen "
+
+#: lib/widgets/featured-page-widget.php:205
+msgid "Show Page Byline"
+msgstr "Dangos Llinell Enw'r Dudalen "
+
+#: lib/widgets/featured-page-widget.php:210
+msgid "Show Page Content"
+msgstr "Dangos Cynnwys y Dudalen "
+
+#: lib/widgets/featured-page-widget.php:214
+msgid "Content Character Limit"
+msgstr "Terfyn Nodau'r Cynnwys "
+
+#: lib/widgets/featured-page-widget.php:219
+msgid "More Text"
+msgstr "Mwy o Destun "
+
+#: lib/widgets/featured-post-widget.php:51
+msgid "By"
+msgstr "Ger "
+
+#: lib/widgets/featured-post-widget.php:54
+msgid "[Read More...]"
+msgstr "[Darllenwch fwy...] "
+
+#: lib/widgets/featured-post-widget.php:58
+msgid "More Posts from this Category"
+msgstr "Mwy o byst o'r Categori hwn "
+
+#: lib/widgets/featured-post-widget.php:63
+msgid "Displays featured posts with thumbnails"
+msgstr "Dangos y pyst a gaiff eu cynnwys â mân-luniau "
+
+#: lib/widgets/featured-post-widget.php:72
+msgid "Genesis - Featured Posts"
+msgstr "Genesis - Pyst a Gynhwysir "
+
+#: lib/widgets/featured-post-widget.php:224
+msgid "Category"
+msgstr "Categori "
+
+#: lib/widgets/featured-post-widget.php:238
+#: lib/widgets/featured-post-widget.php:376
+msgid "Number of Posts to Show"
+msgstr "Nifer y pyst i'w dangos"
+
+#: lib/widgets/featured-post-widget.php:243
+msgid "Number of Posts to Offset"
+msgstr "Nifer y pyst i'w gwrthincio "
+
+#: lib/widgets/featured-post-widget.php:248
+msgid "Order By"
+msgstr "Archebu erbyn "
+
+#: lib/widgets/featured-post-widget.php:250
+msgid "Date"
+msgstr "Dyddiad"
+
+#: lib/widgets/featured-post-widget.php:252
+msgid "Parent"
+msgstr "Rhiant "
+
+#: lib/widgets/featured-post-widget.php:253
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:254
+msgid "Comment Count"
+msgstr "Nifer y Sylwadau"
+
+#: lib/widgets/featured-post-widget.php:255
+msgid "Random"
+msgstr "Hap "
+
+#: lib/widgets/featured-post-widget.php:260
+msgid "Sort Order"
+msgstr "Rhoi mewn Trefn "
+
+#: lib/widgets/featured-post-widget.php:262
+msgid "Descending (3, 2, 1)"
+msgstr "Disgynnol (3, 2, 1) "
+
+#: lib/widgets/featured-post-widget.php:263
+msgid "Ascending (1, 2, 3)"
+msgstr "Esgynnol (1, 2, 3) "
+
+#: lib/widgets/featured-post-widget.php:273
+msgid "Show Author Gravatar"
+msgstr "Dangos Awdur y Gravatar "
+
+#: lib/widgets/featured-post-widget.php:277
+#: lib/widgets/user-profile-widget.php:146
+msgid "Gravatar Size"
+msgstr "Maint y Gravatar "
+
+#: lib/widgets/featured-post-widget.php:279
+msgid "Small (45px)"
+msgstr "Bach (45px) "
+
+#: lib/widgets/featured-post-widget.php:280
+msgid "Medium (65px)"
+msgstr "Canolig (65px) "
+
+#: lib/widgets/featured-post-widget.php:281
+msgid "Large (85px)"
+msgstr "Mawr (85px) "
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Extra Large (125px)"
+msgstr "Mawr Iawn (125px) "
+
+#: lib/widgets/featured-post-widget.php:287
+#: lib/widgets/user-profile-widget.php:158
+msgid "Gravatar Alignment"
+msgstr "Alinio'r Gravatar "
+
+#: lib/widgets/featured-post-widget.php:335
+msgid "Show Post Title"
+msgstr "Dangos Teitl y Post "
+
+#: lib/widgets/featured-post-widget.php:340
+msgid "Show Post Info"
+msgstr "Dangos Gwybodaeth y Post "
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Content Type"
+msgstr "Math o Gynnwys"
+
+#: lib/widgets/featured-post-widget.php:347
+msgid "Show Content"
+msgstr "Dangos y Cynnwys "
+
+#: lib/widgets/featured-post-widget.php:348
+msgid "Show Excerpt"
+msgstr "Dangos Darn"
+
+#: lib/widgets/featured-post-widget.php:349
+msgid "Show Content Limit"
+msgstr "Dangos Terfyn y Cynnwys"
+
+#: lib/widgets/featured-post-widget.php:350
+msgid "No Content"
+msgstr "Dim Cynnwys"
+
+#: lib/widgets/featured-post-widget.php:360
+msgid "More Text (if applicable)"
+msgstr "Mwy o Destun (os yw'n berthnasol) "
+
+#: lib/widgets/featured-post-widget.php:368
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "I ddangos rhestr ddi-drefn o fwy o byst o'r categori hwn, llenwch yr wybodaeth isod "
+
+#: lib/widgets/featured-post-widget.php:386
+msgid "Show Category Archive Link"
+msgstr "Dangos Dolen Archifau'r Categori "
+
+#: lib/widgets/featured-post-widget.php:390
+msgid "Link Text"
+msgstr "Cysylltu'r Testun "
+
+#: lib/widgets/latest-tweets-widget.php:49
+msgid "Display a list of your latest tweets."
+msgstr "Dangos rhestr o'ch trydarau diweddaraf. "
+
+#: lib/widgets/latest-tweets-widget.php:58
+msgid "Genesis - Latest Tweets"
+msgstr "Genesis - Trydar Diweddaraf "
+
+#: lib/widgets/latest-tweets-widget.php:98
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr "Mae API Twitter yn cymryd gormod o amser i ymateb. Rhowch gynnig arall yn nes ymlaen. "
+
+#: lib/widgets/latest-tweets-widget.php:101
+msgid "There was an error while attempting to contact the Twitter API. Please try again."
+msgstr "Bu gwall wrth geisio cysylltu ag API Twitter. Rhowch gynnig arall. "
+
+#: lib/widgets/latest-tweets-widget.php:104
+msgid "The Twitter API returned an error while processing your request. Please try again."
+msgstr "Dychwelodd API Twitter wrth brosesu'ch cais. Rhowch gynnig arall. "
+
+#: lib/widgets/latest-tweets-widget.php:118
+msgid "about %s ago"
+msgstr "tua %s yn ôl "
+
+#: lib/widgets/latest-tweets-widget.php:182
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a>."
+msgstr "Os hoffech barhau i ddefnyddio ymarferoldeb dyfais y Trydar Diweddaraf, trefnwch i weinyddwr gwefan <a href=\"%s\" target=\"_blank\">osod y safle ategion hwn</a>. "
+
+#: lib/widgets/latest-tweets-widget.php:191
+msgid "If you would like to continue to use the Latest Tweets widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">install this plugin</a>."
+msgstr "Os hoffech barhau i ddefnyddio ymarferoldeb dyfais y Trydar Diweddaraf, <a href=\"%s\" class=\"thickbox\" title=\"Gosodwch Drydar Diweddaraf Genesis\">gosodwch y safle ategion hwn</a>. "
+
+#: lib/widgets/user-profile-widget.php:42
+msgid "Read More"
+msgstr "Darllen mwy "
+
+#: lib/widgets/user-profile-widget.php:48
+msgid "Displays user profile block with Gravatar"
+msgstr "Dangos bloc proffil defnyddiwr gyda Gravatar "
+
+#: lib/widgets/user-profile-widget.php:57
+msgid "Genesis - User Profile"
+msgstr "Genesis - Proffil Defnyddiwr "
+
+#: lib/widgets/user-profile-widget.php:96
+msgid "View My Blog Posts"
+msgstr "Gweld Fy Mhyst Blog "
+
+#: lib/widgets/user-profile-widget.php:141
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Dewis defnyddiwr. Caiff cyfeiriad e-bost y cyfrif hwn ei ddefnyddio i dynnu'r ddelwedd Gravatar. "
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Small"
+msgstr "Bach "
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Medium"
+msgstr "Canolig "
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Large"
+msgstr "Mawr "
+
+#: lib/widgets/user-profile-widget.php:149
+msgid "Extra Large"
+msgstr "Mawr Iawn "
+
+#: lib/widgets/user-profile-widget.php:167
+msgid "Select which text you would like to use as the author description"
+msgstr "Dewiswch pa destun yr hoffech ei ddefnyddio fel disgrifiad awdur "
+
+#: lib/widgets/user-profile-widget.php:170
+msgid "Author Bio"
+msgstr "Bywgraffiad Awdur "
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Custom Text (below)"
+msgstr "Testun i'w Addasu (isod) "
+
+#: lib/widgets/user-profile-widget.php:173
+msgid "Custom Text Content"
+msgstr "Cynnwys Testun i'w Addasu "
+
+#: lib/widgets/user-profile-widget.php:179
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Dewiswch eich tudalen \"Amdana I\" estynedig o'r rhestr isod. Dyma'r dudalen y bydd dolen iddi ar ddiwedd yr is-adran Amdanaf I. "
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Extended page link text"
+msgstr "Testun dolen tudalen estynedig "
+
+#: lib/widgets/user-profile-widget.php:190
+msgid "Show Author Archive Link?"
+msgstr "Dangos Dolen Archifau Awdur? "
+
+#: search.php:28
+msgid "Search Results for:"
+msgstr "Chwilio Canlyniadau ar gyfer: "

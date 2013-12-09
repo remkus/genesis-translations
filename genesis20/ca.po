@@ -1,0 +1,2083 @@
+# Translation of Genesis 2.0 in Catalan
+# This file is distributed under the same license as the Genesis 2.0 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-09 16:27:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 2.0\n"
+
+#: lib/admin/import-export.php:74
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "Pot importar un arxiu que ha exportat anteriorment. El nom del fitxer comença amb %s, seguit d’una o més cadenes que indica què ajustos que conté, finalment, seguit de la data i hora en què es va exportar."
+
+#: lib/admin/cpt-archive-settings.php:260
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "El títol del document personalitzat estableix el títol de la pàgina com es veu en els navegadors i motors de cerca."
+
+#: lib/admin/cpt-archive-settings.php:286
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr "La classe Custom Cos afegeix una classe a l'etiqueta del cos en el codi HTML per permetre la modificació CSS ​​exclusivament per pàgina d'arxiu d'aquest tipus de correus."
+
+#: lib/admin/cpt-archive-settings.php:248
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr "El text Arxiu Intro estableix el text abans que les entrades de l'arxiu de presentar el contingut a l'espectador."
+
+#: lib/admin/theme-settings.php:292
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "Als paràmetres generals pot seleccionar una categoria específica per mostrar des del menú desplegable, i excloure categories d'identificació, o fins i tot seleccionar la quantitat de missatges desitja veure en aquesta pàgina."
+
+#: lib/admin/theme-settings.php:294
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr "Pots trobar més informació sobre aquesta opció a <a href=\"%s\" target=\"_blank\">Tutorial de com afegir una pàgina de posts d'una categoría.</a>"
+
+#: lib/admin/theme-settings.php:249
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "Aquestes opcions es poden ampliar o limitats pel tema dels nens. A més, molts dels temes del nen no permet diferents dissenys en la pàgina principal, ja que han estat dissenyats per a un disseny específic pàgina d'inici."
+
+#: lib/admin/whats-new.php:91
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr "Sempre estem millorant. Digui que és una malaltia, però ens agrada que les coses funcionin molt, molt bé. Aquí hi ha una llista dels canvis tècnics en aquesta última versió."
+
+#: lib/admin/cpt-archive-settings.php:247
+msgid "The Archive Headline sets the title seen on the archive page"
+msgstr "L'Arxiu Capçalera estableix el títol vist a la pàgina d'arxiu"
+
+#: lib/admin/cpt-archive-settings.php:264
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Els Robots Meta Tags diuen els motors de cerca com manejar la pàgina d'arxiu. Noindex vol dir que no indexin la pàgina en absolut, i no va a aparèixer en els resultats de cerca. Mitjans nofollow no segueixen cap enllaç des d'aquesta pàgina i noarchive els diu no fer una còpia d'arxiu de la pàgina."
+
+#: lib/admin/seo-settings.php:339
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "Utilitzeu la pàgina HTML5 semàntic i títols de les seccions en tot el lloc?"
+
+#: lib/admin/whats-new.php:79
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr "Volem mantenir Genesis el més lleuger possible per a vostè, ningú vol utilitzar el programari inflat. Així que hem eliminat el giny Últims tweets, giny de eNews, els \"post plantilles\" característica, i l'ajust \"dropdowns de fantasia\". Però no temes! Si vols aquestes característiques cap enrere, feu clic a baix per instal · lar els plugins útils que hem creat per a vostè."
+
+#: lib/admin/import-export.php:149
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "Si fas clic en aquest botó, Genesis generará un arxiu de dades (%s) que podràs guardar al teu ordinador."
+
+#: lib/admin/theme-settings.php:291
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "Això funciona amb la plantilla del bloc, que és una plantilla de pàgina que mostra les seves últimes publicacions. És el que la gent veu quan aterren a la seva pàgina principal."
+
+#: lib/admin/cpt-archive-settings.php:261
+msgid ""
+"The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+" "
+msgstr ""
+"La Meta descripció i les paraules clau s'omplen en els meta tags per a la pàgina d'arxiu. La descripció Meta és la breu ressenya de text que apareixen en els resultats del motor de cerca.\n"
+" "
+
+#: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
+msgid "These options can be extended or limited by the child theme."
+msgstr "Aquestes opcions es poden ampliar o limitats pel tema dels nens."
+
+#: lib/admin/import-export.php:75
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "Una vegada que carrega un fitxer d'importació, sobreescriurà automàticament la configuració existent."
+
+#: lib/admin/import-export.php:130
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr "Puja l'arxiu (%s) del teu ordinador i nosaltres importarem les preferencies."
+
+#: lib/admin/cpt-archive-settings.php:276
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr "Això li permet seleccionar el disseny de la pàgina d'arxiu. En la majoria dels temes del nen veurà aquestes opcions:"
+
+#: lib/admin/whats-new.php:73
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr "Si estàs fent servir un tema amb HTML5 activat, Genesis també posarà el marcat de microdata. No estàs segur de saber què és? No et culpem. Fes un cop d'ull a <a href=\"%s\" target=\"_blank\">aquesta explicació</a>. Encara no ho entens? No et preocupis, precisament és per això que estàs fent servir un framework. Nosaltres ja hem fet la recerca i hem modificat tot el codi per a utilitzar la microdata, així que ha no cal que ho facis tu. És bo ser un usuari de Genesis."
+
+#: lib/admin/import-export.php:79
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr "Podeu exportar la configuració relacionada amb el Genesis que els doni suport, o copiar-los en un altre lloc. Temes infantils i plugins poden afegir les seves pròpies caselles de verificació a la llista. Els ajustos s'exporten en format %s."
+
+#: lib/admin/whats-new.php:70
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr "Genesis ha estat sempre a l'avantguarda de la tecnologia web, i Genesis 2.0 continua en aquesta excel · lent tradició. Amb una sola línia de codi en un tema menor, Genesis serà ara de sortida HTML5 marcat en lloc de les velles etiquetes XHTML. A més, cada tema que construïm en el futur es desenvoluparà en HTML5."
+
+#: lib/admin/theme-settings.php:626
+msgid "Load Superfish Script?"
+msgstr "Carregueu Superfish escriptura?"
+
+#: lib/admin/theme-settings.php:493
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr "Si proporciona una adreça de correu electrònic anterior, se li notificarà per correu electrònic quan una nova versió del Genesis està disponible."
+
+#: lib/admin/theme-settings.php:293
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr "Hi ha algunes característiques especials de la plantilla del bloc que li permeten especificar quina categoria per mostrar a cada pàgina amb la plantilla, la qual cosa és útil si té una categoria \"Notícies\" (o alguna cosa més) que voleu mostrar per separat."
+
+#: lib/functions/deprecated.php:32
+msgid "data in style sheet files"
+msgstr "dades en els arxius de fulls d'estil"
+
+#: lib/structure/sidebar.php:65
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Aquest és el %s. Podeu afegir contingut a aquesta zona visitant a la seva <a href=\"%s\">Panell Ginys</a> i afegir nous ginys a aquesta àrea."
+
+#: lib/admin/theme-settings.php:254
+msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
+msgstr "El text <strong> dinàmic </ strong> opció usareu el lloc web Títol i Descripció de la configuració del seu lloc en la seva capçalera."
+
+#: lib/admin/theme-settings.php:255
+msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr "El logo <strong> imatge </ strong> opció d'utilitzar un arxiu d'imatge del logotip a la capçalera en lloc de títol i la descripció del lloc. Aquest ajust s'afegeix un. Classe header-imatge per al seu lloc web, que li permet especificar la imatge de capçalera en style.css seu fill de tema. Per defecte, el logotip es pot guardar com logo.png i es guarda a la carpeta d'imatges del seu fill el tema."
+
+#: lib/admin/theme-settings.php:259
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr "Els Extres de Navegació primaris solen mostrar a la part dreta del seu menú de la pàgina principal."
+
+#: lib/admin/theme-settings.php:261
+msgid "Today's date displays the current date"
+msgstr "Data d'avui mostra la data actual"
+
+#: lib/admin/theme-settings.php:262
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr "Enllaç del canal RSS mostra un enllaç a la font RSS per al seu lloc web que un lector pot utilitzar per subscriure al seu lloc web utilitzant el lector de feeds que heu triat."
+
+#: lib/admin/theme-settings.php:263
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr "Formulari de cerca mostra un petit formulari de cerca utilitzant la funció de cerca de WordPress."
+
+#: lib/admin/theme-settings.php:264
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr "Enllaç de Twitter mostra un enllaç al seu perfil de Twitter, com s'indica en l'ajust ID Twitter. Escriu només el nom d'usuari en aquest context."
+
+#: lib/admin/theme-settings.php:638
+msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
+msgstr "Per veure la configuració del menú de navegació principal, de construir un <a href=\"%s\"> menú personalitzat </a>, i després assignar al Menú Principal Ubicació."
+
+#: lib/functions/upgrade.php:559
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr "Genesis %s ja està disponible. <a href=\"%s\" %s>Mira les novetats</a> o <a href=\"%s\" %s>actualitza ara.</a>"
+
+#: lib/admin/import-export.php:68
+msgid "This allows you to import or export Genesis Settings."
+msgstr "Això li permet importar o exportar la configuració de Genesis."
+
+#: lib/admin/import-export.php:69
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "Això és específic per a la configuració de Genesis i no inclou els missatges, pàgines o imatges, que és el que fa el menú d'importació / exportació incorporada en WordPress."
+
+#: lib/admin/import-export.php:70
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "També no inclou altres ajustos per plugins, widgets, o la configuració de post / pàgina / term / usuari."
+
+#: lib/admin/import-export.php:73 lib/admin/import-export.php:88
+msgid "Import"
+msgstr "Importació"
+
+#: lib/admin/import-export.php:75
+msgid "This cannot be undone"
+msgstr "Això no es pot desfer"
+
+#: lib/admin/import-export.php:78 lib/admin/import-export.php:93
+msgid "Export"
+msgstr "Exportació"
+
+#: lib/admin/import-export.php:79
+msgid "JavaScript Object Notation"
+msgstr "JavaScript Object Notation"
+
+#: lib/admin/import-export.php:79
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:374
+msgid "For more information:"
+msgstr "Per a més informació:"
+
+#: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:375
+msgid "Get Support"
+msgstr "Obtingui suport"
+
+#: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:376
+msgid "Genesis Snippets"
+msgstr "Genesis Fragments"
+
+#: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:377
+msgid "Genesis Tutorials"
+msgstr "Genesis Tutorials"
+
+#: lib/admin/seo-settings.php:170
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr "Genesis SEO (search engine optimization) és cortès, i desactivarà a si mateix quan els plugins més populars de SEO (per exemple, All-in-One SEO, WordPress SEO, etc) estan actives."
+
+#: lib/admin/seo-settings.php:171
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr "Si no veu un submenú Configuració de SEO, llavors és probable que tingui una altra SEO plugin d'actiu."
+
+#: lib/admin/seo-settings.php:172
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr "Si apareix el menú, i després obrir aquest element del menú us permetrà configurar els paràmetres generals de SEO per al seu lloc."
+
+#: lib/admin/seo-settings.php:173
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr "Cada pàgina, post, i el termini tindran la seva pròpia configuració de SEO també. Els ajustaments per defecte es recomana per a la majoria d'usuaris. Per ajustar la configuració de SEO, les caixes inclouen descripcions internes."
+
+#: lib/admin/seo-settings.php:174
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr "A continuació trobarà algunes notes breus sobre les opcions de cada quadre:"
+
+#: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
+msgid "Doctitle Settings"
+msgstr "Ajustaments DocTitle"
+
+#: lib/admin/seo-settings.php:178
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr "<strong> Append Descripció del lloc </ strong> s'inserirà la descripció del lloc de les teves Configuració general després que el títol de la seva pàgina d'inici."
+
+#: lib/admin/seo-settings.php:179
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr "<strong> Append Nom del lloc </ strong> posarà el nom del lloc en la configuració general a continuació del títol a la pàgina interior."
+
+#: lib/admin/seo-settings.php:180
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr "<strong> DocTitle Append Ubicació </ strong> determina quin costat del títol per afegir els elements esmentats anteriorment."
+
+#: lib/admin/seo-settings.php:181
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr "El <strong> DocTitle Separador </ strong> és el personatge que anirà entre el títol i el text adjunt."
+
+#: lib/admin/seo-settings.php:185
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr "Aquests són els ajustos de SEO web particular. Nota: Aquests ajustos no s'aplicaran si una pàgina estàtica es configura com la primera pàgina. Si utilitzeu una pàgina estàtica WordPress com la seva pàgina principal, haurà de configurar els paràmetres de SEO a aquesta pàgina en particular."
+
+#: lib/admin/seo-settings.php:186
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr "També podeu especificar si el títol del lloc, descripció, o en el seu propi text d'encàrrec han embolicar-se en una etiqueta <h1> (el títol principal en HTML)."
+
+#: lib/admin/seo-settings.php:187
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr "Per afegir un text personalitzat que hauràs de fer-ho editant un arxiu php, o utilitzar un giny de text en un giny permès pàgina principal."
+
+#: lib/admin/seo-settings.php:188
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr "El doctitle casa estableix el que apareixerà al <title> </ title> etiquetes (que no es veuen al navegador) per a la pàgina principal."
+
+#: lib/admin/seo-settings.php:189
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr "La descripció META casa i les paraules clau s'omplen en els meta tags de la pàgina principal. La descripció META és la breu ressenya de text que apareixen en els resultats del motor de cerca."
+
+#: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr "La majoria dels motors de cerca no utilitzar paraules clau en aquest moment o els donen molt poca consideració, però, val la pena l'ús de paraules clau en el cas es donen més en compte en el futur i també per ajudar a guiar al seu contingut. Si el contingut no coincideix amb les paraules clau específiques, llavors pot ser que hagi de considerar el seu contingut amb més cura."
+
+#: lib/admin/seo-settings.php:191
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "La pàgina principal de Robots Meta Tags diuen els motors de cerca com manejar la pàgina. Noindex vol dir que no indexin la pàgina en absolut, i no va a aparèixer en els resultats de cerca. Mitjans nofollow no segueixen cap enllaç des d'aquesta pàgina i noarchive els diu no fer una còpia d'arxiu de la pàgina."
+
+#: lib/admin/seo-settings.php:195
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr "La relació Enllaç etiquetes són etiquetes afegides per WordPress que actualment no tenen cap valor SEO, però lent carregar el seu lloc sota. Estan desactivats per defecte, però si vostè té una necessitat d'un plug-in o del cessament típic ús-llavors vostè pot activar quan sigui necessari aquí específica."
+
+#: lib/admin/seo-settings.php:196
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr "També podeu afegir suport per a Windows Live Writer utilitzant programari que suporti aquesta i incloure una etiqueta Shortlink si això és requerit per qualsevol servei de tercers."
+
+#: lib/admin/seo-settings.php:200
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr "Noarchive i noindex s'expliquen en la configuració d'origen. Aquí podeu seleccionar quines altres parts del lloc per aplicar aquestes opcions per."
+
+#: lib/admin/seo-settings.php:201
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr "Com a mínim un arxiu ha de ser indexada, però indexació múltiples arxius normalment donarà lloc a una penalització per contingut duplicat (diverses pàgines amb contingut idèntic aspecte manipulatiu per als motors de cerca)."
+
+#: lib/admin/seo-settings.php:202
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr "Per a la majoria dels llocs, ja sigui la home page o pàgina bloc (utilitzant la plantilla de bloc) serviran d'aquest índex pel que el defecte no és a les categories de l'índex, etiquetes, autors, dates, o recerques."
+
+#: lib/admin/seo-settings.php:206
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr "Enllaços canònics assenyalar els motors de cerca a la pàgina principal del contingut paginat (motors de cerca han de triar la \"relació preferent\" quan hi ha contingut duplicat en pàgines)."
+
+#: lib/admin/seo-settings.php:207
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr "Això els diu \"això es pagina el contingut i la primera pàgina comença aquí\" i ajuda a evitar la propagació de paraules clau a través de múltiples pàgines."
+
+#: lib/admin/seo-settings.php:236
+msgid "SEO Archives"
+msgstr "Arxius de SEO"
+
+#: lib/admin/theme-settings.php:223
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr "Els seus Ajustaments de tema proporciona control sobre com funciona el tema. Vostè serà capaç de controlar una gran quantitat de característiques comunes i fins i tot avançats en aquest menú. Alguns temes nen poden afegir elements de menú addicionals a aquesta llista, incloent la possibilitat de seleccionar diferents combinacions de colors o establir característiques temàtiques, com un control lliscant. Cadascuna de les caixes es poden contraure fent clic a la capçalera de la caixa i es van expandir per fer el mateix. També es poden arrossegar qualsevol ordre desitjat o fins i tot ocults, feu clic a \"Opcions de pantalla\" a la part superior dreta de la pantalla i \"desmarcant\" les caixes que no desitja veure. A continuació trobareu els elements comuns a tots els temes del nen ..."
+
+#: lib/admin/theme-settings.php:227
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr "El quadre d'informació li permet veure la informació actual del tema de Genesis i mostrar si es desitja."
+
+#: lib/admin/theme-settings.php:228
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr "Normalment, això hauria d'estar desmarcat. També pot configurar per activar les actualitzacions automàtiques."
+
+#: lib/admin/theme-settings.php:229
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr "Això no significa que els canvis succeeixen de forma automàtica sense el seu permís, sinó que simplement li notificarà que hi ha una actualització disponible. Vostè ha de seleccionar per realitzar l'actualització."
+
+#: lib/admin/theme-settings.php:230
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr "Si proporciona una adreça de correu electrònic i seleccionar per notificar que la direcció de correu electrònic quan l'actualització està disponible, el seu lloc enviarem un correu electrònic quan l'actualització pot ser performed.No, actualitza només afecten els arxius que s'han actualitzat."
+
+#: lib/admin/theme-settings.php:234
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "Si utilitzeu FeedBurner per gestionar la seva alimentació (s) rss pot utilitzar aquesta funció per establir l'alimentació materna del seu lloc per redirigir al seu feed de FeedBurner."
+
+#: lib/admin/theme-settings.php:235
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr "Omplint els enllaços d'alimentació per demanar l'alimentació principal del lloc, es mostrarà com un enllaç a Feedburner."
+
+#: lib/admin/theme-settings.php:236
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr "En marcar la casella \"Redireccionar Feed\", tot el trànsit per defecte feed vincles passareu al enllaç Feedburner lloc."
+
+#: lib/admin/theme-settings.php:240
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr "Això li permet seleccionar el disseny predeterminat per a tot el lloc. En la majoria dels temes del nen veurà aquestes opcions:"
+
+#: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
+msgid "Content Sidebar"
+msgstr "Sidebar contingut"
+
+#: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
+msgid "Sidebar Content"
+msgstr "Contingut Barra lateral"
+
+#: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
+msgid "Sidebar Content Sidebar"
+msgstr "Sidebar Sidebar contingut"
+
+#: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
+msgid "Content Sidebar Sidebar"
+msgstr "Contingut Barra lateral Sidebar"
+
+#: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
+msgid "Sidebar Sidebar Content"
+msgstr "Sidebar Contingut Barra lateral"
+
+#: lib/admin/theme-settings.php:250
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr "Aquesta disposició també es pot reemplaçar a les opcions de disseny de post / page / termini en cada lloc / page / term."
+
+#: lib/admin/theme-settings.php:270
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr "Aquest quadre permet definir on la pantalla \"molles\". La barra de navegació és l'eina de navegació que mostra quan un visitant es troba en el lloc en qualsevol moment donat."
+
+#: lib/admin/theme-settings.php:274
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr "Això permet una àmplia decisió lloc en si els comentaris i vincles de referència (notificacions quan algú enllaços a la seva pàgina) estan habilitades per a entrades i pàgines."
+
+#: lib/admin/theme-settings.php:275
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr "Si activeu comentaris o trackbacks aquí, pot ser desactivat en una entrada individual o pàgina. Si desactiva aquí, ells no es poden habilitar en una entrada individual o pàgina."
+
+#: lib/admin/theme-settings.php:279
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr "En els Ajustaments de tema Genesis pot canviar les opcions d'ample Arxius contingut del lloc per controlar el que apareix en els arxius del lloc."
+
+#: lib/admin/theme-settings.php:280
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr "Els arxius inclouen les pàgines utilitzant la plantilla del bloc, les pàgines de categories, pàgines d'etiquetes, data d'arxiu, els arxius de l'autor, i els últims missatges si no hi ha pàgina d'inici personalitzada."
+
+#: lib/admin/theme-settings.php:281
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr "La primera opció us permet visualitzar el contingut de l'entrada o de l'oficina extracte. La configuració de contingut posterior de visualització apareixerà el post sencer incloent el codi HTML fins al <- more -> etiqueta si s'utilitza (això és HTML per l'etiqueta de comentari que no es mostra en el navegador)."
+
+#: lib/admin/theme-settings.php:282
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr "També pot estar acoblat amb el segon camp \"contingut Limitar als [___] caràcters\" per limitar el contingut a un nombre específic de lletres o espais. Això traurà qualsevol HTML, però permet longituds més precises i modificats fàcilment que l'extracte."
+
+#: lib/admin/theme-settings.php:283
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr "L'ajust extracte missatge Display mostrarà les primeres 55 paraules del missatge després de pelar també tots els que incloguin codi HTML o l'extracte Manual / custom afegit a la pantalla posterior edició."
+
+#: lib/admin/theme-settings.php:284
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr "El 'Incloure imatge missatge? configuració us permet mostrar una miniatura de la primera imatge adjunta o conjunt actualment la imatge que es mostra."
+
+#: lib/admin/theme-settings.php:285
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr "Aquesta opció no s'ha d'utilitzar amb el contingut de missatge llevat que el contingut es limita per evitar imatges duplicades."
+
+#: lib/admin/theme-settings.php:286
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr "La llista de \"mida d'imatge\" està poblat per les mides disponibles definides en el tema."
+
+#: lib/admin/theme-settings.php:287
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr "Nota tècnica de navegació us permet seleccionar un dels tres mètodes de navegació."
+
+#: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
+msgid "Blog Page"
+msgstr "Blog Pàgina"
+
+#: lib/admin/theme-settings.php:298
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr "Això li proporciona dos camps que donarà sortida a la <head> </ head> del seu lloc i just abans de l'etiqueta </ ​​body>. Aquests apareixeran en totes les pàgines del lloc i són una gran manera d'afegir el codi d'anàlisi i altres scripts. No es pot utilitzar PHP en aquests camps. Si heu d'utilitzar PHP llavors vostè ha de buscar en el Genesis simple plug-in Hooks."
+
+#: lib/admin/theme-settings.php:301
+msgid "How Home Pages Work"
+msgstr "Com funcionen les pàgines d'inici"
+
+#: lib/admin/theme-settings.php:302
+msgid "Most Genesis child themes include a custom home page."
+msgstr "La majoria dels nens temes de Genesis inclouen una pàgina d'inici personalitzada."
+
+#: lib/admin/theme-settings.php:303
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr "Per utilitzar aquest tipus de pàgina d'inici, assegureu-vos que les seves últimes publicacions s'estableixen per mostrar a la primera pàgina. Vostè pot configurar una pàgina amb la plantilla del bloc la pàgina per mostrar una llista d'estil de bloc dels seus últims articles publicats en una altra pàgina."
+
+#: lib/admin/theme-settings.php:304
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr "Aquesta pàgina d'inici és típicament de configuració a través de ginys a les barres laterals de la pàgina principal. Això es pot accedir a través de l'opció de menú Reproductors interfície."
+
+#: lib/admin/theme-settings.php:305
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr "Temes infantils que inclouen aquest tipus de pàgina d'inici típicament inclouen tutorials de temes específics addicionals que es pugui accedir a través d'un missatge enganxós a la part superior d'aquest fòrum de suport temàtic infantil."
+
+#: lib/admin/theme-settings.php:306
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr "Si el tema utilitza una pàgina d'inici personalitzada i desitja mostrar els últims missatges en un format de bloc, no utilitzi la plantilla del bloc. En lloc d'això, cal canviar el nom del fitxer home.php a casa-old.php lloc."
+
+#: lib/admin/theme-settings.php:307
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr "Una altra pàgina d'inici comuna és la pàgina \"blog\" tipus casa, que és comú a la majoria dels nens temes lliures. Aquesta mostra els seus últims missatges i no requereix configuració addicional."
+
+#: lib/admin/theme-settings.php:308
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr "El tercer tipus de pàgina principal és la nova pàgina d'inici dinàmic. Això és comú en els nous temes de la infància. Es mostrarà els seus últims missatges en una llista tipus de bloc a menys que posar ginys a les barres laterals pàgina d'inici."
+
+#: lib/admin/theme-settings.php:309
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr "Es prefereix aquesta configuració, ja que fa que sigui més fàcil mostrar un bloc a la pàgina principal (no hi ha necessitat de canviar el nom del fitxer home.php) i no té la confusió de cap contingut a la pàgina d'inici quan el tema es va instal · lar inicialment."
+
+#: lib/admin/theme-settings.php:368
+msgid "Home Pages"
+msgstr "Home Pages"
+
+#: 404.php:41 lib/structure/post.php:335 page_archive.php:30
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: 404.php:46 page_archive.php:35
+msgid "Categories:"
+msgstr "Categories:"
+
+#: 404.php:51 page_archive.php:40
+msgid "Authors:"
+msgstr "Autors:"
+
+#: 404.php:56 page_archive.php:45
+msgid "Monthly:"
+msgstr "Mensual:"
+
+#: 404.php:61 page_archive.php:50
+msgid "Recent Posts:"
+msgstr "Missatges recents:"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Aquesta entrada està protegida. Introduïu la contrasenya per veure els comentaris."
+
+#: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
+msgid "Custom Document Title"
+msgstr "Custom Títol del document"
+
+#: lib/admin/inpost-metaboxes.php:49
+msgid "Custom Post/Page Meta Description"
+msgstr "Custom Missatge / Pàgina Meta Description"
+
+#: lib/admin/inpost-metaboxes.php:52
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Custom Correus / Pàgina Meta Keywords, separades per comes"
+
+#: lib/admin/inpost-metaboxes.php:55
+msgid "Custom Canonical URI"
+msgstr "URI Canònica personalitzada"
+
+#: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
+msgid "Robots Meta Settings"
+msgstr "Robots Ajustaments Meta"
+
+#: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+msgid "Apply %s to this post/page"
+msgstr "Apliqui %s per aquest post / pàgina"
+
+#: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "Layout per defecte a <a href=\"%s\">Preferències del tema</a>"
+
+#: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:313
+msgid "Theme Settings"
+msgstr "Ajustaments de tema"
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:269 lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42 lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+msgid "SEO Settings"
+msgstr "Ajustaments de SEO"
+
+#: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+msgid "Homepage Settings"
+msgstr "Pàgina de configuració"
+
+#: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
+msgid "Archives Settings"
+msgstr "Arxius Configuració"
+
+#: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+msgid "Document Head Settings"
+msgstr "Configuracions del Cap del document"
+
+#: lib/admin/seo-settings.php:41
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - Ajustaments de SEO"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+msgid "Save Settings"
+msgstr "Desa la configuració"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+msgid "Reset Settings"
+msgstr "Restablir configuració"
+
+#: lib/js/load-scripts.php:146
+msgid "Are you sure you want to reset?"
+msgstr "Esteu segur que voleu reiniciar?"
+
+#: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
+#: lib/widgets/featured-post-widget.php:353
+#: lib/widgets/featured-post-widget.php:383
+#: lib/widgets/user-profile-widget.php:166
+msgid "Left"
+msgstr "Esquerra"
+
+#: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
+#: lib/widgets/featured-post-widget.php:354
+#: lib/widgets/featured-post-widget.php:384
+#: lib/widgets/user-profile-widget.php:167
+msgid "Right"
+msgstr "Dret"
+
+#: lib/admin/seo-settings.php:347
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "Què text li agradaria ser embolicat en les etiquetes %s?"
+
+#: lib/admin/seo-settings.php:351
+msgid "Site Title"
+msgstr "Títol del lloc"
+
+#: lib/admin/seo-settings.php:357
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "Ni. Vaig a acabar manualment el meu propi text a la pàgina d'inici"
+
+#: lib/admin/seo-settings.php:379
+msgid "Homepage Robots Meta Tags:"
+msgstr "Pàgina d'inici Robots Meta Tags:"
+
+#: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to the homepage?"
+msgstr "Apliqui %s per a la pàgina?"
+
+#: lib/admin/seo-settings.php:542
+msgid "Canonical Paginated Archives"
+msgstr "Canonical Arxius Paginated"
+
+#: lib/admin/seo-settings.php:545
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "Aquesta opció assenyala motors de cerca per la primera pàgina d'un arxiu, si està veient una pàgina paginat. Si no sap el que significa això, deixeu encès."
+
+#: lib/admin/seo-settings.php:426
+msgid "Relationship Link Tags:"
+msgstr "Relació d'enllaç Etiquetes:"
+
+#: lib/admin/seo-settings.php:433
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Suport Escriptor:"
+
+#: lib/admin/seo-settings.php:437
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Inclou Windows Live Suport Escriptor Tag?"
+
+#: lib/admin/seo-settings.php:440
+msgid "Shortlink Tag:"
+msgstr "Tag Shortlink:"
+
+#: lib/admin/seo-settings.php:444
+msgid "Include Shortlink tag?"
+msgstr "Inclogui tag Shortlink?"
+
+#: lib/admin/seo-settings.php:470
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "Depenent de la seva situació, vostè pot o no vol les pàgines d'arxiu per ser indexats pels motors de cerca. Només vostè pot prendre aquesta determinació."
+
+#: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
+msgid "Apply %s to Category Archives?"
+msgstr "Apliqui %s l'Arxiu de la categoria?"
+
+#: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
+msgid "Apply %s to Tag Archives?"
+msgstr "Apliqui %s to Tag Archives?"
+
+#: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
+msgid "Apply %s to Author Archives?"
+msgstr "Apliqui %s de Arxiu del Autor?"
+
+#: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
+msgid "Apply %s to Date Archives?"
+msgstr "Apliqui %s fins a la data Archives?"
+
+#: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
+msgid "Apply %s to Search Archives?"
+msgstr "Apliqui %s per cercar fitxers?"
+
+#: lib/admin/seo-settings.php:493
+msgid "Apply %s to Entire Site?"
+msgstr "Apliqui %s per Tot el lloc?"
+
+#: lib/admin/seo-settings.php:513
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "De tant en tant, els motors de cerca utilitzen recursos com l'Open Directory Project i el Directori de Yahoo! per trobar títols i descripcions per al contingut. En general, vostè no vol que facin això. Etiquetes El %si %s els impedeixen fer-ho."
+
+#: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
+msgid "Apply %s to your site?"
+msgstr "Apliqui %s del seu lloc?"
+
+#: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "Llista separada per comes"
+
+#: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Robots Meta"
+
+#: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
+msgid "Apply %s to this archive?"
+msgstr "Apliqui %s per aquest arxiu?"
+
+#: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
+#: lib/admin/theme-settings.php:408
+msgid "Information"
+msgstr "Informació"
+
+#: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
+#: lib/admin/theme-settings.php:413
+msgid "Custom Feeds"
+msgstr "Feeds personalitzats"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "Autor Caixa"
+
+#: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
+#: lib/admin/theme-settings.php:423
+msgid "Breadcrumbs"
+msgstr "Pa ratllat"
+
+#: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
+#: lib/admin/theme-settings.php:426
+msgid "Content Archives"
+msgstr "Arxius de Contingut"
+
+#: lib/admin/theme-settings.php:475
+msgid "Version:"
+msgstr "Versió:"
+
+#: lib/admin/theme-settings.php:475
+msgid "Released:"
+msgstr "Data de llançament:"
+
+#: lib/admin/theme-settings.php:482
+msgid "Enable Automatic Updates"
+msgstr "Activar les actualitzacions automàtiques"
+
+#: lib/admin/theme-settings.php:488
+msgid "Notify"
+msgstr "Notificar"
+
+#: lib/admin/theme-settings.php:490
+msgid "when updates are available"
+msgstr "quan hi hagi actualitzacions disponibles"
+
+#: lib/admin/theme-settings.php:599
+msgid "Dynamic text"
+msgstr "El text dinàmic"
+
+#: lib/admin/theme-settings.php:600
+msgid "Image logo"
+msgstr "Logo Imatge"
+
+#: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:60
+msgid "Full Width Content"
+msgstr "Ample complet contingut"
+
+#: lib/admin/theme-settings.php:887
+msgid "Comma separated - 1,2,3 for example"
+msgstr "Separats per comes - per exemple 1,2,3"
+
+#: lib/admin/theme-settings.php:644
+msgid "Display the following:"
+msgstr "Mostrarà el següent:"
+
+#: lib/admin/theme-settings.php:647
+msgid "Today's date"
+msgstr "Data d'avui"
+
+#: lib/admin/theme-settings.php:648
+msgid "RSS feed links"
+msgstr "Enllaços RSS"
+
+#: lib/admin/theme-settings.php:649
+msgid "Search form"
+msgstr "Formulari de cerca"
+
+#: lib/admin/theme-settings.php:650
+msgid "Twitter link"
+msgstr "Enllaç Twitter"
+
+#: lib/admin/theme-settings.php:655
+msgid "Enter Twitter ID:"
+msgstr "Introdueixi Twitter ID:"
+
+#: lib/admin/theme-settings.php:659
+msgid "Twitter Link Text:"
+msgstr "Twitter Enllaç del text:"
+
+#: lib/admin/theme-settings.php:684
+msgid "Enter your custom feed URI:"
+msgstr "Introdueix la URI personalitzada dels teus feeds:"
+
+#: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
+msgid "Redirect Feed?"
+msgstr "Redireccionar RSS?"
+
+#: lib/admin/theme-settings.php:692
+msgid "Enter your custom comments feed URI:"
+msgstr "Introdueix la URI personalitzada dels feeds dels teus comentaris:"
+
+#: lib/admin/theme-settings.php:719
+msgid "Enable Comments"
+msgstr "Habilitar Comentaris"
+
+#: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
+msgid "on posts?"
+msgstr "en els pals?"
+
+#: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
+msgid "on pages?"
+msgstr "a les pàgines?"
+
+#: lib/admin/theme-settings.php:728
+msgid "Enable Trackbacks"
+msgstr "Habilitar Trackbacks"
+
+#: lib/admin/theme-settings.php:805
+msgid "Select one of the following:"
+msgstr "Seleccioneu un dels següents:"
+
+#: lib/admin/theme-settings.php:811
+msgid "Display post content"
+msgstr "Publicar contingut Display"
+
+#: lib/admin/theme-settings.php:812
+msgid "Display post excerpts"
+msgstr "Missatge Mostra extractes"
+
+#: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
+msgid "Limit content to"
+msgstr "Limiti el contingut d'"
+
+#: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
+msgid "characters"
+msgstr "personatges"
+
+#: lib/widgets/featured-page-widget.php:202
+#: lib/widgets/featured-post-widget.php:368
+msgid "Image Size"
+msgstr "Mida de la imatge"
+
+#: lib/admin/theme-settings.php:848
+msgid "Select Post Navigation Technique:"
+msgstr "Seleccioneu Tècnica Missatge de Navegació:"
+
+#: lib/admin/theme-settings.php:850
+msgid "Older / Newer"
+msgstr "Més vell / recent"
+
+#: lib/admin/theme-settings.php:851
+msgid "Previous / Next"
+msgstr "Anterior / Següent"
+
+#: lib/admin/theme-settings.php:852
+msgid "Numeric"
+msgstr "Numèric"
+
+#: lib/admin/theme-settings.php:880
+msgid "Display which category:"
+msgstr "Veure quina categoria:"
+
+#: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
+msgid "All Categories"
+msgstr "Totes les categories"
+
+#: lib/admin/theme-settings.php:885
+msgid "Exclude the following Category IDs:"
+msgstr "Excloure els següents ID Categoria:"
+
+#: lib/widgets/featured-post-widget.php:296
+#: lib/widgets/featured-post-widget.php:439
+msgid "Number of Posts to Show"
+msgstr "Nombre de publicacions"
+
+#: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
+msgid "Home"
+msgstr "Casa"
+
+#: lib/functions/upgrade.php:536
+msgid "Click here to complete the upgrade"
+msgstr "Feu clic aquí per completar l'actualització"
+
+#: lib/functions/upgrade.php:606
+msgid "Genesis %s is available for %s"
+msgstr "Genesis %s està disponible per a %s"
+
+#: lib/functions/upgrade.php:607
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Genesis %s ja està disponible. Hem proporcionat les actualitzacions de 1-click per aquest tema, així que si us plau accedeixi al seu panell de control i l'actualització més aviat millor."
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "Tornar al començament de la pàgina"
+
+#: lib/shortcodes/footer.php:240
+msgid "Log in"
+msgstr "Inicia la sessió"
+
+#: lib/shortcodes/footer.php:242
+msgid "Log out"
+msgstr "Finalitzar la sessió"
+
+#: lib/shortcodes/post.php:249
+msgid "Leave a Comment"
+msgstr "Deixa el teu comentari"
+
+#: lib/shortcodes/post.php:248
+msgid "1 Comment"
+msgstr "1 Comentari"
+
+#: lib/shortcodes/post.php:247
+msgid "% Comments"
+msgstr "% Comentaris"
+
+#: lib/shortcodes/post.php:293
+msgid "Tagged With: "
+msgstr "Tagged With:"
+
+#: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
+msgid "Filed Under: "
+msgstr "Filed Under:"
+
+#: lib/shortcodes/post.php:423 lib/structure/comments.php:233
+#: lib/structure/comments.php:298 lib/structure/post.php:280
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: lib/structure/comments.php:79
+msgid "<h3>Comments</h3>"
+msgstr "<h3> Comentaris </ h3>"
+
+#: lib/structure/comments.php:143
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3> Trackbacks </ h3>"
+
+#: lib/structure/comments.php:228
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:228 lib/structure/comments.php:289
+msgid "says"
+msgstr "diu"
+
+#: lib/structure/comments.php:232
+msgid "%1$s at %2$s"
+msgstr "% 1 $ sa% 2 $ s"
+
+#: lib/structure/comments.php:239 lib/structure/comments.php:305
+msgid "Your comment is awaiting moderation."
+msgstr "La vostra revisió està pendent de moderació."
+
+#: lib/structure/comments.php:380
+msgid "Name"
+msgstr "Nom"
+
+#: lib/structure/comments.php:386
+msgid "Email"
+msgstr "Email"
+
+#: lib/structure/comments.php:392
+msgid "Website"
+msgstr "Lloc web"
+
+#: lib/structure/comments.php:401
+msgid "Speak Your Mind"
+msgstr "Parli seva ment"
+
+#: lib/structure/footer.php:145
+msgid "Copyright"
+msgstr "Drets d'autor"
+
+#: lib/init.php:58
+msgid "Primary Navigation Menu"
+msgstr "Menú de navegació principal"
+
+#: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
+msgid "Posts"
+msgstr "Missatges"
+
+#: lib/structure/menu.php:185
+msgid "Comments"
+msgstr "Comentaris"
+
+#: lib/structure/post.php:287 lib/structure/post.php:289
+msgid "[Read more...]"
+msgstr "[Llegir més ...]"
+
+#: lib/widgets/featured-post-widget.php:53
+msgid "By"
+msgstr "Per"
+
+#: lib/structure/post.php:507 lib/structure/post.php:517
+msgid "About"
+msgstr "Sobre"
+
+#: lib/structure/post.php:567
+msgid "Older Posts"
+msgstr "Missatges més antics"
+
+#: lib/structure/post.php:568
+msgid "Newer Posts"
+msgstr "Entrades més recents"
+
+#: lib/structure/search.php:33
+msgid "Search"
+msgstr "Cerca"
+
+#: lib/structure/sidebar.php:27
+msgid "Primary Sidebar Widget Area"
+msgstr "Primària Sidebar Widget Àrea"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "Secundària Sidebar Widget Àrea"
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "Ets aquí:"
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+msgid "Archives for "
+msgstr "Arxius per"
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "Cercar"
+
+#: lib/classes/breadcrumb.php:352
+msgid "View all posts in %s"
+msgstr "Veure tots els missatges de %s"
+
+#: lib/widgets/featured-page-widget.php:185
+#: lib/widgets/featured-post-widget.php:273
+#: lib/widgets/featured-post-widget.php:309
+#: lib/widgets/featured-post-widget.php:434
+#: lib/widgets/user-profile-widget.php:141
+msgid "Title"
+msgstr "Títol"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Mostra la pàgina s'ofereixen amb miniatures"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Pàgina Destacat - Genesis"
+
+#: lib/shortcodes/footer.php:175 lib/structure/post.php:381
+msgid "by"
+msgstr "per"
+
+#: lib/widgets/featured-page-widget.php:190
+msgid "Page"
+msgstr "Pàgina"
+
+#: lib/widgets/featured-page-widget.php:214
+#: lib/widgets/featured-post-widget.php:380
+msgid "Image Alignment"
+msgstr "Alineació de la imatge"
+
+#: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
+#: lib/widgets/featured-post-widget.php:352
+#: lib/widgets/featured-post-widget.php:382
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+msgid "None"
+msgstr "Cap"
+
+#: lib/widgets/featured-page-widget.php:226
+msgid "Show Page Title"
+msgstr "Mostra títol de la pàgina"
+
+#: lib/widgets/featured-page-widget.php:231
+msgid "Show Page Content"
+msgstr "Mostra la pàgina de contingut"
+
+#: lib/widgets/featured-page-widget.php:235
+msgid "Content Character Limit"
+msgstr "Contingut Límit de caràcters"
+
+#: lib/widgets/featured-page-widget.php:240
+msgid "More Text"
+msgstr "Més text"
+
+#: lib/widgets/featured-post-widget.php:65
+msgid "Displays featured posts with thumbnails"
+msgstr "Mostra Llocs destacats amb imatges en miniatura"
+
+#: lib/widgets/featured-post-widget.php:74
+msgid "Genesis - Featured Posts"
+msgstr "Missatges destacats - Genesis"
+
+#: lib/widgets/featured-post-widget.php:56
+msgid "[Read More...]"
+msgstr "[Llegir més ...]"
+
+#: lib/widgets/featured-post-widget.php:60
+msgid "More Posts from this Category"
+msgstr "Més llocs d'aquesta categoria"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Category"
+msgstr "Categoria"
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "Number of Posts to Offset"
+msgstr "Nombre total de missatges d'Offset"
+
+#: lib/widgets/featured-post-widget.php:306
+msgid "Order By"
+msgstr "Ordenar per"
+
+#: lib/widgets/featured-post-widget.php:308
+msgid "Date"
+msgstr "Data"
+
+#: lib/widgets/featured-post-widget.php:310
+msgid "Parent"
+msgstr "Pare"
+
+#: lib/widgets/featured-post-widget.php:311
+msgid "ID"
+msgstr "Identificació"
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Comment Count"
+msgstr "Comment Count"
+
+#: lib/widgets/featured-post-widget.php:313
+msgid "Random"
+msgstr "Atzar"
+
+#: lib/widgets/featured-post-widget.php:318
+msgid "Sort Order"
+msgstr "Ordre de Classificació"
+
+#: lib/widgets/featured-post-widget.php:320
+msgid "Descending (3, 2, 1)"
+msgstr "Descendent (3, 2, 1)"
+
+#: lib/widgets/featured-post-widget.php:321
+msgid "Ascending (1, 2, 3)"
+msgstr "Ascendent (1, 2, 3)"
+
+#: lib/widgets/featured-post-widget.php:336
+msgid "Show Author Gravatar"
+msgstr "Mostra Autor Gravatar"
+
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/user-profile-widget.php:151
+msgid "Gravatar Size"
+msgstr "Gravatar Mida"
+
+#: lib/widgets/featured-post-widget.php:342
+msgid "Small (45px)"
+msgstr "Petit (45px)"
+
+#: lib/widgets/featured-post-widget.php:343
+msgid "Medium (65px)"
+msgstr "Mitjà (65px)"
+
+#: lib/widgets/featured-post-widget.php:344
+msgid "Large (85px)"
+msgstr "Gran (85px)"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Extra Large (125px)"
+msgstr "Extra Large (125px)"
+
+#: lib/widgets/featured-post-widget.php:350
+#: lib/widgets/user-profile-widget.php:163
+msgid "Gravatar Alignment"
+msgstr "Alineació Gravatar"
+
+#: lib/widgets/featured-post-widget.php:398
+msgid "Show Post Title"
+msgstr "Mostrar Missatge Títol"
+
+#: lib/widgets/featured-post-widget.php:423
+msgid "More Text (if applicable)"
+msgstr "Més de text (si és aplicable)"
+
+#: lib/widgets/featured-post-widget.php:431
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "Per mostrar una llista desordenada de més llocs d'aquesta categoria, si us plau ompli la següent informació"
+
+#: lib/widgets/featured-post-widget.php:449
+msgid "Show Category Archive Link"
+msgstr "Mostrar categoria 'Enllaç"
+
+#: lib/widgets/featured-post-widget.php:453
+msgid "Link Text"
+msgstr "Enllaç del text"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "Mostra bloquejar usuari perfil amb Gravatar"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "Genesis - Perfil d'usuari"
+
+#: lib/widgets/user-profile-widget.php:102
+msgid "View My Blog Posts"
+msgstr "Veure el meu blog Missatges"
+
+#: lib/widgets/user-profile-widget.php:146
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Seleccioneu un usuari. La direcció de correu electrònic d'aquest compte s'utilitzarà per treure la imatge de Gravatar."
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Small"
+msgstr "Petit"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Medium"
+msgstr "Medi"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Large"
+msgstr "Gran"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Extra Large"
+msgstr "Extra gran"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Select which text you would like to use as the author description"
+msgstr "Seleccioneu la text que voleu utilitzar com la descripció autor"
+
+#: lib/widgets/user-profile-widget.php:175
+msgid "Author Bio"
+msgstr "Biografia de l'autor"
+
+#: lib/widgets/user-profile-widget.php:177
+msgid "Custom Text (below)"
+msgstr "Custom Text (continuació)"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Trieu la pàgina ampliada \"Quant a mi\" de la llista de baix. Aquesta serà la pàgina enllaçada al final de la secció sobre mi."
+
+#: lib/widgets/user-profile-widget.php:195
+msgid "Show Author Archive Link?"
+msgstr "Mostra Author Archive Link?"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "Genesis - Import / Export"
+
+#: lib/admin/import-export.php:128
+msgid "Import Genesis Settings File"
+msgstr "Ajustaments Genesis Importar Arxiu"
+
+#: lib/admin/import-export.php:136
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Pujar Arxiu: (Mida màxima: %s)"
+
+#: lib/admin/import-export.php:147
+msgid "Export Genesis Settings File"
+msgstr "Ajustaments Genesis Exportar arxiu"
+
+#: lib/admin/import-export.php:150
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "Un cop hagueu desat el fitxer de descàrrega, pot utilitzar la funció d'importació d'un altre lloc per importar aquestes dades."
+
+#: lib/admin/import-export.php:157
+msgid "Download Export File"
+msgstr "Descàrrega d'arxiu d'exportació"
+
+#: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
+msgid "Characters Used: %s"
+msgstr "Personatges Usada: %s"
+
+#: lib/admin/inpost-metaboxes.php:58
+msgid "Custom Redirect URI"
+msgstr "URI personalitzada de redirecció"
+
+#: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
+msgid "Custom Body Class"
+msgstr "Classe Custom Cos"
+
+#: lib/admin/inpost-metaboxes.php:245
+msgid "Custom Post Class"
+msgstr "Custom Class Missatge"
+
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+msgid "Import/Export"
+msgstr "Import / Export"
+
+#: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
+msgid "Choose Layout"
+msgstr "Seleccioneu Disseny"
+
+#: lib/admin/theme-settings.php:833
+msgid "Include the Featured Image?"
+msgstr "Inclogui la Foto principal?"
+
+#: lib/admin/user-meta.php:76
+msgid "Genesis Admin Menus"
+msgstr "Genesis administració Menús"
+
+#: lib/admin/user-meta.php:79
+msgid "Enable Genesis Admin Menu?"
+msgstr "Activar menú Genesis administració?"
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr "Habilitar SEO Configuració Submenú?"
+
+#: lib/admin/user-meta.php:85
+msgid "Enable Import/Export Submenu?"
+msgstr "Habilitar Import / Export Submenú?"
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Habilitar Autor Caixa de Missatges d'aquest usuari?"
+
+#: lib/admin/user-meta.php:146
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Habilitar Autor Caixa d'Arxius d'aquest usuari?"
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:248
+msgid "These settings apply to this author's archive pages."
+msgstr "Aquests ajustaments s'apliquen a les pàgines d'arxiu d'aquest autor."
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "Custom Arxiu Headline"
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "Mostrarà a l'etiqueta %s en la part superior de la primera pàgina"
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "Custom Descripció Text"
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "Aquest text serà el primer paràgraf, i mostrar a la primera pàgina"
+
+#: lib/functions/upgrade.php:512
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "Felicitacions! Ara està bressolant Genesis %s"
+
+#: lib/widgets/featured-page-widget.php:198
+#: lib/widgets/featured-post-widget.php:364
+msgid "Show Featured Image"
+msgstr "Mostra Foto principal"
+
+#: lib/widgets/featured-post-widget.php:403
+msgid "Show Post Info"
+msgstr "Mostrar informació del missatge"
+
+#: lib/widgets/featured-post-widget.php:408
+msgid "Content Type"
+msgstr "Tipus de contingut"
+
+#: lib/widgets/featured-post-widget.php:410
+msgid "Show Content"
+msgstr "Mostrar contingut"
+
+#: lib/widgets/featured-post-widget.php:411
+msgid "Show Excerpt"
+msgstr "Mostra Extracte"
+
+#: lib/widgets/featured-post-widget.php:412
+msgid "Show Content Limit"
+msgstr "Mostrar contingut límit"
+
+#: lib/widgets/featured-post-widget.php:413
+msgid "No Content"
+msgstr "Sense contingut"
+
+#: lib/classes/breadcrumb.php:60
+msgid "Not found: "
+msgstr "No trobat:"
+
+#: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
+msgid "View %s"
+msgstr "Veure %s"
+
+#: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
+msgid "View archives for %s"
+msgstr "Veure arxius de %s"
+
+#: lib/classes/breadcrumb.php:497
+msgid "View archives for %s %s"
+msgstr "Veure arxius de %s %s"
+
+#: lib/classes/breadcrumb.php:386
+msgid "View all %s"
+msgstr "Mostra tots els %s"
+
+#: lib/classes/breadcrumb.php:561
+msgid "View all items in %s"
+msgstr "Veure tots els articles en %s"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Right"
+msgstr "Capçalera Dreta"
+
+#: lib/functions/widgetize.php:117
+msgid "Primary Sidebar"
+msgstr "Sidebar Inici"
+
+#: lib/functions/widgetize.php:126
+msgid "Secondary Sidebar"
+msgstr "Sidebar Secundària"
+
+#: lib/admin/import-export.php:191
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Hi va haver un problema en importar la configuració. Torneu-ho de nou."
+
+#: lib/functions/layout.php:109
+msgid "No Label Selected"
+msgstr "No Label seleccionat"
+
+#: lib/functions/widgetize.php:159
+msgid "Footer %d"
+msgstr "Peu de pàgina% d"
+
+#: lib/admin/import-export.php:235
+msgid "No export options available."
+msgstr "No hi ha opcions d'exportació disponibles."
+
+#: lib/js/load-scripts.php:143
+msgid "Select / Deselect All"
+msgstr "Selecciona / Desselecciona tot"
+
+#: lib/shortcodes/post.php:42
+msgid "ago"
+msgstr "fa"
+
+#: lib/structure/post.php:589 lib/structure/post.php:655
+msgid "Previous Page"
+msgstr "Pàgina Anterior"
+
+#: lib/structure/post.php:590 lib/structure/post.php:685
+msgid "Next Page"
+msgstr "Pàgina següent"
+
+#: lib/admin/theme-settings.php:539
+msgid "Default"
+msgstr "Defecte"
+
+#: lib/admin/import-export.php:131
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Trieu l'arxiu del seu ordinador i feu clic a \"Carrega i importar\""
+
+#: lib/admin/import-export.php:139
+msgid "Upload File and Import"
+msgstr "Carregar arxiu i Importació"
+
+#: lib/admin/import-export.php:189
+msgid "Settings successfully imported."
+msgstr "Ajustaments importen correctament."
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+msgid "Settings reset."
+msgstr "Restablir ajustos."
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+msgid "Settings saved."
+msgstr "Configuració guardada."
+
+#: lib/admin/seo-settings.php:376
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "Les paraules clau són generalment ignorats pels motors de cerca."
+
+#: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
+#: lib/admin/theme-settings.php:414
+msgid "Default Layout"
+msgstr "Disseny predeterminat"
+
+#: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
+#: lib/admin/theme-settings.php:425
+msgid "Comments and Trackbacks"
+msgstr "Comentaris i Trackbacks"
+
+#: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
+#: lib/admin/theme-settings.php:430
+msgid "Header and Footer Scripts"
+msgstr "Capçalera i peu de Scripts"
+
+#: lib/admin/theme-settings.php:478
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Això pot ser útil per a diagnosticar problemes amb el teu tema si demanes ajuda en els <a href=\"%s\" target=\"_blank\">forums de suport</a>."
+
+#: lib/admin/theme-settings.php:699
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "Si el seu aliment (s) personalitzat no són manejats per FeedBurner, no recomanem que utilitzi les opcions de redirecció."
+
+#: lib/admin/theme-settings.php:736
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "Comentaris i Trackbacks també es poden desactivar en funció de cada pal / pàgina en crear / editar posts / pàgines."
+
+#: lib/admin/theme-settings.php:755
+msgid "Enable on:"
+msgstr "Habilitar el:"
+
+#: lib/admin/theme-settings.php:759
+msgid "Front Page"
+msgstr "Front Page"
+
+#: lib/admin/theme-settings.php:772
+msgid "Pages"
+msgstr "Pàgines"
+
+#: lib/admin/theme-settings.php:775
+msgid "Archives"
+msgstr "Arxiu"
+
+#: lib/admin/theme-settings.php:778
+msgid "404 Page"
+msgstr "404 Pàgina"
+
+#: lib/admin/theme-settings.php:784
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "Passos per a la navegació són una gran manera de deixar als seus visitants a trobar on són al seu lloc amb només un cop d'ull. Pot activar / desactivar ells en certes àrees del seu lloc."
+
+#: lib/admin/theme-settings.php:828
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "Usant aquesta opció limitarà el text i treure tot el format del text que es mostra. Per utilitzar aquesta opció, seleccioneu \"Mostra contingut del post\" al quadre de selecció anterior."
+
+#: lib/admin/theme-settings.php:856
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Aquestes opcions afecten a qualsevol pàgina d'anuncis en blocs, incloent arxiu, autor, bloc, categoria, de recerca i les pàgines d'etiquetes."
+
+#: lib/functions/formatting.php:284
+msgctxt "time difference"
+msgid "seconds"
+msgstr "segon"
+
+#: lib/functions/formatting.php:288
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s any"
+msgstr[1] "%s anys"
+
+#: lib/functions/formatting.php:289
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mes"
+msgstr[1] "%s mesos"
+
+#: lib/functions/formatting.php:290
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s setmana"
+msgstr[1] "%s setmanes"
+
+#: lib/functions/formatting.php:291
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dia"
+msgstr[1] "%s dies"
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s hora"
+msgstr[1] "%s hores"
+
+#: lib/functions/formatting.php:293
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minuts"
+
+#: lib/functions/formatting.php:294
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s segon"
+msgstr[1] "%s segons"
+
+#: lib/functions/formatting.php:319
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "i"
+
+#: lib/functions/layout.php:39
+msgid "Content-Sidebar"
+msgstr "Content-Sidebar"
+
+#: lib/functions/layout.php:44
+msgid "Sidebar-Content"
+msgstr "Sidebar-Content"
+
+#: lib/functions/layout.php:48
+msgid "Content-Sidebar-Sidebar"
+msgstr "Content-Sidebar Sidebar-"
+
+#: lib/functions/layout.php:52
+msgid "Sidebar-Sidebar-Content"
+msgstr "Sidebar-Sidebar-Content"
+
+#: lib/functions/layout.php:56
+msgid "Sidebar-Content-Sidebar"
+msgstr "Sidebar-Content-Sidebar"
+
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "Ajustaments de tema SEO"
+
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:275
+#: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
+msgid "Layout Settings"
+msgstr "Configuració del disseny"
+
+#: lib/admin/seo-settings.php:430
+msgid "Adjacent Posts %s link tags"
+msgstr "Missatges Adjacent %s enllaç etiquetes"
+
+#: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
+msgid "Archive Settings"
+msgstr "Configuració d'arxiu"
+
+#: lib/admin/theme-settings.php:88
+msgid "Follow me on Twitter"
+msgstr "Segueix-me a Twitter"
+
+#: lib/admin/theme-settings.php:411
+msgid "Color Style"
+msgstr "Estil Color"
+
+#: lib/admin/theme-settings.php:781
+msgid "Attachment Page"
+msgstr "Annex Pàgina"
+
+#: lib/admin/theme-settings.php:837
+msgid "Image Size:"
+msgstr "Mida de la imatge:"
+
+#: lib/admin/theme-settings.php:892
+msgid "Number of Posts to Show:"
+msgstr "Nombre de publicacions:"
+
+#: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "Escrigui scripts o codi que li agradaria sortida a %s:"
+
+#: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "El% 1 $ s ganxo s'executa immediatament abans de la clausura% 2 $ s etiqueta en el document font."
+
+#: lib/admin/theme-settings.php:537
+msgid "Color Style:"
+msgstr "Estil de color:"
+
+#: lib/admin/theme-settings.php:551
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Seleccioneu l'estil de color de la llista desplegable i guardi la configuració."
+
+#: lib/admin/user-meta.php:72
+msgid "User Permissions"
+msgstr "Permisos d'usuari"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "Arxiu del Autor Configuració"
+
+#: lib/classes/admin.php:119
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "No podeu fer servir %s per crear dos menús a la mateixa subclasse. Utilitzeu subclasses separades per a cada menú."
+
+#: lib/functions/menu.php:91
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "L'argument de \"context\", ha estat substituït per \"theme_location\" a la matriu $ args."
+
+#: lib/functions/seo.php:127
+msgid "Dismiss"
+msgstr "Acomiadar"
+
+#: lib/functions/widgetize.php:118
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Aquesta és la barra lateral principal, si feu servir una opció de disseny de dues o tres llocs de la columna."
+
+#: lib/functions/widgetize.php:127
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "Aquesta és la barra lateral secundari si utilitzeu una opció de disseny de tres llocs de la columna."
+
+#: lib/functions/widgetize.php:160
+msgid "Footer %d widget area."
+msgstr "Peu de pàgina% d àrea de giny."
+
+#: lib/widgets/user-profile-widget.php:189
+msgid "Extended page link text"
+msgstr "Extended text vincle"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Left"
+msgstr "Header Esquerra"
+
+#: lib/functions/widgetize.php:109
+msgid "This is the widget area in the header."
+msgstr "Aquest és l'àrea de giny a la capçalera."
+
+#: lib/init.php:59
+msgid "Secondary Navigation Menu"
+msgstr "Menú de navegació secundària"
+
+#: lib/widgets/user-profile-widget.php:178
+msgid "Custom Text Content"
+msgstr "Custom Text Content"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+msgid "Error saving settings."
+msgstr "Configuració d'estalvi d'error."
+
+#: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
+msgid "Archive Headline"
+msgstr "Arxiu Headline"
+
+#: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Deixar en blanc si no voleu mostrar un titular."
+
+#: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
+msgid "Archive Intro Text"
+msgstr "Arxiu Intro Text"
+
+#: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Deixar en blanc si no voleu mostrar cap text d'introducció."
+
+#: lib/structure/footer.php:145
+msgid "on"
+msgstr "en"
+
+#: lib/admin/seo-settings.php:392
+msgid "Homepage Author"
+msgstr "Pàgina d'Autor"
+
+#: lib/admin/seo-settings.php:395
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "Seleccioneu l'usuari que voleu utilitzar com el %s per a la pàgina principal. Assegureu-vos que l'usuari selecciona ha entrat en la seva direcció del perfil de Google+ a la pantalla d'edició de perfil."
+
+#: lib/admin/seo-settings.php:400
+msgid "Select User"
+msgstr "Seleccionar usuari"
+
+#: lib/admin/theme-settings.php:597
+msgid "Use for site title/logo:"
+msgstr "L'ús per al lloc de títol / logo:"
+
+#: lib/admin/user-meta.php:26
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/whats-new.php:39
+msgid "Welcome to Genesis %s"
+msgstr "Benvingut a Genesis %s"
+
+#: lib/admin/whats-new.php:66
+msgid "What&#8217;s New"
+msgstr "Què hi ha de nou"
+
+#: lib/admin/whats-new.php:112
+msgid "Project Leads"
+msgstr "Lidera un projecte"
+
+#: lib/admin/whats-new.php:156
+msgid "Go to Theme Settings &rarr;"
+msgstr "Aneu a Configuració de tema →"
+
+#: lib/admin/whats-new.php:157
+msgid "Go to SEO Settings &rarr;"
+msgstr "Aneu a Configuració de SEO →"
+
+#: lib/shortcodes/post.php:170
+msgid "Visit %s&#x02019;s website"
+msgstr "Visiteu %s del lloc web"
+
+#: lib/structure/loops.php:253
+msgid "Read more"
+msgstr "Llegir més"
+
+#: lib/structure/search.php:31
+msgid "Search this website"
+msgstr "Cerca en aquest lloc web"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "Llegir més"
+
+#: lib/admin/seo-settings.php:263
+msgid "Document Title Settings"
+msgstr "Document Configuració Títol"
+
+#: lib/admin/seo-settings.php:285
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "El títol del document (%s) és l'element més important en el seu document d'origen per al motor <abbr title=\"Resultado optimization\"> SEO</abbr>. S'informa de manera succinta els motors de recerca de la informació que està continguda en el document. El títol pot, i ha de ser diferent en cada pàgina, però aquestes opcions l'ajudarà a controlar el que es veurà com per defecte."
+
+#: lib/admin/seo-settings.php:287
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong> Per defecte </ strong>, el títol del document pàgina d'inici contindrà el títol del lloc, l'únic missatge i la pàgina de títols de documents contindran el lloc o títol de la pàgina, les pàgines d'arxiu contindran el tipus d'arxiu, etc"
+
+#: lib/admin/seo-settings.php:291
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Afegir una descripció del lloc (afegitó) a %s en la pàgina principal?"
+
+#: lib/admin/seo-settings.php:296
+msgid "Add site name to %s on inner pages?"
+msgstr "Afegir el nom del lloc a %s en les pàgines interiors?"
+
+#: lib/admin/seo-settings.php:300
+msgid "Document Title Additions Location:"
+msgstr "Títol del document Addicions Ubicació:"
+
+#: lib/admin/seo-settings.php:301
+msgid "Determines which side the added title text will go on."
+msgstr "Determina quin costat el text del títol afegit continuarà."
+
+#: lib/admin/seo-settings.php:313
+msgid "Document Title Separator:"
+msgstr "Títol del document Separador:"
+
+#: lib/admin/seo-settings.php:315
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Si el títol es compon de dues parts (títol original i addició opcional), llavors el separador anirà enmig d'ells."
+
+#: lib/admin/seo-settings.php:354
+msgid "Site Description (Tagline)"
+msgstr "Descripció del lloc (Lema)"
+
+#: lib/admin/seo-settings.php:362
+msgid "Homepage Document Title:"
+msgstr "Títol del document Pàgina d'inici:"
+
+#: lib/admin/seo-settings.php:364
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Si deixes el camp en el títol del document en blanc, el títol del seu lloc serà utilitzat al seu lloc."
+
+#: lib/admin/seo-settings.php:368
+msgid "Home Meta Description:"
+msgstr "Inici Meta Description:"
+
+#: lib/admin/seo-settings.php:370
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "La descripció de la meta es pot utilitzar per determinar el text que s'utilitza amb el títol en els resultats del motor de pàgines."
+
+#: lib/admin/seo-settings.php:374
+msgid "Home Meta Keywords (comma separated):"
+msgstr "Inici Meta Keywords (separats per comes):"
+
+#: lib/admin/seo-settings.php:424
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "Per defecte, WordPress col · loca diverses etiquetes al document% 1 $ s. La majoria d'aquestes etiquetes són completament innecessaris, i no proporcionen <abbr title motor title=\"Resultado optimization\"> SEO </ abbr> valor en absolut, sinó que simplement fan el seu lloc més lent per carregar. Trieu quines etiquetes li agradaria incloure en el seu document de% 1 $ s. Si no sap el que alguna cosa és, deixi sense marcar."
+
+#: lib/admin/seo-settings.php:447
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr "<span Nota class=\"genesis-admin-note\">: </ span> L'etiqueta Shortlink podria tenir algun ús per al 3 de descobriment de serveis de tercers, però no té motor <abbr title title=\"Resultado optimization\"> SEO </ abbr> cap valor."
+
+#: lib/admin/seo-settings.php:489
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "Alguns motors de cerca en memòria cau les pàgines del seu lloc web (per exemple, Google Cache). El% 1 $ s etiqueta els impedeix fer-ho. Trieu que els arxius que vols% 1 $ s aplicats a."
+
+#: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
+#: lib/admin/theme-settings.php:417
+msgid "Header"
+msgstr "Encapçalament"
+
+#: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
+#: lib/admin/theme-settings.php:420
+msgid "Navigation"
+msgstr "Navegació"
+
+#: lib/admin/theme-settings.php:427
+msgid "Blog Page Template"
+msgstr "Plantilla de pàgina de bloc"
+
+#: lib/admin/theme-settings.php:762
+msgid "Posts Page"
+msgstr "Missatges Pàgina"
+
+#: lib/admin/theme-settings.php:765
+msgid "Homepage"
+msgstr "Pàgina d'inici"
+
+#: lib/admin/theme-settings.php:875
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Aquests ajustaments s'apliquen a una determinada pàgina del \"Blog\" plantilla de pàgina, no la pàgina principal o pàgines missatge arxivat."
+
+#: lib/functions/seo.php:125
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "Has provat el nostre programa de la comercialització de continguts Scribe? És la investigació, el contingut i optimització de llocs web, i la construcció de relacions sense sortir de WordPress. propietaris <b> Genesis estalviar grans quan s'utilitza l'enllaç especial a la pàgina especial que hem creat per a vostè </b>. <a href=\"%s\" target=\"_blank\"> clic aquí per obtenir més informació </a>."
+
+#: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+msgid "Lead Developer"
+msgstr "Lead Developer"
+
+#: lib/admin/whats-new.php:136
+msgid "Contributors"
+msgstr "Col · laboradors"
+
+#: lib/admin/whats-new.php:147
+msgid "Contributor"
+msgstr "Contribuent"
+
+#: search.php:22
+msgid "Search Results for:"
+msgstr "Resultats de la cerca per a:"
+
+#: 404.php:27
+msgid "Not found, error 404"
+msgstr "No s'ha trobat, Error 404"
+
+#: 404.php:32
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr "La pàgina que estàs buscant ja no existeix. Potser vostè pot tornar de nou a <a href=\"%s\"> pàgina principal del lloc </a> i veure si vostè pot trobar el que busca. O bé, vostè pot intentar trobar mitjançant el formulari de recerca de sota."
+
+#: lib/admin/cpt-archive-settings.php:55
+msgid "Archive"
+msgstr "Arxiu"
+
+#: lib/admin/cpt-archive-settings.php:158
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr "Veure el <a href=\"%s\">%s arxiu</a>."
+
+#: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr "Meta Keywords"
+
+#: lib/admin/cpt-archive-settings.php:193
+msgid "Robots Meta Tags:"
+msgstr "Robots Meta Tags:"
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+msgid "Apply %s to this archive"
+msgstr "Apliqui %s per aquesta imatge"
+
+#: lib/admin/inpost-metaboxes.php:141
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/admin/inpost-metaboxes.php:158
+msgid "Page-specific Scripts"
+msgstr "Scripts específics de la pàgina"
+
+#: lib/admin/inpost-metaboxes.php:160
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr "Adequat per a seguiment personalitzat, conversió o altre script específic de la pàgina. Ha d'incloure les etiquetes %s."
+
+#: lib/admin/seo-settings.php:342
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr "HTML5 permet múltiples etiquetes %s de tot el codi font del document, sempre que tinguin el títol principal de la secció en la qual apareixen. No obstant això, arran d'aquesta norma pot tenir un impacte negatiu marginal sobre SEO."
+
+#: lib/admin/theme-settings.php:634
+msgid "Primary Navigation Extras"
+msgstr "Extres de navegació primàries"
+
+#: lib/functions/deprecated.php:67
+msgid "decimal or hexidecimal entities"
+msgstr "entitats decimals o hexadecimals"
+
+#: lib/js/load-scripts.php:144
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Els canvis es perdran si es desplaça fora d'aquesta pàgina."
+
+#: lib/js/load-scripts.php:145
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr "Actualització de Genesis es sobreposen a la versió actual instal · lada del Genesis. Esteu segur que voleu actualitzar?. \"Cancel · lar\" per aturar, \"OK\" per actualitzar."
+
+#: lib/structure/comments.php:296
+msgid "at"
+msgstr "en"
+
+#: lib/structure/post.php:313
+msgid "Permalink"
+msgstr "Permalink"
+
+#: lib/structure/post.php:351
+msgid "Sorry, no content matched your criteria."
+msgstr "Ho sentim, no hi ha contingut correspon als seus criteris."
+
+#: lib/widgets/featured-post-widget.php:327
+msgid "Exclude Previously Displayed Posts?"
+msgstr "Excloure Missatges Anteriorment S'ha vist?"
+
+#: lib/admin/whats-new.php:63
+msgid "Congratulations! You're now running Genesis %s."
+msgstr "Felicitacions! Ara estàs corrent Genesis %s."
+
+#: lib/admin/whats-new.php:69
+msgid "HTML5 Markup"
+msgstr "HTML5 marcat"
+
+#: lib/admin/whats-new.php:72
+msgid "Microdata"
+msgstr "Microdades"
+
+#: lib/admin/whats-new.php:75
+msgid "A Brand New Design"
+msgstr "Per estrenar Disseny"
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr "Genesis llueix un nou aspecte. I hem pres avantatge de la nova marcat HTML5, així com alguns CSS3 elegant. Creiem que li va encantar això."
+
+#: lib/admin/whats-new.php:78
+msgid "Removing Features"
+msgstr "Eliminació de funcions"
+
+#: lib/admin/whats-new.php:83
+msgid "Genesis Latest Tweets Widget"
+msgstr "Genesis Darrers tweets Widget"
+
+#: lib/admin/whats-new.php:84
+msgid "Genesis eNews Extended"
+msgstr "Genesis eNews estesa"
+
+#: lib/admin/whats-new.php:85
+msgid "Single Post Template"
+msgstr "Plantilla Missatge Individual"
+
+#: lib/admin/whats-new.php:86
+msgid "Fancy Dropdowns"
+msgstr "Fancy Dropdowns"
+
+#: lib/admin/whats-new.php:90
+msgid "Boring, but important"
+msgstr "Avorrit, però important"
+
+#: lib/admin/whats-new.php:95
+msgid "Better named loop hooks for HTML5."
+msgstr "Millor anomenat ganxos de bucle per HTML5."
+
+#: lib/admin/whats-new.php:96
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr "Actualització de xarxa ara actualitza la base de dades de Genesis per a tots els llocs de la xarxa quan s'executa en mode de WordPress per a diversos llocs."
+
+#: lib/admin/whats-new.php:97
+msgid "Widget classes are now coded in PHP5 format."
+msgstr "Classes Widget estan codificats en format PHP5."
+
+#: lib/admin/whats-new.php:98
+msgid "Admin CSS and Javascript are now minified."
+msgstr "CSS Admin i Javascript estan minified."
+
+#: lib/admin/whats-new.php:99
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr "Comentaris Inline HTML s'han eliminat per reduir la mida de la pàgina."
+
+#: lib/admin/whats-new.php:100
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr "L'opció Scripts té ara el seu propi METABOX en editar una entrada."
+
+#: lib/admin/whats-new.php:101
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr "Pàgines d'arxiu de tipus personalitzats Publicar ara tenen una pàgina de configuració perquè pugui controlar la sortida."
+
+#: lib/admin/whats-new.php:102
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr "Pistes de Genesis mostren els ID d'entrada perquè pugui excloure les entrades de mostrar dues vegades en una pàgina."
+
+#: lib/admin/whats-new.php:103
+msgid "Entries without titles now display a permalink after the post content."
+msgstr "Les entrades sense títols mostren ara un enllaç permanent després que el contingut de l'entrada."
+
+#: lib/functions/general.php:345
+msgid "Install %s"
+msgstr "Instal %s"
+
+#: 404.php:39
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "La pàgina que estàs buscant ja no existeix. Potser vostè pot tornar de nou a <a href=\"%s\"> pàgina principal del lloc </a> i veure si vostè pot trobar el que busca. O bé, vostè pot intentar trobar amb la següent informació."

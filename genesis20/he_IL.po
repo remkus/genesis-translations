@@ -1,0 +1,2081 @@
+# Translation of Genesis 2.0 in Hebrew
+# This file is distributed under the same license as the Genesis 2.0 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-09 16:34:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Genesis 2.0\n"
+
+#: lib/admin/import-export.php:74
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "אתה יכול לייבא קובץ שייצאת בעבר. שם הקובץ יתחיל ב%s וימשיך במחרוזת אחת או יותר שמעידה על ההגדרות שהיא מכילה, לבסוף את התאריך ושעה בה התבצע הייצוא"
+
+#: lib/admin/cpt-archive-settings.php:260
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "כותרת המסמך המותאמת אישית מגדירה את כותרת הדף כפי שהוא נראה בדפדפנים ומנועי חיפוש."
+
+#: lib/admin/cpt-archive-settings.php:286
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:248
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr ""
+
+#: lib/admin/theme-settings.php:292
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "בהגדרות כלליות אתה יכול לבחור להציג קטגוריה ספציפית מתפריט ה-drop down, להוציא קטגוריה לפי ID או אפילו לבחור כמה פוסטים תרצה להציג בדף הזה."
+
+#: lib/admin/theme-settings.php:294
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr "אתה יכול למצוא עוד על האפשרות הזאת ב<a href=\"%s\" target=\"_blank\">איך להוסיף פוסט לקטגוריה Page tutorial.</a>"
+
+#: lib/admin/theme-settings.php:249
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "האפשרויות האלו יכולות להיות מורחבות או מוגבלות ע\"י ה-child theme. בנוסף הרבה מה-child themes לא מאפשרות פריסות שונות בדף הבית כי הם עוצבו לפריסה ספציפית."
+
+#: lib/admin/whats-new.php:91
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:247
+msgid "The Archive Headline sets the title seen on the archive page"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:264
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:339
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "השתמש בסמנטיקת דף HTML5 וכותרות סעיפים בכל האתר?"
+
+#: lib/admin/whats-new.php:79
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr ""
+
+#: lib/admin/import-export.php:149
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "כשאתה לוחץ על הכפתור למטה, ג'נסיס תיצור קובץ מידע (%s) בשביל שתוכל לשמור אותו במחשב שלך"
+
+#: lib/admin/theme-settings.php:291
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "זה עובד עם תבנית הבלוג, שהיא תבנית דף שמראה את הפוסטים האחרונים שלך. זה מה שאנשים רואים כשהם נוחתים בדף הבית שלך."
+
+#: lib/admin/cpt-archive-settings.php:261
+msgid ""
+"The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+" "
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
+msgid "These options can be extended or limited by the child theme."
+msgstr "האפשרויות האלו הורחבו או הוגברו ע\"י ה-child theme."
+
+#: lib/admin/import-export.php:75
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "כשאתה מעלה קובץ לייבוא, הוא אוטומטית ידרוס את ההגדרות הקיימות."
+
+#: lib/admin/import-export.php:130
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:276
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr ""
+
+#: lib/admin/whats-new.php:73
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr ""
+
+#: lib/admin/import-export.php:79
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr ""
+
+#: lib/admin/whats-new.php:70
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr ""
+
+#: lib/admin/theme-settings.php:626
+msgid "Load Superfish Script?"
+msgstr ""
+
+#: lib/admin/theme-settings.php:493
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr ""
+
+#: lib/admin/theme-settings.php:293
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr ""
+
+#: lib/functions/deprecated.php:32
+msgid "data in style sheet files"
+msgstr ""
+
+#: lib/structure/sidebar.php:65
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: lib/admin/theme-settings.php:254
+msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
+msgstr ""
+
+#: lib/admin/theme-settings.php:255
+msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr ""
+
+#: lib/admin/theme-settings.php:259
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr ""
+
+#: lib/admin/theme-settings.php:261
+msgid "Today's date displays the current date"
+msgstr ""
+
+#: lib/admin/theme-settings.php:262
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr ""
+
+#: lib/admin/theme-settings.php:263
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr ""
+
+#: lib/admin/theme-settings.php:264
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr ""
+
+#: lib/admin/theme-settings.php:638
+msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
+msgstr ""
+
+#: lib/functions/upgrade.php:559
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr ""
+
+#: lib/admin/import-export.php:68
+msgid "This allows you to import or export Genesis Settings."
+msgstr "זה מאפשר לך לייבא או לייצא את ההגדרות של ג'נסיס."
+
+#: lib/admin/import-export.php:69
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "זה ספציפי להגדרות ג'נסיס, ואינו כולל פוסטים, עמודים או תמונות, אשר אותם מייבא/מייצא פריט התפריט המובנה בוורדפרס."
+
+#: lib/admin/import-export.php:70
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "זה גם אינו כולל הגדרות אחרות, עבור  פלאגינים, ווידג'טים או הגדרות ספציפיות לפוסט/עמוד/מונח/משתמש."
+
+#: lib/admin/import-export.php:73 lib/admin/import-export.php:88
+msgid "Import"
+msgstr "ייבוא"
+
+#: lib/admin/import-export.php:75
+msgid "This cannot be undone"
+msgstr "לא ניתן לחזור מפעולה זו."
+
+#: lib/admin/import-export.php:78 lib/admin/import-export.php:93
+msgid "Export"
+msgstr "ייצוא"
+
+#: lib/admin/import-export.php:79
+msgid "JavaScript Object Notation"
+msgstr "סימון עצמים של ג'אווה-סקריפט"
+
+#: lib/admin/import-export.php:79
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:374
+msgid "For more information:"
+msgstr "למידע נוסף:"
+
+#: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:375
+msgid "Get Support"
+msgstr "קבלת עזרה"
+
+#: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:376
+msgid "Genesis Snippets"
+msgstr ""
+
+#: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:377
+msgid "Genesis Tutorials"
+msgstr ""
+
+#: lib/admin/seo-settings.php:170
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr ""
+
+#: lib/admin/seo-settings.php:171
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr ""
+
+#: lib/admin/seo-settings.php:172
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr ""
+
+#: lib/admin/seo-settings.php:173
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr ""
+
+#: lib/admin/seo-settings.php:174
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr ""
+
+#: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
+msgid "Doctitle Settings"
+msgstr ""
+
+#: lib/admin/seo-settings.php:178
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:179
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:180
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr ""
+
+#: lib/admin/seo-settings.php:181
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr ""
+
+#: lib/admin/seo-settings.php:185
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:186
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:187
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr ""
+
+#: lib/admin/seo-settings.php:188
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:189
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr ""
+
+#: lib/admin/seo-settings.php:191
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:195
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr ""
+
+#: lib/admin/seo-settings.php:196
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr ""
+
+#: lib/admin/seo-settings.php:200
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr ""
+
+#: lib/admin/seo-settings.php:201
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:202
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr ""
+
+#: lib/admin/seo-settings.php:206
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:207
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr ""
+
+#: lib/admin/seo-settings.php:236
+msgid "SEO Archives"
+msgstr ""
+
+#: lib/admin/theme-settings.php:223
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr ""
+
+#: lib/admin/theme-settings.php:227
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr "תיבת המידע מאפשרת לך לראות את המידע והתצוגה של תבנית הג'נסיס הנוכחית."
+
+#: lib/admin/theme-settings.php:228
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr "בד\"כ, זה לא אמור להיות מסומן. אתה יכול גם לסמן על מנת לאפשר עדכונים אוטומטיים."
+
+#: lib/admin/theme-settings.php:229
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr "אין זה אומר שהעדכונים יתבצעו אוטומטית ללא הרשאה ממך; אתה בסה\"כ תקבל הודעה שתיידע אותך שקיים עדכון זמין עבורך. אתה חייב לבחור אותו לביצוע השדרוג בפועל."
+
+#: lib/admin/theme-settings.php:230
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr "אם תספק כתובת אימייל ותבחר שאליה יישלחו הודעות כאשר יש עדכון זמין, האתר שלך יישלח לך אימייל כאשר העדכון אכן יבוצע. לא, עדכונים רק משפיעים על הקבצים להם קיים עדכון בפועל."
+
+#: lib/admin/theme-settings.php:234
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "אם את/ה משתמש/ת ב-Feedburner על-מנת לטפל בפיד/ים של ה-RSS שלך, ביכולתך להשתמש בפונקציה הזו על-מנת להגדיר את הפיד המובנה של אתרך כמופנה לפיד של ה-Feedburner שלך."
+
+#: lib/admin/theme-settings.php:235
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr ""
+
+#: lib/admin/theme-settings.php:236
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr ""
+
+#: lib/admin/theme-settings.php:240
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
+msgid "Content Sidebar"
+msgstr "תוכן טור-צד"
+
+#: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
+msgid "Sidebar Content"
+msgstr "טור-צד תוכן"
+
+#: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
+msgid "Sidebar Content Sidebar"
+msgstr "טור-צד תוכן טור-צד"
+
+#: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
+msgid "Content Sidebar Sidebar"
+msgstr "תוכן טור-צד תוכן"
+
+#: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
+msgid "Sidebar Sidebar Content"
+msgstr "טור-צד טור-צד תוכן"
+
+#: lib/admin/theme-settings.php:250
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr ""
+
+#: lib/admin/theme-settings.php:270
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr ""
+
+#: lib/admin/theme-settings.php:274
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:275
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:279
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr ""
+
+#: lib/admin/theme-settings.php:280
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:281
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr ""
+
+#: lib/admin/theme-settings.php:282
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr ""
+
+#: lib/admin/theme-settings.php:283
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr ""
+
+#: lib/admin/theme-settings.php:284
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr ""
+
+#: lib/admin/theme-settings.php:285
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr ""
+
+#: lib/admin/theme-settings.php:286
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr ""
+
+#: lib/admin/theme-settings.php:287
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr ""
+
+#: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
+msgid "Blog Page"
+msgstr "דף בלוג"
+
+#: lib/admin/theme-settings.php:298
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr ""
+
+#: lib/admin/theme-settings.php:301
+msgid "How Home Pages Work"
+msgstr "איך דף בית עובד"
+
+#: lib/admin/theme-settings.php:302
+msgid "Most Genesis child themes include a custom home page."
+msgstr "רוב ה-child themes של ג'נסיס כוללים דף בית מותאם אישית"
+
+#: lib/admin/theme-settings.php:303
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:304
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr "דף הבית הזה בדרך כלל מותקן ע\"י וידג'טים בתפריט הצד בשביל דף הבית. זה נגיש דרך תפריט הוידג'טים שתחת עיצוב"
+
+#: lib/admin/theme-settings.php:305
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr ""
+
+#: lib/admin/theme-settings.php:306
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr ""
+
+#: lib/admin/theme-settings.php:307
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr ""
+
+#: lib/admin/theme-settings.php:308
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr ""
+
+#: lib/admin/theme-settings.php:309
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr ""
+
+#: lib/admin/theme-settings.php:368
+msgid "Home Pages"
+msgstr "דפי בית"
+
+#: 404.php:41 lib/structure/post.php:335 page_archive.php:30
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: 404.php:46 page_archive.php:35
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: 404.php:51 page_archive.php:40
+msgid "Authors:"
+msgstr "כותבים:"
+
+#: 404.php:56 page_archive.php:45
+msgid "Monthly:"
+msgstr "חודשי:"
+
+#: 404.php:61 page_archive.php:50
+msgid "Recent Posts:"
+msgstr "פוסטים אחרונים:"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "הפוסט מוגן בסיסמה. הזן את הסיסמה כדי לצפייה בתגובות."
+
+#: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
+msgid "Custom Document Title"
+msgstr "כותרת מסמך (Title) מותאמת אישית"
+
+#: lib/admin/inpost-metaboxes.php:49
+msgid "Custom Post/Page Meta Description"
+msgstr "Meta Description לעמוד \\ פוסט"
+
+#: lib/admin/inpost-metaboxes.php:52
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Meta Keywords לעמוד \\ פוסט  (מופרדים בפסיק)"
+
+#: lib/admin/inpost-metaboxes.php:55
+msgid "Custom Canonical URI"
+msgstr "URI קנוני מותאם אישית"
+
+#: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
+msgid "Robots Meta Settings"
+msgstr "הגדרות Robots Meta"
+
+#: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+msgid "Apply %s to this post/page"
+msgstr "החל %s על פוסט/ עמוד זה"
+
+#: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "אפשר לקבוע  פריסת ברירת מחדל ב <a href=\"%s\">הגדרות תבנית</a>\n"
+
+#: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:313
+msgid "Theme Settings"
+msgstr "הגדרות תבנית"
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:269 lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42 lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+msgid "SEO Settings"
+msgstr "הגדרות SEO"
+
+#: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+msgid "Homepage Settings"
+msgstr "הגדרות עמוד הבית"
+
+#: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
+msgid "Archives Settings"
+msgstr "הגדרות ארכיונים"
+
+#: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+msgid "Document Head Settings"
+msgstr "הגדרות ראש המסמך "
+
+#: lib/admin/seo-settings.php:41
+msgid "Genesis - SEO Settings"
+msgstr "SEO ג'נסיס-הגדרות"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+msgid "Reset Settings"
+msgstr "איפוס הגדרות"
+
+#: lib/js/load-scripts.php:146
+msgid "Are you sure you want to reset?"
+msgstr "האם אתה בטוח שברצונך לאפס?"
+
+#: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
+#: lib/widgets/featured-post-widget.php:353
+#: lib/widgets/featured-post-widget.php:383
+#: lib/widgets/user-profile-widget.php:166
+msgid "Left"
+msgstr "שמאל"
+
+#: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
+#: lib/widgets/featured-post-widget.php:354
+#: lib/widgets/featured-post-widget.php:384
+#: lib/widgets/user-profile-widget.php:167
+msgid "Right"
+msgstr "ימין"
+
+#: lib/admin/seo-settings.php:347
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "איזה טקסט אתה רוצה לעטוף בתגיות%s?"
+
+#: lib/admin/seo-settings.php:351
+msgid "Site Title"
+msgstr "כותרת אתר"
+
+#: lib/admin/seo-settings.php:357
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "לא ולא. ברצוניי לתייג טקסט בדף הבית ידנית"
+
+#: lib/admin/seo-settings.php:379
+msgid "Homepage Robots Meta Tags:"
+msgstr " Robots Meta Tags - דף הבית."
+
+#: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to the homepage?"
+msgstr "להחחל %s על דף הבית?"
+
+#: lib/admin/seo-settings.php:542
+msgid "Canonical Paginated Archives"
+msgstr "גנסיס %s קיימת ל %s"
+
+#: lib/admin/seo-settings.php:545
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "אפשרות זו מואה למנועי החיפוש להסתכל על עמוד התוצאות הראשון של דפי חיפוש. אם אינך יודע מה המשמעותשל זה, השאר את ברירת המחדל."
+
+#: lib/admin/seo-settings.php:426
+msgid "Relationship Link Tags:"
+msgstr "תגיות קישורי יחסים (Relationship Link)"
+
+#: lib/admin/seo-settings.php:433
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Writer תמיכת:"
+
+#: lib/admin/seo-settings.php:437
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "לכלול  תג Windows Live Writer Support?"
+
+#: lib/admin/seo-settings.php:440
+msgid "Shortlink Tag:"
+msgstr "תגית של קישור מקוצר (Shortlink):"
+
+#: lib/admin/seo-settings.php:444
+msgid "Include Shortlink tag?"
+msgstr "לכלול תגיות Shortlink?"
+
+#: lib/admin/seo-settings.php:470
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "אתה אולי לא רוצה את דפי הארכיון להיות באינדקס של מנועי החיפוש. רק אתה יכול לקבוע זאת."
+
+#: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
+msgid "Apply %s to Category Archives?"
+msgstr "החל%s לקטגוריה?"
+
+#: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
+msgid "Apply %s to Tag Archives?"
+msgstr "החל%s לתג?"
+
+#: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
+msgid "Apply %s to Author Archives?"
+msgstr "החל%s למחבר?"
+
+#: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
+msgid "Apply %s to Date Archives?"
+msgstr "החל%s להיסטוריה?"
+
+#: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
+msgid "Apply %s to Search Archives?"
+msgstr "החל%s לחיפוש?"
+
+#: lib/admin/seo-settings.php:493
+msgid "Apply %s to Entire Site?"
+msgstr "החל%s לכל האתר?"
+
+#: lib/admin/seo-settings.php:513
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "מפעם לפעם, מנועי חיפוש להשתמש במשאבים כמו Open Directory Project ואת Yahoo Directoryכדי למצוא כותרות ותיאורים עבור התוכן שלך. באופן כללי, אתה לא רוצה שהם יעשו זאת. התגים%s%s מונעים מהם לעשות זאת."
+
+#: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
+msgid "Apply %s to your site?"
+msgstr "החל%s לאתר שלך?"
+
+#: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "רשימה מופרדת באמצעות פסיקים"
+
+#: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Robots Meta"
+
+#: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
+msgid "Apply %s to this archive?"
+msgstr "להחיל %s לארכיון הזה?"
+
+#: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
+#: lib/admin/theme-settings.php:408
+msgid "Information"
+msgstr "מידע"
+
+#: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
+#: lib/admin/theme-settings.php:413
+msgid "Custom Feeds"
+msgstr "פידים מותאמים אישית"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "תיבת המחבר"
+
+#: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
+#: lib/admin/theme-settings.php:423
+msgid "Breadcrumbs"
+msgstr "פירורי לחם"
+
+#: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
+#: lib/admin/theme-settings.php:426
+msgid "Content Archives"
+msgstr "ארכיוני תוכן"
+
+#: lib/admin/theme-settings.php:475
+msgid "Version:"
+msgstr "גירסה:"
+
+#: lib/admin/theme-settings.php:475
+msgid "Released:"
+msgstr "שוחרה:"
+
+#: lib/admin/theme-settings.php:482
+msgid "Enable Automatic Updates"
+msgstr "אפשר עידכונים אוטומטים"
+
+#: lib/admin/theme-settings.php:488
+msgid "Notify"
+msgstr "להודיע"
+
+#: lib/admin/theme-settings.php:490
+msgid "when updates are available"
+msgstr "כאשר עדכונים זמינים"
+
+#: lib/admin/theme-settings.php:599
+msgid "Dynamic text"
+msgstr "טקסט דינמי"
+
+#: lib/admin/theme-settings.php:600
+msgid "Image logo"
+msgstr "תמונת לוגו"
+
+#: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:60
+msgid "Full Width Content"
+msgstr "תוכן ברוחב מלא"
+
+#: lib/admin/theme-settings.php:887
+msgid "Comma separated - 1,2,3 for example"
+msgstr "מופרדים בפסיקים - 1,2,3 למשל"
+
+#: lib/admin/theme-settings.php:644
+msgid "Display the following:"
+msgstr "להציג את הדברים הבאים:"
+
+#: lib/admin/theme-settings.php:647
+msgid "Today's date"
+msgstr "תאריך"
+
+#: lib/admin/theme-settings.php:648
+msgid "RSS feed links"
+msgstr "קישורי RSS"
+
+#: lib/admin/theme-settings.php:649
+msgid "Search form"
+msgstr "טופס חיפוש"
+
+#: lib/admin/theme-settings.php:650
+msgid "Twitter link"
+msgstr "קישור לטוויטר"
+
+#: lib/admin/theme-settings.php:655
+msgid "Enter Twitter ID:"
+msgstr "הזן Twitter ID:"
+
+#: lib/admin/theme-settings.php:659
+msgid "Twitter Link Text:"
+msgstr "טקטס הקישור לטוויטר"
+
+#: lib/admin/theme-settings.php:684
+msgid "Enter your custom feed URI:"
+msgstr "הזן URI לפייד שלך:"
+
+#: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
+msgid "Redirect Feed?"
+msgstr "הפנית פייד?"
+
+#: lib/admin/theme-settings.php:692
+msgid "Enter your custom comments feed URI:"
+msgstr "הזן URI לתגובות שלך:"
+
+#: lib/admin/theme-settings.php:719
+msgid "Enable Comments"
+msgstr "אפשר תגובות"
+
+#: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
+msgid "on posts?"
+msgstr "על פוסטים?"
+
+#: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
+msgid "on pages?"
+msgstr "על עמודים?"
+
+#: lib/admin/theme-settings.php:728
+msgid "Enable Trackbacks"
+msgstr "אפשר טראקבקים"
+
+#: lib/admin/theme-settings.php:805
+msgid "Select one of the following:"
+msgstr "בחר אחת מהבאים:"
+
+#: lib/admin/theme-settings.php:811
+msgid "Display post content"
+msgstr "להציג תוכן הפוסט"
+
+#: lib/admin/theme-settings.php:812
+msgid "Display post excerpts"
+msgstr "להציג תקציר הפוסט"
+
+#: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
+msgid "Limit content to"
+msgstr "להגביל תוכן ל"
+
+#: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
+msgid "characters"
+msgstr "תוים"
+
+#: lib/widgets/featured-page-widget.php:202
+#: lib/widgets/featured-post-widget.php:368
+msgid "Image Size"
+msgstr "גודל תמונה"
+
+#: lib/admin/theme-settings.php:848
+msgid "Select Post Navigation Technique:"
+msgstr "בחר שיטת ניווט:"
+
+#: lib/admin/theme-settings.php:850
+msgid "Older / Newer"
+msgstr "ישן יותר / חדש יותר"
+
+#: lib/admin/theme-settings.php:851
+msgid "Previous / Next"
+msgstr "הקודם / הבא"
+
+#: lib/admin/theme-settings.php:852
+msgid "Numeric"
+msgstr "ממוספר"
+
+#: lib/admin/theme-settings.php:880
+msgid "Display which category:"
+msgstr "איזו קטגוריה להציג:"
+
+#: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#: lib/admin/theme-settings.php:885
+msgid "Exclude the following Category IDs:"
+msgstr "הוצא מהכלל אתהקטגוריות הבאות ( לפי ID )"
+
+#: lib/widgets/featured-post-widget.php:296
+#: lib/widgets/featured-post-widget.php:439
+msgid "Number of Posts to Show"
+msgstr "להציג מספר פוסטים "
+
+#: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
+msgid "Home"
+msgstr "בית"
+
+#: lib/functions/upgrade.php:536
+msgid "Click here to complete the upgrade"
+msgstr "לחץ כאן כדי להשלים את השדרוג"
+
+#: lib/functions/upgrade.php:606
+msgid "Genesis %s is available for %s"
+msgstr "גנסיס %s זמין עבור %s"
+
+#: lib/functions/upgrade.php:607
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "ג'נסיס %s זמינה עכשיו. סיפקנו עדכון בקליק בודד לתמה הזו, אז בבקשה התחברו לממשק הניהול שלכם ועדכנו בהקדם האפשרי."
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "חזרה לראש העמוד"
+
+#: lib/shortcodes/footer.php:240
+msgid "Log in"
+msgstr "התחבר"
+
+#: lib/shortcodes/footer.php:242
+msgid "Log out"
+msgstr "התנתק"
+
+#: lib/shortcodes/post.php:249
+msgid "Leave a Comment"
+msgstr "כתוב תגובה"
+
+#: lib/shortcodes/post.php:248
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: lib/shortcodes/post.php:247
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: lib/shortcodes/post.php:293
+msgid "Tagged With: "
+msgstr "מתוייג כ:"
+
+#: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
+msgid "Filed Under: "
+msgstr "מתוייק תחת: "
+
+#: lib/shortcodes/post.php:423 lib/structure/comments.php:233
+#: lib/structure/comments.php:298 lib/structure/post.php:280
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#: lib/structure/comments.php:79
+msgid "<h3>Comments</h3>"
+msgstr "<h3> תגובות</h3>"
+
+#: lib/structure/comments.php:143
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3> טראקבקים</h3>"
+
+#: lib/structure/comments.php:228
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:228 lib/structure/comments.php:289
+msgid "says"
+msgstr "אומר "
+
+#: lib/structure/comments.php:232
+msgid "%1$s at %2$s"
+msgstr "%1$s אל%2$s"
+
+#: lib/structure/comments.php:239 lib/structure/comments.php:305
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה שלך ממתינה לאישור."
+
+#: lib/structure/comments.php:380
+msgid "Name"
+msgstr "שם"
+
+#: lib/structure/comments.php:386
+msgid "Email"
+msgstr "אימייל"
+
+#: lib/structure/comments.php:392
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#: lib/structure/comments.php:401
+msgid "Speak Your Mind"
+msgstr "להשמיע את דעתך"
+
+#: lib/structure/footer.php:145
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: lib/init.php:58
+msgid "Primary Navigation Menu"
+msgstr "תפריט ניווט ראשי"
+
+#: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
+msgid "Posts"
+msgstr "פוסטים"
+
+#: lib/structure/menu.php:185
+msgid "Comments"
+msgstr "תגובות"
+
+#: lib/structure/post.php:287 lib/structure/post.php:289
+msgid "[Read more...]"
+msgstr "[קרא עוד ...]"
+
+#: lib/widgets/featured-post-widget.php:53
+msgid "By"
+msgstr "על ידי "
+
+#: lib/structure/post.php:507 lib/structure/post.php:517
+msgid "About"
+msgstr "על"
+
+#: lib/structure/post.php:567
+msgid "Older Posts"
+msgstr "פוסטים ישנים יותר"
+
+#: lib/structure/post.php:568
+msgid "Newer Posts"
+msgstr "פוסטים חדשים יותר"
+
+#: lib/structure/search.php:33
+msgid "Search"
+msgstr "לחפש"
+
+#: lib/structure/sidebar.php:27
+msgid "Primary Sidebar Widget Area"
+msgstr "אזור ווידג'טים ראשי"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "אזור ווידג'טים משני"
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "אתה נמצא כאן:"
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+msgid "Archives for "
+msgstr " ארכיון של"
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "חיפוש עבור"
+
+#: lib/classes/breadcrumb.php:352
+msgid "View all posts in %s"
+msgstr "הצג את כל הפוסטים שנכתבו על%s"
+
+#: lib/widgets/featured-page-widget.php:185
+#: lib/widgets/featured-post-widget.php:273
+#: lib/widgets/featured-post-widget.php:309
+#: lib/widgets/featured-post-widget.php:434
+#: lib/widgets/user-profile-widget.php:141
+msgid "Title"
+msgstr "כותרת"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "הצגת עמודים עם תמונה"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "ג'נסיס - הצגת עמוד"
+
+#: lib/shortcodes/footer.php:175 lib/structure/post.php:381
+msgid "by"
+msgstr "על ידי"
+
+#: lib/widgets/featured-page-widget.php:190
+msgid "Page"
+msgstr "עמוד"
+
+#: lib/widgets/featured-page-widget.php:214
+#: lib/widgets/featured-post-widget.php:380
+msgid "Image Alignment"
+msgstr "יישור תמונה"
+
+#: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
+#: lib/widgets/featured-post-widget.php:352
+#: lib/widgets/featured-post-widget.php:382
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+msgid "None"
+msgstr "ללא"
+
+#: lib/widgets/featured-page-widget.php:226
+msgid "Show Page Title"
+msgstr "הצג כותרת עמוד"
+
+#: lib/widgets/featured-page-widget.php:231
+msgid "Show Page Content"
+msgstr "הצג תוכן עמוד"
+
+#: lib/widgets/featured-page-widget.php:235
+msgid "Content Character Limit"
+msgstr "הגבלת תווים לתוכן"
+
+#: lib/widgets/featured-page-widget.php:240
+msgid "More Text"
+msgstr "טקסט \"עוד\""
+
+#: lib/widgets/featured-post-widget.php:65
+msgid "Displays featured posts with thumbnails"
+msgstr "מציג פוסט נבחר עם תמונה ראשית"
+
+#: lib/widgets/featured-post-widget.php:74
+msgid "Genesis - Featured Posts"
+msgstr "ג'נסיס  - הצגת פוסטים"
+
+#: lib/widgets/featured-post-widget.php:56
+msgid "[Read More...]"
+msgstr "[קרא עוד...]"
+
+#: lib/widgets/featured-post-widget.php:60
+msgid "More Posts from this Category"
+msgstr "עוד פוסטים מקטגוריה זו"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Category"
+msgstr "קטגוריה"
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "Number of Posts to Offset"
+msgstr "מספר הודעות הסט"
+
+#: lib/widgets/featured-post-widget.php:306
+msgid "Order By"
+msgstr "לסדר לפי"
+
+#: lib/widgets/featured-post-widget.php:308
+msgid "Date"
+msgstr "תאריך"
+
+#: lib/widgets/featured-post-widget.php:310
+msgid "Parent"
+msgstr "הורה"
+
+#: lib/widgets/featured-post-widget.php:311
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Comment Count"
+msgstr "ספירת תגובות"
+
+#: lib/widgets/featured-post-widget.php:313
+msgid "Random"
+msgstr "אקראי"
+
+#: lib/widgets/featured-post-widget.php:318
+msgid "Sort Order"
+msgstr "סדר לפי"
+
+#: lib/widgets/featured-post-widget.php:320
+msgid "Descending (3, 2, 1)"
+msgstr "יורד ( 3,2,1)"
+
+#: lib/widgets/featured-post-widget.php:321
+msgid "Ascending (1, 2, 3)"
+msgstr "עולה ( 1,2,3)"
+
+#: lib/widgets/featured-post-widget.php:336
+msgid "Show Author Gravatar"
+msgstr "הצג Gravatar של המחבר"
+
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/user-profile-widget.php:151
+msgid "Gravatar Size"
+msgstr "Gravatar גודל"
+
+#: lib/widgets/featured-post-widget.php:342
+msgid "Small (45px)"
+msgstr "קטן (45px)"
+
+#: lib/widgets/featured-post-widget.php:343
+msgid "Medium (65px)"
+msgstr "בינוני (65px)"
+
+#: lib/widgets/featured-post-widget.php:344
+msgid "Large (85px)"
+msgstr "גדול (85px)"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Extra Large (125px)"
+msgstr "גדול מאוד (125px)"
+
+#: lib/widgets/featured-post-widget.php:350
+#: lib/widgets/user-profile-widget.php:163
+msgid "Gravatar Alignment"
+msgstr "Gravatar יישור"
+
+#: lib/widgets/featured-post-widget.php:398
+msgid "Show Post Title"
+msgstr "הצג את כותרת הפוסט"
+
+#: lib/widgets/featured-post-widget.php:423
+msgid "More Text (if applicable)"
+msgstr "טקסט \"עוד\""
+
+#: lib/widgets/featured-post-widget.php:431
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "כדי להציג רשימה של פוסטים נוספים מקטגוריה זו, אנא מלאו את הפרטים להלן"
+
+#: lib/widgets/featured-post-widget.php:449
+msgid "Show Category Archive Link"
+msgstr "הצג קישור לארכיב הקטגוריה"
+
+#: lib/widgets/featured-post-widget.php:453
+msgid "Link Text"
+msgstr "כיתוב קישור"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "הצגת פרופיל המשתמש עם Gravatar"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "ג'נסיס - פרטי משתמש"
+
+#: lib/widgets/user-profile-widget.php:102
+msgid "View My Blog Posts"
+msgstr "הצג את הפוסטים שלי"
+
+#: lib/widgets/user-profile-widget.php:146
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "בחר משתמש. כתובת דוא\"ל עבור חשבון זה ישמש כדי למשוך את תמונת ה- Gravatar."
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Small"
+msgstr "קטן"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Medium"
+msgstr "בינוני"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Large"
+msgstr "גדול"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Extra Large"
+msgstr "גדול מאוד"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Select which text you would like to use as the author description"
+msgstr "בחר את הטקסט שאתה רוצה להשתמש  בו כתיאור המחבר"
+
+#: lib/widgets/user-profile-widget.php:175
+msgid "Author Bio"
+msgstr "על המחבר"
+
+#: lib/widgets/user-profile-widget.php:177
+msgid "Custom Text (below)"
+msgstr "טקסט מותאם אישית"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "בחר את העמוד \"אודותיי\" מהרשימה. זה יהיה הדף המקושר בסוף הקטע."
+
+#: lib/widgets/user-profile-widget.php:195
+msgid "Show Author Archive Link?"
+msgstr "הצג קישור לארכיון המחבר?"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "ג'נסיס - ייבוא ​​/ ייצוא"
+
+#: lib/admin/import-export.php:128
+msgid "Import Genesis Settings File"
+msgstr "יייבוא קובץ הגדרות של ג'נסיס"
+
+#: lib/admin/import-export.php:136
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "העלאת קובץ: (גודל מירבי: %s)"
+
+#: lib/admin/import-export.php:147
+msgid "Export Genesis Settings File"
+msgstr "יייצוא קובץ הגדרות של ג'נסיס"
+
+#: lib/admin/import-export.php:150
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "לאחר שמירת קובץ ההורדה, ניתן להשתמש בפונקציה \"יבוא\" כדי לייבא נתונים אלה."
+
+#: lib/admin/import-export.php:157
+msgid "Download Export File"
+msgstr "הורדת קובץ ייצוא"
+
+#: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
+msgid "Characters Used: %s"
+msgstr "תווים בשימוש:-%s"
+
+#: lib/admin/inpost-metaboxes.php:58
+msgid "Custom Redirect URI"
+msgstr "URI להפנייה מותאם אישית"
+
+#: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
+msgid "Custom Body Class"
+msgstr "Body Class מותאם אישית"
+
+#: lib/admin/inpost-metaboxes.php:245
+msgid "Custom Post Class"
+msgstr "Post Class מותאם אישית"
+
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+msgid "Import/Export"
+msgstr "ייבא/ייצא"
+
+#: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
+msgid "Choose Layout"
+msgstr "בחר פרישה"
+
+#: lib/admin/theme-settings.php:833
+msgid "Include the Featured Image?"
+msgstr "לכלול תמונה ראשית?"
+
+#: lib/admin/user-meta.php:76
+msgid "Genesis Admin Menus"
+msgstr "ג'נסיס - תפריטי אדמין"
+
+#: lib/admin/user-meta.php:79
+msgid "Enable Genesis Admin Menu?"
+msgstr "אפשר תפריטי אדמין של ג'נסיס"
+
+#: lib/admin/user-meta.php:82
+msgid "Enable SEO Settings Submenu?"
+msgstr "אפשר תפריט הגדרות SEO?"
+
+#: lib/admin/user-meta.php:85
+msgid "Enable Import/Export Submenu?"
+msgstr "אפשר ייבוא ​​/ ייצוא תת-תפריט?"
+
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "לאפשר תיבת המחבר בפוסטים של המחבר הזה?"
+
+#: lib/admin/user-meta.php:146
+msgid "Enable Author Box on this User's Archives?"
+msgstr "לאפשר תיבת המחבר בארכיון של המחבר הזה?"
+
+#: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
+#: lib/admin/user-meta.php:248
+msgid "These settings apply to this author's archive pages."
+msgstr "הגדרות אלה חלות על דפי הארכיון של המחבר."
+
+#: lib/admin/user-meta.php:124
+msgid "Custom Archive Headline"
+msgstr "כותרת אישית לארכיון"
+
+#: lib/admin/user-meta.php:127
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "יציג את התג %s בחלק העליון של העמוד הראשון"
+
+#: lib/admin/user-meta.php:132
+msgid "Custom Description Text"
+msgstr "תיאור טקסט מותאם אישית"
+
+#: lib/admin/user-meta.php:135
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "טקסט זה יוצג בפסקה הראשונה, בדף הראשון."
+
+#: lib/functions/upgrade.php:512
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "מזל טוב! ג'נסיס %s חיה ובועטת"
+
+#: lib/widgets/featured-page-widget.php:198
+#: lib/widgets/featured-post-widget.php:364
+msgid "Show Featured Image"
+msgstr "הצג תמונה ראשית"
+
+#: lib/widgets/featured-post-widget.php:403
+msgid "Show Post Info"
+msgstr "הצג מידע על הפוסט"
+
+#: lib/widgets/featured-post-widget.php:408
+msgid "Content Type"
+msgstr "סוג תוכן"
+
+#: lib/widgets/featured-post-widget.php:410
+msgid "Show Content"
+msgstr "להציג תוכן"
+
+#: lib/widgets/featured-post-widget.php:411
+msgid "Show Excerpt"
+msgstr "להציג תקציר"
+
+#: lib/widgets/featured-post-widget.php:412
+msgid "Show Content Limit"
+msgstr "הצג מגבלת תוכן"
+
+#: lib/widgets/featured-post-widget.php:413
+msgid "No Content"
+msgstr "ללא תוכן"
+
+#: lib/classes/breadcrumb.php:60
+msgid "Not found: "
+msgstr "לא נמצא:"
+
+#: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
+msgid "View %s"
+msgstr "הצג %s"
+
+#: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
+msgid "View archives for %s"
+msgstr "צפייה בארכיון עבור%s"
+
+#: lib/classes/breadcrumb.php:497
+msgid "View archives for %s %s"
+msgstr "צפייה בארכיון עבור%s%s"
+
+#: lib/classes/breadcrumb.php:386
+msgid "View all %s"
+msgstr "הצג את כל%s"
+
+#: lib/classes/breadcrumb.php:561
+msgid "View all items in %s"
+msgstr " הצג את כל הפריטים ב%s"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Right"
+msgstr "ימין הכותרת"
+
+#: lib/functions/widgetize.php:117
+msgid "Primary Sidebar"
+msgstr "סרגל צדדי ראשי"
+
+#: lib/functions/widgetize.php:126
+msgid "Secondary Sidebar"
+msgstr "סרגל צדדי משני"
+
+#: lib/admin/import-export.php:191
+msgid "There was a problem importing your settings. Please try again."
+msgstr "היתה בעיה לייבא את ההגדרות שלך. אנא נסה שוב."
+
+#: lib/functions/layout.php:109
+msgid "No Label Selected"
+msgstr "לא נבחרה תוית"
+
+#: lib/functions/widgetize.php:159
+msgid "Footer %d"
+msgstr "פוטר %d"
+
+#: lib/admin/import-export.php:235
+msgid "No export options available."
+msgstr "אפשרויות ייצוא אינן זמינות"
+
+#: lib/js/load-scripts.php:143
+msgid "Select / Deselect All"
+msgstr "בחר / בטל הכל"
+
+#: lib/shortcodes/post.php:42
+msgid "ago"
+msgstr "לפני"
+
+#: lib/structure/post.php:589 lib/structure/post.php:655
+msgid "Previous Page"
+msgstr "הקודם"
+
+#: lib/structure/post.php:590 lib/structure/post.php:685
+msgid "Next Page"
+msgstr "הבא"
+
+#: lib/admin/theme-settings.php:539
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: lib/admin/import-export.php:131
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "בחר את הקובץ מהמחשב ולחץ על \"ייבוא קובץ\""
+
+#: lib/admin/import-export.php:139
+msgid "Upload File and Import"
+msgstr "ייבוא קובץ"
+
+#: lib/admin/import-export.php:189
+msgid "Settings successfully imported."
+msgstr "הגדרות יובאו בהצלחה."
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+msgid "Settings reset."
+msgstr "איפוס הגדרות."
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+msgid "Settings saved."
+msgstr "הגדרות נשמרו"
+
+#: lib/admin/seo-settings.php:376
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "מנועי חיפוש בדרך כלל מתעלמיםממילות מפתח."
+
+#: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
+#: lib/admin/theme-settings.php:414
+msgid "Default Layout"
+msgstr "פריסת ברירת מחדל"
+
+#: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
+#: lib/admin/theme-settings.php:425
+msgid "Comments and Trackbacks"
+msgstr "הערות וטראקבקים"
+
+#: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
+#: lib/admin/theme-settings.php:430
+msgid "Header and Footer Scripts"
+msgstr "סקריפטים ל Header ו Footer"
+
+#: lib/admin/theme-settings.php:478
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "זה יכול להיות מועיל לאבחון בעיות עם הנושא שלך כאשר המבקשים סיוע ב <a href=\"%s\" target=\"_blank\"> תמיכה בפורומים </a>."
+
+#: lib/admin/theme-settings.php:699
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "אם הפידים שלך אינם מטופלים על ידי Feedburner, אנחנו לא ממליצים להשתמש באפשרות ההפניה."
+
+#: lib/admin/theme-settings.php:736
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "תגובות וטראקבקים ניתן גם לכבות אותו בכל הודעה / עמוד בעת יצירת / עריכת הודעות / עמודים."
+
+#: lib/admin/theme-settings.php:755
+msgid "Enable on:"
+msgstr "אפשר על:"
+
+#: lib/admin/theme-settings.php:759
+msgid "Front Page"
+msgstr "דך הבית"
+
+#: lib/admin/theme-settings.php:772
+msgid "Pages"
+msgstr "עמודים"
+
+#: lib/admin/theme-settings.php:775
+msgid "Archives"
+msgstr "ארכיונים"
+
+#: lib/admin/theme-settings.php:778
+msgid "404 Page"
+msgstr "עמוד 404"
+
+#: lib/admin/theme-settings.php:784
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "פירורי לחם הם דרך מצוינת לעזור למבקרים שלך להתמצות באתר שלך במבט פשוט. אתה יכול לאפשר / לבטל אותם על אזורים מסוימים של האתר שלך."
+
+#: lib/admin/theme-settings.php:828
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "שימוש באפשרות זו יפשיט  את כח העיצוב מהטקסט במקור. כדי להשתמש באפשרות זו, בחר \"להציג תוכן הפוסט\" בתיבת בחירה למעלה."
+
+#: lib/admin/theme-settings.php:856
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "אפשרויות אלה ישפיעו על כל דפי הרשימות באתר, כולל ארכיון, המחבר, בלוג, קטגוריה, חיפוש ודפי תג."
+
+#: lib/functions/formatting.php:284
+msgctxt "time difference"
+msgid "seconds"
+msgstr "שניות"
+
+#: lib/functions/formatting.php:288
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s שנה"
+msgstr[1] "%s שנים"
+
+#: lib/functions/formatting.php:289
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s חודש"
+msgstr[1] "%s חודשים"
+
+#: lib/functions/formatting.php:290
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s שבוע"
+msgstr[1] "%s שבועות"
+
+#: lib/functions/formatting.php:291
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s יום"
+msgstr[1] "%s ימים"
+
+#: lib/functions/formatting.php:292
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s שעה"
+msgstr[1] "%s שעות"
+
+#: lib/functions/formatting.php:293
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s דקה"
+msgstr[1] "%s דקות"
+
+#: lib/functions/formatting.php:294
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s שניה"
+msgstr[1] "%s שניות"
+
+#: lib/functions/formatting.php:319
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "וגם"
+
+#: lib/functions/layout.php:39
+msgid "Content-Sidebar"
+msgstr "תוכן - סרגל "
+
+#: lib/functions/layout.php:44
+msgid "Sidebar-Content"
+msgstr "סרגל - תוכן"
+
+#: lib/functions/layout.php:48
+msgid "Content-Sidebar-Sidebar"
+msgstr "תוכן - סרגל - סרגל"
+
+#: lib/functions/layout.php:52
+msgid "Sidebar-Sidebar-Content"
+msgstr "סרגל - סרגל - תוכן"
+
+#: lib/functions/layout.php:56
+msgid "Sidebar-Content-Sidebar"
+msgstr "סרגל - תוכן -סרגל"
+
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "הגדרות SEO"
+
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:275
+#: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
+msgid "Layout Settings"
+msgstr "הגדרות מערך תצוגה"
+
+#: lib/admin/seo-settings.php:430
+msgid "Adjacent Posts %s link tags"
+msgstr "תגיות לינק %s פוסטים קשורים"
+
+#: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
+msgid "Archive Settings"
+msgstr "הגדרות ארכיון"
+
+#: lib/admin/theme-settings.php:88
+msgid "Follow me on Twitter"
+msgstr "עקבו אחרי בטוויטר"
+
+#: lib/admin/theme-settings.php:411
+msgid "Color Style"
+msgstr "צבע"
+
+#: lib/admin/theme-settings.php:781
+msgid "Attachment Page"
+msgstr "עמוד קובץ מצורף"
+
+#: lib/admin/theme-settings.php:837
+msgid "Image Size:"
+msgstr "גודל תמונה: "
+
+#: lib/admin/theme-settings.php:892
+msgid "Number of Posts to Show:"
+msgstr "מספר פוסטים להצגה: "
+
+#: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "הכנס סקריפט או קוד שתרצה לייצא ל %s"
+
+#: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "ה %1$s הוק (hook) מבוצע מיד לפני התג %2$s הסוגר בקוד של הדף."
+
+#: lib/admin/theme-settings.php:537
+msgid "Color Style:"
+msgstr "צבע: "
+
+#: lib/admin/theme-settings.php:551
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "אנא בחר את הצבע מהתפריט הנפתח ושמור את ההגדרות"
+
+#: lib/admin/user-meta.php:72
+msgid "User Permissions"
+msgstr "הרשאות משתמש"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "הגדרות ארכיון משתמש"
+
+#: lib/classes/admin.php:119
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "לא ניתן להשתמש ב %s על מנת ליצור שני תפריטים באותה תת מחלקה. יש להשתמש בתתי מחלקות נפרדות עבור כל תפריט."
+
+#: lib/functions/menu.php:91
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+
+#: lib/functions/seo.php:127
+msgid "Dismiss"
+msgstr "לשחרר"
+
+#: lib/functions/widgetize.php:118
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "זהו התפריט הצדדי הראשי אם אתה משתמש באפשרות פרישה של שתיים או שלוש עמודות."
+
+#: lib/functions/widgetize.php:127
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "זהו התפריט הצדדי המשני אם אתה משתמש באפשרות פרישה של שלוש עמודות."
+
+#: lib/functions/widgetize.php:160
+msgid "Footer %d widget area."
+msgstr "אזור וידגט %d תחתון"
+
+#: lib/widgets/user-profile-widget.php:189
+msgid "Extended page link text"
+msgstr "תיאור מורחב עבור לינק לעמוד"
+
+#: lib/functions/widgetize.php:108
+msgid "Header Left"
+msgstr "שמאל הכותרת"
+
+#: lib/functions/widgetize.php:109
+msgid "This is the widget area in the header."
+msgstr "זהו אזור הוידגט בכותרת"
+
+#: lib/init.php:59
+msgid "Secondary Navigation Menu"
+msgstr "תפריט ניווט משני"
+
+#: lib/widgets/user-profile-widget.php:178
+msgid "Custom Text Content"
+msgstr "תוכן של טקסט מותאם אישית"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+msgid "Error saving settings."
+msgstr "שגיאה בשמירת הגדרות."
+
+#: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
+msgid "Archive Headline"
+msgstr "כותרת ארכיון"
+
+#: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
+msgid "Leave empty if you do not want to display a headline."
+msgstr "השאר ריק אם אינך רוצה להציג כותרת"
+
+#: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
+msgid "Archive Intro Text"
+msgstr "טקסט מקדים לארכיון"
+
+#: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "השאר ריק אם אינך רוצה להציג טקסט מקדים לארכיון"
+
+#: lib/structure/footer.php:145
+msgid "on"
+msgstr "על"
+
+#: lib/admin/seo-settings.php:392
+msgid "Homepage Author"
+msgstr "מחבר דף הבית"
+
+#: lib/admin/seo-settings.php:395
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "בחר את המשתמש לשימוש %s עבור דף הבית. יש לודא כי המשתמש שבחרת הזין את כתובת פרופיל הגוגל+ שלו במסך עריכת פרופיל משתמש."
+
+#: lib/admin/seo-settings.php:400
+msgid "Select User"
+msgstr "בחר משתמש"
+
+#: lib/admin/theme-settings.php:597
+msgid "Use for site title/logo:"
+msgstr "לשימוש עבור כותרת או לוגו האתר: "
+
+#: lib/admin/user-meta.php:26
+msgid "Google+"
+msgstr "גוגל+"
+
+#: lib/admin/whats-new.php:39
+msgid "Welcome to Genesis %s"
+msgstr "ברוכים הבאים לג'נסיס %s"
+
+#: lib/admin/whats-new.php:66
+msgid "What&#8217;s New"
+msgstr "מה חדש"
+
+#: lib/admin/whats-new.php:112
+msgid "Project Leads"
+msgstr "מובילי הפרויקט"
+
+#: lib/admin/whats-new.php:156
+msgid "Go to Theme Settings &rarr;"
+msgstr "להגדרות תבנית &rarr;"
+
+#: lib/admin/whats-new.php:157
+msgid "Go to SEO Settings &rarr;"
+msgstr "להגדרות אופטימיזציה למנועי חיפוש SEO &rarr;"
+
+#: lib/shortcodes/post.php:170
+msgid "Visit %s&#x02019;s website"
+msgstr "בקרו באתר %s"
+
+#: lib/structure/loops.php:253
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: lib/structure/search.php:31
+msgid "Search this website"
+msgstr "חיפוש באתר"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "קרא עוד"
+
+#: lib/admin/seo-settings.php:263
+msgid "Document Title Settings"
+msgstr "הגדרות כותרת עמוד (Document Title)"
+
+#: lib/admin/seo-settings.php:285
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "כותרת העמוד %s היא האלמנט החשוב במסמך מבחינת אופטימזציה מנועי חיפוש <abbr title=\"Search engine optimization\">SEO</abbr>. הכותרת מעבירה בצורה תמציתית איזה מידע יש במסמך. הכותרת יכולה וצריכה להיות שונה עבור כל עמוד אבל הגדרות אלה יסייעו בהגדרות ברירת המחדל."
+
+#: lib/admin/seo-settings.php:287
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong>כברירת מחדל</strong>, כותרת העמוד של דף הבית מכילה את כותרת האתר, עבור עמוד או פוסט זו כותרת העמוד או הפוסט, עבור דפי ארכיון הכותרת היא סוג הארכיב וכו'."
+
+#: lib/admin/seo-settings.php:291
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "הוספת תיאור אתר (תגית) ל %s בדף הבית ?"
+
+#: lib/admin/seo-settings.php:296
+msgid "Add site name to %s on inner pages?"
+msgstr "הוספת שם אתר ל %s בדפים פנימיים ?"
+
+#: lib/admin/seo-settings.php:300
+msgid "Document Title Additions Location:"
+msgstr "מיקום תוספות כותרת עמוד:"
+
+#: lib/admin/seo-settings.php:301
+msgid "Determines which side the added title text will go on."
+msgstr "קובע באיזה צד יהיה הטקסט הנוסף של הכותרת."
+
+#: lib/admin/seo-settings.php:313
+msgid "Document Title Separator:"
+msgstr "התו המפריד עבור כותרת העמוד:"
+
+#: lib/admin/seo-settings.php:315
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "אם כותרת העמוד בנויה משני חלקים (כותרת מקורית וכותרת אופציונלית), אזי התו המפריד יהיה בין שתיהן."
+
+#: lib/admin/seo-settings.php:354
+msgid "Site Description (Tagline)"
+msgstr "תיאור אתר (תגית)"
+
+#: lib/admin/seo-settings.php:362
+msgid "Homepage Document Title:"
+msgstr "כותרת עמוד דף הבית"
+
+#: lib/admin/seo-settings.php:364
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "אם כותרת העמוד נשארת ריקה אזי כותרת האתר תיהיה בשימוש."
+
+#: lib/admin/seo-settings.php:368
+msgid "Home Meta Description:"
+msgstr "תיאור מפורט עבור דף הבית (Meta Description)"
+
+#: lib/admin/seo-settings.php:370
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "התיאור המפורט יכול לשמש כטקסט שיופיע מתחת לכותרת בתוצאות החיפוש של מנוע החיפוש."
+
+#: lib/admin/seo-settings.php:374
+msgid "Home Meta Keywords (comma separated):"
+msgstr "מילות מפתח עבור דף הבית (Meta Keywords) מופרדות בפסיקים:"
+
+#: lib/admin/seo-settings.php:424
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "כברירת מחדש וורדפרס מכניס מספר תגיות בעמוד %1$s. רוב תגיות אלה לחלוטין אינן נדרשות ואין להן ערך מבחינת אופטימיזציה למנועי חיפוש <abbr title=\"Search engine optimization\">SEO</abbr>; הן רק מאיטות את זמן טעינת האתר. בחר אלו תגיות לכלול בעמוד %1$s. אם אינך יודע, השאר לא מסומן."
+
+#: lib/admin/seo-settings.php:447
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr "<span class=\"genesis-admin-note\">הערה:</span> תגית השורט לינק יכולה להיות בשימוש על ידי שירותים של צד שלישי אבל אין לה שום ערך מבחינת אופטימיזציה למנועי חיפוש <abbr title=\"Search engine optimization\">SEO</abbr>"
+
+#: lib/admin/seo-settings.php:489
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr "מספר מנועי חיפוש ישמרו דפים שלך במטמון. תגית ה %1$s תמנע זאת ממנועי החיפוש. בחר על אלו ארכיונים תרצה %1$s לקבוע זאת."
+
+#: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
+#: lib/admin/theme-settings.php:417
+msgid "Header"
+msgstr "כותרת"
+
+#: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
+#: lib/admin/theme-settings.php:420
+msgid "Navigation"
+msgstr "ניווט"
+
+#: lib/admin/theme-settings.php:427
+msgid "Blog Page Template"
+msgstr "תבנית עמוד בלוג"
+
+#: lib/admin/theme-settings.php:762
+msgid "Posts Page"
+msgstr "עמוד הפוסטים"
+
+#: lib/admin/theme-settings.php:765
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: lib/admin/theme-settings.php:875
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "הגדרות אלו פועלות על כל עמוד שמוגדרת עבורו תבנית של \"פוסט\", ולא על דפים אחרים כגון דף הבית או על ארכיון פוסט."
+
+#: lib/functions/seo.php:125
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+
+#: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+msgid "Lead Developer"
+msgstr "מפתחים מובילים"
+
+#: lib/admin/whats-new.php:136
+msgid "Contributors"
+msgstr "תורמים"
+
+#: lib/admin/whats-new.php:147
+msgid "Contributor"
+msgstr "תורם"
+
+#: search.php:22
+msgid "Search Results for:"
+msgstr "תוצאות חיפוש עבור: "
+
+#: 404.php:27
+msgid "Not found, error 404"
+msgstr "לא נמצא, שגיאה 404"
+
+#: 404.php:32
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr "הדף אותו חיפשת כבר לא קיים. באפשרותך לחזור <a href=\"%s\">לדף הבית</a> של האתר, ולראות אם הינך מוצאת את הדף המבוקש. לחילופין, ביכולתך לחפש את הדף בעזרת טופס החיפוש כאן למטה."
+
+#: lib/admin/cpt-archive-settings.php:55
+msgid "Archive"
+msgstr "ארכיון"
+
+#: lib/admin/cpt-archive-settings.php:158
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr "לצפייה <a href=\"%s\">בארכיון %s</a>."
+
+#: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr "תיאור מטא"
+
+#: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr "מילות מפתח מטא"
+
+#: lib/admin/cpt-archive-settings.php:193
+msgid "Robots Meta Tags:"
+msgstr "תגיות מטא Robots"
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+msgid "Apply %s to this archive"
+msgstr "החל %s לארכיון הזה"
+
+#: lib/admin/inpost-metaboxes.php:141
+msgid "Scripts"
+msgstr "סקריפטים"
+
+#: lib/admin/inpost-metaboxes.php:158
+msgid "Page-specific Scripts"
+msgstr "סקריפטים ספציפיים לעמוד"
+
+#: lib/admin/inpost-metaboxes.php:160
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr ""
+
+#: lib/admin/seo-settings.php:342
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr ""
+
+#: lib/admin/theme-settings.php:634
+msgid "Primary Navigation Extras"
+msgstr "תוספות ניווט עיקרי"
+
+#: lib/functions/deprecated.php:67
+msgid "decimal or hexidecimal entities"
+msgstr "יישויות עשרוניות או הקסדצימליות"
+
+#: lib/js/load-scripts.php:144
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "השינויים שאתה עושה יאבדו אם תצא מדף זה."
+
+#: lib/js/load-scripts.php:145
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr ""
+
+#: lib/structure/comments.php:296
+msgid "at"
+msgstr "ב"
+
+#: lib/structure/post.php:313
+msgid "Permalink"
+msgstr ""
+
+#: lib/structure/post.php:351
+msgid "Sorry, no content matched your criteria."
+msgstr "סליחה, אין תוכן שהתאים לתנאים שלך."
+
+#: lib/widgets/featured-post-widget.php:327
+msgid "Exclude Previously Displayed Posts?"
+msgstr "להוציא מהכלל פוסטים שהוצגו לפני?"
+
+#: lib/admin/whats-new.php:63
+msgid "Congratulations! You're now running Genesis %s."
+msgstr ""
+
+#: lib/admin/whats-new.php:69
+msgid "HTML5 Markup"
+msgstr ""
+
+#: lib/admin/whats-new.php:72
+msgid "Microdata"
+msgstr ""
+
+#: lib/admin/whats-new.php:75
+msgid "A Brand New Design"
+msgstr ""
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr ""
+
+#: lib/admin/whats-new.php:78
+msgid "Removing Features"
+msgstr ""
+
+#: lib/admin/whats-new.php:83
+msgid "Genesis Latest Tweets Widget"
+msgstr ""
+
+#: lib/admin/whats-new.php:84
+msgid "Genesis eNews Extended"
+msgstr ""
+
+#: lib/admin/whats-new.php:85
+msgid "Single Post Template"
+msgstr "תבנית פוסט יחיד"
+
+#: lib/admin/whats-new.php:86
+msgid "Fancy Dropdowns"
+msgstr ""
+
+#: lib/admin/whats-new.php:90
+msgid "Boring, but important"
+msgstr "משעמם, אבל חשוב"
+
+#: lib/admin/whats-new.php:95
+msgid "Better named loop hooks for HTML5."
+msgstr ""
+
+#: lib/admin/whats-new.php:96
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr ""
+
+#: lib/admin/whats-new.php:97
+msgid "Widget classes are now coded in PHP5 format."
+msgstr ""
+
+#: lib/admin/whats-new.php:98
+msgid "Admin CSS and Javascript are now minified."
+msgstr ""
+
+#: lib/admin/whats-new.php:99
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr "הערות HTML בתוך השורות הורדו בשביל להקטין את משקל הדף"
+
+#: lib/admin/whats-new.php:100
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr ""
+
+#: lib/admin/whats-new.php:101
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr ""
+
+#: lib/admin/whats-new.php:102
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr ""
+
+#: lib/admin/whats-new.php:103
+msgid "Entries without titles now display a permalink after the post content."
+msgstr ""
+
+#: lib/functions/general.php:345
+msgid "Install %s"
+msgstr "מתקין %s"
+
+#: 404.php:39
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "הדף שאתה מחפש אינו קיים עוד. אולי אתה יכול לחזור חזרה <a href=\"%s\">לעמוד הבית </a>  של האתר  ולראות אם אתה יכול למצוא את מה שאתה מחפש. לחלופין, אתה יכול לנסות למצוא אותו עם הפרטים שלהלן."
