@@ -3,45 +3,16 @@
 * Contributors: DeFries
 * Donate link: http://remkusdevries.com/donate/
 * Tags: genesis, translations,
-* Requires at least: 3.1
-* Tested up to: 3.5.
-* Stable tag: 1.9.1
-
+* Requires at least: 3.5
+* Tested up to: 3.8-RC2
+* Stable tag: 2.0.1
 Translate your Genesis Framework powered WordPress site into one of the available languages.
 
 ## Description
 
-This plugin translates your Genesis powered WordPress site easily with one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
+This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
-Currently the following translations are available for Genesis 1.9.x
-
-* Afrikaans - Af
-* Arabic - Ar
-* Croatian - hr
-* Danish - da_DK
-* Dutch - nl_NL
-* Italian - it_IT
-* German - de_DE
-* Finnish - fi
-* Romanian - ro_RO
-* Vietnamese - vi_VI
-* Bulgarian - bg_BG
-* Swedish - sv_SE
-* Spanish - es_ES
-* French - fr_FR
-* Indonesian - id_ID
-* Turkish - tr_TR
-* Russian - ru_RU
-* Norwegian - nb_NO
-* Portuguese-Brazilian - pt_BR
-* Greek - el_GR
-* Hebrew - he_IL
-* Polish - pl_PL
-* Portuguese - pt_PT
-* Hungarian - hu_HU
-* Japanese - ja
-* Chinese - zh_CN
-* Icelandic - is_IS (front-end only)
+Check http://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
