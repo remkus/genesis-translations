@@ -101,6 +101,7 @@ add_action( 'genesis_init', 'fst_set_genesis_language_dir', 1 );
  */
 function fst_set_genesis_language_dir() {
 
+    $theme_info = get_theme_data( get_template_directory() . '/style.css' );
     $version = fst_genesis_translations_version_check( $theme_info['Version'], 3 );
     $latest = '1.9.1';
 
