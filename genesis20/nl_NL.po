@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:33:35+0000\n"
+"PO-Revision-Date: 2013-12-11 13:05:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: lib/admin/import-export.php:130
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
-msgstr ""
+msgstr "Upload het bestand (%s) vanaf je computer en dan importeren we je instellingen."
 
 #: lib/admin/cpt-archive-settings.php:276
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
@@ -130,11 +130,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:259
 msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
-msgstr ""
+msgstr "De Primaire Navigatie Extra's worden normaliter rechts van je Primaire Navigatie getoond."
 
 #: lib/admin/theme-settings.php:261
 msgid "Today's date displays the current date"
-msgstr ""
+msgstr "Toont de datum van vandaag"
 
 #: lib/admin/theme-settings.php:262
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
@@ -154,7 +154,7 @@ msgstr ""
 
 #: lib/functions/upgrade.php:559
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
-msgstr ""
+msgstr "Genesis %s is beschikbaar. <a href=\"%s\" %s>Kijk wat er nieuw is (Engels)</a> of <a href=\"%s\" %s>werk direct bij.</a>"
 
 #: lib/admin/import-export.php:68
 msgid "This allows you to import or export Genesis Settings."
@@ -2038,7 +2038,7 @@ msgstr "Saai, maar wel belangrijk"
 
 #: lib/admin/whats-new.php:95
 msgid "Better named loop hooks for HTML5."
-msgstr ""
+msgstr "Beter benoemde loop hooks voor HMTL5."
 
 #: lib/admin/whats-new.php:96
 msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
