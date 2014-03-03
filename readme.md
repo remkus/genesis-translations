@@ -3,9 +3,9 @@
 * Contributors: DeFries
 * Donate link: http://remkusdevries.com/donate/
 * Tags: genesis, translations,
-* Requires at least: 3.5
-* Tested up to: 3.8-RC2
-* Stable tag: 2.0.1
+* Requires at least: 3.6
+* Tested up to: 3.8.1
+* Stable tag: 2.0.4
 Translate your Genesis Framework powered WordPress site into one of the available languages.
 
 ## Description
@@ -54,6 +54,30 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 ##Changelog
+
+### 2.0.4
+
+* Updated bg_BG, da_DK, hr, hu_HU, it_IT, nl_NL and ro_RO
+
+### 2.0.3.1
+
+* Updated Dutch translation
+
+### 2.0.2
+
+* Proper fix for deprecated version check with get_theme_data
+
+### 2.0.1
+
+* Fixed notice for $theme_info on L104
+
+### 2.0.0
+
+* Large update to (finally) reflect the changes made in Genesis 2.0. Lots of improved translations across the board. Too many to mention specifically.
+
+### 1.9.2
+
+* Updates to various languages + added Welsh (cy)
 
 ### 1.9.1
 

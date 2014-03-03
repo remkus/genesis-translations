@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:40:10+0000\n"
+"PO-Revision-Date: 2014-03-03 13:41:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,11 +12,11 @@ msgstr ""
 
 #: lib/admin/import-export.php:74
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
-msgstr ""
+msgstr "Poți importa un fișier anterior exportat. Numele fișierului va începe cu %s urmat de unul sau mai multe cuvinte care indică o anumită setare, apoi se va termina cu data și ora când a fost exportat."
 
 #: lib/admin/cpt-archive-settings.php:260
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
-msgstr ""
+msgstr "Custom Document Title setează titlul paginii așa cum poate fi văzut el în browsere și motoare de căutare."
 
 #: lib/admin/cpt-archive-settings.php:286
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
@@ -102,11 +102,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:626
 msgid "Load Superfish Script?"
-msgstr ""
+msgstr "Încarcă scriptul Superfish?"
 
 #: lib/admin/theme-settings.php:493
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr ""
+msgstr "Dacă introduci o adresă de email, vei fi anunțat pe mail când o nouă versiune de Genesis va fi disponibilă."
 
 #: lib/admin/theme-settings.php:293
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
@@ -114,7 +114,7 @@ msgstr ""
 
 #: lib/functions/deprecated.php:32
 msgid "data in style sheet files"
-msgstr ""
+msgstr "date în fișiere tip Excel"
 
 #: lib/structure/sidebar.php:65
 msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
@@ -134,7 +134,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:261
 msgid "Today's date displays the current date"
-msgstr ""
+msgstr "Data de azi afișează data curentă."
 
 #: lib/admin/theme-settings.php:262
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
@@ -158,7 +158,7 @@ msgstr ""
 
 #: lib/admin/import-export.php:68
 msgid "This allows you to import or export Genesis Settings."
-msgstr ""
+msgstr "Această funcționalitate te ajută să imporți sau să exporți setările Genesis."
 
 #: lib/admin/import-export.php:69
 msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
@@ -170,43 +170,43 @@ msgstr ""
 
 #: lib/admin/import-export.php:73 lib/admin/import-export.php:88
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #: lib/admin/import-export.php:75
 msgid "This cannot be undone"
-msgstr ""
+msgstr "Nu se poate anula această operație"
 
 #: lib/admin/import-export.php:78 lib/admin/import-export.php:93
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 #: lib/admin/import-export.php:79
 msgid "JavaScript Object Notation"
-msgstr ""
+msgstr "JavaScript Object Notation"
 
 #: lib/admin/import-export.php:79
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
 #: lib/admin/theme-settings.php:374
 msgid "For more information:"
-msgstr ""
+msgstr "Pentru mai multe detalii:"
 
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
 #: lib/admin/theme-settings.php:375
 msgid "Get Support"
-msgstr ""
+msgstr "Apelează la Suport"
 
 #: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
 #: lib/admin/theme-settings.php:376
 msgid "Genesis Snippets"
-msgstr ""
+msgstr "Fragmente de cod Genesis"
 
 #: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
 #: lib/admin/theme-settings.php:377
 msgid "Genesis Tutorials"
-msgstr ""
+msgstr "Tutoriale Genesis"
 
 #: lib/admin/seo-settings.php:170
 msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
@@ -306,7 +306,7 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:236
 msgid "SEO Archives"
-msgstr ""
+msgstr "SEO arhive"
 
 #: lib/admin/theme-settings.php:223
 msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
@@ -426,11 +426,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:301
 msgid "How Home Pages Work"
-msgstr ""
+msgstr "Cum funcționează Paginile de Start"
 
 #: lib/admin/theme-settings.php:302
 msgid "Most Genesis child themes include a custom home page."
-msgstr ""
+msgstr "Cele mai multe teme bazate pe Genesis includ o pagină de start customizată"
 
 #: lib/admin/theme-settings.php:303
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
@@ -462,7 +462,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:368
 msgid "Home Pages"
-msgstr ""
+msgstr "Pagini de Start"
 
 #: 404.php:41 lib/structure/post.php:335 page_archive.php:30
 msgid "Pages:"
@@ -486,7 +486,7 @@ msgstr "Postări recente:"
 
 #: comments.php:18
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Această postare este protejată cu o parolă. Introduceţi parola pentru a vizualiza comentariile."
+msgstr "Această postare este protejată cu o parolă. Introduceţi parola pentru a-i vizualiza comentariile."
 
 #: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
 #: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
@@ -887,15 +887,15 @@ msgstr "Ieșire din cont"
 
 #: lib/shortcodes/post.php:249
 msgid "Leave a Comment"
-msgstr "Lăsaţi un comentariu"
+msgstr "Lasă un comentariu"
 
 #: lib/shortcodes/post.php:248
 msgid "1 Comment"
-msgstr "1 Comentariu"
+msgstr "1 comentariu"
 
 #: lib/shortcodes/post.php:247
 msgid "% Comments"
-msgstr "% Comentarii"
+msgstr "% comentarii"
 
 #: lib/shortcodes/post.php:293
 msgid "Tagged With: "
@@ -903,12 +903,12 @@ msgstr "Etichetate cu:"
 
 #: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
 msgid "Filed Under: "
-msgstr "Arhivate la:"
+msgstr "Din categoria: "
 
 #: lib/shortcodes/post.php:423 lib/structure/comments.php:233
 #: lib/structure/comments.php:298 lib/structure/post.php:280
 msgid "(Edit)"
-msgstr "(Editează)"
+msgstr "(editează)"
 
 #: lib/structure/comments.php:79
 msgid "<h3>Comments</h3>"
@@ -916,7 +916,7 @@ msgstr "<h3> Comentarii  </h3>"
 
 #: lib/structure/comments.php:143
 msgid "<h3>Trackbacks</h3>"
-msgstr " <h3> Urmăritori </h3>"
+msgstr " <h3>Alte referințe</h3>"
 
 #: lib/structure/comments.php:228
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
@@ -924,15 +924,15 @@ msgstr "<cite class=\"fn\">%s </cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:228 lib/structure/comments.php:289
 msgid "says"
-msgstr "spune"
+msgstr "a zis"
 
 #: lib/structure/comments.php:232
 msgid "%1$s at %2$s"
-msgstr "%1$s la %2$s"
+msgstr "%1$s la ora %2$s"
 
 #: lib/structure/comments.php:239 lib/structure/comments.php:305
 msgid "Your comment is awaiting moderation."
-msgstr "Comentariul dvs. așteaptă validarea moderatorului."
+msgstr "Comentariul tău așteaptă validarea."
 
 #: lib/structure/comments.php:380
 msgid "Name"
@@ -952,7 +952,7 @@ msgstr "Spune-ți părerea"
 
 #: lib/structure/footer.php:145
 msgid "Copyright"
-msgstr "Drepturi de autor"
+msgstr "Toate drepturile rezervate"
 
 #: lib/init.php:58
 msgid "Primary Navigation Menu"
@@ -968,7 +968,7 @@ msgstr "Comentarii"
 
 #: lib/structure/post.php:287 lib/structure/post.php:289
 msgid "[Read more...]"
-msgstr "[Citeşte mai mult ...]"
+msgstr "[Citeşte mai departe...]"
 
 #: lib/widgets/featured-post-widget.php:53
 msgid "By"
@@ -1079,7 +1079,7 @@ msgstr "Genesis - Postări recomandate"
 
 #: lib/widgets/featured-post-widget.php:56
 msgid "[Read More...]"
-msgstr "[Citește mai mult ...]"
+msgstr "[Citește Mai Departe...]"
 
 #: lib/widgets/featured-post-widget.php:60
 msgid "More Posts from this Category"
@@ -1245,15 +1245,15 @@ msgstr "Încărcare fișier: (Dimensiune maximă: %s)"
 
 #: lib/admin/import-export.php:147
 msgid "Export Genesis Settings File"
-msgstr "Fișier setări export Genesis"
+msgstr "Exportă fișierul de setări Genesis"
 
 #: lib/admin/import-export.php:150
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "După ce aţi salvat fişierul descărcat, puteţi utiliza funcţia de import pe un alt site pentru a importa aceste date."
+msgstr "După ce aţi descărcat fişierul, puteţi utiliza funcţia de import pe un alt site pentru a importa aceste setări."
 
 #: lib/admin/import-export.php:157
 msgid "Download Export File"
-msgstr "Fișier export descărcare "
+msgstr "Descarcă fișierul de export"
 
 #: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
 msgid "Characters Used: %s"
@@ -1441,11 +1441,11 @@ msgstr "Selecteaza fisierul din calculatorul tau si da click pe \" Incarca fisie
 
 #: lib/admin/import-export.php:139
 msgid "Upload File and Import"
-msgstr "Incarca fisier si importa. "
+msgstr "Incarcă un fișier și importă "
 
 #: lib/admin/import-export.php:189
 msgid "Settings successfully imported."
-msgstr "Setari importate cu succes."
+msgstr "Setările au fost importate cu succes."
 
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
 #: lib/classes/admin.php:108
@@ -1523,68 +1523,68 @@ msgstr "Aceste optiuni se vor aplica tuturor paginilor de listare, inclusiv arhi
 #: lib/functions/formatting.php:284
 msgctxt "time difference"
 msgid "seconds"
-msgstr ""
+msgstr "secunde"
 
 #: lib/functions/formatting.php:288
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s an"
+msgstr[1] "%s ani"
+msgstr[2] "%s de ani"
 
 #: lib/functions/formatting.php:289
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s lună"
+msgstr[1] "%s luni"
+msgstr[2] "%s de luni"
 
 #: lib/functions/formatting.php:290
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s săptămână"
+msgstr[1] "%s săptămâni"
+msgstr[2] "%s de săptămâni"
 
 #: lib/functions/formatting.php:291
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s zi"
+msgstr[1] "%s zile"
+msgstr[2] "%s de zile"
 
 #: lib/functions/formatting.php:292
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s oră"
+msgstr[1] "%s ore"
+msgstr[2] "%s de ore"
 
 #: lib/functions/formatting.php:293
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s minut"
+msgstr[1] "%s minute"
+msgstr[2] "%s de minute"
 
 #: lib/functions/formatting.php:294
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s secundă"
+msgstr[1] "%s secunde"
+msgstr[2] "%s de secunde"
 
 #: lib/functions/formatting.php:319
 msgctxt "separator in time difference"
 msgid "and"
-msgstr ""
+msgstr "și"
 
 #: lib/functions/layout.php:39
 msgid "Content-Sidebar"
@@ -1616,7 +1616,7 @@ msgstr "Tema setari SEO."
 #: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
 #: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
 msgid "Layout Settings"
-msgstr "Setari layout. "
+msgstr "Setări de aranjare în pagină "
 
 #: lib/admin/seo-settings.php:430
 msgid "Adjacent Posts %s link tags"
@@ -1703,7 +1703,7 @@ msgstr "Text pagina extinsa"
 
 #: lib/functions/widgetize.php:108
 msgid "Header Left"
-msgstr "Antet stanga"
+msgstr "Antet stânga"
 
 #: lib/functions/widgetize.php:109
 msgid "This is the widget area in the header."
@@ -1720,19 +1720,19 @@ msgstr "Continut personalizat"
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
 #: lib/classes/admin.php:109
 msgid "Error saving settings."
-msgstr "Eroare salvare setari."
+msgstr "A apărut o eroare la salvarea setărilor."
 
 #: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
 msgid "Archive Headline"
-msgstr "Titlu arhiva."
+msgstr "Titlul paginii de arhive"
 
 #: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Lasa liber daca nu vrei sa afisezi un titlu."
+msgstr "Nu introduce nimic dacă nu vrei să se afișeze titlul."
 
 #: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
 msgid "Archive Intro Text"
-msgstr "Text intro arhiva."
+msgstr "Textul de introducere al arhivei"
 
 #: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
 msgid "Leave empty if you do not want to display any intro text."
@@ -1744,31 +1744,31 @@ msgstr "pe"
 
 #: lib/admin/seo-settings.php:392
 msgid "Homepage Author"
-msgstr ""
+msgstr "Pagina de start a autorului"
 
 #: lib/admin/seo-settings.php:395
 msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr ""
+msgstr "Alege utilizatorul care ai vrea să apară ca și %s pentru pagina principală. Asigură-te că și-a introdus detaliile profilului de Google+ în pagina de administrare a profilului."
 
 #: lib/admin/seo-settings.php:400
 msgid "Select User"
-msgstr ""
+msgstr "Alege un utilizator"
 
 #: lib/admin/theme-settings.php:597
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "Utilizat pentu titlul/logo-ul siteului:"
 
 #: lib/admin/user-meta.php:26
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/admin/whats-new.php:39
 msgid "Welcome to Genesis %s"
-msgstr ""
+msgstr "Genesis %s îți urează „Bine ai venit”"
 
 #: lib/admin/whats-new.php:66
 msgid "What&#8217;s New"
-msgstr ""
+msgstr "Ce e nou"
 
 #: lib/admin/whats-new.php:112
 msgid "Project Leads"
@@ -1776,11 +1776,11 @@ msgstr ""
 
 #: lib/admin/whats-new.php:156
 msgid "Go to Theme Settings &rarr;"
-msgstr ""
+msgstr "Mergi la setările temei &rarr;"
 
 #: lib/admin/whats-new.php:157
 msgid "Go to SEO Settings &rarr;"
-msgstr ""
+msgstr "Mergi la setările SEO &rarr;"
 
 #: lib/shortcodes/post.php:170
 msgid "Visit %s&#x02019;s website"
@@ -1788,15 +1788,15 @@ msgstr ""
 
 #: lib/structure/loops.php:253
 msgid "Read more"
-msgstr ""
+msgstr "Citește mai departe"
 
 #: lib/structure/search.php:31
 msgid "Search this website"
-msgstr ""
+msgstr "Caută ceva"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr ""
+msgstr "Citește Mai Departe"
 
 #: lib/admin/seo-settings.php:263
 msgid "Document Title Settings"
@@ -1836,7 +1836,7 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:354
 msgid "Site Description (Tagline)"
-msgstr ""
+msgstr "Descrierea site-ului (slogan)"
 
 #: lib/admin/seo-settings.php:362
 msgid "Homepage Document Title:"
@@ -1856,7 +1856,7 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:374
 msgid "Home Meta Keywords (comma separated):"
-msgstr ""
+msgstr "Cuvinte cheie Meta pentru Pagina de Start (separate prin virgulă):"
 
 #: lib/admin/seo-settings.php:424
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
@@ -1873,24 +1873,24 @@ msgstr ""
 #: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
 #: lib/admin/theme-settings.php:417
 msgid "Header"
-msgstr ""
+msgstr "Antet"
 
 #: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
 #: lib/admin/theme-settings.php:420
 msgid "Navigation"
-msgstr ""
+msgstr "Navigare"
 
 #: lib/admin/theme-settings.php:427
 msgid "Blog Page Template"
-msgstr ""
+msgstr "Template pentru pagina de Blog"
 
 #: lib/admin/theme-settings.php:762
 msgid "Posts Page"
-msgstr ""
+msgstr "Pagina de postări"
 
 #: lib/admin/theme-settings.php:765
 msgid "Homepage"
-msgstr ""
+msgstr "Pagina de Start"
 
 #: lib/admin/theme-settings.php:875
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
@@ -1903,23 +1903,23 @@ msgstr ""
 #: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
 #: lib/admin/whats-new.php:128
 msgid "Lead Developer"
-msgstr ""
+msgstr "Developer principal"
 
 #: lib/admin/whats-new.php:136
 msgid "Contributors"
-msgstr ""
+msgstr "Contibutori"
 
 #: lib/admin/whats-new.php:147
 msgid "Contributor"
-msgstr ""
+msgstr "Contributor"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr ""
+msgstr "Rezultatele căutării după:"
 
 #: 404.php:27
 msgid "Not found, error 404"
-msgstr ""
+msgstr "Nu s-a găsit nimic, eroare tip 404"
 
 #: 404.php:32
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
@@ -1931,7 +1931,7 @@ msgstr "Arhive"
 
 #: lib/admin/cpt-archive-settings.php:158
 msgid "View the <a href=\"%s\">%s archive</a>."
-msgstr ""
+msgstr "Vizualizează <a href=\"%s\">arhivele %s</a>."
 
 #: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
 #: lib/admin/user-meta.php:194
@@ -1951,15 +1951,15 @@ msgstr "Cuvinte cheie tip Robots"
 #: lib/admin/cpt-archive-settings.php:199
 #: lib/admin/cpt-archive-settings.php:202
 msgid "Apply %s to this archive"
-msgstr ""
+msgstr "Aplică %s acestei arhive"
 
 #: lib/admin/inpost-metaboxes.php:141
 msgid "Scripts"
-msgstr ""
+msgstr "Scripturi"
 
 #: lib/admin/inpost-metaboxes.php:158
 msgid "Page-specific Scripts"
-msgstr ""
+msgstr "Scripturi specifice paginii"
 
 #: lib/admin/inpost-metaboxes.php:160
 msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
@@ -1987,11 +1987,11 @@ msgstr ""
 
 #: lib/structure/comments.php:296
 msgid "at"
-msgstr ""
+msgstr "la"
 
 #: lib/structure/post.php:313
 msgid "Permalink"
-msgstr ""
+msgstr "Link"
 
 #: lib/structure/post.php:351
 msgid "Sorry, no content matched your criteria."
@@ -2007,7 +2007,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:69
 msgid "HTML5 Markup"
-msgstr ""
+msgstr "Limbaj HTML5"
 
 #: lib/admin/whats-new.php:72
 msgid "Microdata"
@@ -2015,7 +2015,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:75
 msgid "A Brand New Design"
-msgstr ""
+msgstr "Un design cu totul nou"
 
 #: lib/admin/whats-new.php:76
 msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
@@ -2087,4 +2087,4 @@ msgstr "Instalează %s"
 
 #: 404.php:39
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Pagina pe care o cautați nu mai există. Vă puteți întoarce la <a href=\"%s\"> pagina de pornire </a> pentru a vedea dacă puteți găsi ceea ce căutați. Sau puteţi încerca să o căutați folosind informaţiile de mai jos."
+msgstr "Pagina pe care o cauți nu mai există. Te poți întoarce la <a href=\"%s\">pagina de pornire</a> pentru a vedea dacă poți găsi ceea ce căutai. Sau poți încerca să o cauți folosind informaţiile de mai jos."

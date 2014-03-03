@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:32:25+0000\n"
+"PO-Revision-Date: 2014-03-03 13:37:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -771,7 +771,7 @@ msgstr "Tekst til Twitter Link"
 
 #: lib/admin/theme-settings.php:684
 msgid "Enter your custom feed URI:"
-msgstr "Angiv den brugerdefinerede feed URI:"
+msgstr "Skriv URL for dit feed: "
 
 #: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
 msgid "Redirect Feed?"
@@ -779,7 +779,7 @@ msgstr "Omdiriger Feed?"
 
 #: lib/admin/theme-settings.php:692
 msgid "Enter your custom comments feed URI:"
-msgstr "Angiv den brugerdefinerede kommentar feed URI:"
+msgstr "Skriv URL for dit kommentar-feed: "
 
 #: lib/admin/theme-settings.php:719
 msgid "Enable Comments"
@@ -853,7 +853,7 @@ msgstr "Udelad følgende Kategori ID's:"
 #: lib/widgets/featured-post-widget.php:296
 #: lib/widgets/featured-post-widget.php:439
 msgid "Number of Posts to Show"
-msgstr "Antallet af indlæg som skal vises"
+msgstr "Antal indlæg som vises"
 
 #: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
 msgid "Home"
@@ -1061,7 +1061,7 @@ msgstr "Vis Side Indhold"
 
 #: lib/widgets/featured-page-widget.php:235
 msgid "Content Character Limit"
-msgstr "Indhold tegngrænsen"
+msgstr "Grænse for antal tegn"
 
 #: lib/widgets/featured-page-widget.php:240
 msgid "More Text"
@@ -1089,7 +1089,7 @@ msgstr "Kategori"
 
 #: lib/widgets/featured-post-widget.php:301
 msgid "Number of Posts to Offset"
-msgstr "Antal af indlæg der ikke vises"
+msgstr "Forskyd start med antal indlæg"
 
 #: lib/widgets/featured-post-widget.php:306
 msgid "Order By"
@@ -1354,7 +1354,7 @@ msgstr "Vis uddrag"
 
 #: lib/widgets/featured-post-widget.php:412
 msgid "Show Content Limit"
-msgstr "Vis indholds grænse"
+msgstr "Vis begrænset indhold"
 
 #: lib/widgets/featured-post-widget.php:413
 msgid "No Content"
@@ -1448,12 +1448,12 @@ msgstr "Indstillingerne er blevet importeret!"
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
 #: lib/classes/admin.php:108
 msgid "Settings reset."
-msgstr "SEO indstillinger nulstillet"
+msgstr "Indstillingerne er nulstillet"
 
 #: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
 #: lib/classes/admin.php:107
 msgid "Settings saved."
-msgstr "SEO indstillingerne er gemt"
+msgstr "Indstillingerne er gemt"
 
 #: lib/admin/seo-settings.php:376
 msgid "Keywords are generally ignored by Search Engines."
@@ -1626,7 +1626,7 @@ msgstr "Følg mig på twitter"
 
 #: lib/admin/theme-settings.php:411
 msgid "Color Style"
-msgstr "Farve valg"
+msgstr "Farve"
 
 #: lib/admin/theme-settings.php:781
 msgid "Attachment Page"
@@ -1650,7 +1650,7 @@ msgstr "<b>Bemærk:</b> %1$s hook udføres umiddelbart før den afsluttende %2$s
 
 #: lib/admin/theme-settings.php:537
 msgid "Color Style:"
-msgstr "Farve valg:"
+msgstr "Farve:"
 
 #: lib/admin/theme-settings.php:551
 msgid "Please select the color style from the drop down list and save your settings."
@@ -1906,7 +1906,7 @@ msgstr "Bidragyder"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr "Søg i resultater efter:"
+msgstr "Søgeresultater for:"
 
 #: 404.php:27
 msgid "Not found, error 404"
@@ -1914,7 +1914,7 @@ msgstr "Ikke fundet, fejl 404"
 
 #: 404.php:32
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr "The page you are looking for no longer exists. Du kan i stedet gå tilbage til <a href=\"%s\">homepage</a> for at se, om du kan finde det, du søger efter eller bruge sites søgeformular som vises her. "
+msgstr "Den side, du kigger efter, eksisterer ikke længere. Du kan i stedet gå tilbage til <a href=\"%s\">homepage</a> for at se, om du kan finde det, du søger efter eller bruge sites søgeformular som vises her. "
 
 #: lib/admin/cpt-archive-settings.php:55
 msgid "Archive"
@@ -2078,4 +2078,4 @@ msgstr "Installer %s"
 
 #: 404.php:39
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Den side, du kigger efter, eksisterer ikke længere. Måske kan det hjælpe, hvis du besøger <a href=\"%s\">forsiden</a> og ser, om du kan finde det, du søger. Du kan også bruge søgefunktionen eller den nedenstående oversigt over hjemmesidens indhold. "
+msgstr "Den side, du kigger efter, eksisterer ikke længere. Måske kan det hjælpe, hvis du besøger <a href=\"%s\">homepage</a> og ser, om du kan finde det, du søger. Du kan også bruge søgefunktionen eller den nedenstående oversigt over hjemmesidens indhold. "

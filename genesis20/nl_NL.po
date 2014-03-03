@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-11 13:05:33+0000\n"
+"PO-Revision-Date: 2014-03-03 13:39:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,7 +78,7 @@ msgstr "Deze opties kunnen worden uitgebreid of beperkt door het child theme."
 
 #: lib/admin/import-export.php:75
 msgid "Once you upload an import file, it will automatically overwrite your existing settings."
-msgstr ""
+msgstr "Zodra je een import file laadt zal deze je bestaande instellingen automatisch overschrijven."
 
 #: lib/admin/import-export.php:130
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
@@ -86,7 +86,7 @@ msgstr "Upload het bestand (%s) vanaf je computer en dan importeren we je instel
 
 #: lib/admin/cpt-archive-settings.php:276
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
-msgstr ""
+msgstr "Deze optie laat je de opmaak van de archiefpagina selecteren. Op de meeste van de Genesis sjablonen zie je de volgende opties:"
 
 #: lib/admin/whats-new.php:73
 msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
@@ -106,7 +106,7 @@ msgstr "Laad Superfish Script?"
 
 #: lib/admin/theme-settings.php:493
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr ""
+msgstr "Als je hierboven een e-mail adres invult ontvang je een e-mail zodra er een nieuwe versie van Genesis beschikbaar is."
 
 #: lib/admin/theme-settings.php:293
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
@@ -150,7 +150,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:638
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
-msgstr ""
+msgstr "Om de instellingen voor het Primaire Menu te zien moet je eerst een <a href=\"%s\">menu</a> maken en dan toewijzen aan de locatie van het Primaire Menu."
 
 #: lib/functions/upgrade.php:559
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"

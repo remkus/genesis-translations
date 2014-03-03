@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:48:20+0000\n"
+"PO-Revision-Date: 2014-03-03 13:42:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: lib/shortcodes/footer.php:175 lib/structure/post.php:381
 msgid "by"
-msgstr ""
+msgstr "| Szerző:"
 
 #: lib/widgets/featured-page-widget.php:190
 msgid "Page"
@@ -1986,7 +1986,7 @@ msgstr ""
 
 #: lib/structure/post.php:351
 msgid "Sorry, no content matched your criteria."
-msgstr ""
+msgstr "Nincs bejegyzés a feltételnek megfelelően."
 
 #: lib/widgets/featured-post-widget.php:327
 msgid "Exclude Previously Displayed Posts?"

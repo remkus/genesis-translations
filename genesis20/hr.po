@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:48:46+0000\n"
+"PO-Revision-Date: 2014-03-03 13:20:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,461 +12,461 @@ msgstr ""
 
 #: lib/admin/import-export.php:74
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
-msgstr ""
+msgstr "Možete uvesti datoteku koju ste prethodno izvezli. Ime datoteke će početi s %s i nastavit će se s jednim ili više stringova koji će označavati postavke koje sadrži te, na kraju, datumom i vremenom izvoza datoteke."
 
 #: lib/admin/cpt-archive-settings.php:260
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
-msgstr ""
+msgstr "Custom Document Title postavlja naslov stranice na način kako se vidi pregledniku ili tražilici."
 
 #: lib/admin/cpt-archive-settings.php:286
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
-msgstr ""
+msgstr "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
 
 #: lib/admin/cpt-archive-settings.php:248
 msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
-msgstr ""
+msgstr "Archiv Intro Text postavlja tekst prije stavke arhiva i upoznaje gledatelja sa sadržajem."
 
 #: lib/admin/theme-settings.php:292
 msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
-msgstr ""
+msgstr "U općim postavkama (general settings) možete odabrati određenu kategoriju i prikazati je iz padajućeg izbornika, isključiti kategorije prema ID ili odrediti koliko članaka želite prikazati na toj stranici."
 
 #: lib/admin/theme-settings.php:294
 msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
-msgstr ""
+msgstr "Više o ovoj značajki možete naći u <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a> priručniku 'Kako dodati stranicu kategorije članaka.'"
 
 #: lib/admin/theme-settings.php:249
 msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
-msgstr ""
+msgstr "Ove mogućnosti se mogu proširiti ili ograničiti temom. Dodatno, mnoge teme ne dozvoljavaju različite izglede početne stranice jer su dizajnirane sa točno određenim početnim stranicama."
 
 #: lib/admin/whats-new.php:91
 msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
-msgstr ""
+msgstr "Stalno radimo poboljšanja. Možete to nazvati i bolešću, ali mi želimo da stvari rade zaista, zaista dobro. Ovdje je popis tehničkih izmjena u ovom posljednjem izdanju."
 
 #: lib/admin/cpt-archive-settings.php:247
 msgid "The Archive Headline sets the title seen on the archive page"
-msgstr ""
+msgstr "Archive Headline postavlja naslov kako se vidi na arhivskoj stranici."
 
 #: lib/admin/cpt-archive-settings.php:264
 msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr ""
+msgstr "Robotske meta oznake govore tražilicama kako da obrade stranicu arhiva. Noindex znači da stranica neće biti indeksirana i neće se pojaviti u rezultatima pretraživanja. Nofollow znači da neće slijediti linkove s ove stranice, a noarhive im govori da ne rade arhivsku kopiju starnice."
 
 #: lib/admin/seo-settings.php:339
 msgid "Use semantic HTML5 page and section headings throughout site?"
-msgstr ""
+msgstr "Želite koristiti semantičku HTML5 stranicu i naslove odjeljaka na čitavoj lokaciji?"
 
 #: lib/admin/whats-new.php:79
 msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
-msgstr ""
+msgstr "Želimo Genesis održati što jednostavnijim jer nitko ne želi koristiti prekrcan softver. Stoga smo makli Latest Tweets widget, eNews widget, predloške za članke i ukrasne izbornike. No, bez straha! Ako ih ipak želite imati, kliknite niže kako biste instalirali ove korisne dodatke koje smo kreirali za vas."
 
 #: lib/admin/import-export.php:149
 msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
-msgstr ""
+msgstr "Kada kliknete na donji gumb, Genesis će generirati datoteku (%s) ili više njih kako biste ih mogli spremiti na svoje računalo."
 
 #: lib/admin/theme-settings.php:291
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
-msgstr ""
+msgstr "Ovo radi s predlošcima za blog, koji su predlošci stranice koji pokazuju vaše zadnje članke. To je ono što ljudi vide kad dođu na vašu početnu stranicu."
 
 #: lib/admin/cpt-archive-settings.php:261
 msgid ""
 "The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
 " "
-msgstr ""
+msgstr "Meta opisi i ključne riječi ispunjavaju meta oznake za arhivske stranice. Meta oznake su kratak tekst koji se pojavljuje u rezultatima tražilica."
 
 #: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
 msgid "These options can be extended or limited by the child theme."
-msgstr ""
+msgstr "Ove mogućnosti mogu biti proširene ili ograničene temom."
 
 #: lib/admin/import-export.php:75
 msgid "Once you upload an import file, it will automatically overwrite your existing settings."
-msgstr ""
+msgstr "Jednom kad završite prijenos uvezene datoteke, ona će automatski prebrisati vaše postojeće postavke."
 
 #: lib/admin/import-export.php:130
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
-msgstr ""
+msgstr "Prenesite datoteku (%s) ili datoteke s vašeg računala i mi ćemo uvesti vaše postavke."
 
 #: lib/admin/cpt-archive-settings.php:276
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
-msgstr ""
+msgstr "Ovime je omogućen izbor izgleda arhivske stranice. Na većini teme vidjet ćete sljedeće opcije:"
 
 #: lib/admin/whats-new.php:73
 msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
-msgstr ""
+msgstr "Ako koristite temu s omogućenim HTML5 kodom, Genesis će također stvarati markup koristeći mikropodatke. Niste sigurni što to jest? Niste vi krivi Pogledajte <a href=\"%s\" target=\"_blank\">ovo objašnjenje</a>. Još uvijek ste zbunjeni? Bez brige. To je zato što koristite Genesis okvir. Mi smo za vas obavili sva istraživanja i prilagodili markup kako bi tražilicama dali mikropodatke koje one traže i kako vi to ne biste trebali. Lijepo je biti Genesisov korisnik!"
 
 #: lib/admin/import-export.php:79
 msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
-msgstr ""
+msgstr "Možete izvesti vaše postavke povezane s Genesisom kako biste ih sačuvali ili kopirali na drugu lokaciju. Teme i dodaci mogu dodati svoj vlastiti okvir za izbor na listu. Postavke se izvoze u %s formatu."
 
 #: lib/admin/whats-new.php:70
 msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
-msgstr ""
+msgstr "Genesis je uvijek imao vrhunsku web tehnologiju, a Genesis 2.0 nastavlja tu izvrsnu tradiciju. Jednom linijom koda u vašoj temi Genesis će stvarati HTML5 markup umjesto starih XHTML oznaka. Uz to, svaka tema koju ćemo stvarati ubuduće bit će temeljena na HTML5."
 
 #: lib/admin/theme-settings.php:626
 msgid "Load Superfish Script?"
-msgstr ""
+msgstr "Učitati Superfish skripta?"
 
 #: lib/admin/theme-settings.php:493
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr ""
+msgstr "Ako gore upišete email adresu bit ćete obaviješteni kada se pojavi nova verzija Genesisa."
 
 #: lib/admin/theme-settings.php:293
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
-msgstr ""
+msgstr "Postoje neke posebne značajke Blog Template koje vam omogućavaju da odredite kategorije koje želite prikazati na pojedinim stranicama. To je korisno ukoliko imate kategoriju \"Vijesti\" (ili neku drugu) koju želite prikazati odvojeno."
 
 #: lib/functions/deprecated.php:32
 msgid "data in style sheet files"
-msgstr ""
+msgstr "podaci u style sheet datotekama"
 
 #: lib/structure/sidebar.php:65
 msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr ""
+msgstr "Ovo je %s. Možete dodati sadržaj u ovaj dio kroz vaš <a href=\"%s\">Widgets Panel</a> i tamo dodajući nove widgete."
 
 #: lib/admin/theme-settings.php:254
 msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
-msgstr ""
+msgstr "<strong>Dynamic text</strong> opcija će koristiti Site Title (naziv lokacije) i Site Description (opis lokacije) iz postavki lokacije u naslovu."
 
 #: lib/admin/theme-settings.php:255
 msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
-msgstr ""
+msgstr " <strong>Image logo</strong> opcija će koristiti foto loga u naslovu umjesto naziva lokacije i njenog opisa. Ova postavka dodaje .header-image klasu vašoj lokaciji i dozvoljava vam da odredite naslovnu fotografiju unutar style.css vaše teme. Zadano je da logo može biti spremljen kao logo.png i tu u mapu s fotografijama u vašoj temi."
 
 #: lib/admin/theme-settings.php:259
 msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
-msgstr ""
+msgstr "Primary Navigation Extras obično se prikazuju na desnoj strani všeg Primary Navigation izbornika"
 
 #: lib/admin/theme-settings.php:261
 msgid "Today's date displays the current date"
-msgstr ""
+msgstr "Today's date prikazuje današnji datum"
 
 #: lib/admin/theme-settings.php:262
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
-msgstr ""
+msgstr "RSS feed prikazuje poveznicu do RSS feed na wašoj lokaciji koji vaši čitatelji mogu koristiti za pretplatu na vašu lokaciju uz korištenje aplikacije za čitanje po njihovom izboru."
 
 #: lib/admin/theme-settings.php:263
 msgid "Search form displays a small search form utilizing the WordPress search functionality."
-msgstr ""
+msgstr "Obrazac za pretraživanje prikazuje mali obrazac i pri tome koristi WordPress funkcionalnost pretraživanja."
 
 #: lib/admin/theme-settings.php:264
 msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
-msgstr ""
+msgstr "Twitter poveznica prikazuje poveznicu do vašeg Twitter profila naznačenog u Twitter ID postavkama. Potrebno je samo unijeti vaše korisničko ime u ovim postavkama."
 
 #: lib/admin/theme-settings.php:638
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
-msgstr ""
+msgstr "Kako biste vidjeli postavke Primary navigation izbornika, morate postaviti <a href=\"%s\">custom menu</a>, a zatim ga dodijeliti Primary Menu Location."
 
 #: lib/functions/upgrade.php:559
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
-msgstr ""
+msgstr "Genesis %s je dostupan. <a href=\"%s\" %s>Provjerite što je novo</a> ili <a href=\"%s\" %s>nadogradite.</a>"
 
 #: lib/admin/import-export.php:68
 msgid "This allows you to import or export Genesis Settings."
-msgstr ""
+msgstr "Ovo vam omogućava da uvezete ili izvezete Genesis postavke."
 
 #: lib/admin/import-export.php:69
 msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
-msgstr ""
+msgstr "Ovo je specifičnost Genesis postavki i isključuje članke, stranice ili fotografije koje možete izvesti ili uvesti preko postojećeg WordPress izbornika."
 
 #: lib/admin/import-export.php:70
 msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
-msgstr ""
+msgstr "Također ne sadržava druge postavke za plugin, widget ili članak/stranica/pojam/korisnik specifične postavke."
 
 #: lib/admin/import-export.php:73 lib/admin/import-export.php:88
 msgid "Import"
-msgstr ""
+msgstr "uvezi"
 
 #: lib/admin/import-export.php:75
 msgid "This cannot be undone"
-msgstr ""
+msgstr "Ovu naredbu ne možete opozvati."
 
 #: lib/admin/import-export.php:78 lib/admin/import-export.php:93
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: lib/admin/import-export.php:79
 msgid "JavaScript Object Notation"
-msgstr ""
+msgstr "JavaScript Object Notation"
 
 #: lib/admin/import-export.php:79
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
 #: lib/admin/theme-settings.php:374
 msgid "For more information:"
-msgstr ""
+msgstr "Za više informacija:"
 
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
 #: lib/admin/theme-settings.php:375
 msgid "Get Support"
-msgstr ""
+msgstr "potraži podršku"
 
 #: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
 #: lib/admin/theme-settings.php:376
 msgid "Genesis Snippets"
-msgstr ""
+msgstr "Genesis Snippets"
 
 #: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
 #: lib/admin/theme-settings.php:377
 msgid "Genesis Tutorials"
-msgstr ""
+msgstr "Genesis upute"
 
 #: lib/admin/seo-settings.php:170
 msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
-msgstr ""
+msgstr "Genesis SEO je ljubazan i sam će se isključiti ako je aktivan neki drugi SEO plugin (npr. All-in-One SEO, WordPress SEO, itd.)"
 
 #: lib/admin/seo-settings.php:171
 msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
-msgstr ""
+msgstr "Ako ne vidite izbornik s postavkama za SEO tada je vjerojatno aktivan drugi SEO plugin."
 
 #: lib/admin/seo-settings.php:172
 msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
-msgstr ""
+msgstr "Ako vidite izbornik, otvaranje izbornika će vam omogućiti postavljanje SEO postavki za vašu stranicu."
 
 #: lib/admin/seo-settings.php:173
 msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
-msgstr ""
+msgstr "Svaka stranica, članak i pojam imaju također svoje SEO postavke. Početne postavke su preporučene za većinu korisnika. Ako želite prilagoditi vaše SEO postavke kućice sadržavaju opise."
 
 #: lib/admin/seo-settings.php:174
 msgid "Below you'll find a few succinct notes on the options for each box:"
-msgstr ""
+msgstr "Niže ćete naći nekoliko sažetih napomena o mogućnostima za svaku kućicu:"
 
 #: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
 msgid "Doctitle Settings"
-msgstr ""
+msgstr "Doctitle Settings"
 
 #: lib/admin/seo-settings.php:178
 msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
-msgstr ""
+msgstr "<strong>Append Site Description</strong> će uključiti opis lokacije iz vaših općih postavki nakon naslova na vašoj početnoj stranici."
 
 #: lib/admin/seo-settings.php:179
 msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
-msgstr ""
+msgstr "<strong>Append Site Name</strong> će postaviti ime lokacije iz općih postavki nakon naslova na vašim unutarnjim stranicama."
 
 #: lib/admin/seo-settings.php:180
 msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
-msgstr ""
+msgstr "<strong>Doctitle Append Location</strong> određuje koja strana naslova će biti dodana prethodno spomenutim dijelovima."
 
 #: lib/admin/seo-settings.php:181
 msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
-msgstr ""
+msgstr "<strong>Doctitle Separator</strong> je znak koji se smješta između naslova i dodanog teksta."
 
 #: lib/admin/seo-settings.php:185
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
-msgstr ""
+msgstr "Ovo su postavke vezane za početnu stranicu. Napomena: ove postavke neće vrijediti ako statičnu stranicu postavite kao početnu. Ako koristite statičnu WordPress stranicu kao početnu trebate postaviti SEO postavke na toj stranici."
 
 #: lib/admin/seo-settings.php:186
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
-msgstr ""
+msgstr "Možete postaviti naslov lokacije, opis ili neki proizvoljan tekst u &lt;h1&gt; oznaku (osnovno zaglavlje u HTML)."
 
 #: lib/admin/seo-settings.php:187
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
-msgstr ""
+msgstr "Za dodavanje prilagođenog teksta morat ćete ili urediti php datoteku ili koristiti tekstualni widget na početnoj stranici s omogućenim widgetima."
 
 #: lib/admin/seo-settings.php:188
 msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
-msgstr ""
+msgstr "Početni naslov dokumenta određuje što će se pojaviti unutar oznaka <title></title> (ne vidi se u pregledniku) na početnoj stranici."
 
 #: lib/admin/seo-settings.php:189
 msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
-msgstr ""
+msgstr "Početni META opisi i ključne riječi ispunjavaju meta oznake za početnu stranicu. META opisi su kratak oblačić teksta koji se pojavljuje u rezultatima tražilica."
 
 #: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
-msgstr ""
+msgstr "Većina tražilica u ovom trenutku ne koriste ključne riječi ili im pridaje malu važnost. Ipak, vrijedi koristiti ključne riječi u slučaju da im tražilice u budućnosti daju veću važnost te kako bi pomogle upućivati na sadržaj. Ukoliko se sadržaj ne poklapa sa željenim ključnim riječima možda biste pažljivije trebali smišljati svoj sadržaj."
 
 #: lib/admin/seo-settings.php:191
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr ""
+msgstr "Meta oznake robota na početnoj stranici govore tražilicama kako da obrade početnu stranicu. Noindex znači da ne indeksiraju početnu stranicu i ona se neće pojaviti u rezultatima. Nofollow znači da neće slijediti niti jednu poveznicu s te stranice, a noarchive im govori da ne rade arhivske kopije stranice."
 
 #: lib/admin/seo-settings.php:195
 msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
-msgstr ""
+msgstr "Relationship Link Tags su oznake dodane od strane WordPress-a koje trenutačno nemaju SEO vrijednost već usporavaju učitavanje vaše stranice. One su trenutačno onemogućene, ali ako imate posebne potrebe&#8212 za plugin-om ili nekom drugom netipičnom primjenom&#8212; onda ovdje možete dozvoliti njihovo korištenje."
 
 #: lib/admin/seo-settings.php:196
 msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
-msgstr ""
+msgstr "Možete dodati podršku za Windows Live Writer ako koristite softver koji ga podržava i dodaje oznaku skraćene poveznice ako ju traži neka usluga treće osobe."
 
 #: lib/admin/seo-settings.php:200
 msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
-msgstr ""
+msgstr "Noarchive i noindex su objašnjeni u početnim postavkama. Ovdje možete odabrati na koje još dijelove lokacije se odnose te mogućnosti."
 
 #: lib/admin/seo-settings.php:201
 msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
-msgstr ""
+msgstr "Barem jedna arhiva treba biti indeksirana, ali indeksiranje više arhiva tipično rezultira kažnjavanjem dvostrukog sadržaja od strane tražilica (više stranica s identičnim sadržajem izgleda tražilicama kao manipulacija)."
 
 #: lib/admin/seo-settings.php:202
 msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
-msgstr ""
+msgstr "Za većinu lokacija ili početna stranica ili blog stranica (uz korištenje predloška za blog) će koristiti kao indeks zbog čega je zadana postavka da su iz indeksacije isključene kategorije, oznake, autori, datumi i pretraživanja."
 
 #: lib/admin/seo-settings.php:206
 msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
-msgstr ""
+msgstr "Kanonikal poveznice će usmjeriti tražilice na prvu od više stranica istog teksta (tražilice trebaju izabrati \"povlaštenu poveznicu\" kada naiđu na dvostruki sadržaj na stranicama)."
 
 #: lib/admin/seo-settings.php:207
 msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
-msgstr ""
+msgstr "Ovo im govori da \"je ovo sadržaj razdijeljen na stranice, a prva stranica počinje ovdje\" i sprečava širenje ključnih riječi preko svih stranica."
 
 #: lib/admin/seo-settings.php:236
 msgid "SEO Archives"
-msgstr ""
+msgstr "SEO Arhiva"
 
 #: lib/admin/theme-settings.php:223
 msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
-msgstr ""
+msgstr "Postavke vaše teme omogućuju kontrolu nad radom teme. Moći ćete kontrolirati mnogo uobičajenih i naprednih mogućnosti iz ovog izbornika. Neke teme mogu staviti posebne stavke u izbornik uključujući mogućnost izbora stila boja ili postavljanje mogućnosti specifičnih za temu poput kliznog prikaza. Svaka stavka se može proširiti i suziti klikom na zaglavlje kućice. Mogu biti poslagane na bilo koji način pa čak i skrivene klikom na \"mogućnosti ekrana\" u gornjem desnom uglu ekrana i \"odklikavanjem\" kućica koje ne želite vidjeti u prikazu. Niže ćete naći stavke uobičajene za sve teme"
 
 #: lib/admin/theme-settings.php:227
 msgid "The information box allows you to see the current Genesis theme information and display if desired."
-msgstr ""
+msgstr "Informacijsko polje omogućuje vam da vidite trenutačne informacije o Genesis temi i prikažete ukoliko želite."
 
 #: lib/admin/theme-settings.php:228
 msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
-msgstr ""
+msgstr "Ovo biste trebali ostaviti neoznačeno. Možete postaviti i automatsku nadogradnju."
 
 #: lib/admin/theme-settings.php:229
 msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
-msgstr ""
+msgstr "To ne znači da se nadogradnje dešavaju automatski bez vašeg dopuštenja; vi ćete samo dobiti obavijest da je nadogradnja dostupna. Na vama je da odaberete kada će se nadogradnja izvršiti."
 
 #: lib/admin/theme-settings.php:230
 msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
-msgstr ""
+msgstr "Ako upišete email adresu i označite da želite primati obavijesti o nadogradnjama programa vaša lokacija će vam poslati email o tome. Nadogradnja će zamijeniti samo one datoteke koje se nadograđuju."
 
 #: lib/admin/theme-settings.php:234
 msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
-msgstr ""
+msgstr "Ako koristite Feedburner za upravljanje vašim RSS feed(ovima) možete koristiti ovu funkciju za preusmjeravanje zadanog feed-a vaše stranice na Feedburner feed"
 
 #: lib/admin/theme-settings.php:235
 msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
-msgstr ""
+msgstr "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
 
 #: lib/admin/theme-settings.php:236
 msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
-msgstr ""
+msgstr "Označavanjem kućice \"Redirect Feed\" sav promet do zadanih poveznica feed-a bit će preusmjeren na poveznicu k Feedburneru."
 
 #: lib/admin/theme-settings.php:240
 msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
-msgstr ""
+msgstr "Ovo vam omogućuje odabrati zadani izgled čitave vaše lokacije. Na većini tema vidjet ćete sljedeće opcije:"
 
 #: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
 msgid "Content Sidebar"
-msgstr ""
+msgstr "stupac sadržaja"
 
 #: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
 msgid "Sidebar Content"
-msgstr ""
+msgstr "stupac sadržaj"
 
 #: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
 msgid "Sidebar Content Sidebar"
-msgstr ""
+msgstr "stupac sadržaj stupac"
 
 #: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
 msgid "Content Sidebar Sidebar"
-msgstr ""
+msgstr "sadržaj stupac stupac"
 
 #: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
 msgid "Sidebar Sidebar Content"
-msgstr ""
+msgstr "stupac stupac sadržaj"
 
 #: lib/admin/theme-settings.php:250
 msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
-msgstr ""
+msgstr "Ovaj izgled može biti izmijenjen u opcijama za izgled članka/stranice/pojma za svaki članak/stranicu/pojam"
 
 #: lib/admin/theme-settings.php:270
 msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
-msgstr ""
+msgstr "Ova kućica vam omogućuje definiranje pozicije za prikazivanje \"breadcrumbsa\". \"Breadcrumbs\" je navigacijski alat koji prikazuje na kojem mjestu se posjetitelj lokacije nalazi."
 
 #: lib/admin/theme-settings.php:274
 msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
-msgstr ""
+msgstr "Ovo vam dozvoljava odluku koja se odnosi na čitavu lokaciju o tome jesu li komentari i trackbacksi (obavijest kad netko na internetu postavi vezu na vašu stranicu) omogućeni za članke i stranice."
 
 #: lib/admin/theme-settings.php:275
 msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
-msgstr ""
+msgstr "Ako ovdje omogućite komentare ili trackbacks oni mogu biti onemogućeni na individualnim člancima ili stranicama. Ako ih onemogućite ovdje nećete ih moći omogućiti na posebnim člancima ili stranicama."
 
 #: lib/admin/theme-settings.php:279
 msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
-msgstr ""
+msgstr "U postavkama teme Genesis možete promijeniti mogućnosti sadržaja arhiva na čitavoj lokaciji i kontrolirati što se prikazuje u arhivama lokacije."
 
 #: lib/admin/theme-settings.php:280
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
-msgstr ""
+msgstr "Arhiva uključuje sve stranice koje koriste predložak za blog, stranice kategorija, oznaka, datuma autora i zadnjih članaka ako ne postoji prilagođena početna stranica."
 
 #: lib/admin/theme-settings.php:281
 msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "Ova mogućnost dozvoljava vam da prikažete ili sadržaj članka ili izdvojeni dio. Postavke za Prikaži sadržaj članka će prikazati čitav članak uključujući i HTML kod do oznake <!--more-->  ako je korištena (ovo je HTML za oznaku komentara koja se ne prikazuje u pregledniku)."
 
 #: lib/admin/theme-settings.php:282
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
-msgstr ""
+msgstr "Može biti popraćeno dodatnim poljem \"Ograniči sadržaj na [___] znakova\" kako biste ograničili sadržaj na određen broj slova ili razmaka. To će maknuti sav HTML, ali dozvoljava precizniju i lakšu izmjenu dužine nego odlomak."
 
 #: lib/admin/theme-settings.php:283
 msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
-msgstr ""
+msgstr "Postavke Display post excerpt će prikazati prvih 55 riječi članka bez uključenog HTML koda ili ručnih te prilagođenih isječaka dodanih na ekranu za uređivanje članaka."
 
 #: lib/admin/theme-settings.php:284
 msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "Postavke 'Include post image?' vam dozvoljavaju prikazivanje minijature prve fotografije u privitku ili trenutačni komplet privlačnih fotografija."
 
 #: lib/admin/theme-settings.php:285
 msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Ova opcija ne bi smjela biti korištena uz sadržaj članka osim ako je sadržaj ograničen kako bi se izbjegle dvostruke fotografije."
 
 #: lib/admin/theme-settings.php:286
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
-msgstr ""
+msgstr "Lista 'Veličina fotografije' sastoji se od mogućih veličina fotografije kako ih definira tema."
 
 #: lib/admin/theme-settings.php:287
 msgid "Post Navigation Technique allows you to select one of three navigation methods."
-msgstr ""
+msgstr "Post Navigation Technique  omogućuje vam odrediti jednu od tri navigacijske metode."
 
 #: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
 msgid "Blog Page"
-msgstr ""
+msgstr "blog stranica"
 
 #: lib/admin/theme-settings.php:298
 msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr ""
+msgstr "Ovo vam omogućuje dva polja koja će biti prikazana kod <head></head> vaše lokacije i odmah prije </body>. Oni će se pojaviti na svakoj stranici lokacije i odličan su način dodavanja analitičkog koda i ostalih skripta. Ne možete koristiti PHP u ovim poljima. Ako želite koristiti PHP koristite Genesis Simple Hooks plugin."
 
 #: lib/admin/theme-settings.php:301
 msgid "How Home Pages Work"
-msgstr ""
+msgstr "Kako funkcionira početna stranica"
 
 #: lib/admin/theme-settings.php:302
 msgid "Most Genesis child themes include a custom home page."
-msgstr ""
+msgstr "Većina Genesis tema uključuje i prilagođenu početnu stranicu."
 
 #: lib/admin/theme-settings.php:303
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
-msgstr ""
+msgstr "Za korištenje ovog tima početne stranice osigurajte da su vaši zadnji članci postavljeni za prikazivanje na početnoj stranici. Možete postaviti stranicu  uz pomoć predloška za blog stranice i tako prikazati blog listu vaših zadnjih postova na nekoj drugoj stranici."
 
 #: lib/admin/theme-settings.php:304
 msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
-msgstr ""
+msgstr "Ova početna stranica se obično podešava pomoću widgeta u stupcima za početnu stranicu. Možete ih pronaći u izborniku Widgets u dijelu Izgled"
 
 #: lib/admin/theme-settings.php:305
 msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
-msgstr ""
+msgstr "Teme koje uključuju ovakvu vrstu početne stranice obično imaju dodatne priručnike upravo za tu temu. Priručnike možete pronaći u članku na vrhu foruma za pomoć svake teme."
 
 #: lib/admin/theme-settings.php:306
 msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
-msgstr ""
+msgstr "Ako vaša tema koristi prilagođenu početnu stranicu i vi želite prikazivati najnovije članke u blog obliku nemojte koristiti predložak za blog. Umjesto toga, preimenujte datoteku home.php u home-old.php"
 
 #: lib/admin/theme-settings.php:307
 msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
-msgstr ""
+msgstr "Druga uobičajena vrsta početne stranice je \"blog\" koja je uobičajena za većinu besplatnih tema. Ona prikazuje vaše zadnje članke i ne zahtjeva dodatna podešavanja."
 
 #: lib/admin/theme-settings.php:308
 msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
-msgstr ""
+msgstr "Treći tip početne stranice je nova dinamična početna stranica. To je uobičajeno za najnovije teme. Prikazivat će najnovije članke vašeg bloga kao listu osim ako stavite widget u stupac početne stranice."
 
 #: lib/admin/theme-settings.php:309
 msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
-msgstr ""
+msgstr "Prednost dajemo ovakvom postavljanju jer omogućuje lakše postavljanje bloga na početnu stranicu (bez potrebe za preimenovanjem home.php datoteke) i ne stvara zabunu zbog nedostatka sadržaja na početnoj stranici odmah nakon postavljanja teme."
 
 #: lib/admin/theme-settings.php:368
 msgid "Home Pages"
-msgstr ""
+msgstr "početne stranice"
 
 #: 404.php:41 lib/structure/post.php:335 page_archive.php:30
 msgid "Pages:"
-msgstr "Stranice:"
+msgstr "stranice:"
 
 #: 404.php:46 page_archive.php:35
 msgid "Categories:"
@@ -482,43 +482,43 @@ msgstr "Mjesečno:"
 
 #: 404.php:61 page_archive.php:50
 msgid "Recent Posts:"
-msgstr "Nedavno objavljeni članci:"
+msgstr "Novi članci:"
 
 #: comments.php:18
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Ovaj članak zaštićen je zaporkom. Unesite zaporku kako biste vidjeli komentare."
+msgstr "Ovaj članak je zaštićen zaporkom. Unesite zaporku kako biste vidjeli komentare."
 
 #: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
 #: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
 msgid "Custom Document Title"
-msgstr "Prilagođeni naziv dokumenta"
+msgstr "Prilagođeni naslov dokumenta"
 
 #: lib/admin/inpost-metaboxes.php:49
 msgid "Custom Post/Page Meta Description"
-msgstr "Prilagođeni Meta Description za stranice/članke"
+msgstr "Prilagođen meta opis članka/stranice"
 
 #: lib/admin/inpost-metaboxes.php:52
 msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr "Prilagođeni Meta Description za stranice/članke, comma separated"
+msgstr "Prilagođene meta ključne riječi za članak/stranicu, odvojene zarezima."
 
 #: lib/admin/inpost-metaboxes.php:55
 msgid "Custom Canonical URI"
-msgstr ""
+msgstr "Prilagođeni canonical URI"
 
 #: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
 #: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
 msgid "Robots Meta Settings"
-msgstr ""
+msgstr "Robot meta postavke"
 
 #: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
 #: lib/admin/inpost-metaboxes.php:73
 msgid "Apply %s to this post/page"
-msgstr ""
+msgstr "Primijeni %s na ovaj članak/stranicu."
 
 #: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
 #: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
 msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr ""
+msgstr "Zadani izgled postavljen je u<a href=\"%s\">Theme Settings</a>"
 
 #: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
 #: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
@@ -537,41 +537,41 @@ msgstr "SEO postavke"
 #: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
 #: lib/admin/seo-settings.php:264
 msgid "Homepage Settings"
-msgstr ""
+msgstr "Postavke početne stranice"
 
 #: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
 msgid "Archives Settings"
-msgstr ""
+msgstr "Postavke arhiva"
 
 #: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
 #: lib/admin/seo-settings.php:265
 msgid "Document Head Settings"
-msgstr ""
+msgstr "Postavke zaglavlja dokumenata"
 
 #: lib/admin/seo-settings.php:41
 msgid "Genesis - SEO Settings"
-msgstr ""
+msgstr "Genesis - SEO postavke"
 
 #: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
 #: lib/classes/admin.php:105
 msgid "Save Settings"
-msgstr ""
+msgstr "Spremi postavke"
 
 #: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
 #: lib/classes/admin.php:106
 msgid "Reset Settings"
-msgstr ""
+msgstr "Vrati izvorne postavke"
 
 #: lib/js/load-scripts.php:146
 msgid "Are you sure you want to reset?"
-msgstr ""
+msgstr "Jeste li sigurni da želite vratiti izvorne postavke?"
 
 #: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
 #: lib/widgets/featured-post-widget.php:353
 #: lib/widgets/featured-post-widget.php:383
 #: lib/widgets/user-profile-widget.php:166
 msgid "Left"
-msgstr "Lijevo"
+msgstr "lijevo"
 
 #: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
 #: lib/widgets/featured-post-widget.php:354
@@ -582,310 +582,310 @@ msgstr "Desno"
 
 #: lib/admin/seo-settings.php:347
 msgid "Which text would you like to be wrapped in %s tags?"
-msgstr ""
+msgstr "Koji tekst želite uvrstiti u %s oznake?"
 
 #: lib/admin/seo-settings.php:351
 msgid "Site Title"
-msgstr ""
+msgstr "Naziv lokacije"
 
 #: lib/admin/seo-settings.php:357
 msgid "Neither. I'll manually wrap my own text on the homepage"
-msgstr ""
+msgstr "Nijedno. Ručno ću prilagoditi moj vlastiti tekst na početnu stranicu."
 
 #: lib/admin/seo-settings.php:379
 msgid "Homepage Robots Meta Tags:"
-msgstr ""
+msgstr "Robot meta oznake za početnu stranicu:"
 
 #: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
 #: lib/admin/seo-settings.php:389
 msgid "Apply %s to the homepage?"
-msgstr ""
+msgstr "Primjeni %s na početnu stranicu?"
 
 #: lib/admin/seo-settings.php:542
 msgid "Canonical Paginated Archives"
-msgstr ""
+msgstr "Canonical Paginated Archives"
 
 #: lib/admin/seo-settings.php:545
 msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr ""
+msgstr "Ova opcija usmjerava tražilice na prvu stranicu arhiva ako je prikaz postavljen kao više straničan. Ako ne znate što to znači, ostavite kako jest. "
 
 #: lib/admin/seo-settings.php:426
 msgid "Relationship Link Tags:"
-msgstr ""
+msgstr "Relationship Link Tags:"
 
 #: lib/admin/seo-settings.php:433
 msgid "Windows Live Writer Support:"
-msgstr ""
+msgstr "Podrška za Windows Live Writer"
 
 #: lib/admin/seo-settings.php:437
 msgid "Include Windows Live Writer Support Tag?"
-msgstr ""
+msgstr "Uključi oznaku Windows Live Writer Support?"
 
 #: lib/admin/seo-settings.php:440
 msgid "Shortlink Tag:"
-msgstr ""
+msgstr "Oznaka skraćene poveznice"
 
 #: lib/admin/seo-settings.php:444
 msgid "Include Shortlink tag?"
-msgstr ""
+msgstr "Uključiti oznaku Shortlink?"
 
 #: lib/admin/seo-settings.php:470
 msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
-msgstr ""
+msgstr "Ovisno o vašoj situaciji možda ne želite da tražilice indeksiraju vaše arhivske stranice. Samo vi možete donijeti odluku."
 
 #: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
 msgid "Apply %s to Category Archives?"
-msgstr ""
+msgstr "Primjeni %s na kategorije arhiva?"
 
 #: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
 msgid "Apply %s to Tag Archives?"
-msgstr ""
+msgstr "Primijeni %s oznakama arhiva?"
 
 #: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
 msgid "Apply %s to Author Archives?"
-msgstr ""
+msgstr "Primijeni %s na arhive autora?"
 
 #: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
 msgid "Apply %s to Date Archives?"
-msgstr ""
+msgstr "Primjeni %s na datume arhiva?"
 
 #: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
 msgid "Apply %s to Search Archives?"
-msgstr ""
+msgstr "Primjeni %s na pretraživanje arhiva?"
 
 #: lib/admin/seo-settings.php:493
 msgid "Apply %s to Entire Site?"
-msgstr ""
+msgstr "Primijeni %s na čitavu lokaciju?"
 
 #: lib/admin/seo-settings.php:513
 msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr ""
+msgstr "Povremeno tražilice koriste izvore kao što su Open Directory Project i Yahoo! Directory kako bi pronašle naslove i opise za vaš sadržaj. Općenito, vi ne želite da one to rade. Oznake %s i %s će ih spriječiti da to učine."
 
 #: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
 msgid "Apply %s to your site?"
-msgstr ""
+msgstr "Primjeni %s na vašu lokaciju?"
 
 #: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
 #: lib/admin/user-meta.php:204
 msgid "Comma separated list"
-msgstr ""
+msgstr "popis odijeljen zarezom"
 
 #: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
 msgid "Robots Meta"
-msgstr ""
+msgstr "meta roboti"
 
 #: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
 #: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
 #: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
 msgid "Apply %s to this archive?"
-msgstr ""
+msgstr "Primijeni %s na ovu arhivu?"
 
 #: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
 #: lib/admin/theme-settings.php:408
 msgid "Information"
-msgstr ""
+msgstr "Informacija"
 
 #: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
 #: lib/admin/theme-settings.php:413
 msgid "Custom Feeds"
-msgstr ""
+msgstr "Prilagođeni feed-ovi"
 
 #: lib/admin/user-meta.php:140
 msgid "Author Box"
-msgstr ""
+msgstr "Kutija autora"
 
 #: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
 #: lib/admin/theme-settings.php:423
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "Breadcrumbs"
 
 #: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
 #: lib/admin/theme-settings.php:426
 msgid "Content Archives"
-msgstr ""
+msgstr "Arhiva sadržaja"
 
 #: lib/admin/theme-settings.php:475
 msgid "Version:"
-msgstr ""
+msgstr "inačica:"
 
 #: lib/admin/theme-settings.php:475
 msgid "Released:"
-msgstr ""
+msgstr "Izdano:"
 
 #: lib/admin/theme-settings.php:482
 msgid "Enable Automatic Updates"
-msgstr ""
+msgstr "omogući automatsku nadogradnju"
 
 #: lib/admin/theme-settings.php:488
 msgid "Notify"
-msgstr ""
+msgstr "Obavijesti"
 
 #: lib/admin/theme-settings.php:490
 msgid "when updates are available"
-msgstr ""
+msgstr "kada su nadogradnje dostupne"
 
 #: lib/admin/theme-settings.php:599
 msgid "Dynamic text"
-msgstr ""
+msgstr "Dinamičan tekst"
 
 #: lib/admin/theme-settings.php:600
 msgid "Image logo"
-msgstr ""
+msgstr "Logo"
 
 #: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
 #: lib/functions/layout.php:60
 msgid "Full Width Content"
-msgstr ""
+msgstr "Sadržaj preko čitave stranice"
 
 #: lib/admin/theme-settings.php:887
 msgid "Comma separated - 1,2,3 for example"
-msgstr ""
+msgstr "Odvojeno zarezom - npr. 1,2,3"
 
 #: lib/admin/theme-settings.php:644
 msgid "Display the following:"
-msgstr ""
+msgstr "Prikaži sljedeće:"
 
 #: lib/admin/theme-settings.php:647
 msgid "Today's date"
-msgstr ""
+msgstr "Današnji datum"
 
 #: lib/admin/theme-settings.php:648
 msgid "RSS feed links"
-msgstr ""
+msgstr "veza RSS feed-a"
 
 #: lib/admin/theme-settings.php:649
 msgid "Search form"
-msgstr ""
+msgstr "obrazac za pretragu"
 
 #: lib/admin/theme-settings.php:650
 msgid "Twitter link"
-msgstr ""
+msgstr "Twitter poveznica"
 
 #: lib/admin/theme-settings.php:655
 msgid "Enter Twitter ID:"
-msgstr ""
+msgstr "Unesi Twitter ID:"
 
 #: lib/admin/theme-settings.php:659
 msgid "Twitter Link Text:"
-msgstr ""
+msgstr "Tekst poveznice Twittera:"
 
 #: lib/admin/theme-settings.php:684
 msgid "Enter your custom feed URI:"
-msgstr ""
+msgstr "Unesi svoj prilagođeni feed URI:"
 
 #: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
 msgid "Redirect Feed?"
-msgstr ""
+msgstr "Preusmjeriti feed?"
 
 #: lib/admin/theme-settings.php:692
 msgid "Enter your custom comments feed URI:"
-msgstr ""
+msgstr "Unesite svoj prilagođeni URI feed za komentare:"
 
 #: lib/admin/theme-settings.php:719
 msgid "Enable Comments"
-msgstr ""
+msgstr "omogući komentare"
 
 #: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
 msgid "on posts?"
-msgstr ""
+msgstr "na člancima?"
 
 #: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
 msgid "on pages?"
-msgstr ""
+msgstr "na stranicama?"
 
 #: lib/admin/theme-settings.php:728
 msgid "Enable Trackbacks"
-msgstr ""
+msgstr "Omogući trackbacks"
 
 #: lib/admin/theme-settings.php:805
 msgid "Select one of the following:"
-msgstr ""
+msgstr "Odaberite nešto od sljedećeg:"
 
 #: lib/admin/theme-settings.php:811
 msgid "Display post content"
-msgstr ""
+msgstr "Prikaži sadržaj članka"
 
 #: lib/admin/theme-settings.php:812
 msgid "Display post excerpts"
-msgstr ""
+msgstr "Prikaži izvod iz članka"
 
 #: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
 msgid "Limit content to"
-msgstr ""
+msgstr "Ograniči sadržaj na"
 
 #: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
 msgid "characters"
-msgstr ""
+msgstr "znakovi"
 
 #: lib/widgets/featured-page-widget.php:202
 #: lib/widgets/featured-post-widget.php:368
 msgid "Image Size"
-msgstr ""
+msgstr "Veličina fotografije"
 
 #: lib/admin/theme-settings.php:848
 msgid "Select Post Navigation Technique:"
-msgstr ""
+msgstr "Odaberi tehniku navigacije članaka"
 
 #: lib/admin/theme-settings.php:850
 msgid "Older / Newer"
-msgstr ""
+msgstr "starije / novije"
 
 #: lib/admin/theme-settings.php:851
 msgid "Previous / Next"
-msgstr ""
+msgstr "prethodno / sljedeće"
 
 #: lib/admin/theme-settings.php:852
 msgid "Numeric"
-msgstr ""
+msgstr "brojčano"
 
 #: lib/admin/theme-settings.php:880
 msgid "Display which category:"
-msgstr ""
+msgstr "prikaži ovu kategoriju:"
 
 #: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
 msgid "All Categories"
-msgstr ""
+msgstr "sve kategorije"
 
 #: lib/admin/theme-settings.php:885
 msgid "Exclude the following Category IDs:"
-msgstr ""
+msgstr "isključi sljedeći ID kategorije:"
 
 #: lib/widgets/featured-post-widget.php:296
 #: lib/widgets/featured-post-widget.php:439
 msgid "Number of Posts to Show"
-msgstr ""
+msgstr "broj članaka za prikazivanje"
 
 #: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
 msgid "Home"
-msgstr "Naslovnica"
+msgstr "početna"
 
 #: lib/functions/upgrade.php:536
 msgid "Click here to complete the upgrade"
-msgstr ""
+msgstr "klikni ovdje za dovršetak nadogradnje"
 
 #: lib/functions/upgrade.php:606
 msgid "Genesis %s is available for %s"
-msgstr ""
+msgstr "Genesis %s je dostupan za %s"
 
 #: lib/functions/upgrade.php:607
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr ""
+msgstr "Genesis %s je sada dostupan. Omogućili smo vam nadogradnju samo jednim klikom za ovu temu pa vas molimo da se prijavite i obavite nadogradnju prvom sljedećom prilikom."
 
 #: lib/shortcodes/footer.php:40
 msgid "Return to top of page"
-msgstr "Na vrh"
+msgstr "vrati na vrh stranice"
 
 #: lib/shortcodes/footer.php:240
 msgid "Log in"
-msgstr ""
+msgstr "Prijava"
 
 #: lib/shortcodes/footer.php:242
 msgid "Log out"
-msgstr ""
+msgstr "Odjava"
 
 #: lib/shortcodes/post.php:249
 msgid "Leave a Comment"
-msgstr "Komentiraj"
+msgstr "komentiraj"
 
 #: lib/shortcodes/post.php:248
 msgid "1 Comment"
@@ -897,122 +897,122 @@ msgstr "% komentara"
 
 #: lib/shortcodes/post.php:293
 msgid "Tagged With: "
-msgstr "Tagovi:"
+msgstr "označeno s:"
 
 #: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
 msgid "Filed Under: "
-msgstr "Kategorije:"
+msgstr "spremi pod:"
 
 #: lib/shortcodes/post.php:423 lib/structure/comments.php:233
 #: lib/structure/comments.php:298 lib/structure/post.php:280
 msgid "(Edit)"
-msgstr "(Uredi)"
+msgstr "(izmijeni)"
 
 #: lib/structure/comments.php:79
 msgid "<h3>Comments</h3>"
-msgstr "<h3>Komentari</h3>"
+msgstr "<h3>komentari</h3>"
 
 #: lib/structure/comments.php:143
 msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>Poveznice</h3>"
+msgstr "<h3>Trackbacks</h3>"
 
 #: lib/structure/comments.php:228
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
-msgstr ""
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:228 lib/structure/comments.php:289
 msgid "says"
-msgstr ""
+msgstr "kaže"
 
 #: lib/structure/comments.php:232
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s kod %2$s"
 
 #: lib/structure/comments.php:239 lib/structure/comments.php:305
 msgid "Your comment is awaiting moderation."
-msgstr "Komentar čeka odobrenje."
+msgstr "Vaš komentar čeka odobrenje."
 
 #: lib/structure/comments.php:380
 msgid "Name"
-msgstr "Ime"
+msgstr "ime"
 
 #: lib/structure/comments.php:386
 msgid "Email"
-msgstr "E-mail"
+msgstr "email"
 
 #: lib/structure/comments.php:392
 msgid "Website"
-msgstr "Web"
+msgstr "web stranica"
 
 #: lib/structure/comments.php:401
 msgid "Speak Your Mind"
-msgstr "Komentiraj"
+msgstr "Recite nam vaše mišljenje"
 
 #: lib/structure/footer.php:145
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Autorsko pravo"
 
 #: lib/init.php:58
 msgid "Primary Navigation Menu"
-msgstr ""
+msgstr "Osnovni navigacijski izbornik"
 
 #: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
 msgid "Posts"
-msgstr ""
+msgstr "Članci"
 
 #: lib/structure/menu.php:185
 msgid "Comments"
-msgstr "Komentari"
+msgstr "komentara"
 
 #: lib/structure/post.php:287 lib/structure/post.php:289
 msgid "[Read more...]"
-msgstr "[više]"
+msgstr "[nastavi čitati...]"
 
 #: lib/widgets/featured-post-widget.php:53
 msgid "By"
-msgstr ""
+msgstr "autor"
 
 #: lib/structure/post.php:507 lib/structure/post.php:517
 msgid "About"
-msgstr "O "
+msgstr "o meni"
 
 #: lib/structure/post.php:567
 msgid "Older Posts"
-msgstr "Starije"
+msgstr "stariji članci"
 
 #: lib/structure/post.php:568
 msgid "Newer Posts"
-msgstr "Novije"
+msgstr "noviji članci"
 
 #: lib/structure/search.php:33
 msgid "Search"
-msgstr "Tražilica"
+msgstr "traži"
 
 #: lib/structure/sidebar.php:27
 msgid "Primary Sidebar Widget Area"
-msgstr ""
+msgstr "Osnovni stupac područja s widgetima"
 
 #: lib/structure/sidebar.php:45
 msgid "Secondary Sidebar Widget Area"
-msgstr ""
+msgstr "Dodatni stupac područja za widgete"
 
 #: lib/classes/breadcrumb.php:52
 msgid "You are here: "
-msgstr "Nalazite se ovdje:"
+msgstr "Vi ste ovdje:"
 
 #: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
 #: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
 #: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
 msgid "Archives for "
-msgstr ""
+msgstr "Arhiva za"
 
 #: lib/classes/breadcrumb.php:57
 msgid "Search for "
-msgstr "Pretraga:"
+msgstr "Traži"
 
 #: lib/classes/breadcrumb.php:352
 msgid "View all posts in %s"
-msgstr ""
+msgstr "vidi sve članke u %s"
 
 #: lib/widgets/featured-page-widget.php:185
 #: lib/widgets/featured-post-widget.php:273
@@ -1020,28 +1020,28 @@ msgstr ""
 #: lib/widgets/featured-post-widget.php:434
 #: lib/widgets/user-profile-widget.php:141
 msgid "Title"
-msgstr ""
+msgstr "Naslov"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr ""
+msgstr "Prikaži privlačne slike kao minijature"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr ""
+msgstr "Genesis - odabrana stranica"
 
 #: lib/shortcodes/footer.php:175 lib/structure/post.php:381
 msgid "by"
-msgstr ""
+msgstr "autor"
 
 #: lib/widgets/featured-page-widget.php:190
 msgid "Page"
-msgstr ""
+msgstr "Stranica"
 
 #: lib/widgets/featured-page-widget.php:214
 #: lib/widgets/featured-post-widget.php:380
 msgid "Image Alignment"
-msgstr ""
+msgstr "Centriranje fotografije"
 
 #: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
 #: lib/widgets/featured-post-widget.php:352
@@ -1049,316 +1049,316 @@ msgstr ""
 #: lib/widgets/user-profile-widget.php:165
 #: lib/widgets/user-profile-widget.php:185
 msgid "None"
-msgstr ""
+msgstr "Nijedan"
 
 #: lib/widgets/featured-page-widget.php:226
 msgid "Show Page Title"
-msgstr ""
+msgstr "Prikaži naslov stranice"
 
 #: lib/widgets/featured-page-widget.php:231
 msgid "Show Page Content"
-msgstr ""
+msgstr "Prikaži sadržaj stranice"
 
 #: lib/widgets/featured-page-widget.php:235
 msgid "Content Character Limit"
-msgstr ""
+msgstr "Ograničenje znakova u sadržaju"
 
 #: lib/widgets/featured-page-widget.php:240
 msgid "More Text"
-msgstr ""
+msgstr "više teksta"
 
 #: lib/widgets/featured-post-widget.php:65
 msgid "Displays featured posts with thumbnails"
-msgstr ""
+msgstr "Prikazuje izabrani članak s minijaturama"
 
 #: lib/widgets/featured-post-widget.php:74
 msgid "Genesis - Featured Posts"
-msgstr ""
+msgstr "Genesis - odabrani članci"
 
 #: lib/widgets/featured-post-widget.php:56
 msgid "[Read More...]"
-msgstr "[više]"
+msgstr "[nastavi čitati...]"
 
 #: lib/widgets/featured-post-widget.php:60
 msgid "More Posts from this Category"
-msgstr ""
+msgstr "Više članaka iz ove kategorije"
 
 #: lib/widgets/featured-post-widget.php:282
 msgid "Category"
-msgstr ""
+msgstr "Kategorija"
 
 #: lib/widgets/featured-post-widget.php:301
 msgid "Number of Posts to Offset"
-msgstr ""
+msgstr "Broj članaka za offset"
 
 #: lib/widgets/featured-post-widget.php:306
 msgid "Order By"
-msgstr ""
+msgstr "naručio"
 
 #: lib/widgets/featured-post-widget.php:308
 msgid "Date"
-msgstr ""
+msgstr "datum"
 
 #: lib/widgets/featured-post-widget.php:310
 msgid "Parent"
-msgstr ""
+msgstr "Roditelj"
 
 #: lib/widgets/featured-post-widget.php:311
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:312
 msgid "Comment Count"
-msgstr ""
+msgstr "Broj komentara"
 
 #: lib/widgets/featured-post-widget.php:313
 msgid "Random"
-msgstr ""
+msgstr "Nasumično"
 
 #: lib/widgets/featured-post-widget.php:318
 msgid "Sort Order"
-msgstr ""
+msgstr "Redoslijed razvrstavanja"
 
 #: lib/widgets/featured-post-widget.php:320
 msgid "Descending (3, 2, 1)"
-msgstr ""
+msgstr "Silazno (3, 2, 1)"
 
 #: lib/widgets/featured-post-widget.php:321
 msgid "Ascending (1, 2, 3)"
-msgstr ""
+msgstr "Uzlazno (1, 2, 3)"
 
 #: lib/widgets/featured-post-widget.php:336
 msgid "Show Author Gravatar"
-msgstr ""
+msgstr "Prikaži Gravatar autora"
 
 #: lib/widgets/featured-post-widget.php:340
 #: lib/widgets/user-profile-widget.php:151
 msgid "Gravatar Size"
-msgstr ""
+msgstr "Veličina gravatara"
 
 #: lib/widgets/featured-post-widget.php:342
 msgid "Small (45px)"
-msgstr ""
+msgstr "Malen (45px)"
 
 #: lib/widgets/featured-post-widget.php:343
 msgid "Medium (65px)"
-msgstr ""
+msgstr "Srednja (65px)"
 
 #: lib/widgets/featured-post-widget.php:344
 msgid "Large (85px)"
-msgstr ""
+msgstr "Velik (85px)"
 
 #: lib/widgets/featured-post-widget.php:345
 msgid "Extra Large (125px)"
-msgstr ""
+msgstr "Vrlo velika (125px)"
 
 #: lib/widgets/featured-post-widget.php:350
 #: lib/widgets/user-profile-widget.php:163
 msgid "Gravatar Alignment"
-msgstr ""
+msgstr "Centriranje Gravatara"
 
 #: lib/widgets/featured-post-widget.php:398
 msgid "Show Post Title"
-msgstr ""
+msgstr "Prikaži naslov članka"
 
 #: lib/widgets/featured-post-widget.php:423
 msgid "More Text (if applicable)"
-msgstr ""
+msgstr "Više teksta (ako je primjenjivao)"
 
 #: lib/widgets/featured-post-widget.php:431
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr ""
+msgstr "Za prikazivanje neuređene liste više članaka iz ove kategorije ispunite, molim vas, sljedeće informacije:"
 
 #: lib/widgets/featured-post-widget.php:449
 msgid "Show Category Archive Link"
-msgstr ""
+msgstr "Prikaži vezu arhiva kategorija"
 
 #: lib/widgets/featured-post-widget.php:453
 msgid "Link Text"
-msgstr ""
+msgstr "Tekst poveznice"
 
 #: lib/widgets/user-profile-widget.php:49
 msgid "Displays user profile block with Gravatar"
-msgstr ""
+msgstr "Prikaži korisnikov profil s Gravatarom"
 
 #: lib/widgets/user-profile-widget.php:58
 msgid "Genesis - User Profile"
-msgstr ""
+msgstr "Genesis - korisnički profil"
 
 #: lib/widgets/user-profile-widget.php:102
 msgid "View My Blog Posts"
-msgstr ""
+msgstr "Pogledaj moje blog članke"
 
 #: lib/widgets/user-profile-widget.php:146
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr ""
+msgstr "Izaberi korisnika. Njegova email adresa će biti korištena za povlačenje Gravatar fotografije."
 
 #: lib/widgets/user-profile-widget.php:154
 msgid "Small"
-msgstr ""
+msgstr "Malen"
 
 #: lib/widgets/user-profile-widget.php:154
 msgid "Medium"
-msgstr ""
+msgstr "Nosač"
 
 #: lib/widgets/user-profile-widget.php:154
 msgid "Large"
-msgstr ""
+msgstr "Velik"
 
 #: lib/widgets/user-profile-widget.php:154
 msgid "Extra Large"
-msgstr ""
+msgstr "Jako veliko"
 
 #: lib/widgets/user-profile-widget.php:172
 msgid "Select which text you would like to use as the author description"
-msgstr ""
+msgstr "Označite koji tekst želite koristiti kao opis autora"
 
 #: lib/widgets/user-profile-widget.php:175
 msgid "Author Bio"
-msgstr ""
+msgstr "Podaci o autoru"
 
 #: lib/widgets/user-profile-widget.php:177
 msgid "Custom Text (below)"
-msgstr ""
+msgstr "Prilagođen tekst (niže)"
 
 #: lib/widgets/user-profile-widget.php:184
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr ""
+msgstr "Izaberite vašu proširenu stranicu \"O meni\" iz donje liste. To će biti stranica povezana na kraju \"o meni\" odjeljka."
 
 #: lib/widgets/user-profile-widget.php:195
 msgid "Show Author Archive Link?"
-msgstr ""
+msgstr "Pokaži poveznicu od autorove arhive?"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Uvezi/Izvezi"
+msgstr "Genesis - uvoz/izvoz"
 
 #: lib/admin/import-export.php:128
 msgid "Import Genesis Settings File"
-msgstr "Uvezi datoteku s postavkama Genesisa"
+msgstr "Genesis datoteka postavki izvoza"
 
 #: lib/admin/import-export.php:136
 msgid "Upload File: (Maximum Size: %s)"
-msgstr "Prenesi datoteku: (max. veličična: %s)"
+msgstr "Prenesi datoteku: (maksimalna veličina: %s)"
 
 #: lib/admin/import-export.php:147
 msgid "Export Genesis Settings File"
-msgstr "Izvezi Genesis Settings datoteku"
+msgstr "Izvezi datoteku s Genesis postavkama"
 
 #: lib/admin/import-export.php:150
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "Nakon što spremite dokument kojeg ste prenijeli na računalo, možete koristiti opciju uvoza datoteke na vašoj drugoj internet stranici kako biste prenijeli i uvezli ove podatke."
+msgstr "Jednom kad ste spremili prenesene podatke možete koristi funkciju uvoza na drugoj lokaciji za uvoz tih podataka."
 
 #: lib/admin/import-export.php:157
 msgid "Download Export File"
-msgstr "Prenesi na računalo Export datoteku"
+msgstr "Preuzmi izvoznu datoteku"
 
 #: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
 msgid "Characters Used: %s"
-msgstr "Broj karaktera: %s"
+msgstr "Korišteno karaktera: %s"
 
 #: lib/admin/inpost-metaboxes.php:58
 msgid "Custom Redirect URI"
-msgstr ""
+msgstr "prilagođen URI za preusmjeravanje"
 
 #: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
 msgid "Custom Body Class"
-msgstr ""
+msgstr "Prilagođena Body Class"
 
 #: lib/admin/inpost-metaboxes.php:245
 msgid "Custom Post Class"
-msgstr ""
+msgstr "Prilagođena klasa članka"
 
 #: lib/admin/import-export.php:46 lib/admin/import-export.php:67
 #: lib/admin/import-export.php:83
 msgid "Import/Export"
-msgstr "Uvezi/Izvezi"
+msgstr "Uvoz/Izvoz"
 
 #: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
 msgid "Choose Layout"
-msgstr ""
+msgstr "Izaberi izgled"
 
 #: lib/admin/theme-settings.php:833
 msgid "Include the Featured Image?"
-msgstr ""
+msgstr "Uključi preporučenu fotografiju?"
 
 #: lib/admin/user-meta.php:76
 msgid "Genesis Admin Menus"
-msgstr ""
+msgstr "Genesis izbornici administratora"
 
 #: lib/admin/user-meta.php:79
 msgid "Enable Genesis Admin Menu?"
-msgstr ""
+msgstr "Omogući Genesis administracijski izbornik?"
 
 #: lib/admin/user-meta.php:82
 msgid "Enable SEO Settings Submenu?"
-msgstr ""
+msgstr "Omogući podizbornik SEO postavki?"
 
 #: lib/admin/user-meta.php:85
 msgid "Enable Import/Export Submenu?"
-msgstr ""
+msgstr "Omogući podizbornik uvoz/izvoz?"
 
 #: lib/admin/user-meta.php:143
 msgid "Enable Author Box on this User's Posts?"
-msgstr ""
+msgstr "Omogući podatke o autoru u članku ovog korisnika?"
 
 #: lib/admin/user-meta.php:146
 msgid "Enable Author Box on this User's Archives?"
-msgstr ""
+msgstr "Omogući Autor Box u ovim korisničkim arhivama?"
 
 #: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
 #: lib/admin/user-meta.php:248
 msgid "These settings apply to this author's archive pages."
-msgstr ""
+msgstr "Ove postavke se primjenjuju na arhivsku stranicu ovog autora."
 
 #: lib/admin/user-meta.php:124
 msgid "Custom Archive Headline"
-msgstr ""
+msgstr "Prilagođeno zaglavlje arhiva"
 
 #: lib/admin/user-meta.php:127
 msgid "Will display in the %s tag at the top of the first page"
-msgstr ""
+msgstr "Prikazat ćemo u %s oznaci na vrhu prve stranice"
 
 #: lib/admin/user-meta.php:132
 msgid "Custom Description Text"
-msgstr ""
+msgstr "Prilagođen tekst opisa"
 
 #: lib/admin/user-meta.php:135
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr ""
+msgstr "Ovaj tekst će biti prvi odlomak i prikazan na prvoj stranici."
 
 #: lib/functions/upgrade.php:512
 msgid "Congratulations! You are now rocking Genesis %s"
-msgstr ""
+msgstr "Čestitam! Pokrenuli ste Genesis %s"
 
 #: lib/widgets/featured-page-widget.php:198
 #: lib/widgets/featured-post-widget.php:364
 msgid "Show Featured Image"
-msgstr ""
+msgstr "Prikaži privlačnu sliku"
 
 #: lib/widgets/featured-post-widget.php:403
 msgid "Show Post Info"
-msgstr ""
+msgstr "Prikaži informacije o članku"
 
 #: lib/widgets/featured-post-widget.php:408
 msgid "Content Type"
-msgstr ""
+msgstr "Vrsta sadržaja"
 
 #: lib/widgets/featured-post-widget.php:410
 msgid "Show Content"
-msgstr ""
+msgstr "Prikaži sadržaj"
 
 #: lib/widgets/featured-post-widget.php:411
 msgid "Show Excerpt"
-msgstr ""
+msgstr "Pokaži isječak"
 
 #: lib/widgets/featured-post-widget.php:412
 msgid "Show Content Limit"
-msgstr ""
+msgstr "Prikaži ograničenje sadržaja"
 
 #: lib/widgets/featured-post-widget.php:413
 msgid "No Content"
-msgstr ""
+msgstr "Nema sadržaja"
 
 #: lib/classes/breadcrumb.php:60
 msgid "Not found: "
@@ -1367,242 +1367,244 @@ msgstr "Nije pronađeno:"
 #: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
 #: lib/classes/breadcrumb.php:316
 msgid "View %s"
-msgstr ""
+msgstr "Pregled %s"
 
 #: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
 msgid "View archives for %s"
-msgstr ""
+msgstr "Pogledaj arhivu za %s"
 
 #: lib/classes/breadcrumb.php:497
 msgid "View archives for %s %s"
-msgstr ""
+msgstr "Pregledaj arhive za %s %s"
 
 #: lib/classes/breadcrumb.php:386
 msgid "View all %s"
-msgstr ""
+msgstr "Pogledaj sve %s"
 
 #: lib/classes/breadcrumb.php:561
 msgid "View all items in %s"
-msgstr ""
+msgstr "Pogledaj sve stavke u %s"
 
 #: lib/functions/widgetize.php:108
 msgid "Header Right"
-msgstr ""
+msgstr "zaglavlje desno"
 
 #: lib/functions/widgetize.php:117
 msgid "Primary Sidebar"
-msgstr ""
+msgstr "Osnovni stupac"
 
 #: lib/functions/widgetize.php:126
 msgid "Secondary Sidebar"
-msgstr ""
+msgstr "dodatni stupac"
 
 #: lib/admin/import-export.php:191
 msgid "There was a problem importing your settings. Please try again."
-msgstr "Postoji problem s uvozom vaših postavki. Molimo vas probajte ponovno."
+msgstr "Nastao je problem prilikom uvoza vaših postavki. Molim vas pokušajte ponovno."
 
 #: lib/functions/layout.php:109
 msgid "No Label Selected"
-msgstr ""
+msgstr "nije odabrana etiketa"
 
 #: lib/functions/widgetize.php:159
 msgid "Footer %d"
-msgstr ""
+msgstr "podnožje stranice %d"
 
 #: lib/admin/import-export.php:235
 msgid "No export options available."
-msgstr "Ne postoje mogućnosti izvoza datoteke"
+msgstr "Nisu dostupne opcije izvoza."
 
 #: lib/js/load-scripts.php:143
 msgid "Select / Deselect All"
-msgstr ""
+msgstr "označite / poništite sve"
 
 #: lib/shortcodes/post.php:42
 msgid "ago"
-msgstr ""
+msgstr "prije"
 
 #: lib/structure/post.php:589 lib/structure/post.php:655
 msgid "Previous Page"
-msgstr "Prethodna stranica"
+msgstr "prethodna stranica"
 
 #: lib/structure/post.php:590 lib/structure/post.php:685
 msgid "Next Page"
-msgstr "Sljedeća stranica"
+msgstr "sljedeća stranica"
 
 #: lib/admin/theme-settings.php:539
 msgid "Default"
-msgstr ""
+msgstr "Zadano"
 
 #: lib/admin/import-export.php:131
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Izaberite datoteku s računala i kliknite na \"Prenesi datoteku i importiraj\""
+msgstr "Odaberite datoteku s vašeg računala i kliknite \"Prenesi datoteku i uvezi\""
 
 #: lib/admin/import-export.php:139
 msgid "Upload File and Import"
-msgstr "Prenesi datoteku i uvezi."
+msgstr "Prenesi datoteku i uvezi je"
 
 #: lib/admin/import-export.php:189
 msgid "Settings successfully imported."
-msgstr "Postavke su uspješno uvezene."
+msgstr "Postavke uspješno uvezene."
 
 #: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
 #: lib/classes/admin.php:108
 msgid "Settings reset."
-msgstr ""
+msgstr "Povrat zadanih postavki"
 
 #: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
 #: lib/classes/admin.php:107
 msgid "Settings saved."
-msgstr ""
+msgstr "Postavke su spremljene."
 
 #: lib/admin/seo-settings.php:376
 msgid "Keywords are generally ignored by Search Engines."
-msgstr ""
+msgstr "Tražilice općenito zanemaruju ključne riječi."
 
 #: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
 #: lib/admin/theme-settings.php:414
 msgid "Default Layout"
-msgstr ""
+msgstr "Zadani izgled"
 
 #: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
 #: lib/admin/theme-settings.php:425
 msgid "Comments and Trackbacks"
-msgstr ""
+msgstr "komentari i Trackbacks"
 
 #: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
 #: lib/admin/theme-settings.php:430
 msgid "Header and Footer Scripts"
-msgstr ""
+msgstr "Skripta zaglavlja i podnožja"
 
 #: lib/admin/theme-settings.php:478
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr ""
+msgstr "Ovo može biti od pomoći u dijagnosticiranju problema s vašom temom kada zatražite pomoć na <a href=\"%s\" target=\"_blank\">forumima za pomoć</a>."
 
 #: lib/admin/theme-settings.php:699
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr ""
+msgstr "Ako vaši prilagođeni feed(ovi) nisu upravljani programom Feedburner ne preporučamo korištenje opcije preusmjeravanja."
 
 #: lib/admin/theme-settings.php:736
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr ""
+msgstr "Komentari i trackbacks su također onemogućeni na osnovi članka/stranice kada se stvara/uređuje članak/stranica."
 
 #: lib/admin/theme-settings.php:755
 msgid "Enable on:"
-msgstr ""
+msgstr "Omogući:"
 
 #: lib/admin/theme-settings.php:759
 msgid "Front Page"
-msgstr ""
+msgstr "Naslovnica"
 
 #: lib/admin/theme-settings.php:772
 msgid "Pages"
-msgstr ""
+msgstr "Stranice"
 
 #: lib/admin/theme-settings.php:775
 msgid "Archives"
-msgstr ""
+msgstr "Arhiva"
 
 #: lib/admin/theme-settings.php:778
 msgid "404 Page"
-msgstr ""
+msgstr "Stranica 404"
 
 #: lib/admin/theme-settings.php:784
 msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr ""
+msgstr "Breadcrums su odličan način snalaženja posjetitelja na vašoj lokaciji u trenu. Možete ih omogućiti/onemogućiti na određenim područjima vaše lokacije."
 
 #: lib/admin/theme-settings.php:828
 msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
-msgstr ""
+msgstr "Koristeći ovu mogućnost ograničit ćete tekst i maknuti svo formatiranje s prikazanog teksta. Za korištenje ove opcije odaberite \"Prikaži sadržaj članka\" u gornjoj kućici."
 
 #: lib/admin/theme-settings.php:856
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr ""
+msgstr "Ove postavke će djelovati na bilo koju stranicu bloga s popisima, uključujući arhivu, autora, blog, kategoriju, pretraživanje i oznake."
 
 #: lib/functions/formatting.php:284
 msgctxt "time difference"
 msgid "seconds"
-msgstr ""
+msgstr "sekundi"
 
 #: lib/functions/formatting.php:288
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s godina\n"
+msgstr[1] "%s godine"
+msgstr[2] "%s godina"
 
 #: lib/functions/formatting.php:289
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s mjesec"
+msgstr[1] "%s mjeseca"
+msgstr[2] "%s mjeseci"
 
 #: lib/functions/formatting.php:290
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s tjedan"
+msgstr[1] "%s tjedna"
+msgstr[2] "%s tjedana"
 
 #: lib/functions/formatting.php:291
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s dan"
+msgstr[1] "%s dana"
+msgstr[2] "%s dana"
 
 #: lib/functions/formatting.php:292
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s sata"
+msgstr[1] "%s sata"
+msgstr[2] "%s sati"
 
 #: lib/functions/formatting.php:293
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s minuta"
+msgstr[1] "%s minute"
+msgstr[2] "%s minuta"
 
 #: lib/functions/formatting.php:294
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+"%s sekunda\n"
+"\n"
+msgstr[1] "%s sekunde"
+msgstr[2] "%s sekundi"
 
 #: lib/functions/formatting.php:319
 msgctxt "separator in time difference"
 msgid "and"
-msgstr ""
+msgstr "i"
 
 #: lib/functions/layout.php:39
 msgid "Content-Sidebar"
-msgstr ""
+msgstr "sadržaj - stupac"
 
 #: lib/functions/layout.php:44
 msgid "Sidebar-Content"
-msgstr ""
+msgstr "stupac-sadržaj"
 
 #: lib/functions/layout.php:48
 msgid "Content-Sidebar-Sidebar"
-msgstr ""
+msgstr "sadržaj - stupac - stupac"
 
 #: lib/functions/layout.php:52
 msgid "Sidebar-Sidebar-Content"
-msgstr ""
+msgstr "stupac - stupac - sadržaj"
 
 #: lib/functions/layout.php:56
 msgid "Sidebar-Content-Sidebar"
-msgstr ""
+msgstr "stupac - sadržaj - stupac"
 
 #: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
 #: lib/admin/user-meta.php:182
@@ -1614,475 +1616,475 @@ msgstr "SEO postavke za temu"
 #: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
 #: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
 msgid "Layout Settings"
-msgstr ""
+msgstr "Postavke izgleda"
 
 #: lib/admin/seo-settings.php:430
 msgid "Adjacent Posts %s link tags"
-msgstr ""
+msgstr "Oznaka poveznice sljedećeg članka %s"
 
 #: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
 #: lib/admin/cpt-archive-settings.php:138
 #: lib/admin/cpt-archive-settings.php:246
 #: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
 msgid "Archive Settings"
-msgstr ""
+msgstr "Postavke arhiva"
 
 #: lib/admin/theme-settings.php:88
 msgid "Follow me on Twitter"
-msgstr "Pratite me na Twitteru"
+msgstr "Slijedi me na Twitteru"
 
 #: lib/admin/theme-settings.php:411
 msgid "Color Style"
-msgstr ""
+msgstr "Stil boje"
 
 #: lib/admin/theme-settings.php:781
 msgid "Attachment Page"
-msgstr ""
+msgstr "Stranica privitaka"
 
 #: lib/admin/theme-settings.php:837
 msgid "Image Size:"
-msgstr ""
+msgstr "Veličina fotografije:"
 
 #: lib/admin/theme-settings.php:892
 msgid "Number of Posts to Show:"
-msgstr ""
+msgstr "Broj članaka za prikazivanje"
 
 #: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
 msgid "Enter scripts or code you would like output to %s:"
-msgstr ""
+msgstr "Unesi scripta ili kod koji želiš poslati k %s:"
 
 #: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
 msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr ""
+msgstr "Veza %1$s se izvršava odmah prije završne oznake %2$s u izvoru dokumenta."
 
 #: lib/admin/theme-settings.php:537
 msgid "Color Style:"
-msgstr ""
+msgstr "Format boja:"
 
 #: lib/admin/theme-settings.php:551
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr ""
+msgstr "Molim vas izaberite stil boje iz padajućeg izbornika i spremite svoje postavke."
 
 #: lib/admin/user-meta.php:72
 msgid "User Permissions"
-msgstr ""
+msgstr "Dopuštenja za korisnike"
 
 #: lib/admin/user-meta.php:119
 msgid "Author Archive Settings"
-msgstr ""
+msgstr "Postavke arhiviranja autora"
 
 #: lib/classes/admin.php:119
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr ""
+msgstr "Ne možete koristiti %s kako biste napravili dva izbornika iste podklase. Molim vas, koristite odvojene podklase za svaki izbornik."
 
 #: lib/functions/menu.php:91
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr ""
+msgstr "Argument \"context\" zamijenjen je s \"theme_location\" u $args nizu."
 
 #: lib/functions/seo.php:127
 msgid "Dismiss"
-msgstr ""
+msgstr "Odbaci"
 
 #: lib/functions/widgetize.php:118
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr ""
+msgstr "Ovo je osnovni stupac ako koristite dvije ili tri kolone u opcijama za izgled lokacije."
 
 #: lib/functions/widgetize.php:127
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr ""
+msgstr "Ovo je drugi stupac ako koristite izgled stranice sa tri stupca."
 
 #: lib/functions/widgetize.php:160
 msgid "Footer %d widget area."
-msgstr ""
+msgstr "Widget područje u podnožju %d"
 
 #: lib/widgets/user-profile-widget.php:189
 msgid "Extended page link text"
-msgstr ""
+msgstr "Tekst poveznice na proširenu stranicu"
 
 #: lib/functions/widgetize.php:108
 msgid "Header Left"
-msgstr ""
+msgstr "Zaglavlje lijevo"
 
 #: lib/functions/widgetize.php:109
 msgid "This is the widget area in the header."
-msgstr ""
+msgstr "Ovo je područje widgeta u zaglavlju."
 
 #: lib/init.php:59
 msgid "Secondary Navigation Menu"
-msgstr ""
+msgstr "Dodatni izbornik navigacije"
 
 #: lib/widgets/user-profile-widget.php:178
 msgid "Custom Text Content"
-msgstr ""
+msgstr "Prilagođen tekst sadržaja"
 
 #: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
 #: lib/classes/admin.php:109
 msgid "Error saving settings."
-msgstr ""
+msgstr "Greška prilikom spremanja postavki."
 
 #: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
 msgid "Archive Headline"
-msgstr ""
+msgstr "naslov arhiva"
 
 #: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
 msgid "Leave empty if you do not want to display a headline."
-msgstr ""
+msgstr "Ostavi prazno ako ne želiš prikazati naslov."
 
 #: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
 msgid "Archive Intro Text"
-msgstr ""
+msgstr "Uvodni tekst arhive"
 
 #: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
 msgid "Leave empty if you do not want to display any intro text."
-msgstr ""
+msgstr "Ostavite prazno ako ne želite prikazivanje uvodnog teksta."
 
 #: lib/structure/footer.php:145
 msgid "on"
-msgstr ""
+msgstr "na"
 
 #: lib/admin/seo-settings.php:392
 msgid "Homepage Author"
-msgstr ""
+msgstr "Autor početne stranice"
 
 #: lib/admin/seo-settings.php:395
 msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr ""
+msgstr "Odaberite korisnika kojeg želite koristiti kao %s na početnoj stranici. Budite sigurni da je korisnik unio adresu svog Google+ profila na ekranu za uređivanje profila."
 
 #: lib/admin/seo-settings.php:400
 msgid "Select User"
-msgstr ""
+msgstr "Izabrani korisnik"
 
 #: lib/admin/theme-settings.php:597
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "Koristite za naslov/logo lokacije:"
 
 #: lib/admin/user-meta.php:26
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/admin/whats-new.php:39
 msgid "Welcome to Genesis %s"
-msgstr ""
+msgstr "Dobro došli u Genesis %s"
 
 #: lib/admin/whats-new.php:66
 msgid "What&#8217;s New"
-msgstr ""
+msgstr "Što je novo"
 
 #: lib/admin/whats-new.php:112
 msgid "Project Leads"
-msgstr ""
+msgstr "Voditelji projekta"
 
 #: lib/admin/whats-new.php:156
 msgid "Go to Theme Settings &rarr;"
-msgstr ""
+msgstr "Idi na postavke teme &rarr:"
 
 #: lib/admin/whats-new.php:157
 msgid "Go to SEO Settings &rarr;"
-msgstr ""
+msgstr "Idi na SEO postavke &rarr;"
 
 #: lib/shortcodes/post.php:170
 msgid "Visit %s&#x02019;s website"
-msgstr ""
+msgstr "Posjeti %s&#x02019;s stranicu"
 
 #: lib/structure/loops.php:253
 msgid "Read more"
-msgstr "Više"
+msgstr "Nastavi čitati"
 
 #: lib/structure/search.php:31
 msgid "Search this website"
-msgstr "Pretraži"
+msgstr "Pretraži ovu stranicu"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr "[više]"
+msgstr "Nastavi čitati"
 
 #: lib/admin/seo-settings.php:263
 msgid "Document Title Settings"
-msgstr ""
+msgstr "Postavke naslova dokumenta"
 
 #: lib/admin/seo-settings.php:285
 msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
-msgstr ""
+msgstr "Naslov dokumenta (%s) je najvažniji element vašeg dokumenta s informacijama za <abbr title=\"Search engine optimization\">SEO</abbr>. On sažeto objašnjava tražilicama koje se informacije nalaze u dokumentu. Naslov može i treba biti različit na svakoj stranici, a ove mogućnosti će vam pomoći kontrolirati zadani izgled naslova."
 
 #: lib/admin/seo-settings.php:287
 msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
-msgstr ""
+msgstr "<strong>Zadano je</strong>, da naslov dokumenta na početnoj stranici sadržava naslov lokacije, dokument članka ili stranice sadržava naslov članka ili stranice, stranica arhiva sadržava tip arhiva itd."
 
 #: lib/admin/seo-settings.php:291
 msgid "Add site description (tagline) to %s on home page?"
-msgstr ""
+msgstr "Dodaj opis lokacije (tagline) na početnu stranicu %s?"
 
 #: lib/admin/seo-settings.php:296
 msgid "Add site name to %s on inner pages?"
-msgstr ""
+msgstr "Dodaj ime lokacije %s na unutarnjim stranicama?"
 
 #: lib/admin/seo-settings.php:300
 msgid "Document Title Additions Location:"
-msgstr ""
+msgstr "Mjesto za dodatke naslovu dokumenta."
 
 #: lib/admin/seo-settings.php:301
 msgid "Determines which side the added title text will go on."
-msgstr ""
+msgstr "Određuje na koju stranu će ići dodani naslov teksta."
 
 #: lib/admin/seo-settings.php:313
 msgid "Document Title Separator:"
-msgstr ""
+msgstr "Razdjelnik naslova dokumenta"
 
 #: lib/admin/seo-settings.php:315
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr ""
+msgstr "Ako se naslov sastoji od dva dijela (izvornog naslova i izbornog dodatka) onda će se razdjelnik naći između njih."
 
 #: lib/admin/seo-settings.php:354
 msgid "Site Description (Tagline)"
-msgstr ""
+msgstr "Opis lokacije (tagline)"
 
 #: lib/admin/seo-settings.php:362
 msgid "Homepage Document Title:"
-msgstr ""
+msgstr "Naslov dokumenta početne stranice:"
 
 #: lib/admin/seo-settings.php:364
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr ""
+msgstr "Ukoliko ostavite naslov dokumenta praznim umjesto njega koristit će se &#8217 vaše lokacije."
 
 #: lib/admin/seo-settings.php:368
 msgid "Home Meta Description:"
-msgstr ""
+msgstr "Meta opis početne stranice:"
 
 #: lib/admin/seo-settings.php:370
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr ""
+msgstr "Meta opisi mogu se koristiti za određivanje teksta korištenog ispod naslova na rezultatima pretraživanja."
 
 #: lib/admin/seo-settings.php:374
 msgid "Home Meta Keywords (comma separated):"
-msgstr ""
+msgstr "ključne riječi početne stranice (odijeljene zarezom):"
 
 #: lib/admin/seo-settings.php:424
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr ""
+msgstr "Prema zadanim vrijednostima WordPress stavlja nekoliko oznaka u vaše dokumente %1$s. Većina ovih oznaka su potpuno bespotrebne i nemaju nikakvu <abbr title=\"Search engine optimization\">SEO</abbr> vrijednost; one samo usporavaju učitavanje vaše lokacije. Odaberite koje oznake želite imati uključene u vaše dokumente %1$s. Ako ne znate značenje oznake ostavite neoznačeno."
 
 #: lib/admin/seo-settings.php:447
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr ""
+msgstr "<span class=\"genesis-admin-note\">Note:</span>Oznaka skraćene poveznice može imati neke koristi za vidljivost nekih usluga trećih osoba, ali nema nikakvu <abbr title=\"Search engine optimization\">SEO</abbr> vrijednost."
 
 #: lib/admin/seo-settings.php:489
 msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
-msgstr ""
+msgstr "Neke tražilice će keširati stranice s vaše lokacije (npr. Google Cache). %1$s oznaka će ih spriječiti da to učine. Odaberite na koje arhive će se primijeniti oznaka %1$s"
 
 #: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
 #: lib/admin/theme-settings.php:417
 msgid "Header"
-msgstr ""
+msgstr "Zaglavlje"
 
 #: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
 #: lib/admin/theme-settings.php:420
 msgid "Navigation"
-msgstr ""
+msgstr "navigacija"
 
 #: lib/admin/theme-settings.php:427
 msgid "Blog Page Template"
-msgstr ""
+msgstr "predložak blog stranice"
 
 #: lib/admin/theme-settings.php:762
 msgid "Posts Page"
-msgstr ""
+msgstr "stranica članka"
 
 #: lib/admin/theme-settings.php:765
 msgid "Homepage"
-msgstr ""
+msgstr "početna stranica"
 
 #: lib/admin/theme-settings.php:875
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr ""
+msgstr "Ove postavke se primjenjuju na bilo kojoj stranici s predloškom za blog stranicu, a ne početnu stranicu ili arhivske stranice."
 
 #: lib/functions/seo.php:125
 msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr ""
+msgstr "Jeste li pogledali naš softver za marketing Scribe sadržaja? S njim možete optimizirati istraživanje, sadržaj i lokaciju te povećavati povezanost bez napuštanja Wordpressa. <b>Vlasnici Genesisa štede mnogo ako koriste posebnu poveznicu na stranici koju smo kreirali upravo za vas</b>. <a href=\"%s\" target=\"_blank\">Kliknite ovdje za više informacija</a>."
 
 #: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
 #: lib/admin/whats-new.php:128
 msgid "Lead Developer"
-msgstr ""
+msgstr "Glavni programer"
 
 #: lib/admin/whats-new.php:136
 msgid "Contributors"
-msgstr ""
+msgstr "Suradnici"
 
 #: lib/admin/whats-new.php:147
 msgid "Contributor"
-msgstr ""
+msgstr "Suradnik"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr "Rezultati pretrage:"
+msgstr "Rezultati pretrage za:"
 
 #: 404.php:27
 msgid "Not found, error 404"
-msgstr ""
+msgstr "Nije pronađeno, greška 404"
 
 #: 404.php:32
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "Stranica koju tražite više ne postoji. Možda biste mogli vratiti se na <a href=\"%s\">početnu stranicu</a> i vidjeti možete li naći ono što tražite. Ili možete pokušati potražiti željeni pojam uz pomoć donjeg obrasca za pretragu."
 
 #: lib/admin/cpt-archive-settings.php:55
 msgid "Archive"
-msgstr ""
+msgstr "Arhiva"
 
 #: lib/admin/cpt-archive-settings.php:158
 msgid "View the <a href=\"%s\">%s archive</a>."
-msgstr ""
+msgstr "Pogledaj <a href=\"%s\">%s arhivu</a>."
 
 #: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
 #: lib/admin/user-meta.php:194
 msgid "Meta Description"
-msgstr ""
+msgstr "Meta opis"
 
 #: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
 #: lib/admin/user-meta.php:201
 msgid "Meta Keywords"
-msgstr ""
+msgstr "Meta ključne riječi"
 
 #: lib/admin/cpt-archive-settings.php:193
 msgid "Robots Meta Tags:"
-msgstr ""
+msgstr "Robotske meta oznake"
 
 #: lib/admin/cpt-archive-settings.php:196
 #: lib/admin/cpt-archive-settings.php:199
 #: lib/admin/cpt-archive-settings.php:202
 msgid "Apply %s to this archive"
-msgstr ""
+msgstr "Primijeni %s na ovu arhivu"
 
 #: lib/admin/inpost-metaboxes.php:141
 msgid "Scripts"
-msgstr ""
+msgstr "Scripts"
 
 #: lib/admin/inpost-metaboxes.php:158
 msgid "Page-specific Scripts"
-msgstr ""
+msgstr "Scripts vezane za ovu stranicu"
 
 #: lib/admin/inpost-metaboxes.php:160
 msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
-msgstr ""
+msgstr "Pogodno za prilagođeno praćenje, pretvorbu ili neke druge scripts vezane za ovu stranicu. %s oznake moraju biti uključene."
 
 #: lib/admin/seo-settings.php:342
 msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
-msgstr ""
+msgstr "HTML dozvoljava višestruke %s oznake kroz čitav izvorni dokument ukoliko su one osnovni naslov za odjeljak u kojem se pojavljuju. Ipak, korištenje ovakvog standarda može imati neznatne negativne učinke na SEO."
 
 #: lib/admin/theme-settings.php:634
 msgid "Primary Navigation Extras"
-msgstr ""
+msgstr "Osnovni dodaci navigacije"
 
 #: lib/functions/deprecated.php:67
 msgid "decimal or hexidecimal entities"
-msgstr ""
+msgstr "decimalni ili heksadecimalni subjekti"
 
 #: lib/js/load-scripts.php:144
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr ""
+msgstr "Promjene koje ste napravili bit će izgubljene ako se maknete s ove stranice."
 
 #: lib/js/load-scripts.php:145
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
-msgstr ""
+msgstr "Genesis nadogradnja će prebrisati trenutačno instaliranu verziju Genesisa. Želite li zaista nadograditi? \"Cancel\" za prekid, \"OK\" za nadogradnju."
 
 #: lib/structure/comments.php:296
 msgid "at"
-msgstr ""
+msgstr "pri"
 
 #: lib/structure/post.php:313
 msgid "Permalink"
-msgstr ""
+msgstr "Permalink"
 
 #: lib/structure/post.php:351
 msgid "Sorry, no content matched your criteria."
-msgstr ""
+msgstr "Žao nam je, niti jedan sadržaj ne odgovara vašem zahtjevu."
 
 #: lib/widgets/featured-post-widget.php:327
 msgid "Exclude Previously Displayed Posts?"
-msgstr ""
+msgstr "Isključi prethodno prikazane članke?"
 
 #: lib/admin/whats-new.php:63
 msgid "Congratulations! You're now running Genesis %s."
-msgstr ""
+msgstr "Čestitamo! Sada koristite Genesis %s."
 
 #: lib/admin/whats-new.php:69
 msgid "HTML5 Markup"
-msgstr ""
+msgstr "HTML5 Markup"
 
 #: lib/admin/whats-new.php:72
 msgid "Microdata"
-msgstr ""
+msgstr "Microdata"
 
 #: lib/admin/whats-new.php:75
 msgid "A Brand New Design"
-msgstr ""
+msgstr "Potpuno novi dizajn"
 
 #: lib/admin/whats-new.php:76
 msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
-msgstr ""
+msgstr "Genesis ima novi, svježi izgled i koristi prednosti novog HTML5 markupa kao i neke privlačne CSS3. Mislimo da će vam se svidjeti."
 
 #: lib/admin/whats-new.php:78
 msgid "Removing Features"
-msgstr ""
+msgstr "Maknite značajke"
 
 #: lib/admin/whats-new.php:83
 msgid "Genesis Latest Tweets Widget"
-msgstr ""
+msgstr "Genesis Widget Najnoviji Twitovi"
 
 #: lib/admin/whats-new.php:84
 msgid "Genesis eNews Extended"
-msgstr ""
+msgstr "Genesis proširene eNews"
 
 #: lib/admin/whats-new.php:85
 msgid "Single Post Template"
-msgstr ""
+msgstr "Predložak za samostalan članak"
 
 #: lib/admin/whats-new.php:86
 msgid "Fancy Dropdowns"
-msgstr ""
+msgstr "Moderni izbornici"
 
 #: lib/admin/whats-new.php:90
 msgid "Boring, but important"
-msgstr ""
+msgstr "Dosadno, ali važno"
 
 #: lib/admin/whats-new.php:95
 msgid "Better named loop hooks for HTML5."
-msgstr ""
+msgstr "Better named loop hooks for HTML5."
 
 #: lib/admin/whats-new.php:96
 msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
-msgstr ""
+msgstr "Network Upgrade dograđuje Genesis bazu podataka za sve lokacije u mreži ako se koristi višelokacijski mod za WordPress"
 
 #: lib/admin/whats-new.php:97
 msgid "Widget classes are now coded in PHP5 format."
-msgstr ""
+msgstr "Widget classes su sada kodirane u PHP5 formatu."
 
 #: lib/admin/whats-new.php:98
 msgid "Admin CSS and Javascript are now minified."
-msgstr ""
+msgstr "Administratorski CSS i Javascript su sada smanjeni."
 
 #: lib/admin/whats-new.php:99
 msgid "Inline HTML comments have been removed to reduce page size."
-msgstr ""
+msgstr "Unutarnji HTML komentari su odstranjeni kako bi se smanjila veličina stranice."
 
 #: lib/admin/whats-new.php:100
 msgid "The Scripts option now has its own metabox when editing an entry."
-msgstr ""
+msgstr "Mogućnost skripta ima sada svoju vlastitu metabox kada se uređuje unos."
 
 #: lib/admin/whats-new.php:101
 msgid "Custom Post Type archive pages now have a settings page so you can control the output."
-msgstr ""
+msgstr "Custom Post Type stranica arhive sada ima stranicu postavki kako biste mogli kontrolirati rezultat. "
 
 #: lib/admin/whats-new.php:102
 msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
-msgstr ""
+msgstr "Genesis prati prikazani ID svakog unosa kako biste mogli spriječiti da se pojedini unosi prikazuju dva puta na istoj stranici."
 
 #: lib/admin/whats-new.php:103
 msgid "Entries without titles now display a permalink after the post content."
-msgstr ""
+msgstr "Unosi bez naslova prikazuju permalink nakon sadržaja članka."
 
 #: lib/functions/general.php:345
 msgid "Install %s"
-msgstr ""
+msgstr "instaliraj %s"
 
 #: 404.php:39
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "Stranica koju tražite nije više dostupna. Možete se vratiti na naslovnicu <a href=\"%s\">stranice </a> i pokušati pronaći ono što tražiti. Ili, možete to potražiti putem niže navedenih informacija."
+msgstr "Stranica koju tražite više ne postoji. Možda se možete vratiti na <a href=\"%s\">početnu</a>stranicu i vidjeti možete li pronaći ono što tražite. Ili možete pokušati to pronaći uz pomoć niže navedenih informacija."
