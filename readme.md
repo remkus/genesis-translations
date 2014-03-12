@@ -6,11 +6,11 @@
 * Requires at least: 3.6
 * Tested up to: 3.8.1
 * Stable tag: 2.0.5.1
-Translate your Genesis Framework powered WordPress site into one of the available languages.
+
 
 ## Description
 
-This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
+This plugin acitvates the translation of the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
 Check http://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
 
