@@ -1,795 +1,1292 @@
-# Translation of Genesis 1.9 in Dutch
-# This file is distributed under the same license as the Genesis 1.9 package.
+# Translation of Genesis 2.0 in Dutch
+# This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-01-31 14:35:19+0000\n"
+"PO-Revision-Date: 2014-03-12 10:07:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Genesis 1.9\n"
+"Project-Id-Version: Genesis 2.0\n"
 
-#: lib/admin/whats-new.php:72
-msgid "You may notice that the default Genesis style sheet is a bit shorter, and on the front end looks different. We've updated the default design and extended the width of the layout to 1152px. Now you've got more real estate to showcase your content."
-msgstr "Mogelijk is het je opgevallen dat het standaard Genesis stylesheet wat korter is en het design ziet er ook anders uit. We hebben het standaard design bijgewerkt en uitgebreid naar een breedte van 1152px. Nu heb je nog meer ruimte om het scherm om je content te tonen."
+#: lib/admin/import-export.php:74
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "Je kunt het bestand importeren dat je eerst geëxporteerd hebt. De bestandsnaam begint met %s gevolgd door één of meer strings die de instellingen aangeven en tenslotte de datum en tijdstip van wanneer het bestand geëxporteerd is."
 
-#: 404.php:33
-msgid "Not Found, Error 404"
-msgstr "404 Error, Pagina Niet Gevonden"
+#: lib/admin/cpt-archive-settings.php:260
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "De Aangepaste documenttitel bepaalt de paginatitel zoals die wordt weergegeven in browsers en zoekmachines."
 
-#: 404.php:35
-msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "De pagina waar je naar zoekt bestaat niet meer. Misschien kun je vinden wat je zoekt via het menu of mogelijk met onderstaande informatie."
+#: lib/admin/cpt-archive-settings.php:286
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr "De Custom Body Class voegt een class toe aan de body tag in de HTML. Dit maakt het mogelijk CSS aanpassingen te doen exclusief voor de archiefpagina van dit post type."
 
-#: 404.php:39 lib/structure/post.php:219 page_archive.php:35
+#: lib/admin/cpt-archive-settings.php:248
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr "De Archief introtekst wordt aan het begin van het archief geplaatst als introductie van de inhoud aan de gebruiker."
+
+#: lib/admin/theme-settings.php:292
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "In de Algemene Instellingen kun je een categorie selecteren met de drop down menu, categorie ID's uitsluiten of aangeven hoeveel berichten je op deze pagina wilt weergeven."
+
+#: lib/admin/theme-settings.php:294
+msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+msgstr "Je vindt meer informatie over deze feature in de <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
+
+#: lib/admin/theme-settings.php:249
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "Deze opties kunnen worden uitgebreid of beperkt door een child theme. In veel child themes is een andere layout voor de homepage niet mogelijk, omdat ze een eigen layout voor de homepage gebruiken."
+
+#: lib/admin/whats-new.php:91
+msgid "We're always improving. Call it a sickness, but we like to make things work really, really well. Here's a list of the technical changes in this latest release."
+msgstr "We zijn altijd aan het verbeteren. Vind het vreemd, maar wij houden ervan de dingen echt goed te maken. Hier is een lijst met technische veranderingen in de laatste release. "
+
+#: lib/admin/cpt-archive-settings.php:247
+msgid "The Archive Headline sets the title seen on the archive page"
+msgstr "De archief koptitel bepaalt de titel zoals weergegeven op de archiefpagina. "
+
+#: lib/admin/cpt-archive-settings.php:264
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "De Robots Meta Tags zeggen de zoekmachines hoe de archiefpagina's te behandelen. Noindex betekent om deze pagina in het geheel niet te indexeren en niet te tonen in de zoekresultaten. Nofollow betekent dat de zoekmachines geen enkele link op deze pagina zal volgen. Noarchive tenslotte betekent dat de zoekmachines deze pagina niet zal opslaan in het archief."
+
+#: lib/admin/seo-settings.php:339
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "Gebruik semantische HTML5 pagina- en sectietitels op de website?"
+
+#: lib/admin/whats-new.php:79
+msgid "We want to keep Genesis as lightweight as possible for you, nobody wants to use bloated software. So we've removed the Latest Tweets widget, eNews widget, the \"post templates\" feature, and the \"fancy dropdowns\" setting. But fear not! If you want those features back, click below to install the handy plugins we created for you."
+msgstr "We willen voor jou Genesis zo klein als mogelijk houden. Niemand houd ervan onnodig grote software te gebruiken. Daarom hebben het volgende verwijderd: Latest Tweets widget, eNews widget, de 'post template' feature en de 'fancy dropdowns' instelling. Maar wees niet bang! Als je deze features weer terug wilt hebben, selecteer de optie hieronder om de handige plugins te installeren die wij voor je gemaakt hebben. "
+
+#: lib/admin/import-export.php:149
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "Selecteer de knop hieronder om Genesis een databestand (%s) te laten maken. Dit bestand kun je bewaren op je computer."
+
+#: lib/admin/theme-settings.php:291
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "Dit functioneert met het Blog sjabloon, dat is het paginasjabloon dat de laatste berichten weergeeft. Het is wat je bezoekers zien als ze op je homepage komen."
+
+#: lib/admin/cpt-archive-settings.php:261
+msgid ""
+"The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+" "
+msgstr "De Meta description and zoekwoorden worden gebruikt voor de meta tags op de archiefpagina's. De Meta description is het stukje tekst dat in de zoekresultaten wordt weergegeven."
+
+#: lib/admin/cpt-archive-settings.php:285 lib/admin/theme-settings.php:266
+msgid "These options can be extended or limited by the child theme."
+msgstr "Deze opties kunnen worden uitgebreid of beperkt door het child theme."
+
+#: lib/admin/import-export.php:75
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "Zodra je een import file laadt zal deze je bestaande instellingen automatisch overschrijven."
+
+#: lib/admin/import-export.php:130
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr "Upload het bestand (%s) vanaf je computer en dan importeren we je instellingen."
+
+#: lib/admin/cpt-archive-settings.php:276
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr "Deze optie laat je de opmaak van de archiefpagina selecteren. Op de meeste van de Genesis sjablonen zie je de volgende opties:"
+
+#: lib/admin/whats-new.php:73
+msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
+msgstr "Als je een HTML 5 thema gebruikt dan zal Genesis Microdata toevoegen aan je opmaak. Weet je niet precies wat dat is? Geen probleem, lees deze <a href=\"%s\" target=\"_blank\">uitleg</a>. Nog steeds niet duidelijk? Maak je geen zorgen. Dat is waarom je een framework gebruikt. Wij hebben het onderzoek al gedaan en de opmaak zo aangepast dat de zoekmachines de Microdata krijgen waar ze naar zoeken. Dan hoef jij het niet meer te doen. Dat is het voordeel als je een Genesis gebruiker bent. "
+
+#: lib/admin/import-export.php:79
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr "Je kan je Genesis instellingen exporteren om een back-up te maken of ze te kopiëren naar een andere website. Child thema's en plugins kunnen hun eigen checkboxes toevoegen. De instellingen worden geëxporteerd in %s formaat."
+
+#: lib/admin/whats-new.php:70
+msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
+msgstr "Genesis heeft altijd voorop gelopen bij het gebruik van web technieken. Ook genesis 2.0 gaat op die voet verder. Met één regel code in een child thema zorgt Genesis dat de oude XHTML tags vervangen worden door HTML5 opmaak. Elk toekomstig thema dat we gaan maken zal ontwikkeld worden met HTML5."
+
+#: lib/admin/theme-settings.php:626
+msgid "Load Superfish Script?"
+msgstr "Laad Superfish Script?"
+
+#: lib/admin/theme-settings.php:493
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr "Als je hierboven een e-mail adres invult ontvang je een e-mail zodra er een nieuwe versie van Genesis beschikbaar is."
+
+#: lib/admin/theme-settings.php:293
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr "Er zijn enkele speciale eigenschappen van de Blog Pagina Template waarmee je kan aangeven welke categorie je wilt laten zien op de pagina's die deze template gebruiken. Dit is bijvoorbeeld handig als je een \"nieuws\" categorie hebt (of een andere categorie) die je apart wilt laten zien. "
+
+#: lib/functions/deprecated.php:32
+msgid "data in style sheet files"
+msgstr "data in style sheet bestanden"
+
+#: lib/structure/sidebar.php:65
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Dit is %s. Je kan inhoud toevoegen aan deze ruimte door je <a href=\"%s\">Widgets Sectie</a> te bezoeken en nieuwe widgets toe te voegen. "
+
+#: lib/admin/theme-settings.php:254
+msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
+msgstr "De <strong>Dynamische tekst</strong> optie gebruikt de Websitetitel en Ondertitel uit de algemene instellingen in je header."
+
+#: lib/admin/theme-settings.php:255
+msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr "De <strong>Afbeelding logo</strong> optie gebruikt een afbeelding in de header in plaats van de website titel en ondertitel. Deze instelling voegt een .header-image class toe aan je website. Daarmee kun je een header afbeelding instellingen via het bestand style.css in je child thema. Deze afbeelding van opgeslagen worden als logo.png en opgeslagen worden in de images folder van je child thema.  "
+
+#: lib/admin/theme-settings.php:259
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr "De Primaire Navigatie Extra's worden normaliter rechts van je Primaire Navigatie getoond."
+
+#: lib/admin/theme-settings.php:261
+msgid "Today's date displays the current date"
+msgstr "Toont de datum van vandaag"
+
+#: lib/admin/theme-settings.php:262
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr "RSS feed link maakt een link zichtbaar naar de RSS feed van je site zodat een lezer zich kan aanmelden voor je site met een feedreader naar keuze. "
+
+#: lib/admin/theme-settings.php:263
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr "Via het zoekformulier wordt een kleine zoekbalk zichtbaar die de WordPress zoek functionaliteit gebruikt."
+
+#: lib/admin/theme-settings.php:264
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr "Via de Twitter link wordt een link zichtbaar naar je Twitter profiel, zoals aangegeven in de Twitter ID instellingen. Vul hier alleen je gebruikersnaam in."
+
+#: lib/admin/theme-settings.php:638
+msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
+msgstr "Om de instellingen voor het Primaire Menu te zien moet je eerst een <a href=\"%s\">menu</a> maken en dan toewijzen aan de locatie van het Primaire Menu."
+
+#: lib/functions/upgrade.php:559
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr "Genesis %s is beschikbaar. <a href=\"%s\" %s>Kijk wat er nieuw is (Engels)</a> of <a href=\"%s\" %s>werk direct bij.</a>"
+
+#: lib/admin/import-export.php:68
+msgid "This allows you to import or export Genesis Settings."
+msgstr "Hiermee kun je je Genesis Thema Instellingen importeren of exporteren."
+
+#: lib/admin/import-export.php:69
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "Dit betreft alleen specifieke Genesis Thema Instellingen, dus geen berichten, pagina's of afbeeldingen."
+
+#: lib/admin/import-export.php:70
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "Ook instellingen voor plugins, widgets of specifieke bericht-, pagina-, term- en  gebruikersinstellingen worden niet meegenomen."
+
+#: lib/admin/import-export.php:73 lib/admin/import-export.php:88
+msgid "Import"
+msgstr "Importeren"
+
+#: lib/admin/import-export.php:75
+msgid "This cannot be undone"
+msgstr "Deze handeling kan niet ongedaan worden gemaakt."
+
+#: lib/admin/import-export.php:78 lib/admin/import-export.php:93
+msgid "Export"
+msgstr "Exporteren"
+
+#: lib/admin/import-export.php:79
+msgid "JavaScript Object Notation"
+msgstr "JavaScript Object Notation"
+
+#: lib/admin/import-export.php:79
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/admin/import-export.php:99 lib/admin/seo-settings.php:242
+#: lib/admin/theme-settings.php:374
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#: lib/admin/import-export.php:100 lib/admin/seo-settings.php:243
+#: lib/admin/theme-settings.php:375
+msgid "Get Support"
+msgstr "ondersteuning verkrijgen"
+
+#: lib/admin/import-export.php:101 lib/admin/seo-settings.php:244
+#: lib/admin/theme-settings.php:376
+msgid "Genesis Snippets"
+msgstr "Genesis Snippets"
+
+#: lib/admin/import-export.php:102 lib/admin/seo-settings.php:245
+#: lib/admin/theme-settings.php:377
+msgid "Genesis Tutorials"
+msgstr "Genesis Tutorials"
+
+#: lib/admin/seo-settings.php:170
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr "Genesis SEO (zoekmachine-optimalisatie) is bescheiden en zal zichzelf uitschakelen wanneer een van de populaire SEO plugins (zoals All-in-One SEO, WordPress SEO, etc.) is ingeschakeld."
+
+#: lib/admin/seo-settings.php:171
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr "Wanneer je geen submenu voor SEO-instellingen ziet, heb je waarschijnlijk een andere SEO plugin ingeschakeld."
+
+#: lib/admin/seo-settings.php:172
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr "Wanner het menu zichtbaar is, kun je via dit menu de algemene SEO-instellingen voor je website instellen."
+
+#: lib/admin/seo-settings.php:173
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr "Elke pagina, bericht en term heeft zijn eigen SEO instellingen. De standaard instellingen worden aangeraden voor de meeste gebruikers. Als je je SEO instellingen wilt aanpassen, de opties bevatten ook eigen beschrijvingen."
+
+#: lib/admin/seo-settings.php:174
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr "Hieronder staan enkele beknopte opmerkingen bij de verschillende opties:"
+
+#: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
+msgid "Doctitle Settings"
+msgstr "Doctitle Instellingen"
+
+#: lib/admin/seo-settings.php:178
+msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
+msgstr "<strong>Ondertitel toevoegen</strong> voegt de ondertitel uit je algemene instellingen toe na de websitetitel op je startpagina."
+
+#: lib/admin/seo-settings.php:179
+msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
+msgstr "<strong>Websitenaam toevoegen</strong> zet de website naam uit de algemene instellingen na de titel op de inner page. "
+
+#: lib/admin/seo-settings.php:180
+msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
+msgstr "<strong>Doctitle Locatie Toevoegen</strong> bepaalt aan welke kant je de eerder genoemde items toevoegt."
+
+#: lib/admin/seo-settings.php:181
+msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
+msgstr ""
+
+#: lib/admin/seo-settings.php:185
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:186
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:187
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr ""
+
+#: lib/admin/seo-settings.php:188
+msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:189
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr ""
+
+#: lib/admin/seo-settings.php:191
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:195
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr ""
+
+#: lib/admin/seo-settings.php:196
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr ""
+
+#: lib/admin/seo-settings.php:200
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr ""
+
+#: lib/admin/seo-settings.php:201
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:202
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr ""
+
+#: lib/admin/seo-settings.php:206
+msgid "Canonical links will point search engines to the front page of paginated content (search engines have to choose the “preferred link” when there is duplicate content on pages)."
+msgstr ""
+
+#: lib/admin/seo-settings.php:207
+msgid "This tells them “this is paged content and the first page starts here” and helps to avoid spreading keywords across multiple pages."
+msgstr ""
+
+#: lib/admin/seo-settings.php:236
+msgid "SEO Archives"
+msgstr "SEO Archieven"
+
+#: lib/admin/theme-settings.php:223
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme..."
+msgstr ""
+
+#: lib/admin/theme-settings.php:227
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr ""
+
+#: lib/admin/theme-settings.php:228
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr ""
+
+#: lib/admin/theme-settings.php:229
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr ""
+
+#: lib/admin/theme-settings.php:230
+msgid "If you provide an email address and select to notify that email address when the update is available, your site will email you when the update can be performed.No, updates only affect files being updated."
+msgstr ""
+
+#: lib/admin/theme-settings.php:234
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "Als je Feedburner gebruikt om je rss feed(s) te publiceren dan kun je via deze functie de oorspronkelijke feed van je website doorverwijzen naar je Feedburner feed."
+
+#: lib/admin/theme-settings.php:235
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr ""
+
+#: lib/admin/theme-settings.php:236
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr "Door de optie \"Redirect Feed\" aan te vinken zal al het verkeer naar de standaard feed links doorgestuurd worden naar de Feedburner link."
+
+#: lib/admin/theme-settings.php:240
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:278 lib/admin/theme-settings.php:242
+msgid "Content Sidebar"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:279 lib/admin/theme-settings.php:243
+msgid "Sidebar Content"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:280 lib/admin/theme-settings.php:244
+msgid "Sidebar Content Sidebar"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:281 lib/admin/theme-settings.php:245
+msgid "Content Sidebar Sidebar"
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:282 lib/admin/theme-settings.php:246
+msgid "Sidebar Sidebar Content"
+msgstr ""
+
+#: lib/admin/theme-settings.php:250
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr ""
+
+#: lib/admin/theme-settings.php:270
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr ""
+
+#: lib/admin/theme-settings.php:274
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr ""
+
+#: lib/admin/theme-settings.php:275
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:279
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr ""
+
+#: lib/admin/theme-settings.php:280
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:281
+msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr ""
+
+#: lib/admin/theme-settings.php:282
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr ""
+
+#: lib/admin/theme-settings.php:283
+msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
+msgstr ""
+
+#: lib/admin/theme-settings.php:284
+msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr ""
+
+#: lib/admin/theme-settings.php:285
+msgid "This option should not be used with the post content unless the content is limited to avoid duplicate images."
+msgstr ""
+
+#: lib/admin/theme-settings.php:286
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr ""
+
+#: lib/admin/theme-settings.php:287
+msgid "Post Navigation Technique allows you to select one of three navigation methods."
+msgstr ""
+
+#: lib/admin/theme-settings.php:290 lib/admin/theme-settings.php:358
+msgid "Blog Page"
+msgstr "Blog Pagina"
+
+#: lib/admin/theme-settings.php:298
+msgid "This provides you with two fields that will output to the <head></head> of your site and just before the </body>. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr ""
+
+#: lib/admin/theme-settings.php:301
+msgid "How Home Pages Work"
+msgstr ""
+
+#: lib/admin/theme-settings.php:302
+msgid "Most Genesis child themes include a custom home page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:303
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr ""
+
+#: lib/admin/theme-settings.php:304
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr ""
+
+#: lib/admin/theme-settings.php:305
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr ""
+
+#: lib/admin/theme-settings.php:306
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr ""
+
+#: lib/admin/theme-settings.php:307
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr ""
+
+#: lib/admin/theme-settings.php:308
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr ""
+
+#: lib/admin/theme-settings.php:309
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr ""
+
+#: lib/admin/theme-settings.php:368
+msgid "Home Pages"
+msgstr ""
+
+#: 404.php:41 lib/structure/post.php:335 page_archive.php:30
 msgid "Pages:"
 msgstr "Pagina's:"
 
-#: 404.php:44 page_archive.php:40
+#: 404.php:46 page_archive.php:35
 msgid "Categories:"
 msgstr "Categoriën:"
 
-#: 404.php:53 page_archive.php:49
+#: 404.php:51 page_archive.php:40
 msgid "Authors:"
 msgstr "Schrijvers:"
 
-#: 404.php:58 page_archive.php:54
+#: 404.php:56 page_archive.php:45
 msgid "Monthly:"
 msgstr "Maandelijks:"
 
-#: 404.php:63 page_archive.php:59
+#: 404.php:61 page_archive.php:50
 msgid "Recent Posts:"
 msgstr "Recente Artikelen:"
 
-#: comments.php:24
+#: comments.php:18
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "Dit artikel wordt beschermd met een wachtwoord. Geef het wachtwoord om de reacties te zien."
+
+#: lib/admin/cpt-archive-settings.php:183 lib/admin/inpost-metaboxes.php:46
+#: lib/admin/term-meta.php:102 lib/admin/user-meta.php:187
+msgid "Custom Document Title"
+msgstr "Aangepaste Document titel"
+
+#: lib/admin/inpost-metaboxes.php:49
+msgid "Custom Post/Page Meta Description"
+msgstr "Aangepaste Bericht/Pagina Meta Beschrijving"
+
+#: lib/admin/inpost-metaboxes.php:52
+msgid "Custom Post/Page Meta Keywords, comma separated"
+msgstr "Aangepaste Bericht/Pagina Meta trefwoorden, gescheiden door komma's"
+
+#: lib/admin/inpost-metaboxes.php:55
+msgid "Custom Canonical URI"
+msgstr "Aangepaste Canonical URI"
+
+#: lib/admin/inpost-metaboxes.php:63 lib/admin/seo-settings.php:199
+#: lib/admin/seo-settings.php:231 lib/admin/seo-settings.php:266
+msgid "Robots Meta Settings"
+msgstr "Robots Meta Instellingen"
+
+#: lib/admin/inpost-metaboxes.php:67 lib/admin/inpost-metaboxes.php:70
+#: lib/admin/inpost-metaboxes.php:73
+msgid "Apply %s to this post/page"
+msgstr "Toepassen %s op dit bericht/pagina"
+
+#: lib/admin/cpt-archive-settings.php:224 lib/admin/inpost-metaboxes.php:235
+#: lib/admin/term-meta.php:181 lib/admin/user-meta.php:257
+msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
+msgstr "Standaard Layout bepaald in <a href=\"%s\">Theme Settings</a>"
+
+#: lib/admin/import-export.php:209 lib/admin/theme-settings.php:57
+#: lib/admin/theme-settings.php:58 lib/admin/theme-settings.php:222
+#: lib/admin/theme-settings.php:313
+msgid "Theme Settings"
+msgstr "Thema Instellingen"
+
+#: lib/admin/cpt-archive-settings.php:139
+#: lib/admin/cpt-archive-settings.php:259
+#: lib/admin/cpt-archive-settings.php:269 lib/admin/import-export.php:213
+#: lib/admin/seo-settings.php:42 lib/admin/seo-settings.php:169
+#: lib/admin/seo-settings.php:211
+msgid "SEO Settings"
+msgstr "SEO Instellingen"
+
+#: lib/admin/seo-settings.php:184 lib/admin/seo-settings.php:221
+#: lib/admin/seo-settings.php:264
+msgid "Homepage Settings"
+msgstr "Homepage Instellingen"
+
+#: lib/admin/seo-settings.php:205 lib/admin/seo-settings.php:267
+msgid "Archives Settings"
+msgstr "Instellingen archieven"
+
+#: lib/admin/seo-settings.php:194 lib/admin/seo-settings.php:226
+#: lib/admin/seo-settings.php:265
+msgid "Document Head Settings"
+msgstr "Document Head Instellingen"
+
+#: lib/admin/seo-settings.php:41
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - SEO Instellingen"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:68
+#: lib/classes/admin.php:105
+msgid "Save Settings"
+msgstr "Bewaar Instellingen"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:69
+#: lib/classes/admin.php:106
+msgid "Reset Settings"
+msgstr "Reset Instellingen"
+
+#: lib/js/load-scripts.php:146
+msgid "Are you sure you want to reset?"
+msgstr "Weet je zeker dat je wil resetten?"
+
+#: lib/admin/seo-settings.php:305 lib/widgets/featured-page-widget.php:217
+#: lib/widgets/featured-post-widget.php:353
+#: lib/widgets/featured-post-widget.php:383
+#: lib/widgets/user-profile-widget.php:166
+msgid "Left"
+msgstr "Links"
+
+#: lib/admin/seo-settings.php:308 lib/widgets/featured-page-widget.php:218
+#: lib/widgets/featured-post-widget.php:354
+#: lib/widgets/featured-post-widget.php:384
+#: lib/widgets/user-profile-widget.php:167
+msgid "Right"
+msgstr "Rechts"
+
+#: lib/admin/seo-settings.php:347
+msgid "Which text would you like to be wrapped in %s tags?"
+msgstr "Welke tekst wil je in %s tags zetten?"
+
+#: lib/admin/seo-settings.php:351
+msgid "Site Title"
+msgstr "Site Titel"
+
+#: lib/admin/seo-settings.php:357
+msgid "Neither. I'll manually wrap my own text on the homepage"
+msgstr "Geen. Ik sluit de tekst handmatig in op de homepage"
+
+#: lib/admin/seo-settings.php:379
+msgid "Homepage Robots Meta Tags:"
+msgstr "Homepage Robots Meta Tags:"
+
+#: lib/admin/seo-settings.php:383 lib/admin/seo-settings.php:386
+#: lib/admin/seo-settings.php:389
+msgid "Apply %s to the homepage?"
+msgstr "Toepassen %s op de homepage?"
+
+#: lib/admin/seo-settings.php:542
+msgid "Canonical Paginated Archives"
+msgstr "Canonical gepagineerde Archief"
+
+#: lib/admin/seo-settings.php:545
+msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
+msgstr "Deze optie verwijst zoekmachines naar de eerste pagina van een archief wanneer deze een gepagineerd pagina ziet. Als je niet weet wat dit betekent, laat deze optie dan aan staan."
+
+#: lib/admin/seo-settings.php:426
+msgid "Relationship Link Tags:"
+msgstr "Relatie Link Tags:"
+
+#: lib/admin/seo-settings.php:433
+msgid "Windows Live Writer Support:"
+msgstr "Windows Live Writer Support:"
+
+#: lib/admin/seo-settings.php:437
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Windows Live Writer Support Tag Toevoegen?"
+
+#: lib/admin/seo-settings.php:440
+msgid "Shortlink Tag:"
+msgstr "Shortlink Tag:"
+
+#: lib/admin/seo-settings.php:444
+msgid "Include Shortlink tag?"
+msgstr "Inclusief Shortlink tag?"
+
+#: lib/admin/seo-settings.php:470
+msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
+msgstr "Afhankelijk van jouw situatie, kan je er voor kiezen om archiefpagina's wel of niet door een zoekmachine te laten indexeren. Jij alleen kan die keuze maken."
+
+#: lib/admin/seo-settings.php:474 lib/admin/seo-settings.php:498
+msgid "Apply %s to Category Archives?"
+msgstr "%s toepassen in Categorie Archief?"
+
+#: lib/admin/seo-settings.php:477 lib/admin/seo-settings.php:501
+msgid "Apply %s to Tag Archives?"
+msgstr "Toepassen %s op Tag Archieven?"
+
+#: lib/admin/seo-settings.php:480 lib/admin/seo-settings.php:504
+msgid "Apply %s to Author Archives?"
+msgstr "Toepassen %s op Auteur Archief?"
+
+#: lib/admin/seo-settings.php:483 lib/admin/seo-settings.php:507
+msgid "Apply %s to Date Archives?"
+msgstr "Toepassen %s op Datum Archief?"
+
+#: lib/admin/seo-settings.php:486 lib/admin/seo-settings.php:510
+msgid "Apply %s to Search Archives?"
+msgstr "Toepassen %s op Zoeken archief?"
+
+#: lib/admin/seo-settings.php:493
+msgid "Apply %s to Entire Site?"
+msgstr "%s toepassen op de hele site?"
+
+#: lib/admin/seo-settings.php:513
+msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
+msgstr "Af en toe maken zoekmachines gebruik maken van middelen zoals het Open Directory Project en de Yahoo! Directory om titels en beschrijvingen te vinden voor je inhoud. In het algemeen zult je niet willen dat ze dit doen. De %s en %s tags voorkomen dat ze dit doen."
+
+#: lib/admin/seo-settings.php:517 lib/admin/seo-settings.php:520
+msgid "Apply %s to your site?"
+msgstr "%s toepassen op je site?"
+
+#: lib/admin/cpt-archive-settings.php:191 lib/admin/term-meta.php:119
+#: lib/admin/user-meta.php:204
+msgid "Comma separated list"
+msgstr "Komma gescheiden lijst"
+
+#: lib/admin/term-meta.php:124 lib/admin/user-meta.php:209
+msgid "Robots Meta"
+msgstr "Robots Meta"
+
+#: lib/admin/term-meta.php:127 lib/admin/term-meta.php:130
+#: lib/admin/term-meta.php:133 lib/admin/user-meta.php:212
+#: lib/admin/user-meta.php:215 lib/admin/user-meta.php:218
+msgid "Apply %s to this archive?"
+msgstr "%s toepassen op dit archief?"
+
+#: lib/admin/theme-settings.php:226 lib/admin/theme-settings.php:318
+#: lib/admin/theme-settings.php:408
+msgid "Information"
+msgstr "Informatie"
+
+#: lib/admin/theme-settings.php:233 lib/admin/theme-settings.php:323
+#: lib/admin/theme-settings.php:413
+msgid "Custom Feeds"
+msgstr "Aangepaste Feeds"
+
+#: lib/admin/user-meta.php:140
+msgid "Author Box"
+msgstr "Auteur Box"
+
+#: lib/admin/theme-settings.php:269 lib/admin/theme-settings.php:343
+#: lib/admin/theme-settings.php:423
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: lib/admin/theme-settings.php:278 lib/admin/theme-settings.php:353
+#: lib/admin/theme-settings.php:426
+msgid "Content Archives"
+msgstr "Content Archieven"
+
+#: lib/admin/theme-settings.php:475
+msgid "Version:"
+msgstr "Versie:"
+
+#: lib/admin/theme-settings.php:475
+msgid "Released:"
+msgstr "Vrijgegeven op:"
+
+#: lib/admin/theme-settings.php:482
+msgid "Enable Automatic Updates"
+msgstr "Activeer Automatische Updates"
+
+#: lib/admin/theme-settings.php:488
+msgid "Notify"
+msgstr "Attenderen"
+
+#: lib/admin/theme-settings.php:490
+msgid "when updates are available"
+msgstr "wanneer updates beschikbaar zijn"
+
+#: lib/admin/theme-settings.php:599
+msgid "Dynamic text"
+msgstr "Dynamische tekst"
+
+#: lib/admin/theme-settings.php:600
+msgid "Image logo"
+msgstr "Logo afbeelding"
+
+#: lib/admin/cpt-archive-settings.php:283 lib/admin/theme-settings.php:247
+#: lib/functions/layout.php:60
+msgid "Full Width Content"
+msgstr "Full Width Content"
+
+#: lib/admin/theme-settings.php:887
+msgid "Comma separated - 1,2,3 for example"
+msgstr "Komma gescheiden - bijvoorbeeld 1,2,3"
+
+#: lib/admin/theme-settings.php:644
+msgid "Display the following:"
+msgstr "Toon het volgende:"
+
+#: lib/admin/theme-settings.php:647
+msgid "Today's date"
+msgstr "Datum van vandaag"
+
+#: lib/admin/theme-settings.php:648
+msgid "RSS feed links"
+msgstr "RSS feed links"
+
+#: lib/admin/theme-settings.php:649
+msgid "Search form"
+msgstr "Zoekformulier"
+
+#: lib/admin/theme-settings.php:650
+msgid "Twitter link"
+msgstr "Twitter link"
+
+#: lib/admin/theme-settings.php:655
+msgid "Enter Twitter ID:"
+msgstr "Voer Twitter ID in:"
+
+#: lib/admin/theme-settings.php:659
+msgid "Twitter Link Text:"
+msgstr "Twitter Link Tekst:"
+
+#: lib/admin/theme-settings.php:684
+msgid "Enter your custom feed URI:"
+msgstr "Geef je aangepaste feed URI:"
+
+#: lib/admin/theme-settings.php:688 lib/admin/theme-settings.php:696
+msgid "Redirect Feed?"
+msgstr "Redirect Feed?"
+
+#: lib/admin/theme-settings.php:692
+msgid "Enter your custom comments feed URI:"
+msgstr "Geef je aangepaste commentaar feed URI:"
+
+#: lib/admin/theme-settings.php:719
+msgid "Enable Comments"
+msgstr "Sta Reacties Toe"
+
+#: lib/admin/theme-settings.php:721 lib/admin/theme-settings.php:730
+msgid "on posts?"
+msgstr "op berichten?"
+
+#: lib/admin/theme-settings.php:724 lib/admin/theme-settings.php:733
+msgid "on pages?"
+msgstr "op pagina's?"
+
+#: lib/admin/theme-settings.php:728
+msgid "Enable Trackbacks"
+msgstr "Sta Trackbacks Toe"
+
+#: lib/admin/theme-settings.php:805
+msgid "Select one of the following:"
+msgstr "Selecteer één van de volgende:"
+
+#: lib/admin/theme-settings.php:811
+msgid "Display post content"
+msgstr "Toon artikel inhoud"
+
+#: lib/admin/theme-settings.php:812
+msgid "Display post excerpts"
+msgstr "Toon artikel samenvattingen"
+
+#: lib/admin/theme-settings.php:823 lib/widgets/featured-post-widget.php:416
+msgid "Limit content to"
+msgstr "Limiteer inhoud naar"
+
+#: lib/admin/theme-settings.php:825 lib/widgets/featured-post-widget.php:418
+msgid "characters"
+msgstr "karakters"
+
+#: lib/widgets/featured-page-widget.php:202
+#: lib/widgets/featured-post-widget.php:368
+msgid "Image Size"
+msgstr "Afbeeldings Grootte"
+
+#: lib/admin/theme-settings.php:848
+msgid "Select Post Navigation Technique:"
+msgstr "Selecteer de Artikel Navigatie Techniek:"
+
+#: lib/admin/theme-settings.php:850
+msgid "Older / Newer"
+msgstr "Ouder / Nieuwer"
+
+#: lib/admin/theme-settings.php:851
+msgid "Previous / Next"
+msgstr "Vorige / Volgende"
+
+#: lib/admin/theme-settings.php:852
+msgid "Numeric"
+msgstr "Numeriek"
+
+#: lib/admin/theme-settings.php:880
+msgid "Display which category:"
+msgstr "Toon welke categorie:"
+
+#: lib/admin/theme-settings.php:881 lib/widgets/featured-post-widget.php:289
+msgid "All Categories"
+msgstr "Alle Categoriën"
+
+#: lib/admin/theme-settings.php:885
+msgid "Exclude the following Category IDs:"
+msgstr "Sluit de volgende Categorie ID's uit:"
+
+#: lib/widgets/featured-post-widget.php:296
+#: lib/widgets/featured-post-widget.php:439
+msgid "Number of Posts to Show"
+msgstr "Aantal te tonen Artikelen"
+
+#: lib/classes/breadcrumb.php:44 lib/functions/menu.php:120
+msgid "Home"
+msgstr "Home "
+
+#: lib/functions/upgrade.php:536
+msgid "Click here to complete the upgrade"
+msgstr "Klik hier om de upgrade af te ronden"
+
+#: lib/functions/upgrade.php:606
+msgid "Genesis %s is available for %s"
+msgstr "Genesis %s is beschikbaar voor %s"
+
+#: lib/functions/upgrade.php:607
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Genesis %s is nu beschikbaar. We hebben 1-klik updates voor dit thema, dus log in in je WordPress Dashboard en werk Genenis bij."
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "Terug naar de paginatop"
+
+#: lib/shortcodes/footer.php:240
+msgid "Log in"
+msgstr "Log in"
+
+#: lib/shortcodes/footer.php:242
+msgid "Log out"
+msgstr "Log uit"
+
+#: lib/shortcodes/post.php:249
+msgid "Leave a Comment"
+msgstr "Reageer"
+
+#: lib/shortcodes/post.php:248
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: lib/shortcodes/post.php:247
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: lib/shortcodes/post.php:293
+msgid "Tagged With: "
+msgstr "Tags: "
+
+#: lib/shortcodes/post.php:333 lib/shortcodes/post.php:375
+msgid "Filed Under: "
+msgstr "Onderwerp: "
+
+#: lib/shortcodes/post.php:423 lib/structure/comments.php:233
+#: lib/structure/comments.php:298 lib/structure/post.php:280
+msgid "(Edit)"
+msgstr "(Bewerken)"
+
+#: lib/structure/comments.php:79
+msgid "<h3>Comments</h3>"
+msgstr "<h3>Reacties</h3>"
+
+#: lib/structure/comments.php:143
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>Trackbacks</h3>"
+
+#: lib/structure/comments.php:228
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:228 lib/structure/comments.php:289
+msgid "says"
+msgstr "zegt"
+
+#: lib/structure/comments.php:232
+msgid "%1$s at %2$s"
+msgstr "%1$s op %2$s"
+
+#: lib/structure/comments.php:239 lib/structure/comments.php:305
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wacht op moderatie."
+
+#: lib/structure/comments.php:380
+msgid "Name"
+msgstr "Naam"
+
+#: lib/structure/comments.php:386
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/structure/comments.php:392
+msgid "Website"
+msgstr "Website"
+
+#: lib/structure/comments.php:401
+msgid "Speak Your Mind"
+msgstr "Laat wat van je horen"
+
+#: lib/structure/footer.php:145
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lib/init.php:58
+msgid "Primary Navigation Menu"
+msgstr "Primary Navigation Menu"
+
+#: lib/admin/theme-settings.php:769 lib/structure/menu.php:184
+msgid "Posts"
+msgstr "Artikelen"
+
+#: lib/structure/menu.php:185
+msgid "Comments"
+msgstr "Reacties"
+
+#: lib/structure/post.php:287 lib/structure/post.php:289
+msgid "[Read more...]"
+msgstr "[Lees meer...]"
+
+#: lib/widgets/featured-post-widget.php:53
+msgid "By"
+msgstr "Door"
+
+#: lib/structure/post.php:507 lib/structure/post.php:517
+msgid "About"
+msgstr "Over"
+
+#: lib/structure/post.php:567
+msgid "Older Posts"
+msgstr "Oudere Artikelen"
+
+#: lib/structure/post.php:568
+msgid "Newer Posts"
+msgstr "Nieuwere Artikelen"
+
+#: lib/structure/search.php:33
+msgid "Search"
+msgstr "Zoek"
+
+#: lib/structure/sidebar.php:27
+msgid "Primary Sidebar Widget Area"
+msgstr "Primaire Sidebar Widget Ruimte"
+
+#: lib/structure/sidebar.php:45
+msgid "Secondary Sidebar Widget Area"
+msgstr "Secundaire Sidebar Widget Ruimte"
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "Je bent hier: "
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+msgid "Archives for "
+msgstr "Archief voor "
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "Zoek naar "
+
+#: lib/classes/breadcrumb.php:352
+msgid "View all posts in %s"
+msgstr "Bekijk alle berichten in %s"
+
+#: lib/widgets/featured-page-widget.php:185
+#: lib/widgets/featured-post-widget.php:273
+#: lib/widgets/featured-post-widget.php:309
+#: lib/widgets/featured-post-widget.php:434
+#: lib/widgets/user-profile-widget.php:141
+msgid "Title"
+msgstr "Titel"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Toon pagina features met thumbnails"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Genesis - Pagina Feature"
+
+#: lib/shortcodes/footer.php:175 lib/structure/post.php:381
+msgid "by"
+msgstr "door"
+
+#: lib/widgets/featured-page-widget.php:190
+msgid "Page"
+msgstr "Pagina"
+
+#: lib/widgets/featured-page-widget.php:214
+#: lib/widgets/featured-post-widget.php:380
+msgid "Image Alignment"
+msgstr "Uitlijning Afbeelding"
+
+#: lib/admin/theme-settings.php:646 lib/widgets/featured-page-widget.php:216
+#: lib/widgets/featured-post-widget.php:352
+#: lib/widgets/featured-post-widget.php:382
+#: lib/widgets/user-profile-widget.php:165
+#: lib/widgets/user-profile-widget.php:185
+msgid "None"
+msgstr "Geen"
+
+#: lib/widgets/featured-page-widget.php:226
+msgid "Show Page Title"
+msgstr "Toon Pagina Titel"
+
+#: lib/widgets/featured-page-widget.php:231
+msgid "Show Page Content"
+msgstr "Toon Pagina Inhoud"
+
+#: lib/widgets/featured-page-widget.php:235
+msgid "Content Character Limit"
+msgstr "Limiet Inhoud Karakters"
+
+#: lib/widgets/featured-page-widget.php:240
+msgid "More Text"
+msgstr "Meer Tekst"
+
+#: lib/widgets/featured-post-widget.php:65
+msgid "Displays featured posts with thumbnails"
+msgstr "Toon artikel features met thumbnails"
+
+#: lib/widgets/featured-post-widget.php:74
+msgid "Genesis - Featured Posts"
+msgstr "Genesis - Artikel Features"
+
+#: lib/widgets/featured-post-widget.php:56
+msgid "[Read More...]"
+msgstr "[Lees meer ...]"
+
+#: lib/widgets/featured-post-widget.php:60
+msgid "More Posts from this Category"
+msgstr "Meer berichten uit deze categorie"
+
+#: lib/widgets/featured-post-widget.php:282
+msgid "Category"
+msgstr "Categorie"
+
+#: lib/widgets/featured-post-widget.php:301
+msgid "Number of Posts to Offset"
+msgstr "Aantal artikelen voor Offset"
+
+#: lib/widgets/featured-post-widget.php:306
+msgid "Order By"
+msgstr "Sorteer op"
+
+#: lib/widgets/featured-post-widget.php:308
+msgid "Date"
+msgstr "Datum"
+
+#: lib/widgets/featured-post-widget.php:310
+msgid "Parent"
+msgstr "Ouder"
+
+#: lib/widgets/featured-post-widget.php:311
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:312
+msgid "Comment Count"
+msgstr "Reactie Teller"
+
+#: lib/widgets/featured-post-widget.php:313
+msgid "Random"
+msgstr "Willekeurig"
+
+#: lib/widgets/featured-post-widget.php:318
+msgid "Sort Order"
+msgstr "Sorteer Volgorde"
+
+#: lib/widgets/featured-post-widget.php:320
+msgid "Descending (3, 2, 1)"
+msgstr "Aflopend (3, 2, 1)"
+
+#: lib/widgets/featured-post-widget.php:321
+msgid "Ascending (1, 2, 3)"
+msgstr "Oplopend (1, 2, 3)"
+
+#: lib/widgets/featured-post-widget.php:336
+msgid "Show Author Gravatar"
+msgstr "Toon Schrijver Avatar"
+
+#: lib/widgets/featured-post-widget.php:340
+#: lib/widgets/user-profile-widget.php:151
+msgid "Gravatar Size"
+msgstr "Gravatar Afmeting"
+
+#: lib/widgets/featured-post-widget.php:342
+msgid "Small (45px)"
+msgstr "Klein (45px)"
+
+#: lib/widgets/featured-post-widget.php:343
+msgid "Medium (65px)"
+msgstr "Medium (65px)"
+
+#: lib/widgets/featured-post-widget.php:344
+msgid "Large (85px)"
+msgstr "Groot (85px)"
+
+#: lib/widgets/featured-post-widget.php:345
+msgid "Extra Large (125px)"
+msgstr "Extra Groot (125px)"
+
+#: lib/widgets/featured-post-widget.php:350
+#: lib/widgets/user-profile-widget.php:163
+msgid "Gravatar Alignment"
+msgstr "Gravatar Uitlijning"
+
+#: lib/widgets/featured-post-widget.php:398
+msgid "Show Post Title"
+msgstr "Toon Artikel Titel"
+
+#: lib/widgets/featured-post-widget.php:423
+msgid "More Text (if applicable)"
+msgstr "Meer Tekst (indien van toepassing)"
+
+#: lib/widgets/featured-post-widget.php:431
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "Om een ongeordende lijst van meerdere artikelen uit deze categorie te tonen, vul de informatie hieronder in a.u.b."
+
+#: lib/widgets/featured-post-widget.php:449
+msgid "Show Category Archive Link"
+msgstr "Toon Categorie Archief Links"
+
+#: lib/widgets/featured-post-widget.php:453
+msgid "Link Text"
+msgstr "Link Tekst"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "Toon gebruikersprofielblok met Gravatar"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "Genesis - Gebruikersprofiel"
+
+#: lib/widgets/user-profile-widget.php:102
+msgid "View My Blog Posts"
+msgstr "Bekijk mijn Blog Artikelen"
+
+#: lib/widgets/user-profile-widget.php:146
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Selecteer een gebruiker. Het e-mail adres voor deze account zal worden gebruikt om de Gravatar afbeelding te benaderen."
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Small"
+msgstr "Klein"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Medium"
+msgstr "Medium"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Large"
+msgstr "Groot"
+
+#: lib/widgets/user-profile-widget.php:154
+msgid "Extra Large"
+msgstr "Extra Groot"
+
+#: lib/widgets/user-profile-widget.php:172
+msgid "Select which text you would like to use as the author description"
+msgstr "Selecteer de tekst die je wil gebruiken voor de schrijver omschrijving"
+
+#: lib/widgets/user-profile-widget.php:175
+msgid "Author Bio"
+msgstr "Schrijvers Bio"
+
+#: lib/widgets/user-profile-widget.php:177
+msgid "Custom Text (below)"
+msgstr "Eigen Tekst (onder)"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Kies je uitgebreide \"About Me\" pagina uit de lijst hieronder. Naar deze pagina wordt gelinked vanuit het einde van de about me sectie."
+
+#: lib/widgets/user-profile-widget.php:195
+msgid "Show Author Archive Link?"
+msgstr "Toon link naar het schrijversarchief?"
 
 #: lib/admin/import-export.php:45
 msgid "Genesis - Import/Export"
 msgstr "Genesis - Import/Export"
 
-#: lib/admin/import-export.php:46
-msgid "Import/Export"
-msgstr "Import/Export"
-
-#: lib/admin/import-export.php:81
+#: lib/admin/import-export.php:128
 msgid "Import Genesis Settings File"
 msgstr "Importeert Genesis Settings Bestand"
 
-#: lib/admin/import-export.php:83
-msgid "Upload the data file (<code>.json</code>) from your computer and we'll import your settings."
-msgstr "Upload het  (<code>.json</code>) gegevensbestand van je computer en wij importeren je instellingen."
-
-#: lib/admin/import-export.php:84
-msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Kies het bestand van je computer en klik op \"Upload bestand en importeren\""
-
-#: lib/admin/import-export.php:89
+#: lib/admin/import-export.php:136
 msgid "Upload File: (Maximum Size: %s)"
 msgstr "Upload bestand: (Maximale Grootte: %s)"
 
-#: lib/admin/import-export.php:92
-msgid "Upload File and Import"
-msgstr "Bestand uploaden en importeren"
-
-#: lib/admin/import-export.php:100
+#: lib/admin/import-export.php:147
 msgid "Export Genesis Settings File"
 msgstr "Exporteer Genesis Instellingen Bestand"
 
-#: lib/admin/import-export.php:102
-msgid "When you click the button below, Genesis will generate a data file (<code>.json</code>) for you to save to your computer."
-msgstr "Wanneer je op de onderstaande knop klikt, zal Genesis een data-bestand genereren (<code>.json</code>) om op te slaan op je computer."
-
-#: lib/admin/import-export.php:103
+#: lib/admin/import-export.php:150
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
 msgstr "Zodra je dit bestand hebt opgeslagen, kunt je de import functie gebruiken op een andere site naar deze gegevens te importeren."
 
-#: lib/admin/import-export.php:110
+#: lib/admin/import-export.php:157
 msgid "Download Export File"
 msgstr "Download Export Bestand"
 
-#: lib/admin/import-export.php:142
-msgid "Settings successfully imported."
-msgstr "Instellingen met succes geïmporteerd."
-
-#: lib/admin/import-export.php:144
-msgid "There was a problem importing your settings. Please try again."
-msgstr "Er is een probleem met het importeren van de instellingen. Probeer het opnieuw."
-
-#: lib/admin/import-export.php:162 lib/admin/theme-settings.php:58
-#: lib/admin/theme-settings.php:59
-msgid "Theme Settings"
-msgstr "Thema Instellingen"
-
-#: lib/admin/import-export.php:166 lib/admin/seo-settings.php:44
-msgid "SEO Settings"
-msgstr "SEO Instellingen"
-
-#: lib/admin/import-export.php:188
-msgid "No export options available."
-msgstr "Geen export opties beschikbaar."
-
-#: lib/admin/inpost-metaboxes.php:33 lib/admin/term-meta.php:119
-#: lib/admin/user-meta.php:182
-msgid "Theme SEO Settings"
-msgstr "Thema SEO Instellingen"
-
-#: lib/admin/inpost-metaboxes.php:54
-msgid "Custom Document Title"
-msgstr "Aangepaste Document titel"
-
-#: lib/admin/inpost-metaboxes.php:54 lib/admin/inpost-metaboxes.php:57
+#: lib/admin/inpost-metaboxes.php:46 lib/admin/inpost-metaboxes.php:49
 msgid "Characters Used: %s"
 msgstr "Gebruikte letters: %s"
 
-#: lib/admin/inpost-metaboxes.php:57
-msgid "Custom Post/Page Meta Description"
-msgstr "Aangepaste Bericht/Pagina Meta Beschrijving"
-
-#: lib/admin/inpost-metaboxes.php:60
-msgid "Custom Post/Page Meta Keywords, comma separated"
-msgstr "Aangepaste Bericht/Pagina Meta trefwoorden, gescheiden door komma's"
-
-#: lib/admin/inpost-metaboxes.php:63
-msgid "Custom Canonical URI"
-msgstr "Aangepaste Canonical URI"
-
-#: lib/admin/inpost-metaboxes.php:66
+#: lib/admin/inpost-metaboxes.php:58
 msgid "Custom Redirect URI"
 msgstr "Aangepaste Redirect URI"
 
-#: lib/admin/inpost-metaboxes.php:71 lib/admin/seo-settings.php:176
-msgid "Robots Meta Settings"
-msgstr "Robots Meta Instellingen"
-
-#: lib/admin/inpost-metaboxes.php:75 lib/admin/inpost-metaboxes.php:78
-#: lib/admin/inpost-metaboxes.php:81
-msgid "Apply %s to this post/page"
-msgstr "Toepassen %s op dit bericht/pagina"
-
-#: lib/admin/inpost-metaboxes.php:86
-msgid "Custom Tracking/Conversion Code"
-msgstr "Aangepaste Tracking/conversiecode"
-
-#: lib/admin/inpost-metaboxes.php:161 lib/admin/term-meta.php:202
-#: lib/admin/user-meta.php:246
-msgid "Layout Settings"
-msgstr "Layout Instellingen"
-
-#: lib/admin/inpost-metaboxes.php:185 lib/admin/term-meta.php:211
-#: lib/admin/user-meta.php:256
-msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Standaard Layout bepaald in <a href=\"%s\">Theme Settings</a>"
-
-#: lib/admin/inpost-metaboxes.php:192
+#: lib/admin/cpt-archive-settings.php:231 lib/admin/inpost-metaboxes.php:242
 msgid "Custom Body Class"
 msgstr "Custom Body Class"
 
-#: lib/admin/inpost-metaboxes.php:195
+#: lib/admin/inpost-metaboxes.php:245
 msgid "Custom Post Class"
 msgstr "Custom Post Class"
 
-#: lib/admin/readme-menu.php:40 lib/admin/readme-menu.php:41
-msgid "README"
-msgstr "LEESMIJ"
-
-#: lib/admin/readme-menu.php:68
-msgid "The %s file was not found in the child theme, or it was empty."
-msgstr "Het %s bestand is niet gevonden in het Child Thema of het was leeg. "
-
-#: lib/admin/seo-settings.php:43
-msgid "Genesis - SEO Settings"
-msgstr "Genesis - SEO Instellingen"
-
-#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:69
-#: lib/classes/admin.php:104
-msgid "Save Settings"
-msgstr "Bewaar Instellingen"
-
-#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:70
-#: lib/classes/admin.php:105
-msgid "Reset Settings"
-msgstr "Reset Instellingen"
-
-#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:71
-#: lib/classes/admin.php:106
-msgid "Settings saved."
-msgstr "Instellingen zijn opgeslagen."
-
-#: lib/admin/seo-settings.php:53 lib/admin/theme-settings.php:72
-#: lib/classes/admin.php:107
-msgid "Settings reset."
-msgstr "Instellingen resetten."
-
-#: lib/admin/seo-settings.php:54 lib/admin/theme-settings.php:73
-#: lib/classes/admin.php:108
-msgid "Error saving settings."
-msgstr "Error tijdens het opslaan van instellingen."
-
-#: lib/admin/seo-settings.php:173
-msgid "Document Title Settings"
-msgstr "Document Titel Instellingen"
-
-#: lib/admin/seo-settings.php:174
-msgid "Homepage Settings"
-msgstr "Homepage Instellingen"
-
-#: lib/admin/seo-settings.php:175
-msgid "Document Head Settings"
-msgstr "Document Head Instellingen"
-
-#: lib/admin/seo-settings.php:177
-msgid "Archives Settings"
-msgstr "Instellingen archieven"
-
-#: lib/admin/seo-settings.php:194
-msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
-msgstr "De titel van het document (%s) is het belangrijkste element van uw document bron voor <abbr title=\"Zoekmachine optimalisatie\">SEO</abbr>. Het informeert zoekmachines welke informatie is opgenomen in het document. De titel kan, en moet, op iedere pagina anders zijn. Met deze opties kunt u bepalen hoe het er standaard uit zal zien."
-
-#: lib/admin/seo-settings.php:196
-msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
-msgstr "<strong> Standaard </strong> bevat de homepage titel de site titel. De single post en pagina's bevatten de titels van de post of pagina en zal de archief pagina's bevatten het archief type, enz.\n"
-
-#: lib/admin/seo-settings.php:200
-msgid "Add site description (tagline) to %s on home page?"
-msgstr "Voeg site ondertitel toe aan %s op de home pagina?"
-
-#: lib/admin/seo-settings.php:205
-msgid "Add site name to %s on inner pages?"
-msgstr "Voeg site naam toe aan %s op interne pagina's?"
-
-#: lib/admin/seo-settings.php:209
-msgid "Document Title Additions Location:"
-msgstr "Document titel toevoegingen locatie:"
-
-#: lib/admin/seo-settings.php:210
-msgid "Determines which side the added title text will go on."
-msgstr "Bepaalt aan welke kant de toegevoegde titel tekst zal staan."
-
-#: lib/admin/seo-settings.php:214 lib/widgets/featured-page-widget.php:191
-#: lib/widgets/featured-post-widget.php:290
-#: lib/widgets/featured-post-widget.php:320
-#: lib/widgets/user-profile-widget.php:161
-msgid "Left"
-msgstr "Links"
-
-#: lib/admin/seo-settings.php:217 lib/widgets/featured-page-widget.php:192
-#: lib/widgets/featured-post-widget.php:291
-#: lib/widgets/featured-post-widget.php:321
-#: lib/widgets/user-profile-widget.php:162
-msgid "Right"
-msgstr "Rechts"
-
-#: lib/admin/seo-settings.php:222
-msgid "Document Title Separator:"
-msgstr "Scheidingsteken in document titel "
-
-#: lib/admin/seo-settings.php:224
-msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr "Als de titel bestaat uit twee delen (titel en optionele toevoeging), dan komt het scheidingsteken er tussen."
-
-#: lib/admin/seo-settings.php:245
-msgid "Which text would you like to be wrapped in %s tags?"
-msgstr "Welke tekst wil je in %s tags zetten?"
-
-#: lib/admin/seo-settings.php:246
-msgid "The %s tag is, arguably, the second most important <abbr title=\"Search engine optimization\">SEO</abbr> tag in the document source. Choose wisely."
-msgstr "De %s tag is misschien wel de op één na belangrijkste <abbr title=\"Zoekmachine optimalisatie\"> SEO</abbr>-tag in de document bron. Kies deze verstandig."
-
-#: lib/admin/seo-settings.php:250
-msgid "Site Title"
-msgstr "Site Titel"
-
-#: lib/admin/seo-settings.php:253
-msgid "Site Description (Tagline)"
-msgstr "Site ondertitel"
-
-#: lib/admin/seo-settings.php:256
-msgid "Neither. I'll manually wrap my own text on the homepage"
-msgstr "Geen. Ik sluit de tekst handmatig in op de homepage"
-
-#: lib/admin/seo-settings.php:260
-msgid "Homepage Document Title:"
-msgstr "Homepage document titel"
-
-#: lib/admin/seo-settings.php:262
-msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "Als u het document titel veld leeg laat, zal de site titel in plaats daarvan worden gebruikt."
-
-#: lib/admin/seo-settings.php:266
-msgid "Home Meta Description:"
-msgstr "Home meta beschrijving"
-
-#: lib/admin/seo-settings.php:268
-msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr "De meta beschrijving kan worden gebruikt om de tekst gebruikt onder de titel op zoekmachine resultaten pagina's te bepalen."
-
-#: lib/admin/seo-settings.php:272
-msgid "Home Meta Keywords (comma separated):"
-msgstr "Home meta zoektermen (gescheiden door een kommma):"
-
-#: lib/admin/seo-settings.php:274
-msgid "Keywords are generally ignored by Search Engines."
-msgstr "Keywords worden over het algemeen genegeerd door zoekmachines."
-
-#: lib/admin/seo-settings.php:277
-msgid "Homepage Robots Meta Tags:"
-msgstr "Homepage Robots Meta Tags:"
-
-#: lib/admin/seo-settings.php:281 lib/admin/seo-settings.php:284
-#: lib/admin/seo-settings.php:287
-msgid "Apply %s to the homepage?"
-msgstr "Toepassen %s op de homepage?"
-
-#: lib/admin/seo-settings.php:290
-msgid "Homepage Author"
-msgstr "Homepage Auteur"
-
-#: lib/admin/seo-settings.php:293
-msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
-msgstr "Selecteer de gebruiker die gebruikt moet worden als %s voor de homepage. Zorg ervoor dat de gebruiker het Google+ profiel adres in het profiel heeft ingevoerd."
-
-#: lib/admin/seo-settings.php:298
-msgid "Select User"
-msgstr "Selecteer gebruiker"
-
-#: lib/admin/seo-settings.php:321
-msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "Standaard plaatst WordPress diverse tags in je document %1$s. Veel van deze tags zijn niet noodzakelijk, dragen niet bij aan de <abbr title=\"zoekmachine optimalisatie\">SEO</abbr>  en vertragen je website. Kies hier welke tags je in je document %1$s wilt hebben. Als je het niet zeker weet, laat het dan uitgevinkt staan."
-
-#: lib/admin/seo-settings.php:323
-msgid "Relationship Link Tags:"
-msgstr "Relatie Link Tags:"
-
-#: lib/admin/seo-settings.php:327
-msgid "Adjacent Posts %s link tags"
-msgstr "Volgende berichten %s link tags"
-
-#: lib/admin/seo-settings.php:330
-msgid "Windows Live Writer Support:"
-msgstr "Windows Live Writer Support:"
-
-#: lib/admin/seo-settings.php:334
-msgid "Include Windows Live Writer Support Tag?"
-msgstr "Windows Live Writer Support Tag Toevoegen?"
-
-#: lib/admin/seo-settings.php:337
-msgid "Shortlink Tag:"
-msgstr "Shortlink Tag:"
-
-#: lib/admin/seo-settings.php:341
-msgid "Include Shortlink tag?"
-msgstr "Inclusief Shortlink tag?"
-
-#: lib/admin/seo-settings.php:344
-msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr ""
-
-#: lib/admin/seo-settings.php:366
-msgid "Depending on your situation, you may or may not want the following archive pages to be indexed by search engines. Only you can make that determination."
-msgstr "Afhankelijk van jouw situatie, kan je er voor kiezen om archiefpagina's wel of niet door een zoekmachine te laten indexeren. Jij alleen kan die keuze maken."
-
-#: lib/admin/seo-settings.php:370 lib/admin/seo-settings.php:394
-msgid "Apply %s to Category Archives?"
-msgstr "%s toepassen in Categorie Archief?"
-
-#: lib/admin/seo-settings.php:373 lib/admin/seo-settings.php:397
-msgid "Apply %s to Tag Archives?"
-msgstr "Toepassen %s op Tag Archieven?"
-
-#: lib/admin/seo-settings.php:376 lib/admin/seo-settings.php:400
-msgid "Apply %s to Author Archives?"
-msgstr "Toepassen %s op Auteur Archief?"
-
-#: lib/admin/seo-settings.php:379 lib/admin/seo-settings.php:403
-msgid "Apply %s to Date Archives?"
-msgstr "Toepassen %s op Datum Archief?"
-
-#: lib/admin/seo-settings.php:382 lib/admin/seo-settings.php:406
-msgid "Apply %s to Search Archives?"
-msgstr "Toepassen %s op Zoeken archief?"
-
-#: lib/admin/seo-settings.php:385
-msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
-msgstr ""
-
-#: lib/admin/seo-settings.php:389
-msgid "Apply %s to Entire Site?"
-msgstr "%s toepassen op de hele site?"
-
-#: lib/admin/seo-settings.php:409
-msgid "Occasionally, search engines use resources like the Open Directory Project and the Yahoo! Directory to find titles and descriptions for your content. Generally, you will not want them to do this. The %s and %s tags prevent them from doing so."
-msgstr "Af en toe maken zoekmachines gebruik maken van middelen zoals het Open Directory Project en de Yahoo! Directory om titels en beschrijvingen te vinden voor je inhoud. In het algemeen zult je niet willen dat ze dit doen. De %s en %s tags voorkomen dat ze dit doen."
-
-#: lib/admin/seo-settings.php:413 lib/admin/seo-settings.php:416
-msgid "Apply %s to your site?"
-msgstr "%s toepassen op je site?"
-
-#: lib/admin/seo-settings.php:437
-msgid "Canonical Paginated Archives"
-msgstr "Canonical gepagineerde Archief"
-
-#: lib/admin/seo-settings.php:440
-msgid "This option points search engines to the first page of an archive, if viewing a paginated page. If you do not know what this means, leave it on."
-msgstr "Deze optie verwijst zoekmachines naar de eerste pagina van een archief wanneer deze een gepagineerd pagina ziet. Als je niet weet wat dit betekent, laat deze optie dan aan staan."
-
-#: lib/admin/term-meta.php:55
-msgid "Archive Settings"
-msgstr "Archief Instellingen"
-
-#: lib/admin/term-meta.php:59
-msgid "Archive Headline"
-msgstr "Archief Headline"
-
-#: lib/admin/term-meta.php:62
-msgid "Leave empty if you do not want to display a headline."
-msgstr "Laat deze leeg als je geen headline wilt tonen."
-
-#: lib/admin/term-meta.php:66
-msgid "Archive Intro Text"
-msgstr "Archief intro tekst."
-
-#: lib/admin/term-meta.php:69
-msgid "Leave empty if you do not want to display any intro text."
-msgstr "Laat deze leeg als je geen intro tekst wilt tonen."
-
-#: lib/admin/term-meta.php:123 lib/admin/user-meta.php:187
-msgid "Custom Document %s"
-msgstr "Custom Document %s"
-
-#: lib/admin/term-meta.php:130 lib/admin/user-meta.php:194
-msgid "%s Description"
-msgstr "%s Beschrijving"
-
-#: lib/admin/term-meta.php:137 lib/admin/user-meta.php:201
-msgid "%s Keywords"
-msgstr "%s Keywords"
-
-#: lib/admin/term-meta.php:140 lib/admin/user-meta.php:204
-msgid "Comma separated list"
-msgstr "Komma gescheiden lijst"
-
-#: lib/admin/term-meta.php:145 lib/admin/user-meta.php:209
-msgid "Robots Meta"
-msgstr "Robots Meta"
-
-#: lib/admin/term-meta.php:148 lib/admin/term-meta.php:150
-#: lib/admin/term-meta.php:152 lib/admin/user-meta.php:212
-#: lib/admin/user-meta.php:214 lib/admin/user-meta.php:216
-msgid "Apply %s to this archive?"
-msgstr "%s toepassen op dit archief?"
-
-#: lib/admin/term-meta.php:206 lib/admin/user-meta.php:251
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:67
+#: lib/admin/import-export.php:83
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: lib/admin/term-meta.php:176 lib/admin/user-meta.php:252
 msgid "Choose Layout"
 msgstr "Selecteer Lay-out"
 
-#: lib/admin/theme-settings.php:91
-msgid "Follow me on Twitter"
-msgstr "Volg me op Twitter"
-
-#: lib/admin/theme-settings.php:221
-msgid "Information"
-msgstr "Informatie"
-
-#: lib/admin/theme-settings.php:224
-msgid "Color Style"
-msgstr "Kleur stijl"
-
-#: lib/admin/theme-settings.php:226
-msgid "Custom Feeds"
-msgstr "Aangepaste Feeds"
-
-#: lib/admin/theme-settings.php:227
-msgid "Default Layout"
-msgstr "Standaard lay-out"
-
-#: lib/admin/theme-settings.php:230
-msgid "Header"
-msgstr "Kop"
-
-#: lib/admin/theme-settings.php:233
-msgid "Navigation"
-msgstr "Navigatie"
-
-#: lib/admin/theme-settings.php:236
-msgid "Breadcrumbs"
-msgstr "Breadcrumbs"
-
-#: lib/admin/theme-settings.php:238
-msgid "Comments and Trackbacks"
-msgstr "Reacties en Trackbacks"
-
-#: lib/admin/theme-settings.php:239
-msgid "Content Archives"
-msgstr "Content Archieven"
-
-#: lib/admin/theme-settings.php:240
-msgid "Blog Page Template"
-msgstr "Blog Pagina Template"
-
-#: lib/admin/theme-settings.php:243
-msgid "Header and Footer Scripts"
-msgstr "Header en Footer Scripts"
-
-#: lib/admin/theme-settings.php:284
-msgid "Version:"
-msgstr "Versie:"
-
-#: lib/admin/theme-settings.php:284
-msgid "Released:"
-msgstr "Vrijgegeven op:"
-
-#: lib/admin/theme-settings.php:288
-msgid "Display Theme Information in your document source"
-msgstr "Toon Thema informatie in je documentbron"
-
-#: lib/admin/theme-settings.php:292
-msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "Dit kan handig zijn voor het uitzoeken van problemen met je thema wanneer je hulp zoekt in de <a href=\"%s\" target=\"_blank\">support forums</a>."
-
-#: lib/admin/theme-settings.php:296
-msgid "Enable Automatic Updates"
-msgstr "Activeer Automatische Updates"
-
-#: lib/admin/theme-settings.php:301
-msgid "Notify"
-msgstr "Attenderen"
-
-#: lib/admin/theme-settings.php:303
-msgid "when updates are available"
-msgstr "wanneer updates beschikbaar zijn"
-
-#: lib/admin/theme-settings.php:306
-msgid "If you provide an email address above, your blog can email you when a new version of Genesis is available."
-msgstr "Als je een e-mailadres hierboven invult, kan je website je een e-mail sturen wanneer een nieuwe versie van Genesis beschikbaar is."
-
-#: lib/admin/theme-settings.php:329
-msgid "Color Style:"
-msgstr "Kleur stijl:"
-
-#: lib/admin/theme-settings.php:331 lib/tools/post-templates.php:159
-msgid "Default"
-msgstr "Standaard"
-
-#: lib/admin/theme-settings.php:343
-msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Selecteer de kleur stijl in het dropdown menu en sla je instellingen op."
-
-#: lib/admin/theme-settings.php:389
-msgid "Use for site title/logo:"
-msgstr "Gebruik voor site titel/logo:"
-
-#: lib/admin/theme-settings.php:391
-msgid "Dynamic text"
-msgstr "Dynamische tekst"
-
-#: lib/admin/theme-settings.php:392
-msgid "Image logo"
-msgstr "Logo afbeelding"
-
-#: lib/admin/theme-settings.php:418
-msgid "In order to use the navigation menus, you must build a <a href=\"%s\">custom menu</a>, then assign it to the proper Menu Location."
-msgstr "Om de navigatie menu's te gebruiken, moet je eerst een <a href=\"%s\">custom menu</a> maken en dan deze te wijzen aan de juiste menu locatie."
-
-#: lib/admin/theme-settings.php:423
-msgid "Primary Navigation"
-msgstr "Primaire Navigatie"
-
-#: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:465
-msgid "Enable Fancy Dropdowns?"
-msgstr "Activeer Fancy Dropdowns?"
-
-#: lib/admin/theme-settings.php:432
-msgid "Enable Extras on Right Side?"
-msgstr "Extra aan de rechterzijde activeren?"
-
-#: lib/admin/theme-settings.php:437
-msgid "Display the following:"
-msgstr "Toon het volgende:"
-
-#: lib/admin/theme-settings.php:439
-msgid "Today's date"
-msgstr "Datum van vandaag"
-
-#: lib/admin/theme-settings.php:440
-msgid "RSS feed links"
-msgstr "RSS feed links"
-
-#: lib/admin/theme-settings.php:441
-msgid "Search form"
-msgstr "Zoekformulier"
-
-#: lib/admin/theme-settings.php:442
-msgid "Twitter link"
-msgstr "Twitter link"
-
-#: lib/admin/theme-settings.php:447
-msgid "Enter Twitter ID:"
-msgstr "Voer Twitter ID in:"
-
-#: lib/admin/theme-settings.php:451
-msgid "Twitter Link Text:"
-msgstr "Twitter Link Tekst:"
-
-#: lib/admin/theme-settings.php:461
-msgid "Secondary Navigation"
-msgstr "Secundaire Navigatie"
-
-#: lib/admin/theme-settings.php:487
-msgid "Enter your custom feed URI:"
-msgstr "Geef je aangepaste feed URI:"
-
-#: lib/admin/theme-settings.php:491 lib/admin/theme-settings.php:499
-msgid "Redirect Feed?"
-msgstr "Redirect Feed?"
-
-#: lib/admin/theme-settings.php:495
-msgid "Enter your custom comments feed URI:"
-msgstr "Geef je aangepaste commentaar feed URI:"
-
-#: lib/admin/theme-settings.php:502
-msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Als je eigen feed(s) zijn niet afgehandeld door Feedburner, raden we je aan om de redirect opties te gebruiken."
-
-#: lib/admin/theme-settings.php:521
-msgid "Enable Comments"
-msgstr "Sta Reacties Toe"
-
-#: lib/admin/theme-settings.php:523 lib/admin/theme-settings.php:532
-msgid "on posts?"
-msgstr "op berichten?"
-
-#: lib/admin/theme-settings.php:526 lib/admin/theme-settings.php:535
-msgid "on pages?"
-msgstr "op pagina's?"
-
-#: lib/admin/theme-settings.php:530
-msgid "Enable Trackbacks"
-msgstr "Sta Trackbacks Toe"
-
-#: lib/admin/theme-settings.php:538
-msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
-msgstr "Reacties en Trackbacks kunnen ook worden uitgeschakeld op een per bericht/pagina basis bij het maken/bewerken van berichten/pagina's."
-
-#: lib/admin/theme-settings.php:556
-msgid "Enable on:"
-msgstr "Inschakelen bij:"
-
-#: lib/admin/theme-settings.php:560
-msgid "Front Page"
-msgstr "Hoofdpagina"
-
-#: lib/admin/theme-settings.php:563
-msgid "Posts Page"
-msgstr "Berichten pagina"
-
-#: lib/admin/theme-settings.php:566
-msgid "Homepage"
-msgstr "Homepage"
-
-#: lib/admin/theme-settings.php:570 lib/structure/menu.php:149
-msgid "Posts"
-msgstr "Artikelen"
-
-#: lib/admin/theme-settings.php:573
-msgid "Pages"
-msgstr "Pagina's"
-
-#: lib/admin/theme-settings.php:576
-msgid "Archives"
-msgstr "Archief"
-
-#: lib/admin/theme-settings.php:579
-msgid "404 Page"
-msgstr "404 pagina"
-
-#: lib/admin/theme-settings.php:582
-msgid "Attachment Page"
-msgstr "Bijlage pagina"
-
-#: lib/admin/theme-settings.php:585
-msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
-msgstr "Breadcrumbs zijn een geweldige manier je bezoekers te laten weten waar ze zijn op je site met slechts één blik. Je kunt ze selectief inschakelen op bepaalde gebieden van je site."
-
-#: lib/admin/theme-settings.php:605
-msgid "Select one of the following:"
-msgstr "Selecteer één van de volgende:"
-
-#: lib/admin/theme-settings.php:611
-msgid "Display post content"
-msgstr "Toon artikel inhoud"
-
-#: lib/admin/theme-settings.php:612
-msgid "Display post excerpts"
-msgstr "Toon artikel samenvattingen"
-
-#: lib/admin/theme-settings.php:623 lib/widgets/featured-post-widget.php:353
-msgid "Limit content to"
-msgstr "Limiteer inhoud naar"
-
-#: lib/admin/theme-settings.php:625 lib/widgets/featured-post-widget.php:355
-msgid "characters"
-msgstr "karakters"
-
-#: lib/admin/theme-settings.php:628
-msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
-msgstr "Deze optie zet een limiet op de tekst en stript alle opmaak uit de weergegeven tekst. Selecteer \"Toon bericht inhoud\" in de select box hierboven om hier gebruik van te maken."
-
-#: lib/admin/theme-settings.php:633
+#: lib/admin/theme-settings.php:833
 msgid "Include the Featured Image?"
 msgstr "Aanbevolen afbeelding toevoegen?"
 
-#: lib/admin/theme-settings.php:637
-msgid "Image Size:"
-msgstr "Afbeeldingsgrootte:"
-
-#: lib/admin/theme-settings.php:648
-msgid "Select Post Navigation Technique:"
-msgstr "Selecteer de Artikel Navigatie Techniek:"
-
-#: lib/admin/theme-settings.php:650
-msgid "Older / Newer"
-msgstr "Ouder / Nieuwer"
-
-#: lib/admin/theme-settings.php:651
-msgid "Previous / Next"
-msgstr "Vorige / Volgende"
-
-#: lib/admin/theme-settings.php:652
-msgid "Numeric"
-msgstr "Numeriek"
-
-#: lib/admin/theme-settings.php:656
-msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr "Deze opties zijn van invloed op elke pagina die berichten toont, inclusief archief, auteur, blog, categorie, zoeken en tag's."
-
-#: lib/admin/theme-settings.php:674
-msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr "Deze instellingen gelden voor alle pagina's die de \"Blog\" sjabloon gebruiken. Niet voor de homepage of archiefpagina's voor berichten."
-
-#: lib/admin/theme-settings.php:679
-msgid "Display which category:"
-msgstr "Toon welke categorie:"
-
-#: lib/admin/theme-settings.php:680 lib/widgets/featured-post-widget.php:231
-msgid "All Categories"
-msgstr "Alle Categoriën"
-
-#: lib/admin/theme-settings.php:684
-msgid "Exclude the following Category IDs:"
-msgstr "Sluit de volgende Categorie ID's uit:"
-
-#: lib/admin/theme-settings.php:686
-msgid "Comma separated - 1,2,3 for example"
-msgstr "Komma gescheiden - bijvoorbeeld 1,2,3"
-
-#: lib/admin/theme-settings.php:691
-msgid "Number of Posts to Show:"
-msgstr "Aantal te tonen berichten:"
-
-#: lib/admin/theme-settings.php:712 lib/admin/theme-settings.php:722
-msgid "Enter scripts or code you would like output to %s:"
-msgstr "Voeg scripts of code toe die je zou willen tonen op %s:"
-
-#: lib/admin/theme-settings.php:717 lib/admin/theme-settings.php:727
-msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
-msgstr "De %1$s hook wordt direct uitgevoerd voor de sluitende %2$s tag in de broncode van het document."
-
-#: lib/admin/user-meta.php:25
-msgid "Google+"
-msgstr "Google+"
-
-#: lib/admin/user-meta.php:73
-msgid "User Permissions"
-msgstr "Gebruikerstoestemming"
-
-#: lib/admin/user-meta.php:77
+#: lib/admin/user-meta.php:76
 msgid "Genesis Admin Menus"
 msgstr "Genesis Admin Menu's"
 
-#: lib/admin/user-meta.php:80
+#: lib/admin/user-meta.php:79
 msgid "Enable Genesis Admin Menu?"
 msgstr "Activeer Genesis Admin Menu?"
 
@@ -797,16 +1294,20 @@ msgstr "Activeer Genesis Admin Menu?"
 msgid "Enable SEO Settings Submenu?"
 msgstr "Activeer SEO Instellingen Submenu?"
 
-#: lib/admin/user-meta.php:84
+#: lib/admin/user-meta.php:85
 msgid "Enable Import/Export Submenu?"
 msgstr "Activeer Import/Export Submenu?"
 
-#: lib/admin/user-meta.php:119
-msgid "Author Archive Settings"
-msgstr "Auteur archief instellingen"
+#: lib/admin/user-meta.php:143
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Activeer Auteur Box op berichten van deze gebruiker?"
+
+#: lib/admin/user-meta.php:146
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Activeer Auteur Box op het Archief van deze gebruiker?"
 
 #: lib/admin/user-meta.php:120 lib/admin/user-meta.php:183
-#: lib/admin/user-meta.php:247
+#: lib/admin/user-meta.php:248
 msgid "These settings apply to this author's archive pages."
 msgstr "Deze instellingen gelden voor het archiveren van deze auteur pagina's."
 
@@ -826,863 +1327,755 @@ msgstr "Beschrijving aangepaste tekst"
 msgid "This text will be the first paragraph, and display on the first page"
 msgstr "Deze tekst wordt de eerste paragraaf, en wordt weergeven op de eerste pagina"
 
-#: lib/admin/user-meta.php:140
-msgid "Author Box"
-msgstr "Auteur Box"
+#: lib/functions/upgrade.php:512
+msgid "Congratulations! You are now rocking Genesis %s"
+msgstr "Gefeliciteerd! Je gebruikt nu Genesis %s"
 
-#: lib/admin/user-meta.php:143
-msgid "Enable Author Box on this User's Posts?"
-msgstr "Activeer Auteur Box op berichten van deze gebruiker?"
+#: lib/widgets/featured-page-widget.php:198
+#: lib/widgets/featured-post-widget.php:364
+msgid "Show Featured Image"
+msgstr "Toon Aanbevolen afbeelding"
 
-#: lib/admin/user-meta.php:145
-msgid "Enable Author Box on this User's Archives?"
-msgstr "Activeer Auteur Box op het Archief van deze gebruiker?"
+#: lib/widgets/featured-post-widget.php:403
+msgid "Show Post Info"
+msgstr "Toon Post Info"
 
-#: lib/admin/whats-new.php:38
-msgid "Welcome to Genesis %s"
-msgstr "Welkom bij Genesis %s"
+#: lib/widgets/featured-post-widget.php:408
+msgid "Content Type"
+msgstr "Content Type"
 
-#: lib/admin/whats-new.php:65
-msgid "Thank you for updating to the latest version! Using Genesis %s will give you more options than you've ever had and your website will continue to purr like a kitten."
-msgstr "Bedankt voor het updaten naar de nieuwste versie! Het gebruik van Genesis %s geeft je meer mogelijkheden dan je ooit hebt gehad en je website zal fijn blijven werken."
+#: lib/widgets/featured-post-widget.php:410
+msgid "Show Content"
+msgstr "Toon Content"
 
-#: lib/admin/whats-new.php:68
-msgid "What&#8217;s New"
-msgstr "Wat is er nieuw"
+#: lib/widgets/featured-post-widget.php:411
+msgid "Show Excerpt"
+msgstr "Toon Excerpt"
 
-#: lib/admin/whats-new.php:71
-msgid "Updated Design and Wider Layout"
-msgstr "Bijgewerkt ontwerp en bredere lay-out"
+#: lib/widgets/featured-post-widget.php:412
+msgid "Show Content Limit"
+msgstr "Toon Content Limiet"
 
-#: lib/admin/whats-new.php:73
-msgid "Updated Security Audit"
-msgstr "Bijgewerkte veiligheidscontrole"
+#: lib/widgets/featured-post-widget.php:413
+msgid "No Content"
+msgstr "Geen content"
 
-#: lib/admin/whats-new.php:74
-msgid "It's very important to us that we provide you the absolute best framework possible, so once again we hired WordPress Lead Developer Mark Jaquith to perform a full review of code for security as he's done in the past."
-msgstr "Het is heel belangrijk voor ons dat wij je absoluut het beste framework kunnen leveren, daarom hebben we opnieuw WordPress Lead Developer Mark Jaquith ingehuurd om een volledige review van de code uit te voeren voor veiligheid zoals hij dat ook heeft gedaan in het verleden."
-
-#: lib/admin/whats-new.php:75
-msgid "Google Author Highlights"
-msgstr "Google auteur highlights"
-
-#: lib/admin/whats-new.php:76
-msgid "Genesis now offers support for author highlighting. This allows Google to associate your content with your Google+ content. Just edit your profile, find the field where you can enter your Google+ account URL, and save. Genesis does the rest. And if you want to associate an author with the homepage, you can do that in SEO Settings."
-msgstr ""
-
-#: lib/admin/whats-new.php:78
-msgid "Deprecating Widgets"
-msgstr "Verouderde widgets"
-
-#: lib/admin/whats-new.php:79
-msgid "Genesis has always included some useful widgets to help you build your sites faster and easier. But lately, we realized that some of these widgets should really be plugins, so authors can push out updates more frequently, and you get more up to date code. So, the  \"eNews & Updates\" and \"Latest Tweets\" widgets are being ported to plugins, and will eventually be removed from Genesis."
-msgstr ""
-
-#: lib/admin/whats-new.php:81
-msgid "Genesis Category/Page Menu Widgets Removed"
-msgstr "Genesis Category/Pagina Menu Widgets verwijderd"
-
-#: lib/admin/whats-new.php:82
-msgid "We deprecated the Category and Page menu widgets a few releases ago, and as of this release, we've completely removed them from the framework. If you were still using either of these widgets, you will notice that your menu is no longer showing."
-msgstr ""
-
-#: lib/admin/whats-new.php:83
-msgid "You will need to build a <a href=\"%s\">custom menu</a> and add the custom menu widget to the Header Right widget area."
-msgstr ""
-
-#: lib/admin/whats-new.php:85
-msgid "Other Geeky Stuff"
-msgstr "Andere nerdy dingen"
-
-#: lib/admin/whats-new.php:86
-msgid "We also fixed a lot of little bugs, improved some things, and generally made the framework a more solid foundation for you to use. We hope you enjoy this latest release!"
-msgstr ""
-
-#: lib/admin/whats-new.php:91
-msgid "Genesis 2.0 Roadmap"
-msgstr "Genesis 2.0 roadmap"
-
-#: lib/admin/whats-new.php:93
-msgid "Support for HTML5 Markup"
-msgstr "Ondersteuning voor HTML5 opmaak"
-
-#: lib/admin/whats-new.php:94
-msgid "We have big plans for a new markup structure in Genesis 2.0, all built with HTML5."
-msgstr "We hebben grote plannen voor een nieuwe opmaakstructuur in Genesis 2.0, compleet opgezet met HTML5"
-
-#: lib/admin/whats-new.php:96
-msgid "A New Mobile Strategy"
-msgstr "Een nieuwe mobiele strategie"
-
-#: lib/admin/whats-new.php:97
-msgid "In case you can't tell, we're big fans of designing for mobile devices around here. So, we're going to be doing some things that will make it a whole lot easier to get your site mobile ready with Genesis in 2.0."
-msgstr ""
-
-#: lib/admin/whats-new.php:103
-msgid "Project Leads"
-msgstr "Projectleiders"
-
-#: lib/admin/whats-new.php:109 lib/admin/whats-new.php:114
-#: lib/admin/whats-new.php:119
-msgid "Lead Developer"
-msgstr "Hoofd ontwikkelaar"
-
-#: lib/admin/whats-new.php:127
-msgid "Contributors"
-msgstr "Bijdragers"
-
-#: lib/admin/whats-new.php:133 lib/admin/whats-new.php:138
-#: lib/admin/whats-new.php:143 lib/admin/whats-new.php:148
-#: lib/admin/whats-new.php:153 lib/admin/whats-new.php:158
-#: lib/admin/whats-new.php:163 lib/admin/whats-new.php:168
-#: lib/admin/whats-new.php:173 lib/admin/whats-new.php:178
-msgid "Contributor"
-msgstr "Bijdrager"
-
-#: lib/admin/whats-new.php:185
-msgid "Go to Theme Settings &rarr;"
-msgstr "Ga naar de Thema Instellingen &rarr;"
-
-#: lib/admin/whats-new.php:186
-msgid "Go to SEO Settings &rarr;"
-msgstr "Ga naar de SEO Instellingen &rarr;"
-
-#: lib/classes/admin.php:118
-msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Je kunt %s niet gebruiken om twee menu's te maken in dezelfde subclass. Graag een aparte subclass gebruiken voor elk menu."
-
-#: lib/classes/admin.php:415 lib/classes/admin.php:424
-#: lib/classes/admin.php:527 lib/classes/admin.php:546
-msgid "Are you sure you want to reset?"
-msgstr "Weet je zeker dat je wil resetten?"
-
-#: lib/classes/breadcrumb.php:54 lib/functions/menu.php:133
-msgid "Home"
-msgstr "Home "
-
-#: lib/classes/breadcrumb.php:63
-msgid "You are here: "
-msgstr "Je bent hier: "
-
-#: lib/classes/breadcrumb.php:64 lib/classes/breadcrumb.php:65
-#: lib/classes/breadcrumb.php:66 lib/classes/breadcrumb.php:67
-#: lib/classes/breadcrumb.php:69 lib/classes/breadcrumb.php:70
-msgid "Archives for "
-msgstr "Archief voor "
-
-#: lib/classes/breadcrumb.php:68
-msgid "Search for "
-msgstr "Zoek naar "
-
-#: lib/classes/breadcrumb.php:71
+#: lib/classes/breadcrumb.php:60
 msgid "Not found: "
 msgstr "Niet gevonden:"
 
-#: lib/classes/breadcrumb.php:120 lib/classes/breadcrumb.php:215
-#: lib/classes/breadcrumb.php:281
+#: lib/classes/breadcrumb.php:187 lib/classes/breadcrumb.php:280
+#: lib/classes/breadcrumb.php:316
 msgid "View %s"
 msgstr "Bekijk %s"
 
-#: lib/classes/breadcrumb.php:300
-msgid "View all posts in %s"
-msgstr "Bekijk alle berichten in %s"
-
-#: lib/classes/breadcrumb.php:321
-msgid "View all %s"
-msgstr "Bekijk alle %s"
-
-#: lib/classes/breadcrumb.php:403 lib/classes/breadcrumb.php:427
+#: lib/classes/breadcrumb.php:467 lib/classes/breadcrumb.php:491
 msgid "View archives for %s"
 msgstr "Bekijk archieven voor %s"
 
-#: lib/classes/breadcrumb.php:433
+#: lib/classes/breadcrumb.php:497
 msgid "View archives for %s %s"
 msgstr "Bekijk archieven voor %s %s"
 
-#: lib/classes/breadcrumb.php:525
+#: lib/classes/breadcrumb.php:386
+msgid "View all %s"
+msgstr "Bekijk alle %s"
+
+#: lib/classes/breadcrumb.php:561
 msgid "View all items in %s"
 msgstr "Bekijk alle items in %s"
 
-#: lib/functions/admin.php:15
-msgid "This file no longer needs to be included."
-msgstr "Dit bestand hoeft niet langer toegevoegd te worden."
+#: lib/functions/widgetize.php:108
+msgid "Header Right"
+msgstr "Header Rechts"
 
-#: lib/functions/formatting.php:292
+#: lib/functions/widgetize.php:117
+msgid "Primary Sidebar"
+msgstr "Primaire Sidebar"
+
+#: lib/functions/widgetize.php:126
+msgid "Secondary Sidebar"
+msgstr "Secundaire Sidebar"
+
+#: lib/admin/import-export.php:191
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Er is een probleem met het importeren van de instellingen. Probeer het opnieuw."
+
+#: lib/functions/layout.php:109
+msgid "No Label Selected"
+msgstr "Geen label geselecteerd"
+
+#: lib/functions/widgetize.php:159
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: lib/admin/import-export.php:235
+msgid "No export options available."
+msgstr "Geen export opties beschikbaar."
+
+#: lib/js/load-scripts.php:143
+msgid "Select / Deselect All"
+msgstr "Selecteer / Deselecteer alles"
+
+#: lib/shortcodes/post.php:42
+msgid "ago"
+msgstr "geleden"
+
+#: lib/structure/post.php:589 lib/structure/post.php:655
+msgid "Previous Page"
+msgstr "Vorige pagina"
+
+#: lib/structure/post.php:590 lib/structure/post.php:685
+msgid "Next Page"
+msgstr "Volgende pagina"
+
+#: lib/admin/theme-settings.php:539
+msgid "Default"
+msgstr "Standaard"
+
+#: lib/admin/import-export.php:131
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Kies het bestand van je computer en klik op \"Upload bestand en importeren\""
+
+#: lib/admin/import-export.php:139
+msgid "Upload File and Import"
+msgstr "Bestand uploaden en importeren"
+
+#: lib/admin/import-export.php:189
+msgid "Settings successfully imported."
+msgstr "Instellingen met succes geïmporteerd."
+
+#: lib/admin/seo-settings.php:51 lib/admin/theme-settings.php:71
+#: lib/classes/admin.php:108
+msgid "Settings reset."
+msgstr "Instellingen resetten."
+
+#: lib/admin/seo-settings.php:50 lib/admin/theme-settings.php:70
+#: lib/classes/admin.php:107
+msgid "Settings saved."
+msgstr "Instellingen zijn opgeslagen."
+
+#: lib/admin/seo-settings.php:376
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "Keywords worden over het algemeen genegeerd door zoekmachines."
+
+#: lib/admin/theme-settings.php:239 lib/admin/theme-settings.php:328
+#: lib/admin/theme-settings.php:414
+msgid "Default Layout"
+msgstr "Standaard lay-out"
+
+#: lib/admin/theme-settings.php:273 lib/admin/theme-settings.php:348
+#: lib/admin/theme-settings.php:425
+msgid "Comments and Trackbacks"
+msgstr "Reacties en Trackbacks"
+
+#: lib/admin/theme-settings.php:297 lib/admin/theme-settings.php:363
+#: lib/admin/theme-settings.php:430
+msgid "Header and Footer Scripts"
+msgstr "Header en Footer Scripts"
+
+#: lib/admin/theme-settings.php:478
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
+msgstr "Dit kan handig zijn voor het uitzoeken van problemen met je thema wanneer je hulp zoekt in de <a href=\"%s\" target=\"_blank\">support forums</a>."
+
+#: lib/admin/theme-settings.php:699
+msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
+msgstr "Als je eigen feed(s) niet zijn afgehandeld door Feedburner, raden we je niet aan om de redirect opties te gebruiken."
+
+#: lib/admin/theme-settings.php:736
+msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
+msgstr "Reacties en Trackbacks kunnen ook worden uitgeschakeld op een per bericht/pagina basis bij het maken/bewerken van berichten/pagina's."
+
+#: lib/admin/theme-settings.php:755
+msgid "Enable on:"
+msgstr "Inschakelen bij:"
+
+#: lib/admin/theme-settings.php:759
+msgid "Front Page"
+msgstr "Hoofdpagina"
+
+#: lib/admin/theme-settings.php:772
+msgid "Pages"
+msgstr "Pagina's"
+
+#: lib/admin/theme-settings.php:775
+msgid "Archives"
+msgstr "Archief"
+
+#: lib/admin/theme-settings.php:778
+msgid "404 Page"
+msgstr "404 pagina"
+
+#: lib/admin/theme-settings.php:784
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance. You can enable/disable them on certain areas of your site."
+msgstr "Breadcrumbs zijn een geweldige manier je bezoekers te laten weten waar ze zijn op je site met slechts één blik. Je kunt ze selectief inschakelen op bepaalde gebieden van je site."
+
+#: lib/admin/theme-settings.php:828
+msgid "Using this option will limit the text and strip all formatting from the text displayed. To use this option, choose \"Display post content\" in the select box above."
+msgstr "Deze optie zet een limiet op de tekst en stript alle opmaak uit de weergegeven tekst. Selecteer \"Toon bericht inhoud\" in de select box hierboven om hier gebruik van te maken."
+
+#: lib/admin/theme-settings.php:856
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Deze opties zijn van invloed op elke pagina die berichten toont, inclusief archief, auteur, blog, categorie, zoeken en tag's."
+
+#: lib/functions/formatting.php:284
 msgctxt "time difference"
 msgid "seconds"
 msgstr "seconden"
 
-#: lib/functions/formatting.php:296
+#: lib/functions/formatting.php:288
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s jaar"
 msgstr[1] "%s jaren"
 
-#: lib/functions/formatting.php:297
+#: lib/functions/formatting.php:289
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s maand"
 msgstr[1] "%s maanden"
 
-#: lib/functions/formatting.php:298
+#: lib/functions/formatting.php:290
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s week"
 msgstr[1] "%s weken"
 
-#: lib/functions/formatting.php:299
+#: lib/functions/formatting.php:291
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
 msgstr[1] "%s dagen"
 
-#: lib/functions/formatting.php:300
+#: lib/functions/formatting.php:292
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s uur"
 msgstr[1] "%s uren"
 
-#: lib/functions/formatting.php:301
+#: lib/functions/formatting.php:293
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s minuut"
 msgstr[1] "%s minuten"
 
-#: lib/functions/formatting.php:302
+#: lib/functions/formatting.php:294
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s seconde"
 msgstr[1] "%s seconden"
 
-#: lib/functions/formatting.php:327
+#: lib/functions/formatting.php:319
 msgctxt "separator in time difference"
 msgid "and"
 msgstr "en"
 
-#: lib/functions/layout.php:37
+#: lib/functions/layout.php:39
 msgid "Content-Sidebar"
 msgstr "Content-Sidebar"
 
-#: lib/functions/layout.php:46
+#: lib/functions/layout.php:44
 msgid "Sidebar-Content"
 msgstr "Sidebar-Content"
 
-#: lib/functions/layout.php:54
+#: lib/functions/layout.php:48
 msgid "Content-Sidebar-Sidebar"
 msgstr "Content-Sidebar-Sidebar"
 
-#: lib/functions/layout.php:62
+#: lib/functions/layout.php:52
 msgid "Sidebar-Sidebar-Content"
 msgstr "Sidebar-Sidebar-Content"
 
-#: lib/functions/layout.php:70
+#: lib/functions/layout.php:56
 msgid "Sidebar-Content-Sidebar"
 msgstr "Sidebar-Content-Sidebar"
 
-#: lib/functions/layout.php:78
-msgid "Full Width Content"
-msgstr "Full Width Content"
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/term-meta.php:98
+#: lib/admin/user-meta.php:182
+msgid "Theme SEO Settings"
+msgstr "Thema SEO Instellingen"
 
-#: lib/functions/layout.php:123
-msgid "No Label Selected"
-msgstr "Geen label geselecteerd"
+#: lib/admin/cpt-archive-settings.php:140
+#: lib/admin/cpt-archive-settings.php:275
+#: lib/admin/cpt-archive-settings.php:291 lib/admin/inpost-metaboxes.php:214
+#: lib/admin/term-meta.php:172 lib/admin/user-meta.php:247
+msgid "Layout Settings"
+msgstr "Layout Instellingen"
 
-#: lib/functions/menu.php:104
+#: lib/admin/seo-settings.php:430
+msgid "Adjacent Posts %s link tags"
+msgstr "Volgende berichten %s link tags"
+
+#: lib/admin/cpt-archive-settings.php:46 lib/admin/cpt-archive-settings.php:47
+#: lib/admin/cpt-archive-settings.php:138
+#: lib/admin/cpt-archive-settings.php:246
+#: lib/admin/cpt-archive-settings.php:253 lib/admin/term-meta.php:45
+msgid "Archive Settings"
+msgstr "Archief Instellingen"
+
+#: lib/admin/theme-settings.php:88
+msgid "Follow me on Twitter"
+msgstr "Volg me op Twitter"
+
+#: lib/admin/theme-settings.php:411
+msgid "Color Style"
+msgstr "Kleur stijl"
+
+#: lib/admin/theme-settings.php:781
+msgid "Attachment Page"
+msgstr "Bijlage pagina"
+
+#: lib/admin/theme-settings.php:837
+msgid "Image Size:"
+msgstr "Afbeeldingsgrootte:"
+
+#: lib/admin/theme-settings.php:892
+msgid "Number of Posts to Show:"
+msgstr "Aantal te tonen berichten:"
+
+#: lib/admin/theme-settings.php:914 lib/admin/theme-settings.php:924
+msgid "Enter scripts or code you would like output to %s:"
+msgstr "Voeg scripts of code toe die je zou willen tonen op %s:"
+
+#: lib/admin/theme-settings.php:919 lib/admin/theme-settings.php:929
+msgid "The %1$s hook executes immediately before the closing %2$s tag in the document source."
+msgstr "De %1$s hook wordt direct uitgevoerd voor de sluitende %2$s tag in de broncode van het document."
+
+#: lib/admin/theme-settings.php:537
+msgid "Color Style:"
+msgstr "Kleur stijl:"
+
+#: lib/admin/theme-settings.php:551
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Selecteer de kleur stijl in het dropdown menu en sla je instellingen op."
+
+#: lib/admin/user-meta.php:72
+msgid "User Permissions"
+msgstr "Gebruikerstoestemming"
+
+#: lib/admin/user-meta.php:119
+msgid "Author Archive Settings"
+msgstr "Auteur archief instellingen"
+
+#: lib/classes/admin.php:119
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "Je kunt %s niet gebruiken om twee menu's te maken in dezelfde subclass. Graag een aparte subclass gebruiken voor elk menu."
+
+#: lib/functions/menu.php:91
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
 msgstr "Het argument, \"context\", is vervangen door \"theme_location\" in de $args array."
 
-#: lib/functions/seo.php:122
-msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
-msgstr ""
-
-#: lib/functions/seo.php:124
+#: lib/functions/seo.php:127
 msgid "Dismiss"
 msgstr "Negeer"
 
-#: lib/functions/upgrade.php:411
-msgid "Congratulations! You are now rocking Genesis %s"
-msgstr "Gefeliciteerd! Je gebruikt nu Genesis %s"
-
-#: lib/functions/upgrade.php:436
-msgid "Click here to complete the upgrade"
-msgstr "Klik hier om de upgrade af te ronden"
-
-#: lib/functions/upgrade.php:461
-msgid "Genesis %s is available. <a href=\"%s\" class=\"thickbox thickbox-preview\">Check out what's new</a> or <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update now</a>."
-msgstr "Genesis %s is beschikbaar. <a href=\"%s\" class=\"thickbox thickbox-preview\">Ontdek wat er nieuw is</a> of <a href=\"%s\" onclick=\"return genesis_confirm('%s');\">update nu gelijk.</a>."
-
-#: lib/functions/upgrade.php:465
-msgid "Upgrading Genesis will overwrite the current installed version of Genesis. Are you sure you want to upgrade?. \"Cancel\" to stop, \"OK\" to upgrade."
-msgstr "Upgraden van Genesis zorgt ervoor dat je huidige versie overschreven wordt. Weet je zeker dat je wilt upgraden? \"Cancel\" om te stoppen, \"OK\" om te upgraden."
-
-#: lib/functions/upgrade.php:507
-msgid "Genesis %s is available for %s"
-msgstr "Genesis %s is beschikbaar voor %s"
-
-#: lib/functions/upgrade.php:508
-msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s is nu beschikbaar. We hebben 1-klik updates voor dit thema, dus log in in je WordPress Dashboard en werk Genenis bij."
-
-#: lib/functions/widgetize.php:63
-msgid "Header Left"
-msgstr "Header links"
-
-#: lib/functions/widgetize.php:63
-msgid "Header Right"
-msgstr "Header Rechts"
-
-#: lib/functions/widgetize.php:64
-msgid "This is the widget area in the header."
-msgstr "Dit is het widget ruimte in de header."
-
-#: lib/functions/widgetize.php:71
-msgid "Primary Sidebar"
-msgstr "Primaire Sidebar"
-
-#: lib/functions/widgetize.php:72
+#: lib/functions/widgetize.php:118
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
 msgstr "Dit is de primaire sidebar in het geval dat je de twee of drie kolom layout instelling gebruikt."
 
-#: lib/functions/widgetize.php:79
-msgid "Secondary Sidebar"
-msgstr "Secundaire Sidebar"
-
-#: lib/functions/widgetize.php:80
+#: lib/functions/widgetize.php:127
 msgid "This is the secondary sidebar if you are using a three column site layout option."
 msgstr "Dit is de secondaire sidebar in het geval dat je de drie kolom layout instelling gebruikt."
 
-#: lib/functions/widgetize.php:112
-msgid "Footer %d"
-msgstr "Footer %d"
-
-#: lib/functions/widgetize.php:113
+#: lib/functions/widgetize.php:160
 msgid "Footer %d widget area."
 msgstr "Footer %d widget ruimte."
 
-#: lib/init.php:47
-msgid "Primary Navigation Menu"
-msgstr "Primary Navigation Menu"
-
-#: lib/init.php:48
-msgid "Secondary Navigation Menu"
-msgstr "Secondary Navigation Menu"
-
-#: lib/js/load-scripts.php:85
-msgid "Select / Deselect All"
-msgstr "Selecteer / Deselecteer alles"
-
-#: lib/shortcodes/footer.php:41
-msgid "Return to top of page"
-msgstr "Terug naar de paginatop"
-
-#: lib/shortcodes/footer.php:176
-msgid "by "
-msgstr "door"
-
-#: lib/shortcodes/footer.php:241
-msgid "Log in"
-msgstr "Log in"
-
-#: lib/shortcodes/footer.php:243
-msgid "Log out"
-msgstr "Log uit"
-
-#: lib/shortcodes/post.php:43
-msgid "ago"
-msgstr "geleden"
-
-#: lib/shortcodes/post.php:140
-msgid "Visit %s&#x02019;s website"
-msgstr "Bekijk de website van %s&#x02019;"
-
-#: lib/shortcodes/post.php:205 lib/widgets/featured-page-widget.php:101
-msgid "% Comments"
-msgstr "% Reacties"
-
-#: lib/shortcodes/post.php:206 lib/widgets/featured-page-widget.php:101
-msgid "1 Comment"
-msgstr "1 Reactie"
-
-#: lib/shortcodes/post.php:207 lib/widgets/featured-page-widget.php:101
-msgid "Leave a Comment"
-msgstr "Reageer"
-
-#: lib/shortcodes/post.php:247
-msgid "Tagged With: "
-msgstr "Tags: "
-
-#: lib/shortcodes/post.php:282 lib/shortcodes/post.php:320
-msgid "Filed Under: "
-msgstr "Onderwerp: "
-
-#: lib/shortcodes/post.php:364 lib/structure/comments.php:189
-#: lib/structure/post.php:207 lib/widgets/featured-page-widget.php:103
-msgid "(Edit)"
-msgstr "(Bewerken)"
-
-#: lib/structure/comments.php:63
-msgid "<h3>Comments</h3>"
-msgstr "<h3>Reacties</h3>"
-
-#: lib/structure/comments.php:114
-msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>Trackbacks</h3>"
-
-#: lib/structure/comments.php:184
-msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
-msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
-
-#: lib/structure/comments.php:184
-msgid "says"
-msgstr "zegt"
-
-#: lib/structure/comments.php:188
-msgid "%1$s at %2$s"
-msgstr "%1$s op %2$s"
-
-#: lib/structure/comments.php:195
-msgid "Your comment is awaiting moderation."
-msgstr "Je reactie wacht op moderatie."
-
-#: lib/structure/comments.php:252
-msgid "Name"
-msgstr "Naam"
-
-#: lib/structure/comments.php:258
-msgid "Email"
-msgstr "E-mail"
-
-#: lib/structure/comments.php:264
-msgid "Website"
-msgstr "Website"
-
-#: lib/structure/comments.php:278
-msgid "Speak Your Mind"
-msgstr "Laat wat van je horen"
-
-#: lib/structure/footer.php:110
-msgid "Copyright"
-msgstr "Copyright"
-
-#: lib/structure/footer.php:110
-msgid "on"
-msgstr "op"
-
-#: lib/structure/loops.php:192
-msgid "Read more"
-msgstr "Lees meer"
-
-#: lib/structure/menu.php:150
-msgid "Comments"
-msgstr "Reacties"
-
-#: lib/structure/post.php:214 lib/structure/post.php:216
-msgid "[Read more...]"
-msgstr "[Lees meer...]"
-
-#: lib/structure/post.php:233
-msgid "Sorry, no posts matched your criteria."
-msgstr "Sorry, er zijn geen artikelen gevonden die aan jouw criteria voldoen."
-
-#: lib/structure/post.php:259 lib/widgets/featured-page-widget.php:98
-msgid "by"
-msgstr "door"
-
-#: lib/structure/post.php:334
-msgid "About"
-msgstr "Over"
-
-#: lib/structure/post.php:379
-msgid "Older Posts"
-msgstr "Oudere Artikelen"
-
-#: lib/structure/post.php:380
-msgid "Newer Posts"
-msgstr "Nieuwere Artikelen"
-
-#: lib/structure/post.php:400 lib/structure/post.php:462
-msgid "Previous Page"
-msgstr "Vorige pagina"
-
-#: lib/structure/post.php:401 lib/structure/post.php:492
-msgid "Next Page"
-msgstr "Volgende pagina"
-
-#: lib/structure/search.php:23
-msgid "Search this website"
-msgstr "Zoek op deze website"
-
-#: lib/structure/search.php:25
-msgid "Search"
-msgstr "Zoek"
-
-#: lib/structure/sidebar.php:24
-msgid "Primary Sidebar Widget Area"
-msgstr "Primaire Sidebar Widget Ruimte"
-
-#: lib/structure/sidebar.php:27
-msgid "This is the Primary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Dit is de Primaire Sidebar Widget Ruimte. Je kunt inhoud aan deze ruimte toevoegen door het bezoeken van je <a href=\"%s\">Widgets panel</a> en het toevoegen van nieuwe widgets aan deze ruimte."
-
-#: lib/structure/sidebar.php:45
-msgid "Secondary Sidebar Widget Area"
-msgstr "Secundaire Sidebar Widget Ruimte"
-
-#: lib/structure/sidebar.php:48
-msgid "This is the Secondary Sidebar Widget Area. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Dit is de Secundaire Sidebar Widget Ruimte. Je kunt inhoud aan deze ruimte toevoegen door het bezoeken van je <a href=\"%s\">Widgets panel</a> en het toevoegen van nieuwe widgets aan deze ruimte. "
-
-#: lib/tools/post-templates.php:132
-msgid "Single Post Template"
-msgstr "Eén Artikel Template"
-
-#: lib/tools/post-templates.php:157
-msgid "Post Template"
-msgstr "Artikel Template"
-
-#: lib/tools/post-templates.php:162
-msgid "Some themes have custom templates you can use for single posts that might have additional features or custom layouts. If so, you will see them above."
-msgstr "Sommige thema's maken gebruik van speciale templates die je kan gebruiken voor losse artikelen. Indien dit het geval is, zie je ze hierboven."
-
-#: lib/widgets/enews-widget.php:38
-msgid "Enter your email address ..."
-msgstr "Vul je e-mail adres in ..."
-
-#: lib/widgets/enews-widget.php:39
-msgid "Go"
-msgstr "Gaan"
-
-#: lib/widgets/enews-widget.php:44
-msgid "Displays Feedburner email subscribe form"
-msgstr "Toon Feedburner e-mail inschrijf formulier"
-
-#: lib/widgets/enews-widget.php:47
-msgid "Genesis - eNews and Updates"
-msgstr "Genesis - ENews en Updates"
-
-#: lib/widgets/enews-widget.php:115 lib/widgets/enews-widget.php:124
-#: lib/widgets/latest-tweets-widget.php:181
-#: lib/widgets/latest-tweets-widget.php:190
-msgid "This widget has been deprecated, and should no longer be used."
-msgstr "Deze widget is verouderd, en dient niet meer gebruikt te worden."
-
-#: lib/widgets/enews-widget.php:116
-msgid "If you would like to continue to use the eNews widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
-msgstr "Als u wilt doorgaan met het gebruiken van de eNews widget functionaliteit, laat dan een site beheerder <a href=\"%s\" target=\"_blank\"> deze plugin installeren </a> en vervang deze widget door de Genesis eNews Extended widget."
-
-#: lib/widgets/enews-widget.php:125
-msgid "If you would like to continue to use the eNews widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis eNews Extended\">install this plugin</a> and replace this widget with the Genesis eNews Extended widget."
-msgstr ""
-
-#: lib/widgets/featured-page-widget.php:51
-msgid "Displays featured page with thumbnails"
-msgstr "Toon pagina features met thumbnails"
-
-#: lib/widgets/featured-page-widget.php:60
-msgid "Genesis - Featured Page"
-msgstr "Genesis - Pagina Feature"
-
-#: lib/widgets/featured-page-widget.php:159
-#: lib/widgets/featured-post-widget.php:215
-#: lib/widgets/featured-post-widget.php:251
-#: lib/widgets/featured-post-widget.php:371
-#: lib/widgets/user-profile-widget.php:136
-msgid "Title"
-msgstr "Titel"
-
-#: lib/widgets/featured-page-widget.php:164
-msgid "Page"
-msgstr "Pagina"
-
-#: lib/widgets/featured-page-widget.php:172
-#: lib/widgets/featured-post-widget.php:301
-msgid "Show Featured Image"
-msgstr "Toon Aanbevolen afbeelding"
-
-#: lib/widgets/featured-page-widget.php:176
-#: lib/widgets/featured-post-widget.php:305
-msgid "Image Size"
-msgstr "Afbeeldings Grootte"
-
-#: lib/widgets/featured-page-widget.php:188
-#: lib/widgets/featured-post-widget.php:317
-msgid "Image Alignment"
-msgstr "Uitlijning Afbeelding"
-
-#: lib/widgets/featured-page-widget.php:190
-#: lib/widgets/featured-post-widget.php:289
-#: lib/widgets/featured-post-widget.php:319
-#: lib/widgets/user-profile-widget.php:160
-#: lib/widgets/user-profile-widget.php:180
-msgid "None"
-msgstr "Geen"
-
-#: lib/widgets/featured-page-widget.php:200
-msgid "Show Page Title"
-msgstr "Toon Pagina Titel"
-
-#: lib/widgets/featured-page-widget.php:205
-msgid "Show Page Byline"
-msgstr "Toon Pagina Ondertitel"
-
-#: lib/widgets/featured-page-widget.php:210
-msgid "Show Page Content"
-msgstr "Toon Pagina Inhoud"
-
-#: lib/widgets/featured-page-widget.php:214
-msgid "Content Character Limit"
-msgstr "Limiet Inhoud Karakters"
-
-#: lib/widgets/featured-page-widget.php:219
-msgid "More Text"
-msgstr "Meer Tekst"
-
-#: lib/widgets/featured-post-widget.php:51
-msgid "By"
-msgstr "Door"
-
-#: lib/widgets/featured-post-widget.php:54
-msgid "[Read More...]"
-msgstr "[Lees meer ...]"
-
-#: lib/widgets/featured-post-widget.php:58
-msgid "More Posts from this Category"
-msgstr "Meer berichten uit deze categorie"
-
-#: lib/widgets/featured-post-widget.php:63
-msgid "Displays featured posts with thumbnails"
-msgstr "Toon artikel features met thumbnails"
-
-#: lib/widgets/featured-post-widget.php:72
-msgid "Genesis - Featured Posts"
-msgstr "Genesis - Artikel Features"
-
-#: lib/widgets/featured-post-widget.php:224
-msgid "Category"
-msgstr "Categorie"
-
-#: lib/widgets/featured-post-widget.php:238
-#: lib/widgets/featured-post-widget.php:376
-msgid "Number of Posts to Show"
-msgstr "Aantal te tonen Artikelen"
-
-#: lib/widgets/featured-post-widget.php:243
-msgid "Number of Posts to Offset"
-msgstr "Aantal artikelen voor Offset"
-
-#: lib/widgets/featured-post-widget.php:248
-msgid "Order By"
-msgstr "Sorteer op"
-
-#: lib/widgets/featured-post-widget.php:250
-msgid "Date"
-msgstr "Datum"
-
-#: lib/widgets/featured-post-widget.php:252
-msgid "Parent"
-msgstr "Ouder"
-
-#: lib/widgets/featured-post-widget.php:253
-msgid "ID"
-msgstr "ID"
-
-#: lib/widgets/featured-post-widget.php:254
-msgid "Comment Count"
-msgstr "Reactie Teller"
-
-#: lib/widgets/featured-post-widget.php:255
-msgid "Random"
-msgstr "Willekeurig"
-
-#: lib/widgets/featured-post-widget.php:260
-msgid "Sort Order"
-msgstr "Sorteer Volgorde"
-
-#: lib/widgets/featured-post-widget.php:262
-msgid "Descending (3, 2, 1)"
-msgstr "Aflopend (3, 2, 1)"
-
-#: lib/widgets/featured-post-widget.php:263
-msgid "Ascending (1, 2, 3)"
-msgstr "Oplopend (1, 2, 3)"
-
-#: lib/widgets/featured-post-widget.php:273
-msgid "Show Author Gravatar"
-msgstr "Toon Schrijver Avatar"
-
-#: lib/widgets/featured-post-widget.php:277
-#: lib/widgets/user-profile-widget.php:146
-msgid "Gravatar Size"
-msgstr "Gravatar Afmeting"
-
-#: lib/widgets/featured-post-widget.php:279
-msgid "Small (45px)"
-msgstr "Klein (45px)"
-
-#: lib/widgets/featured-post-widget.php:280
-msgid "Medium (65px)"
-msgstr "Medium (65px)"
-
-#: lib/widgets/featured-post-widget.php:281
-msgid "Large (85px)"
-msgstr "Groot (85px)"
-
-#: lib/widgets/featured-post-widget.php:282
-msgid "Extra Large (125px)"
-msgstr "Extra Groot (125px)"
-
-#: lib/widgets/featured-post-widget.php:287
-#: lib/widgets/user-profile-widget.php:158
-msgid "Gravatar Alignment"
-msgstr "Gravatar Uitlijning"
-
-#: lib/widgets/featured-post-widget.php:335
-msgid "Show Post Title"
-msgstr "Toon Artikel Titel"
-
-#: lib/widgets/featured-post-widget.php:340
-msgid "Show Post Info"
-msgstr "Toon Post Info"
-
-#: lib/widgets/featured-post-widget.php:345
-msgid "Content Type"
-msgstr "Content Type"
-
-#: lib/widgets/featured-post-widget.php:347
-msgid "Show Content"
-msgstr "Toon Content"
-
-#: lib/widgets/featured-post-widget.php:348
-msgid "Show Excerpt"
-msgstr "Toon Excerpt"
-
-#: lib/widgets/featured-post-widget.php:349
-msgid "Show Content Limit"
-msgstr "Toon Content Limiet"
-
-#: lib/widgets/featured-post-widget.php:350
-msgid "No Content"
-msgstr "Geen content"
-
-#: lib/widgets/featured-post-widget.php:360
-msgid "More Text (if applicable)"
-msgstr "Meer Tekst (indien van toepassing)"
-
-#: lib/widgets/featured-post-widget.php:368
-msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Om een ongeordende lijst van meerdere artikelen uit deze categorie te tonen, vul de informatie hieronder in a.u.b."
-
-#: lib/widgets/featured-post-widget.php:386
-msgid "Show Category Archive Link"
-msgstr "Toon Categorie Archief Links"
-
-#: lib/widgets/featured-post-widget.php:390
-msgid "Link Text"
-msgstr "Link Tekst"
-
-#: lib/widgets/latest-tweets-widget.php:49
-msgid "Display a list of your latest tweets."
-msgstr "Toon een lijst van je laatste tweets."
-
-#: lib/widgets/latest-tweets-widget.php:58
-msgid "Genesis - Latest Tweets"
-msgstr "Genesis - Laatste Tweets"
-
-#: lib/widgets/latest-tweets-widget.php:98
-msgid "The Twitter API is taking too long to respond. Please try again later."
-msgstr "Het duurt te lang voor de Twitter API om te reageren. Probeer het later nog eens."
-
-#: lib/widgets/latest-tweets-widget.php:101
-msgid "There was an error while attempting to contact the Twitter API. Please try again."
-msgstr "Er heeft zich een fout voorgedaan bij het benaderen van de Twitter API. Probeer het nog een keer."
-
-#: lib/widgets/latest-tweets-widget.php:104
-msgid "The Twitter API returned an error while processing your request. Please try again."
-msgstr "De Twitter API heeft een fout genegereerd tijdens het behandelen van je aanvraag. Probeer het nog een keer."
-
-#: lib/widgets/latest-tweets-widget.php:118
-msgid "about %s ago"
-msgstr "ongeveer %s geleden"
-
-#: lib/widgets/latest-tweets-widget.php:182
-msgid "If you would like to continue to use the Latest Tweets widget functionality, please have a site administrator <a href=\"%s\" target=\"_blank\">install this plugin</a>."
-msgstr "Als u wilt doorgaan met het gebruiken van de Latest Tweets widget functionaliteit, laat dan een site beheerder <a href=\"%s\" target=\"_blank\"> deze plugin installeren </a>."
-
-#: lib/widgets/latest-tweets-widget.php:191
-msgid "If you would like to continue to use the Latest Tweets widget functionality, please <a href=\"%s\" class=\"thickbox\" title=\"Install Genesis Latest Tweets\">install this plugin</a>."
-msgstr "Als u wilt doorgaan met het gebruiken van de Latest Tweets widget functionaliteit, installeer dan <a href=\"%s\" class=\"thickbox\" title=\"Installeer Genesis Latest Tweets\"> deze plugin </a>."
-
-#: lib/widgets/user-profile-widget.php:42
-msgid "Read More"
-msgstr "Lees meer"
-
-#: lib/widgets/user-profile-widget.php:48
-msgid "Displays user profile block with Gravatar"
-msgstr "Toon gebruikersprofielblok met Gravatar"
-
-#: lib/widgets/user-profile-widget.php:57
-msgid "Genesis - User Profile"
-msgstr "Genesis - Gebruikersprofiel"
-
-#: lib/widgets/user-profile-widget.php:96
-msgid "View My Blog Posts"
-msgstr "Bekijk mijn Blog Artikelen"
-
-#: lib/widgets/user-profile-widget.php:141
-msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Selecteer een gebruiker. Het e-mail adres voor deze account zal worden gebruikt om de Gravatar afbeelding te benaderen."
-
-#: lib/widgets/user-profile-widget.php:149
-msgid "Small"
-msgstr "Klein"
-
-#: lib/widgets/user-profile-widget.php:149
-msgid "Medium"
-msgstr "Medium"
-
-#: lib/widgets/user-profile-widget.php:149
-msgid "Large"
-msgstr "Groot"
-
-#: lib/widgets/user-profile-widget.php:149
-msgid "Extra Large"
-msgstr "Extra Groot"
-
-#: lib/widgets/user-profile-widget.php:167
-msgid "Select which text you would like to use as the author description"
-msgstr "Selecteer de tekst die je wil gebruiken voor de schrijver omschrijving"
-
-#: lib/widgets/user-profile-widget.php:170
-msgid "Author Bio"
-msgstr "Schrijvers Bio"
-
-#: lib/widgets/user-profile-widget.php:172
-msgid "Custom Text (below)"
-msgstr "Eigen Tekst (onder)"
-
-#: lib/widgets/user-profile-widget.php:173
-msgid "Custom Text Content"
-msgstr "Aangepaste tekst content"
-
-#: lib/widgets/user-profile-widget.php:179
-msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Kies je uitgebreide \"About Me\" pagina uit de lijst hieronder. Naar deze pagina wordt gelinked vanuit het einde van de about me sectie."
-
-#: lib/widgets/user-profile-widget.php:184
+#: lib/widgets/user-profile-widget.php:189
 msgid "Extended page link text"
 msgstr "Verlengde pagina link tekst"
 
-#: lib/widgets/user-profile-widget.php:190
-msgid "Show Author Archive Link?"
-msgstr "Toon link naar het schrijversarchief?"
+#: lib/functions/widgetize.php:108
+msgid "Header Left"
+msgstr "Header links"
 
-#: search.php:28
+#: lib/functions/widgetize.php:109
+msgid "This is the widget area in the header."
+msgstr "Dit is het widget ruimte in de header."
+
+#: lib/init.php:59
+msgid "Secondary Navigation Menu"
+msgstr "Secondary Navigation Menu"
+
+#: lib/widgets/user-profile-widget.php:178
+msgid "Custom Text Content"
+msgstr "Aangepaste tekst content"
+
+#: lib/admin/seo-settings.php:52 lib/admin/theme-settings.php:72
+#: lib/classes/admin.php:109
+msgid "Error saving settings."
+msgstr "Error tijdens het opslaan van instellingen."
+
+#: lib/admin/cpt-archive-settings.php:160 lib/admin/term-meta.php:49
+msgid "Archive Headline"
+msgstr "Archief Headline"
+
+#: lib/admin/cpt-archive-settings.php:162 lib/admin/term-meta.php:52
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Laat deze leeg als je geen headline wilt tonen."
+
+#: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:56
+msgid "Archive Intro Text"
+msgstr "Archief intro tekst."
+
+#: lib/admin/cpt-archive-settings.php:166 lib/admin/term-meta.php:59
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Laat deze leeg als je geen intro tekst wilt tonen."
+
+#: lib/structure/footer.php:145
+msgid "on"
+msgstr "op"
+
+#: lib/admin/seo-settings.php:392
+msgid "Homepage Author"
+msgstr "Homepage Auteur"
+
+#: lib/admin/seo-settings.php:395
+msgid "Select the user that you would like to be used as the %s for the homepage. Be sure the user you select has entered their Google+ profile address on the profile edit screen."
+msgstr "Selecteer de gebruiker die gebruikt moet worden als %s voor de homepage. Zorg ervoor dat de gebruiker het Google+ profiel adres in het profiel heeft ingevoerd."
+
+#: lib/admin/seo-settings.php:400
+msgid "Select User"
+msgstr "Selecteer gebruiker"
+
+#: lib/admin/theme-settings.php:597
+msgid "Use for site title/logo:"
+msgstr "Gebruik voor site titel/logo:"
+
+#: lib/admin/user-meta.php:26
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/whats-new.php:39
+msgid "Welcome to Genesis %s"
+msgstr "Welkom bij Genesis %s"
+
+#: lib/admin/whats-new.php:66
+msgid "What&#8217;s New"
+msgstr "Wat is er nieuw"
+
+#: lib/admin/whats-new.php:112
+msgid "Project Leads"
+msgstr "Projectleiders"
+
+#: lib/admin/whats-new.php:156
+msgid "Go to Theme Settings &rarr;"
+msgstr "Ga naar de Thema Instellingen &rarr;"
+
+#: lib/admin/whats-new.php:157
+msgid "Go to SEO Settings &rarr;"
+msgstr "Ga naar de SEO Instellingen &rarr;"
+
+#: lib/shortcodes/post.php:170
+msgid "Visit %s&#x02019;s website"
+msgstr "Bekijk de website van %s&#x02019;"
+
+#: lib/structure/loops.php:253
+msgid "Read more"
+msgstr "Lees meer"
+
+#: lib/structure/search.php:31
+msgid "Search this website"
+msgstr "Zoek op deze website"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "Lees meer"
+
+#: lib/admin/seo-settings.php:263
+msgid "Document Title Settings"
+msgstr "Document Titel Instellingen"
+
+#: lib/admin/seo-settings.php:285
+msgid "The document title (%s) is the single most important element in your document source for <abbr title=\"Search engine optimization\">SEO</abbr>. It succinctly informs search engines of what information is contained in the document. The title can, and should, be different on each page, but these options will help you control what it will look like by default."
+msgstr "De titel van het document (%s) is het belangrijkste element van uw document bron voor <abbr title=\"Zoekmachine optimalisatie\">SEO</abbr>. Het informeert zoekmachines welke informatie is opgenomen in het document. De titel kan, en moet, op iedere pagina anders zijn. Met deze opties kunt u bepalen hoe het er standaard uit zal zien."
+
+#: lib/admin/seo-settings.php:287
+msgid "<strong>By default</strong>, the home page document title will contain the site title, the single post and page document titles will contain the post or page title, the archive pages will contain the archive type, etc."
+msgstr "<strong> Standaard </strong> bevat de homepage titel de site titel. De single post en pagina's bevatten de titels van de post of pagina en zal de archief pagina's bevatten het archief type, enz.\n"
+
+#: lib/admin/seo-settings.php:291
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Voeg site ondertitel toe aan %s op de home pagina?"
+
+#: lib/admin/seo-settings.php:296
+msgid "Add site name to %s on inner pages?"
+msgstr "Voeg site naam toe aan %s op interne pagina's?"
+
+#: lib/admin/seo-settings.php:300
+msgid "Document Title Additions Location:"
+msgstr "Document titel toevoegingen locatie:"
+
+#: lib/admin/seo-settings.php:301
+msgid "Determines which side the added title text will go on."
+msgstr "Bepaalt aan welke kant de toegevoegde titel tekst zal staan."
+
+#: lib/admin/seo-settings.php:313
+msgid "Document Title Separator:"
+msgstr "Scheidingsteken in document titel "
+
+#: lib/admin/seo-settings.php:315
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Als de titel bestaat uit twee delen (titel en optionele toevoeging), dan komt het scheidingsteken er tussen."
+
+#: lib/admin/seo-settings.php:354
+msgid "Site Description (Tagline)"
+msgstr "Site ondertitel"
+
+#: lib/admin/seo-settings.php:362
+msgid "Homepage Document Title:"
+msgstr "Homepage document titel"
+
+#: lib/admin/seo-settings.php:364
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Als u het document titel veld leeg laat, zal de site titel in plaats daarvan worden gebruikt."
+
+#: lib/admin/seo-settings.php:368
+msgid "Home Meta Description:"
+msgstr "Home meta beschrijving"
+
+#: lib/admin/seo-settings.php:370
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "De meta beschrijving kan worden gebruikt om de tekst gebruikt onder de titel op zoekmachine resultaten pagina's te bepalen."
+
+#: lib/admin/seo-settings.php:374
+msgid "Home Meta Keywords (comma separated):"
+msgstr "Home meta zoektermen (gescheiden door een kommma):"
+
+#: lib/admin/seo-settings.php:424
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr "Standaard plaatst WordPress diverse tags in je document %1$s. Veel van deze tags zijn niet noodzakelijk, dragen niet bij aan de <abbr title=\"zoekmachine optimalisatie\">SEO</abbr>  en vertragen je website. Kies hier welke tags je in je document %1$s wilt hebben. Als je het niet zeker weet, laat het dan uitgevinkt staan."
+
+#: lib/admin/seo-settings.php:447
+msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
+msgstr ""
+
+#: lib/admin/seo-settings.php:489
+msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
+msgstr ""
+
+#: lib/admin/theme-settings.php:253 lib/admin/theme-settings.php:333
+#: lib/admin/theme-settings.php:417
+msgid "Header"
+msgstr "Kop"
+
+#: lib/admin/theme-settings.php:258 lib/admin/theme-settings.php:338
+#: lib/admin/theme-settings.php:420
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: lib/admin/theme-settings.php:427
+msgid "Blog Page Template"
+msgstr "Blog Pagina Template"
+
+#: lib/admin/theme-settings.php:762
+msgid "Posts Page"
+msgstr "Berichten pagina"
+
+#: lib/admin/theme-settings.php:765
+msgid "Homepage"
+msgstr "Homepage"
+
+#: lib/admin/theme-settings.php:875
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Deze instellingen gelden voor alle pagina's die de \"Blog\" sjabloon gebruiken. Niet voor de homepage of archiefpagina's voor berichten."
+
+#: lib/functions/seo.php:125
+msgid "Have you tried our Scribe content marketing software? Do research, content and website optimization, and relationship building without leaving WordPress. <b>Genesis owners save big when using the special link on the special page we've created just for you</b>. <a href=\"%s\" target=\"_blank\">Click here for more info</a>."
+msgstr ""
+
+#: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
+#: lib/admin/whats-new.php:128
+msgid "Lead Developer"
+msgstr "Hoofd ontwikkelaar"
+
+#: lib/admin/whats-new.php:136
+msgid "Contributors"
+msgstr "Bijdragers"
+
+#: lib/admin/whats-new.php:147
+msgid "Contributor"
+msgstr "Bijdrager"
+
+#: search.php:22
 msgid "Search Results for:"
 msgstr "Zoekresultaten voor:"
+
+#: 404.php:27
+msgid "Not found, error 404"
+msgstr "Niet gevonden, error 404"
+
+#: 404.php:32
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr ""
+
+#: lib/admin/cpt-archive-settings.php:55
+msgid "Archive"
+msgstr "Archief"
+
+#: lib/admin/cpt-archive-settings.php:158
+msgid "View the <a href=\"%s\">%s archive</a>."
+msgstr "Toon het <a href=\"%s\">%s archief</a>."
+
+#: lib/admin/cpt-archive-settings.php:186 lib/admin/term-meta.php:109
+#: lib/admin/user-meta.php:194
+msgid "Meta Description"
+msgstr "Meta beschrijving"
+
+#: lib/admin/cpt-archive-settings.php:189 lib/admin/term-meta.php:116
+#: lib/admin/user-meta.php:201
+msgid "Meta Keywords"
+msgstr "Meta zoekwoorden"
+
+#: lib/admin/cpt-archive-settings.php:193
+msgid "Robots Meta Tags:"
+msgstr "Robot meta tags:"
+
+#: lib/admin/cpt-archive-settings.php:196
+#: lib/admin/cpt-archive-settings.php:199
+#: lib/admin/cpt-archive-settings.php:202
+msgid "Apply %s to this archive"
+msgstr "Voeg %s toe aan dit archief"
+
+#: lib/admin/inpost-metaboxes.php:141
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/admin/inpost-metaboxes.php:158
+msgid "Page-specific Scripts"
+msgstr "Pagina specifieke scripts"
+
+#: lib/admin/inpost-metaboxes.php:160
+msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
+msgstr ""
+
+#: lib/admin/seo-settings.php:342
+msgid "HTML5 allows for multiple %s tags throughout the document source, provided they are the primary title for the section in which they appear. However, following this standard may have a marginal negative impact on SEO."
+msgstr ""
+
+#: lib/admin/theme-settings.php:634
+msgid "Primary Navigation Extras"
+msgstr "Primaire navigatie extraatjes"
+
+#: lib/functions/deprecated.php:67
+msgid "decimal or hexidecimal entities"
+msgstr ""
+
+#: lib/js/load-scripts.php:144
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "De wijzigingen die je hebt gemaakt zullen verloren gaan als je van deze pagina weg navigeert."
+
+#: lib/js/load-scripts.php:145
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr ""
+
+#: lib/structure/comments.php:296
+msgid "at"
+msgstr "op"
+
+#: lib/structure/post.php:313
+msgid "Permalink"
+msgstr "Permalink"
+
+#: lib/structure/post.php:351
+msgid "Sorry, no content matched your criteria."
+msgstr "Sorry, geen content die voldoet aan je criteria."
+
+#: lib/widgets/featured-post-widget.php:327
+msgid "Exclude Previously Displayed Posts?"
+msgstr ""
+
+#: lib/admin/whats-new.php:63
+msgid "Congratulations! You're now running Genesis %s."
+msgstr "Gefeliciteerd! Je draait nu op Genesis %s."
+
+#: lib/admin/whats-new.php:69
+msgid "HTML5 Markup"
+msgstr "HTML5 opmaak"
+
+#: lib/admin/whats-new.php:72
+msgid "Microdata"
+msgstr "Microdata"
+
+#: lib/admin/whats-new.php:75
+msgid "A Brand New Design"
+msgstr "Een gloed nieuw design"
+
+#: lib/admin/whats-new.php:76
+msgid "Genesis is sporting a fresh new look. And we've taken advantage of the new HTML5 markup, as well as some snazzy CSS3. We think you're gonna love this."
+msgstr ""
+
+#: lib/admin/whats-new.php:78
+msgid "Removing Features"
+msgstr "Verwijderde functionaliteit"
+
+#: lib/admin/whats-new.php:83
+msgid "Genesis Latest Tweets Widget"
+msgstr "Genesis laatste Tweet Widget"
+
+#: lib/admin/whats-new.php:84
+msgid "Genesis eNews Extended"
+msgstr "Genesis eNieuws uitbreiding"
+
+#: lib/admin/whats-new.php:85
+msgid "Single Post Template"
+msgstr "Eén Artikel Template"
+
+#: lib/admin/whats-new.php:86
+msgid "Fancy Dropdowns"
+msgstr "Geavanceerde dropdowns"
+
+#: lib/admin/whats-new.php:90
+msgid "Boring, but important"
+msgstr "Saai, maar wel belangrijk"
+
+#: lib/admin/whats-new.php:95
+msgid "Better named loop hooks for HTML5."
+msgstr "Beter benoemde loop hooks voor HMTL5."
+
+#: lib/admin/whats-new.php:96
+msgid "Network Upgrade now upgrades the Genesis database for all sites in a network when running WordPress in multisite mode."
+msgstr "Netwerk upgrade, upgrade de Genesis database voor alle netwerken wanneer je Wordpress in mulitisite mode draait."
+
+#: lib/admin/whats-new.php:97
+msgid "Widget classes are now coded in PHP5 format."
+msgstr "Widget classes zijn nu gecodeerd in PHP5 formaat."
+
+#: lib/admin/whats-new.php:98
+msgid "Admin CSS and Javascript are now minified."
+msgstr "Admin CSS en Javascript zijn nu geminimaliseerd."
+
+#: lib/admin/whats-new.php:99
+msgid "Inline HTML comments have been removed to reduce page size."
+msgstr "Inline HTML commentaar is nu verwijderd om paginagrootte te reduceren."
+
+#: lib/admin/whats-new.php:100
+msgid "The Scripts option now has its own metabox when editing an entry."
+msgstr ""
+
+#: lib/admin/whats-new.php:101
+msgid "Custom Post Type archive pages now have a settings page so you can control the output."
+msgstr ""
+
+#: lib/admin/whats-new.php:102
+msgid "Genesis tracks displayed entry IDs so you can exclude entries from showing twice on a page."
+msgstr ""
+
+#: lib/admin/whats-new.php:103
+msgid "Entries without titles now display a permalink after the post content."
+msgstr ""
+
+#: lib/functions/general.php:345
+msgid "Install %s"
+msgstr "Installeer %s"
+
+#: 404.php:39
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "De pagina waar je naar zoekt bestaat niet meer. Misschien kun je vinden wat je zoekt via het menu of mogelijk met onderstaande informatie."
