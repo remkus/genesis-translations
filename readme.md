@@ -5,7 +5,7 @@
 * Tags: genesis, translations,
 * Requires at least: 3.6
 * Tested up to: 3.8.1
-* Stable tag: 2.0.5
+* Stable tag: 2.0.5.1
 Translate your Genesis Framework powered WordPress site into one of the available languages.
 
 ## Description
@@ -54,6 +54,10 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 ##Changelog
+
+### 2.0.5.1
+
+* Adding fa_IR
 
 ### 2.0.5
 

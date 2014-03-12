@@ -9,7 +9,7 @@
  * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
  * Author: Remkus de Vries
- * Version: 2.0.5
+ * Version: 2.0.5.1
  * Author URI: http://remkusdevries.com/
  * License: GPLv2
  * Text Domain: genesis-translations
