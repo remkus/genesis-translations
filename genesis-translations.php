@@ -9,7 +9,7 @@
  * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
  * Author: Remkus de Vries
- * Version: 2.0.5.1
+ * Version: 2.0.6
  * Author URI: http://remkusdevries.com/
  * License: GPLv2
  * Text Domain: genesis-translations
@@ -21,7 +21,7 @@
  *
  */
 define( 'GENTRANS_FILE', 'genesis-translations/genesis-translations.php' );
-define( 'GENTRANS_VERSION', '2.0.5' );
+define( 'GENTRANS_VERSION', '2.0.6' );
 
 /**
  * The text domain for the plugin
@@ -69,7 +69,7 @@ function fst_genesis_translations_activation_check() {
     $version = $theme->get( 'Version' );
 
     // Set what we consider the minimum Genesis version
-    $minimum_genesis_version = '1.7';
+    $minimum_genesis_version = '1.9';
 
     // Restrict activation to only when the Genesis Framework is activated
     if ( basename( get_template_directory() ) != 'genesis' ) {
