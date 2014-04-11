@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-03-03 13:39:00+0000\n"
+"PO-Revision-Date: 2014-04-11 15:34:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,15 +90,15 @@ msgstr "Deze optie laat je de opmaak van de archiefpagina selecteren. Op de mees
 
 #: lib/admin/whats-new.php:73
 msgid "If you're using a theme with HTML5 enabled, Genesis will also output your markup using microdata.. Not sure what that is? We don't blame you. Take a look at <a href=\"%s\" target=\"_blank\">this explanation</a>. Still confused? Don't worry. That's why you're using a framework. We did all the research and modified the markup to serve search engines the Microdata they're looking for, so you don't have to. It's good to be a Genesis user."
-msgstr ""
+msgstr "Als je een HTML 5 thema gebruikt dan zal Genesis Microdata toevoegen aan je opmaak. Weet je niet precies wat dat is? Geen probleem, lees deze <a href=\"%s\" target=\"_blank\">uitleg</a>. Nog steeds niet duidelijk? Maak je geen zorgen. Dat is waarom je een framework gebruikt. Wij hebben het onderzoek al gedaan en de opmaak zo aangepast dat de zoekmachines de Microdata krijgen waar ze naar zoeken. Dan hoef jij het niet meer te doen. Dat is het voordeel als je een Genesis gebruiker bent. "
 
 #: lib/admin/import-export.php:79
 msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
-msgstr ""
+msgstr "Je kan je Genesis instellingen exporteren om een back-up te maken of ze te kopiëren naar een andere website. Child thema's en plugins kunnen hun eigen checkboxes toevoegen. De instellingen worden geëxporteerd in %s formaat."
 
 #: lib/admin/whats-new.php:70
 msgid "Genesis has always been on the cutting edge of web technology, and Genesis 2.0 continues in that excellent tradition. With a single line of code in a child theme, Genesis will now output HTML5 markup in place of the old XHTML tags. Also, every theme we build in the future will be developed on HTML5."
-msgstr ""
+msgstr "Genesis heeft altijd voorop gelopen bij het gebruik van web technieken. Ook genesis 2.0 gaat op die voet verder. Met één regel code in een child thema zorgt Genesis dat de oude XHTML tags vervangen worden door HTML5 opmaak. Elk toekomstig thema dat we gaan maken zal ontwikkeld worden met HTML5."
 
 #: lib/admin/theme-settings.php:626
 msgid "Load Superfish Script?"
@@ -110,7 +110,7 @@ msgstr "Als je hierboven een e-mail adres invult ontvang je een e-mail zodra er 
 
 #: lib/admin/theme-settings.php:293
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
-msgstr ""
+msgstr "Er zijn enkele speciale eigenschappen van de Blog Pagina Template waarmee je kan aangeven welke categorie je wilt laten zien op de pagina's die deze template gebruiken. Dit is bijvoorbeeld handig als je een \"nieuws\" categorie hebt (of een andere categorie) die je apart wilt laten zien. "
 
 #: lib/functions/deprecated.php:32
 msgid "data in style sheet files"
@@ -118,15 +118,15 @@ msgstr "data in style sheet bestanden"
 
 #: lib/structure/sidebar.php:65
 msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr ""
+msgstr "Dit is %s. Je kan inhoud toevoegen aan deze ruimte door je <a href=\"%s\">Widgets Sectie</a> te bezoeken en nieuwe widgets toe te voegen. "
 
 #: lib/admin/theme-settings.php:254
 msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
-msgstr ""
+msgstr "De <strong>Dynamische tekst</strong> optie gebruikt de Websitetitel en Ondertitel uit de algemene instellingen in je header."
 
 #: lib/admin/theme-settings.php:255
 msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
-msgstr ""
+msgstr "De <strong>Afbeelding logo</strong> optie gebruikt een afbeelding in de header in plaats van de website titel en ondertitel. Deze instelling voegt een .header-image class toe aan je website. Daarmee kun je een header afbeelding instellingen via het bestand style.css in je child thema. Deze afbeelding van opgeslagen worden als logo.png en opgeslagen worden in de images folder van je child thema.  "
 
 #: lib/admin/theme-settings.php:259
 msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
@@ -138,15 +138,15 @@ msgstr "Toont de datum van vandaag"
 
 #: lib/admin/theme-settings.php:262
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
-msgstr ""
+msgstr "RSS feed link maakt een link zichtbaar naar de RSS feed van je site zodat een lezer zich kan aanmelden voor je site met een feedreader naar keuze. "
 
 #: lib/admin/theme-settings.php:263
 msgid "Search form displays a small search form utilizing the WordPress search functionality."
-msgstr ""
+msgstr "Via het zoekformulier wordt een kleine zoekbalk zichtbaar die de WordPress zoek functionaliteit gebruikt."
 
 #: lib/admin/theme-settings.php:264
 msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
-msgstr ""
+msgstr "Via de Twitter link wordt een link zichtbaar naar je Twitter profiel, zoals aangegeven in de Twitter ID instellingen. Vul hier alleen je gebruikersnaam in."
 
 #: lib/admin/theme-settings.php:638
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
@@ -222,11 +222,11 @@ msgstr "Wanner het menu zichtbaar is, kun je via dit menu de algemene SEO-instel
 
 #: lib/admin/seo-settings.php:173
 msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
-msgstr ""
+msgstr "Elke pagina, bericht en term heeft zijn eigen SEO instellingen. De standaard instellingen worden aangeraden voor de meeste gebruikers. Als je je SEO instellingen wilt aanpassen, de opties bevatten ook eigen beschrijvingen."
 
 #: lib/admin/seo-settings.php:174
 msgid "Below you'll find a few succinct notes on the options for each box:"
-msgstr ""
+msgstr "Hieronder staan enkele beknopte opmerkingen bij de verschillende opties:"
 
 #: lib/admin/seo-settings.php:177 lib/admin/seo-settings.php:216
 msgid "Doctitle Settings"
@@ -234,51 +234,51 @@ msgstr "Doctitle Instellingen"
 
 #: lib/admin/seo-settings.php:178
 msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
-msgstr ""
+msgstr "<strong>Ondertitel toevoegen</strong> voegt de ondertitel uit je algemene instellingen toe na de websitetitel op je startpagina."
 
 #: lib/admin/seo-settings.php:179
 msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
-msgstr ""
+msgstr "<strong>Websitenaam toevoegen</strong> zet de website naam uit de algemene instellingen na de titel op de inner page. "
 
 #: lib/admin/seo-settings.php:180
 msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
-msgstr ""
+msgstr "<strong>Doctitle Locatie Toevoegen</strong> bepaalt aan welke kant je de eerder genoemde items toevoegt."
 
 #: lib/admin/seo-settings.php:181
 msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
-msgstr ""
+msgstr "Het <strong>scheidingsteken</strong> is het karakter dat tussen de titel en toegevoegde tekst komt te staan."
 
 #: lib/admin/seo-settings.php:185
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
-msgstr ""
+msgstr "Dit zijn de SEO instellingen voor de startpagina. Let op: deze instellingen zijn niet van toepassing als een statische pagina is ingesteld als startpagina. Als je een statische pagina gebruikt als startpagina kun je de SEO instellingen aanpassen bij de instellingen van die pagina zelf."
 
 #: lib/admin/seo-settings.php:186
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
-msgstr ""
+msgstr "Je kan ook aangeven of de website titel, beschrijving of je eigen tekst tussen &lt;h1&gt; tags (de primaire heading in HTML) komt te staan. "
 
 #: lib/admin/seo-settings.php:187
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
-msgstr ""
+msgstr "Om eigen tekst toe te voegen zul je een php bestand moeten wijzigen of een tekst widget gebruiken op een startpagina waarop widgets ingeschakeld zijn."
 
 #: lib/admin/seo-settings.php:188
 msgid "The home doctitle sets what will appear within the <title></title> tags (unseen in the browser) for the home page."
-msgstr ""
+msgstr "Met de home doctitle stel je de titel in voor de homepage. Deze wordt opgenomen tussen de <title></title> tags (niet zichtbaar in de browser)."
 
 #: lib/admin/seo-settings.php:189
 msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
-msgstr ""
+msgstr "De home META beschrijving en zoekwoorden worden gebruikt om de meta tags op de homepage in te stellen. De META beschrijving is een kort stukje tekst die zichtbaar wordt in de zoekmachine resultaten."
 
 #: lib/admin/cpt-archive-settings.php:263 lib/admin/seo-settings.php:190
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
-msgstr ""
+msgstr "De meeste zoekmachines gebruiken op dit moment geen Zoekwoorden of hechten er weinig waarde aan; echter, voor de zekerheid kun je zoekwoorden instellen voor het geval deze in de toekomst meer waarde krijgen en om je te helpen je inhoud te structureren. Als de inhoud niet overeenkomt met je zoekwoorden dan zou je de inhoud nog eens zorgvuldig kunnen bekijken."
 
 #: lib/admin/seo-settings.php:191
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr ""
+msgstr "De homepage Robots META Tags vertelt de zoekmachines hoe ze de homepage moeten behandelen. Noindex geeft aan dat de pagina niet geïndexeerd moet worden, en deze zal dus niet in de zoekresultaten komen. Nofollow betekent dat links vanaf deze pagina niet gevolgd worden en noarchive vertelt de zoekmachines om geen archiefcopy van deze pagina te maken."
 
 #: lib/admin/seo-settings.php:195
 msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
-msgstr ""
+msgstr "De Relatie Link tags worden door Wordpress toegevoegd en hebben op dit moment geen SEO waarde maar maken wel je site langzamer. Ze zijn standaard uitgezet. Als je ze nodig hebt voor een plugin of om een andere niet-standaard reden dan kun je ze hier naar behoefte weer aanzetten. "
 
 #: lib/admin/seo-settings.php:196
 msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
@@ -330,7 +330,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:234
 msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
-msgstr ""
+msgstr "Als je Feedburner gebruikt om je rss feed(s) te publiceren dan kun je via deze functie de oorspronkelijke feed van je website doorverwijzen naar je Feedburner feed."
 
 #: lib/admin/theme-settings.php:235
 msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
@@ -338,7 +338,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:236
 msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
-msgstr ""
+msgstr "Door de optie \"Redirect Feed\" aan te vinken zal al het verkeer naar de standaard feed links doorgestuurd worden naar de Feedburner link."
 
 #: lib/admin/theme-settings.php:240
 msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
@@ -1480,7 +1480,7 @@ msgstr "Dit kan handig zijn voor het uitzoeken van problemen met je thema wannee
 
 #: lib/admin/theme-settings.php:699
 msgid "If your custom feed(s) are not handled by Feedburner, we do not recommend that you use the redirect options."
-msgstr "Als je eigen feed(s) zijn niet afgehandeld door Feedburner, raden we je aan om de redirect opties te gebruiken."
+msgstr "Als je eigen feed(s) niet zijn afgehandeld door Feedburner, raden we je niet aan om de redirect opties te gebruiken."
 
 #: lib/admin/theme-settings.php:736
 msgid "Comments and Trackbacks can also be disabled on a per post/page basis when creating/editing posts/pages."
