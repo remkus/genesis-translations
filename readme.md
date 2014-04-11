@@ -55,6 +55,10 @@ No screenshots (yet). Let me know if you need some.
 
 ##Changelog
 
+### 2.0.6
+
+* Updated fr_FR, nl_NL and bg_BG
+
 ### 2.0.5.1
 
 * Adding fa_IR
