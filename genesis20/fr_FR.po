@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 16:29:34+0000\n"
+"PO-Revision-Date: 2014-04-11 15:30:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1855,7 +1855,7 @@ msgstr "Par défaut, WordPress place plusieurs balises dans votre document %1$s.
 
 #: lib/admin/seo-settings.php:447
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr "<span class=\"genesis-admin-note\">Note</span>Le lien court pour les balises a une utilité pour certains services spécialisés mais il n'a aucune valeur <abbr title=\"Search engine optimization\">SEO</abbr> ."
+msgstr "<span class=\"genesis-admin-note\">Note:</span> Le lien court pour les balises a une utilité pour certains services spécialisés mais il n'a aucune valeur <abbr title=\"Search engine optimization\">SEO</abbr> ."
 
 #: lib/admin/seo-settings.php:489
 msgid "Some search engines will cache pages in your site (e.g. Google Cache). The %1$s tag will prevent them from doing so. Choose which archives you want %1$s applied to."
