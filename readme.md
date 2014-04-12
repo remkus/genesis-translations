@@ -55,6 +55,10 @@ No screenshots (yet). Let me know if you need some.
 
 ##Changelog
 
+### 2.0.7
+
+* Updated hu_HU and sv_SE
+
 ### 2.0.6
 
 * Updated fr_FR, nl_NL and bg_BG
