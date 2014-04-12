@@ -4,7 +4,7 @@ Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
 Requires at least: 3.6
 Tested up to: 3.8.1
-Stable tag: 2.0.6
+Stable tag: 2.0.7
 
 This plugin translates the Genesis Framework into one of the available languages.
 
