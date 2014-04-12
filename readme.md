@@ -5,7 +5,7 @@
 * Tags: genesis, translations,
 * Requires at least: 3.6
 * Tested up to: 3.8.1
-* Stable tag: 2.0.5.1
+* Stable tag: 2.0.7
 
 
 ## Description
@@ -54,6 +54,10 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 No screenshots (yet). Let me know if you need some.
 
 ##Changelog
+
+### 2.0.7
+
+* Updated hu_HU and sv_SE
 
 ### 2.0.6
 
