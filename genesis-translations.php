@@ -119,3 +119,4 @@ function fst_set_genesis_language_dir() {
     }
 
 }
+require('genesis-framework.php' );
