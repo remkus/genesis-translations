@@ -2,8 +2,8 @@
 Contributors: DeFries
 Donate link: http://remkusdevries.com/donate/
 Tags: genesis, translations,
-Requires at least: 3.6
-Tested up to: 4.0
+Requires at least: 4.4
+Tested up to: 4.4.1
 Stable tag: 2.1
 
 This plugin translates the Genesis Framework into one of the available languages.

@@ -1,7 +1,6 @@
 <?php
 /**
  * This is a test file, for testing future versions of the plugin.
- * This will be used for providing translations through translate.wordpress.org.
  */
 return;
 
