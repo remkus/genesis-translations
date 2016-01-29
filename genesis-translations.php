@@ -35,7 +35,7 @@ define( 'GTRANS_DOMAIN' , 'genesis-translations' );
  *
  * @since 1.0
  */
-load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/languages' );
+load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/genesis20' );
 
 /**
  * Used to cutoff a string to a set length if it exceeds the specified length
@@ -84,8 +84,6 @@ function fst_genesis_translations_activation_check() {
     }
 }
 
-
-
 add_action( 'genesis_init', 'fst_set_genesis_language_dir', 1 );
 /**
  * Defining the Genesis Language constants
@@ -113,9 +111,7 @@ function fst_set_genesis_language_dir() {
     // Compare Genesis version with what is set as old translation
     if ( version_compare( $version, $old_translations, '=<' ) ) {
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
+    } else {
+        require('genesis-framework.php' );
     }
-    else {
-        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis20/' );
-    }
-
 }
