@@ -97,5 +97,8 @@ function thememix_genesis_translation_init() {
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
     } else {
         require('translate.php' );
+        if ( is_admin() ) {
+            require( 'admin-page.php' );
+        }
     }
 }
