@@ -3,7 +3,7 @@
 /**
  * Outputs all of the translations strings from the Genesis theme.
  */
-function genesis_translations_strings() {
+function thememix_genesis_translations_strings() {
 	return array(
 		"Not found, error 404" => __( "Not found, error 404", 'genesis-translations' ),
 		"The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below." => __( "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below.", 'genesis-translations' ),
@@ -531,10 +531,10 @@ function genesis_translations_strings() {
  * @param  string  $text_domain The text domain
  * @return string  The translated text
  */
-function genesis_translations_gettext_filter( $text, $text_string, $text_domain ) {
+function thememix_genesis_translations_gettext_filter( $text, $text_string, $text_domain ) {
 
 	if ( 'genesis' == $text_domain ) {
-		$translations = genesis_translations_strings();
+		$translations = thememix_genesis_translations_strings();
 		if ( isset( $translations[$text_string] ) ) {
 			return $translations[$text_string];
 		}
@@ -542,7 +542,7 @@ function genesis_translations_gettext_filter( $text, $text_string, $text_domain 
 
 	return $text;
 }
-add_filter( 'gettext', 'genesis_translations_gettext_filter', 10, 3 );
+add_filter( 'gettext', 'thememix_genesis_translations_gettext_filter', 10, 3 );
 
 /**
  * Translating plauralised items.
@@ -555,10 +555,10 @@ add_filter( 'gettext', 'genesis_translations_gettext_filter', 10, 3 );
  * @param  string  $text_domain The text domain
  * @return string  The translated text
  */
-function genesis_translations_gettext_with_context_filter( $text, $singular, $plaural, $count, $context, $text_domain ) {
+function thememix_genesis_translations_gettext_with_context_filter( $text, $singular, $plaural, $count, $context, $text_domain ) {
 
 	if ( 'genesis' == $text_domain ) {
-		$translations = genesis_translations_strings();
+		$translations = thememix_genesis_translations_strings();
 
 		if ( 1 < $count && isset( $translations[$plaural] ) ) {
 			return $translations[$plaural];
@@ -570,5 +570,5 @@ function genesis_translations_gettext_with_context_filter( $text, $singular, $pl
 
 	return $text;
 }
-add_filter( 'ngettext_with_context', 'genesis_translations_gettext_with_context_filter', 10, 6 );
+add_filter( 'ngettext_with_context', 'thememix_genesis_translations_gettext_with_context_filter', 10, 6 );
 
