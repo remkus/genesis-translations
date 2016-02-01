@@ -15,7 +15,7 @@ function thememix_genesis_translations_add_admin_page() {
 		__ ( 'ThemeMix Genesis Translations', 'genesis-translations' ), // Page title
 		__ ( 'Translations', 'plugin-slug' ),                           // Menu title
 		'manage_options',                                               // Capability required
-		'thememix-translations',                                        // The URL slug
+		'genesis-translations',                                         // The URL slug
 		'thememix_genesis_translations_admin_page'                      // Displays the admin page
 	);
 }
