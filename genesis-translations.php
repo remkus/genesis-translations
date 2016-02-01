@@ -116,9 +116,3 @@ function thememix_genesis_translation_init() {
         }
     }
 }
-
-
-add_action('in_admin_footer', 'my_admin_footer_function', -1000);
-function my_admin_footer_function() {
-    echo '<p>This will be inserted at the bottom of admin page</p>';
-}
