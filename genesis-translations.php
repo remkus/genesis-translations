@@ -99,6 +99,7 @@ function thememix_genesis_translation_init() {
         require('translate.php' );
         if ( is_admin() ) {
             require( 'admin-page.php' );
+            require( 'i18n-module.php' );
         }
     }
 }
