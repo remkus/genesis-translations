@@ -20,7 +20,6 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_FILE', 'genesis-translations/genesis-translations.php' );
 define( 'GENTRANS_VERSION', '2.0.7' );
 
 /**
@@ -37,30 +36,16 @@ define( 'GTRANS_DOMAIN' , 'genesis-translations' );
  */
 load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/genesis20' );
 
-/**
- * Used to cutoff a string to a set length if it exceeds the specified length
- *
- * @author Nick Croft
- * @link http://designsbynickthegeek.com/
- *
- * @since 0.1
- * @version 0.2
- * @param string  $str    Any string that might need to be shortened
- * @param string  $length Any whole integer
- * @return string
- */
-
-
-register_activation_hook( __FILE__, 'fst_genesis_translations_activation_check' );
+register_activation_hook( __FILE__, 'genesis_translations_activation_check' );
 /**
  * Checks for activated Genesis Framework and its minimum version before allowing plugin to activate
  *
  * @author Nathan Rice, Remkus de Vries
- * @uses fst_genesis_translations_activation_check()
+ * @uses genesis_translations_activation_check()
  * @since 1.0
  * @version 2.0.2
  */
-function fst_genesis_translations_activation_check() {
+function genesis_translations_activation_check() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
@@ -84,17 +69,16 @@ function fst_genesis_translations_activation_check() {
     }
 }
 
-add_action( 'genesis_init', 'fst_set_genesis_language_dir', 1 );
+add_action( 'genesis_init', 'genesis_translation_init', 1 );
 /**
- * Defining the Genesis Language constants
+ * Loads the Genesis text strings and filters them.
+ * Alternatively, sets the GENESIS_LANGUAGES_DIR for older versions.
  *
  * @author Remkus de Vries, Daan Kortenbach
- * @access public
- * @return void
  * @since  1.0
  * @version  2.0.4
  */
-function fst_set_genesis_language_dir() {
+function genesis_translation_init() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
@@ -105,13 +89,13 @@ function fst_set_genesis_language_dir() {
     // Set what we consider the old translation version
     $old_translations = '1.9.1';
 
-    // Get root path to translations
-    $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ), "", plugin_basename( __FILE__ ) );
-
     // Compare Genesis version with what is set as old translation
     if ( version_compare( $version, $old_translations, '=<' ) ) {
+
+        // Get root path to translations
+        $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ), "", plugin_basename( __FILE__ ) );
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
     } else {
-        require('genesis-framework.php' );
+        require('translate.php' );
     }
 }

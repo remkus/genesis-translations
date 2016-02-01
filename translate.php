@@ -1,9 +1,8 @@
 <?php
-/**
- * This is a test file, for testing future versions of the plugin.
- * This will be used for providing translations through translate.wordpress.org.
- */
 
+/**
+ * Outputs all of the translations strings from the Genesis theme.
+ */
 function genesis_translations_strings() {
 	return array(
 		"Not found, error 404" => __( "Not found, error 404", 'genesis-translations' ),
@@ -512,11 +511,7 @@ function genesis_translations_strings() {
 		"http://www.studiopress.com/" => __( "http://www.studiopress.com/", 'genesis-translations' ),
 		"Blog" => __( "Blog", 'genesis-translations' ),
 		"seconds" => __( "seconds", 'genesis-translations' ),
-
 		'%s year-%s years' => _nx_noop( '%s year', '%s years', 'time difference', 'genesis-translations' ),
-		'%s year' => _nx_noop( '%s year', '%s years', 'time difference', 'genesis-translations' ),
-		'%s years' => _nx_noop( '%s year', '%s years', 'time difference', 'genesis-translations' ),
-
 		'%s month-%s months' => _nx_noop( '%s month', '%s months', 'time difference', 'genesis-translations' ),
 		'%s week-%s weeks' => _nx_noop( '%s week', '%s weeks', 'time difference', 'genesis-translations' ),
 		'%s day-%s days' => _nx_noop( '%s day', '%s days', 'time difference', 'genesis-translations' ),
@@ -528,12 +523,17 @@ function genesis_translations_strings() {
 	);
 }
 
-
-add_filter( 'gettext', 'genesis_translations_gettext_filter', 10, 3 );
+/**
+ * Translating items.
+ *
+ * @param  string  $text        The text
+ * @param  string  $text_domain The original text
+ * @param  string  $text_domain The text domain
+ * @return string  The translated text
+ */
 function genesis_translations_gettext_filter( $text, $text_string, $text_domain ) {
 
 	if ( 'genesis' == $text_domain ) {
-
 		$translations = genesis_translations_strings();
 		if ( isset( $translations[$text_string] ) ) {
 			return $translations[$text_string];
@@ -542,15 +542,23 @@ function genesis_translations_gettext_filter( $text, $text_string, $text_domain 
 
 	return $text;
 }
+add_filter( 'gettext', 'genesis_translations_gettext_filter', 10, 3 );
 
-//add_filter( 'ngettext_with_context', 'genesis_translations_gettext_with_context_filter', 10, 6 );
+/**
+ * Translating plauralised items.
+ *
+ * @param  string  $text        The translated text
+ * @param  string  $singular    The singular text
+ * @param  string  $plaural     The plaural text
+ * @param  int     $count       The number of objects
+ * @param  string  $context     The translation context
+ * @param  string  $text_domain The text domain
+ * @return string  The translated text
+ */
 function genesis_translations_gettext_with_context_filter( $text, $singular, $plaural, $count, $context, $text_domain ) {
 
 	if ( 'genesis' == $text_domain ) {
 		$translations = genesis_translations_strings();
-
-//$plaural = $translations[$plaural];
-//return translate_nooped_plural( $plaural, 3, 'genesis' );
 
 		if ( 1 < $count && isset( $translations[$plaural] ) ) {
 			return $translations[$plaural];
@@ -562,12 +570,5 @@ function genesis_translations_gettext_with_context_filter( $text, $singular, $pl
 
 	return $text;
 }
+add_filter( 'ngettext_with_context', 'genesis_translations_gettext_with_context_filter', 10, 6 );
 
-add_action( 'template_redirect', 'bla' );
-function bla() {
-echo __( "By", 'genesis-translations' );
-die;
-	$message = _nx_noop( '%s year', '%s years', 'time difference', 'genesis' );
-	echo translate_nooped_plural( $message, 3, 'genesis' );
-	die;
-}
