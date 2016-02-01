@@ -33,4 +33,7 @@ function thememix_genesis_translations_admin_page() {
 		<h1><?php _e( 'ThemeMix Genesis Translations', 'genesis-translations' ); ?></h1>
 		<p><?php _e( 'Here will be instructions on how to add translations.', 'genesis-translations' ); ?></p>
 	</div><?php
+
+	do_action( 'thememix_genesis_translations_admin_footer' );
+
 }

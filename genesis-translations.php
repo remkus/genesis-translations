@@ -100,6 +100,25 @@ function thememix_genesis_translation_init() {
         if ( is_admin() ) {
             require( 'admin-page.php' );
             require( 'i18n-module.php' );
+
+            new ThemeMix_Genesis_Translations_i18n(
+                array(
+                    'textdomain'     => 'genesis-translations',
+                    'project_slug'   => 'genesis-translations',
+                    'plugin_name'    => 'ThemeMix Genesis Translations',
+                    'hook'           => 'thememix_genesis_translations_admin_footer',
+                    'glotpress_url'  => 'https://translate.wordpress.org/',
+                    'glotpress_name' => 'ThemeMix Genesis Translations',
+                    'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
+                    'register_url '  => 'https://wordpress.org/support/register.php',
+                )
+            );
         }
     }
+}
+
+
+add_action('in_admin_footer', 'my_admin_footer_function', -1000);
+function my_admin_footer_function() {
+    echo '<p>This will be inserted at the bottom of admin page</p>';
 }
