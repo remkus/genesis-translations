@@ -36,7 +36,7 @@ define( 'GTRANS_DOMAIN' , 'genesis-translations' );
  */
 load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/genesis20' );
 
-register_activation_hook( __FILE__, 'genesis_translations_activation_check' );
+register_activation_hook( __FILE__, 'thememix_genesis_translations_activation_check' );
 /**
  * Checks for activated Genesis Framework and its minimum version before allowing plugin to activate
  *
@@ -45,7 +45,7 @@ register_activation_hook( __FILE__, 'genesis_translations_activation_check' );
  * @since 1.0
  * @version 2.0.2
  */
-function genesis_translations_activation_check() {
+function thememix_genesis_translations_activation_check() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
@@ -69,7 +69,7 @@ function genesis_translations_activation_check() {
     }
 }
 
-add_action( 'genesis_init', 'genesis_translation_init', 1 );
+add_action( 'genesis_init', 'thememix_genesis_translation_init', 1 );
 /**
  * Loads the Genesis text strings and filters them.
  * Alternatively, sets the GENESIS_LANGUAGES_DIR for older versions.
@@ -78,7 +78,7 @@ add_action( 'genesis_init', 'genesis_translation_init', 1 );
  * @since  1.0
  * @version  2.0.4
  */
-function genesis_translation_init() {
+function thememix_genesis_translation_init() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
