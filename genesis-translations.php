@@ -99,5 +99,3 @@ function genesis_translation_init() {
         require('translate.php' );
     }
 }
-
-require( 'genesis-framework.php' );
