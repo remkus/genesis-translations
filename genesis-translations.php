@@ -6,11 +6,11 @@
  * @author Remkus de Vries
  *
  * Plugin Name: Genesis Translations
- * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
+ * Plugin URI: https://thememix.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
  * Author: Remkus de Vries
  * Version: 2.1.0
- * Author URI: http://remkusdevries.com/
+ * Author URI: https://remkusdevries.com/
  * License: GPLv2
  * Text Domain: genesis-translations
  * Domain Path: /languages/
@@ -105,10 +105,10 @@ function thememix_genesis_translation_init() {
                 array(
                     'textdomain'     => 'genesis-translations',
                     'project_slug'   => 'genesis-translations',
-                    'plugin_name'    => 'ThemeMix Genesis Translations',
+                    'plugin_name'    => 'Genesis Translations',
                     'hook'           => 'thememix_genesis_translations_admin_footer',
                     'glotpress_url'  => 'https://translate.wordpress.org/',
-                    'glotpress_name' => 'ThemeMix Genesis Translations',
+                    'glotpress_name' => 'Genesis Translations',
                     'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
                     'register_url '  => 'https://wordpress.org/support/register.php',
                 )
