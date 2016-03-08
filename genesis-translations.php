@@ -96,7 +96,7 @@ function thememix_genesis_translation_init() {
         $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ), "", plugin_basename( __FILE__ ) );
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
     } else {
-        require('translate.php' );
+        require( 'translate.php' );
         if ( is_admin() ) {
             require( 'admin-page.php' );
 
