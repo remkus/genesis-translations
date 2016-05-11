@@ -1,10 +1,10 @@
 === Genesis Translations ===
-Contributors: DeFries
-Donate link: http://remkusdevries.com/donate/
+Contributors: thememix, DeFries
+Donate link: https://remkusdevries.com/donate/
 Tags: genesis, translations,
-Requires at least: 4.4
-Tested up to: 4.4.1
-Stable tag: 2.1
+Requires at least: 4.3
+Tested up to: 4.5.2
+Stable tag: 2.2.0
 
 This plugin translates the Genesis Framework into one of the available languages.
 
@@ -32,11 +32,11 @@ Or search for "Genesis Translations" via your plugins menu.
 
 = How can I see my language added to this plugin? =
 
-[Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+[Please contact us](https://twitter.com/thememix/ "Please contact us") and we'll get you sorted.
 
 = Can I make a suggestion =
 
-You most certainly can. [Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+You most certainly can. [Please contact us](https://twitter.com/thememix/ "Please contact us") and we'll get you sorted.
 
 = Where can I find the list of languages being worked on? =
 
@@ -54,13 +54,15 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 Fantastic! Go ahead and register [here](http://translate.studiopress.com/home/ "here") and we'll get you sorted.
 
-== Screenshots ==
-
-No screenshots (yet). Let me know if you need some.
 
 == Changelog ==
 
-= 2.1 =
+= 2.2.0 =
+
+* Updated various languages
+* Added Amharic (am), Czech (cs_CZ), Slovenian (sl_SI) and Ukranian (uk).
+
+= 2.1.0 =
 
 * Adding system for testing translate.wordpress.org
 
@@ -206,13 +208,8 @@ Upgrade from nothingness just to be one of the cool kids.
 
 == Other Notes ==
 
-This plugin couldn't have been possible without the help of the following translators:
-
-* Dutch - Remkus de Vries
-* ( will complete this list a.s.a.p.)
-
 You can find me here:
 
-* [ForSite Media](http://www.forsitemedia.net/ "ForSite Media")
-* [Find me on twitter](http://twitter.com/DeFries "Remkus de Vries on Twitter")
-* [Remkus de Vries](http://remkusdevries.com/ "Remkus de Vries")
+* [ThemeMix](https://thememix.com/ "ThemeMix")
+* [Find me on twitter](https://twitter.com/DeFries "Remkus de Vries on Twitter")
+* [Remkus de Vries](https://remkusdevries.com/ "Remkus de Vries")
