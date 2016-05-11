@@ -8,8 +8,8 @@
  * Plugin Name: Genesis Translations
  * Plugin URI: https://thememix.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
- * Author: Remkus de Vries
- * Version: 2.1.0
+ * Author: ThemeMix, Remkus de Vries
+ * Version: 2.2.0
  * Author URI: https://remkusdevries.com/
  * License: GPLv2
  * Text Domain: genesis-translations
@@ -20,7 +20,7 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_VERSION', '2.1.0' );
+define( 'GENTRANS_VERSION', '2.2.0' );
 
 /**
  * The text domain for the plugin
@@ -69,7 +69,7 @@ function thememix_genesis_translations_activation_check() {
     }
 }
 
-add_action( 'genesis_init', 'thememix_genesis_translation_init', 1 );
+add_action( 'genesis_init', 'thememix_genesis_translation_init', 9 );
 /**
  * Loads the Genesis text strings and filters them.
  * Alternatively, sets the GENESIS_LANGUAGES_DIR for older versions.
@@ -89,30 +89,38 @@ function thememix_genesis_translation_init() {
     // Set what we consider the old translation version
     $old_translations = '1.9.1';
 
+    // Get root path to translations
+    $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ), "", plugin_basename( __FILE__ ) );
+
     // Compare Genesis version with what is set as old translation
     if ( version_compare( $version, $old_translations, '=<' ) ) {
 
-        // Get root path to translations
-        $fstlang = WP_CONTENT_DIR.'/plugins/' .str_replace( basename( __FILE__ ), "", plugin_basename( __FILE__ ) );
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
-    } else {
-        require( 'translate.php' );
+
+    }
+
+    else {
+
+        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis20/' );
+
         if ( is_admin() ) {
             require( 'admin-page.php' );
-
             require( 'i18n-module.php' );
             new ThemeMix_Genesis_Translations_i18n(
                 array(
-                    'textdomain'     => 'genesis-translations',
-                    'project_slug'   => 'genesis-translations',
-                    'plugin_name'    => 'Genesis Translations',
-                    'hook'           => 'thememix_genesis_translations_admin_footer',
-                    'glotpress_url'  => 'https://translate.wordpress.org/',
-                    'glotpress_name' => 'Genesis Translations',
-                    'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
-                    'register_url '  => 'https://wordpress.org/support/register.php',
+                'textdomain'     => 'genesis-translations',
+                'project_slug'   => 'genesis-translations',
+                'plugin_name'    => 'Genesis Translations',
+                'hook'           => 'thememix_genesis_translations_admin_footer',
+                'glotpress_url'  => 'https://translate.wordpress.org/',
+                'glotpress_name' => 'Genesis Translations',
+                'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
+                'register_url '  => 'https://wordpress.org/support/register.php',
                 )
-            );
+           );
         }
+
     }
 }
+
+require( 'translate.php' );
