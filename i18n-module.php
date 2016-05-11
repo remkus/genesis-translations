@@ -171,7 +171,7 @@ class ThemeMix_Genesis_Translations_i18n {
 		} else if ( ! $this->translation_loaded && $this->translation_exists ) {
 			$message = __( 'You\'re using WordPress in %1$s. While %2$s has been translated to %1$s for %3$d%%, it\'s not been shipped with the plugin yet. You can help! Visit %4$s to help complete the translation!', 'genesis-translations' );
 		} else if ( ! $this->translation_exists ) {
-			$message = __( 'You\'re using WordPress in a language we don\'t support yet. We\'d love for %2$s to be translated in that language too, but unfortunately, it isn\'t right now. <h3>You can change that!</h3> Visit %4$s to help translate it, or if you need instructions, visit our <a href="https://thmmx.link/gtpage/">tutorial here</a>.', 'genesis-translations' );
+			$message = __( 'You\'re using WordPress in a language we don\'t support yet. We\'d love for %2$s to be translated in that language too, but unfortunately, it isn\'t right now. <h3>You can change that!</h3> Visit %4$s to help translate it, or if you need instructions, visit our <a target="_blank" href="https://thmmx.link/gtpage/">tutorial here</a>.', 'genesis-translations' );
 		}
 
 		$registration_link = sprintf( '<a target="_blank" href="%1$s">%2$s</a>', 'https://translate.wordpress.org/projects/wp-plugins/genesis-translations', esc_html( $this->glotpress_name ) );
