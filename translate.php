@@ -523,6 +523,7 @@ function thememix_genesis_translations_strings() {
 	);
 }
 
+//add_filter( 'gettext', 'thememix_genesis_translations_gettext_filter', 10, 3 );
 /**
  * Translating items.
  *
@@ -542,8 +543,9 @@ function thememix_genesis_translations_gettext_filter( $text, $text_string, $tex
 
 	return $text;
 }
-add_filter( 'gettext', 'thememix_genesis_translations_gettext_filter', 10, 3 );
 
+
+add_filter( 'ngettext_with_context', 'thememix_genesis_translations_gettext_with_context_filter', 10, 6 );
 /**
  * Translating plauralised items.
  *
@@ -570,5 +572,5 @@ function thememix_genesis_translations_gettext_with_context_filter( $text, $sing
 
 	return $text;
 }
-add_filter( 'ngettext_with_context', 'thememix_genesis_translations_gettext_with_context_filter', 10, 6 );
+
 
