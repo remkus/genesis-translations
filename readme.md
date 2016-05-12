@@ -1,18 +1,19 @@
 # Genesis Translations
 
-* Contributors: DeFries
-* Donate link: http://remkusdevries.com/donate/
+* Donate link: https://remkusdevries.com/donate/
 * Tags: genesis, translations,
-* Requires at least: 3.6
-* Tested up to: 3.8.1
-* Stable tag: 2.0.7
+* Requires at least: 4.3
+* Tested up to: 4.5.2
+* Stable tag: 2.2.0
 
+This plugin translates the Genesis Framework into one of the available languages.
 
 ## Description
 
-This plugin acitvates the translation of the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
+This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](http://translations.studiopress.com/home/) first.
 
 Check http://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
+
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
@@ -31,11 +32,11 @@ Or search for "Genesis Translations" via your plugins menu.
 
 ##### How can I see my language added to this plugin?
 
-[Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+[Please contact us](https://twitter.com/thememix/ "Please contact us") and we'll get you sorted.
 
 ##### Can I make a suggestion
 
-You most certainly can. [Please contact me](http://forsitemedia.net/contact/ "Please contact me") or [Twitter](http://twitter.com/DeFries "My Twitter Account") and we'll get you sorted.
+You most certainly can. [Please contact us](https://twitter.com/thememix/ "Please contact us") and we'll get you sorted.
 
 ##### Where can I find the list of languages being worked on?
 
@@ -49,11 +50,16 @@ That's because there isn't any. If you have one of the provided languages proper
 
 Most likely you either have words hardcoded in your child theme's `functions.php` file or you're working with outdated (or incomplete) WordPress translation.
 
-### Screenshots
-
-No screenshots (yet). Let me know if you need some.
-
 ##Changelog
+
+### 2.2.0
+
+* Updated various languages
+* Added Amharic (am), Czech (cs_CZ), Slovenian (sl_SI) and Ukranian (uk).
+
+### 2.1.0
+
+* Adding system for testing translate.wordpress.org
 
 ### 2.0.7
 

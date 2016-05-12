@@ -6,11 +6,11 @@
  * @author Remkus de Vries
  *
  * Plugin Name: Genesis Translations
- * Plugin URI: http://remkusdevries.com/plugins/genesis-translations/
+ * Plugin URI: https://thememix.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
- * Author: Remkus de Vries
- * Version: 2.1.0
- * Author URI: http://remkusdevries.com/
+ * Author: ThemeMix, Remkus de Vries
+ * Version: 2.2.0
+ * Author URI: https://thememix.com/
  * License: GPLv2
  * Text Domain: genesis-translations
  * Domain Path: /languages/
@@ -20,8 +20,7 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_FILE', 'genesis-translations/genesis-translations.php' );
-define( 'GENTRANS_VERSION', '2.1.0' );
+define( 'GENTRANS_VERSION', '2.2.0' );
 
 /**
  * The text domain for the plugin
@@ -35,32 +34,18 @@ define( 'GTRANS_DOMAIN' , 'genesis-translations' );
  *
  * @since 1.0
  */
-load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/languages' );
+load_plugin_textdomain( 'genesis-translations', false, 'genesis-translations/genesis20' );
 
-/**
- * Used to cutoff a string to a set length if it exceeds the specified length
- *
- * @author Nick Croft
- * @link http://designsbynickthegeek.com/
- *
- * @since 0.1
- * @version 0.2
- * @param string  $str    Any string that might need to be shortened
- * @param string  $length Any whole integer
- * @return string
- */
-
-
-register_activation_hook( __FILE__, 'fst_genesis_translations_activation_check' );
+register_activation_hook( __FILE__, 'thememix_genesis_translations_activation_check' );
 /**
  * Checks for activated Genesis Framework and its minimum version before allowing plugin to activate
  *
  * @author Nathan Rice, Remkus de Vries
- * @uses fst_genesis_translations_activation_check()
+ * @uses genesis_translations_activation_check()
  * @since 1.0
  * @version 2.0.2
  */
-function fst_genesis_translations_activation_check() {
+function thememix_genesis_translations_activation_check() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
@@ -84,19 +69,16 @@ function fst_genesis_translations_activation_check() {
     }
 }
 
-
-
-add_action( 'genesis_init', 'fst_set_genesis_language_dir', 1 );
+add_action( 'genesis_init', 'thememix_genesis_translation_init', 9 );
 /**
- * Defining the Genesis Language constants
+ * Loads the Genesis text strings and filters them.
+ * Alternatively, sets the GENESIS_LANGUAGES_DIR for older versions.
  *
  * @author Remkus de Vries, Daan Kortenbach
- * @access public
- * @return void
  * @since  1.0
  * @version  2.0.4
  */
-function fst_set_genesis_language_dir() {
+function thememix_genesis_translation_init() {
 
     // Find Genesis Theme Data
     $theme = wp_get_theme( 'genesis' );
@@ -112,12 +94,33 @@ function fst_set_genesis_language_dir() {
 
     // Compare Genesis version with what is set as old translation
     if ( version_compare( $version, $old_translations, '=<' ) ) {
+
         define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis-translations/' );
-    }
-    else {
-        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis20/' );
+
     }
 
+    else {
+
+        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis20/' );
+
+        if ( is_admin() ) {
+            require( 'admin-page.php' );
+            require( 'i18n-module.php' );
+            new ThemeMix_Genesis_Translations_i18n(
+                array(
+                'textdomain'     => 'genesis-translations',
+                'project_slug'   => 'genesis-translations',
+                'plugin_name'    => 'Genesis Translations',
+                'hook'           => 'thememix_genesis_translations_admin_footer',
+                'glotpress_url'  => 'https://translate.wordpress.org/',
+                'glotpress_name' => 'Genesis Translations',
+                'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
+                'register_url '  => 'https://wordpress.org/support/register.php',
+                )
+           );
+        }
+
+    }
 }
 
-require( 'genesis-framework.php' );
+require( 'translate.php' );
