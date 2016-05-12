@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis 2.2.6 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-05-11 09:42:19+0000\n"
+"PO-Revision-Date: 2016-05-12 14:09:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,7 +70,7 @@ msgstr "Sticky berichten uitsluiten?"
 
 #: lib/widgets/featured-post-widget.php:484
 msgid "Content Post Info"
-msgstr ""
+msgstr "Content Post Info"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
@@ -102,7 +102,7 @@ msgstr "Gefeliciteerd, je gebruikt nu Genesis %s! <a href=\"%s\">Bekijk de veran
 
 #: lib/admin/whats-new.php:70
 msgid "Child themes now have the ability to turn on accessibility features like special text for screen readers, accessible search forms, consistent page and section headings, skip links, and an accessible drop-down navigation menu."
-msgstr ""
+msgstr "Child thema's kunnen nu accessibility aanzetten met specifieke teksten voor screen readers, toegankelijke zoek formulieren, consistente pagina en sectie headings, skip links en een accessible drop-down navigatie menu."
 
 #: lib/admin/whats-new.php:72
 msgid "Schema.org Microdata Improvements"
@@ -691,23 +691,23 @@ msgstr "U kunt ook ondersteuning voor Windows Live Writer toevoegen als u softwa
 
 #: lib/admin/seo-settings.php:206
 msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
-msgstr ""
+msgstr "Noarchive en noindex worden uitgelegd in de home settings. "
 
 #: lib/admin/seo-settings.php:207
 msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
-msgstr ""
+msgstr "Er moet op z'n minst één archief geïndexeerd zijn, maar het indexeren van meerdere archieven resulteert meestal in content penalization (waar meerder pagina's met extra dezelfde content manipulerend overkomen voor zoekmachines)"
 
 #: lib/admin/seo-settings.php:208
 msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
-msgstr ""
+msgstr "Voor de meeste site is of de hompagina of de blogpagina (met het blog template) gebruikt als index en dit is waarom de standaard is categorieën, tags, auteurs, data en zoekresultaten niet te indexeren."
 
 #: lib/admin/theme-settings.php:240
 msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme &#x02026;"
-msgstr ""
+msgstr "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme &#x02026;"
 
 #: lib/admin/theme-settings.php:244
 msgid "The information box allows you to see the current Genesis theme information and display if desired."
-msgstr ""
+msgstr "De informatie box maakt het mogelijk om de huidige Genesis thema informatie te zien."
 
 #: lib/admin/theme-settings.php:245
 msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
@@ -775,23 +775,23 @@ msgstr "Als je hier de reacties of trackback activeert kun je deze ook deactiver
 
 #: lib/admin/theme-settings.php:296
 msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
-msgstr ""
+msgstr "In de Genesis theme instellingen kun je met de Content Archief opties aangeven wat er getoond moet worden in de site archieven. "
 
 #: lib/admin/theme-settings.php:297
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
-msgstr ""
+msgstr "Archieven zijn alle pagina's die de blog template gebruiken, categorie pagina's, tag pagina's, datum pagina's, auteur pagina's en de laatste berichten als er een custom homepagina is."
 
 #: lib/admin/theme-settings.php:298
 msgid "The first option allows you to display the post content or the post excerpt. The Display post content setting will display the entire post including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "De eerste optie maakt het mogelijk de content van de het bericht of een samenvatting. De toon bericht content instellingen toont het volledige bericht inclusief HTML code tot aan de <!--more--> tag wanneer deze gebruikt is."
 
 #: lib/admin/theme-settings.php:299
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
-msgstr ""
+msgstr "Het wordt mogelijk ook gecombineerd met de tweede veld \"Limiteer inhoud naar [___] karakters\" om de content te limiteren. Dit stript alle HTML maar maakt het mogelijk om preciezer aan te geven hoe lang de samenvattingen moeten zijn."
 
 #: lib/admin/theme-settings.php:300
 msgid "The Display post excerpt setting will display the first 55 words of the post after also stripping any included HTML or the manual/custom excerpt added in the post edit screen."
-msgstr ""
+msgstr "De Toon samenvatting bericht instelling toont de eerste 55 woorden van het bericht en stript ook alle HTML uit het bericht."
 
 #: lib/admin/theme-settings.php:301
 msgid "The 'Include post image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
@@ -1884,7 +1884,7 @@ msgstr "Afbeeldingsgrootte:"
 
 #: lib/admin/theme-settings.php:1060 lib/admin/theme-settings.php:1068
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr "De %1$s hook wordt direct uitgevoerd voor de sluitende %2$s tag in de broncode van het document."
+msgstr "Deze hook wordt direct uitgevoerd voor de sluitende %s tag in de broncode van het document."
 
 #: lib/admin/theme-settings.php:572
 msgid "Color Style:"
