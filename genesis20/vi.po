@@ -1,59 +1,59 @@
-# Translation of Genesis - Genesis 2.4 in French (France)
+# Translation of Genesis - Genesis 2.4 in Vietnamese
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 13:59:26+0000\n"
+"PO-Revision-Date: 2016-09-29 17:21:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.3.0\n"
-"Language: fr\n"
+"Language: vi_VN\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr "Le standard des thèmes Wordpress premium"
+msgstr ""
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr "Modifier les paramètres d'Archive"
+msgstr ""
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr "Paramètres non utilisés retirés dans <code>genesis_nav_menu_link_attributes()</code>."
+msgstr ""
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr "Code mort retiré dans fonctions callback post-shortcode."
+msgstr ""
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr "Globale inutilisée de la classe Admin Readme retiré"
+msgstr ""
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr "Code errant <code>$</code> dans l'URL utilisé dans la notification d'administrateur \"theme parent actif\" retiré"
+msgstr ""
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr "\":\" retirés des labels sur les écrans de paramètres"
+msgstr ""
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr "Retiré"
+msgstr ""
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr "<code>genesis_create_initial_layouts()</code> a été déplace au crochet <code>genesis_setup</code>. Potentielle source d'erreurs, afin d'assurer la compatibilité avec WordPress 4.7+."
+msgstr ""
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr "<code>genesis_user_meta_default_on()</code>et <code>Genesis_Admin::create()</code> modifiés pour faire des vérifications de retour plus tôt."
+msgstr ""
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr "Le plan du site a été modifié pour changer les sections liés aux posts si elles sont vides."
+msgstr ""
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr "Changé"
+msgstr ""
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
@@ -250,53 +250,53 @@ msgstr ""
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "La page que vous cherchez n'existe plus. Merci de suivre ce lien pour retourner à <a href=\"%s\">l'accueil</a>. Vous pouvez également consulter les archives principales du site ci-dessous."
+msgstr "Trang mà bạn đang tìm kiếm không còn tồn tại. Có lẽ bạn nên trở về <a href=\"%s\">trang chủ</a> và tìm kiếm biết đâu bạn có thể tìm được cái bạn đang cần. Hoặc bạn có thể thử tìm kiếm với thông tin bên dưới."
 
 #: lib/widgets/featured-post-widget.php:424
 msgid "Exclude Previously Displayed Posts?"
-msgstr "Exclure les articles précédemment affichés?"
+msgstr ""
 
 #: lib/structure/post.php:423
 msgid "Sorry, no content matched your criteria."
-msgstr "Désolé, aucun contenu de correspond à vos critères."
+msgstr ""
 
 #: lib/structure/comments.php:326
 msgid "at"
-msgstr "à"
+msgstr ""
 
 #: lib/js/load-scripts.php:123
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
-msgstr "Mettre à jour Genesis écrasera la version actuelle de Genesis. Êtes-vous sûr de vouloir mettre à jour?. \"Annuler\" pour arrêter, \"OK\" pour mettre à jour."
+msgstr ""
 
 #: lib/js/load-scripts.php:122
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "Les changements que vous avez fait seront perdus si vous changez de page."
+msgstr ""
 
 #: lib/functions/deprecated.php:266
 msgid "decimal or hexidecimal entities"
-msgstr "entité décimale ou hexadécimale"
+msgstr ""
 
 #: lib/admin/theme-settings.php:716
 msgid "Primary Navigation Extras"
-msgstr "Extras pour la navigation primaire"
+msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:219
 msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
-msgstr "Convient pour un suivi personnalisé de conversion ou tout autre script spécifique. Doit inclure %s aux tags."
+msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:216
 msgid "Page-specific Scripts"
-msgstr "Scripts spécifiques de la page"
+msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:197
 msgid "Scripts"
-msgstr "Scripts"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:225
 #: lib/admin/cpt-archive-settings.php:228
 #: lib/admin/cpt-archive-settings.php:231
 msgid "Apply %s to this archive"
-msgstr "Appliquer %s à cette archive"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
@@ -306,95 +306,95 @@ msgstr ""
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
 #: lib/admin/user-meta.php:188
 msgid "Meta Keywords"
-msgstr "Mots-clés (meta)"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:206 lib/admin/inpost-metaboxes.php:61
 #: lib/admin/seo-settings.php:370 lib/admin/term-meta.php:135
 #: lib/admin/user-meta.php:181
 msgid "Meta Description"
-msgstr "Description (meta)"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:158
 msgid "View the <a href=\"%s\">%s archive</a>."
-msgstr "Voir <a href=\"%s\">l'archive %s</a>."
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Archive"
-msgstr "Archive"
+msgstr ""
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr "La page que vous souhaitez voir n'existe plus. Peut-être voulez-vous retourner à la page <a href=\"%s\">d' accueil</a> du site et voir si vous pouvez trouver ce que vous cherchez. Ou, vous pouvez essayer de le trouver en utilisant le formulaire de recherche ci-dessous."
+msgstr ""
 
 #: 404.php:30
 msgid "Not found, error 404"
-msgstr "Page non trouvée, erreur 404"
+msgstr "Không tìm thấy, lỗi 404"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr "Résultats de recherche pour&nbsp;:"
+msgstr "Kết quả tìm kiếm cho:"
 
 #: lib/admin/whats-new.php:142
 msgid "Contributor"
-msgstr "Contributeur"
+msgstr ""
 
 #: lib/admin/whats-new.php:131
 msgid "Contributors"
-msgstr "Contributeurs"
+msgstr ""
 
 #: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
 msgid "Lead Developer"
-msgstr "Développeurs"
+msgstr ""
 
 #: lib/admin/theme-settings.php:957
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr "Ces réglages seront appliqués à toute page ayant le modèle \"Blog\" appliqué. Non à la page d'accueil ou les pages d'archives."
+msgstr ""
 
 #: lib/admin/theme-settings.php:780
 msgid "Homepage"
-msgstr "Page d'accueil"
+msgstr ""
 
 #: lib/admin/theme-settings.php:777
 msgid "Posts Page"
-msgstr "Page d'articles"
+msgstr ""
 
 #: lib/admin/theme-settings.php:444
 msgid "Blog Page Template"
-msgstr "Modèle de Blog"
+msgstr ""
 
 #: lib/admin/theme-settings.php:266 lib/admin/theme-settings.php:347
 #: lib/admin/theme-settings.php:435
 msgid "Navigation"
-msgstr "Navigation"
+msgstr ""
 
 #: lib/admin/theme-settings.php:261 lib/admin/theme-settings.php:341
 #: lib/admin/theme-settings.php:431
 msgid "Header"
-msgstr "En-tête"
+msgstr ""
 
 #: lib/admin/seo-settings.php:456
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr "<span class=\"genesis-admin-note\">Note:</span> Le lien court pour les balises a une utilité pour certains services spécialisés mais il n'a aucune valeur <abbr title=\"Search engine optimization\">SEO</abbr> ."
+msgstr ""
 
 #: lib/admin/seo-settings.php:423
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "Par défaut, WordPress place plusieurs balises dans votre document %1$s. La plupart de ces balises ne sont pas nécessaires, et ne représentent aucun intérêt <abbr title=\"Search engine optimization\">SEO</abbr> . Cela ralentit juste le téléchargement des pages. Choisissez quelles balises vous voulez voir incluses dans votre document %1$s. Si vous ne savez pas de quoi nous parlons, laissez décoché."
+msgstr ""
 
 #: lib/admin/seo-settings.php:374
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr "La description meta peut être utilisée pour déterminer le texte qui s'affiche sous le titre, dans les pages de résutats, suite à une recherche dans un moteur de recherche."
+msgstr ""
 
 #: lib/admin/seo-settings.php:359
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "Si vous laissez vide, le titre de votre site&#8217;s sera utilisé à la place."
+msgstr ""
 
 #: lib/admin/seo-settings.php:345
 msgid "Site Description (Tagline)"
-msgstr "Description du site (Tagline)"
+msgstr ""
 
 #: lib/admin/seo-settings.php:297
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr "Si le titre est composé de deux éléments (titre original et complément), alors le séparateur ira entre les deux."
+msgstr ""
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
@@ -402,155 +402,155 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
-msgstr "Déterminer de quel côté le titre du site ira."
+msgstr ""
 
 #: lib/admin/seo-settings.php:291
 msgid "Add site name to %s on inner pages?"
-msgstr "Ajouter le titre du site pour %s sur les pages internes?"
+msgstr ""
 
 #: lib/admin/seo-settings.php:364
 msgid "Add site description (tagline) to %s on home page?"
-msgstr "Ajouter la description du site (tagline) au %s sur la page d'accueil?"
+msgstr ""
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr "Lire la suite"
+msgstr ""
 
 #: lib/structure/search.php:28 lib/structure/search.php:47
 msgid "Search this website"
-msgstr "Chercher sur ce site"
+msgstr ""
 
 #: lib/structure/loops.php:244
 msgid "Read more"
-msgstr "Lire la suite"
+msgstr ""
 
 #: lib/admin/whats-new.php:154
 msgid "Go to SEO Settings &rarr;"
-msgstr "Aller aux réglages SEO &rarr;"
+msgstr ""
 
 #: lib/admin/whats-new.php:151
 msgid "Go to Theme Settings &rarr;"
-msgstr "Aller aux réglages du thème &rarr;"
+msgstr ""
 
 #: lib/admin/whats-new.php:112
 msgid "Project Leads"
-msgstr "Chefs de Projet"
+msgstr ""
 
 #: lib/admin/whats-new.php:36
 msgid "Welcome to Genesis %s"
-msgstr "Bienvenue sur Genesis %s"
+msgstr ""
 
 #: lib/admin/user-meta.php:27
 msgid "Google+"
-msgstr "Google+"
+msgstr ""
 
 #: lib/admin/customizer.php:143
 msgid "Use for site title/logo:"
-msgstr "Utiliser pour les site titre/logo:"
+msgstr ""
 
 #: lib/structure/footer.php:136
 msgid "on"
-msgstr "sur"
+msgstr "trên"
 
 #: lib/admin/cpt-archive-settings.php:175 lib/admin/term-meta.php:85
 msgid "Leave empty if you do not want to display any intro text."
-msgstr "Laisser vide si vous ne voulez pas afficher un texte d'introduction"
+msgstr "Để trống nếu bạn không muốn hiển thị bất kỳ chữ giới thiệu nào"
 
 #: lib/admin/cpt-archive-settings.php:172 lib/admin/term-meta.php:82
 msgid "Archive Intro Text"
-msgstr "Texte d'introduction pour les Archives"
+msgstr "Chữ giới thiệu lưu trữ"
 
 #: lib/admin/cpt-archive-settings.php:167 lib/admin/term-meta.php:78
 msgid "Leave empty if you do not want to display a headline."
-msgstr "Laisser vide si vous ne voulez pas afficher un entête."
+msgstr "Để trống nếu bạn không muốn hiển thị một tiêu đề"
 
 #: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:75
 msgid "Archive Headline"
-msgstr "Entête Archive"
+msgstr "Tiêu đề lưu trữ"
 
 #: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:64
 #: lib/classes/admin.php:113
 msgid "Error saving settings."
-msgstr "Erreur dans sauvegarde des réglages."
+msgstr "Lỗi lưu thiết lập"
 
 #: lib/widgets/user-profile-widget.php:180
 msgid "Custom Text Content"
-msgstr "Texte de contenu personnalisé"
+msgstr "Tùy chỉnh chữ Nội dung"
 
 #: lib/init.php:57
 msgid "Secondary Navigation Menu"
-msgstr "Menu de navigation secondaire"
+msgstr "Menu truy cập thứ hai"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Left"
-msgstr "En-tête Gauche"
+msgstr "Phần đầu bên trái"
 
 #: lib/widgets/user-profile-widget.php:191
 msgid "Extended page link text"
-msgstr "Extension du texte de lien pour la page"
+msgstr "Chữ liên kết trang mở rộng"
 
 #: lib/functions/widgetize.php:174
 msgid "Footer %d widget area."
-msgstr "Zone de Widget pour le pied de page %d."
+msgstr "Khu vực widget phần cuối %d "
 
 #: lib/functions/widgetize.php:142
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "C'est la barre latérale 2 si vous utilisez 2 ou 3 colonnes dans les Options de maquette pour Genesis sur chaque page ou article."
+msgstr "Đây là sidebar thứ hai nếu bạn đang sử dụng lựa chọn mẫu 3 cột. "
 
 #: lib/functions/widgetize.php:131
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "C'est la barre latérale 1 si vous utilisez 2 ou 3 colonnes dans les Options de maquette pour Genesis sur chaque page ou article."
+msgstr "Đây là sidebar chính nếu bạn đang sử dụng lựa chọn mẫu 2 hoặc 3 cột."
 
 #: lib/functions/deprecated.php:87
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr "La propriété \"context\", a été remplacé par \"theme_location\" dans les $args du array (tableau)"
+msgstr "Tham số, \"context\" đã được thay thế bằng \"theme_location\" trong biến chứ mảng $args"
 
 #: lib/classes/admin.php:120
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr "Vous ne pouvez pas utiliser %s pour créer deux menus dans la même sous classe. Merci d'utiliser différentes sous classes pour chaque menu."
+msgstr "Bạn không thể dùng %s để tạo ra 2 menu trong cùng một lớp con. Hãy sử dùng những lớp con riêng biệt cho mỗi menu"
 
 #: lib/admin/user-meta.php:105
 msgid "Author Archive Settings"
-msgstr "Réglages pour les Archive d'Auteur"
+msgstr "Thiết lập lưu trữ tác giả"
 
 #: lib/admin/user-meta.php:55
 msgid "User Permissions"
-msgstr "Permissions utilisateur"
+msgstr "Quyền hạn thành viên"
 
 #: lib/admin/theme-settings.php:573
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr "Merci de sélectionner le style de couleur depuis le menu déroulant et sauvegarder vos réglages."
+msgstr "Hãy chọn mẫu màu từ hộp danh sách bên dưới và lưu thiết lập của bạn"
 
 #: lib/admin/theme-settings.php:559
 msgid "Color Style:"
-msgstr "Style de couleur:"
+msgstr "Mẫu màu:"
 
 #: lib/admin/theme-settings.php:1010 lib/admin/theme-settings.php:1018
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr ""
+msgstr "%1$s hook thực hiện ngay lập tức trước khi kết thúc %2$s tag trong mã nguồn tài liệu."
 
 #: lib/admin/theme-settings.php:907
 msgid "Image Size:"
-msgstr "Taille de l'image:"
+msgstr "Kích cỡ ảnh:"
 
 #: lib/admin/theme-settings.php:421
 msgid "Color Style"
-msgstr "Style de couleur"
+msgstr "Mẫu màu"
 
 #: lib/admin/theme-settings.php:82
 msgid "Follow me on Twitter"
-msgstr "Me suivre sur Twitter"
+msgstr "Theo tôi trên Twitter"
 
 #: lib/admin/cpt-archive-settings.php:43 lib/admin/cpt-archive-settings.php:44
 #: lib/admin/cpt-archive-settings.php:135
 #: lib/admin/cpt-archive-settings.php:293
 #: lib/admin/cpt-archive-settings.php:300 lib/admin/term-meta.php:71
 msgid "Archive Settings"
-msgstr "Réglages Archives"
+msgstr "Thiết lập lưu trữ"
 
 #: lib/admin/seo-settings.php:433
 msgid "Adjacent Posts %s link tags"
-msgstr "Etiquette de lien pour les article enfants %s"
+msgstr "Tag liên kết %s bài viết liền kề"
 
 #: lib/admin/cpt-archive-settings.php:142
 #: lib/admin/cpt-archive-settings.php:261
@@ -559,438 +559,431 @@ msgstr "Etiquette de lien pour les article enfants %s"
 #: lib/admin/inpost-metaboxes.php:303 lib/admin/term-meta.php:205
 #: lib/admin/user-meta.php:243
 msgid "Layout Settings"
-msgstr "Réglages pour la mise en page"
+msgstr "Thiết lập kiểu mẫu"
 
 #: lib/admin/inpost-metaboxes.php:29 lib/admin/inpost-metaboxes.php:132
 #: lib/admin/term-meta.php:124
 msgid "Theme SEO Settings"
-msgstr "Réglages SEO du thème"
+msgstr "Thiết lập SEO Giao diện"
 
 #: lib/functions/formatting.php:364
 msgctxt "separator in time difference"
 msgid "and"
-msgstr "et"
+msgstr ""
 
 #: lib/functions/formatting.php:337
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] "%s seconde"
-msgstr[1] "%s secondes"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:336
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] "%s minute"
-msgstr[1] "%s minutes"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:335
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] "%s heure"
-msgstr[1] "%s heures"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:334
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] "%s jour"
-msgstr[1] "%s jours"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:333
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] "%s semaine"
-msgstr[1] "%s semaines"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:332
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] " %s mois"
-msgstr[1] " %s mois"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:331
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] "%s année"
-msgstr[1] "%s années"
+msgstr[0] ""
 
 #: lib/functions/formatting.php:327
 msgctxt "time difference"
 msgid "seconds"
-msgstr "secondes"
+msgstr ""
 
 #: lib/admin/customizer.php:371 lib/admin/theme-settings.php:937
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr "Ces options auront une incidence sur toutes les pages du blog, y compris les archives, les pages d'auteurs, les catégories, les pages de recherche et les pages pour les mots-clefs."
+msgstr "Những lựa chọn này sẽ ảnh hưởng đến trang blog dạng liệt kê, bao gồm các trang lưu trữ, tác giả, blog, chủ đề, tìm kiếm và tag"
 
 #: lib/admin/theme-settings.php:793
 msgid "404 Page"
-msgstr "Page 404"
+msgstr "Trang 404"
 
 #: lib/admin/theme-settings.php:790
 msgid "Archives"
-msgstr "Archives"
+msgstr "Lưu trữ"
 
 #: lib/admin/theme-settings.php:787
 msgid "Pages"
-msgstr "Pages"
+msgstr "Trang"
 
 #: lib/admin/theme-settings.php:774
 msgid "Front Page"
-msgstr "Première page"
+msgstr "Trang đầu"
 
 #: lib/admin/theme-settings.php:498
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr "Cela peut être utile pour diagnostiquer des problèmes avec votre thème lorsqu'on cherche à obtenir une aide dans le <a href=\"%s\" target=\"_blank\"> forum du support </a>."
+msgstr "Điều này có thể hữu ích cho việc phân tích vấn đề với giao diện của bạn trong khi tìm kiếm sự hỗ trợ trong <a href=\"%s\" target=\"_blank\">diễn đàn hỗ trợ</a>"
 
 #: lib/admin/theme-settings.php:305 lib/admin/theme-settings.php:373
 #: lib/admin/theme-settings.php:447
 msgid "Header and Footer Scripts"
-msgstr "Scripts pour l'en-tête et le pied de page"
+msgstr "Script Phần đầu và phần cuối"
 
 #: lib/admin/customizer.php:322 lib/admin/theme-settings.php:281
 #: lib/admin/theme-settings.php:358 lib/admin/theme-settings.php:442
 msgid "Comments and Trackbacks"
-msgstr "Commentaires et rétroliens"
+msgstr "Bình luận và Trackback"
 
 #: lib/admin/theme-settings.php:247 lib/admin/theme-settings.php:336
 #: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:646
 msgid "Default Layout"
-msgstr "Mise en page par défaut"
+msgstr "Kiểu mẫu mặc định"
 
 #: lib/admin/seo-settings.php:384
 msgid "Keywords are generally ignored by Search Engines."
-msgstr "Les mots clefs sont en général ignorés par les moteurs de recherches."
+msgstr "Từ khóa thường bị bỏ qua bởi bộ máy tìm kiếm"
 
 #: lib/admin/seo-settings.php:46 lib/admin/theme-settings.php:62
 #: lib/classes/admin.php:111
 msgid "Settings saved."
-msgstr "Paramètres enregistrés."
+msgstr "Thiết lập đã lưu"
 
 #: lib/admin/seo-settings.php:47 lib/admin/theme-settings.php:63
 #: lib/classes/admin.php:112
 msgid "Settings reset."
-msgstr "Réinitialiser les réglages."
+msgstr "Làm lại thiết lập"
 
 #: lib/admin/import-export.php:181
 msgid "Settings successfully imported."
-msgstr "Réglages importés avec succès."
+msgstr "Thiết lập đã được nhập vào thành công."
 
 #: lib/admin/import-export.php:133
 msgid "Upload File and Import"
-msgstr "Téléverser les fichiers et importer"
+msgstr "Tải tập tin lên và Nhập vào"
 
 #: lib/admin/import-export.php:125
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr "Choisir le fichier depuis votre ordinateur et cliquer sur \"Téléverser le fichier et importer\""
+msgstr "Hãy chọn tập tin từ máy tính của bạn và nhấn vào \"Tải tập tin lên và Nhập vào\""
 
 #: lib/admin/customizer.php:195 lib/admin/theme-settings.php:562
 msgid "Default"
-msgstr "Défaut"
+msgstr "Mặc định"
 
 #: lib/structure/post.php:649 lib/structure/post.php:763
 msgid "Next Page"
-msgstr "Page suivante"
+msgstr "Trang sau"
 
 #: lib/structure/post.php:648 lib/structure/post.php:728
 msgid "Previous Page"
-msgstr "Page précédente"
+msgstr "Trang trước"
 
 #: lib/shortcodes/post.php:45 lib/shortcodes/post.php:127
 msgid "ago"
-msgstr "il y a"
+msgstr "trước"
 
 #: lib/js/load-scripts.php:121
 msgid "Select / Deselect All"
-msgstr "Tout Sélectionner / Désectionner"
+msgstr "Chọn/Bỏ chọn Tất cả"
 
 #: lib/admin/import-export.php:225
 msgid "No export options available."
-msgstr "Aucune option d'exportation n'est disponible."
+msgstr "Không có lựa chọn xuất ra nào hữu dụng"
 
 #: lib/functions/widgetize.php:173
 msgid "Footer %d"
-msgstr "Pied de Page %d"
+msgstr "Phần cuối %d"
 
 #: lib/functions/layout.php:105
 msgid "No Label Selected"
-msgstr "Aucune étiquette n'est sélectionnée"
+msgstr "Không có nhãn nào được chọn"
 
 #: lib/admin/import-export.php:183
 msgid "There was a problem importing your settings. Please try again."
-msgstr "Il y a eu un problème en important vos réglages. Merci d'essayer une nouvelle fois."
+msgstr "Có lỗi trong quá trình nhập vào thiết lập của bạn. Xin hãy thử lại."
 
 #: lib/functions/markup.php:1042 lib/functions/widgetize.php:141
 msgid "Secondary Sidebar"
-msgstr "Barre latérale 2"
+msgstr "Sidebar thứ hai"
 
 #: lib/functions/markup.php:1021 lib/functions/widgetize.php:130
 msgid "Primary Sidebar"
-msgstr "Barre latérale 1"
+msgstr "Sidebar chính"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Right"
-msgstr "En-tête de droite"
+msgstr "Phần đầu bên phải"
 
 #: lib/classes/breadcrumb.php:60
 msgid "Not found: "
-msgstr "Nous n'avons pas trouvé:"
+msgstr "Không tìm thấy: "
 
 #: lib/widgets/featured-post-widget.php:518
 msgid "No Content"
-msgstr "Pas de contenu"
+msgstr "Không có nội dung"
 
 #: lib/widgets/featured-post-widget.php:517
 msgid "Show Content Limit"
-msgstr "Montrer un extrait de l'article"
+msgstr "Hiển thị giới hạn nội dung"
 
 #: lib/widgets/featured-post-widget.php:516
 msgid "Show Excerpt"
-msgstr "Montrer l'extrait"
+msgstr "Hiển thị đoạn trích"
 
 #: lib/widgets/featured-post-widget.php:515
 msgid "Show Content"
-msgstr "Montrer le contenu de l'article"
+msgstr "Hiển thị nội dung"
 
 #: lib/widgets/featured-post-widget.php:513
 msgid "Content Type"
-msgstr "Type de contenu"
+msgstr "Kiểu nội dung"
 
 #: lib/widgets/featured-post-widget.php:505
 msgid "Show Post Info"
-msgstr "Montrer les informations de l'article"
+msgstr "Hiện thông tin bài viết"
 
 #: lib/widgets/featured-page-widget.php:257
 #: lib/widgets/featured-post-widget.php:466
 msgid "Show Featured Image"
-msgstr "Montrer l'image à la une"
+msgstr "Hiển thị Ảnh đặc trưng"
 
 #: lib/admin/user-meta.php:121
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr "Ce texte sera le premier paragraphe et sera affiché sur la première page"
+msgstr "Chữ này sẽ là đoạn văn đầu tiên, và hiển thị ở phần đầu của trang"
 
 #: lib/admin/user-meta.php:118
 msgid "Custom Description Text"
-msgstr "Description personnalisée"
+msgstr "Tùy chỉnh chữ mô tả"
 
 #: lib/admin/user-meta.php:113
 msgid "Will display in the %s tag at the top of the first page"
-msgstr "Va afficher dans la balise %s en haut de la première page"
+msgstr "Sẽ hiển thị trong %s tag ở phần đầu tiên của trang đầu tiên"
 
 #: lib/admin/user-meta.php:110
 msgid "Custom Archive Headline"
-msgstr "Entête personnalisé pour la page d'Archive"
+msgstr "Tiêu đề lưu trữ tùy chỉnh"
 
 #: lib/admin/user-meta.php:106 lib/admin/user-meta.php:170
 #: lib/admin/user-meta.php:244
 msgid "These settings apply to this author's archive pages."
-msgstr "Ces réglages sont appliqués pour la page d'archive de cet auteur."
+msgstr "Những thiết lập này áp dụng cho trang lưu trữ tác giả này"
 
 #: lib/admin/user-meta.php:132
 msgid "Enable Author Box on this User's Archives?"
-msgstr "Activer la biographie de l'auteur pour les archives de cet auteur?"
+msgstr "Bật Khung tác giả trên khu vực lưu trữ của thành viên này"
 
 #: lib/admin/user-meta.php:129
 msgid "Enable Author Box on this User's Posts?"
-msgstr "Activer la Biographie de l'auteur pour chacun de ses articles?"
+msgstr "Bật Khung tác giả trên bài viết của thành viên này"
 
 #: lib/admin/user-meta.php:70
 msgid "Enable Import/Export Submenu?"
-msgstr "Activer les sous-menu Importer/Exporter?"
+msgstr "Bật menu con của Nhập vào/Xuất ra?"
 
 #: lib/admin/user-meta.php:66
 msgid "Enable SEO Settings Submenu?"
-msgstr "Activer les réglages SEO?"
+msgstr "Bật menu con của thiết lập SEO?"
 
 #: lib/admin/user-meta.php:62
 msgid "Enable Genesis Admin Menu?"
-msgstr "Activer le menu Genesis pour l'administrateur"
+msgstr "Bật menu quản trị Genesis"
 
 #: lib/admin/user-meta.php:59
 msgid "Genesis Admin Menus"
-msgstr "Genesis / réglage pour l'administrateur"
+msgstr "Menu Quản trị Genesis"
 
 #: lib/admin/theme-settings.php:903
 msgid "Include the Featured Image?"
-msgstr "Inclure l'image à la une de l'article?"
+msgstr "Kèm theo Ảnh đặc trưng ?"
 
 #: lib/admin/term-meta.php:210 lib/admin/term-meta.php:213
 #: lib/admin/user-meta.php:248 lib/admin/user-meta.php:251
 msgid "Choose Layout"
-msgstr "Choisir la mise en page"
+msgstr "Chọn kiểu mẫu"
 
 #: lib/admin/import-export.php:44 lib/admin/import-export.php:65
 #: lib/admin/import-export.php:81
 msgid "Import/Export"
-msgstr "Importer / Exporter"
+msgstr "Nhập vào/Xuất ra"
 
 #: lib/admin/inpost-metaboxes.php:319
 msgid "Custom Post Class"
-msgstr "Classe CSS personnalisée pour cet article"
+msgstr "Tùy chỉnh Class bài viết"
 
 #: lib/admin/cpt-archive-settings.php:271 lib/admin/inpost-metaboxes.php:314
 msgid "Custom Body Class"
-msgstr "Classe CSS personnalisée pour le Body"
+msgstr "Tùy chỉnh Body Class"
 
 #: lib/admin/inpost-metaboxes.php:79
 msgid "Custom Redirect URL"
-msgstr "Redirection URI personnalisée"
+msgstr "Tùy chỉnh URI chuyển hướng"
 
 #: lib/admin/inpost-metaboxes.php:56 lib/admin/inpost-metaboxes.php:64
 msgid "Characters Used: %s"
-msgstr "Caractères utilisés: %s"
+msgstr "Ký tự được dùng: %s"
 
 #: lib/admin/import-export.php:151
 msgid "Download Export File"
-msgstr "Télécharger le fichier d'Exportation"
+msgstr "Tải Xuất ra tập tin về "
 
 #: lib/admin/import-export.php:144
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "Une fois que vous avez sauvegardé le fichier téléchargé, vous pourrez utiliser la fonction importer sur une autre site pour importer vos réglages."
+msgstr "Khi bạn đã lưu lại tập tin tải về, bạn có thể dùng chức năng nhập vào có trên các website khác để nhập vào dữ liệu này."
 
 #: lib/admin/import-export.php:141
 msgid "Export Genesis Settings File"
-msgstr "Exporter un fichier de réglages Genesis"
+msgstr "Xuất ra tập tin thiết lập Genesis"
 
 #: lib/admin/import-export.php:130
 msgid "Upload File (Maximum Size: %s): "
-msgstr "Téléversement des fichiers : (Taille maximum: %s)"
+msgstr "Tải lên tập tin: (Kích cỡ tối đa: %s)"
 
 #: lib/admin/import-export.php:122
 msgid "Import Genesis Settings File"
-msgstr "Importer un fichier de réglages Genesis"
+msgstr "Nhập vào tập tin thiết lập Genesis"
 
 #: lib/admin/import-export.php:43
 msgid "Genesis - Import/Export"
-msgstr "Genesis - Importer / Exporter"
+msgstr "Genesis - Nhập vào/Xuất ra"
 
 #: lib/widgets/user-profile-widget.php:197
 msgid "Show Author Archive Link?"
-msgstr "Montrer le lien vers les archives de l'auteur"
+msgstr "Hiện liên kết đến trang Tác giả"
 
 #: lib/widgets/user-profile-widget.php:186
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr "Choisir votre page \"À propos de moi\" d'après la liste ci-dessous. Ce sera la page liée à la fin de la partie \"A propos de moi\""
+msgstr "Hãy chọn trang mở rộng \"Về Tôi\" từ danh sách bên dưới. Điều này sẽ tạo ra trang gắn kết vào phần cuối của mục giới thiệu về tôi"
 
 #: lib/widgets/user-profile-widget.php:179
 msgid "Custom Text (below)"
-msgstr "Le texte personnalisé ci-dessous"
+msgstr "Tùy chỉnh chữ (bên dưới)"
 
 #: lib/widgets/user-profile-widget.php:177
 msgid "Author Bio"
-msgstr "Biographie de l'auteur"
+msgstr "Tiểu sử Tác giả"
 
 #: lib/widgets/user-profile-widget.php:174
 msgid "Select which text you would like to use as the author description"
-msgstr "Sélectionner le texte vous voulez utiliser comme biographie de l'auteur"
+msgstr "Hãy chọn chữ mà bạn muốn dùng cho phần mô tả về tác giả"
 
 #: lib/widgets/user-profile-widget.php:156
 msgid "Extra Large"
-msgstr "Très grand"
+msgstr "Rất lớn"
 
 #: lib/widgets/user-profile-widget.php:156
 msgid "Large"
-msgstr "Grand"
+msgstr "Lớn"
 
 #: lib/widgets/user-profile-widget.php:156
 msgid "Medium"
-msgstr "Moyen"
+msgstr "Vừa"
 
 #: lib/widgets/user-profile-widget.php:156
 msgid "Small"
-msgstr "Petit"
+msgstr "Nhỏ"
 
 #: lib/widgets/user-profile-widget.php:148
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr "Sélectionner un utilisateur. L'adresse email de ce compte sera utilisée pour ajouter l'image Gravatar"
+msgstr "Chọn một thành viên. Địa chỉ email của tài khoản này sẽ được sử dụng để lấy hình ảnh từ Gravatar"
 
 #: lib/widgets/user-profile-widget.php:103
 msgid "View My Blog Posts"
-msgstr "Voir mes articles"
+msgstr "Xem các bài viết Blog của tôi"
 
 #: lib/widgets/user-profile-widget.php:58
 msgid "Genesis - User Profile"
-msgstr "Genesis - Profil d'utilisateur"
+msgstr "Genesis - Hồ sơ thành viên"
 
 #: lib/widgets/user-profile-widget.php:49
 msgid "Displays user profile block with Gravatar"
-msgstr "Affiche le bloc du profile d'utilisateur avec un Gravatar"
+msgstr "Hiển thị khối thông tin thành viên với Gravatar"
 
 #: lib/widgets/featured-post-widget.php:558
 msgid "Link Text"
-msgstr "Lien pour le texte"
+msgstr "Chữ liên kết"
 
 #: lib/widgets/featured-post-widget.php:554
 msgid "Show Category Archive Link"
-msgstr "Montrer le lien vers l'archive de cette catégorie"
+msgstr "Hiển thị liên kết đến phần lưu trữ chủ đề"
 
 #: lib/widgets/featured-post-widget.php:536
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Pour afficher une liste de plus d'articles de cette catégorie, veuillez remplir les information ci-dessous"
+msgstr "Để hiển thị danh sách chưa được sắp xếp của các bài viết trong chủ đề này, hãy điền thông tin vào bên dưới."
 
 #: lib/widgets/featured-post-widget.php:528
 msgid "More Text (if applicable)"
-msgstr "Texte pour En lire plus"
+msgstr "Thêm chữ (nếu muốn)"
 
 #: lib/widgets/featured-post-widget.php:500
 msgid "Show Post Title"
-msgstr "Montrer le titre de l'article"
+msgstr "Hiện tiêu đề bài viết"
 
 #: lib/widgets/featured-post-widget.php:452
 #: lib/widgets/user-profile-widget.php:165
 msgid "Gravatar Alignment"
-msgstr "Alignement du Gravatar"
+msgstr "Canh chỉnh Gravatar"
 
 #: lib/widgets/featured-post-widget.php:447
 msgid "Extra Large (125px)"
-msgstr "Très large (125px)"
+msgstr "Rất lớn (125px)"
 
 #: lib/widgets/featured-post-widget.php:446
 msgid "Large (85px)"
-msgstr "Large (85px)"
+msgstr "Lớn (85px)"
 
 #: lib/widgets/featured-post-widget.php:445
 msgid "Medium (65px)"
-msgstr "Moyen (65px)"
+msgstr "Trung bình (65px)"
 
 #: lib/widgets/featured-post-widget.php:444
 msgid "Small (45px)"
-msgstr "Petit (45px)"
+msgstr "Nhỏ (45px)"
 
 #: lib/widgets/featured-post-widget.php:442
 #: lib/widgets/user-profile-widget.php:153
 msgid "Gravatar Size"
-msgstr "Taille du Gravatar"
+msgstr "Kích cỡ Gravatar"
 
 #: lib/widgets/featured-post-widget.php:438
 msgid "Show Author Gravatar"
-msgstr "Montrer le Gravatar de l'auteur"
+msgstr "Hiển thị Gravatar tác giả"
 
 #: lib/widgets/featured-post-widget.php:418
 msgid "Ascending (1, 2, 3)"
-msgstr "Ascendant (1,2,3)"
+msgstr "Tăng dần (1,2,3)"
 
 #: lib/widgets/featured-post-widget.php:417
 msgid "Descending (3, 2, 1)"
-msgstr "Descendant (3,2,1)"
+msgstr "Giảm dần (3,2,1)"
 
 #: lib/widgets/featured-post-widget.php:415
 msgid "Sort Order"
-msgstr "Ordre de tri"
+msgstr "Sắp xếp thứ tự"
 
 #: lib/widgets/featured-post-widget.php:410
 msgid "Random"
-msgstr "Au hasard"
+msgstr "Ngẫu nhiên"
 
 #: lib/widgets/featured-post-widget.php:409
 msgid "Comment Count"
-msgstr "Nombre de commentaires"
+msgstr "Đếm bình luận"
 
 #: lib/widgets/featured-post-widget.php:408
 msgid "ID"
@@ -998,55 +991,55 @@ msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:407
 msgid "Parent"
-msgstr "Parent"
+msgstr "Cha"
 
 #: lib/widgets/featured-post-widget.php:405
 msgid "Date"
-msgstr "Date"
+msgstr "Ngày tháng"
 
 #: lib/widgets/featured-post-widget.php:403
 msgid "Order By"
-msgstr "Organisé par: "
+msgstr "Sắp xếp theo"
 
 #: lib/widgets/featured-post-widget.php:398
 msgid "Number of Posts to Offset"
-msgstr "Nombre d'articles à passer"
+msgstr "Số bài viết đến vị trí"
 
 #: lib/widgets/featured-post-widget.php:378
 msgid "Category"
-msgstr "Catégories"
+msgstr "Chủ đề"
 
 #: lib/widgets/featured-post-widget.php:61
 msgid "More Posts from this Category"
-msgstr "Plus d'article de cette catégorie"
+msgstr "Thêm bài viết từ chủ đề này"
 
 #: lib/widgets/featured-post-widget.php:57
 msgid "[Read More...]"
-msgstr "[Lire la suite...]"
+msgstr "[Đọc thêm...]"
 
 #: lib/widgets/featured-post-widget.php:75
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Articles à la Une"
+msgstr "Genesis - Bài viết Nổi bật"
 
 #: lib/widgets/featured-post-widget.php:66
 msgid "Displays featured posts with thumbnails"
-msgstr "Affiche les Articles à la Une avec les Images à la Une"
+msgstr "Hiển thị các bài viết nổi bật kèm theo ảnh đại diện"
 
 #: lib/widgets/featured-page-widget.php:299
 msgid "More Text"
-msgstr "Texte pour: En lire plus"
+msgstr "Chữ Thêm"
 
 #: lib/widgets/featured-page-widget.php:294
 msgid "Content Character Limit"
-msgstr "Limite du nombre de caractères"
+msgstr "Giới hạn ký tự nội dung"
 
 #: lib/widgets/featured-page-widget.php:290
 msgid "Show Page Content"
-msgstr "Montrer le contenu de la page"
+msgstr "Hiển thị nội dung trang"
 
 #: lib/widgets/featured-page-widget.php:285
 msgid "Show Page Title"
-msgstr "Montrer le titre de la page"
+msgstr "Hiển thị tiêu đề trang"
 
 #: lib/admin/theme-settings.php:724 lib/widgets/featured-page-widget.php:274
 #: lib/widgets/featured-post-widget.php:454
@@ -1054,28 +1047,28 @@ msgstr "Montrer le titre de la page"
 #: lib/widgets/user-profile-widget.php:167
 #: lib/widgets/user-profile-widget.php:187
 msgid "None"
-msgstr "Aucun"
+msgstr "Không"
 
 #: lib/widgets/featured-page-widget.php:272
 #: lib/widgets/featured-post-widget.php:481
 msgid "Image Alignment"
-msgstr "Alignement de l'image"
+msgstr "Canh chỉnh Ảnh"
 
 #: lib/widgets/featured-page-widget.php:242
 msgid "Page"
-msgstr "Page"
+msgstr "Trang"
 
 #: lib/shortcodes/footer.php:176 lib/structure/post.php:274
 msgid "by"
-msgstr "par "
+msgstr "bởi"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Page à la Une"
+msgstr "Genesis - Trang đặc trưng"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "Affiche une Page caractéristique avec les Images à la Une"
+msgstr "Hiển thị trang đặc trưng kèm theo hình đại diện"
 
 #: lib/widgets/featured-page-widget.php:237
 #: lib/widgets/featured-post-widget.php:369
@@ -1083,11 +1076,11 @@ msgstr "Affiche une Page caractéristique avec les Images à la Une"
 #: lib/widgets/featured-post-widget.php:539
 #: lib/widgets/user-profile-widget.php:143
 msgid "Title"
-msgstr "Titre"
+msgstr "Tiêu đề"
 
 #: lib/classes/breadcrumb.php:57
 msgid "Search for "
-msgstr "Recherche pour "
+msgstr "Tìm kiếm cho"
 
 #: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
 #: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
@@ -1095,79 +1088,79 @@ msgstr "Recherche pour "
 #: lib/structure/archive.php:175 lib/structure/archive.php:177
 #: lib/structure/archive.php:179
 msgid "Archives for "
-msgstr "Archives pour "
+msgstr "Lưu trữ cho"
 
 #: lib/classes/breadcrumb.php:52
 msgid "You are here: "
-msgstr "Vous êtes ici : "
+msgstr "Bạn đang ở:"
 
 #: lib/structure/sidebar.php:41
 msgid "Secondary Sidebar Widget Area"
-msgstr "Zone de Widget pour la \"Barre latérale 2\""
+msgstr "Khu vực Sidebar Widget thứ hai"
 
 #: lib/structure/sidebar.php:25
 msgid "Primary Sidebar Widget Area"
-msgstr "Zone de Widget pour la \"Barre latérale 1\""
+msgstr "Khu vực Sidebar Widget chính"
 
 #: lib/structure/search.php:30
 msgid "Search"
-msgstr "GO"
+msgstr "Tìm kiếm"
 
 #: lib/structure/post.php:539 lib/structure/post.php:568
 msgid "About"
-msgstr "À propos de"
+msgstr "Nói về"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "By"
-msgstr "Par "
+msgstr "Bởi"
 
 #: lib/structure/post.php:358 lib/structure/post.php:360
 msgid "[Read more...]"
-msgstr "[Lire la suite...]"
+msgstr "[Đọc thêm...]"
 
 #: lib/structure/menu.php:145
 msgid "Comments"
-msgstr "Commentaires"
+msgstr "Bình luận"
 
 #: lib/structure/menu.php:144
 msgid "Posts"
-msgstr "Articles"
+msgstr "Bài viết"
 
 #: lib/init.php:56
 msgid "Primary Navigation Menu"
-msgstr "Menu de navigation principal"
+msgstr "Menu truy cập chính"
 
 #: lib/structure/footer.php:136
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Bản quyền"
 
 #: lib/structure/comments.php:440
 msgid "Speak Your Mind"
-msgstr "Exprimez vous!"
+msgstr "Hãy để lại ý kiến"
 
 #: lib/structure/comments.php:431
 msgid "Website"
-msgstr "Site Web"
+msgstr "Địa chỉ website"
 
 #: lib/structure/comments.php:425
 msgid "Email"
-msgstr "Email"
+msgstr "Địa chỉ Email"
 
 #: lib/structure/comments.php:419
 msgid "Name"
-msgstr "Nom"
+msgstr "Tên"
 
 #: lib/structure/comments.php:243 lib/structure/comments.php:346
 msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
+msgstr "Bình luận của bạn đang chờ để xét duyệt"
 
 #: lib/structure/comments.php:236
 msgid "%1$s at %2$s"
-msgstr "%1$s à %2$s"
+msgstr "%1$s lúc %2$s"
 
 #: lib/structure/comments.php:232 lib/structure/comments.php:301
 msgid "says"
-msgstr "a écrit"
+msgstr "viết"
 
 #: lib/structure/comments.php:232
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
@@ -1175,73 +1168,73 @@ msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
 
 #: lib/structure/comments.php:146
 msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>Rétroliens</h3>"
+msgstr "<h3>Theo dõi Trackback</h3>"
 
 #: lib/structure/comments.php:70
 msgid "<h3>Comments</h3>"
-msgstr "<h3>Commentaires</h3>"
+msgstr "<h3>Bình luận</h3>"
 
 #: lib/shortcodes/post.php:594 lib/structure/comments.php:237
 #: lib/structure/comments.php:330 lib/structure/post.php:351
 msgid "(Edit)"
-msgstr "(Éditer)"
+msgstr "(Sửa)"
 
 #: lib/shortcodes/post.php:492 lib/shortcodes/post.php:535
 msgid "Filed Under: "
-msgstr "Catégorie(s) : "
+msgstr "Thuộc chủ đề:"
 
 #: lib/shortcodes/post.php:450
 msgid "Tagged With: "
-msgstr "Tags : "
+msgstr "Tag với:"
 
 #: lib/shortcodes/post.php:402
 msgid "% Comments"
-msgstr "% Commentaires"
+msgstr "% Bình luận"
 
 #: lib/shortcodes/post.php:403
 msgid "1 Comment"
-msgstr "1 Commentaire"
+msgstr "1 Bình luận"
 
 #: lib/shortcodes/post.php:404
 msgid "Leave a Comment"
-msgstr "Laisser un commentaire"
+msgstr "Để lại bình luận"
 
 #: lib/shortcodes/footer.php:303
 msgid "Log out"
-msgstr "Se déconnecter"
+msgstr "Đăng xuất"
 
 #: lib/shortcodes/footer.php:301
 msgid "Log in"
-msgstr "Se connecter"
+msgstr "Đăng nhập"
 
 #: lib/shortcodes/footer.php:40
 msgid "Return to top of page"
-msgstr "Vers le Haut de la Page"
+msgstr "Trở về đầu trang"
 
 #: lib/functions/upgrade.php:681
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s est maintenant disponible. Nous avons programmer une mise à jour en un click pour ce thème."
+msgstr "Genesis %s đã có sẵn. Chúng tôi cung cấp chức năng cập nhật chỉ bằng 1-cú nhấn chuột cho giao diện, vì thế hãy đăng nhập vào bảng điều khiển và cập nhật sớm nhất vào thời điểm thuận tiện của bạn"
 
 #: lib/functions/upgrade.php:680
 msgid "Genesis %s is available for %s"
-msgstr "Genesis %s est disponible pour %s"
+msgstr "Genesis %s đã có sẵn để %s"
 
 #: lib/functions/upgrade.php:611
 msgid "Click here to complete the upgrade"
-msgstr "Cliquer ici pour finaliser la mise à jour"
+msgstr "Nhấn vào đây để hoàn thành việc nâng cấp."
 
 #: lib/classes/breadcrumb.php:44 lib/functions/deprecated.php:116
 msgid "Home"
-msgstr "Accueil"
+msgstr "Trang chủ"
 
 #: lib/widgets/featured-post-widget.php:393
 #: lib/widgets/featured-post-widget.php:544
 msgid "Number of Posts to Show"
-msgstr "Nombre d'articles à afficher"
+msgstr "Số bài viết để hiển thị"
 
 #: lib/admin/theme-settings.php:965 lib/widgets/featured-post-widget.php:386
 msgid "All Categories"
-msgstr "Toutes les Catégories"
+msgstr "Tất cả chủ đề"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
@@ -1249,44 +1242,44 @@ msgstr ""
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
-msgstr "Numérique"
+msgstr "Dạng số"
 
 #: lib/admin/customizer.php:466 lib/admin/theme-settings.php:933
 msgid "Previous / Next"
-msgstr "Précédent / Suivant"
+msgstr "Trước / Sau"
 
 #: lib/widgets/featured-page-widget.php:261
 #: lib/widgets/featured-post-widget.php:470
 msgid "Image Size"
-msgstr "Taille de l'image"
+msgstr "Kích cỡ Ảnh"
 
 #: lib/admin/theme-settings.php:895 lib/widgets/featured-post-widget.php:523
 msgid "characters"
-msgstr "caractères "
+msgstr "ký tự"
 
 #: lib/admin/theme-settings.php:892 lib/widgets/featured-post-widget.php:521
 msgid "Limit content to"
-msgstr "Limiter le contenu à "
+msgstr "Giới hạn nội dung đến"
 
 #: lib/admin/customizer.php:402
 msgid "Select one of the following"
-msgstr "Sélectionner un des éléments suivants"
+msgstr "Chọn một trong những cái sau đây:"
 
 #: lib/admin/theme-settings.php:838 lib/admin/theme-settings.php:841
 msgid "Enable Trackbacks"
-msgstr "Activer les Rétroliens (pour relier les articles interblog entre eux)"
+msgstr "Bật Trackback"
 
 #: lib/admin/theme-settings.php:831 lib/admin/theme-settings.php:847
 msgid "on pages?"
-msgstr "pour les pages?"
+msgstr "trên trang?"
 
 #: lib/admin/theme-settings.php:828 lib/admin/theme-settings.php:844
 msgid "on posts?"
-msgstr "pour les articles?"
+msgstr "trên bài viết?"
 
 #: lib/admin/theme-settings.php:822 lib/admin/theme-settings.php:825
 msgid "Enable Comments"
-msgstr "Activer les commentaires"
+msgstr "Bật bình luận"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
@@ -1298,40 +1291,40 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
-msgstr "Texte pour le lien Twitter"
+msgstr "Chữ liên kết Twitter"
 
 #: lib/admin/theme-settings.php:733
 msgid "Enter Twitter ID:"
-msgstr "Entrer l'identifiant Twitter"
+msgstr "Nhập Twitter ID:"
 
 #: lib/admin/theme-settings.php:728
 msgid "Twitter link"
-msgstr "Liens Twitter"
+msgstr "Liên kết Twitter"
 
 #: lib/admin/theme-settings.php:727
 msgid "Search form"
-msgstr "Champs de recherche"
+msgstr "Form tìm kiếm"
 
 #: lib/admin/theme-settings.php:726
 msgid "RSS feed links"
-msgstr "Liens RSS"
+msgstr "Liên kết RSS feed"
 
 #: lib/admin/theme-settings.php:725
 msgid "Today's date"
-msgstr "Date d'aujourd'hui"
+msgstr "Ngày hôm nay"
 
 #: lib/admin/cpt-archive-settings.php:330 lib/admin/theme-settings.php:255
 #: lib/functions/layout.php:58
 msgid "Full Width Content"
-msgstr "Pleine page"
+msgstr "Nội dung toàn trang"
 
 #: lib/admin/customizer.php:149 lib/admin/theme-settings.php:679
 msgid "Image logo"
-msgstr "Image du logo"
+msgstr "Ảnh logo"
 
 #: lib/admin/theme-settings.php:678
 msgid "Dynamic text"
-msgstr "Texte dynamique"
+msgstr "Chữ động"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
@@ -1339,103 +1332,103 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
-msgstr "Version: "
+msgstr "Phiên bản:"
 
 #: lib/admin/customizer.php:370 lib/admin/theme-settings.php:286
 #: lib/admin/theme-settings.php:363 lib/admin/theme-settings.php:443
 msgid "Content Archives"
-msgstr "Archives des articles"
+msgstr "Nội dung lưu trữ"
 
 #: lib/admin/customizer.php:253 lib/admin/theme-settings.php:277
 #: lib/admin/theme-settings.php:353 lib/admin/theme-settings.php:439
 msgid "Breadcrumbs"
-msgstr "Fil d'Ariane"
+msgstr "Breadcrumbs"
 
 #: lib/admin/user-meta.php:126
 msgid "Author Box"
-msgstr "Biographie de l'auteur"
+msgstr "Khung tác giả"
 
 #: lib/admin/theme-settings.php:241 lib/admin/theme-settings.php:331
 #: lib/admin/theme-settings.php:424
 msgid "Custom Feeds"
-msgstr "Flux personnalisés"
+msgstr "Tùy chỉnh Feed"
 
 #: lib/admin/theme-settings.php:234 lib/admin/theme-settings.php:326
 #: lib/admin/theme-settings.php:418
 msgid "Information"
-msgstr "Informations"
+msgstr "Thông tin"
 
 #: lib/admin/term-meta.php:153 lib/admin/term-meta.php:156
 #: lib/admin/term-meta.php:159 lib/admin/user-meta.php:199
 #: lib/admin/user-meta.php:202 lib/admin/user-meta.php:205
 msgid "Apply %s to this archive?"
-msgstr "Appliquer %s à cette archive?"
+msgstr "Áp dụng %s cho lưu trữ này ?"
 
 #: lib/admin/term-meta.php:150 lib/admin/user-meta.php:196
 msgid "Robots Meta"
-msgstr "Métadonnées pour les Robots (moteurs de recherche)"
+msgstr "Robots Meta"
 
 #: lib/admin/cpt-archive-settings.php:216 lib/admin/term-meta.php:145
 #: lib/admin/user-meta.php:191
 msgid "Comma separated list"
-msgstr "Liste des mots clefs séparée par une virgule"
+msgstr "Dấu phẩy phân cách danh sách"
 
 #: lib/admin/seo-settings.php:552 lib/admin/seo-settings.php:555
 msgid "Apply %s to your site?"
-msgstr "Appliquer %s à votre site?"
+msgstr "Áp dụng %s cho website của bạn?"
 
 #: lib/admin/seo-settings.php:518
 msgid "Apply %s to Entire Site?"
-msgstr "Appliquer %s au site entier?"
+msgstr "Áp dụng %s cho toàn bộ website?"
 
 #: lib/admin/seo-settings.php:502 lib/admin/seo-settings.php:535
 msgid "Apply %s to Search Archives?"
-msgstr "Appliquer %s aux pages de recherche?"
+msgstr "Áp dụng %s cho Tìm kiếm Lưu trữ?"
 
 #: lib/admin/seo-settings.php:499 lib/admin/seo-settings.php:532
 msgid "Apply %s to Date Archives?"
-msgstr "Appliquer %s aux archives de dates?"
+msgstr "Áp dụng %s cho Ngày tháng Lưu trữ?"
 
 #: lib/admin/seo-settings.php:496 lib/admin/seo-settings.php:529
 msgid "Apply %s to Author Archives?"
-msgstr "Appliquer %s aux archives des auteurs?"
+msgstr "Áp dụng %s cho Tác giả Lưu trữ?"
 
 #: lib/admin/seo-settings.php:493 lib/admin/seo-settings.php:526
 msgid "Apply %s to Tag Archives?"
-msgstr "Appliquer %s aux archives d'Etiquettes?"
+msgstr "Áp dụng %s cho Tag Lưu trữ?"
 
 #: lib/admin/seo-settings.php:490 lib/admin/seo-settings.php:523
 msgid "Apply %s to Category Archives?"
-msgstr "Appliquer %s aux archives de catégories?"
+msgstr "Áp dụng %s cho Chủ đề Lưu trữ?"
 
 #: lib/admin/seo-settings.php:453
 msgid "Include Shortlink tag?"
-msgstr "Lien court pour les balises"
+msgstr "Bao gồm Shortlink Tag?"
 
 #: lib/admin/seo-settings.php:449
 msgid "Shortlink Tag"
-msgstr "Lien court pour les Étiquettes"
+msgstr "Shortlink Tag:"
 
 #: lib/admin/seo-settings.php:443
 msgid "Include Windows Live Writer Support Tag?"
-msgstr "Inclure la fenêtre pour le support en direct des Étiquettes?"
+msgstr "Bao gồm tag hỗ trợ Windows Live Writer ?"
 
 #: lib/admin/seo-settings.php:429
 msgid "Relationship Link Tags"
-msgstr "Relations entre les mots clefs."
+msgstr "Tag liên kết quan hệ:"
 
 #: lib/admin/seo-settings.php:394 lib/admin/seo-settings.php:397
 #: lib/admin/seo-settings.php:400
 msgid "Apply %s to the homepage?"
-msgstr "Appliquer %s à la page d'accueil ?"
+msgstr "Áp dụng %s cho trang chủ?"
 
 #: lib/admin/seo-settings.php:348
 msgid "I'll manually wrap my own text on the homepage"
-msgstr "Jamais. J'ajouterai mon texte manuellement sur la page d'accueil."
+msgstr "Không. Tôi sẽ tự gói chữ riêng cảu tôi trên trang chủ"
 
 #: lib/admin/seo-settings.php:342
 msgid "Site Title"
-msgstr "Titre du site"
+msgstr "Tiêu đề website"
 
 #: lib/admin/customizer.php:453 lib/admin/theme-settings.php:922
 #: lib/widgets/featured-page-widget.php:276
@@ -1443,7 +1436,7 @@ msgstr "Titre du site"
 #: lib/widgets/featured-post-widget.php:485
 #: lib/widgets/user-profile-widget.php:169
 msgid "Right"
-msgstr "Droite"
+msgstr "Phải"
 
 #: lib/admin/customizer.php:452 lib/admin/theme-settings.php:921
 #: lib/widgets/featured-page-widget.php:275
@@ -1451,30 +1444,30 @@ msgstr "Droite"
 #: lib/widgets/featured-post-widget.php:484
 #: lib/widgets/user-profile-widget.php:168
 msgid "Left"
-msgstr "Gauche"
+msgstr "Trái"
 
 #: lib/js/load-scripts.php:124
 msgid "Are you sure you want to reset?"
-msgstr "Etes vous sûr de vouloir réinitialiser les réglages?"
+msgstr "Bạn có chắc bạn muốn thiết lập lại ?"
 
 #: lib/admin/seo-settings.php:45 lib/admin/theme-settings.php:61
 #: lib/classes/admin.php:110
 msgid "Reset Settings"
-msgstr "Annuler les réglages"
+msgstr "Thiết lập lại"
 
 #: lib/admin/seo-settings.php:38
 msgid "Genesis - SEO Settings"
-msgstr "Genesis - Réglages SEO"
+msgstr "Genesis - Thiết lập SEO"
 
 #: lib/admin/seo-settings.php:195 lib/admin/seo-settings.php:222
 #: lib/admin/seo-settings.php:255
 msgid "Document Head Settings"
-msgstr "Réglages de l'entête"
+msgstr "Thiết lập phần đầu tài liệu"
 
 #: lib/admin/seo-settings.php:185 lib/admin/seo-settings.php:217
 #: lib/admin/seo-settings.php:254
 msgid "Homepage Settings"
-msgstr "Réglage de la page d'accueil"
+msgstr "Thiết lập trang chủ"
 
 #: lib/admin/cpt-archive-settings.php:138
 #: lib/admin/cpt-archive-settings.php:306
@@ -1482,97 +1475,97 @@ msgstr "Réglage de la page d'accueil"
 #: lib/admin/seo-settings.php:39 lib/admin/seo-settings.php:170
 #: lib/admin/seo-settings.php:207
 msgid "SEO Settings"
-msgstr "Réglages SEO"
+msgstr "Thiết lập SEO"
 
 #: lib/admin/import-export.php:201 lib/admin/theme-settings.php:50
 #: lib/admin/theme-settings.php:51 lib/admin/theme-settings.php:230
 #: lib/admin/theme-settings.php:321
 msgid "Theme Settings"
-msgstr "Réglages du thème"
+msgstr "Thiết lập Giao diện"
 
 #: lib/admin/cpt-archive-settings.php:263 lib/admin/inpost-metaboxes.php:305
 #: lib/admin/term-meta.php:215 lib/admin/user-meta.php:253
 msgid "Default Layout set in <a href=\"%s\">Theme Settings</a>"
-msgstr "Les Options de maquette par défaut sont réglés dans <a href=\"%s\">Réglages du thème</a>"
+msgstr "Kiểu mẫu mặc định đặt trong phần <a href=\"%s\">Thiết lập giao diện</a>"
 
 #: lib/admin/inpost-metaboxes.php:88 lib/admin/inpost-metaboxes.php:92
 #: lib/admin/inpost-metaboxes.php:96
 msgid "Apply %s to this post/page"
-msgstr "Appliquer %s à cet article/cette page"
+msgstr "Áp dụng %s cho bài viết/trang này"
 
 #: lib/admin/inpost-metaboxes.php:84 lib/admin/seo-settings.php:200
 #: lib/admin/seo-settings.php:227 lib/admin/seo-settings.php:256
 msgid "Robots Meta Settings"
-msgstr "Réglages des métadonnées pour les robots"
+msgstr "Thiếp lập meta Robot"
 
 #: lib/admin/cpt-archive-settings.php:199 lib/admin/term-meta.php:128
 #: lib/admin/user-meta.php:174
 msgid "Custom Document Title"
-msgstr "Titre personnalisé"
+msgstr "Tùy chỉnh Tiêu đề Tài liệu"
 
 #: comments.php:18
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Cette article est protégé. Veuillez entrer le mot de passe pour le voir."
+msgstr "Bài này đã bị đặt mật khẩu bảo vệ. Hãy nhập mật khẩu để xem các bình luận."
 
 #: lib/functions/general.php:436
 msgid "Recent Posts:"
-msgstr "Articles récents :"
+msgstr "Bài viết gần đây:"
 
 #: lib/functions/general.php:433
 msgid "Monthly:"
-msgstr "Mois"
+msgstr "Hàng tháng:"
 
 #: lib/functions/general.php:430
 msgid "Authors:"
-msgstr "Auteurs :"
+msgstr "Tác giả:"
 
 #: lib/functions/general.php:427
 msgid "Categories:"
-msgstr "Catégories :"
+msgstr "Chủ đề:"
 
 #: lib/functions/general.php:422 lib/structure/post.php:379
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Trang:"
 
 #: lib/admin/theme-settings.php:378
 msgid "Home Pages"
-msgstr "Page d'accueil"
+msgstr ""
 
 #: lib/admin/theme-settings.php:317
 msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
-msgstr "Ce réglage est recommandé car il permet d'afficher facilement un blog sur la page d'accueil (sans renommer le fichier home.php) et il n'y aura pas de confusion provoqué par du contenu vide, sur la page d'accueil quand le thème vient d'être installé."
+msgstr ""
 
 #: lib/admin/theme-settings.php:316
 msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
-msgstr "Le troisième type de page d'accueil est la page d'accueil dynamique. C'est typique sur les thèmes enfants les plus récents. Cela montrera vos derniers articles une fois que vous avez mis des widgets dans les zones dédiées pour la page d'accueil."
+msgstr ""
 
 #: lib/admin/theme-settings.php:315
 msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
-msgstr "Une autre page typique pour la page d'accueil est le type \"blog\", qui est commun à la plupart des thèmes enfants gratuits. Cela affiche vos derniers articles et ne requière pas d'autre réglages spécifiques."
+msgstr ""
 
 #: lib/admin/theme-settings.php:314
 msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
-msgstr "Si votre thème utilise une page d'accueil personnalisée et que vous voulez montrer les derniers articles dans un format de type blog, n'utilisez pas le modèle de page Blog. A la place, vous avez besoin renommer le fichier home.php en home-old.php."
+msgstr ""
 
 #: lib/admin/theme-settings.php:313
 msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
-msgstr "Les thèmes enfants qui incluent ce type de page incluent normalement des réglages spécifiques. Des tutoriels dédiés sont présents sur le forum de chaque thème enfant."
+msgstr ""
 
 #: lib/admin/theme-settings.php:312
 msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
-msgstr "Cette page d'accueil se règle typiquement via les zones de widget dédiées pour la page d'accueil. Ces zones sont accessibles depuis le menu Widget dans l'onglet Apparence."
+msgstr ""
 
 #: lib/admin/theme-settings.php:311
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
-msgstr "Pour utiliser ce type de page d'accueil, veillez à sélectionner Les Derniers articles dans les options de lecture (Onglet Général). Vous pouvez régler une autre page pour qu'elle affiche vos derniers articles avec le modèle Blog dans la page de votre choix."
+msgstr ""
 
 #: lib/admin/theme-settings.php:310
 msgid "Most Genesis child themes include a custom home page."
-msgstr "La plupart des thèmes Genesis incluent une page d'accueil personnalisée"
+msgstr ""
 
 #: lib/admin/theme-settings.php:309
 msgid "How Home Pages Work"
-msgstr "Comment fonctionne la page d'acccueil"
+msgstr ""
 
 #: lib/admin/theme-settings.php:306
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
@@ -1580,7 +1573,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:298 lib/admin/theme-settings.php:368
 msgid "Blog Page"
-msgstr "Page Blog"
+msgstr ""
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
@@ -1588,7 +1581,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
-msgstr "La liste \"Taille de l'image\" est générée par les taille d'image disponibles dans le thème."
+msgstr ""
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
@@ -1604,7 +1597,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
-msgstr "Cela peut également être couplé avec le champs suivant \"Limiter le contenu à [___] caractères\" pour limiter ce contenu à un nombre spécifique de lettres ou d'espaces. Ceci réduira tout HTML à du texte simple, mais elle permet d'avoir une longueur plus précise que pour l'affichage de l'extrait."
+msgstr ""
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
@@ -1612,111 +1605,111 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
-msgstr "Les Archives incluent toutes les pages qui utilisent le Modèle de page Blog, les archives de catégories, les archives de mots clefs, les archives de l'auteur et les derniers articles s'il n'y pas de page d'accueil personnalisée. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:287
 msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
-msgstr "Dans les Réglages du Thème Genesis vous pouvez changer la longueur du Contenu dans les Archives afin de contrôler ce qui s'affiche sur les Archives du site."
+msgstr ""
 
 #: lib/admin/theme-settings.php:283
 msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
-msgstr "Si vous activez les commentaires ou rétroliens ici, cela peut être désactivé sur chaque page ou article. Si vous le désactivez ici, il ne sera pas possible de l'activer sur une page ou un article individuellement."
+msgstr ""
 
 #: lib/admin/theme-settings.php:282
 msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
-msgstr "Ceci permet à un site d'être notifié quand les commentaires ou les rétroliens (alerte quand quelqu'un fait un lien vers votre page) sont activés pour les articles ou les pages."
+msgstr ""
 
 #: lib/admin/theme-settings.php:278
 msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
-msgstr "Cette metaboxe vous permet de définir ou le \"Fil d'Ariane\" s'affichera. Le fil d'Ariane est l'outil de navigation qui affiche ou les visiteurs sont pendant la navigation."
+msgstr ""
 
 #: lib/admin/theme-settings.php:258
 msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
-msgstr "Cette option de maquette peut être écrasée dans les options de maquette des articles/pages/mots clefs/catégories sur chaque articles/pages/mots clefs/catégories."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:329 lib/admin/theme-settings.php:254
 msgid "Sidebar Sidebar Content"
-msgstr "Barre-latérale Barre-latérale Contenu"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:328 lib/admin/theme-settings.php:253
 msgid "Content Sidebar Sidebar"
-msgstr "Contenu Barre-latérale Barre-latérale"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:327 lib/admin/theme-settings.php:252
 msgid "Sidebar Content Sidebar"
-msgstr "Barre-latérale Contenu Barre-latérale"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:326 lib/admin/theme-settings.php:251
 msgid "Sidebar Content"
-msgstr "Barre-latérale Contenu"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:325 lib/admin/theme-settings.php:250
 msgid "Content Sidebar"
-msgstr "Contenu Barre-latérale"
+msgstr ""
 
 #: lib/admin/theme-settings.php:248
 msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
-msgstr "Ceci vous permet de choisir le réglage de mise en page par défaut de votre site. Sur la plupart des thèmes enfants vous verrez ces options."
+msgstr ""
 
 #: lib/admin/theme-settings.php:244
 msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
-msgstr "En cochant \"Rediriger le Flux\", tout le traffic vers le flux par défaut sera redirigé vers le lien Feedburner à la place."
+msgstr ""
 
 #: lib/admin/theme-settings.php:243
 msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
-msgstr "En remplissant ce champs pour le flux du site principal, il s'affichera comme un lien pour Feedburner. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:242
 msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
-msgstr "Si vous utilisez Feedburner pour gérer vos flux rss, vous pouvez utiliser cette fonction pour régler les flux natif de votre site vers le flux de Feedburner."
+msgstr ""
 
 #: lib/admin/theme-settings.php:237
 msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
-msgstr "Ceci ne veut pas dire que les mises à jour se feront  automatiquement sans votre permission; cela vous préviendra seulement qu'une mise à jour est disponible. Vous devez la sélectionner pour appliquer la mise à jour."
+msgstr ""
 
 #: lib/admin/theme-settings.php:236
 msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
-msgstr "Normalement, cela devrait être non coché. You pouvez aussi régler les mise à jour automatiques."
+msgstr ""
 
 #: lib/admin/theme-settings.php:235
 msgid "The information box allows you to see the current Genesis theme information and display if desired."
-msgstr "La boîte de dialogue information vous permet de voir les information sur le thème courant Genesis et les afficher si nécessaire."
+msgstr ""
 
 #: lib/admin/theme-settings.php:231
 msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme &#x02026;"
-msgstr "Les Réglages du thème proposent un contrôle sur le fonctionnement de votre thème. Vous serez capable de modifier des options simples et même complexes depuis ce menu. Certains thèmes enfants peuvent ajouter d'autres éléments dans ce menu, incluant la possibilité de choisir des thèmes de couleur ou de régler certaines options, comme par exemple les slider. Chaque métaboxe peut se fermer ou s'ouvrir en cliquant sur l'entête. Elles peuvent aussi être déplacées en glisser déposer ou même masquées depuis le menu \"Options de l'écran\" dans le coin droit de l'écran, en décochant les métaboxes que vous voulez masquer. Ci-dessous vous trouverez les éléments communs à tous les thèmes enfants."
+msgstr ""
 
 #: lib/admin/seo-settings.php:203
 msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
-msgstr "Pour la plupart des sites soit la page d'accueil ou la page blog (avec le modèle de page Blog) servira comme page d'indexation et c'est la raison pour laquelle les réglages par défaut sont de ne pas indexer les catégories, les étiquettes, les auteurs, les dates or les recherches."
+msgstr ""
 
 #: lib/admin/seo-settings.php:202
 msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
-msgstr "Au moins une archive devrait être indéxée, mais indexer plusieurs archives va provoquer des pénalisation pour duplication de contenu (les pages multiples avec des contenu identiques ne semblent pas normales pour les moteurs de recherche)."
+msgstr ""
 
 #: lib/admin/seo-settings.php:201
 msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
-msgstr "Noarchive et noindex sont expliqués dans le réglage de la page d'accueil. C'est ici que vous pouvez sélectionner quels seront les autres parties de votre site qui bénéficieront de ces options."
+msgstr ""
 
 #: lib/admin/seo-settings.php:197
 msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
-msgstr "Vous pouvez aussi ajouter un support pour Windows Livre Writer si vous utilisez des logiciels qui le supporte qui incluent une balise de lien court, si c'est requis par des services tiers."
+msgstr ""
 
 #: lib/admin/seo-settings.php:196
 msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
-msgstr "La balise Relationship Link sont des balises ajoutées par WordPress qui n'ont pas de valeur SEO mais cela ralentie votre site. Ils sont désactivés par défaut, mais si vous avez un besoin spécifique pour un plugin ou un autre usage spécifique, vous pouvez l'activer."
+msgstr ""
 
 #: lib/admin/seo-settings.php:192
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr "Les métadonnées pour les robots vont dire au moteurs de recherche comment aborder votre page d'accueil. Noindex veut dire de ne pas du tout indexer les pages, et elle n'apparaîtrons pas dans les résultats de recheche. Nofollow veut dire de ne pas suivre les liens depuis cette page et noarchive dit au moteurs de ne pas faire une copie d'archive de cette page."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:310 lib/admin/seo-settings.php:191
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
-msgstr "La plupart des moteurs de recherche n'utilisent plus les Mots clefs ou n'y attache pas beaucoup d'importance; cependant, au cas où ils deviendraient plus important, c'est préférable de les ajouter. Ils guident votre contenu. Si le contenu ne correspond pas aux mots clefs choisis, alors vous devriez reconsidérer votre contenu avec plus d'attention."
+msgstr ""
 
 #: lib/admin/seo-settings.php:190
 msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
-msgstr "Les META description est les META mots clefs seront ajouté dans les balise meta de la page d'accueil. Les META description est le résumé qui apparaît sous le titre de votre site dans les résultats du moteur de recherche."
+msgstr ""
 
 #: lib/admin/seo-settings.php:189
 msgid "The home doctitle sets what will appear within the %1$s tags (unseen in the browser) for the home page."
@@ -1724,241 +1717,241 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:188
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
-msgstr "Pour ajouter votre texte personnalisé vous devez éditer un fichier PHP, ou utiliser un widget texte dans une zone de widget de la page d'accueil."
+msgstr ""
 
 #: lib/admin/seo-settings.php:187
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
-msgstr "Vous pouvez aussi spécifier si le titre du site, la description ou votre propre texte devra être encadré dans une balise &lt;h1&gt; (l'entête primaire du HTML)"
+msgstr ""
 
 #: lib/admin/seo-settings.php:186
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
-msgstr "Ceux-ci sont les réglages SEO spécifiques pour la page d'accueil. Note: ces réglages ne seront pas appliqués si une page statique est choisie comme page d'accueil. Si vous utilisez ce type de page (statique), vous aurez besoin de faire vos réglages SEO sur cette page."
+msgstr ""
 
 #: lib/admin/seo-settings.php:182
 msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
-msgstr "Le <strong>Séparateur du titre de la page</strong> est le caractère qui se placera entre le titre et le complément attaché au titre."
+msgstr ""
 
 #: lib/admin/seo-settings.php:181
 msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
-msgstr "<strong>Emplacement du titre de la page</strong> détermine sur quel côté du titre vous allez afficher les éléments mentionnés."
+msgstr ""
 
 #: lib/admin/seo-settings.php:180
 msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
-msgstr "<strong>Le nom du site Attaché</strong> va insérer, après le titre et sur chaque page, le titre du site depuis les réglages généraux."
+msgstr ""
 
 #: lib/admin/seo-settings.php:179
 msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
-msgstr "<strong>La description Attachée</strong> va insérer après le titre de la page d'accueil la description du site, depuis les réglages généraux."
+msgstr ""
 
 #: lib/admin/seo-settings.php:178 lib/admin/seo-settings.php:212
 msgid "Doctitle Settings"
-msgstr "Réglage pour le titre de Page"
+msgstr ""
 
 #: lib/admin/seo-settings.php:175
 msgid "Below you'll find a few succinct notes on the options for each box:"
-msgstr "Ci-dessous, vous trouverez des notes succintes sur les options de chaque meta boxes"
+msgstr ""
 
 #: lib/admin/seo-settings.php:174
 msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
-msgstr "Chaque page, article et taxonomies auront leur propres réglages SEO. Les réglages par défaut sont recommandés pour la plupart des utilisateurs. Si vous voulez ajuster votre propres réglages SEO, les différentes meta boxes internes intègrent des descriptions spécifiques."
+msgstr ""
 
 #: lib/admin/seo-settings.php:173
 msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
-msgstr "Si vous voyez le menu, alors ouvrir celui-ci vous permettra de régler les paramètres généraux pour le SEO de votre site."
+msgstr ""
 
 #: lib/admin/seo-settings.php:172
 msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
-msgstr "Si vous ne voyez pas un réglage SEO dans le sous-menu, alors vous avez probablement un autre plugin SEO actif."
+msgstr ""
 
 #: lib/admin/seo-settings.php:171
 msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
-msgstr "Genesis SEO (seach engine optimization) est poli et il se désactivera de lui-même quand les plus plugins SEO les plus connus (par example, All-in-One SEO, WordPress SEO, etc) sont actifs."
+msgstr ""
 
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:236
 #: lib/admin/theme-settings.php:387
 msgid "Genesis Tutorials"
-msgstr "Tutoriels Genesis"
+msgstr ""
 
 #: lib/admin/import-export.php:99 lib/admin/seo-settings.php:235
 #: lib/admin/theme-settings.php:386
 msgid "Genesis Snippets"
-msgstr "Snippets Genesis"
+msgstr ""
 
 #: lib/admin/import-export.php:98 lib/admin/seo-settings.php:234
 #: lib/admin/theme-settings.php:385
 msgid "Get Support"
-msgstr "Obtenir du Support"
+msgstr ""
 
 #: lib/admin/import-export.php:97 lib/admin/seo-settings.php:233
 #: lib/admin/theme-settings.php:384
 msgid "For more information:"
-msgstr "Pour plus d'information:"
+msgstr ""
 
 #: lib/admin/import-export.php:77
 msgid "JSON"
-msgstr "JSON"
+msgstr ""
 
 #: lib/admin/import-export.php:77
 msgid "JavaScript Object Notation"
-msgstr "JavaScript Object Notation"
+msgstr ""
 
 #: lib/admin/import-export.php:76 lib/admin/import-export.php:91
 msgid "Export"
-msgstr "Exporter"
+msgstr ""
 
 #: lib/admin/import-export.php:73
 msgid "This cannot be undone"
-msgstr "Ceci ne peut pas être annulé"
+msgstr ""
 
 #: lib/admin/import-export.php:71 lib/admin/import-export.php:86
 msgid "Import"
-msgstr "Importer"
+msgstr ""
 
 #: lib/admin/import-export.php:68
 msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
-msgstr "Cela n'inclue pas les autres réglages qui concernent plugins, widget ou réglages spécifiques pour les articles/pages/taxonomies/utilisateurs."
+msgstr ""
 
 #: lib/admin/import-export.php:67
 msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
-msgstr "Ceci est spécifique aux réglages de Genesis et cela n'inclue pas les articles, pages ou image, ce que l'outil intégré de WordPress importer/exporter réalise."
+msgstr ""
 
 #: lib/admin/import-export.php:66
 msgid "This allows you to import or export Genesis Settings."
-msgstr "Ceci vous permet d'importer ou d'exporter vos réglages Genesis"
+msgstr ""
 
 #: lib/functions/upgrade.php:636
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
-msgstr "Genesis %s est disponible. <a href=\"%s\" %s>Vérifiez ce qui est nouveau</a> ou  <a href=\"%s\" %s>mettez à jour maintenant</a>."
+msgstr ""
 
 #: lib/admin/theme-settings.php:719
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
-msgstr "Pour voir les réglages du menu de navigation principal, vous devez créer un <a href=\"%s\">menu personnalisé</a>, puis l'affecter à l'endroit du menu principal."
+msgstr ""
 
 #: lib/admin/theme-settings.php:272
 msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
-msgstr "Lien Twitter affiche un lien vers votre profil Twitter, comme indiqué dans le paramètre ID de Twitter. Entrez uniquement votre nom d'utilisateur dans cet endroit."
+msgstr ""
 
 #: lib/admin/theme-settings.php:271
 msgid "Search form displays a small search form utilizing the WordPress search functionality."
-msgstr "Ce Formulaire de recherche affiche un petit formulaire de recherche utilisant la fonctionnalité de recherche WordPress."
+msgstr ""
 
 #: lib/admin/theme-settings.php:270
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
-msgstr "Le lien Flux RSS affiche un lien vers le flux RSS de votre site qu'un lecteur peut utiliser pour s'abonner à votre site en utilisant le lecteur RSS de son choix."
+msgstr ""
 
 #: lib/admin/theme-settings.php:269
 msgid "Today's date displays the current date"
-msgstr "La date d'aujourd'hui affiche la date actuelle"
+msgstr ""
 
 #: lib/admin/theme-settings.php:267
 msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
-msgstr "Les Extras de la navigation principale s'affichent généralement sur ​​le côté droit de votre menu de navigation principale."
+msgstr ""
 
 #: lib/admin/theme-settings.php:263
 msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
-msgstr "L'option <strong>lmage logo</strong> va utiliser un fichier d'image du logo dans l'en-tête au lieu du titre et de la description du site. Ce réglage ajoute une classe header-image à votre site, vous permettant de spécifier l'image d'en-tête dans le fichier style.css de votre thème. Par défaut, le logo peut être enregistré comme logo.png et enregistrée dans le dossier images de votre thème enfant."
+msgstr ""
 
 #: lib/admin/theme-settings.php:262
 msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
-msgstr "L'option <strong>Texte dynamique </strong> utilise le titre et la description du site à partir des paramètres de votre entête de votre site."
+msgstr ""
 
 #: lib/structure/sidebar.php:63
 msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr "Ceci est le %s. Vous pouvez ajouter du contenu à cette région en visitant votre <a href=\"%s\"> panneau Widgets </a> et en ajoutant de nouveaux widgets à cette zone."
+msgstr ""
 
 #: lib/functions/deprecated.php:232
 msgid "data in style sheet files"
-msgstr "données dans des fichiers de feuille de style"
+msgstr ""
 
 #: lib/admin/theme-settings.php:301
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
-msgstr "Il y a quelques particularités dans le modèle Blog qui vous permettent de spécifier la catégorie à afficher sur chaque page utilisant le modèle, ce qui est utile si vous avez une catégorie «Nouvelles» (ou autre chose) que vous souhaitez afficher séparément."
+msgstr ""
 
 #: lib/admin/theme-settings.php:510
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr "Si vous fournissez une adresse email ci-dessus, vous serez averti par email quand une nouvelle version de la Genèse est disponible."
+msgstr ""
 
 #: lib/admin/theme-settings.php:709
 msgid "Load Superfish Script?"
-msgstr "Charger le script Superfish ?"
+msgstr ""
 
 #: lib/admin/import-export.php:77
 msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
-msgstr "Vous pouvez exporter vos paramètres liés à Genesis pour les sauvegarder ou les copier sur un autre site. Les thèmes enfant et les extensions peuvent ajouter leurs propres cases à cocher dans la liste. Les paramètres sont exportés dans le format %s."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:323
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
-msgstr "Cela vous permet de choisir la mise en page pour la page d'archive. Sur la plupart des thèmes enfants, vous verrez les options suivantes:"
+msgstr ""
 
 #: lib/admin/import-export.php:124
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
-msgstr "Téléchargez le fichier de données (%s) à partir de votre ordinateur et nous allons importer vos paramètres."
+msgstr ""
 
 #: lib/admin/import-export.php:73
 msgid "Once you upload an import file, it will automatically overwrite your existing settings."
-msgstr "Lors que vous téléchargez un fichier d'importation, il écrasera automatiquement vos paramètres existants."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:332 lib/admin/theme-settings.php:274
 msgid "These options can be extended or limited by the child theme."
-msgstr "Ces options peuvent être étendues ou limitées par votre propre thème."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:308
 msgid ""
 "The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
 " "
-msgstr "La description Meta et les mots-clés remplissent les balises meta pour la page d'archive. La description Meta est le texte court qui apparaît dans les résultats des moteurs de recherche. "
+msgstr ""
 
 #: lib/admin/theme-settings.php:299
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
-msgstr "Cela fonctionne avec le modèle Blog, un modèle de page qui affiche vos derniers articles. C'est ce que les gens voient quand ils arrivent sur votre page d'accueil."
+msgstr ""
 
 #: lib/admin/import-export.php:143
 msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
-msgstr "Lorsque vous cliquez sur le bouton ci-dessous, Genesis va générer un fichier de données (%s) que vous pouvez enregistrez sur votre ordinateur."
+msgstr ""
 
 #: lib/admin/seo-settings.php:280
 msgid "Use semantic HTML5 page and section headings throughout site?"
-msgstr "Utiliser HTML5 sémantique pour les entêtes de la page et des sections sur l'ensemble du site ?"
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:311
 msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr "Les balises Meta Robots indiquent aux moteurs de recherche comment gérer la page d'archive. Noindex signifie de ne pas indexer la page du tout, et celle-ci n'apparaîtra pas dans les résultats de recherche. Nofollow signifie de ne pas suivre les liens de cette page et noarchive indique de ne pas faire une copie d'archive de la page."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:294
 msgid "The Archive Headline sets the title seen on the archive page"
-msgstr "L'entête Archive définit le titre affiché sur la page d'archive"
+msgstr ""
 
 #: lib/admin/theme-settings.php:257
 msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
-msgstr "Ces options peuvent être étendues ou limitées par votre propre thème. En outre, bon nombre de thèmes ne permettent pas de différentes mises en page sur la page d'accueil puisqu'ils ont été conçus pour une mise en page d'accueil spécifique."
+msgstr ""
 
 #: lib/admin/theme-settings.php:302
 msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
-msgstr "Vous pouvez trouver plus sur cette fonctionnalité dans le tutoriel <a href=\"%s\" target=\"_blank\">Comment ajouter une page catégorie d'articles. </a>"
+msgstr ""
 
 #: lib/admin/theme-settings.php:300
 msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
-msgstr "Dans les Paramètres généraux, vous pouvez sélectionner une catégorie spécifique à afficher dans le menu déroulant, et exclure des catégories par ID, ou même sélectionner le nombre d'articles que vous souhaitez afficher sur cette page."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:295
 msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
-msgstr "Le texte d'introduction de l'archive définit le texte précédant les entrées de l'archive à titre d'information."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:333
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
-msgstr "La classe Body personnalisé ajoute une classe à la balise body dans le code HTML pour permettre la modification CSS uniquement pour la page d'archive de ce type d'article."
+msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:307
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
-msgstr "La Titre personnalisé du document définit le titre de la page tel qu'on le voit dans les navigateurs et les moteurs de recherche."
+msgstr ""
 
 #: lib/admin/import-export.php:72
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
-msgstr "Vous pouvez importer un fichier que vous avez précédemment exporté. Le nom du fichier commence par %s suivie par une ou plusieurs séquences indiquant les paramètres qu'il contient, puis suivie de la date et de l'heure de l'exportation.."
+msgstr ""
 
 #: lib/admin/seo-settings.php:548
 msgid "Directories"
-msgstr "Répertoires"
+msgstr ""
 
 #: lib/admin/seo-settings.php:514
 msgid "Archiving"
@@ -1998,7 +1991,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:74
 msgid "Canonical URL"
-msgstr "URL Canonique"
+msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
@@ -2097,7 +2090,7 @@ msgstr ""
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr "Texte Dynamique"
+msgstr ""
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
@@ -2113,7 +2106,7 @@ msgstr ""
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr "Sitemap"
+msgstr ""
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
@@ -2129,7 +2122,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr "Articles par Page"
+msgstr ""
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
@@ -2137,11 +2130,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:970
 msgid "Exclude Categories"
-msgstr "Exclure les Catégories"
+msgstr ""
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr "Afficher la Catégorie"
+msgstr ""
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
@@ -2197,11 +2190,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr "Adresse email"
+msgstr ""
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr "Mises à jour"
+msgstr ""
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
@@ -2229,7 +2222,7 @@ msgstr ""
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr "à propos"
+msgstr ""
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
@@ -2241,27 +2234,27 @@ msgstr ""
 
 #: lib/functions/upgrade.php:585
 msgid "Congratulations, you are now rocking Genesis %s! <a href=\"%s\">See what's new in %s</a>."
-msgstr "Félicitation, vous utilisez maintenant Genesis %s! <a href=\"%s\">Consultez les changements dans la version %s</a>."
+msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr "Blog"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr "http://www.studiopress.com/"
+msgstr ""
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr "StudioPress"
+msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr "http://my.studiopress.com/themes/genesis/"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr "Genesis"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
@@ -2274,20 +2267,20 @@ msgstr ""
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr "Centre"
+msgstr ""
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr "(pas de titre)"
+msgstr ""
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr "Page actuelle"
+msgstr ""
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr "Page"
+msgstr ""
 
 #: lib/structure/header.php:880
 msgid "Skip links"
