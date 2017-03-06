@@ -1,0 +1,25 @@
+{
+  "name": "genesis-translations",
+  "version": "2.2.0",
+  "description": "Genesis Translations",
+  "bugs": {
+    "url": "https://github.com/defries/genesis-translationsissues"
+  },
+  "homepage": "https://thememix.com/plugins/genesis-translations/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defries/genesis-translations"
+  },
+  "author": "ThemeMix",
+  "license": "GPL-3.0+",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "~1.0.0",
+    "grunt-contrib-imagemin": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-qunit": "~1.2.0",
+    "grunt-glotpress": "~0.2.1",
+    "grunt-jsvalidate": "~0.2.2",
+    "grunt-wp-i18n": "~0.5.4"
+  }
+}
