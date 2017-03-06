@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:42+0000\n"
+"PO-Revision-Date: 2017-03-06 14:00:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Editar Configuración de Archivos"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
@@ -527,7 +527,7 @@ msgstr "Estilo de Color:"
 
 #: lib/admin/theme-settings.php:1010 lib/admin/theme-settings.php:1018
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr "El gancho (hook) %1$s se executa inmediatamente antes de cerrar la etiqueta %2$s en el código fuente del documento."
+msgstr "Este código se insertarà inmediatamente antes del cierre de la etiqueta %s en el código fuente del documento."
 
 #: lib/admin/theme-settings.php:907
 msgid "Image Size:"
@@ -932,7 +932,7 @@ msgstr "Mostrar enlace al Archivo de Categoría"
 
 #: lib/widgets/featured-post-widget.php:536
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr "Para mostrar una lista desordenada o más artículos de esta categoría, por favor rellena la siguiente información"
+msgstr "Para mostrar una lista desordenada de más artículos en esta categoría, por favor rellena la siguiente información"
 
 #: lib/widgets/featured-post-widget.php:528
 msgid "More Text (if applicable)"

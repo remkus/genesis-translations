@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:37+0000\n"
+"PO-Revision-Date: 2017-03-06 14:01:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,7 +266,7 @@ msgstr "|"
 
 #: lib/js/load-scripts.php:123
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
-msgstr ""
+msgstr "A Genesis frissítése felülírja a jelenleg telepített verziót. Biztosan szeretnéd frissíteni? Leállítás a \"Mégse\", folytatás az \"OK\" gombbal."
 
 #: lib/js/load-scripts.php:122
 msgid "The changes you made will be lost if you navigate away from this page."
@@ -535,7 +535,7 @@ msgstr "Kép mérete:"
 
 #: lib/admin/theme-settings.php:421
 msgid "Color Style"
-msgstr "Szín variáció"
+msgstr "Szín stílus"
 
 #: lib/admin/theme-settings.php:82
 msgid "Follow me on Twitter"
@@ -569,61 +569,61 @@ msgstr "Sablon SEO beállítások"
 #: lib/functions/formatting.php:364
 msgctxt "separator in time difference"
 msgid "and"
-msgstr ""
+msgstr ","
 
 #: lib/functions/formatting.php:337
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s másodperc"
+msgstr[1] "%s másodperc"
 
 #: lib/functions/formatting.php:336
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s perc"
+msgstr[1] "%s perc"
 
 #: lib/functions/formatting.php:335
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s óra"
+msgstr[1] "%s óra"
 
 #: lib/functions/formatting.php:334
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s nap"
+msgstr[1] "%s nap"
 
 #: lib/functions/formatting.php:333
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s hét"
+msgstr[1] "%s hét"
 
 #: lib/functions/formatting.php:332
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s hónap"
+msgstr[1] "%s hónap"
 
 #: lib/functions/formatting.php:331
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s év"
+msgstr[1] "%s év"
 
 #: lib/functions/formatting.php:327
 msgctxt "time difference"
 msgid "seconds"
-msgstr ""
+msgstr "másodperc"
 
 #: lib/admin/customizer.php:371 lib/admin/theme-settings.php:937
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
@@ -676,7 +676,7 @@ msgstr "Beállítások mentve."
 #: lib/admin/seo-settings.php:47 lib/admin/theme-settings.php:63
 #: lib/classes/admin.php:112
 msgid "Settings reset."
-msgstr "Beállítások visszaállítása."
+msgstr "A beállítások visszaállításra kerültek."
 
 #: lib/admin/import-export.php:181
 msgid "Settings successfully imported."
@@ -720,7 +720,7 @@ msgstr "Lábléc %d"
 
 #: lib/functions/layout.php:105
 msgid "No Label Selected"
-msgstr ""
+msgstr "Nincs kijelölve címke"
 
 #: lib/admin/import-export.php:183
 msgid "There was a problem importing your settings. Please try again."
@@ -840,11 +840,11 @@ msgstr "Egyedi body osztály"
 
 #: lib/admin/inpost-metaboxes.php:79
 msgid "Custom Redirect URL"
-msgstr "Egyedi átirányítás URI"
+msgstr "Egyedi átirányítás URL"
 
 #: lib/admin/inpost-metaboxes.php:56 lib/admin/inpost-metaboxes.php:64
 msgid "Characters Used: %s"
-msgstr "Karakterek száma: %s"
+msgstr "Felhasznált karakterek száma: %s"
 
 #: lib/admin/import-export.php:151
 msgid "Download Export File"
@@ -864,11 +864,11 @@ msgstr "Fájl feltöltése: (Maximum méret: %s)"
 
 #: lib/admin/import-export.php:122
 msgid "Import Genesis Settings File"
-msgstr "Genesis beállítások importálása"
+msgstr "Genesis beállításfájl importálása"
 
 #: lib/admin/import-export.php:43
 msgid "Genesis - Import/Export"
-msgstr "Importálás / Exportálás"
+msgstr "Genesis - Importálás / Exportálás"
 
 #: lib/widgets/user-profile-widget.php:197
 msgid "Show Author Archive Link?"
@@ -1143,7 +1143,7 @@ msgstr "Copyright"
 
 #: lib/structure/comments.php:440
 msgid "Speak Your Mind"
-msgstr "Hozzászólás beküldése"
+msgstr "Szólj hozzá!"
 
 #: lib/structure/comments.php:431
 msgid "Website"
@@ -1159,7 +1159,7 @@ msgstr "Név"
 
 #: lib/structure/comments.php:243 lib/structure/comments.php:346
 msgid "Your comment is awaiting moderation."
-msgstr "Hozzászólása moderálásra vár."
+msgstr "A hozzászólásod moderálásra vár."
 
 #: lib/structure/comments.php:236
 msgid "%1$s at %2$s"
@@ -1196,7 +1196,7 @@ msgstr "Címkék: "
 
 #: lib/shortcodes/post.php:402
 msgid "% Comments"
-msgstr "% Hozzászólás"
+msgstr "% hozzászólás"
 
 #: lib/shortcodes/post.php:403
 msgid "1 Comment"
@@ -1204,7 +1204,7 @@ msgstr "1 hozzászólás"
 
 #: lib/shortcodes/post.php:404
 msgid "Leave a Comment"
-msgstr "Hozzászólás írása"
+msgstr "Szólj hozzá!"
 
 #: lib/shortcodes/footer.php:303
 msgid "Log out"
@@ -1228,7 +1228,7 @@ msgstr ""
 
 #: lib/functions/upgrade.php:611
 msgid "Click here to complete the upgrade"
-msgstr ""
+msgstr "Kattints ide a frissítés befejezéséhez"
 
 #: lib/classes/breadcrumb.php:44 lib/functions/deprecated.php:116
 msgid "Home"
@@ -1672,11 +1672,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:237
 msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
-msgstr ""
+msgstr "Ez nem azt jelenti, hogy az engedélyed nélkül megtörténnek a frissítések, csak szól a rendszer, hogy elérhető frissítés. Mindenképpen ki kell választanod a frissítés végrehajtásához."
 
 #: lib/admin/theme-settings.php:236
 msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
-msgstr ""
+msgstr "Ezt alapesetben pipálatlanul kell hagyni. De be lehet kapcsolni az automatikus frissítések engedélyezéséhez."
 
 #: lib/admin/theme-settings.php:235
 msgid "The information box allows you to see the current Genesis theme information and display if desired."
@@ -1752,11 +1752,11 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:178 lib/admin/seo-settings.php:212
 msgid "Doctitle Settings"
-msgstr ""
+msgstr "Doctitle beállítások"
 
 #: lib/admin/seo-settings.php:175
 msgid "Below you'll find a few succinct notes on the options for each box:"
-msgstr ""
+msgstr "Itt olvashatod az egyes dobozok lehetséges beállításainak rövid összefoglalását."
 
 #: lib/admin/seo-settings.php:174
 msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
@@ -1828,7 +1828,7 @@ msgstr ""
 
 #: lib/functions/upgrade.php:636
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
-msgstr ""
+msgstr "Megjelent a Genesis %s. <a href=\"%s\" %s>Olvasd el a részleteket</a> vagy <a href=\"%s\" %s>frissíts most.</a>"
 
 #: lib/admin/theme-settings.php:719
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
@@ -1876,7 +1876,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:510
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr ""
+msgstr "Ha fent megadsz egy e-mail címet, értesítést kapsz rá, ha elérhető a Genesis egy újabb verziója."
 
 #: lib/admin/theme-settings.php:709
 msgid "Load Superfish Script?"
@@ -1896,7 +1896,7 @@ msgstr ""
 
 #: lib/admin/import-export.php:73
 msgid "Once you upload an import file, it will automatically overwrite your existing settings."
-msgstr ""
+msgstr "Az import fájl feltöltése automatikusan felülírja a meglévő beállításokat."
 
 #: lib/admin/cpt-archive-settings.php:332 lib/admin/theme-settings.php:274
 msgid "These options can be extended or limited by the child theme."
@@ -1958,19 +1958,19 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:548
 msgid "Directories"
-msgstr ""
+msgstr "Könyvtárak"
 
 #: lib/admin/seo-settings.php:514
 msgid "Archiving"
-msgstr ""
+msgstr "Archiválás"
 
 #: lib/admin/seo-settings.php:486
 msgid "Indexing"
-msgstr ""
+msgstr "Indexálás"
 
 #: lib/admin/seo-settings.php:439
 msgid "Windows Live Writer"
-msgstr ""
+msgstr "Windows Live Writer"
 
 #: lib/admin/seo-settings.php:335 lib/admin/seo-settings.php:338
 msgid "Primary Title %s"
@@ -2033,19 +2033,19 @@ msgstr ""
 
 #: lib/admin/customizer.php:331
 msgid "Enable Trackbacks on Pages?"
-msgstr ""
+msgstr "Visszakövetések engedélyezése az oldalakon?"
 
 #: lib/admin/customizer.php:330
 msgid "Enable Trackbacks on Posts?"
-msgstr ""
+msgstr "Visszakövetések engedélyezése a bejegyzésekben?"
 
 #: lib/admin/customizer.php:329
 msgid "Enable Comments on Pages?"
-msgstr ""
+msgstr "Hozzászólások engedélyezése az oldalakon?"
 
 #: lib/admin/customizer.php:328
 msgid "Enable Comments on Posts?"
-msgstr ""
+msgstr "Hozzászólások engedélyezése a bejegyzésekben?"
 
 #: lib/admin/customizer.php:266
 msgid "Breadcrumbs on Attachment/Media"
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr ""
+msgstr "Oldaltérkép"
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr ""
+msgstr "Bejegyzések száma oldalanként"
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
@@ -2149,11 +2149,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "Kép igazítása:"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"
-msgstr ""
+msgstr "Kiemelt kép"
 
 #: lib/admin/theme-settings.php:881
 msgid "Entry excerpts"
@@ -2169,7 +2169,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
-msgstr ""
+msgstr "Csatolt fájl / médiafájl"
 
 #: lib/admin/theme-settings.php:784
 msgid "Single Posts"
@@ -2197,11 +2197,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "E-mail cím"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr ""
+msgstr "Frissítések"
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
@@ -2233,7 +2233,7 @@ msgstr ""
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
-msgstr ""
+msgstr "Genesis adatbázis frissült a legújabb verzióra."
 
 #: lib/classes/breadcrumb.php:45
 msgid " <span aria-label=\"breadcrumb separator\">/</span> "
@@ -2245,23 +2245,23 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr ""
+msgstr "StudioPress"
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "http://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
@@ -2279,39 +2279,39 @@ msgstr ""
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(nincs cím)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "Jelenlegi oldal"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "Oldal"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
-msgstr ""
+msgstr "Hivatkozások átugrása"
 
 #: lib/structure/header.php:859
 msgid "Skip to footer"
-msgstr ""
+msgstr "Ugrás a lábléchez"
 
 #: lib/structure/header.php:852
 msgid "Skip to secondary sidebar"
-msgstr ""
+msgstr "Ugrás a másodlagos oldalsávhoz"
 
 #: lib/structure/header.php:848
 msgid "Skip to primary sidebar"
-msgstr ""
+msgstr "Ugrás az elsődleges oldalsávhoz"
 
 #: lib/structure/header.php:845
 msgid "Skip to content"
-msgstr ""
+msgstr "Ugrás a tartalomhoz"
 
 #: lib/structure/header.php:842
 msgid "Skip to primary navigation"
-msgstr ""
+msgstr "Ugrás az elsődleges navigációhoz"
 
 #: lib/functions/widgetize.php:200
 msgid "Widgets in this widget area will display after single entries."

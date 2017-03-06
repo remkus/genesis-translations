@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:38+0000\n"
+"PO-Revision-Date: 2017-03-06 13:59:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,59 +17,59 @@ msgstr ""
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Modifica Impostazioni Archivio"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Parametri inutilizzati rimossi in <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Rimosso codice inutile in due funzioni di callback post-shortcode."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Rimossa globale inutilizzata per la classe Admin Readme"
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Rimosso <code>$</code> senza scopo dall'URL utilizzato nella nota \"tema genitore attivo\""
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Rimossi due punti ( : ) dalle etichette nelle schermate delle impostazioni"
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Rimosso"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "Spostato <code>genesis_create_initial_layouts()</code> al <code>genesis_setup</code> hook. Possibile modifica sostanziale, al fine di garantire la compatibilità con WordPress 4.7+."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "Cambiati <code>genesis_user_meta_default_on()</code> e <code>Genesis_Admin::create()</code> per anticipare il risultato dei controlli."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Modificata la sitemap per nasconderere sezioni relative agli Articoli se il sito non ha Articoli."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
-msgstr ""
+msgstr "Modificato l'utilizzo delle costanti di tempo nel controllo dell'aggiornamento dei transienti"
 
 #: lib/admin/whats-new.php:91
 msgid "Moved SEO tooltips to Help tab on post editor screen."
-msgstr ""
+msgstr "Spoatati i Tooltip del SEO nel tab Aiuto nella schermata dell'editor dell'articolo"
 
 #: lib/admin/whats-new.php:90
 msgid "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
-msgstr ""
+msgstr "Ricavato XHTML dall'outpot di Genesis e aggiunto con un nuovo filtro API Markup se HTML5 non è supportato."
 
 #: lib/admin/whats-new.php:89
 msgid "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
-msgstr ""
+msgstr "Modificata l'intestazione della pagina di amministrazione import/export in <code>h2</code> da <code>h1</code>."
 
 #: lib/admin/whats-new.php:88
 msgid "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
@@ -1115,7 +1115,7 @@ msgstr "Cerca"
 
 #: lib/structure/post.php:539 lib/structure/post.php:568
 msgid "About"
-msgstr "Circa"
+msgstr "Riguardo a"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "By"

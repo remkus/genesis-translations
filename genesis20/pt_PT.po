@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:40+0000\n"
+"PO-Revision-Date: 2017-03-06 14:01:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "A página que você está procurando não existe mais. Você pode voltar para o  <a href=\"%s\">homepage</a> e veja se consegue encontrar o que você está procurando. Ou, você pode tentar encontrá-lo com as informações abaixo."
+msgstr "A página que procura não existe. Pode retornar ao site <a href=\"%s\">homepage</a> e verificar se encontra o desejado. Ou poderá verificar se encontra na informação abaixo indicada."
 
 #: lib/widgets/featured-post-widget.php:424
 msgid "Exclude Previously Displayed Posts?"
@@ -324,11 +324,11 @@ msgstr ""
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "A página que procura não existe. Pode retornar ao site <a href=\"%s\">homepage</a> e verificar se encontra o desejado. Ou poderá verificar se encontra na informação abaixo indicada."
 
 #: 404.php:30
 msgid "Not found, error 404"
-msgstr "Não encontrado, erro 4040"
+msgstr "Não encontrado, erro 404"
 
 #: search.php:22
 msgid "Search Results for:"

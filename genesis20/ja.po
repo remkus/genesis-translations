@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:39+0000\n"
+"PO-Revision-Date: 2017-03-06 14:02:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "削除"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "変更"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
@@ -173,7 +173,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
-msgstr ""
+msgstr "アップデートをチェック"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
@@ -182,7 +182,7 @@ msgstr ""
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "保存"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: 404.php:30
 msgid "Not found, error 404"
-msgstr ""
+msgstr "見つかりません。　エラー404"
 
 #: search.php:22
 msgid "Search Results for:"
@@ -523,7 +523,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:559
 msgid "Color Style:"
-msgstr ""
+msgstr "カラースタイル"
 
 #: lib/admin/theme-settings.php:1010 lib/admin/theme-settings.php:1018
 msgid "This code will output immediately before the closing %s tag in the document source."
@@ -535,7 +535,7 @@ msgstr "画像サイズ :"
 
 #: lib/admin/theme-settings.php:421
 msgid "Color Style"
-msgstr ""
+msgstr "カラースタイル"
 
 #: lib/admin/theme-settings.php:82
 msgid "Follow me on Twitter"
@@ -1462,7 +1462,7 @@ msgstr "Genesis - SEO の設定"
 #: lib/admin/seo-settings.php:195 lib/admin/seo-settings.php:222
 #: lib/admin/seo-settings.php:255
 msgid "Document Head Settings"
-msgstr "タイトルの設定"
+msgstr "ヘッダーの設定"
 
 #: lib/admin/seo-settings.php:185 lib/admin/seo-settings.php:217
 #: lib/admin/seo-settings.php:254
@@ -1770,7 +1770,7 @@ msgstr ""
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:236
 #: lib/admin/theme-settings.php:387
 msgid "Genesis Tutorials"
-msgstr ""
+msgstr "Genesisチュートリアル"
 
 #: lib/admin/import-export.php:99 lib/admin/seo-settings.php:235
 #: lib/admin/theme-settings.php:386
@@ -1797,7 +1797,7 @@ msgstr ""
 
 #: lib/admin/import-export.php:76 lib/admin/import-export.php:91
 msgid "Export"
-msgstr ""
+msgstr "出力"
 
 #: lib/admin/import-export.php:73
 msgid "This cannot be undone"
@@ -1805,7 +1805,7 @@ msgstr ""
 
 #: lib/admin/import-export.php:71 lib/admin/import-export.php:86
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 #: lib/admin/import-export.php:68
 msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
@@ -1996,7 +1996,7 @@ msgstr ""
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
 msgid "Document Title"
-msgstr ""
+msgstr "タイトル"
 
 #: lib/admin/import-export.php:98 lib/admin/import-export.php:99
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:234
@@ -2034,11 +2034,11 @@ msgstr ""
 
 #: lib/admin/customizer.php:329
 msgid "Enable Comments on Pages?"
-msgstr ""
+msgstr "ページのコメントを有効にしますか？"
 
 #: lib/admin/customizer.php:328
 msgid "Enable Comments on Posts?"
-msgstr ""
+msgstr "投稿のコメントを有効にしますか？"
 
 #: lib/admin/customizer.php:266
 msgid "Breadcrumbs on Attachment/Media"
@@ -2082,15 +2082,15 @@ msgstr ""
 
 #: lib/admin/customizer.php:190
 msgid "Select Color Style"
-msgstr ""
+msgstr "カラースタイルを選択"
 
 #: lib/admin/customizer.php:172
 msgid "Color Scheme"
-msgstr ""
+msgstr "カラースキーム"
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr ""
+msgstr "ダイナミックテキスト"
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
@@ -2098,7 +2098,7 @@ msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:258 lib/admin/inpost-metaboxes.php:300
 msgid "Select Layout"
-msgstr ""
+msgstr "レイアウトを選択"
 
 #: comments.php:24
 msgid "Reader Interactions"
@@ -2118,7 +2118,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:1007
 msgid "Header Scripts"
-msgstr ""
+msgstr "ヘッダースクリプト"
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
@@ -2134,7 +2134,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr ""
+msgstr "カテゴリを表示"
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
@@ -2142,7 +2142,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "画像の整列"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"
@@ -2158,7 +2158,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:873
 msgid "Display"
-msgstr ""
+msgstr "表示"
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
@@ -2170,7 +2170,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:767 lib/admin/theme-settings.php:770
 msgid "Enable Breadcrumbs on"
-msgstr ""
+msgstr "パンくずリストを有効にする"
 
 #: lib/admin/theme-settings.php:706
 msgid "Superfish"
@@ -2190,7 +2190,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "Eメールアドレス"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
@@ -2198,7 +2198,7 @@ msgstr ""
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
-msgstr ""
+msgstr "メインナビゲーション"
 
 #: lib/functions/layout.php:54
 msgid "Secondary Sidebar, Content, Primary Sidebar"
@@ -2206,7 +2206,7 @@ msgstr ""
 
 #: lib/functions/layout.php:50
 msgid "Secondary Sidebar, Primary Sidebar, Content"
-msgstr ""
+msgstr "サイドバー2 - コンテンツ - サイドバー1"
 
 #: lib/functions/layout.php:46
 msgid "Content, Primary Sidebar, Secondary Sidebar"
@@ -2214,7 +2214,7 @@ msgstr ""
 
 #: lib/functions/layout.php:41
 msgid "Primary Sidebar, Content"
-msgstr ""
+msgstr "最初のサイドバー - コンテンツ"
 
 #: lib/functions/layout.php:36
 msgid "Content, Primary Sidebar"
@@ -2226,7 +2226,7 @@ msgstr ""
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
-msgstr ""
+msgstr "Genesis データベース　アップグレード"
 
 #: lib/classes/breadcrumb.php:45
 msgid " <span aria-label=\"breadcrumb separator\">/</span> "
@@ -2242,7 +2242,7 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
@@ -2254,7 +2254,7 @@ msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
@@ -2267,7 +2267,7 @@ msgstr ""
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "真ん中"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
@@ -2280,7 +2280,7 @@ msgstr ""
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "ページ"
 
 #: lib/structure/header.php:880
 msgid "Skip links"

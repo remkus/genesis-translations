@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:39+0000\n"
+"PO-Revision-Date: 2017-03-06 14:03:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Przemysłowy standard dla Premium Skórek do WordPress'a"
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Zmieniono Ustawienia Archiwum"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
@@ -37,11 +37,11 @@ msgstr ""
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Usunięto dwukropki z etykiet na ekranach z ustawieniami."
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Usunięto"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -324,7 +324,7 @@ msgstr ""
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "Strona której szukasz nie istnieje. Możliwe, że gdy wrócisz na <a href=\"%s\">stronę główną</a> uda Ci się odnaleźć to, czego szukasz. Lub spróbuj skorzystać z wyszukiwarki, która znajduje się poniżej."
 
 #: 404.php:30
 msgid "Not found, error 404"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:777
 msgid "Posts Page"
-msgstr ""
+msgstr "Strona z postami"
 
 #: lib/admin/theme-settings.php:444
 msgid "Blog Page Template"
@@ -2156,7 +2156,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "Wyrównanie obrazka:"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"

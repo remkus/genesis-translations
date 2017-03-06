@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:30+0000\n"
+"PO-Revision-Date: 2017-03-06 14:00:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -386,7 +386,7 @@ msgstr "الوصف يمكن إستعماله لتحديد النص أسفل ال
 
 #: lib/admin/seo-settings.php:359
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "في حال تركتم حقل العنوان المخصص فارغا سيتم إستعمال العنوان الإفتراضي للمدونة او الموقع المعين في إعدادات وورد بريس سلفا"
+msgstr "في حال تركت حقل العنوان المخصص فارغا سيتم إستعمال العنوان الإفتراضي للمدونة او الموقع المعين في إعدادات وورد بريس سلفا"
 
 #: lib/admin/seo-settings.php:345
 msgid "Site Description (Tagline)"
@@ -394,7 +394,7 @@ msgstr "وصف المدونة او الموقع"
 
 #: lib/admin/seo-settings.php:297
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr "في حال كان العنوان مركبا من جزئين او أكثر، سيتم الفصل بينها بفاصل، يمكنكم تخصيص فاصل من هذا الإعداد."
+msgstr "في حال كان العنوان مركبا من جزئين او أكثر، سيتم الفصل بينها بفاصل، يمكنك تخصيص فاصل من هذا الإعداد."
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
-msgstr "إختاروا الإتجاه الذي ستقوم عناوين التدوينات والصفحات بمحاذاته"
+msgstr "إختار الإتجاه الذي ستقوم عناوين التدوينات والصفحات بمحاذاته"
 
 #: lib/admin/seo-settings.php:291
 msgid "Add site name to %s on inner pages?"
@@ -495,11 +495,11 @@ msgstr "منطقة المربعات الجانبية لأسفل الموقع ر�
 
 #: lib/functions/widgetize.php:142
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنتم تستخدمون تخطيط يتضمن ثلاث أعمدة"
+msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنت تستخدم تخطيط يتضمن ثلاث أعمدة"
 
 #: lib/functions/widgetize.php:131
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنتم تستخدمون تخطيط يتضمن عمودين او ثلاث"
+msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنت تستخدم تخطيط يتضمن عمودين او ثلاث"
 
 #: lib/functions/deprecated.php:87
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
@@ -539,7 +539,7 @@ msgstr "ألوان التنسيق"
 
 #: lib/admin/theme-settings.php:82
 msgid "Follow me on Twitter"
-msgstr "تابعوني على Twitter"
+msgstr "تابعني على تويتر"
 
 #: lib/admin/cpt-archive-settings.php:43 lib/admin/cpt-archive-settings.php:44
 #: lib/admin/cpt-archive-settings.php:135
@@ -851,7 +851,7 @@ msgstr " ؟تضمين الصورة البارزة"
 #: lib/admin/term-meta.php:210 lib/admin/term-meta.php:213
 #: lib/admin/user-meta.php:248 lib/admin/user-meta.php:251
 msgid "Choose Layout"
-msgstr "إختاروا تخطيطا"
+msgstr "إختار تخطيط"
 
 #: lib/admin/import-export.php:44 lib/admin/import-export.php:65
 #: lib/admin/import-export.php:81
@@ -880,7 +880,7 @@ msgstr "تحميل ملف التصدير"
 
 #: lib/admin/import-export.php:144
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr "عندما تقومون بحفظ  الملف المحمل، سيكون بإستطاعتكم إستعماله لإستيراد نفس هذه الإعدادات لموقع ثان."
+msgstr "عندما تقوم بحفظ  الملف المحمل، سيكون بإستطاعتك إستعماله لإستيراد نفس هذه الإعدادات لموقع ثان."
 
 #: lib/admin/import-export.php:141
 msgid "Export Genesis Settings File"
@@ -964,7 +964,7 @@ msgstr "الرجاء إكمال المعلومات أسفله في حال رغب
 
 #: lib/widgets/featured-post-widget.php:528
 msgid "More Text (if applicable)"
-msgstr "نص قراءة المزيد (في حال وجد)"
+msgstr "نص قراءة المزيد (إذا وُجِدَ)"
 
 #: lib/widgets/featured-post-widget.php:500
 msgid "Show Post Title"
@@ -1127,7 +1127,7 @@ msgstr "أرشيف "
 
 #: lib/classes/breadcrumb.php:52
 msgid "You are here: "
-msgstr "أنتم في:"
+msgstr "أنت في:"
 
 #: lib/structure/sidebar.php:41
 msgid "Secondary Sidebar Widget Area"
@@ -1171,7 +1171,7 @@ msgstr "كافة الحقوق محفوظة"
 
 #: lib/structure/comments.php:440
 msgid "Speak Your Mind"
-msgstr "شاركونا بآرائكم"
+msgstr "شاركنا رأيك"
 
 #: lib/structure/comments.php:431
 msgid "Website"
@@ -1187,7 +1187,7 @@ msgstr "  الإسم الكريم"
 
 #: lib/structure/comments.php:243 lib/structure/comments.php:346
 msgid "Your comment is awaiting moderation."
-msgstr "شكرا جزيلا لكم، تعليقكم ينتظر موافقة عبد الحفيظ، متصفحا سعيدا في ثنايا المدونة"
+msgstr "شكرا جزيلا لك، تعليقك في انتظار موافقة الإدارة."
 
 #: lib/structure/comments.php:236
 msgid "%1$s at %2$s"
@@ -1232,7 +1232,7 @@ msgstr "تعليق واحد فقط"
 
 #: lib/shortcodes/post.php:404
 msgid "Leave a Comment"
-msgstr "أتركوا تعليقا"
+msgstr "اضافة تعليق"
 
 #: lib/shortcodes/footer.php:303
 msgid "Log out"
@@ -1298,7 +1298,7 @@ msgstr "تحديد المحتوى الظاهر الى"
 
 #: lib/admin/customizer.php:402
 msgid "Select one of the following"
-msgstr "إختاروا من التالي:"
+msgstr "إختر واحد من التالي:"
 
 #: lib/admin/theme-settings.php:838 lib/admin/theme-settings.php:841
 msgid "Enable Trackbacks"
@@ -1318,11 +1318,11 @@ msgstr "تفعيل التعليقات"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "أدخل الرابط المخصص لتلقيمات التعليقات"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "أدخل الرابط المخصص للتلقيمات"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1410,7 +1410,7 @@ msgstr "الرجاء الفصل بين كل كلمة وأخرى بفاصلة إ�
 
 #: lib/admin/seo-settings.php:552 lib/admin/seo-settings.php:555
 msgid "Apply %s to your site?"
-msgstr "تطبيق وسم %s على مدونتكم او موقعكم ؟"
+msgstr "تطبيق وسم %s على مدونتك او موقعك ؟"
 
 #: lib/admin/seo-settings.php:518
 msgid "Apply %s to Entire Site?"
@@ -1483,7 +1483,7 @@ msgstr "محاذات على اليسار"
 
 #: lib/js/load-scripts.php:124
 msgid "Are you sure you want to reset?"
-msgstr "هل أنتم متأكدون من رغبتكم في إستعادة الإعدادات الإفتراضية"
+msgstr "هل أنت متأكد من رغبتك في إستعادة الإعدادات الإفتراضية"
 
 #: lib/admin/seo-settings.php:45 lib/admin/theme-settings.php:61
 #: lib/classes/admin.php:110
@@ -1916,7 +1916,7 @@ msgstr "يمكنك تصدير الإعدادات المتعلقة بجنيسيس
 
 #: lib/admin/cpt-archive-settings.php:323
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
-msgstr "هذا يتيح لك تحديد تخطيط للصفحة الأرشيف. في معظم قوالب الطفل سترى هذه الخيارات:"
+msgstr "هذا يتيح لك تحديد تخطيط للصفحة الأرشيف. في معظم القوالب الفرعية سترى هذه الخيارات:"
 
 #: lib/admin/import-export.php:124
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
@@ -1928,7 +1928,7 @@ msgstr "بمجرد تحميل ملف الإستيراد، فإنه سيتم ال
 
 #: lib/admin/cpt-archive-settings.php:332 lib/admin/theme-settings.php:274
 msgid "These options can be extended or limited by the child theme."
-msgstr "هذه الخيارات من الممكن أن تتوسع أو تكون محدودة بقالب الطفل."
+msgstr "هذه الخيارات من الممكن أن تتوسع أو تكون محدودة بالقالب الفرعي."
 
 #: lib/admin/cpt-archive-settings.php:308
 msgid ""
@@ -2141,7 +2141,7 @@ msgstr ""
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr ""
+msgstr "خريطة الموقع"
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
@@ -2257,7 +2257,7 @@ msgstr ""
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr ""
+msgstr "عن"
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
@@ -2273,7 +2273,7 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "مدونة"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
@@ -2307,15 +2307,15 @@ msgstr ""
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(بلا عنوان)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "الصفحة الحالية"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "صفحة"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
@@ -2347,7 +2347,7 @@ msgstr ""
 
 #: lib/functions/widgetize.php:199
 msgid "After Entry"
-msgstr ""
+msgstr "بعد التدوينة"
 
 #: lib/functions/widgetize.php:120
 msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."

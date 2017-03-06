@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:35+0000\n"
+"PO-Revision-Date: 2017-03-06 13:59:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,47 +13,47 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Le standard des thèmes Wordpress premium"
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Modifier les paramètres d'Archive"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Paramètres non utilisés retirés dans <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Code mort retiré dans fonctions callback post-shortcode."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Globale inutilisée de la classe Admin Readme retiré"
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Code errant <code>$</code> dans l'URL utilisé dans la notification d'administrateur \"theme parent actif\" retiré"
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "\":\" retirés des labels sur les écrans de paramètres"
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Retiré"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "<code>genesis_create_initial_layouts()</code> a été déplace au crochet <code>genesis_setup</code>. Potentielle source d'erreurs, afin d'assurer la compatibilité avec WordPress 4.7+."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "<code>genesis_user_meta_default_on()</code>et <code>Genesis_Admin::create()</code> modifiés pour faire des vérifications de retour plus tôt."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Le plan du site a été modifié pour changer les sections liés aux posts si elles sont vides."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "Changé"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
@@ -332,7 +332,7 @@ msgstr "Page non trouvée, erreur 404"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr "Chercher les résultats pour:"
+msgstr "Résultats de recherche pour&nbsp;:"
 
 #: lib/admin/whats-new.php:142
 msgid "Contributor"
@@ -370,7 +370,7 @@ msgstr "Navigation"
 #: lib/admin/theme-settings.php:261 lib/admin/theme-settings.php:341
 #: lib/admin/theme-settings.php:431
 msgid "Header"
-msgstr "Entête"
+msgstr "En-tête"
 
 #: lib/admin/seo-settings.php:456
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
@@ -414,7 +414,7 @@ msgstr "Ajouter la description du site (tagline) au %s sur la page d'accueil?"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr "Lire plus"
+msgstr "Lire la suite"
 
 #: lib/structure/search.php:28 lib/structure/search.php:47
 msgid "Search this website"
@@ -422,7 +422,7 @@ msgstr "Chercher sur ce site"
 
 #: lib/structure/loops.php:244
 msgid "Read more"
-msgstr "Lire plus"
+msgstr "Lire la suite"
 
 #: lib/admin/whats-new.php:154
 msgid "Go to SEO Settings &rarr;"
@@ -483,7 +483,7 @@ msgstr "Menu de navigation secondaire"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Left"
-msgstr "Entête Gauche"
+msgstr "En-tête Gauche"
 
 #: lib/widgets/user-profile-widget.php:191
 msgid "Extended page link text"
@@ -736,7 +736,7 @@ msgstr "Barre latérale 1"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Right"
-msgstr "Entête de droite"
+msgstr "En-tête de droite"
 
 #: lib/classes/breadcrumb.php:60
 msgid "Not found: "
@@ -1147,7 +1147,7 @@ msgstr "Exprimez vous!"
 
 #: lib/structure/comments.php:431
 msgid "Website"
-msgstr "Site web"
+msgstr "Site Web"
 
 #: lib/structure/comments.php:425
 msgid "Email"
@@ -1958,7 +1958,7 @@ msgstr "Vous pouvez importer un fichier que vous avez précédemment exporté. L
 
 #: lib/admin/seo-settings.php:548
 msgid "Directories"
-msgstr ""
+msgstr "Répertoires"
 
 #: lib/admin/seo-settings.php:514
 msgid "Archiving"
@@ -1998,7 +1998,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:74
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL Canonique"
 
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
@@ -2097,7 +2097,7 @@ msgstr ""
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr ""
+msgstr "Texte Dynamique"
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
@@ -2113,7 +2113,7 @@ msgstr ""
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr ""
+msgstr "Sitemap"
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
@@ -2129,7 +2129,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr ""
+msgstr "Articles par Page"
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
@@ -2137,11 +2137,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:970
 msgid "Exclude Categories"
-msgstr ""
+msgstr "Exclure les Catégories"
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr ""
+msgstr "Afficher la Catégorie"
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
@@ -2197,11 +2197,11 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "Adresse email"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr ""
+msgstr "Mises à jour"
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
@@ -2229,7 +2229,7 @@ msgstr ""
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr ""
+msgstr "à propos"
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
@@ -2245,7 +2245,7 @@ msgstr "Félicitation, vous utilisez maintenant Genesis %s! <a href=\"%s\">Consu
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
@@ -2274,20 +2274,20 @@ msgstr ""
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "Centre"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(pas de titre)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "Page actuelle"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "Page"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
