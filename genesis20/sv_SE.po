@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:43+0000\n"
+"PO-Revision-Date: 2017-03-06 13:58:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,47 +13,47 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Industristandarden för Premium Wordpressteman."
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Redigera Arkivinställningar"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Tagit bort oanvända parametrar i <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Tagit bort död kod i två post shortcode callback functions."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Tagit bort oanvänd global för Admin Readme klass."
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Tagit bort felaktig <code>$</code> i urlen som används i notisen till admin för \"parent theme active\"."
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Tagit bort kolumner från etiketter på inställningssidor."
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Tagit bort"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "Flytta <code>genesis_create_initial_layouts()</code> till <code>genesis_setup</code> hook. Möjligtvis bristande förändring för att försäkra kompatibilitet med WordPress 4.7+."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "Ändrade <code>genesis_user_meta_default_on()</code> och <code>Genesis_Admin::create()</code> till att göra return checks tidigare."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Ändrade sitemap till att dölja Post-relaterade sektioner om websiten inte har några Posts."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
@@ -61,15 +61,15 @@ msgstr ""
 
 #: lib/admin/whats-new.php:91
 msgid "Moved SEO tooltips to Help tab on post editor screen."
-msgstr ""
+msgstr "Flyttade SEO tooltips till hjälpsidan på inläggsredigeraren."
 
 #: lib/admin/whats-new.php:90
 msgid "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
-msgstr ""
+msgstr "Extraherade XHTML från Genesis utdata, och la tillbaka det med nytt Markup API filter om HTML5 inte stöds."
 
 #: lib/admin/whats-new.php:89
 msgid "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
-msgstr ""
+msgstr "Bytte heading på adminsidan för importera/exportera till  <code>h2</code> från <code>h1</code>."
 
 #: lib/admin/whats-new.php:88
 msgid "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
@@ -77,11 +77,11 @@ msgstr ""
 
 #: lib/admin/whats-new.php:87
 msgid "Moved <code>h1</code> elements outside the form on admin settings pages."
-msgstr ""
+msgstr "Flyttade <code>h1</code> elementen utanför formuläret på sidan för admininställningar."
 
 #: lib/admin/whats-new.php:86
 msgid "Changed some code and all documentation to better match WordPress coding standards."
-msgstr ""
+msgstr "Ändrade kod och all dokumentation för att bättre matcha Wordpress kodstandard."
 
 #: lib/admin/whats-new.php:85
 msgid "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
@@ -89,15 +89,15 @@ msgstr ""
 
 #: lib/admin/whats-new.php:84
 msgid "Updated <code>CHANGELOG.md</code> with release notes going back to 1.6.0."
-msgstr ""
+msgstr "Uppdaterade  <code>CHANGELOG.md</code> med anteckningar som går tillbaka till 1.6.0"
 
 #: lib/admin/whats-new.php:83
 msgid "Changed Featured Post widget to use placeholder instead of default value for number of posts to show."
-msgstr ""
+msgstr "Ändrade så att widget för Presenterade Inlägg använder en placeholder instället för ett default värde för nummer av inlägg att visa."
 
 #: lib/admin/whats-new.php:82
 msgid "Corrected typo on SEO settings screen."
-msgstr ""
+msgstr "Rättade ett stavfel i fönstret för SEO inställningar."
 
 #: lib/admin/whats-new.php:81
 msgid "Changed URLs for gravatars on the \"What's New\" page to use HTTPS."
@@ -105,88 +105,88 @@ msgstr ""
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "Ändrade"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
-msgstr ""
+msgstr "La till ny funktioner som hanterar logiken för meta och favicon pålägg, och ändraden existerande utdata funktioner för att använda dem."
 
 #: lib/admin/whats-new.php:75
 msgid "Added missing \"to\" in <code>genesis_prev_next_post_nav()</code>'s comment header."
-msgstr ""
+msgstr "La till \"to\" i <code>genesis_prev_next_post_nav()</code>'s comment header."
 
 #: lib/admin/whats-new.php:74
 msgid "Added <code>js-superfish</code> class to all menus that support it."
-msgstr ""
+msgstr "Added <code>js-superfish</code> class i alla menyer som stödjer det."
 
 #: lib/admin/whats-new.php:73
 msgid "Added new features to the Markup API, allowing for open and close arguments, passing content, and new filters."
-msgstr ""
+msgstr "La till nya funktioner till pålägg API, som möjliggör öppna och stängda argument, skicka med innehåll och nya filter."
 
 #: lib/admin/whats-new.php:72
 msgid "Added <code>$wrap</code> and <code>$title</code> to the passed arguments of the <code>genesis_post_title_output</code> filter."
-msgstr ""
+msgstr "Added <code>$wrap</code> och <code>$title</code> till dem medskickade argumenten till <code>genesis_post_title_output</code> filtret."
 
 #: lib/admin/whats-new.php:71
 msgid "Added identifying classes to featured posts' \"More Posts\" section title and list."
-msgstr ""
+msgstr "La till identifierande klasser till \"Presenterade inlägg\" sektionens titel och lista."
 
 #: lib/admin/whats-new.php:70
 msgid "Added <code>phpcs.xml</code> file for code standards testing."
-msgstr ""
+msgstr "La till filen <code>phpcs.xml</code> för testning av kodstandard."
 
 #: lib/admin/whats-new.php:69
 msgid "Added or corrected lots of inline documentation."
-msgstr ""
+msgstr "La till eller rättade mycket av inline dokumentation."
 
 #: lib/admin/whats-new.php:68
 msgid "Added <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "La till <code>unfiltered_or_safe</code> sanitizer."
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
-msgstr ""
+msgstr "La till"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
-msgstr ""
+msgstr "Genesis 2.4 fokuserar huvudsakligen på att uppdatera och lägga till inline dokumentation, bättre anpassningar till WordPress kodstandard och förstärkning av Markup API så att det mesta Genesis genererade markup är filtrerbart."
 
 #: lib/admin/use-child-theme.php:39
 msgid "https://www.studiopress.com/genesis-always-use-child-theme/"
-msgstr ""
+msgstr "https://www.studiopress.com/genesis-always-use-child-theme/"
 
 #: lib/admin/use-child-theme.php:38
 msgid "For more information, see our article at <a href=\"%1$s\">%1$s</a>"
-msgstr ""
+msgstr "För mer information, se vår artikel <a href=\"%1$s\">%1$s</a>"
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
-msgstr ""
+msgstr "Vi ser att du endast använder Genesis Framework parent tema. Vi rekommenderar starkt att köra ett Genesis child tema tillsammans med det, vi har till och med ett gratistema du kan använda."
 
 #: lib/admin/use-child-theme.php:34
 msgid "Please Activate a Genesis Child Theme:"
-msgstr ""
+msgstr "Snälla aktivera ett Genesis Child tema:"
 
 #: lib/admin/theme-settings.php:675
 msgid "Use for site title/logo"
-msgstr ""
+msgstr "Använd för titel/logo"
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
-msgstr ""
+msgstr "Sök efter uppdateringar"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Om du lägger till en e-postadress kommer du få mail när en uppdatering kan bli genomförd."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Spara ändringar"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Läs mer om noarchive"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -194,7 +194,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "Read more about nofollow"
-msgstr ""
+msgstr "Läs mer om nofollow"
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "<strong>Apply nofollow to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -202,7 +202,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "Read more about noindex"
-msgstr ""
+msgstr "Läs mer om noindex"
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "<strong>Apply noindex to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -210,7 +210,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "Read more about 301 Redirects"
-msgstr ""
+msgstr "Läs mer om 301 Redirects"
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
@@ -218,7 +218,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "Read more about Custom Canonical URL"
-msgstr ""
+msgstr "Läs mer om skräddarsydd URL"
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "<strong>Canonical URL</strong> &mdash; Output in the document %s. %s."

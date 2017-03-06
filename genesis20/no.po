@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:39+0000\n"
+"PO-Revision-Date: 2017-03-06 14:02:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,15 +13,15 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Industristandard for Premium WordPress temaer."
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Rediger Arkivinnstillinger"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Fjern ubrukte parameter i  <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
@@ -41,7 +41,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Fjernet"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "Endret"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
@@ -145,7 +145,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
-msgstr ""
+msgstr "Lagt til"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
@@ -157,36 +157,36 @@ msgstr ""
 
 #: lib/admin/use-child-theme.php:38
 msgid "For more information, see our article at <a href=\"%1$s\">%1$s</a>"
-msgstr ""
+msgstr "For mer informasjon, se vår artikkel <a href=\"%1$s\">%1$s</a>"
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
-msgstr ""
+msgstr "Vi se at du bruker Genesis Framework foreldretemaet alene. Vi anbefaler at du bruker et undertema sammen med dette (vi har til og med noen gratisversjoner du kan bruke)."
 
 #: lib/admin/use-child-theme.php:34
 msgid "Please Activate a Genesis Child Theme:"
-msgstr ""
+msgstr "Vennligst aktiver et Genesis-undertema:"
 
 #: lib/admin/theme-settings.php:675
 msgid "Use for site title/logo"
-msgstr ""
+msgstr "Bruk som sidetittel/-logo"
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
-msgstr ""
+msgstr "Se etter oppdateringer"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Dersom du oppgir en epostadresse, kan siden din sende deg epost når en oppdatering er klar."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Lagre endringer"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Les mer om noarchive"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -210,7 +210,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "Read more about 301 Redirects"
-msgstr ""
+msgstr "Les mer om 301 redirigering"
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
@@ -242,11 +242,11 @@ msgstr ""
 
 #: lib/admin/customizer.php:408
 msgid "Display entry excerpts"
-msgstr ""
+msgstr "Vis utdrag fra innholdet"
 
 #: lib/admin/customizer.php:407
 msgid "Display entry content"
-msgstr ""
+msgstr "Vis innholdet"
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
@@ -258,7 +258,7 @@ msgstr ""
 
 #: lib/structure/post.php:423
 msgid "Sorry, no content matched your criteria."
-msgstr ""
+msgstr "Beklager, men vi fant ikke noe innhold som passer søkekriteriene."
 
 #: lib/structure/comments.php:326
 msgid "at"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: 404.php:30
 msgid "Not found, error 404"
-msgstr ""
+msgstr "Siden finnes ikke, feilkode 404"
 
 #: search.php:22
 msgid "Search Results for:"
@@ -418,7 +418,7 @@ msgstr ""
 
 #: lib/structure/search.php:28 lib/structure/search.php:47
 msgid "Search this website"
-msgstr ""
+msgstr "Søk på denne siden"
 
 #: lib/structure/loops.php:244
 msgid "Read more"
@@ -2105,7 +2105,7 @@ msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:258 lib/admin/inpost-metaboxes.php:300
 msgid "Select Layout"
-msgstr ""
+msgstr "Velg utseende"
 
 #: comments.php:24
 msgid "Reader Interactions"
@@ -2169,7 +2169,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
-msgstr ""
+msgstr "Vedlegg/Media"
 
 #: lib/admin/theme-settings.php:784
 msgid "Single Posts"
@@ -2197,15 +2197,15 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "Epostadresse"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr ""
+msgstr "Oppdateringer"
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
-msgstr ""
+msgstr "Hovednavigasjon"
 
 #: lib/functions/layout.php:54
 msgid "Secondary Sidebar, Content, Primary Sidebar"
@@ -2221,97 +2221,97 @@ msgstr ""
 
 #: lib/functions/layout.php:41
 msgid "Primary Sidebar, Content"
-msgstr ""
+msgstr "Hoved sidebar, innhold"
 
 #: lib/functions/layout.php:36
 msgid "Content, Primary Sidebar"
-msgstr ""
+msgstr "Innhold, Hoved sidebar"
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr ""
+msgstr "Om"
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
-msgstr ""
+msgstr "Genesis databasen er oppdatert."
 
 #: lib/classes/breadcrumb.php:45
 msgid " <span aria-label=\"breadcrumb separator\">/</span> "
-msgstr ""
+msgstr "<span aria-label=\"brødsmulesti skille\">/</span>"
 
 #: lib/functions/upgrade.php:585
 msgid "Congratulations, you are now rocking Genesis %s! <a href=\"%s\">See what's new in %s</a>."
-msgstr ""
+msgstr "Gratulerer, du rocker nå Genesis %s! <a href=\"%s\">Se nyheter i %s</a>."
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "Blogg"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr ""
+msgstr "StudioPress"
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "http://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
-msgstr ""
+msgstr "Innleggets informasjon"
 
 #: lib/widgets/featured-post-widget.php:429
 msgid "Exclude Sticky Posts?"
-msgstr ""
+msgstr "Utelatt Sticky Posts?"
 
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "Senter"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(ingen tittel)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "Gjeldene side"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "Side"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
-msgstr ""
+msgstr "Hopp til linker"
 
 #: lib/structure/header.php:859
 msgid "Skip to footer"
-msgstr ""
+msgstr "Hopp til footer"
 
 #: lib/structure/header.php:852
 msgid "Skip to secondary sidebar"
-msgstr ""
+msgstr "Hopp til sekund'rt sideomr[de"
 
 #: lib/structure/header.php:848
 msgid "Skip to primary sidebar"
-msgstr ""
+msgstr "Hopp til hoved sideomr[de"
 
 #: lib/structure/header.php:845
 msgid "Skip to content"
-msgstr ""
+msgstr "Hopp til innhold"
 
 #: lib/structure/header.php:842
 msgid "Skip to primary navigation"
-msgstr ""
+msgstr "Hopp til hovednavigasjon"
 
 #: lib/functions/widgetize.php:200
 msgid "Widgets in this widget area will display after single entries."
