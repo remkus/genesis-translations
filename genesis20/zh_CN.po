@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:32+0000\n"
+"PO-Revision-Date: 2017-03-20 15:24:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: zh_CN\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -254,49 +254,49 @@ msgstr "您要查找的页面可能已被删除，已更改名称或者暂时不
 
 #: lib/widgets/featured-post-widget.php:424
 msgid "Exclude Previously Displayed Posts?"
-msgstr ""
+msgstr "除掉之前已显示的文章？"
 
 #: lib/structure/post.php:423
 msgid "Sorry, no content matched your criteria."
-msgstr ""
+msgstr "对不起，没有内容符合您的要求。"
 
 #: lib/structure/comments.php:326
 msgid "at"
-msgstr ""
+msgstr "在"
 
 #: lib/js/load-scripts.php:123
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
-msgstr ""
+msgstr "更新Genesis 将会覆盖目前安装的版本。你确定要更新？ 点\"取消\" 可以停止，点 \"OK\" 进行更新。"
 
 #: lib/js/load-scripts.php:122
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr ""
+msgstr "如果您离开本页面，您所做的改变将作废。"
 
 #: lib/functions/deprecated.php:266
 msgid "decimal or hexidecimal entities"
-msgstr ""
+msgstr "十进制或十六进制符号"
 
 #: lib/admin/theme-settings.php:716
 msgid "Primary Navigation Extras"
-msgstr ""
+msgstr "主导航栏辅助项"
 
 #: lib/admin/inpost-metaboxes.php:219
 msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
-msgstr ""
+msgstr "适合跟踪、转化或其它针对页面的脚本，必须包含%s标签。"
 
 #: lib/admin/inpost-metaboxes.php:216
 msgid "Page-specific Scripts"
-msgstr ""
+msgstr "针对特定页的脚本"
 
 #: lib/admin/inpost-metaboxes.php:197
 msgid "Scripts"
-msgstr ""
+msgstr "脚本"
 
 #: lib/admin/cpt-archive-settings.php:225
 #: lib/admin/cpt-archive-settings.php:228
 #: lib/admin/cpt-archive-settings.php:231
 msgid "Apply %s to this archive"
-msgstr ""
+msgstr "对本存档应用 %s"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
@@ -306,75 +306,75 @@ msgstr ""
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
 #: lib/admin/user-meta.php:188
 msgid "Meta Keywords"
-msgstr ""
+msgstr "元(meta)关键词"
 
 #: lib/admin/cpt-archive-settings.php:206 lib/admin/inpost-metaboxes.php:61
 #: lib/admin/seo-settings.php:370 lib/admin/term-meta.php:135
 #: lib/admin/user-meta.php:181
 msgid "Meta Description"
-msgstr ""
+msgstr "元（meta）描述"
 
 #: lib/admin/cpt-archive-settings.php:158
 msgid "View the <a href=\"%s\">%s archive</a>."
-msgstr ""
+msgstr "阅读 <a href=\"%s\">%s 存档e</a>."
 
 #. Template Name of the plugin/theme
 msgid "Archive"
-msgstr ""
+msgstr "存档"
 
 #: 404.php:35
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "您要查找的页面已不存在。您可以尝试返回到本站的<a href=\"%s\">首页</a>查找您要的内容，或用以下的搜索框查找。"
 
 #: 404.php:30
 msgid "Not found, error 404"
-msgstr ""
+msgstr "未能找到，404错误"
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr ""
+msgstr "搜索结果："
 
 #: lib/admin/whats-new.php:142
 msgid "Contributor"
-msgstr ""
+msgstr "贡献者"
 
 #: lib/admin/whats-new.php:131
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 
 #: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
 msgid "Lead Developer"
-msgstr ""
+msgstr "主要开发者"
 
 #: lib/admin/theme-settings.php:957
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr ""
+msgstr "这些设置将应用于所有使用了Blog（博客）模板的页面，而不是主页面或文章存档页面。"
 
 #: lib/admin/theme-settings.php:780
 msgid "Homepage"
-msgstr ""
+msgstr "主页"
 
 #: lib/admin/theme-settings.php:777
 msgid "Posts Page"
-msgstr ""
+msgstr "文章页"
 
 #: lib/admin/theme-settings.php:444
 msgid "Blog Page Template"
-msgstr ""
+msgstr "博客页模板"
 
 #: lib/admin/theme-settings.php:266 lib/admin/theme-settings.php:347
 #: lib/admin/theme-settings.php:435
 msgid "Navigation"
-msgstr ""
+msgstr "导航"
 
 #: lib/admin/theme-settings.php:261 lib/admin/theme-settings.php:341
 #: lib/admin/theme-settings.php:431
 msgid "Header"
-msgstr ""
+msgstr "页眉"
 
 #: lib/admin/seo-settings.php:456
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr ""
+msgstr "<span class=\"genesis-admin-note\">注意:</span> 短链接也许对发现第三方服务有一些用处，但它没有 <abbr title=\"Search engine optimization\">SEO</abbr> 价值。"
 
 #: lib/admin/seo-settings.php:423
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
@@ -382,19 +382,19 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:374
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr ""
+msgstr "元（meta）描述可用来在搜索结果页显示的文本内容。"
 
 #: lib/admin/seo-settings.php:359
 msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr ""
+msgstr "如果你保留文件标题栏空白, 则去使用你网站的&#8217;标题。"
 
 #: lib/admin/seo-settings.php:345
 msgid "Site Description (Tagline)"
-msgstr ""
+msgstr "站点描述"
 
 #: lib/admin/seo-settings.php:297
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr ""
+msgstr "如果标题包含两部分（标题和附加栏），则中间会使用分隔符。"
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
@@ -402,71 +402,71 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
-msgstr ""
+msgstr "决定标题文字位于哪一侧"
 
 #: lib/admin/seo-settings.php:291
 msgid "Add site name to %s on inner pages?"
-msgstr ""
+msgstr "给内页%s增添站点名称?"
 
 #: lib/admin/seo-settings.php:364
 msgid "Add site description (tagline) to %s on home page?"
-msgstr ""
+msgstr "将站点描述 %s添加到主页?"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr ""
+msgstr "详细内容"
 
 #: lib/structure/search.php:28 lib/structure/search.php:47
 msgid "Search this website"
-msgstr ""
+msgstr "搜索此网站"
 
 #: lib/structure/loops.php:244
 msgid "Read more"
-msgstr ""
+msgstr "阅读全文"
 
 #: lib/admin/whats-new.php:154
 msgid "Go to SEO Settings &rarr;"
-msgstr ""
+msgstr "进行SEO设置&rarr;"
 
 #: lib/admin/whats-new.php:151
 msgid "Go to Theme Settings &rarr;"
-msgstr ""
+msgstr "转到主题设置 &rarr;"
 
 #: lib/admin/whats-new.php:112
 msgid "Project Leads"
-msgstr ""
+msgstr "项目领头人"
 
 #: lib/admin/whats-new.php:36
 msgid "Welcome to Genesis %s"
-msgstr ""
+msgstr "欢迎来到 Genesis %s"
 
 #: lib/admin/user-meta.php:27
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/admin/customizer.php:143
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "用于网站标题/LOGO"
 
 #: lib/structure/footer.php:136
 msgid "on"
-msgstr ""
+msgstr "关于"
 
 #: lib/admin/cpt-archive-settings.php:175 lib/admin/term-meta.php:85
 msgid "Leave empty if you do not want to display any intro text."
-msgstr ""
+msgstr "如果您不打算显示任何介绍性的文字，请保持空白"
 
 #: lib/admin/cpt-archive-settings.php:172 lib/admin/term-meta.php:82
 msgid "Archive Intro Text"
-msgstr ""
+msgstr "存档介绍"
 
 #: lib/admin/cpt-archive-settings.php:167 lib/admin/term-meta.php:78
 msgid "Leave empty if you do not want to display a headline."
-msgstr ""
+msgstr "如果您不打算显示标题，请保持空白"
 
 #: lib/admin/cpt-archive-settings.php:164 lib/admin/term-meta.php:75
 msgid "Archive Headline"
-msgstr ""
+msgstr "存档标题"
 
 #: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:64
 #: lib/classes/admin.php:113
@@ -475,7 +475,7 @@ msgstr "保存设置出错"
 
 #: lib/widgets/user-profile-widget.php:180
 msgid "Custom Text Content"
-msgstr ""
+msgstr "订制文本内容"
 
 #: lib/init.php:57
 msgid "Secondary Navigation Menu"
@@ -483,23 +483,23 @@ msgstr "副导航菜单"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Left"
-msgstr ""
+msgstr "页眉左侧"
 
 #: lib/widgets/user-profile-widget.php:191
 msgid "Extended page link text"
-msgstr ""
+msgstr "页面链接文本"
 
 #: lib/functions/widgetize.php:174
 msgid "Footer %d widget area."
-msgstr ""
+msgstr "页脚%d 工具区"
 
 #: lib/functions/widgetize.php:142
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr ""
+msgstr "如果您使用三栏式布局，这将会是辅助侧边栏。"
 
 #: lib/functions/widgetize.php:131
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr ""
+msgstr "如果你正在使用两栏或三栏式布局，那么这将是主导航栏"
 
 #: lib/functions/deprecated.php:87
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
@@ -507,50 +507,50 @@ msgstr ""
 
 #: lib/classes/admin.php:120
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr ""
+msgstr "你不能使用 %s 在同一个子级别创建两个菜单。对每个菜单请分别使用单独的子级别。"
 
 #: lib/admin/user-meta.php:105
 msgid "Author Archive Settings"
-msgstr ""
+msgstr "作者存档设置"
 
 #: lib/admin/user-meta.php:55
 msgid "User Permissions"
-msgstr ""
+msgstr "用户允许"
 
 #: lib/admin/theme-settings.php:573
 msgid "Please select the color style from the drop down list and save your settings."
-msgstr ""
+msgstr "请从下拉菜单选择颜色样式并保存你的设置。"
 
 #: lib/admin/theme-settings.php:559
 msgid "Color Style:"
-msgstr ""
+msgstr "颜色样式："
 
 #: lib/admin/theme-settings.php:1010 lib/admin/theme-settings.php:1018
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr ""
+msgstr "该代码将在文件源的%s标签之前立即输出。"
 
 #: lib/admin/theme-settings.php:907
 msgid "Image Size:"
-msgstr ""
+msgstr "图片尺寸"
 
 #: lib/admin/theme-settings.php:421
 msgid "Color Style"
-msgstr ""
+msgstr "颜色样式"
 
 #: lib/admin/theme-settings.php:82
 msgid "Follow me on Twitter"
-msgstr ""
+msgstr "在Twitter上观注我"
 
 #: lib/admin/cpt-archive-settings.php:43 lib/admin/cpt-archive-settings.php:44
 #: lib/admin/cpt-archive-settings.php:135
 #: lib/admin/cpt-archive-settings.php:293
 #: lib/admin/cpt-archive-settings.php:300 lib/admin/term-meta.php:71
 msgid "Archive Settings"
-msgstr ""
+msgstr "存档设置"
 
 #: lib/admin/seo-settings.php:433
 msgid "Adjacent Posts %s link tags"
-msgstr ""
+msgstr "相邻文章%s链接标签"
 
 #: lib/admin/cpt-archive-settings.php:142
 #: lib/admin/cpt-archive-settings.php:261
@@ -575,43 +575,43 @@ msgstr ""
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
+msgstr[0] "%s 秒"
 
 #: lib/functions/formatting.php:336
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
+msgstr[0] "%s 分"
 
 #: lib/functions/formatting.php:335
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
+msgstr[0] "%s 时"
 
 #: lib/functions/formatting.php:334
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
+msgstr[0] "%s 天"
 
 #: lib/functions/formatting.php:333
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
+msgstr[0] "%s 周"
 
 #: lib/functions/formatting.php:332
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
+msgstr[0] "%s 月"
 
 #: lib/functions/formatting.php:331
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
+msgstr[0] "%s 年"
 
 #: lib/functions/formatting.php:327
 msgctxt "time difference"
@@ -620,46 +620,46 @@ msgstr ""
 
 #: lib/admin/customizer.php:371 lib/admin/theme-settings.php:937
 msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
-msgstr ""
+msgstr "这些选项会影响所有博客页，包括存档、作者、博客、目录、搜索、和标签页。"
 
 #: lib/admin/theme-settings.php:793
 msgid "404 Page"
-msgstr ""
+msgstr "404页面"
 
 #: lib/admin/theme-settings.php:790
 msgid "Archives"
-msgstr ""
+msgstr "存档"
 
 #: lib/admin/theme-settings.php:787
 msgid "Pages"
-msgstr ""
+msgstr "页面"
 
 #: lib/admin/theme-settings.php:774
 msgid "Front Page"
-msgstr ""
+msgstr "首页"
 
 #: lib/admin/theme-settings.php:498
 msgid "This can be helpful for diagnosing problems with your theme when seeking assistance in the <a href=\"%s\" target=\"_blank\">support forums</a>."
-msgstr ""
+msgstr "访问 <a href=\"%s\" target=\"_blank\">支持论坛</a>.，在论坛寻找帮助，这有助于诊断你的主题的问题。"
 
 #: lib/admin/theme-settings.php:305 lib/admin/theme-settings.php:373
 #: lib/admin/theme-settings.php:447
 msgid "Header and Footer Scripts"
-msgstr ""
+msgstr "页眉和页脚脚本"
 
 #: lib/admin/customizer.php:322 lib/admin/theme-settings.php:281
 #: lib/admin/theme-settings.php:358 lib/admin/theme-settings.php:442
 msgid "Comments and Trackbacks"
-msgstr ""
+msgstr "评语和跟踪（Trackback)"
 
 #: lib/admin/theme-settings.php:247 lib/admin/theme-settings.php:336
 #: lib/admin/theme-settings.php:427 lib/admin/theme-settings.php:646
 msgid "Default Layout"
-msgstr ""
+msgstr "默认布局"
 
 #: lib/admin/seo-settings.php:384
 msgid "Keywords are generally ignored by Search Engines."
-msgstr ""
+msgstr "通常搜索引擎会忽略关键词"
 
 #: lib/admin/seo-settings.php:46 lib/admin/theme-settings.php:62
 #: lib/classes/admin.php:111
@@ -685,23 +685,23 @@ msgstr "从本地电脑选择文件，然后点击“Upload file and Import\""
 
 #: lib/admin/customizer.php:195 lib/admin/theme-settings.php:562
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: lib/structure/post.php:649 lib/structure/post.php:763
 msgid "Next Page"
-msgstr ""
+msgstr "下一页"
 
 #: lib/structure/post.php:648 lib/structure/post.php:728
 msgid "Previous Page"
-msgstr ""
+msgstr "上一页"
 
 #: lib/shortcodes/post.php:45 lib/shortcodes/post.php:127
 msgid "ago"
-msgstr ""
+msgstr "之前"
 
 #: lib/js/load-scripts.php:121
 msgid "Select / Deselect All"
-msgstr ""
+msgstr "全部选中/全部不选中"
 
 #: lib/admin/import-export.php:225
 msgid "No export options available."
@@ -709,114 +709,114 @@ msgstr "没有导入选项"
 
 #: lib/functions/widgetize.php:173
 msgid "Footer %d"
-msgstr ""
+msgstr "页脚 %d"
 
 #: lib/functions/layout.php:105
 msgid "No Label Selected"
-msgstr ""
+msgstr "未选中项目"
 
 #: lib/admin/import-export.php:183
 msgid "There was a problem importing your settings. Please try again."
-msgstr "导入设置时出现了一个问题，请重试。"
+msgstr "导入设置异常，请重试。"
 
 #: lib/functions/markup.php:1042 lib/functions/widgetize.php:141
 msgid "Secondary Sidebar"
-msgstr ""
+msgstr "辅助侧边栏"
 
 #: lib/functions/markup.php:1021 lib/functions/widgetize.php:130
 msgid "Primary Sidebar"
-msgstr ""
+msgstr "主侧边栏"
 
 #: lib/functions/widgetize.php:119
 msgid "Header Right"
-msgstr ""
+msgstr "页眉右侧"
 
 #: lib/classes/breadcrumb.php:60
 msgid "Not found: "
-msgstr ""
+msgstr "没找到："
 
 #: lib/widgets/featured-post-widget.php:518
 msgid "No Content"
-msgstr ""
+msgstr "无内容"
 
 #: lib/widgets/featured-post-widget.php:517
 msgid "Show Content Limit"
-msgstr ""
+msgstr "显示内容上限"
 
 #: lib/widgets/featured-post-widget.php:516
 msgid "Show Excerpt"
-msgstr ""
+msgstr "显示摘要"
 
 #: lib/widgets/featured-post-widget.php:515
 msgid "Show Content"
-msgstr ""
+msgstr "显示内容"
 
 #: lib/widgets/featured-post-widget.php:513
 msgid "Content Type"
-msgstr ""
+msgstr "内容类型"
 
 #: lib/widgets/featured-post-widget.php:505
 msgid "Show Post Info"
-msgstr ""
+msgstr "显示文章信息"
 
 #: lib/widgets/featured-page-widget.php:257
 #: lib/widgets/featured-post-widget.php:466
 msgid "Show Featured Image"
-msgstr ""
+msgstr "显示特色图片"
 
 #: lib/admin/user-meta.php:121
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr ""
+msgstr "这些文字将出现在第一页的第一段"
 
 #: lib/admin/user-meta.php:118
 msgid "Custom Description Text"
-msgstr ""
+msgstr "描述性文字"
 
 #: lib/admin/user-meta.php:113
 msgid "Will display in the %s tag at the top of the first page"
-msgstr ""
+msgstr "将在第一页顶部显示在%s 标签里"
 
 #: lib/admin/user-meta.php:110
 msgid "Custom Archive Headline"
-msgstr ""
+msgstr "存档标题"
 
 #: lib/admin/user-meta.php:106 lib/admin/user-meta.php:170
 #: lib/admin/user-meta.php:244
 msgid "These settings apply to this author's archive pages."
-msgstr ""
+msgstr "这些设置将作用于该作者的存档页"
 
 #: lib/admin/user-meta.php:132
 msgid "Enable Author Box on this User's Archives?"
-msgstr ""
+msgstr "在该用户的存档里使用作者栏"
 
 #: lib/admin/user-meta.php:129
 msgid "Enable Author Box on this User's Posts?"
-msgstr ""
+msgstr "在该用户的文章里使用作者栏"
 
 #: lib/admin/user-meta.php:70
 msgid "Enable Import/Export Submenu?"
-msgstr ""
+msgstr "激活输入/输出子菜单？"
 
 #: lib/admin/user-meta.php:66
 msgid "Enable SEO Settings Submenu?"
-msgstr ""
+msgstr "激活SEO设置子菜单？"
 
 #: lib/admin/user-meta.php:62
 msgid "Enable Genesis Admin Menu?"
-msgstr ""
+msgstr "激活Genesis管理菜单？"
 
 #: lib/admin/user-meta.php:59
 msgid "Genesis Admin Menus"
-msgstr ""
+msgstr "Genesis管理员菜单"
 
 #: lib/admin/theme-settings.php:903
 msgid "Include the Featured Image?"
-msgstr ""
+msgstr "包含特色图片？"
 
 #: lib/admin/term-meta.php:210 lib/admin/term-meta.php:213
 #: lib/admin/user-meta.php:248 lib/admin/user-meta.php:251
 msgid "Choose Layout"
-msgstr ""
+msgstr "选择布局"
 
 #: lib/admin/import-export.php:44 lib/admin/import-export.php:65
 #: lib/admin/import-export.php:81
@@ -833,7 +833,7 @@ msgstr "自定义body class"
 
 #: lib/admin/inpost-metaboxes.php:79
 msgid "Custom Redirect URL"
-msgstr ""
+msgstr "重新定向URL"
 
 #: lib/admin/inpost-metaboxes.php:56 lib/admin/inpost-metaboxes.php:64
 msgid "Characters Used: %s"
@@ -853,7 +853,7 @@ msgstr "导出Genesis设置文件"
 
 #: lib/admin/import-export.php:130
 msgid "Upload File (Maximum Size: %s): "
-msgstr ""
+msgstr "上传文件 (最大文件: %s): "
 
 #: lib/admin/import-export.php:122
 msgid "Import Genesis Settings File"
@@ -877,7 +877,7 @@ msgstr "自定义文本（如下）"
 
 #: lib/widgets/user-profile-widget.php:177
 msgid "Author Bio"
-msgstr "作者简历"
+msgstr "作者简介"
 
 #: lib/widgets/user-profile-widget.php:174
 msgid "Select which text you would like to use as the author description"
@@ -905,15 +905,15 @@ msgstr "选择一个用户。这账户的电子邮件地址将会用在下拉 Gr
 
 #: lib/widgets/user-profile-widget.php:103
 msgid "View My Blog Posts"
-msgstr "检视我的博客文章"
+msgstr "查看我的博客文章"
 
 #: lib/widgets/user-profile-widget.php:58
 msgid "Genesis - User Profile"
-msgstr "Genesis - 用户简介"
+msgstr "Genesis - 使用者简介"
 
 #: lib/widgets/user-profile-widget.php:49
 msgid "Displays user profile block with Gravatar"
-msgstr "显示被阻挡 Gravatar 的用户简介"
+msgstr "显示用户简介和他/她的Gravatar"
 
 #: lib/widgets/featured-post-widget.php:558
 msgid "Link Text"
@@ -929,7 +929,7 @@ msgstr "如要显示此类别的更多文章于无序列表，请填写下列的
 
 #: lib/widgets/featured-post-widget.php:528
 msgid "More Text (if applicable)"
-msgstr "更多文本（如合用）"
+msgstr "更多文本（如需要）"
 
 #: lib/widgets/featured-post-widget.php:500
 msgid "Show Post Title"
@@ -938,7 +938,7 @@ msgstr "显示文章标题"
 #: lib/widgets/featured-post-widget.php:452
 #: lib/widgets/user-profile-widget.php:165
 msgid "Gravatar Alignment"
-msgstr "Gravatar 对齐"
+msgstr "Gravatar 对齐方式"
 
 #: lib/widgets/featured-post-widget.php:447
 msgid "Extra Large (125px)"
@@ -975,7 +975,7 @@ msgstr "递减 (3,2,1)"
 
 #: lib/widgets/featured-post-widget.php:415
 msgid "Sort Order"
-msgstr "排序"
+msgstr "排列顺序"
 
 #: lib/widgets/featured-post-widget.php:410
 msgid "Random"
@@ -983,7 +983,7 @@ msgstr "随机"
 
 #: lib/widgets/featured-post-widget.php:409
 msgid "Comment Count"
-msgstr "评语计数"
+msgstr "评语数"
 
 #: lib/widgets/featured-post-widget.php:408
 msgid "ID"
@@ -999,11 +999,11 @@ msgstr "日期"
 
 #: lib/widgets/featured-post-widget.php:403
 msgid "Order By"
-msgstr "依序排列"
+msgstr "排列顺序"
 
 #: lib/widgets/featured-post-widget.php:398
 msgid "Number of Posts to Offset"
-msgstr "抵消文章的数量"
+msgstr "文章的偏移数"
 
 #: lib/widgets/featured-post-widget.php:378
 msgid "Category"
@@ -1052,7 +1052,7 @@ msgstr "没有"
 #: lib/widgets/featured-page-widget.php:272
 #: lib/widgets/featured-post-widget.php:481
 msgid "Image Alignment"
-msgstr "图像对齐"
+msgstr "图像对齐方式"
 
 #: lib/widgets/featured-page-widget.php:242
 msgid "Page"
@@ -1060,7 +1060,7 @@ msgstr "页面"
 
 #: lib/shortcodes/footer.php:176 lib/structure/post.php:274
 msgid "by"
-msgstr "由"
+msgstr "作者"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
@@ -1068,7 +1068,7 @@ msgstr "Genesis - 特色页面"
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "显示特色页面和它的缩略图。"
+msgstr "显示特色页面及其缩略图。"
 
 #: lib/widgets/featured-page-widget.php:237
 #: lib/widgets/featured-post-widget.php:369
@@ -1080,7 +1080,7 @@ msgstr "标题"
 
 #: lib/classes/breadcrumb.php:57
 msgid "Search for "
-msgstr "搜索"
+msgstr "查找"
 
 #: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
 #: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
@@ -1088,11 +1088,11 @@ msgstr "搜索"
 #: lib/structure/archive.php:175 lib/structure/archive.php:177
 #: lib/structure/archive.php:179
 msgid "Archives for "
-msgstr "。。。的档案"
+msgstr "档案"
 
 #: lib/classes/breadcrumb.php:52
 msgid "You are here: "
-msgstr "你在这："
+msgstr "当前位置："
 
 #: lib/structure/sidebar.php:41
 msgid "Secondary Sidebar Widget Area"
@@ -1112,7 +1112,7 @@ msgstr "关于"
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "By"
-msgstr "由"
+msgstr "作者"
 
 #: lib/structure/post.php:358 lib/structure/post.php:360
 msgid "[Read more...]"
@@ -1181,27 +1181,27 @@ msgstr "（编辑）"
 
 #: lib/shortcodes/post.php:492 lib/shortcodes/post.php:535
 msgid "Filed Under: "
-msgstr "档案于："
+msgstr "本文归档："
 
 #: lib/shortcodes/post.php:450
 msgid "Tagged With: "
-msgstr "标签："
+msgstr "本文标签："
 
 #: lib/shortcodes/post.php:402
 msgid "% Comments"
-msgstr "% 评论"
+msgstr "评论数% "
 
 #: lib/shortcodes/post.php:403
 msgid "1 Comment"
-msgstr "1 评论"
+msgstr "一个评论"
 
 #: lib/shortcodes/post.php:404
 msgid "Leave a Comment"
-msgstr "留言"
+msgstr "请您留言"
 
 #: lib/shortcodes/footer.php:303
 msgid "Log out"
-msgstr "登出"
+msgstr "退出系统"
 
 #: lib/shortcodes/footer.php:301
 msgid "Log in"
@@ -1209,7 +1209,7 @@ msgstr "登录"
 
 #: lib/shortcodes/footer.php:40
 msgid "Return to top of page"
-msgstr "回到页面顶部"
+msgstr "返回该页最上部"
 
 #: lib/functions/upgrade.php:681
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
@@ -1238,15 +1238,15 @@ msgstr "所有分类"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "显示那一个分类："
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
-msgstr "数字"
+msgstr "数字式"
 
 #: lib/admin/customizer.php:466 lib/admin/theme-settings.php:933
 msgid "Previous / Next"
-msgstr "下一页/上一页"
+msgstr "上一页/下一页"
 
 #: lib/widgets/featured-page-widget.php:261
 #: lib/widgets/featured-post-widget.php:470
@@ -1259,11 +1259,11 @@ msgstr "字符"
 
 #: lib/admin/theme-settings.php:892 lib/widgets/featured-post-widget.php:521
 msgid "Limit content to"
-msgstr "限制内容到"
+msgstr "限制内容字数"
 
 #: lib/admin/customizer.php:402
 msgid "Select one of the following"
-msgstr ""
+msgstr "选取以下内容其中一项"
 
 #: lib/admin/theme-settings.php:838 lib/admin/theme-settings.php:841
 msgid "Enable Trackbacks"
@@ -1328,11 +1328,11 @@ msgstr "动态文本"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "发行："
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: lib/admin/customizer.php:370 lib/admin/theme-settings.php:286
 #: lib/admin/theme-settings.php:363 lib/admin/theme-settings.php:443
@@ -1346,7 +1346,7 @@ msgstr "面包屑"
 
 #: lib/admin/user-meta.php:126
 msgid "Author Box"
-msgstr "作者框"
+msgstr "作者简介"
 
 #: lib/admin/theme-settings.php:241 lib/admin/theme-settings.php:331
 #: lib/admin/theme-settings.php:424
@@ -1403,11 +1403,11 @@ msgstr "启用 %s 到分类档案?"
 
 #: lib/admin/seo-settings.php:453
 msgid "Include Shortlink tag?"
-msgstr "包含捷径连接标签？"
+msgstr "包含捷径链接标签？"
 
 #: lib/admin/seo-settings.php:449
 msgid "Shortlink Tag"
-msgstr ""
+msgstr "短链标签"
 
 #: lib/admin/seo-settings.php:443
 msgid "Include Windows Live Writer Support Tag?"
@@ -1415,7 +1415,7 @@ msgstr "包含 Windows Live Writer 支持标签?"
 
 #: lib/admin/seo-settings.php:429
 msgid "Relationship Link Tags"
-msgstr ""
+msgstr "关系链接标签"
 
 #: lib/admin/seo-settings.php:394 lib/admin/seo-settings.php:397
 #: lib/admin/seo-settings.php:400
@@ -1424,7 +1424,7 @@ msgstr "启用 %s 于首页?"
 
 #: lib/admin/seo-settings.php:348
 msgid "I'll manually wrap my own text on the homepage"
-msgstr ""
+msgstr "我会在主页手动添加wrap"
 
 #: lib/admin/seo-settings.php:342
 msgid "Site Title"
@@ -1448,7 +1448,7 @@ msgstr "左"
 
 #: lib/js/load-scripts.php:124
 msgid "Are you sure you want to reset?"
-msgstr "您肯定您要复位吗？"
+msgstr "您确定要进行重置吗？"
 
 #: lib/admin/seo-settings.php:45 lib/admin/theme-settings.php:61
 #: lib/classes/admin.php:110
@@ -1462,7 +1462,7 @@ msgstr "Genesis - SEO 设置"
 #: lib/admin/seo-settings.php:195 lib/admin/seo-settings.php:222
 #: lib/admin/seo-settings.php:255
 msgid "Document Head Settings"
-msgstr "文档头 （Document Head）设置"
+msgstr "文档头部（Document Head）设置"
 
 #: lib/admin/seo-settings.php:185 lib/admin/seo-settings.php:217
 #: lib/admin/seo-settings.php:254
@@ -1529,51 +1529,51 @@ msgstr "页面："
 
 #: lib/admin/theme-settings.php:378
 msgid "Home Pages"
-msgstr ""
+msgstr "主页"
 
 #: lib/admin/theme-settings.php:317
 msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
-msgstr ""
+msgstr "作这一设置比较有利，因为它更易于在主页设置博客（不必将其更名为home.php)，而且也不会在主题刚安装时因为没有内容而引起混乱。"
 
 #: lib/admin/theme-settings.php:316
 msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
-msgstr ""
+msgstr "第三种类型的主页是新的动态主页，这在最新的主题里比较常见。它将以博客形式显示你最新的文章，除非你在主页侧边栏放置一些小工具。"
 
 #: lib/admin/theme-settings.php:315
 msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
-msgstr ""
+msgstr "另一种普遍的主页是“博客”型主页，常见于免费的子主题。它会显示最近的文章，不需要其它的设置。"
 
 #: lib/admin/theme-settings.php:314
 msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
-msgstr ""
+msgstr "如果你的主题使用定制首页，而你想以博客形式显示最新文章的话，请勿使用博客模板。你可以把home.php文件改名为home-old.php。"
 
 #: lib/admin/theme-settings.php:313
 msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
-msgstr ""
+msgstr "包含这类首页的子主题通常会就如何设置主题提供教程，教程通常是子主题支持论坛的置顶文章。"
 
 #: lib/admin/theme-settings.php:312
 msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
-msgstr ""
+msgstr "该首页是通过设置首页侧边栏里的小工具来完成的。您可以在外观目录下的找到小工具，然后进行设置。"
 
 #: lib/admin/theme-settings.php:311
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
-msgstr ""
+msgstr "想要使用这类首页的话，首先要设置主页显示最新文章。你可以新建一个页面以博客页为模板来显示最新文章。"
 
 #: lib/admin/theme-settings.php:310
 msgid "Most Genesis child themes include a custom home page."
-msgstr ""
+msgstr "大部分Genesis子主题包含订制的主页"
 
 #: lib/admin/theme-settings.php:309
 msgid "How Home Pages Work"
-msgstr ""
+msgstr "主页如何工作"
 
 #: lib/admin/theme-settings.php:306
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr ""
+msgstr "你有两个空白处填写，它将会在你网站的 %2$s标签前显示 网站的%1$s 元素，并且出现在网站的每个页面，方便你插入分析代码和其它脚本。但你不可以使用PHP，需要你需要PHP代码可以考虑使用Genesis Simple Hooks插件。"
 
 #: lib/admin/theme-settings.php:298 lib/admin/theme-settings.php:368
 msgid "Blog Page"
-msgstr ""
+msgstr "博客页"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
-msgstr ""
+msgstr "“图片尺寸”清单列出了主题定义的所有图片尺寸。"
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
@@ -1597,7 +1597,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
-msgstr ""
+msgstr "它跟第二个空白处的\"限制[___]字\" 一起限制显示内容到一定数字。它将会删除任何HTML，但相比摘要来，可精准控制并轻易改变长度。"
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
@@ -1605,568 +1605,568 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
-msgstr ""
+msgstr "存档包括使用博客模板的页面、目录页、标签页、日期存档、作者存档、及没有定制主页时的最新文章。"
 
 #: lib/admin/theme-settings.php:287
 msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
-msgstr ""
+msgstr "在Genesis主题设置中，你可以改变整站的内容存档选项，控制站点的存档示内容。"
 
 #: lib/admin/theme-settings.php:283
 msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
-msgstr ""
+msgstr "如果你启用评论或跟踪功能，你仍可以在单独的文章或页面上停用。如果你在这里不启用，则不可以在单独的文章或页面上启用。"
 
 #: lib/admin/theme-settings.php:282
 msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
-msgstr ""
+msgstr "该选项决定是否在单独文章或页面上启用评论与跟踪（有人链接到你的网页时通知你）。"
 
 #: lib/admin/theme-settings.php:278
 msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
-msgstr ""
+msgstr "该选项决定面包屑显示的位置。面包屑是显示网站浏览者位置的导航工具。"
 
 #: lib/admin/theme-settings.php:258
 msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
-msgstr ""
+msgstr "这一布局也可以在单独的页面/文章的设置选项里更改。"
 
 #: lib/admin/cpt-archive-settings.php:329 lib/admin/theme-settings.php:254
 msgid "Sidebar Sidebar Content"
-msgstr ""
+msgstr "侧边栏-侧边栏-内容栏"
 
 #: lib/admin/cpt-archive-settings.php:328 lib/admin/theme-settings.php:253
 msgid "Content Sidebar Sidebar"
-msgstr ""
+msgstr "内容栏-侧边栏-侧边栏"
 
 #: lib/admin/cpt-archive-settings.php:327 lib/admin/theme-settings.php:252
 msgid "Sidebar Content Sidebar"
-msgstr ""
+msgstr "侧边栏-内容栏-侧边栏"
 
 #: lib/admin/cpt-archive-settings.php:326 lib/admin/theme-settings.php:251
 msgid "Sidebar Content"
-msgstr ""
+msgstr "侧边栏-内容栏"
 
 #: lib/admin/cpt-archive-settings.php:325 lib/admin/theme-settings.php:250
 msgid "Content Sidebar"
-msgstr ""
+msgstr "内容栏-侧边栏"
 
 #: lib/admin/theme-settings.php:248
 msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
-msgstr ""
+msgstr "该选项让你选择整个网站的默认布局。大多数子主题中你都会见到这些选项："
 
 #: lib/admin/theme-settings.php:244
 msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
-msgstr ""
+msgstr "选中 \"Redirect Feed\" ，所有的推送链接将被重新定向到 Feedburner 链接。"
 
 #: lib/admin/theme-settings.php:243
 msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
-msgstr ""
+msgstr "填写推送链接后，它将显示为链接连接到 Feedburner."
 
 #: lib/admin/theme-settings.php:242
 msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
-msgstr ""
+msgstr "如果你使用 Feedburner 来处理你网站的 rss feed(s) 你可利用这一功能将网站的推送重新定向到你的 Feedburner推送。"
 
 #: lib/admin/theme-settings.php:237
 msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
-msgstr ""
+msgstr "并不意味着会不经过您的允许而自动更新。而是会先通知你有可用的更新。你必须选择才进行更新。"
 
 #: lib/admin/theme-settings.php:236
 msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
-msgstr ""
+msgstr "通常这一项应该不启用，你也可以设置为启动自动更新。"
 
 #: lib/admin/theme-settings.php:235
 msgid "The information box allows you to see the current Genesis theme information and display if desired."
-msgstr ""
+msgstr "这个信息项让你能看见现有Genesis主题的信息。"
 
 #: lib/admin/theme-settings.php:231
 msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme &#x02026;"
-msgstr ""
+msgstr "主题设置决定网站如何工作。这个菜单让你控制许多特性，有的简单有的复杂。有的子主题会在这里增加额外的选项，比如选择不同配色方案或者设置某个内容，比如网站的轮播。点选各区头部可以收起或打开该局部，也可以拖动按您的意愿调整顺序，甚至可以点击右上角的屏幕选项并点选你想隐藏的内容将其隐藏。下面是每个&#x02026;子主题的常用选项"
 
 #: lib/admin/seo-settings.php:203
 msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
-msgstr ""
+msgstr "对大多数网站来说，首页或博客页（使用博客模板）将用于索引，所以默认是不针对目录、标签、作者、日期或搜索进行索引。"
 
 #: lib/admin/seo-settings.php:202
 msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
-msgstr ""
+msgstr "应保持至少一个存档进行索引，而索引多个存档通常导致内容重复的处罚（多个页面显示同样的内容）。"
 
 #: lib/admin/seo-settings.php:201
 msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
-msgstr ""
+msgstr "不存档和不索引已经解释过了，这里你可以选择在网站其它的指定地点应用这些设置。"
 
 #: lib/admin/seo-settings.php:197
 msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
-msgstr ""
+msgstr "如果你使用的软件允许，你也可以增添对Windows Live Writer 的支持，如果第三方服务需要的话可以添加短链标签。"
 
 #: lib/admin/seo-settings.php:196
 msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
-msgstr ""
+msgstr "关系链接标签是由WordPress添加的目前没有SEO价值但会影响网站加载的标签。默认是不允许的，但如果你有插件有特殊需要或其它非典型应用情况下，你可以激活。"
 
 #: lib/admin/seo-settings.php:192
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr ""
+msgstr "首页的Robots元标签指导搜索引擎处理页面。Noindex表示不进行索引，不会出现在搜索结果中。Nofollow表示不跟踪页面的链接，Noarchive 则表示不做页面存档。"
 
 #: lib/admin/cpt-archive-settings.php:310 lib/admin/seo-settings.php:191
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
-msgstr ""
+msgstr "大部分的搜索引擎目前并不使用关键词或者很少考虑它，但如果以后关键词被重新重视所以还是值得使用的。如果内容跟目标关键词不匹配，那你需要调整你的内容。"
 
 #: lib/admin/seo-settings.php:190
 msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
-msgstr ""
+msgstr "首页META描述和关键词会出现在首页的元标签中。META 描述是出现在搜索结果中的简短文本。"
 
 #: lib/admin/seo-settings.php:189
 msgid "The home doctitle sets what will appear within the %1$s tags (unseen in the browser) for the home page."
-msgstr ""
+msgstr "首页文件标题设置会出现在%1$s 标签内（但不显示在浏览器上）。"
 
 #: lib/admin/seo-settings.php:188
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
-msgstr ""
+msgstr "为增添文件，你必须编辑PHP文件，或在由小工具构成的首页上使用文本小工具。"
 
 #: lib/admin/seo-settings.php:187
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an &lt;h1&gt; tag (the primary heading in HTML)."
-msgstr ""
+msgstr "你也可以指定网站标题、描述、或者你想要的文字是否要应用 &lt;h1&gt; 标签 (HTML里的主标题)。"
 
 #: lib/admin/seo-settings.php:186
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
-msgstr ""
+msgstr "这些是针对首页的SEO设置，注意：如果网站首页使用的是静态网页，这些设置是不起使用的。如果你使用静态页面做首页，你需要针对那个特定页面做SEO设置。"
 
 #: lib/admin/seo-settings.php:182
 msgid "The <strong>Doctitle Separator</strong> is the character that will go between the title and appended text."
-msgstr ""
+msgstr "<strong>文件标题分隔符</strong> 是标题与附加文本之间的分隔符。"
 
 #: lib/admin/seo-settings.php:181
 msgid "<strong>Doctitle Append Location</strong> determines which side of the title to add the previously mentioned items."
-msgstr ""
+msgstr "<strong>文件标题附加位置</strong> 决定将之前提到的内容放到标题的哪一侧。"
 
 #: lib/admin/seo-settings.php:180
 msgid "<strong>Append Site Name</strong> will put the site name from the General Settings after the title on inner page."
-msgstr ""
+msgstr "<strong>增添站点名称</strong> 将针对内部页面，把通用设置里的站点名称置于标题之后。"
 
 #: lib/admin/seo-settings.php:179
 msgid "<strong>Append Site Description</strong> will insert the site description from your General Settings after the title on your home page."
-msgstr ""
+msgstr "<strong>附加网站描述</strong> 会在首页标题下插入你的全局设置中的网站描述。"
 
 #: lib/admin/seo-settings.php:178 lib/admin/seo-settings.php:212
 msgid "Doctitle Settings"
-msgstr ""
+msgstr "Doctitle文件头设置"
 
 #: lib/admin/seo-settings.php:175
 msgid "Below you'll find a few succinct notes on the options for each box:"
-msgstr ""
+msgstr "以下对每项内容的选择作简要说明："
 
 #: lib/admin/seo-settings.php:174
 msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
-msgstr ""
+msgstr "对每个页面、文章和术语都会有各自的SEO设置，对大多数用户我们建议使用默认的设置。如果你希望调整自己的SEO，这些选项包括了内部描述。"
 
 #: lib/admin/seo-settings.php:173
 msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
-msgstr ""
+msgstr "如果你看见这个菜单，打开菜单将能调整你网站的通用SEO设置。"
 
 #: lib/admin/seo-settings.php:172
 msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
-msgstr ""
+msgstr "如果没显示SEO设置的菜单子项目，可能是因为你正在使用另一个SEO插件。"
 
 #: lib/admin/seo-settings.php:171
 msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
-msgstr ""
+msgstr "Genesis SEO (搜索引擎优化) 是谦虚的, 当那些流行的SEO插件 (例如, All-in-One SEO, WordPress SEO, 等.) 激活时，它会自行关闭。"
 
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:236
 #: lib/admin/theme-settings.php:387
 msgid "Genesis Tutorials"
-msgstr ""
+msgstr "Genesis教程"
 
 #: lib/admin/import-export.php:99 lib/admin/seo-settings.php:235
 #: lib/admin/theme-settings.php:386
 msgid "Genesis Snippets"
-msgstr ""
+msgstr "Genesis码段"
 
 #: lib/admin/import-export.php:98 lib/admin/seo-settings.php:234
 #: lib/admin/theme-settings.php:385
 msgid "Get Support"
-msgstr ""
+msgstr "获取帮助"
 
 #: lib/admin/import-export.php:97 lib/admin/seo-settings.php:233
 #: lib/admin/theme-settings.php:384
 msgid "For more information:"
-msgstr ""
+msgstr "获得更多信息："
 
 #: lib/admin/import-export.php:77
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/admin/import-export.php:77
 msgid "JavaScript Object Notation"
-msgstr ""
+msgstr "JavaScript 对象表示法"
 
 #: lib/admin/import-export.php:76 lib/admin/import-export.php:91
 msgid "Export"
-msgstr ""
+msgstr "输出"
 
 #: lib/admin/import-export.php:73
 msgid "This cannot be undone"
-msgstr ""
+msgstr "不可以取消"
 
 #: lib/admin/import-export.php:71 lib/admin/import-export.php:86
 msgid "Import"
-msgstr ""
+msgstr "引入"
 
 #: lib/admin/import-export.php:68
 msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
-msgstr ""
+msgstr "它也不包含插件、小工具的设置，或者关于文章/页面/术语/用户的设置。"
 
 #: lib/admin/import-export.php:67
 msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
-msgstr ""
+msgstr "这一设置只针对Genesis设置，而且不包含文章、页面或图片，WordPress内置的引入/导出菜单包含这些内容。"
 
 #: lib/admin/import-export.php:66
 msgid "This allows you to import or export Genesis Settings."
-msgstr ""
+msgstr "你可以引入或输出Genesis设置"
 
 #: lib/functions/upgrade.php:636
 msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
-msgstr ""
+msgstr "Genesis %s 已可下载。 <a href=\"%s\" %s>看看有什么新东西</a> 或者 <a href=\"%s\" %s>现在进行更新</a>"
 
 #: lib/admin/theme-settings.php:719
 msgid "In order to view the Primary navigation menu settings, you must build a <a href=\"%s\">custom menu</a>, then assign it to the Primary Menu Location."
-msgstr ""
+msgstr "为了能查看主导航菜单设置，你必须创建一个<a href=\"%s\">定制菜单</a>，并将它指定给主菜单位置。"
 
 #: lib/admin/theme-settings.php:272
 msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
-msgstr ""
+msgstr "推特（Twitter）链接显示你推特ID设置的推特帐号的链接，在这里只要输入用户名。"
 
 #: lib/admin/theme-settings.php:271
 msgid "Search form displays a small search form utilizing the WordPress search functionality."
-msgstr ""
+msgstr "搜索表显示一个小的搜索框，并使用WordPress内置搜索功能。"
 
 #: lib/admin/theme-settings.php:270
 msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
-msgstr ""
+msgstr "RSS推送链接显示你站点的RSS推送，读者可以用他们喜欢的推送阅读器来订阅。"
 
 #: lib/admin/theme-settings.php:269
 msgid "Today's date displays the current date"
-msgstr ""
+msgstr "今天日期显示当前日期"
 
 #: lib/admin/theme-settings.php:267
 msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
-msgstr ""
+msgstr "主导航补充栏通常显示在主导航栏的右侧。"
 
 #: lib/admin/theme-settings.php:263
 msgid "The <strong>Image logo</strong> option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
-msgstr ""
+msgstr "<strong>图片Logo</strong> 选项将显示Logo图片，而不是网站标题或描述。该选项将增添.header-image, 你就可以在子主题的style.css文件中指定头部图片。默认Logo可保存为logo.png 并保存在子主题的images文件夹。"
 
 #: lib/admin/theme-settings.php:262
 msgid "The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site's settings in your header."
-msgstr ""
+msgstr "<strong>动态文本</strong> 选项将显示你网站设置中的网站标题和网站描述内容。"
 
 #: lib/structure/sidebar.php:63
 msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
-msgstr ""
+msgstr "这是 %s，您可以增添内容到这一区域，参看 <a href=\"%s\">小工具面板</a> 增添小工具到这里。"
 
 #: lib/functions/deprecated.php:232
 msgid "data in style sheet files"
-msgstr ""
+msgstr "样式表文件的数据"
 
 #: lib/admin/theme-settings.php:301
 msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
-msgstr ""
+msgstr "博客模板可以让你指定页面要显示的目录，比如你想显示“新闻”目录或其它目录的内容。"
 
 #: lib/admin/theme-settings.php:510
 msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
-msgstr ""
+msgstr "如果你在上面填写了电子邮件地址，你将会受到Genesis更新的通知。"
 
 #: lib/admin/theme-settings.php:709
 msgid "Load Superfish Script?"
-msgstr ""
+msgstr "加载Superfish脚本?"
 
 #: lib/admin/import-export.php:77
 msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
-msgstr ""
+msgstr "你可以输出Genesis有关的设置以进行备份，或者把它们拷贝到另一个网站。子主题或插件可能会在此引入一些选项。这些设置输出格式是%s。"
 
 #: lib/admin/cpt-archive-settings.php:323
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
-msgstr ""
+msgstr "该选项让您设定存档页的布局。在大多数子主题中您会看到这些选项："
 
 #: lib/admin/import-export.php:124
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
-msgstr ""
+msgstr "从您的电脑上传数据文件 (%s) 我们会同时引用你的设置"
 
 #: lib/admin/import-export.php:73
 msgid "Once you upload an import file, it will automatically overwrite your existing settings."
-msgstr ""
+msgstr "一旦你上传一个文件，你现有的设置就会自动被改写。"
 
 #: lib/admin/cpt-archive-settings.php:332 lib/admin/theme-settings.php:274
 msgid "These options can be extended or limited by the child theme."
-msgstr ""
+msgstr "这些选项可以在子主题中进一步调整（扩大或缩小）"
 
 #: lib/admin/cpt-archive-settings.php:308
 msgid ""
 "The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
 " "
-msgstr ""
+msgstr "元描述和关键词会添加在存档页的元标签。元描述是出现在搜索结果中的简短的描述性文字。"
 
 #: lib/admin/theme-settings.php:299
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
-msgstr ""
+msgstr "这需要博客模板，博客模板是一个显示你最新文章的页面模板，是人们打开你的网站时看到的页面。"
 
 #: lib/admin/import-export.php:143
 msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
-msgstr ""
+msgstr "当你点击下面的按钮后，Genesis将会创建一个数据文件（%s）供你保存到自己的电脑。"
 
 #: lib/admin/seo-settings.php:280
 msgid "Use semantic HTML5 page and section headings throughout site?"
-msgstr ""
+msgstr "全站都使用HTML5 页和子标题 ?"
 
 #: lib/admin/cpt-archive-settings.php:311
 msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
-msgstr ""
+msgstr "Robots 元标签告诉搜索引擎如何处置存档页。Noindex(不索引)表示不做索引，并且不会出现在搜索结果中。Nofollow（不跟踪） 表示不跟踪该页面的任何链接，Noarchive（不存档） 表示不对该页做存档。"
 
 #: lib/admin/cpt-archive-settings.php:294
 msgid "The Archive Headline sets the title seen on the archive page"
-msgstr ""
+msgstr "存档标题设定的是存档页显示的标题"
 
 #: lib/admin/theme-settings.php:257
 msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
-msgstr ""
+msgstr "这些选项可在子主题中修改，加以扩展或限制。另外，很多子主题不允许首页有不同的布局，因为首页布局已经按某一布局设置好了。"
 
 #: lib/admin/theme-settings.php:302
 msgid "You can find more on this feature in the <a href=\"%s\" target=\"_blank\">How to Add a Post Category Page tutorial.</a>"
-msgstr ""
+msgstr "更内容请看 <a href=\"%s\" target=\"_blank\">教程：如何增添一个文章页</a>"
 
 #: lib/admin/theme-settings.php:300
 msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
-msgstr ""
+msgstr "在通用设置里，你可从下拉菜单选择特定的目录来显示，可以设定不显示目录的ID，可以选择要显示多少篇文章。"
 
 #: lib/admin/cpt-archive-settings.php:295
 msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
-msgstr ""
+msgstr "存档介绍文字位于存档开始的部分，用于简要介绍存档的内容。"
 
 #: lib/admin/cpt-archive-settings.php:333
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
-msgstr ""
+msgstr "该特定的body样式为body标签添加一个样式，这样就可以对文章类型存档页编辑样式。"
 
 #: lib/admin/cpt-archive-settings.php:307
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
-msgstr ""
+msgstr "文件标题用于设置出现在浏览器和搜索引擎中的页面标题。"
 
 #: lib/admin/import-export.php:72
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
-msgstr ""
+msgstr "你可以导入你之前输出的文件。文件名以%s开头，后面带一个或几个字符串表示它包含的设置，最后是输出日期和时间。"
 
 #: lib/admin/seo-settings.php:548
 msgid "Directories"
-msgstr ""
+msgstr "目录"
 
 #: lib/admin/seo-settings.php:514
 msgid "Archiving"
-msgstr ""
+msgstr "正在存档"
 
 #: lib/admin/seo-settings.php:486
 msgid "Indexing"
-msgstr ""
+msgstr "正在进行索引"
 
 #: lib/admin/seo-settings.php:439
 msgid "Windows Live Writer"
-msgstr ""
+msgstr "Windows Live Writer软件"
 
 #: lib/admin/seo-settings.php:335 lib/admin/seo-settings.php:338
 msgid "Primary Title %s"
-msgstr ""
+msgstr "主标题%s"
 
 #: lib/admin/seo-settings.php:308
 msgid "Additions on right"
-msgstr ""
+msgstr "增添内容置于右侧"
 
 #: lib/admin/seo-settings.php:307
 msgid "Additions on left"
-msgstr ""
+msgstr "增添内容置于左侧"
 
 #: lib/admin/seo-settings.php:304
 msgid "Document Title Order"
-msgstr ""
+msgstr "文件标题顺序"
 
 #: lib/admin/seo-settings.php:276
 msgid "Section Headings"
-msgstr ""
+msgstr "局部标题"
 
 #: lib/admin/seo-settings.php:253
 msgid "Sitewide Settings"
-msgstr ""
+msgstr "全站通用设置"
 
 #: lib/admin/inpost-metaboxes.php:74
 msgid "Canonical URL"
-msgstr ""
+msgstr "正源URL"
 
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
 msgid "Document Title"
-msgstr ""
+msgstr "文件标题"
 
 #: lib/admin/import-export.php:98 lib/admin/import-export.php:99
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:234
 #: lib/admin/seo-settings.php:235 lib/admin/seo-settings.php:236
 msgid "Link opens in a new window."
-msgstr ""
+msgstr "链接在新窗口打开"
 
 #: lib/admin/customizer.php:451 lib/admin/theme-settings.php:920
 msgid "- None -"
-msgstr ""
+msgstr "- 无 -"
 
 #: lib/admin/customizer.php:446
 msgid "Featured image alignment"
-msgstr ""
+msgstr "特色图片对齐方式"
 
 #: lib/admin/customizer.php:435
 msgid "Featured image size"
-msgstr ""
+msgstr "特色图片尺寸"
 
 #: lib/admin/customizer.php:425
 msgid "Display the featured image?"
-msgstr ""
+msgstr "显示特色图片？"
 
 #: lib/admin/customizer.php:416
 msgid "Limit content to how many characters? (0 for no limit)"
-msgstr ""
+msgstr "限制内容至多少字符（0或者无限）"
 
 #: lib/admin/customizer.php:331
 msgid "Enable Trackbacks on Pages?"
-msgstr ""
+msgstr "页面上启用跟踪（Trackback)"
 
 #: lib/admin/customizer.php:330
 msgid "Enable Trackbacks on Posts?"
-msgstr ""
+msgstr "对文章启动跟踪Trackback?"
 
 #: lib/admin/customizer.php:329
 msgid "Enable Comments on Pages?"
-msgstr ""
+msgstr "对页面启用评语？"
 
 #: lib/admin/customizer.php:328
 msgid "Enable Comments on Posts?"
-msgstr ""
+msgstr "对文章启用评语？"
 
 #: lib/admin/customizer.php:266
 msgid "Breadcrumbs on Attachment/Media"
-msgstr ""
+msgstr "附件和媒体中启用面包屑"
 
 #: lib/admin/customizer.php:265
 msgid "Breadcrumbs on 404 Page"
-msgstr ""
+msgstr "在404页启用面包屑"
 
 #: lib/admin/customizer.php:264
 msgid "Breadcrumbs on Archives"
-msgstr ""
+msgstr "在存档中启用面包屑"
 
 #: lib/admin/customizer.php:263
 msgid "Breadcrumbs on Pages"
-msgstr ""
+msgstr "在页面中启用面包屑"
 
 #: lib/admin/customizer.php:262
 msgid "Breadcrumbs on Single Posts"
-msgstr ""
+msgstr "单独文章中启用面包屑"
 
 #: lib/admin/customizer.php:261
 msgid "Breadcrumbs on Posts Page"
-msgstr ""
+msgstr "文章页启用面包屑"
 
 #: lib/admin/customizer.php:260
 msgid "Breadcrumbs on Front Page"
-msgstr ""
+msgstr "主页上启用面包屑"
 
 #: lib/admin/customizer.php:259
 msgid "Breadcrumbs on Homepage"
-msgstr ""
+msgstr "主页启用面包屑"
 
 #: lib/admin/customizer.php:231 lib/admin/theme-settings.php:643
 msgid "Select Default Layout"
-msgstr ""
+msgstr "选择默认的布局"
 
 #: lib/admin/customizer.php:215
 msgid "Site Layout"
-msgstr ""
+msgstr "网站布局"
 
 #: lib/admin/customizer.php:190
 msgid "Select Color Style"
-msgstr ""
+msgstr "选择颜色样式"
 
 #: lib/admin/customizer.php:172
 msgid "Color Scheme"
-msgstr ""
+msgstr "配色方案"
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr ""
+msgstr "动态文字"
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
-msgstr ""
+msgstr "当扩展 Genesis_Customizer_Base时，你必须创建注册方法"
 
 #: lib/admin/cpt-archive-settings.php:258 lib/admin/inpost-metaboxes.php:300
 msgid "Select Layout"
-msgstr ""
+msgstr "选择布局"
 
 #: comments.php:24
 msgid "Reader Interactions"
-msgstr ""
+msgstr "读者互动"
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr ""
+msgstr "网站地图"
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
-msgstr ""
+msgstr "作者存档SEO设置"
 
 #: lib/admin/theme-settings.php:1015
 msgid "Footer Scripts"
-msgstr ""
+msgstr "页脚脚本"
 
 #: lib/admin/theme-settings.php:1007
 msgid "Header Scripts"
-msgstr ""
+msgstr "页眉脚本"
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr ""
+msgstr "一页显示文章数"
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
-msgstr ""
+msgstr "目录ID，用逗号分开 ---比如1,2,3"
 
 #: lib/admin/theme-settings.php:970
 msgid "Exclude Categories"
-msgstr ""
+msgstr "不包含的分类目录"
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr ""
+msgstr "显示分类目录"
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
-msgstr ""
+msgstr "文章分页"
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "图片对齐方式"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"
-msgstr ""
+msgstr "特色图片"
 
 #: lib/admin/theme-settings.php:881
 msgid "Entry excerpts"
-msgstr ""
+msgstr "文章摘要"
 
 #: lib/admin/theme-settings.php:880
 msgid "Entry content"
-msgstr ""
+msgstr "文章内容"
 
 #: lib/admin/theme-settings.php:873
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
-msgstr ""
+msgstr "附件/媒体"
 
 #: lib/admin/theme-settings.php:784
 msgid "Single Posts"
-msgstr ""
+msgstr "单个文章"
 
 #: lib/admin/theme-settings.php:767 lib/admin/theme-settings.php:770
 msgid "Enable Breadcrumbs on"
@@ -2174,146 +2174,146 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:706
 msgid "Superfish"
-msgstr ""
+msgstr "Superfish"
 
 #: lib/admin/theme-settings.php:616
 msgid "If your custom feed(s) are not handled by Feedblitz or Feedburner, do not use the redirect options."
-msgstr ""
+msgstr "如果你的推送（feed) 不是经由 Feedblitz或者Feedburner，请勿使用重新定向的选项。"
 
 #: lib/admin/theme-settings.php:609
 msgid "Redirect Custom Comments Feed?"
-msgstr ""
+msgstr "重新定向评语推送（Feed）?"
 
 #: lib/admin/theme-settings.php:601
 msgid "Redirect Custom Feed?"
-msgstr ""
+msgstr "重新定向内容推送"
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "电子邮件"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr ""
+msgstr "更新"
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
-msgstr ""
+msgstr "主导航"
 
 #: lib/functions/layout.php:54
 msgid "Secondary Sidebar, Content, Primary Sidebar"
-msgstr ""
+msgstr "辅助侧边栏，内容栏，主侧边栏"
 
 #: lib/functions/layout.php:50
 msgid "Secondary Sidebar, Primary Sidebar, Content"
-msgstr ""
+msgstr "辅助侧边栏，主侧边栏，内容栏"
 
 #: lib/functions/layout.php:46
 msgid "Content, Primary Sidebar, Secondary Sidebar"
-msgstr ""
+msgstr "辅内容栏，辅助侧边栏，主侧边栏，"
 
 #: lib/functions/layout.php:41
 msgid "Primary Sidebar, Content"
-msgstr ""
+msgstr "主侧边栏，内容栏"
 
 #: lib/functions/layout.php:36
 msgid "Content, Primary Sidebar"
-msgstr ""
+msgstr "内容栏，主侧边栏"
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr ""
+msgstr "关于"
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
-msgstr ""
+msgstr "Genesis 数据库升级"
 
 #: lib/classes/breadcrumb.php:45
 msgid " <span aria-label=\"breadcrumb separator\">/</span> "
-msgstr ""
+msgstr " <span aria-label=\"breadcrumb separator\">/</span> "
 
 #: lib/functions/upgrade.php:585
 msgid "Congratulations, you are now rocking Genesis %s! <a href=\"%s\">See what's new in %s</a>."
-msgstr ""
+msgstr "恭喜，您现在正使用Genesis %s! <a href=\"%s\">了解%s的新鲜内容 </a>."
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr ""
+msgstr "StudioPress"
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "http://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
-msgstr ""
+msgstr "内容文章信息"
 
 #: lib/widgets/featured-post-widget.php:429
 msgid "Exclude Sticky Posts?"
-msgstr ""
+msgstr "除掉置顶文章？"
 
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "居中"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(无标题)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "当前页面"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "页面"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
-msgstr ""
+msgstr "跳过链接"
 
 #: lib/structure/header.php:859
 msgid "Skip to footer"
-msgstr ""
+msgstr "跳转到页脚"
 
 #: lib/structure/header.php:852
 msgid "Skip to secondary sidebar"
-msgstr ""
+msgstr "跳过至辅助侧边栏"
 
 #: lib/structure/header.php:848
 msgid "Skip to primary sidebar"
-msgstr ""
+msgstr "跳过至主侧边栏"
 
 #: lib/structure/header.php:845
 msgid "Skip to content"
-msgstr ""
+msgstr "跳转到内容"
 
 #: lib/structure/header.php:842
 msgid "Skip to primary navigation"
-msgstr ""
+msgstr "跳过至主导航"
 
 #: lib/functions/widgetize.php:200
 msgid "Widgets in this widget area will display after single entries."
-msgstr ""
+msgstr "本工具区的工具将显示在单个文章后"
 
 #: lib/functions/widgetize.php:199
 msgid "After Entry"
-msgstr ""
+msgstr "文章之后"
 
 #: lib/functions/widgetize.php:120
 msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."
-msgstr ""
+msgstr "这里是头部小工具区，通常这显示于网站标题或LOGO旁。这个小工具区并不适合显示所有的小工具，最好选择定定制菜单、搜索表、或文本小工具。"

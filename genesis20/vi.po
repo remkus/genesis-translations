@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:44+0000\n"
+"PO-Revision-Date: 2017-03-20 15:28:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: vi_VN\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -1238,7 +1238,7 @@ msgstr "Tất cả chủ đề"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Hiển thị chủ đề nào:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1283,11 +1283,11 @@ msgstr "Bật bình luận"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Hãy nhập tùy chỉnh bình luận Feed URI :"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Nhập Feed URI tùy chỉnh của bạn:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1328,7 +1328,7 @@ msgstr "Chữ động"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Phát hành:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"

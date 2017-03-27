@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:32+0000\n"
+"PO-Revision-Date: 2017-03-20 15:25:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: ca\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -53,7 +53,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "El mapa del lloc web ha canviat per amagar seccions relacionades amb entrades (posts) en cas que el lloc web no tingui cap entrada (post)."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
@@ -81,7 +81,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:86
 msgid "Changed some code and all documentation to better match WordPress coding standards."
-msgstr ""
+msgstr "S'ha modificat alguna part del codi i tota la documentació per adaptar-se millor al standards de programació de WordPress"
 
 #: lib/admin/whats-new.php:85
 msgid "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
@@ -97,7 +97,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:82
 msgid "Corrected typo on SEO settings screen."
-msgstr ""
+msgstr "Error tipogràfic corretgit a la pantalla de configuració del SEO."
 
 #: lib/admin/whats-new.php:81
 msgid "Changed URLs for gravatars on the \"What's New\" page to use HTTPS."
@@ -300,7 +300,7 @@ msgstr "Aplica %s a aquest arxiu"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Metaetiquetes Robots"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -398,7 +398,7 @@ msgstr "Si el títol consisteix en dues parts (títol original i nom del lloc af
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Separador del títol del document:"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -1245,7 +1245,7 @@ msgstr "Totes les categories"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Categories que vols mostrar:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Permet els comentaris"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Introdueix la URI personalitzada dels feeds dels teus comentaris:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Introdueix la URI personalitzada dels teus feeds:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Text dinàmic"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Data de llançament:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1584,7 +1584,7 @@ msgstr "Pàgina del blog"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "La tipus de navegació d'entrades et permet triar el mètode de navegació."
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1592,15 +1592,15 @@ msgstr "La llista de la \"mida de la imatge\" mostra les diferents opcions defin
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Aquesta opció és millor no fer-la sevir quan es mostra el contingut de l'entrada, a no ser que es limiti, per evitar imatges duplicades."
 
 #: lib/admin/theme-settings.php:292
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "Seleccionar \"Incloure la imatge destacada?\" permet que es mostri una miniatura de la imatge destacada, si n'hi ha, o una de la primera imatge que s'ha afegit a l'entrada."
 
 #: lib/admin/theme-settings.php:291
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
-msgstr ""
+msgstr "El paràmetre \"Mostra un extracte de l'entrada\" farà que n'apareguin les primeres 55 paraules i també en treurà el format o qualsevol HTML que hi hagi, inclòs l'extracte personalitzat que hagis preparat a la pantalla de l'entrada en qüestió."
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
@@ -1608,7 +1608,7 @@ msgstr "Això es pot emparellar amb l'opció \"Limita el contingut a [___] carà
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "La primera opció et permet triar entre mostrar el contingut de l'entrada o bé un extracte. \"Mostra el contingut de l'entrada\" farà que es mostri tot el contingut, inclòs el codi HTML fins a l'etiqueta <!--more--> que indica \"Llegir més\" (en cas que la facis servir)."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."

@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 14:00:26+0000\n"
+"PO-Revision-Date: 2017-03-17 20:01:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: ar\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -17,7 +17,7 @@ msgstr ""
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "تعديل اعدادات الارشيف"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
@@ -41,7 +41,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "محذوف"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -250,7 +250,7 @@ msgstr ""
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
-msgstr "يبدوا أن الصفحة التي تبحثون عنها غير موجودة، قد تكون حذفت او تم تغييرها، ربما بالإمكان العثور عما ترغبون في المعلومات أدناه"
+msgstr "عذراً، الصفحة التي تبحث عنها غير موجودة. يُمكنك العودة الي <a href=\"%s\">الصفحة الرئيسية</a>، او ربما تجد ما تريد في الاقتراحات الموجودة بالاسفل او يُمكنك استخدام نموذج البحث ادناه للبحث عنه."
 
 #: lib/widgets/featured-post-widget.php:424
 msgid "Exclude Previously Displayed Posts?"
@@ -300,7 +300,7 @@ msgstr "تطبيق %s على هذا الأرشيف"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "كلمات روبوتات الميتا:"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -398,7 +398,7 @@ msgstr "في حال كان العنوان مركبا من جزئين او أكث
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "فواصل عناوين التدوينات والصفحات:"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -418,7 +418,7 @@ msgstr "قراءة المزيد"
 
 #: lib/structure/search.php:28 lib/structure/search.php:47
 msgid "Search this website"
-msgstr "إبحثوا في ثنايا المدونة"
+msgstr "هل تبحث عن شئ؟"
 
 #: lib/structure/loops.php:244
 msgid "Read more"
@@ -1273,7 +1273,7 @@ msgstr "جميع التصنيفات"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "إختاروا أي تصنيف"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1363,7 +1363,7 @@ msgstr "النص الديناميكي"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "أطلقت بتاريخ:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"

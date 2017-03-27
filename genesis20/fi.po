@@ -2,110 +2,110 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:34+0000\n"
+"PO-Revision-Date: 2017-03-20 15:23:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: fi\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "De facto standardi Premium WordPress teemoille."
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Muokkaa Arkistot asetuksia"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Poistettu käyttämättömät  parametrit  <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Poistettu kuollut koodi kahdesta artikkelin lyhytkoodista takaisinkoodin funktioiden osalta."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Poistettu käyttämätön global-asetus Admin-paneelin luemut luokasta."
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Poistettu hairahtunut <code>$</code> URL-linkistä \"parent theme active\" huomautuksesta."
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Poistettu kaksoipiste (:) asetukset näytön nappuloista"
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Poistettu"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "Siirretty <code>genesis_create_initial_layouts()</code> koodi <code>genesis_setup</code> koukkuun (hook). Mahdollisesti rikkova muutos, yhteensopivuuden takia WordPress 4.7+ - versioon."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "Muutettu <code>genesis_user_meta_default_on()</code> ja <code>Genesis_Admin::create()</code> jotta takaisintsekkaukset tehdään aikaisemmin."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Muutettu sivukartta piilottamaan artikkeleihin liittyvät osata jos sivustolla ei ole artikkeleita."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
-msgstr ""
+msgstr "vaihdettu aikarajoitteet käyttämään päivitystarkastukset ohimeneväksi."
 
 #: lib/admin/whats-new.php:91
 msgid "Moved SEO tooltips to Help tab on post editor screen."
-msgstr ""
+msgstr "Siirretty SEO työkaluvinkit Apua valikkoon artikkelien muokkaruudussa."
 
 #: lib/admin/whats-new.php:90
 msgid "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
-msgstr ""
+msgstr "Otettu ulos XHTML Genesis tulosteesta, ja lisätty se takaisin uuden Markup API suodattimiin jos HTML5 ei ole tuettu."
 
 #: lib/admin/whats-new.php:89
 msgid "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
-msgstr ""
+msgstr "Muutettu otsikko tuo/vie (import/export) ylläpitosivulta <code>h2</code> otsikosta <code>h1</code>."
 
 #: lib/admin/whats-new.php:88
 msgid "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
-msgstr ""
+msgstr "Vaihdettu kiinnitettyn artikkelin otsikko näytämään  <code>&lt;header&gt;</code> wrapperia vaikka ainoastaan byline näytetään."
 
 #: lib/admin/whats-new.php:87
 msgid "Moved <code>h1</code> elements outside the form on admin settings pages."
-msgstr ""
+msgstr "Siiretty <code>h1</code> elementit lomakkeen ulkopuolelle ylläpitäjän asetussivuille."
 
 #: lib/admin/whats-new.php:86
 msgid "Changed some code and all documentation to better match WordPress coding standards."
-msgstr ""
+msgstr "vaihdettu osaa koodista ja kaikki dokumentaatio jotta ne noudattavat paremmin WordPressin koodausstandardia."
 
 #: lib/admin/whats-new.php:85
 msgid "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "Muutettu CPT arkistoinnin esittelyasetusta käyttämään <code>unfiltered_or_safe</code> sanititeettia."
 
 #: lib/admin/whats-new.php:84
 msgid "Updated <code>CHANGELOG.md</code> with release notes going back to 1.6.0."
-msgstr ""
+msgstr "Päivitetty <code>CHANGELOG.md</code> julkaisutiedostoissa 1.6.0 versioon asti."
 
 #: lib/admin/whats-new.php:83
 msgid "Changed Featured Post widget to use placeholder instead of default value for number of posts to show."
-msgstr ""
+msgstr "Muutettu kiinnitetyn artikkelin vimpainta jotta se käyttää paikanpitäjää (placeholder) oletuksena olevan artikkelien lukumäärä sijaan."
 
 #: lib/admin/whats-new.php:82
 msgid "Corrected typo on SEO settings screen."
-msgstr ""
+msgstr "Korjattu kirjoitusvirhe SEO asetukset näytössä."
 
 #: lib/admin/whats-new.php:81
 msgid "Changed URLs for gravatars on the \"What's New\" page to use HTTPS."
-msgstr ""
+msgstr "Vaihdettu URL-osoitteet gravatarien osalta \"What's New\" (mitä uutta) sivulla HTTPS käytön osalta."
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "Muutettu"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
@@ -113,140 +113,140 @@ msgstr ""
 
 #: lib/admin/whats-new.php:75
 msgid "Added missing \"to\" in <code>genesis_prev_next_post_nav()</code>'s comment header."
-msgstr ""
+msgstr "Lisätty puuttuva \"to\" in <code>genesis_prev_next_post_nav()</code>' koodin kommentin ylätunnisteeseen."
 
 #: lib/admin/whats-new.php:74
 msgid "Added <code>js-superfish</code> class to all menus that support it."
-msgstr ""
+msgstr "Lisätty <code>js-superfish</code> luokka kaikkiin niihin valikoihin jotka tukevat sitä."
 
 #: lib/admin/whats-new.php:73
 msgid "Added new features to the Markup API, allowing for open and close arguments, passing content, and new filters."
-msgstr ""
+msgstr "Lisätty uusia ominaisuuksia Markup APIin, mahdollistaen avaa ja sulje argumentteihin, sisällön läpiviemiseksi ja uusien suodattimien (filters) osalta."
 
 #: lib/admin/whats-new.php:72
 msgid "Added <code>$wrap</code> and <code>$title</code> to the passed arguments of the <code>genesis_post_title_output</code> filter."
-msgstr ""
+msgstr "Lisätty <code>$wrap</code> ja<code>$title</code> läpäistyjen argumenttien osalta <code>genesis_post_title_output</code> suodattimeen (filter)."
 
 #: lib/admin/whats-new.php:71
 msgid "Added identifying classes to featured posts' \"More Posts\" section title and list."
-msgstr ""
+msgstr "Lisätty tunnistusluokat (identifying classes) kiinnitetyt artikkelit \"Lisää artikkeleita\" osaan otsikon ja listan osalta."
 
 #: lib/admin/whats-new.php:70
 msgid "Added <code>phpcs.xml</code> file for code standards testing."
-msgstr ""
+msgstr "Lisätty <code>phpcs.xml</code> tiedosto koodin standardien testaukseen."
 
 #: lib/admin/whats-new.php:69
 msgid "Added or corrected lots of inline documentation."
-msgstr ""
+msgstr "lisätty tai korjattu paljon sisäistä dokumentaatiota."
 
 #: lib/admin/whats-new.php:68
 msgid "Added <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "Lisätty <code>unfiltered_or_safe</code> saniteetti - koodi (sanitizer)."
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
-msgstr ""
+msgstr "Lisätty"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
-msgstr ""
+msgstr "Genesis 2.4 keskittyy pääosin sisäisen dokumentaation päivityksiin ja lisäyksiin, parempaan WordPressin standardien mukaiseeen koodistandardeihin ja parempiin APi-rajapintoihin jotta suurin osalta Genesiksen tuottamasta koodista on suodatettavissa."
 
 #: lib/admin/use-child-theme.php:39
 msgid "https://www.studiopress.com/genesis-always-use-child-theme/"
-msgstr ""
+msgstr "https://www.studiopress.com/genesis-always-use-child-theme/"
 
 #: lib/admin/use-child-theme.php:38
 msgid "For more information, see our article at <a href=\"%1$s\">%1$s</a>"
-msgstr ""
+msgstr "Lukeaksesis lisätietoa, katso artikkelimme <a href=\"%1$s\">%1$s</a>"
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
-msgstr ""
+msgstr "Huomasimme että käytät Genesis Framework teeman isäntäteemaae. Suosittelemme että käytät Genesis lapsi - teemaa (meillä on myös ilmaisia teemoja käytttöösi). "
 
 #: lib/admin/use-child-theme.php:34
 msgid "Please Activate a Genesis Child Theme:"
-msgstr ""
+msgstr "Ole hyvä ja aktivoi Genesis lapsiteema:"
 
 #: lib/admin/theme-settings.php:675
 msgid "Use for site title/logo"
-msgstr ""
+msgstr "Käytä sivuston otsikkoa/logoa"
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
-msgstr ""
+msgstr "Tarkista päivitykset"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Jos annat sähköpostiosoitteen, sivustosi lähettää viestin kun päivitys voidaan suorittaa."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Tallenna muutokset"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Lue lisää ei-arkistoinnista (noarchive)"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Sovella noarchive (ei-arkistoitu) tähän artikkeliin/sivuun</strong> &mdash; tulos dokumentissa %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "Read more about nofollow"
-msgstr ""
+msgstr "Lue lisää älä seuraa (nofollow) ominaisuudesta"
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "<strong>Apply nofollow to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Sovella nofollow (älä seuraa) tähän artikkeliin/sivuun</strong> &mdash; tulos dokumentissa %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "Read more about noindex"
-msgstr ""
+msgstr "Lue lisää ei-indeksoinnista (noindex)"
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "<strong>Apply noindex to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Sovella noindex (älä indeksoi) tähän artikkeliin/sivuun</strong> &mdash; tulos dokumentissa %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "Read more about 301 Redirects"
-msgstr ""
+msgstr "Lue lisää 310 uudelleenohjauksista"
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
-msgstr ""
+msgstr "<strong>Muokattu uudelleenohjauksen URL</strong> &mdash; Ohjaa tämä artikkeli/sivu tähän URL-linkkiin. %s."
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "Read more about Custom Canonical URL"
-msgstr ""
+msgstr "Lue lisää muokatusta kanonikaalisesta URL-osoitteesta"
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "<strong>Canonical URL</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Kanonikaalinen URL</strong> &mdash; tulos dokumentissa %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:123
 msgid "<strong>Meta Keywords</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Meta avainsanat</strong> &mdash; tulos dokumentissa %s."
 
 #: lib/admin/inpost-metaboxes.php:122
 msgid "<strong>Meta Description</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Metakuvaus</strong> &mdash; tulos dokumentissa %s."
 
 #: lib/admin/inpost-metaboxes.php:121
 msgid "<strong>Document Title</strong> &mdash; Output in the document %s Tag."
-msgstr ""
+msgstr "<strong>Dokumentin otsikko</strong> &mdash; tulos dokumentin %s avainsanassa."
 
 #: lib/admin/customizer.php:461
 msgid "Entry Pagination Type"
-msgstr ""
+msgstr "Sisällön sivutuksen tyyppi"
 
 #: lib/admin/customizer.php:408
 msgid "Display entry excerpts"
-msgstr ""
+msgstr "Näytä sisällön lyhennelmät"
 
 #: lib/admin/customizer.php:407
 msgid "Display entry content"
-msgstr ""
+msgstr "Näytä sisällön sisältö"
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
@@ -300,7 +300,7 @@ msgstr "Käytä %s tähän arkistoon"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Robottien metatägit"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -398,7 +398,7 @@ msgstr "Jos otsikko sisältää kaksi osaa (alkuperäinen otsikko ja haluttu lis
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Dokumentin otsikon erotinmerkki:"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -1245,7 +1245,7 @@ msgstr "Kaikki kategoriat"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Näytä kategoriat"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Salli kommentit"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Kirjoita muokatun kommentointisyötteen URL:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Lisää muokatun syötteesi URL:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Dynaaminen teksti"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Julkaistu:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1584,7 +1584,7 @@ msgstr "Blogin sivu"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "Artikkelin navigaatiotekniikka mahdollistaa sinun valitsevan yhden kolmesta navigaatiomenetelmästä."
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1592,15 +1592,15 @@ msgstr " 'Kuvan koko' lista muodostetaan teemassa määritellyistä kuvien kokom
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Tätä valintaa ei pitäisi käyttää artikkelin sisällössä ellei sisällössä ole rajoitettu tuplakuvia (kaksoiskappaleita kuvista)."
 
 #: lib/admin/theme-settings.php:292
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "'Sisällytä artikkelin kuva?' asetus näyttää pikkukuvan ensimmäisestä liitetystä kuvasta tai artikkelikuvasta."
 
 #: lib/admin/theme-settings.php:291
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
-msgstr ""
+msgstr "Näyttöartikkelin lyhennelmä asetus näyttää ensimmäiset 55 sanaa artkkelista poistaen kaikki HTML koodit tai manuaalinen/muokattu lyhennelmä lisätty artikkelin muokkausnäyttöön."
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
@@ -1608,7 +1608,7 @@ msgstr "Se voidaan hoitaa toisella kentällä  \"Limit content to [___] characte
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "Ensimmäinen valinta mahdollistaa artikkelin sisällön tai artikkelin lyhennelmän näyttämisen. Sisällön näyttäminen asetus näyttää koko artikkelin aina  <!--more--> tagiin asti jos sitä on käytetty (tämä on HTML kommentti tägi joka ei näy selaimessa)."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
@@ -2181,7 +2181,7 @@ msgstr "Yksittäiset artikkelit"
 
 #: lib/admin/theme-settings.php:767 lib/admin/theme-settings.php:770
 msgid "Enable Breadcrumbs on"
-msgstr ""
+msgstr "Aktivoi murupolut:"
 
 #: lib/admin/theme-settings.php:706
 msgid "Superfish"
