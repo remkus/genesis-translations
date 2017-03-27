@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:41+0000\n"
+"PO-Revision-Date: 2017-03-20 15:27:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: ro\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -41,7 +41,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Șters"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -145,7 +145,7 @@ msgstr ""
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
-msgstr ""
+msgstr "Adăugat"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
@@ -161,7 +161,7 @@ msgstr ""
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
-msgstr ""
+msgstr "Am observat că folosiți direct tema părinte Genesis Framework. Vă recomandăm să folosiți o temă child (vă oferim una gratuit)."
 
 #: lib/admin/use-child-theme.php:34
 msgid "Please Activate a Genesis Child Theme:"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:675
 msgid "Use for site title/logo"
-msgstr ""
+msgstr "Folosește pentru titlu site/logo"
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
@@ -177,16 +177,16 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Dacă introduceți o adresă de mail, veți fi notificat când apare un nou update."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Salvează modificările"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Citește mai mult despre noarchive"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -194,7 +194,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "Read more about nofollow"
-msgstr ""
+msgstr "Citește mai mult despre nofollow"
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "<strong>Apply nofollow to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -202,7 +202,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "Read more about noindex"
-msgstr ""
+msgstr "Află mai multe despre opțiunea noindex"
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "<strong>Apply noindex to this post/page</strong> &mdash; Output in the document %s. %s."
@@ -242,11 +242,11 @@ msgstr ""
 
 #: lib/admin/customizer.php:408
 msgid "Display entry excerpts"
-msgstr ""
+msgstr "Arată fragment din articol"
 
 #: lib/admin/customizer.php:407
 msgid "Display entry content"
-msgstr ""
+msgstr "Arată conținutul articolului"
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
@@ -266,11 +266,11 @@ msgstr "la"
 
 #: lib/js/load-scripts.php:123
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
-msgstr ""
+msgstr "Actualizarea Genesis va suprascrie actuala versiune instalată. Ești sigur că vrei să actualizezi? \"Cancel\" pentru a renunța, \"OK\" pentru a continua."
 
 #: lib/js/load-scripts.php:122
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr ""
+msgstr "Modificările efectuate vor fi pierdute dacă părăsești pagina."
 
 #: lib/functions/deprecated.php:266
 msgid "decimal or hexidecimal entities"
@@ -278,7 +278,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:716
 msgid "Primary Navigation Extras"
-msgstr ""
+msgstr "Elemente extra pentru Meniul Principal"
 
 #: lib/admin/inpost-metaboxes.php:219
 msgid "Suitable for custom tracking, conversion or other page-specific script. Must include %s tags."
@@ -300,7 +300,7 @@ msgstr "Aplică %s acestei arhive"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Cuvinte cheie tip Robots"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -340,7 +340,7 @@ msgstr "Contributor"
 
 #: lib/admin/whats-new.php:131
 msgid "Contributors"
-msgstr "Contibutori"
+msgstr "Contributori"
 
 #: lib/admin/whats-new.php:118 lib/admin/whats-new.php:123
 msgid "Lead Developer"
@@ -348,7 +348,7 @@ msgstr "Developer principal"
 
 #: lib/admin/theme-settings.php:957
 msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
-msgstr ""
+msgstr "Aceste setări se aplică oricărei pagini cu șablonul \"Blog\", mai puțin homepage-ul sau arhivele postărilor."
 
 #: lib/admin/theme-settings.php:780
 msgid "Homepage"
@@ -1252,7 +1252,7 @@ msgstr "Toate categoriile"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Afișează ce categorie:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1297,11 +1297,11 @@ msgstr "Activează Comentarii"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Enter your custom comments feed URI:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Introduceţi feed personalizat URI:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1342,7 +1342,7 @@ msgstr "Text dinamic"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Lansat:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"

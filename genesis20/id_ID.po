@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:38+0000\n"
+"PO-Revision-Date: 2017-03-20 15:25:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: id\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -300,7 +300,7 @@ msgstr "Terapkan %s ke arsip ini"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Tag Meta Robots:"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -398,7 +398,7 @@ msgstr "Jika judul terdiri dari dua pasang (judul asli dan tambahan pilihan), ma
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Pemisah Judul Dokumen:"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -1245,7 +1245,7 @@ msgstr "Semua Kategori"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Tampilkan kategori yang mana:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Aktifkan Komentar"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Masukkan umpan URI komentar kostum Anda:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Masukkan umpan URI kostum Anda:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Teks dinamis"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Dirilis:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1584,7 +1584,7 @@ msgstr "Halaman Blog"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "Teknik Navigasi Tulisan mengijinkan Anda untuk memilih satu dari tiga metode navigasi."
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1592,15 +1592,15 @@ msgstr "Daftar 'Ukuran Gambar' diisi berdasarkan ketersediaan ukuran gambar yang
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Pilihan ini seharusnya tidak digunakan oleh konten tulisan kecuali konten dibatasi untuk menghindari gambar duplikat."
 
 #: lib/admin/theme-settings.php:292
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "Pengaturan 'Sertakan gambar tulisan?' mengijinkan Anda untuk menampilkan sebuah thumbnail dari gambar pertama yang dilampirkan atau yang gambar fitur yang terakhir diset."
 
 #: lib/admin/theme-settings.php:291
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
-msgstr ""
+msgstr "Pengaturan ringkasan tulisan akan menampilkan 55 kata pertama dari tulisan setelah juga dipotong HTML apapun yang disertakan, atau ringkasan kostum/manual yang ditambahkan di layar ubah tulisan."
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
@@ -1608,7 +1608,7 @@ msgstr "Hal ini juga dapat ditambah dengan kolom kedua \"Batasi Konten ke [___] 
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "Pilihan pertama mengijinkan untuk menampilkan konten tulisan atau ringkasan tulisan. Pengaturan konten tulisan akan menampilkan keseluruhan tulisan termasuk kode HTML sampai ke tag <!--more--> jika digunakan (ini adalah HTML untuk tag komentar yang tidak ditampilkan di browser)."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
