@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 14:02:22+0000\n"
+"PO-Revision-Date: 2017-03-20 15:27:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: no\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -1245,7 +1245,7 @@ msgstr "Alle kaegorier"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Vis hvilken kategori:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1335,7 +1335,7 @@ msgstr "dynamisk tekst"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Utgitt:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"

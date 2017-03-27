@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 13:58:57+0000\n"
+"PO-Revision-Date: 2017-03-17 16:33:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: nl\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -25,15 +25,15 @@ msgstr "Ongebruikte parameters in <code>genesis_nav_menu_link_attributes()</code
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Removed dead code in two post shortcode callback functions."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Removed unused global for Admin Readme class."
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
@@ -45,55 +45,55 @@ msgstr "Verwijderd"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Changed sitemap to hide Posts-related sections if the site has no Posts."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
-msgstr ""
+msgstr "Changed to use of time constants in update check transients."
 
 #: lib/admin/whats-new.php:91
 msgid "Moved SEO tooltips to Help tab on post editor screen."
-msgstr ""
+msgstr "Moved SEO tooltips to Help tab on post editor screen."
 
 #: lib/admin/whats-new.php:90
 msgid "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
-msgstr ""
+msgstr "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
 
 #: lib/admin/whats-new.php:89
 msgid "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
-msgstr ""
+msgstr "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
 
 #: lib/admin/whats-new.php:88
 msgid "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
-msgstr ""
+msgstr "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
 
 #: lib/admin/whats-new.php:87
 msgid "Moved <code>h1</code> elements outside the form on admin settings pages."
-msgstr ""
+msgstr "Moved <code>h1</code> elements outside the form on admin settings pages."
 
 #: lib/admin/whats-new.php:86
 msgid "Changed some code and all documentation to better match WordPress coding standards."
-msgstr ""
+msgstr "Changed some code and all documentation to better match WordPress coding standards."
 
 #: lib/admin/whats-new.php:85
 msgid "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
 
 #: lib/admin/whats-new.php:84
 msgid "Updated <code>CHANGELOG.md</code> with release notes going back to 1.6.0."
-msgstr ""
+msgstr "Updated <code>CHANGELOG.md</code> met release notes vanaf 1.6.0."
 
 #: lib/admin/whats-new.php:83
 msgid "Changed Featured Post widget to use placeholder instead of default value for number of posts to show."
-msgstr ""
+msgstr "Changed Featured Post widget to use placeholder instead of default value for number of posts to show."
 
 #: lib/admin/whats-new.php:82
 msgid "Corrected typo on SEO settings screen."
@@ -109,27 +109,27 @@ msgstr "Veranderd"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
-msgstr ""
+msgstr "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
 
 #: lib/admin/whats-new.php:75
 msgid "Added missing \"to\" in <code>genesis_prev_next_post_nav()</code>'s comment header."
-msgstr ""
+msgstr "Added missing \"to\" in <code>genesis_prev_next_post_nav()</code>'s comment header."
 
 #: lib/admin/whats-new.php:74
 msgid "Added <code>js-superfish</code> class to all menus that support it."
-msgstr ""
+msgstr "Added <code>js-superfish</code> class to all menus that support it."
 
 #: lib/admin/whats-new.php:73
 msgid "Added new features to the Markup API, allowing for open and close arguments, passing content, and new filters."
-msgstr ""
+msgstr "Added new features to the Markup API, allowing for open and close arguments, passing content, and new filters."
 
 #: lib/admin/whats-new.php:72
 msgid "Added <code>$wrap</code> and <code>$title</code> to the passed arguments of the <code>genesis_post_title_output</code> filter."
-msgstr ""
+msgstr "Added <code>$wrap</code> and <code>$title</code> to the passed arguments of the <code>genesis_post_title_output</code> filter."
 
 #: lib/admin/whats-new.php:71
 msgid "Added identifying classes to featured posts' \"More Posts\" section title and list."
-msgstr ""
+msgstr "Added identifying classes to featured posts' \"More Posts\" section title and list."
 
 #: lib/admin/whats-new.php:70
 msgid "Added <code>phpcs.xml</code> file for code standards testing."
@@ -141,7 +141,7 @@ msgstr "Heel veel inline documentatie gecorrigeerd en toegevoegd."
 
 #: lib/admin/whats-new.php:68
 msgid "Added <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "<code>unfiltered_or_safe</code> sanitizer toegevoegd."
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
@@ -149,7 +149,7 @@ msgstr "Toegevoegd"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
-msgstr ""
+msgstr "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
 
 #: lib/admin/use-child-theme.php:39
 msgid "https://www.studiopress.com/genesis-always-use-child-theme/"
@@ -157,7 +157,7 @@ msgstr "https://www.studiopress.com/genesis-always-use-child-theme/"
 
 #: lib/admin/use-child-theme.php:38
 msgid "For more information, see our article at <a href=\"%1$s\">%1$s</a>"
-msgstr ""
+msgstr "Voor meer informatie, lees ons artikel <a href=\"%1$s\">%1$s</a>"
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
@@ -177,76 +177,76 @@ msgstr "Controleer Op Updates"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Wanneer je je e-mail adres hier invult zal de site je een bericht sturen wanneer er een update uitgevoerd kan worden."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Wijzigingen opslaan"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Lees meer over noarchive"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Gebruik norachive in dit bericht of pagina</strong> &mdash; Output in het document %s. %s. "
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "Read more about nofollow"
-msgstr ""
+msgstr "Lees meer over nofollow"
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "<strong>Apply nofollow to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Gebruik nofollow in dit bericht of pagina</strong> &mdash; Output in het document %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "Read more about noindex"
-msgstr ""
+msgstr "Lees meer over noindex"
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "<strong>Apply noindex to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Gebruik noindex voor dit bericht/pagina</strong> &mdash; Output in het document %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "Read more about 301 Redirects"
-msgstr ""
+msgstr "Lees more over 301 Redirects"
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
-msgstr ""
+msgstr "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "Read more about Custom Canonical URL"
-msgstr ""
+msgstr "Lees meer over Custom Canonical URL"
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "<strong>Canonical URL</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Canonical URL</strong> &mdash; Output in the document %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:123
 msgid "<strong>Meta Keywords</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Meta Keywords</strong> &mdash; Output in het document %s."
 
 #: lib/admin/inpost-metaboxes.php:122
 msgid "<strong>Meta Description</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Meta Description</strong> &mdash; Output in het document %s."
 
 #: lib/admin/inpost-metaboxes.php:121
 msgid "<strong>Document Title</strong> &mdash; Output in the document %s Tag."
-msgstr ""
+msgstr "<strong>Document Title</strong> &mdash; Output in the document %s Tag."
 
 #: lib/admin/customizer.php:461
 msgid "Entry Pagination Type"
-msgstr ""
+msgstr "Bericht paginatie soort"
 
 #: lib/admin/customizer.php:408
 msgid "Display entry excerpts"
-msgstr ""
+msgstr "Toon entry excerpts"
 
 #: lib/admin/customizer.php:407
 msgid "Display entry content"
-msgstr ""
+msgstr "Toon entry content"
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
@@ -374,7 +374,7 @@ msgstr "Kop"
 
 #: lib/admin/seo-settings.php:456
 msgid "<span class=\"genesis-admin-note\">Note:</span> The shortlink tag might have some use for 3rd party service discoverability, but it has no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever."
-msgstr ""
+msgstr "<span class=\"genesis-admin-note\">NB:</span> De shortlink tag kan handig zijn voor de zichtbaarheid van sommige derde partij diensten, maar het heeft absoluut geen <abbr title=\"Zoekmachine optimalisatie\">SEO</abbr>-waarde."
 
 #: lib/admin/seo-settings.php:423
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
@@ -1540,35 +1540,35 @@ msgstr "Home Pagina's"
 
 #: lib/admin/theme-settings.php:317
 msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
-msgstr ""
+msgstr "Deze instelling heeft de voorkeur omdat deze het makkelijker maakt om een ​​blog op de homepagina te tonen (niet nodig om de home.php file een andere naam te geven) en schept geen verwarring waarbij er geen inhoud op de homepagina getoond wordt als het thema voor het eerst wordt geïnstalleerd ."
 
 #: lib/admin/theme-settings.php:316
 msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
-msgstr ""
+msgstr "Het derde type van de homepagina is de nieuwe dynamische homepagina. Dit is normaal op de nieuwste subthema's. Het laat je laatste berichten zien in een blog-lijst, tenzij je widgets in de homepagina sidebars hebt gezet."
 
 #: lib/admin/theme-settings.php:315
 msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
-msgstr ""
+msgstr "Een andere standaard homepagina is de \"blog\"-type homepagina, die normaal is op de meeste gratis subthema's. Het laat je laatste berichten zien en heeft geen verdere instellingen nodig."
 
 #: lib/admin/theme-settings.php:314
 msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
-msgstr ""
+msgstr "Als je thema een eigen homepage heeft en je wil er de laatste berichten laten zien in een blogformat, gebruik dan niet het blogtemplate. In plaats daarvan moet je het home.php bestand hernoemen naar home-old.php"
 
 #: lib/admin/theme-settings.php:313
 msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
-msgstr ""
+msgstr "Child thema's met dit soort homepagina's hebben meestal specifieke handleidingen die je kunt benaderen via een sticky post boven aan de pagina van het child thema support forum."
 
 #: lib/admin/theme-settings.php:312
 msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
-msgstr ""
+msgstr "Deze homepagina wordt opgezet via widgets in specifieke sidebars voor de homepagina. Deze kun je benaderen via het Widget menu onder Weergave."
 
 #: lib/admin/theme-settings.php:311
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
-msgstr ""
+msgstr "Om dit type homepage te kunnen gebruiken, moet je zeker zijn dat je laatste berichten zo zijn ingesteld dat ze getoond worden op de voorpainga. Je kunt een pagina maken met het Blog sjabloon om een overzicht van je laatste berichten te krijgen op een andere pagina."
 
 #: lib/admin/theme-settings.php:310
 msgid "Most Genesis child themes include a custom home page."
-msgstr ""
+msgstr "De meeste Genesis subthema's bevatten een aangepaste homepagina."
 
 #: lib/admin/theme-settings.php:309
 msgid "How Home Pages Work"
@@ -1576,7 +1576,7 @@ msgstr "Hoe Home Pagina's Werken"
 
 #: lib/admin/theme-settings.php:306
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr ""
+msgstr "Hiermee krijg je twee velden dat de %1$s element tonen van je website  en net voor de %2$s tag. Deze zal verschijnen op elke pagina van je website en zijn heel handig voor Analytics code en andere scripts. Je kunt geen PHP gebruiken in deze velden. Als je PHP nodig hebt dan kun je het beste de Genesis Simple Hooks plugin gebruiken."
 
 #: lib/admin/theme-settings.php:298 lib/admin/theme-settings.php:368
 msgid "Blog Page"
@@ -1588,7 +1588,7 @@ msgstr ""
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
-msgstr ""
+msgstr "De 'Afbeeldingsgrootte'-lijst wordt samengesteld uit de beschikbare afbeeldingsformaten die in het thema zijn gedefinieerd."
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
@@ -1608,7 +1608,7 @@ msgstr "Het wordt mogelijk ook gecombineerd met de tweede veld \"Limiteer inhoud
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "De eerste optie maakt het mogelijk de content van de het bericht of een samenvatting. De toon bericht content instellingen toont het volledige bericht inclusief HTML code tot aan de <!--more--> tag wanneer deze gebruikt is."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
@@ -2209,7 +2209,7 @@ msgstr "Hoofdnavigatie"
 
 #: lib/functions/layout.php:54
 msgid "Secondary Sidebar, Content, Primary Sidebar"
-msgstr "Primaire Sidebar, Content, Primaire Sidebar"
+msgstr "Secundaire Sidebar, Content, Primaire Sidebar"
 
 #: lib/functions/layout.php:50
 msgid "Secondary Sidebar, Primary Sidebar, Content"

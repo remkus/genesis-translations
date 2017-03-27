@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 14:02:43+0000\n"
+"PO-Revision-Date: 2017-03-20 15:28:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -300,7 +300,7 @@ msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "ロボット・メタタグ :"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -1238,7 +1238,7 @@ msgstr "すべてのカテゴリ"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "どのカテゴリを表示："
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1283,11 +1283,11 @@ msgstr "コメントを有効にする"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "カスタムコメントフィードのURLを入力："
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "カスタムフィードURLを入力："
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1328,7 +1328,7 @@ msgstr "ダイナミックテキスト"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "発行元："
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"

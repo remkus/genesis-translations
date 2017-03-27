@@ -2,251 +2,251 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:33+0000\n"
+"PO-Revision-Date: 2017-03-08 08:24:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: da_DK\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Industristandarden for Premium WordPress-temaer."
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Redigér arkivindstillinger"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Fjernede ubrugte parametre i <code>genesis_nav_menu_link_attributes()</code>."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Fjernede koderester i to callback-funktioner for indlægskortkoder."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Fjernede ubrugt global i Administrator-readme-klasse."
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Fjernede vildfaren <code>$</code> i den URL, der bruges i admin-beskeden for \"parent theme-aktiv\" admin notice."
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Fjernede kolonner fra etiketterne på siderne med indstillinger."
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Fjernet"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
-msgstr ""
+msgstr "Flyttede <code>genesis_create_initial_layouts()</code> til <code>genesis_setup</code>-hooket. Denne ændring kan muligvis medføre funktionsfejl, men er nødvendig for at sikre kompatibilitet med WordPress 4.7+."
 
 #: lib/admin/whats-new.php:94
 msgid "Changed <code>genesis_user_meta_default_on()</code> and <code>Genesis_Admin::create()</code> to do return checks earlier."
-msgstr ""
+msgstr "Ændrede <code>genesis_user_meta_default_on()</code> og <code>Genesis_Admin::create()</code>, så tjek af Return sker tidligere."
 
 #: lib/admin/whats-new.php:93
 msgid "Changed sitemap to hide Posts-related sections if the site has no Posts."
-msgstr ""
+msgstr "Ændrede sitemap, så indlægsrelaterede sektioner skjules, hvis webstedet ikke har nogen indlæg."
 
 #: lib/admin/whats-new.php:92
 msgid "Changed to use of time constants in update check transients."
-msgstr ""
+msgstr "Ændret til brug af tidskonstanter i transienter anvendt ved updatetjeks."
 
 #: lib/admin/whats-new.php:91
 msgid "Moved SEO tooltips to Help tab on post editor screen."
-msgstr ""
+msgstr "Flyttede SEO-værktøjstips til fanen Hjælp i Redigér indlæg."
 
 #: lib/admin/whats-new.php:90
 msgid "Extracted XHTML from Genesis output, and added it back in with new Markup API filters if HTML5 is not supported."
-msgstr ""
+msgstr "Ekstraherede XHTML fra Genesis-output og tilføjede det igen med nye opmærknings-API-filtre, hvis HTML5 ikke understøttes."
 
 #: lib/admin/whats-new.php:89
 msgid "Changed heading on the import/export admin page to <code>h2</code> from <code>h1</code>."
-msgstr ""
+msgstr "Ændrede overskrifter på admin-siden med import/eksport til <code>h2</code> fra <code>h1</code>."
 
 #: lib/admin/whats-new.php:88
 msgid "Changed Featured Post entry header to display <code>&lt;header&gt;</code> wrapper even when only byline is showing."
-msgstr ""
+msgstr "Ændret Fremhævet indlægs indholdsheader til at vise <code>&lt;header&gt;</code>-wrapper, selv når der kun vises byline."
 
 #: lib/admin/whats-new.php:87
 msgid "Moved <code>h1</code> elements outside the form on admin settings pages."
-msgstr ""
+msgstr "Flyttet <code>h1</code>-elementer uden for formularen på admin-indstillingssider."
 
 #: lib/admin/whats-new.php:86
 msgid "Changed some code and all documentation to better match WordPress coding standards."
-msgstr ""
+msgstr "Ændret noget kode og al dokumentation, så WordPress&#39; kodningsstandarder matches noget bedre."
 
 #: lib/admin/whats-new.php:85
 msgid "Changed CPT archive intro setting to use <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "Ændret CPT-arkivintro-indstilling, så der bruges <code>unfiltered_or_safe</code>-sanitizer."
 
 #: lib/admin/whats-new.php:84
 msgid "Updated <code>CHANGELOG.md</code> with release notes going back to 1.6.0."
-msgstr ""
+msgstr "Opdateret <code>CHANGELOG.md</code> med udgivelsesnoter tilbage til 1.6.0."
 
 #: lib/admin/whats-new.php:83
 msgid "Changed Featured Post widget to use placeholder instead of default value for number of posts to show."
-msgstr ""
+msgstr "Ændret Udvalgt indlæg-widget til at bruge pladsholder i stedet for standardværdien for antal indlæg, der skal vises."
 
 #: lib/admin/whats-new.php:82
 msgid "Corrected typo on SEO settings screen."
-msgstr ""
+msgstr "Rettet slåfejl på skærmen SEO-indstillinger."
 
 #: lib/admin/whats-new.php:81
 msgid "Changed URLs for gravatars on the \"What's New\" page to use HTTPS."
-msgstr ""
+msgstr "Ændrede gravatar-URL&#39; for \"Nyheder\", så de bruger HTTPS."
 
 #: lib/admin/whats-new.php:79
 msgid "Changed"
-msgstr ""
+msgstr "Ændret"
 
 #: lib/admin/whats-new.php:76
 msgid "Added new functions that handle the logic for meta and favicon markup, and amended existing output functions to use them."
-msgstr ""
+msgstr "Tilføjet nye funktioner, der håndterer logik for meta- og favicon-opmærkning, og ændrede eksisterende outputfunktionerne, så de bruger dem."
 
 #: lib/admin/whats-new.php:75
 msgid "Added missing \"to\" in <code>genesis_prev_next_post_nav()</code>'s comment header."
-msgstr ""
+msgstr "Tilføjede manglende \"til\" i <code>genesis_prev_next_post_nav()</code>'s kommentarheader."
 
 #: lib/admin/whats-new.php:74
 msgid "Added <code>js-superfish</code> class to all menus that support it."
-msgstr ""
+msgstr "Tilføjet <code>js-superfish</code>-klasse til alle menuer, der understøtter det."
 
 #: lib/admin/whats-new.php:73
 msgid "Added new features to the Markup API, allowing for open and close arguments, passing content, and new filters."
-msgstr ""
+msgstr "Tilføjet nye funktioner til Markup API, der giver mulighed for åbne- og lukkeargumenter, overførsel af indhold og nye filtre."
 
 #: lib/admin/whats-new.php:72
 msgid "Added <code>$wrap</code> and <code>$title</code> to the passed arguments of the <code>genesis_post_title_output</code> filter."
-msgstr ""
+msgstr "Tilføjet <code>$wrap</code> og <code>$title</code> til de overførte argumenter for <code>genesis_post_title_output</code>-filteret."
 
 #: lib/admin/whats-new.php:71
 msgid "Added identifying classes to featured posts' \"More Posts\" section title and list."
-msgstr ""
+msgstr "Tilføjet identificerende klasser til sektionstitel og liste for fremhævede indlægs \"Flere indlæg\""
 
 #: lib/admin/whats-new.php:70
 msgid "Added <code>phpcs.xml</code> file for code standards testing."
-msgstr ""
+msgstr "Tilføjet <code>phpcs.xml</code>-fil til test af kodningsstandarder."
 
 #: lib/admin/whats-new.php:69
 msgid "Added or corrected lots of inline documentation."
-msgstr ""
+msgstr "Tilføjet eller korrigeret masser af inline-dokumentation."
 
 #: lib/admin/whats-new.php:68
 msgid "Added <code>unfiltered_or_safe</code> sanitizer."
-msgstr ""
+msgstr "Tilføjet <code>unfiltered_or_safe</code>-sanitizer."
 
 #: lib/admin/whats-new.php:66
 msgid "Added"
-msgstr ""
+msgstr "Tilføjet"
 
 #: lib/admin/whats-new.php:60
 msgid "Genesis 2.4 focuses mainly on updating and adding inline documentation, better conforming to the WordPress code standars, and enhancing the Markup API so that most Genesis generated markup is filterable."
-msgstr ""
+msgstr "Genesis 2.4 fokuserer hovedsageligt på opdateringer og tilføjelse af inline-dokumentation, så koden i højere grad overholder WordPress&#39; kodningsstandarder, samt udvidelse af Markup API, så det meste af Genesis&#39; genererede opmærkning kan filtreres."
 
 #: lib/admin/use-child-theme.php:39
 msgid "https://www.studiopress.com/genesis-always-use-child-theme/"
-msgstr ""
+msgstr "https://www.studiopress.com/genesis-always-use-child-theme/"
 
 #: lib/admin/use-child-theme.php:38
 msgid "For more information, see our article at <a href=\"%1$s\">%1$s</a>"
-msgstr ""
+msgstr "Se vores artikel på <a href=\"%1$s\">%1$s</a> for flere informationer"
 
 #: lib/admin/use-child-theme.php:36
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
-msgstr ""
+msgstr "Vi har bemærket, at du bruger Genesis Framework alene, uden noget child theme. Vi anbefaler varmt, at du bruger et child theme (vi har tilmed en, du kan bruge helt gratis). "
 
 #: lib/admin/use-child-theme.php:34
 msgid "Please Activate a Genesis Child Theme:"
-msgstr ""
+msgstr "Aktivér venligst et Genesis Child-tema:"
 
 #: lib/admin/theme-settings.php:675
 msgid "Use for site title/logo"
-msgstr ""
+msgstr "Brug til sitets titel/logo"
 
 #: lib/admin/theme-settings.php:507
 msgid "Check For Updates"
-msgstr ""
+msgstr "Tjek for opdateringer"
 
 #: lib/admin/theme-settings.php:238
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr ""
+msgstr "Hvis du indtaster en e-mailadresse, får du en e-mail fra dit site, når du kan opdatere."
 
 #: lib/admin/seo-settings.php:44 lib/admin/theme-settings.php:60
 #: lib/classes/admin.php:109
 msgid "Save Changes"
-msgstr ""
+msgstr "Gem ændringer"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "Read more about noarchive"
-msgstr ""
+msgstr "Læs mere om noarchive"
 
 #: lib/admin/inpost-metaboxes.php:128
 msgid "<strong>Apply noarchive to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Anvend noarchive på dette indlæg/denne side</strong> — Output i dokumentet %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "Read more about nofollow"
-msgstr ""
+msgstr "Læs mere om nofollow"
 
 #: lib/admin/inpost-metaboxes.php:127
 msgid "<strong>Apply nofollow to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Anvend nofollow til dette indlæg/denne side</strong> — Output i dokumentet %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "Read more about noindex"
-msgstr ""
+msgstr "Læs mere om noindex"
 
 #: lib/admin/inpost-metaboxes.php:126
 msgid "<strong>Apply noindex to this post/page</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Anvend noindex på dette indlæg/denne side</strong> — Output i dokumentet %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "Read more about 301 Redirects"
-msgstr ""
+msgstr "Læs mere om 301-redirects"
 
 #: lib/admin/inpost-metaboxes.php:125
 msgid "<strong>Custom Redirect URL</strong> &mdash; Redirect this post/page to this URL. %s."
-msgstr ""
+msgstr "<strong>Brugerdefineret redirect-URL</strong>: — Redirect dette indlæg/denne side til denne URL. %s."
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "Read more about Custom Canonical URL"
-msgstr ""
+msgstr "Læs mere om brugerdefinerede kanoniske URL&#39;er"
 
 #: lib/admin/inpost-metaboxes.php:124
 msgid "<strong>Canonical URL</strong> &mdash; Output in the document %s. %s."
-msgstr ""
+msgstr "<strong>Kanonisk URL</strong> — Output i dokumentet. %s. %s."
 
 #: lib/admin/inpost-metaboxes.php:123
 msgid "<strong>Meta Keywords</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Metasøgeord</strong> — Output i dokumentet %s."
 
 #: lib/admin/inpost-metaboxes.php:122
 msgid "<strong>Meta Description</strong> &mdash; Output in the document %s."
-msgstr ""
+msgstr "<strong>Metabeskrivelse</strong> — Output i dokumentet %s."
 
 #: lib/admin/inpost-metaboxes.php:121
 msgid "<strong>Document Title</strong> &mdash; Output in the document %s Tag."
-msgstr ""
+msgstr "<strong>Dokumenttitel</strong> — Output i dokumentet %s&#39;s tag."
 
 #: lib/admin/customizer.php:461
 msgid "Entry Pagination Type"
-msgstr ""
+msgstr "Sideinddelingstype for indhold"
 
 #: lib/admin/customizer.php:408
 msgid "Display entry excerpts"
-msgstr ""
+msgstr "Vis indholdsuddrag"
 
 #: lib/admin/customizer.php:407
 msgid "Display entry content"
-msgstr ""
+msgstr "Vis selve indholdet"
 
 #: 404.php:42
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
@@ -300,7 +300,7 @@ msgstr "Tilføj %s til dette arkiv"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Robots Meta Tags"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -378,7 +378,7 @@ msgstr "<span class=\"genesis-admin-note\">Note:</span> Shortlink tagget kan mul
 
 #: lib/admin/seo-settings.php:423
 msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no <abbr title=\"Search engine optimization\">SEO</abbr> value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr ""
+msgstr "Som standard placerer WordPress adskillige tags i dit dokuments %1$s. Mange af disse tags er helt unødvendige og har overhovedet ingen <abbr title=\"Søgemaskineoptimering\">SEO</abbr>-værdi; de gør blot dit site langsommere. Vælg, hvilke tags du ønsker at medtage i dit dokument %1$s. Hvis du ikke kender et tag, skal du blot udelade det."
 
 #: lib/admin/seo-settings.php:374
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
@@ -398,7 +398,7 @@ msgstr "Hvis titlen består af to dele (original titel og tilføjelse), vil sepa
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Dokumenttitel-separator"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -527,7 +527,7 @@ msgstr "Farve:"
 
 #: lib/admin/theme-settings.php:1010 lib/admin/theme-settings.php:1018
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr ""
+msgstr "Denne kode vil blive indsat umiddelbart før det afsluttende %s-tag i dokumentets kildekode."
 
 #: lib/admin/theme-settings.php:907
 msgid "Image Size:"
@@ -1163,7 +1163,7 @@ msgstr "Din kommentar venter på at blive godkendt"
 
 #: lib/structure/comments.php:236
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s kl. %2$s"
 
 #: lib/structure/comments.php:232 lib/structure/comments.php:301
 msgid "says"
@@ -1245,7 +1245,7 @@ msgstr "Alle kategorier"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Vis hvilken katagori"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Tillad Kommentarer"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Skriv URL for dit brugerdefinerede kommentar-feed"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Skriv URL for dit brugerdefinerede feed"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Dynamisk tekst"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Frigivet"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1576,7 +1576,7 @@ msgstr "Hvordan forsider virker"
 
 #: lib/admin/theme-settings.php:306
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr ""
+msgstr "Her har du to felter, som indsættes i %1$s-elementet på dit websted lige før %2$s-tagget. De vises på hver eneste side af dit websted og kan bruges til at tilføje sporingskode og andre skripts. Du kan ikke bruge PHP i disse felter. Hvis du har brug for PHP, bør du tjekke pluginnet Genesis Simple Hooks."
 
 #: lib/admin/theme-settings.php:298 lib/admin/theme-settings.php:368
 msgid "Blog Page"
@@ -1584,7 +1584,7 @@ msgstr "Blogside"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "Side-/indlægssideinddelingsteknik giver dig mulighed for at vælge 1 af 2 navigationsmetoder."
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1592,15 +1592,15 @@ msgstr "Listen over billedstørrelser dannes på baggrund af de billedstørrelse
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Denne indstilling bør ikke bruges med indlægsindholdet, medmindre indholdet er begrænset for at undgå, at billedet vises flere gange."
 
 #: lib/admin/theme-settings.php:292
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "Indstillingen 'Anvend udvalgt billede?' lader dig vise en miniature med det første vedhæftede billede eller det aktuelt udvalgte billede."
 
 #: lib/admin/theme-settings.php:291
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
-msgstr ""
+msgstr "Med indstillingen Vis uddrag af indlægget vises enten de første 55 ord i et indlæg, når al HTML-kode i indlægget er fjernet, eller det manuelt indtastede/brugerdefinerede uddrag, som er tilføjet under redigering af indlægget."
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
@@ -1608,7 +1608,7 @@ msgstr "Det kan også være koblet sammen med feltet \"Længde af uddrag [___] t
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "Den første valgmulighed lader dig vise indlægsindholdet eller indlægsuddraget. Vis Indlægsindholdet viser hele indlægget inkl. HTML kode frem til <!--more-->-tagget, hvis det bliver brugt (dette tag er det HTML-tag, som bruges til kommentarer, som ikke vises i brugerens browser)."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
@@ -1720,7 +1720,7 @@ msgstr "Home META beskrivelse og keywords bruges som meta tags for dit site. Du 
 
 #: lib/admin/seo-settings.php:189
 msgid "The home doctitle sets what will appear within the %1$s tags (unseen in the browser) for the home page."
-msgstr ""
+msgstr "Hjem-dokumenttitlen bestemmer, hvad der vises mellem %1$s-taggene (vises ikke i browseren) på Hjem-siden."
 
 #: lib/admin/seo-settings.php:188
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
@@ -1958,323 +1958,323 @@ msgstr "Du kan importere en fil, som du tidligere har eksporteret. Filnavnet beg
 
 #: lib/admin/seo-settings.php:548
 msgid "Directories"
-msgstr ""
+msgstr "Mapper"
 
 #: lib/admin/seo-settings.php:514
 msgid "Archiving"
-msgstr ""
+msgstr "Arkivering"
 
 #: lib/admin/seo-settings.php:486
 msgid "Indexing"
-msgstr ""
+msgstr "Indeksering"
 
 #: lib/admin/seo-settings.php:439
 msgid "Windows Live Writer"
-msgstr ""
+msgstr "Windows Live Writer"
 
 #: lib/admin/seo-settings.php:335 lib/admin/seo-settings.php:338
 msgid "Primary Title %s"
-msgstr ""
+msgstr "Primær Titel %s"
 
 #: lib/admin/seo-settings.php:308
 msgid "Additions on right"
-msgstr ""
+msgstr "Tilføjelser til højre"
 
 #: lib/admin/seo-settings.php:307
 msgid "Additions on left"
-msgstr ""
+msgstr "Tilføjelser til venstre"
 
 #: lib/admin/seo-settings.php:304
 msgid "Document Title Order"
-msgstr ""
+msgstr "Dokumenttitelrækkefølge"
 
 #: lib/admin/seo-settings.php:276
 msgid "Section Headings"
-msgstr ""
+msgstr "Sektionsoverskrifter"
 
 #: lib/admin/seo-settings.php:253
 msgid "Sitewide Settings"
-msgstr ""
+msgstr "Indstillinger for hele sitet"
 
 #: lib/admin/inpost-metaboxes.php:74
 msgid "Canonical URL"
-msgstr ""
+msgstr "Kanonisk URL"
 
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
 msgid "Document Title"
-msgstr ""
+msgstr "Dokumenttitel"
 
 #: lib/admin/import-export.php:98 lib/admin/import-export.php:99
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:234
 #: lib/admin/seo-settings.php:235 lib/admin/seo-settings.php:236
 msgid "Link opens in a new window."
-msgstr ""
+msgstr "Link åbnes i et nyt vindue"
 
 #: lib/admin/customizer.php:451 lib/admin/theme-settings.php:920
 msgid "- None -"
-msgstr ""
+msgstr "- Ingen -"
 
 #: lib/admin/customizer.php:446
 msgid "Featured image alignment"
-msgstr ""
+msgstr "Placering af udvalgt billede"
 
 #: lib/admin/customizer.php:435
 msgid "Featured image size"
-msgstr ""
+msgstr "Størrelse på udvalgt billede"
 
 #: lib/admin/customizer.php:425
 msgid "Display the featured image?"
-msgstr ""
+msgstr "Vis udvalgt billede?"
 
 #: lib/admin/customizer.php:416
 msgid "Limit content to how many characters? (0 for no limit)"
-msgstr ""
+msgstr "Begræns indhold til hvor mange tegn? (0 for ingen begrænsning)"
 
 #: lib/admin/customizer.php:331
 msgid "Enable Trackbacks on Pages?"
-msgstr ""
+msgstr "Aktivér trackbacks til sider?"
 
 #: lib/admin/customizer.php:330
 msgid "Enable Trackbacks on Posts?"
-msgstr ""
+msgstr "Aktivér trackbacks til indlæg?"
 
 #: lib/admin/customizer.php:329
 msgid "Enable Comments on Pages?"
-msgstr ""
+msgstr "Aktivér kommentarer til sider?"
 
 #: lib/admin/customizer.php:328
 msgid "Enable Comments on Posts?"
-msgstr ""
+msgstr "Aktivér kommentarer til indlæg?"
 
 #: lib/admin/customizer.php:266
 msgid "Breadcrumbs on Attachment/Media"
-msgstr ""
+msgstr "Brødkrummer på sider med vedhæftede filer/medier"
 
 #: lib/admin/customizer.php:265
 msgid "Breadcrumbs on 404 Page"
-msgstr ""
+msgstr "Brødkrummer på 404-sider"
 
 #: lib/admin/customizer.php:264
 msgid "Breadcrumbs on Archives"
-msgstr ""
+msgstr "Brødkrummer på arkivsider"
 
 #: lib/admin/customizer.php:263
 msgid "Breadcrumbs on Pages"
-msgstr ""
+msgstr "Brødkrummer på sider"
 
 #: lib/admin/customizer.php:262
 msgid "Breadcrumbs on Single Posts"
-msgstr ""
+msgstr "Brødkrummer på enkeltindlæg"
 
 #: lib/admin/customizer.php:261
 msgid "Breadcrumbs on Posts Page"
-msgstr ""
+msgstr "Brødkrummer på siden med indlæg"
 
 #: lib/admin/customizer.php:260
 msgid "Breadcrumbs on Front Page"
-msgstr ""
+msgstr "Brødkrummer på forsiden"
 
 #: lib/admin/customizer.php:259
 msgid "Breadcrumbs on Homepage"
-msgstr ""
+msgstr "Brødkrummer på hjem-siden"
 
 #: lib/admin/customizer.php:231 lib/admin/theme-settings.php:643
 msgid "Select Default Layout"
-msgstr ""
+msgstr "Vælg standardlayout"
 
 #: lib/admin/customizer.php:215
 msgid "Site Layout"
-msgstr ""
+msgstr "Sitelayout"
 
 #: lib/admin/customizer.php:190
 msgid "Select Color Style"
-msgstr ""
+msgstr "Vælg farvestil"
 
 #: lib/admin/customizer.php:172
 msgid "Color Scheme"
-msgstr ""
+msgstr "Farveskema"
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr ""
+msgstr "Dynamisk tekst"
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
-msgstr ""
+msgstr "Hvis du extender Genesis_Customizer_Base, skal du oprette en metode til registrering."
 
 #: lib/admin/cpt-archive-settings.php:258 lib/admin/inpost-metaboxes.php:300
 msgid "Select Layout"
-msgstr ""
+msgstr "Vælg layout"
 
 #: comments.php:24
 msgid "Reader Interactions"
-msgstr ""
+msgstr "Læserinteraktioner"
 
 #: 404.php:50
 msgid "Sitemap"
-msgstr ""
+msgstr "Sitemap"
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
-msgstr ""
+msgstr "SEO-indstillinger for forfatterarkiv"
 
 #: lib/admin/theme-settings.php:1015
 msgid "Footer Scripts"
-msgstr ""
+msgstr "Footerscripts"
 
 #: lib/admin/theme-settings.php:1007
 msgid "Header Scripts"
-msgstr ""
+msgstr "Headerscripts"
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr ""
+msgstr "Indlæg per side"
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
-msgstr ""
+msgstr "Kategori-id'er, komma separeret - 1,2,3 for eksempel"
 
 #: lib/admin/theme-settings.php:970
 msgid "Exclude Categories"
-msgstr ""
+msgstr "Udeluk kategorier"
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr ""
+msgstr "Kategorivisning"
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
-msgstr ""
+msgstr "Sideinddeling af indlæg og sider"
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "Billedplacering:"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"
-msgstr ""
+msgstr "Udvalgt billede"
 
 #: lib/admin/theme-settings.php:881
 msgid "Entry excerpts"
-msgstr ""
+msgstr "Indlægsuddrag"
 
 #: lib/admin/theme-settings.php:880
 msgid "Entry content"
-msgstr ""
+msgstr "Selve indlægsindholdet"
 
 #: lib/admin/theme-settings.php:873
 msgid "Display"
-msgstr ""
+msgstr "Visning"
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
-msgstr ""
+msgstr "Vedhæftede filer/medier"
 
 #: lib/admin/theme-settings.php:784
 msgid "Single Posts"
-msgstr ""
+msgstr "Enkeltindlæg"
 
 #: lib/admin/theme-settings.php:767 lib/admin/theme-settings.php:770
 msgid "Enable Breadcrumbs on"
-msgstr ""
+msgstr "Aktivér brødkrummer på"
 
 #: lib/admin/theme-settings.php:706
 msgid "Superfish"
-msgstr ""
+msgstr "Superfish"
 
 #: lib/admin/theme-settings.php:616
 msgid "If your custom feed(s) are not handled by Feedblitz or Feedburner, do not use the redirect options."
-msgstr ""
+msgstr "Hvis dine brugerdefinerede feeds ikke håndteres af Feedblitz eller Feedburner, må du ikke bruge redirect-indstillinger."
 
 #: lib/admin/theme-settings.php:609
 msgid "Redirect Custom Comments Feed?"
-msgstr ""
+msgstr "Redirect brugerdefineret kommentarfeed?"
 
 #: lib/admin/theme-settings.php:601
 msgid "Redirect Custom Feed?"
-msgstr ""
+msgstr "Redirect brugerdefineret feed?"
 
 #: lib/admin/theme-settings.php:509
 msgid "Email address"
-msgstr ""
+msgstr "E-mailadresse"
 
 #: lib/admin/theme-settings.php:504
 msgid "Updates"
-msgstr ""
+msgstr "Opdateringer"
 
 #: lib/functions/markup.php:1095 lib/structure/menu.php:85
 msgid "Main navigation"
-msgstr ""
+msgstr "Hovednavigation"
 
 #: lib/functions/layout.php:54
 msgid "Secondary Sidebar, Content, Primary Sidebar"
-msgstr ""
+msgstr "Sekundær sidebar, Indhold, Primær sidebar"
 
 #: lib/functions/layout.php:50
 msgid "Secondary Sidebar, Primary Sidebar, Content"
-msgstr ""
+msgstr "Sekundær sidebar, Primær sidebar, Indhold"
 
 #: lib/functions/layout.php:46
 msgid "Content, Primary Sidebar, Secondary Sidebar"
-msgstr ""
+msgstr "Indhold, Primær sidebar, sekundær sidebar"
 
 #: lib/functions/layout.php:41
 msgid "Primary Sidebar, Content"
-msgstr ""
+msgstr "Primær sidebar, Indhold"
 
 #: lib/functions/layout.php:36
 msgid "Content, Primary Sidebar"
-msgstr ""
+msgstr "Indhold, Primær sidebar"
 
 #: lib/functions/formatting.php:100
 msgid "about "
-msgstr ""
+msgstr "om "
 
 #: lib/classes/cli.php:44
 msgid "Genesis database upgraded."
-msgstr ""
+msgstr "Genesis-database opdateret."
 
 #: lib/classes/breadcrumb.php:45
 msgid " <span aria-label=\"breadcrumb separator\">/</span> "
-msgstr ""
+msgstr " <span aria-label=\"breadcrumb separator\">/</span> "
 
 #: lib/functions/upgrade.php:585
 msgid "Congratulations, you are now rocking Genesis %s! <a href=\"%s\">See what's new in %s</a>."
-msgstr ""
+msgstr "Tillykke! Du er nu flot kørende med Genesis %s! <a href=\"%s\">Se, hvad der er nyt i %s</a>."
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr ""
+msgstr "StudioPress"
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "http://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
-msgstr ""
+msgstr "Indhold Indlægsinfo"
 
 #: lib/widgets/featured-post-widget.php:429
 msgid "Exclude Sticky Posts?"
-msgstr ""
+msgstr "Udelad fastgjorte indlæg?"
 
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "Midt"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
@@ -2315,12 +2315,12 @@ msgstr "Gå direkte til primær navigation"
 
 #: lib/functions/widgetize.php:200
 msgid "Widgets in this widget area will display after single entries."
-msgstr ""
+msgstr "Widgets i dette widgetområde vises efter enkeltståede indlæg, sider osv."
 
 #: lib/functions/widgetize.php:199
 msgid "After Entry"
-msgstr ""
+msgstr "Efter selve indholdet"
 
 #: lib/functions/widgetize.php:120
 msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."
-msgstr ""
+msgstr "Dette er widgetområdet i headeren. Den vises typisk ved siden af webstedets titel eller logo. Dette widgetområde kan ikke vise alle typer widgets, men fungerer bedst med en brugerdefineret menu, en søgeformular eller måske en tekstwidget."

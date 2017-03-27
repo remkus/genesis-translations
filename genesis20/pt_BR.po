@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-06 14:00:38+0000\n"
+"PO-Revision-Date: 2017-03-20 15:26:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
@@ -254,7 +254,7 @@ msgstr "Ops, parece que a página que você procura não existe. Você pode <a h
 
 #: lib/widgets/featured-post-widget.php:424
 msgid "Exclude Previously Displayed Posts?"
-msgstr ""
+msgstr "Excluir Posts Exibidos Anteriormente?"
 
 #: lib/structure/post.php:423
 msgid "Sorry, no content matched your criteria."
@@ -286,7 +286,7 @@ msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:216
 msgid "Page-specific Scripts"
-msgstr ""
+msgstr "Scripts Especifico por página"
 
 #: lib/admin/inpost-metaboxes.php:197
 msgid "Scripts"
@@ -296,7 +296,7 @@ msgstr "Scripts"
 #: lib/admin/cpt-archive-settings.php:228
 #: lib/admin/cpt-archive-settings.php:231
 msgid "Apply %s to this archive"
-msgstr ""
+msgstr "Aplique %s neste arquivo"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
@@ -306,13 +306,13 @@ msgstr ""
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
 #: lib/admin/user-meta.php:188
 msgid "Meta Keywords"
-msgstr ""
+msgstr "Meta Palavras-chave"
 
 #: lib/admin/cpt-archive-settings.php:206 lib/admin/inpost-metaboxes.php:61
 #: lib/admin/seo-settings.php:370 lib/admin/term-meta.php:135
 #: lib/admin/user-meta.php:181
 msgid "Meta Description"
-msgstr ""
+msgstr "Meta Descrição"
 
 #: lib/admin/cpt-archive-settings.php:158
 msgid "View the <a href=\"%s\">%s archive</a>."
@@ -398,7 +398,7 @@ msgstr "Se o Titulo estiver dividido em duas partes ( Titulo Original e frase de
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Separador do Titulo do Documento"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -1099,7 +1099,7 @@ msgstr "Arquivos para"
 
 #: lib/classes/breadcrumb.php:52
 msgid "You are here: "
-msgstr "Está aqui: "
+msgstr "Você está em: "
 
 #: lib/structure/sidebar.php:41
 msgid "Secondary Sidebar Widget Area"
@@ -1192,7 +1192,7 @@ msgstr "Arquivado em:"
 
 #: lib/shortcodes/post.php:450
 msgid "Tagged With: "
-msgstr "Marcados com:"
+msgstr "Marcados com as tags: "
 
 #: lib/shortcodes/post.php:402
 msgid "% Comments"
@@ -1245,7 +1245,7 @@ msgstr "Todas as categorias"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Mostrar qual a categoria:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Habilitar comentários"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "URL personalizada para o Feed de comentários:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "URL personalizada para o Feed:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Texto dinâmico"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Lançado em:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1636,15 +1636,15 @@ msgstr ""
 
 #: lib/admin/cpt-archive-settings.php:329 lib/admin/theme-settings.php:254
 msgid "Sidebar Sidebar Content"
-msgstr ""
+msgstr "Barra Lateral Barra Lateral Conteúdo"
 
 #: lib/admin/cpt-archive-settings.php:328 lib/admin/theme-settings.php:253
 msgid "Content Sidebar Sidebar"
-msgstr ""
+msgstr "Conteúdo Barra Lateral Barra Lateral"
 
 #: lib/admin/cpt-archive-settings.php:327 lib/admin/theme-settings.php:252
 msgid "Sidebar Content Sidebar"
-msgstr ""
+msgstr "Barra Lateral Conteúdo Barra Lateral"
 
 #: lib/admin/cpt-archive-settings.php:326 lib/admin/theme-settings.php:251
 msgid "Sidebar Content"
@@ -1652,7 +1652,7 @@ msgstr "Conteúdo da barra lateral"
 
 #: lib/admin/cpt-archive-settings.php:325 lib/admin/theme-settings.php:250
 msgid "Content Sidebar"
-msgstr ""
+msgstr "Conteúdo da Barra Lateral"
 
 #: lib/admin/theme-settings.php:248
 msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
@@ -1900,7 +1900,7 @@ msgstr "Uma vez que faça o upload de um arquivo de importação, ele automatica
 
 #: lib/admin/cpt-archive-settings.php:332 lib/admin/theme-settings.php:274
 msgid "These options can be extended or limited by the child theme."
-msgstr "Estas opções podem ser estendidas ou limitadas pelo tema-filho."
+msgstr "Estas opções podem ser estendidaa ou limitadas pelo tema-filho."
 
 #: lib/admin/cpt-archive-settings.php:308
 msgid ""
@@ -1974,50 +1974,50 @@ msgstr ""
 
 #: lib/admin/seo-settings.php:335 lib/admin/seo-settings.php:338
 msgid "Primary Title %s"
-msgstr ""
+msgstr "Título Primário %s"
 
 #: lib/admin/seo-settings.php:308
 msgid "Additions on right"
-msgstr ""
+msgstr "Adições a direita"
 
 #: lib/admin/seo-settings.php:307
 msgid "Additions on left"
-msgstr ""
+msgstr "Adições a esquerda"
 
 #: lib/admin/seo-settings.php:304
 msgid "Document Title Order"
-msgstr ""
+msgstr "Ordem do Título do Documento"
 
 #: lib/admin/seo-settings.php:276
 msgid "Section Headings"
-msgstr ""
+msgstr "Seção de Cabeçalhos"
 
 #: lib/admin/seo-settings.php:253
 msgid "Sitewide Settings"
-msgstr ""
+msgstr "Configurações Globais"
 
 #: lib/admin/inpost-metaboxes.php:74
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL Canônica"
 
 #: lib/admin/inpost-metaboxes.php:53 lib/admin/seo-settings.php:287
 #: lib/admin/seo-settings.php:355
 msgid "Document Title"
-msgstr ""
+msgstr "Título do Documento"
 
 #: lib/admin/import-export.php:98 lib/admin/import-export.php:99
 #: lib/admin/import-export.php:100 lib/admin/seo-settings.php:234
 #: lib/admin/seo-settings.php:235 lib/admin/seo-settings.php:236
 msgid "Link opens in a new window."
-msgstr ""
+msgstr "Abrir link em uma nova janela"
 
 #: lib/admin/customizer.php:451 lib/admin/theme-settings.php:920
 msgid "- None -"
-msgstr ""
+msgstr "- nada -"
 
 #: lib/admin/customizer.php:446
 msgid "Featured image alignment"
-msgstr ""
+msgstr "Alinhamento da Imagem Destacada"
 
 #: lib/admin/customizer.php:435
 msgid "Featured image size"
@@ -2081,31 +2081,31 @@ msgstr ""
 
 #: lib/admin/customizer.php:231 lib/admin/theme-settings.php:643
 msgid "Select Default Layout"
-msgstr ""
+msgstr "Selecione o Modelo Padrão"
 
 #: lib/admin/customizer.php:215
 msgid "Site Layout"
-msgstr ""
+msgstr "Modelo do Site"
 
 #: lib/admin/customizer.php:190
 msgid "Select Color Style"
-msgstr ""
+msgstr "Selecione o Estilo de Cor"
 
 #: lib/admin/customizer.php:172
 msgid "Color Scheme"
-msgstr ""
+msgstr "Selecione o Esquema de Cor"
 
 #: lib/admin/customizer.php:148
 msgid "Dynamic Text"
-msgstr ""
+msgstr "Texto Dinâmico"
 
 #: lib/admin/customizer.php:30
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
-msgstr ""
+msgstr "Quando estender Genesis_Customizer_Base, você deve criar um método de registro."
 
 #: lib/admin/cpt-archive-settings.php:258 lib/admin/inpost-metaboxes.php:300
 msgid "Select Layout"
-msgstr ""
+msgstr "Selecione o Modelo"
 
 #: comments.php:24
 msgid "Reader Interactions"
@@ -2117,59 +2117,59 @@ msgstr ""
 
 #: lib/admin/user-meta.php:169
 msgid "Author Archive SEO Settings"
-msgstr ""
+msgstr "Configurações SEO para Arquivo do Autor"
 
 #: lib/admin/theme-settings.php:1015
 msgid "Footer Scripts"
-msgstr ""
+msgstr "Scripts do Rodapé"
 
 #: lib/admin/theme-settings.php:1007
 msgid "Header Scripts"
-msgstr ""
+msgstr "Scripts do Cabeçalho"
 
 #: lib/admin/theme-settings.php:980
 msgid "Posts per Page"
-msgstr ""
+msgstr "Posts por página"
 
 #: lib/admin/theme-settings.php:974
 msgid "Category IDs, comma separated - 1,2,3 for example"
-msgstr ""
+msgstr "ID da Categoria, separado por virgula - 1,2,3 por exemplo"
 
 #: lib/admin/theme-settings.php:970
 msgid "Exclude Categories"
-msgstr ""
+msgstr "Excluir Categorias"
 
 #: lib/admin/theme-settings.php:962
 msgid "Display Category"
-msgstr ""
+msgstr "Exibir Categoria"
 
 #: lib/admin/theme-settings.php:930
 msgid "Entry Pagination"
-msgstr ""
+msgstr "Entrada da Paginação"
 
 #: lib/admin/theme-settings.php:918
 msgid "Image Alignment:"
-msgstr ""
+msgstr "Alinhamento da Imagem"
 
 #: lib/admin/theme-settings.php:900
 msgid "Featured Image"
-msgstr ""
+msgstr "Imagem Destacada"
 
 #: lib/admin/theme-settings.php:881
 msgid "Entry excerpts"
-msgstr ""
+msgstr "Entrada do Resumo"
 
 #: lib/admin/theme-settings.php:880
 msgid "Entry content"
-msgstr ""
+msgstr "Entrada do Conteúdo"
 
 #: lib/admin/theme-settings.php:873
 msgid "Display"
-msgstr ""
+msgstr "Exibir"
 
 #: lib/admin/theme-settings.php:796
 msgid "Attachment/Media"
-msgstr ""
+msgstr "Anexo/Mídia"
 
 #: lib/admin/theme-settings.php:784
 msgid "Single Posts"
@@ -2245,73 +2245,73 @@ msgstr ""
 
 #. Template Name of the plugin/theme
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #. Author URI of the plugin/theme
 msgid "http://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
-msgstr ""
+msgstr "StudioPress"
 
 #. Theme URI of the plugin/theme
 msgid "http://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "http://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the plugin/theme
 msgid "Genesis"
-msgstr ""
+msgstr "Genesis"
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Content Post Info"
-msgstr ""
+msgstr "Informações do Conteúdo do Post"
 
 #: lib/widgets/featured-post-widget.php:429
 msgid "Exclude Sticky Posts?"
-msgstr ""
+msgstr "Excluir Posts Fixados?"
 
 #: lib/widgets/featured-page-widget.php:277
 #: lib/widgets/featured-post-widget.php:486
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #: lib/widgets/featured-page-widget.php:112
 #: lib/widgets/featured-post-widget.php:154
 msgid "(no title)"
-msgstr ""
+msgstr "(sem título)"
 
 #: lib/structure/post.php:746
 msgid "Current page"
-msgstr ""
+msgstr "Página atual"
 
 #: lib/structure/post.php:385 lib/structure/post.php:722
 msgid "Page "
-msgstr ""
+msgstr "Página"
 
 #: lib/structure/header.php:880
 msgid "Skip links"
-msgstr ""
+msgstr "Pular Links"
 
 #: lib/structure/header.php:859
 msgid "Skip to footer"
-msgstr ""
+msgstr "Pular Rodapé"
 
 #: lib/structure/header.php:852
 msgid "Skip to secondary sidebar"
-msgstr ""
+msgstr "Pular para a sidebar secundária"
 
 #: lib/structure/header.php:848
 msgid "Skip to primary sidebar"
-msgstr ""
+msgstr "Pular para sidebar primária"
 
 #: lib/structure/header.php:845
 msgid "Skip to content"
-msgstr ""
+msgstr "Pular para o conteúdo"
 
 #: lib/structure/header.php:842
 msgid "Skip to primary navigation"
-msgstr ""
+msgstr "Pular para navegação primária"
 
 #: lib/functions/widgetize.php:200
 msgid "Widgets in this widget area will display after single entries."

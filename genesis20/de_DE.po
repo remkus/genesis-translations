@@ -2,46 +2,46 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.4 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-29 17:21:36+0000\n"
+"PO-Revision-Date: 2017-03-20 15:24:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.3.0\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: de\n"
 "Project-Id-Version: Genesis - Genesis 2.4\n"
 
 #. Description of the plugin/theme
 msgid "The industry standard for Premium WordPress Themes."
-msgstr ""
+msgstr "Der Industrie-Standard für Premium WordPress Themes."
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr ""
+msgstr "Archiv-Einstellungen bearbeiten"
 
 #: lib/admin/whats-new.php:104
 msgid "Removed unused parameters in <code>genesis_nav_menu_link_attributes()</code>."
-msgstr ""
+msgstr "Unbenutzte Parameter in <code>genesis_nav_menu_link_attributes()</code> entfernt."
 
 #: lib/admin/whats-new.php:103
 msgid "Removed dead code in two post shortcode callback functions."
-msgstr ""
+msgstr "Überflüssiger Code in zwei Beitrags-shortcode-callback- Funktionen entfernt."
 
 #: lib/admin/whats-new.php:102
 msgid "Removed unused global for Admin Readme class."
-msgstr ""
+msgstr "Nicht verwendete Allgemeines-Kategorie für Admin 'Lies-mich' entfernt."
 
 #: lib/admin/whats-new.php:101
 msgid "Removed errant <code>$</code> in the URL used in the \"parent theme active\" admin notice."
-msgstr ""
+msgstr "Falscher <code>$</code> entfernt in  der URL, die im \"Eltern-Theme aktiv\" Admin-Hinweis verwendet wird."
 
 #: lib/admin/whats-new.php:100
 msgid "Removed colons from labels on settings screens."
-msgstr ""
+msgstr "Doppelpunkt entfernt von Kennzeichnungen in Einstellungs-Fenstern."
 
 #: lib/admin/whats-new.php:98
 msgid "Removed"
-msgstr ""
+msgstr "Entfernt"
 
 #: lib/admin/whats-new.php:95
 msgid "Moved <code>genesis_create_initial_layouts()</code> to the <code>genesis_setup</code> hook. Possible breaking change, in order to ensure compatibility with WordPress 4.7+."
@@ -300,7 +300,7 @@ msgstr "%s diesem Archiv zuweisen"
 
 #: lib/admin/cpt-archive-settings.php:221 lib/admin/seo-settings.php:390
 msgid "Robots Meta Tags"
-msgstr ""
+msgstr "Robots Meta-Tags:"
 
 #: lib/admin/cpt-archive-settings.php:213 lib/admin/inpost-metaboxes.php:69
 #: lib/admin/seo-settings.php:380 lib/admin/term-meta.php:142
@@ -398,7 +398,7 @@ msgstr "Wenn der Dokumententitel aus zwei Zeilen besteht (Titel und angefügter 
 
 #: lib/admin/seo-settings.php:295
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Dokumententitel Trennzeichen:"
 
 #: lib/admin/seo-settings.php:310
 msgid "Determines which side the added title text will go on."
@@ -1245,7 +1245,7 @@ msgstr "Alle Kategorien"
 
 #: lib/admin/theme-settings.php:964
 msgid "Display which category"
-msgstr ""
+msgstr "Welche Kategorien sollen angezeigt werden:"
 
 #: lib/admin/customizer.php:467 lib/admin/theme-settings.php:934
 msgid "Numeric"
@@ -1290,11 +1290,11 @@ msgstr "Kommentare aktivieren"
 
 #: lib/admin/theme-settings.php:606
 msgid "Enter your custom comments feed URL"
-msgstr ""
+msgstr "Benutzerspezifische Kommentar-Feed-URL (Adresse) eingeben:"
 
 #: lib/admin/theme-settings.php:598
 msgid "Enter your custom feed URL"
-msgstr ""
+msgstr "Benutzerspezifische Feed-URL (Adresse) eingeben:"
 
 #: lib/admin/theme-settings.php:737
 msgid "Twitter Link Text:"
@@ -1335,7 +1335,7 @@ msgstr "Dynamischer Text"
 
 #: lib/admin/theme-settings.php:495
 msgid "Released"
-msgstr ""
+msgstr "Veröffentlicht am:"
 
 #: lib/admin/theme-settings.php:490
 msgid "Version"
@@ -1584,7 +1584,7 @@ msgstr "Blog Seitenvorlage (Template)"
 
 #: lib/admin/theme-settings.php:295
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "Die Einstellung \"Text für Navigatoren\" erlaubt es Dir aus drei verschiedenen Navigationsmethoden auszuwählen."
 
 #: lib/admin/theme-settings.php:294
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1592,15 +1592,15 @@ msgstr "Die Liste der 'Bildgrößen' wird erzeugt aus den verfügbaren Bildgrö�
 
 #: lib/admin/theme-settings.php:293
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Diese Option sollte nicht mit der Einstellung (kompletten) 'Inhalt des Beitrages anzeigen' verwendet werden, es sei denn, dass die Zeichenbegrenzung (Limit) verwendet wird. Andererseits würde es zur doppelten Anzeige der Bilder kommen &hellip;"
 
 #: lib/admin/theme-settings.php:292
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "Die Einstellung \"Featured-Bild einschließen?\" erlaubt es Dir, ein Vorschaubild des zuerst hochgeladenen Bildes eines Beitrages oder das entsprechende Artikelbild (Featured Image, falls gesetzt) anzuzeigen."
 
 #: lib/admin/theme-settings.php:291
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
-msgstr ""
+msgstr "Die Einstellung \"Nur Textauszüge anzeigen\" wird entweder automatisiert die ersten 55 Worte (!) des Beitrages anzeigen (auch nachdem alle HTML Tags entfernt wurden!) oder andererseits den eigenen Textauszug des entsprechenden Beitrags, falls manuell festgelegt."
 
 #: lib/admin/theme-settings.php:290
 msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
@@ -1608,7 +1608,7 @@ msgstr "Dies kann auch kombiniert werden mit der zweiten Möglichkeit \"Inhalt b
 
 #: lib/admin/theme-settings.php:289
 msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
-msgstr ""
+msgstr "Die erste Option erlaubt Dir die Anzeige des Beitrags-/ Seiteninhaltes oder des kurzen Textauszugs (Excerpt). Die Einstellung 'Inhalt des Beitrages' wird den gesamten Beitrag inklusive HTML-Code bis zum <code><!--more--></code> (falls vorhanden; wird aber nicht im Browser dargestellt) anzeigen."
 
 #: lib/admin/theme-settings.php:288
 msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
@@ -2177,7 +2177,7 @@ msgstr "Einzelne Beiträge"
 
 #: lib/admin/theme-settings.php:767 lib/admin/theme-settings.php:770
 msgid "Enable Breadcrumbs on"
-msgstr ""
+msgstr "Breadcrumbs aktivieren:"
 
 #: lib/admin/theme-settings.php:706
 msgid "Superfish"
