@@ -7,9 +7,9 @@ module.exports = function(grunt) {
     glotpress_download: {
       core: {
         options: {
-          domainPath: 'genesis20',
+          domainPath: 'translations',
           url: 'https://translate.studiopress.com/global/',
-          slug: 'genesis/genesis-2.4',
+          slug: 'genesis/genesis-2.5',
           textdomain: 'genesis',
           file_format: '%domainPath%/%wp_locale%.%format%'
         }
