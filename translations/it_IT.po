@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.5 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-03-21 08:43:03+0000\n"
+"PO-Revision-Date: 2018-03-21 09:52:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -665,7 +665,7 @@ msgstr "Stile colore:"
 #: lib/views/meta-boxes/genesis-theme-settings-scripts.php:11
 #: lib/views/meta-boxes/genesis-theme-settings-scripts.php:24
 msgid "This code will output immediately before the closing %s tag in the document source."
-msgstr "L'hook %1$s viene eseguito immediatamente prima della chiusura del tag %2$s nel codice sorgente del documento."
+msgstr "L'hook %s viene eseguito immediatamente prima della chiusura del tag nel codice sorgente del documento."
 
 #: lib/views/meta-boxes/genesis-theme-settings-posts.php:40
 msgid "Image Size:"
@@ -1773,7 +1773,7 @@ msgstr "Come lavora l'home page"
 #. translators: Escaped HTML head and body tags.
 #: lib/views/help/genesis-scripts.php:5
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr "Questa è fornita con due campi che compariranno nel <head> </ head> del tuo sito e appena prima del </ body>. Questi appariranno su ogni pagina del sito e sono un ottimo modo per aggiungere il codice Analitycs ed altri script. Non è possibile utilizzare PHP in questi campi. Se avete bisogno di usare PHP allora si dovrebbe esaminare il plugin Genesis Simple Hooks."
+msgstr ""
 
 #: lib/admin/theme-settings.php:240 lib/views/help/genesis-blog.php:1
 msgid "Blog Page"
@@ -1919,7 +1919,7 @@ msgstr "La descrizione META della home e le parole chiave riempiono i meta tag p
 #. translators: Escaped title tag.
 #: lib/views/help/seo-homepage.php:14
 msgid "The home doctitle sets what will appear within the %1$s tags (unseen in the browser) for the home page."
-msgstr "Il doctitle della home imposta quello che apparirà all'interno del tag <title></title> (invisibili nel browser) per la home page."
+msgstr "Il doctitle della home imposta quello che apparirà all'interno del tag %1$s (invisibili nel browser) per la home page."
 
 #: lib/views/help/seo-homepage.php:9
 msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
@@ -1927,7 +1927,7 @@ msgstr "Per aggiungere il testo personalizzato dovrai modificare un file php, o 
 
 #: lib/views/help/seo-homepage.php:6
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an <h1>; tag (the primary heading in HTML)."
-msgstr ""
+msgstr "Puoi inoltre specificare se il titolo del sito, la descrizione o il proprio testo personalizzato devono essere avvolti in un &lt;h1&gt; tag (il titolo primario in HTML)."
 
 #: lib/views/help/seo-homepage.php:3
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
@@ -1936,22 +1936,22 @@ msgstr "Queste sono le impostazioni SEO specifiche per l'homepage. Nota: queste 
 #. translators: Opening and closing strong tags.
 #: lib/views/help/seo-doctitle.php:23
 msgid "The %sDoctitle Separator%s is the character that will go between the title and appended text."
-msgstr ""
+msgstr "Il <strong>separatore DocTitle</ strong> è il carattere che andrà tra il titolo e il testo allegato."
 
 #. translators: Opening and closing strong tags.
 #: lib/views/help/seo-doctitle.php:17
 msgid "%sDoctitle Append Location%s determines which side of the title to add the previously mentioned items."
-msgstr ""
+msgstr "<strong>Aggiunge la Località al DocTitle</strong> determina in quale lato del titolo vuoi aggiungere gli elementi precedentemente menzionati."
 
 #. translators: Opening and closing strong tags.
 #: lib/views/help/seo-doctitle.php:11
 msgid "%sAppend Site Name%s will put the site name from the General Settings after the title on inner page."
-msgstr ""
+msgstr "<strong>Aggiungi nome del sito</strong> metterà il nome del sito nelle Impostazioni generali dopo il titolo a pagina interna."
 
 #. translators: Opening and closing strong tags.
 #: lib/views/help/seo-doctitle.php:5
 msgid "%sAppend Site Description%s will insert the site description from your General Settings after the title on your home page."
-msgstr ""
+msgstr "<strong>Aggiungi descrizione sito</strong> inserirà la descrizione del sito dalle tue impostazioni generali dopo il titolo nella tua home page."
 
 #: lib/admin/seo-settings.php:166 lib/views/help/seo-doctitle.php:1
 msgid "Doctitle Settings"
@@ -2032,7 +2032,7 @@ msgstr "Genesis %s è disponibile. <a href=\"%s\" %s> Controlla cosa c'è di nuo
 #. translators: Opening and closing link tags to custom menu editor.
 #: lib/views/meta-boxes/genesis-theme-settings-nav.php:22
 msgid "In order to view the Primary navigation menu settings, you must build a %scustom menu%s, then assign it to the Primary Menu Location."
-msgstr ""
+msgstr "Per visualizzare le impostazioni del menu di navigazione principale, è necessario costruire un <a href=\"%s\">menu personalizzato</a>, poi assegnarlo al menu come Posizione primaria."
 
 #: lib/views/help/genesis-navigation.php:9
 msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
@@ -2109,7 +2109,7 @@ msgstr "Queste opzioni possono essere estese o limitate dal tema bambino."
 
 #: lib/views/help/cpt-archive-seo.php:6
 msgid "The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
-msgstr "\n"
+msgstr "La Meta descrizione e le parole chiave riempiono i meta tag per la pagina di archivio. La descrizione Meta è la breve descrizione di testo che appare nei risultati dei motori di ricerca.\n"
 
 #: lib/views/help/genesis-blog.php:3
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
@@ -2130,7 +2130,7 @@ msgstr "I Robots Meta Tag dicono ai motori di ricerca come gestire la pagina di 
 
 #: lib/views/help/cpt-archive-archive.php:3
 msgid "The Archive Headline sets the title seen on the archive page."
-msgstr ""
+msgstr "L'Archivio Headline imposta il titolo visto sulla pagina di archivio"
 
 #: lib/views/help/genesis-layout.php:14
 msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
