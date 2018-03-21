@@ -52,6 +52,12 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 ##Changelog
 
+### 2.5.0 
+* Various translations updates
+* Removing i18n module
+* Removing fallback translations for anyone still on a Genesis version older than 2.0
+* Updated admin page slightly. 
+
 ### 2.4.1
 * Translation updates
 

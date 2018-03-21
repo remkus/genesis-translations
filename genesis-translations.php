@@ -9,7 +9,7 @@
  * Plugin URI: https://thememix.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
  * Author: ThemeMix, Remkus de Vries
- * Version: 2.4.1
+ * Version: 2.5.0
  * Author URI: https://thememix.com/
  * License: GPLv2
  * Text Domain: genesis-translations
