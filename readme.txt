@@ -1,10 +1,10 @@
 === Genesis Translations ===
 Contributors: thememix, DeFries
-Donate link: https://remkusdevries.com/donate/
+Donate link: https://remkus.devries.frl/donate/
 Tags: genesis, translations,
 Requires at least: 4.3
-Tested up to: 4.7.3
-Stable tag: 2.4.1
+Tested up to: 4.9.5
+Stable tag: 2.5.0
 
 This plugin translates the Genesis Framework into one of the available languages.
 
@@ -17,7 +17,7 @@ Check https://translate.studiopress.com to see which languages are currrently su
 
 So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
 
-This plugin only works on the [Genesis Framework](https://remkusdevries.com/recommends/genesis/ "Genesis Framework").
+This plugin only works on the [Genesis Framework](https://remkus.devries.frl/recommends/genesis/ "Genesis Framework").
 
 == Installation ==
 
@@ -29,6 +29,14 @@ Installation of this plugin works like any other plugin out there. Either:
 Or search for "Genesis Translations" via your plugins menu.
 
 == Frequently Asked Questions ==
+
+= Why is the plugin not translating my entire site? =
+
+This plugin translates the text strings of the Genesis Framework and ONLY those. So, this plugin does not translate your content (post / pages). 
+
+= Why is the plugin not translating my Genesis Child Theme? =
+
+This plugin translates the text strings of the Genesis Framework and ONLY those. You'll most likely need translation files for your Genesis Child Theme. Send us an email at translations@studiopress.com and we'll do our best to help you on your way.
 
 = How can I see my language added to this plugin? =
 
@@ -56,6 +64,12 @@ Fantastic! Go ahead and register [here](https://translate.studiopress.com/ "here
 
 
 == Changelog ==
+
+= 2.5.0 =
+* Various translations updates
+* Removing i18n module
+* Removing fallback translations for anyone still on a Genesis version older than 2.0
+* Updated admin page slightly. 
 
 = 2.4.1 = 
 * Translation updates
