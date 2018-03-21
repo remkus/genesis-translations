@@ -1,0 +1,2535 @@
+# Translation of Genesis - Genesis 2.5 in Danish
+# This file is distributed under the same license as the Genesis - Genesis 2.5 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-10 15:44:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Genesis - Genesis 2.5\n"
+
+#: lib/views/pages/genesis-admin-upgraded.php:70
+msgid "Remove unnecessary title on skip links."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:69
+msgid "Remove output buffering on search form."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:68
+msgid "Disable <code>backtotop</code> output if HTML5 is on."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:67
+msgid "Remove semantic headings SEO option, with fallback for backward compatibility."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:62
+msgid "Fix typo in comments feed setting."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:61
+msgid "Refactor and improve archive headings."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:60
+msgid "Add capability check to CPT archive settings link in the toolbar."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:59
+msgid "Move aria-label to the <code>&lt;a&gt;</code> element so screen readers will announce it."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:58
+msgid "Fix potential issue with footer scripts filter."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:57
+msgid "Improve randomness of search form ID."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:56
+msgid "Ensure skip links filter returns an array."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:55
+msgid "Code optimization and documentation improvements."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:54
+msgid "CSS improvements."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:53
+msgid "Formally deprecate <code>genesis_get_additional_image_sizes()</code>."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:52
+msgid "Switch all schema.org URLs to <code>https</code>."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:51
+msgid "Improvements to composer, PHPCS, and unit tests."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:50
+msgid "Restored new line between admin screen buttons."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:49
+msgid "Flag entry markup as <code>is_widget</code> via the params array so it can be modified without affecting other entries."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:48
+msgid "Standardize the context naming in widget markup."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:47
+msgid "Strip <code>&lt;p&gt;</code> tags from filtered credits text to avoid paragraph nesting."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:46
+msgid "Reorganized <code>init.php</code>."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:45
+msgid "Prevent smushed offscreen accessible text."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:44
+msgid "Restored adding tabindex via javascript when a11y is on."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:43
+msgid "Split featured post and page widget entry header markup, gave markup API context for each."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:38
+msgid "Add more filters to breadcrumb class."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:37
+msgid "Add center alignment option to featured image alignment setting."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:36
+msgid "Add <code>genesis_strip_p_tags()</code> function."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:35
+msgid "Add terms back to terms array in our terms filter."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:34
+msgid "Add filter for entry content display options in the customizer."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:33
+msgid "Add a posts page check to <code>genesis_do_blog_template_heading()</code>."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:32
+msgid "Add sanitizer for layout settings on CPT archive settings page."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:31
+msgid "Add filter to disable layout settings on CPT archive settings page."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:30
+msgid "Add filter for capability required to use CPT archive settings."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:29
+msgid "Add ability to specify location of entry scripts via a second option."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:28
+msgid "Add script loader class."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:27
+msgid "Add support for multiple layout types depending on context."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:26
+msgid "Add primary category support when Yoast SEO is on, but breadcrumb feature is off."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:25
+msgid "Add slashing for user script input fields."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:24
+msgid "Add full support for WordPress's new title tag."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:23
+msgid "Add <code>views</code> directory and extracted output to organized view files."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:22
+msgid "Add <code>Genesis_Contributors</code> and <code>Genesis_Contributor</code> classes."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:21
+msgid "Add any missed xhtml markup to the xhtml markup filter."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:20
+msgid "Add instances of markup API use in several locations where it was previously not used."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:16
+msgid "Changes"
+msgstr ""
+
+#: lib/views/pages/genesis-admin-upgraded.php:11
+msgid "Genesis 2.5 focuses largely on the integrity, organization, and testability of code, along with other improvements for broad compatibility."
+msgstr ""
+
+#: lib/views/misc/use-child-theme-notice.php:5
+msgid "For more information, see our article at %s"
+msgstr ""
+
+#. translators: Open and close anchor tags.
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:16
+msgid "This can be helpful for diagnosing problems with your theme when seeking assistance at the %shelp page%s."
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:8
+msgid "This setting has been deprecated because it is no longer recommended. If you uncheck this box, the setting will disappear."
+msgstr ""
+
+#. translators: Open and close span tags, abbreviation expansion for SEO.
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:48
+msgid "%sNote:%s The shortlink tag might have some use for 3rd party service discoverability, but it has no %s value whatsoever."
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:3
+msgid "SEO"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:3
+msgid "Search engine optimization"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:45
+msgid "301 Redirect."
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:41
+msgid "Top: after opening body tag"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:40
+msgid "Bottom: before closing body tag"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:36
+msgid "Body Scripts Position"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:25
+msgid "Body Scripts"
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:17
+msgid "Output before the closing %s tag, after sitewide header scripts."
+msgstr ""
+
+#. translators: Theme settings admin screen link
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:20
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:14
+#: lib/views/meta-boxes/genesis-user-layout.php:17
+msgid "Default Layout set in %s"
+msgstr ""
+
+#. translators: Opn and close post type archive link, post type name.
+#: lib/views/meta-boxes/genesis-cpt-archives-settings.php:5
+msgid "View the %1$s%3$s archive%2$s."
+msgstr ""
+
+#. translators: Open and close link tags to theme settings.
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:17
+msgid "Default Layout set in %sTheme Settings%s"
+msgstr ""
+
+#. translators: Reference link
+#: lib/views/help/genesis-inpost-seo.php:45
+msgid " &mdash; Output in the document <meta name=\"robots\" />. %s."
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:42
+msgid "Apply noarchive to this post/page"
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:35
+msgid "Apply nofollow to this post/page"
+msgstr ""
+
+#. translators: Reference link
+#: lib/views/help/genesis-inpost-seo.php:31
+#: lib/views/help/genesis-inpost-seo.php:38
+msgid " &mdash; Output in the document <meta name=\"robots\" />. %s"
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:28
+msgid "Apply noindex to this post/page"
+msgstr ""
+
+#. translators: Reference link
+#: lib/views/help/genesis-inpost-seo.php:24
+msgid " &mdash; Redirect this post/page to this URL. %s."
+msgstr ""
+
+#. translators: Reference link
+#: lib/views/help/genesis-inpost-seo.php:17
+msgid " &mdash; Output in the document <link rel=\"canonical\" />. %s"
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:11
+msgid " &mdash; Output in the document <meta name=\"keywords\" /> Tag."
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:7
+msgid " &mdash; Output in the document <meta name=\"description\" /> Tag."
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:3
+msgid " &mdash; Output in the document <title> Tag."
+msgstr ""
+
+#. translators: Open and close anchor tags.
+#: lib/views/help/genesis-blog.php:14
+msgid "You can find more on this feature in the %sHow to Add a Post Category Page tutorial.%s"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The industry standard for Premium WordPress Themes."
+msgstr "Industristandarden for Premium WordPress-temaer."
+
+#: lib/functions/toolbar.php:41
+msgid "Edit Archive Settings"
+msgstr "Redigér arkivindstillinger"
+
+#: lib/views/pages/genesis-admin-upgraded.php:65
+msgid "Removed"
+msgstr "Fjernet"
+
+#: lib/views/pages/genesis-admin-upgraded.php:41
+msgid "Changed"
+msgstr "Ændret"
+
+#: lib/views/pages/genesis-admin-upgraded.php:18
+msgid "Added"
+msgstr "Tilføjet"
+
+#: lib/views/misc/use-child-theme-notice.php:5
+msgid "https://www.studiopress.com/genesis-always-use-child-theme/"
+msgstr "https://www.studiopress.com/genesis-always-use-child-theme/"
+
+#: lib/views/misc/use-child-theme-notice.php:4
+msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
+msgstr "Vi har bemærket, at du bruger Genesis Framework alene, uden noget child theme. Vi anbefaler varmt, at du bruger et child theme (vi har tilmed en, du kan bruge helt gratis). "
+
+#: lib/views/misc/use-child-theme-notice.php:2
+msgid "Please Activate a Genesis Child Theme:"
+msgstr "Aktivér venligst et Genesis Child-tema:"
+
+#: lib/views/meta-boxes/genesis-theme-settings-header.php:5
+msgid "Use for site title/logo"
+msgstr "Brug til sitets titel/logo"
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:27
+msgid "Check For Updates"
+msgstr "Tjek for opdateringer"
+
+#: lib/views/help/genesis-information.php:12
+msgid "If you provide an email address, your site will email you when the update can be performed."
+msgstr "Hvis du indtaster en e-mailadresse, får du en e-mail fra dit site, når du kan opdatere."
+
+#: lib/admin/seo-settings.php:45 lib/admin/theme-settings.php:60
+#: lib/classes/admin.php:129
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: lib/views/help/genesis-inpost-seo.php:45
+msgid "Read more about noarchive"
+msgstr "Læs mere om noarchive"
+
+#: lib/views/help/genesis-inpost-seo.php:38
+msgid "Read more about nofollow"
+msgstr "Læs mere om nofollow"
+
+#: lib/views/help/genesis-inpost-seo.php:31
+msgid "Read more about noindex"
+msgstr "Læs mere om noindex"
+
+#: lib/views/help/genesis-inpost-seo.php:24
+msgid "Read more about 301 Redirects"
+msgstr "Læs mere om 301-redirects"
+
+#: lib/views/help/genesis-inpost-seo.php:17
+msgid "Read more about Custom Canonical URL"
+msgstr "Læs mere om brugerdefinerede kanoniske URL&#39;er"
+
+#: lib/admin/customizer.php:476
+msgid "Entry Pagination Type"
+msgstr "Sideinddelingstype for indhold"
+
+#: 404.php:42
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it with the information below."
+msgstr "Siden, du leder efter, eksisterer ikke længere. Du kan gå tilbage til <a href=\"%s\">forsiden</a>, og se om du kan finde det, du leder efter. Du kan også prøve at finde det med nedenstående information."
+
+#: lib/widgets/featured-post-widget.php:451
+msgid "Exclude Previously Displayed Posts?"
+msgstr "Udeluk tidligere viste poster?"
+
+#: lib/structure/post.php:432
+msgid "Sorry, no content matched your criteria."
+msgstr "Beklager, der var ikke noget indhold der passede til dine kriterier"
+
+#: lib/structure/comments.php:331
+msgid "at"
+msgstr "ved"
+
+#: lib/classes/class-genesis-script-loader.php:179
+msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
+msgstr "En opdatering af Genesis vil overskrive den eksisterende installation af Genesis. Er du HELT SIKKER på, at du vil opdatere? "
+
+#: lib/classes/class-genesis-script-loader.php:178
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "De ændringer, du har lavet, vil gå tabt, hvis du forlader denne side. "
+
+#: lib/functions/deprecated.php:385
+msgid "decimal or hexidecimal entities"
+msgstr "decimaler eller hexidecimale enheder"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:16
+msgid "Primary Navigation Extras"
+msgstr "Primær navigations tilføjelser"
+
+#: lib/admin/inpost-metaboxes.php:126
+msgid "Scripts"
+msgstr "Scripts"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta nofollow attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:33
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:40
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:47
+msgid "Apply %s to this archive"
+msgstr "Tilføj %s til dette arkiv"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:27
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:73
+msgid "Robots Meta Tags"
+msgstr "Robots Meta Tags"
+
+#: lib/views/help/genesis-inpost-seo.php:10
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:19
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:35
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:63
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:19
+#: lib/views/meta-boxes/genesis-user-seo.php:20
+msgid "Meta Keywords"
+msgstr "Metanøgleord"
+
+#: lib/views/help/genesis-inpost-seo.php:6
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:12
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:22
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:53
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:12
+#: lib/views/meta-boxes/genesis-user-seo.php:13
+msgid "Meta Description"
+msgstr "Metabeskrivelse"
+
+#. Template Name of the plugin/theme
+msgid "Archive"
+msgstr "Arkiv"
+
+#: 404.php:35
+msgid "The page you are looking for no longer exists. Perhaps you can return back to the site's <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+msgstr "Siden, du leder efter, eksisterer ikke længere. Du kan gå tilbage til <a href=\"%s\">forsiden</a>, og se om du kan finde det, du leder efter, eller du kan bruge søgeformularen nedenfor. "
+
+#: 404.php:30
+msgid "Not found, error 404"
+msgstr "Ikke fundet, fejl 404"
+
+#: search.php:22
+msgid "Search Results for:"
+msgstr "Søgeresultater for:"
+
+#: lib/classes/class-genesis-contributor.php:112
+msgid "Contributor"
+msgstr "Bidragyder"
+
+#: lib/views/pages/genesis-admin-upgraded.php:103
+msgid "Contributors"
+msgstr "Bidragydere"
+
+#: lib/classes/class-genesis-contributor.php:113
+msgid "Lead Developer"
+msgstr "Ledende udvikler"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:1
+msgid "These settings apply to any page given the \"Blog\" page template, not the homepage or post archive pages."
+msgstr "Disse indstillinger gælder for alle sider der benytter \"Blog\" sideskabelonen, ikke forsiden eller arkivsider."
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:18
+msgid "Homepage"
+msgstr "Forside"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:15
+msgid "Posts Page"
+msgstr "Indlægsside"
+
+#: lib/admin/theme-settings.php:288
+msgid "Blog Page Template"
+msgstr "Blog Side Skabelon"
+
+#: lib/admin/theme-settings.php:234 lib/admin/theme-settings.php:279
+#: lib/views/help/genesis-navigation.php:1
+msgid "Navigation"
+msgstr "Navigation"
+
+#: lib/admin/theme-settings.php:231 lib/admin/theme-settings.php:275
+#: lib/views/help/genesis-header.php:1
+msgid "Header"
+msgstr "Header"
+
+#. translators: Escaped HTML head tag, abbreviation expansion for SEO.
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:6
+msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no %2$s value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
+msgstr ""
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:57
+msgid "The meta description can be used to determine the text used under the title on search engine results pages."
+msgstr "Metabeskrivelsen kan bruges til, at bestemme teksten der bruges under titlen på søgemaskiners resultatsider."
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:38
+msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
+msgstr "Hvis dokumenttitelfeltet er tomt, vil din hjemmesides titel blive brugt i stedet."
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:24
+msgid "Site Description (Tagline)"
+msgstr "Hjemmesidebeskrivelse (Tagline)"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:31
+msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
+msgstr "Hvis titlen består af to dele (original titel og tilføjelse), vil separatoren blive indsat mellem dem."
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:29
+msgid "Document Title Separator"
+msgstr "Dokumenttitel-separator"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:44
+msgid "Determines which side the added title text will go on."
+msgstr "Bestemmer på hvilken side den tilføjede titeltekst bliver paceret."
+
+#. translators: Escaped title tag.
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:24
+msgid "Add site name to %s on inner pages?"
+msgstr "Tilføj hjemmesidenavn til %s på undersider?"
+
+#. translators: Escaped title tag.
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:45
+msgid "Add site description (tagline) to %s on home page?"
+msgstr "Tilføj hjemmesidebeskrivelse (tagline) til %s på forsiden?"
+
+#: lib/widgets/user-profile-widget.php:43
+msgid "Read More"
+msgstr "Læs mere"
+
+#: lib/structure/search.php:28 lib/structure/search.php:47
+msgid "Search this website"
+msgstr "Søg på sitet"
+
+#: lib/structure/loops.php:250
+msgid "Read more"
+msgstr "Læs mere"
+
+#: lib/views/pages/genesis-admin-upgraded.php:129
+msgid "Go to SEO Settings &rarr;"
+msgstr "Gå til SEO indstillinger &rarr;"
+
+#: lib/views/pages/genesis-admin-upgraded.php:127
+msgid "Go to Theme Settings &rarr;"
+msgstr "Gå til Tema indstillinger &rarr;"
+
+#: lib/views/pages/genesis-admin-upgraded.php:78
+msgid "Project Leads"
+msgstr "Projektledere"
+
+#. translators: %s: Genesis version
+#: lib/admin/whats-new.php:37
+msgid "Welcome to Genesis %s"
+msgstr "Velkommen til Genesis %s"
+
+#: lib/admin/user-meta.php:27
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/admin/customizer.php:143
+msgid "Use for site title/logo:"
+msgstr "Brug til sidens titel/logo:"
+
+#: lib/structure/footer.php:149
+msgid "on"
+msgstr "til"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-settings.php:24
+#: lib/views/meta-boxes/genesis-term-meta-settings.php:18
+msgid "Leave empty if you do not want to display any intro text."
+msgstr "Skal være blank hvis der ikke skal vises en intro tekst"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-settings.php:21
+#: lib/views/meta-boxes/genesis-term-meta-settings.php:15
+msgid "Archive Intro Text"
+msgstr "Arkiv introduktions tekst"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-settings.php:16
+#: lib/views/meta-boxes/genesis-term-meta-settings.php:11
+msgid "Leave empty if you do not want to display a headline."
+msgstr "Skal være blank hvis der ikke skal vises en overskrift"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-settings.php:13
+#: lib/views/meta-boxes/genesis-term-meta-settings.php:8
+msgid "Archive Headline"
+msgstr "Arkiv overskrift"
+
+#: lib/admin/seo-settings.php:49 lib/admin/theme-settings.php:64
+#: lib/classes/admin.php:133
+msgid "Error saving settings."
+msgstr "Problem med at gemme indstillingerne"
+
+#: lib/widgets/user-profile-widget.php:185
+msgid "Custom Text Content"
+msgstr "Brugerdefineret indhold"
+
+#: lib/init.php:58
+msgid "Secondary Navigation Menu"
+msgstr "Sekundær Navigation Menu"
+
+#: lib/functions/widgetize.php:119
+msgid "Header Left"
+msgstr "Header venstre"
+
+#: lib/widgets/user-profile-widget.php:196
+msgid "Extended page link text"
+msgstr "Udvidet sidelinktekst"
+
+#: lib/functions/widgetize.php:175
+msgid "Footer %d widget area."
+msgstr "Footer %d widget område."
+
+#: lib/functions/widgetize.php:142
+msgid "This is the secondary sidebar if you are using a three column site layout option."
+msgstr "Dette er den sekundære sidebar hvis du bruger det 3 spaltede sidelayout"
+
+#: lib/functions/widgetize.php:131
+msgid "This is the primary sidebar if you are using a two or three column site layout option."
+msgstr "Dette er den primære Sidebar, hvis du bruger 2 eller 3 spalter som sitelayout"
+
+#: lib/functions/deprecated.php:195
+msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
+msgstr "Argumentet \"context\", er blevet erstattet med \"theme_location\" i $args array'et."
+
+#: lib/classes/admin.php:140
+msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
+msgstr "Du kan ikke bruge %s til at lave to menuer i samme subclass. Brug venligsts seperate subclasses til hver menu."
+
+#: lib/views/meta-boxes/genesis-user-author.php:1
+msgid "Author Archive Settings"
+msgstr "Forfatter arkiv indstillinger"
+
+#: lib/views/meta-boxes/genesis-user-settings.php:1
+msgid "User Permissions"
+msgstr "Brugerrettigheder"
+
+#: lib/views/meta-boxes/genesis-theme-settings-style-selector.php:23
+msgid "Please select the color style from the drop down list and save your settings."
+msgstr "Vælg venligst farve i listen og gem dine indstillinger"
+
+#: lib/views/meta-boxes/genesis-theme-settings-style-selector.php:9
+msgid "Color Style:"
+msgstr "Farve:"
+
+#. translators: Escaped HTML head tag.
+#. translators: Escaped HTML body tag.
+#: lib/views/meta-boxes/genesis-theme-settings-scripts.php:11
+#: lib/views/meta-boxes/genesis-theme-settings-scripts.php:24
+msgid "This code will output immediately before the closing %s tag in the document source."
+msgstr "Denne kode vil blive indsat umiddelbart før det afsluttende %s-tag i dokumentets kildekode."
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:40
+msgid "Image Size:"
+msgstr "Billedstørrelse:"
+
+#: lib/admin/theme-settings.php:265
+msgid "Color Style"
+msgstr "Farve"
+
+#: lib/admin/theme-settings.php:82
+msgid "Follow me on Twitter"
+msgstr "Følg mig på twitter"
+
+#: lib/admin/cpt-archive-settings.php:60 lib/admin/cpt-archive-settings.php:61
+#: lib/admin/cpt-archive-settings.php:149
+#: lib/admin/cpt-archive-settings.php:170
+#: lib/views/help/cpt-archive-archive.php:1
+#: lib/views/meta-boxes/genesis-term-meta-settings.php:4
+msgid "Archive Settings"
+msgstr "Arkiv indstillinger"
+
+#. translators: Meta rel attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:20
+msgid "Adjacent Posts %s link tags"
+msgstr "Sidestillede indlægs %s link tags"
+
+#: lib/admin/cpt-archive-settings.php:156
+#: lib/admin/cpt-archive-settings.php:172 lib/admin/inpost-metaboxes.php:199
+#: lib/views/help/cpt-archive-layout.php:1
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:11
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:15
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:1
+#: lib/views/meta-boxes/genesis-user-layout.php:5
+msgid "Layout Settings"
+msgstr "Layout indstillinger"
+
+#: lib/admin/inpost-metaboxes.php:29 lib/admin/inpost-metaboxes.php:60
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:1
+msgid "Theme SEO Settings"
+msgstr "Tema SEO indstillinger"
+
+#: lib/functions/formatting.php:367
+msgctxt "separator in time difference"
+msgid "and"
+msgstr "og"
+
+#: lib/functions/formatting.php:340
+msgctxt "time difference"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s sekund"
+msgstr[1] "%s sekunder"
+
+#: lib/functions/formatting.php:339
+msgctxt "time difference"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minutter"
+
+#: lib/functions/formatting.php:338
+msgctxt "time difference"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s time"
+msgstr[1] "%s timer"
+
+#: lib/functions/formatting.php:337
+msgctxt "time difference"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dag"
+msgstr[1] "%s dage"
+
+#: lib/functions/formatting.php:336
+msgctxt "time difference"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s uge"
+msgstr[1] "%s uger"
+
+#: lib/functions/formatting.php:335
+msgctxt "time difference"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s måned"
+msgstr[1] "%s måneder"
+
+#: lib/functions/formatting.php:334
+msgctxt "time difference"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s år"
+msgstr[1] "%s år"
+
+#: lib/functions/formatting.php:329
+msgctxt "time difference"
+msgid "seconds"
+msgstr "sekunder"
+
+#: lib/admin/customizer.php:369
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:71
+msgid "These options will affect any blog listings page, including archive, author, blog, category, search, and tag pages."
+msgstr "Disse indstillinger vil påvirke enhver blog liste side, herunder arkiver, forfatter, blog, kategori, søgning og tag sider."
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:31
+msgid "404 Page"
+msgstr "404 fejl side"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:28
+msgid "Archives"
+msgstr "Arkiver"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:25
+msgid "Pages"
+msgstr "Sider"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:12
+msgid "Front Page"
+msgstr "Forside"
+
+#: lib/admin/theme-settings.php:241 lib/admin/theme-settings.php:291
+#: lib/views/help/genesis-scripts.php:1
+msgid "Header and Footer Scripts"
+msgstr "Header og Footer Scripts"
+
+#: lib/admin/customizer.php:320 lib/admin/theme-settings.php:238
+#: lib/admin/theme-settings.php:286 lib/views/help/genesis-comments.php:1
+msgid "Comments and Trackbacks"
+msgstr "Kommentarer og Trackbacks"
+
+#: lib/admin/theme-settings.php:230 lib/admin/theme-settings.php:271
+#: lib/views/help/genesis-layout.php:1
+#: lib/views/meta-boxes/genesis-theme-settings-layout.php:8
+msgid "Default Layout"
+msgstr "Standard layout"
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:67
+msgid "Keywords are generally ignored by Search Engines."
+msgstr "<b>BEMÆRK:</b> Keywords bliver generelt ignoreret af søgemaskiner."
+
+#: lib/admin/seo-settings.php:47 lib/admin/theme-settings.php:62
+#: lib/classes/admin.php:131
+msgid "Settings saved."
+msgstr "Indstillingerne er gemt"
+
+#: lib/admin/seo-settings.php:48 lib/admin/theme-settings.php:63
+#: lib/classes/admin.php:132
+msgid "Settings reset."
+msgstr "Indstillingerne er nulstillet"
+
+#: lib/admin/import-export.php:100
+msgid "Settings successfully imported."
+msgstr "Indstillingerne er blevet importeret!"
+
+#: lib/views/pages/genesis-admin-import-export.php:24
+msgid "Upload File and Import"
+msgstr "Upload fil og importer"
+
+#: lib/views/pages/genesis-admin-import-export.php:16
+msgid "Choose the file from your computer and click \"Upload file and Import\""
+msgstr "Vælg filen fra din computer og klik på \"Upload og Importer\""
+
+#: lib/admin/customizer.php:195
+#: lib/views/meta-boxes/genesis-theme-settings-style-selector.php:12
+msgid "Default"
+msgstr "Standard"
+
+#: lib/structure/post.php:666 lib/structure/post.php:786
+msgid "Next Page"
+msgstr "Næste side"
+
+#: lib/structure/post.php:665 lib/structure/post.php:748
+msgid "Previous Page"
+msgstr "Forrige side"
+
+#: lib/shortcodes/post.php:45 lib/shortcodes/post.php:129
+msgid "ago"
+msgstr "siden"
+
+#: lib/classes/class-genesis-script-loader.php:177
+msgid "Select / Deselect All"
+msgstr "Vælg / fravælg alle"
+
+#: lib/admin/import-export.php:145
+msgid "No export options available."
+msgstr "Der er ingen tilgængelig eksport funktion"
+
+#: lib/functions/widgetize.php:174
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: lib/functions/layout.php:113
+msgid "No Label Selected"
+msgstr "Der ikke valgt nogen label"
+
+#: lib/admin/import-export.php:102
+msgid "There was a problem importing your settings. Please try again."
+msgstr "Der opstod et problem ved import af dine indstillinger. Prøv venligst igen."
+
+#: lib/functions/markup.php:1117 lib/functions/widgetize.php:141
+msgid "Secondary Sidebar"
+msgstr "Sekundær Sidebar"
+
+#: lib/functions/markup.php:1096 lib/functions/widgetize.php:130
+msgid "Primary Sidebar"
+msgstr "Primær Sidebar"
+
+#: lib/functions/widgetize.php:119
+msgid "Header Right"
+msgstr "Header Højre"
+
+#: lib/classes/breadcrumb.php:60
+msgid "Not found: "
+msgstr "Ikke fundet: "
+
+#: lib/widgets/featured-post-widget.php:546
+msgid "No Content"
+msgstr "Intet indhold"
+
+#: lib/widgets/featured-post-widget.php:545
+msgid "Show Content Limit"
+msgstr "Vis begrænset indhold"
+
+#: lib/widgets/featured-post-widget.php:544
+msgid "Show Excerpt"
+msgstr "Vis uddrag"
+
+#: lib/widgets/featured-post-widget.php:543
+msgid "Show Content"
+msgstr "Vis indhold"
+
+#: lib/widgets/featured-post-widget.php:541
+msgid "Content Type"
+msgstr "Indholdstype"
+
+#: lib/widgets/featured-post-widget.php:533
+msgid "Show Post Info"
+msgstr "Vis Post Info"
+
+#: lib/widgets/featured-page-widget.php:286
+#: lib/widgets/featured-post-widget.php:493
+msgid "Show Featured Image"
+msgstr "Vis det udvalgte billed"
+
+#: lib/views/meta-boxes/genesis-user-author.php:22
+msgid "This text will be the first paragraph, and display on the first page"
+msgstr "Denne tekst vil være det første afsnit og vises på den første side"
+
+#: lib/views/meta-boxes/genesis-user-author.php:19
+msgid "Custom Description Text"
+msgstr "Custom beskrivelse tekst"
+
+#. translators: Escaped H1 tag.
+#: lib/views/meta-boxes/genesis-user-author.php:12
+msgid "Will display in the %s tag at the top of the first page"
+msgstr "Vises i %s tag i toppen af den første side"
+
+#: lib/views/meta-boxes/genesis-user-author.php:6
+msgid "Custom Archive Headline"
+msgstr "Custom arkiv overskrift"
+
+#: lib/views/meta-boxes/genesis-user-author.php:2
+#: lib/views/meta-boxes/genesis-user-layout.php:6
+#: lib/views/meta-boxes/genesis-user-seo.php:2
+msgid "These settings apply to this author's archive pages."
+msgstr "Disse indstillinger gælder for denne forfatters arkiv sider."
+
+#: lib/views/meta-boxes/genesis-user-author.php:33
+msgid "Enable Author Box on this User's Archives?"
+msgstr "Aktiver forfatter boks på denne brugers arkiv?"
+
+#: lib/views/meta-boxes/genesis-user-author.php:30
+msgid "Enable Author Box on this User's Posts?"
+msgstr "Aktiver forfatter boks på denne brugers indlæg?"
+
+#: lib/views/meta-boxes/genesis-user-settings.php:16
+msgid "Enable Import/Export Submenu?"
+msgstr "Aktiver Import/Export undermenu?"
+
+#: lib/views/meta-boxes/genesis-user-settings.php:12
+msgid "Enable SEO Settings Submenu?"
+msgstr "Aktiver SEO undermenuen?"
+
+#: lib/views/meta-boxes/genesis-user-settings.php:8
+msgid "Enable Genesis Admin Menu?"
+msgstr "Aktiver Genesis Admin menu?"
+
+#: lib/views/meta-boxes/genesis-user-settings.php:5
+msgid "Genesis Admin Menus"
+msgstr "Genesis Admin menuer"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:36
+msgid "Include the Featured Image?"
+msgstr "Include the Featured Image?"
+
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:6
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:9
+#: lib/views/meta-boxes/genesis-user-layout.php:10
+#: lib/views/meta-boxes/genesis-user-layout.php:13
+msgid "Choose Layout"
+msgstr "Vælg Layout"
+
+#: lib/admin/import-export.php:46 lib/admin/import-export.php:64
+#: lib/views/help/import-export-general.php:1
+msgid "Import/Export"
+msgstr "Importer/Exporter"
+
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:36
+msgid "Custom Post Class"
+msgstr "Custom Post klasse"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:32
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:31
+msgid "Custom Body Class"
+msgstr "Custom Body klasse"
+
+#: lib/views/help/genesis-inpost-seo.php:21
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:45
+msgid "Custom Redirect URL"
+msgstr "Custom Redirect URI"
+
+#. translators: Title string length
+#. translators: Description string length
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:15
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:28
+msgid "Characters Used: %s"
+msgstr "Antal anvendte tegn: %s"
+
+#: lib/views/pages/genesis-admin-import-export.php:47
+msgid "Download Export File"
+msgstr "Download Eksport fil"
+
+#: lib/views/pages/genesis-admin-import-export.php:40
+msgid "Once you have saved the download file, you can use the import function on another site to import this data."
+msgstr "Når du har downloadet filen og gemt den, kan du importere den på et andet site ved hjælp af importfunktionen. "
+
+#: lib/views/pages/genesis-admin-import-export.php:32
+msgid "Export Genesis Settings File"
+msgstr "Eksporter Genesis Indstillingsfil"
+
+#: lib/views/pages/genesis-admin-import-export.php:21
+msgid "Upload File (Maximum Size: %s): "
+msgstr "Upload fil: (Maksimal størrelse: %s)"
+
+#: lib/views/pages/genesis-admin-import-export.php:8
+msgid "Import Genesis Settings File"
+msgstr "Importer Genesis opsætningsfil"
+
+#: lib/admin/import-export.php:45
+msgid "Genesis - Import/Export"
+msgstr "Genesis - Import/Export"
+
+#: lib/widgets/user-profile-widget.php:202
+msgid "Show Author Archive Link?"
+msgstr "Vis Forfatter Arkiv Link?"
+
+#: lib/widgets/user-profile-widget.php:191
+msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
+msgstr "Vælg din udvidede \"Om mig \" side fra listen nedenfor. Den valgte side bliver linket i bunden af \"Om mig\" siden"
+
+#: lib/widgets/user-profile-widget.php:184
+msgid "Custom Text (below)"
+msgstr "Standard Tekst (nedenfor)"
+
+#: lib/widgets/user-profile-widget.php:182
+msgid "Author Bio"
+msgstr "Forfatter Biografi"
+
+#: lib/widgets/user-profile-widget.php:179
+msgid "Select which text you would like to use as the author description"
+msgstr "Vælg hvilken tekst, du ønsker at bruge som forfatteren beskrivelse"
+
+#: lib/widgets/user-profile-widget.php:161
+msgid "Extra Large"
+msgstr "Ekstra Stor"
+
+#: lib/widgets/user-profile-widget.php:161
+msgid "Large"
+msgstr "Stor"
+
+#: lib/widgets/user-profile-widget.php:161
+msgid "Medium"
+msgstr "Mellem"
+
+#: lib/widgets/user-profile-widget.php:161
+msgid "Small"
+msgstr "Lille"
+
+#: lib/widgets/user-profile-widget.php:153
+msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
+msgstr "Vælg en bruger. Kontoens e-mail-adresse vil blive brugt til at tilføje brugerens Gravatar billede."
+
+#: lib/widgets/user-profile-widget.php:107
+msgid "View My Blog Posts"
+msgstr "Se mine blogindlæg"
+
+#: lib/widgets/user-profile-widget.php:58
+msgid "Genesis - User Profile"
+msgstr "Genesis - Brugerprofil"
+
+#: lib/widgets/user-profile-widget.php:49
+msgid "Displays user profile block with Gravatar"
+msgstr "Vis bruger profil boks med Gravatar"
+
+#: lib/widgets/featured-post-widget.php:586
+msgid "Link Text"
+msgstr "Link Tekst"
+
+#: lib/widgets/featured-post-widget.php:582
+msgid "Show Category Archive Link"
+msgstr "Vis Kategori Arkiv Links"
+
+#: lib/widgets/featured-post-widget.php:564
+msgid "To display an unordered list of more posts from this category, please fill out the information below"
+msgstr "For at vise en usorteret liste af indlæg fra denne kategori, bedes du udfylde nedenstående oplysninger"
+
+#: lib/widgets/featured-post-widget.php:556
+msgid "More Text (if applicable)"
+msgstr "Mere Tekst (hvis relevant)"
+
+#: lib/widgets/featured-post-widget.php:528
+msgid "Show Post Title"
+msgstr "Vis Indlæggets Titel"
+
+#: lib/widgets/featured-post-widget.php:479
+#: lib/widgets/user-profile-widget.php:170
+msgid "Gravatar Alignment"
+msgstr "Gravatar justering"
+
+#: lib/widgets/featured-post-widget.php:474
+msgid "Extra Large (125px)"
+msgstr "Ekstra stor (125px)"
+
+#: lib/widgets/featured-post-widget.php:473
+msgid "Large (85px)"
+msgstr "Stor (85px)"
+
+#: lib/widgets/featured-post-widget.php:472
+msgid "Medium (65px)"
+msgstr "Mellem (65px)"
+
+#: lib/widgets/featured-post-widget.php:471
+msgid "Small (45px)"
+msgstr "Lille (45px)"
+
+#: lib/widgets/featured-post-widget.php:469
+#: lib/widgets/user-profile-widget.php:158
+msgid "Gravatar Size"
+msgstr "Gravatar størrelse"
+
+#: lib/widgets/featured-post-widget.php:465
+msgid "Show Author Gravatar"
+msgstr "Vis forfatter Gravatar"
+
+#: lib/widgets/featured-post-widget.php:445
+msgid "Ascending (1, 2, 3)"
+msgstr "Stigende (1, 2, 3)"
+
+#: lib/widgets/featured-post-widget.php:444
+msgid "Descending (3, 2, 1)"
+msgstr "Faldende (3, 2, 1)"
+
+#: lib/widgets/featured-post-widget.php:442
+msgid "Sort Order"
+msgstr "Sorteringsrækkefølge"
+
+#: lib/widgets/featured-post-widget.php:437
+msgid "Random"
+msgstr "Tilfældig"
+
+#: lib/widgets/featured-post-widget.php:436
+msgid "Comment Count"
+msgstr "Antal kommentarer"
+
+#: lib/widgets/featured-post-widget.php:435
+msgid "ID"
+msgstr "ID"
+
+#: lib/widgets/featured-post-widget.php:434
+msgid "Parent"
+msgstr "Forældre"
+
+#: lib/widgets/featured-post-widget.php:432
+msgid "Date"
+msgstr "Dato"
+
+#: lib/widgets/featured-post-widget.php:430
+msgid "Order By"
+msgstr "Sorteres efter"
+
+#: lib/widgets/featured-post-widget.php:425
+msgid "Number of Posts to Offset"
+msgstr "Forskyd start med antal indlæg"
+
+#: lib/widgets/featured-post-widget.php:405
+msgid "Category"
+msgstr "Kategori"
+
+#: lib/widgets/featured-post-widget.php:61
+msgid "More Posts from this Category"
+msgstr "Flere indlæg fra denne kategori"
+
+#: lib/widgets/featured-post-widget.php:57
+msgid "[Read More...]"
+msgstr "[Læs videre...]"
+
+#: lib/widgets/featured-post-widget.php:75
+msgid "Genesis - Featured Posts"
+msgstr "Genesis - Feature Indlæg"
+
+#: lib/widgets/featured-post-widget.php:66
+msgid "Displays featured posts with thumbnails"
+msgstr "Vis feature-indlæg med thumbnails"
+
+#: lib/widgets/featured-page-widget.php:329
+msgid "More Text"
+msgstr "Mere tekst"
+
+#: lib/widgets/featured-page-widget.php:324
+msgid "Content Character Limit"
+msgstr "Grænse for antal tegn"
+
+#: lib/widgets/featured-page-widget.php:320
+msgid "Show Page Content"
+msgstr "Vis Side Indhold"
+
+#: lib/widgets/featured-page-widget.php:315
+msgid "Show Page Title"
+msgstr "Vis side titel"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:29
+#: lib/widgets/featured-page-widget.php:304
+#: lib/widgets/featured-post-widget.php:481
+#: lib/widgets/featured-post-widget.php:511
+#: lib/widgets/user-profile-widget.php:172
+#: lib/widgets/user-profile-widget.php:192
+msgid "None"
+msgstr "Ingen"
+
+#: lib/widgets/featured-page-widget.php:302
+#: lib/widgets/featured-post-widget.php:509
+msgid "Image Alignment"
+msgstr "Billedjustering"
+
+#: lib/widgets/featured-page-widget.php:271
+msgid "Page"
+msgstr "Side"
+
+#: lib/shortcodes/footer.php:183 lib/structure/post.php:280
+msgid "by"
+msgstr "af"
+
+#: lib/widgets/featured-page-widget.php:60
+msgid "Genesis - Featured Page"
+msgstr "Genesis - Fremhævet Side"
+
+#: lib/widgets/featured-page-widget.php:51
+msgid "Displays featured page with thumbnails"
+msgstr "Vis feature-side med thumbnails"
+
+#: lib/widgets/featured-page-widget.php:266
+#: lib/widgets/featured-post-widget.php:396
+#: lib/widgets/featured-post-widget.php:433
+#: lib/widgets/featured-post-widget.php:567
+#: lib/widgets/user-profile-widget.php:148
+msgid "Title"
+msgstr "Titel"
+
+#: lib/classes/breadcrumb.php:57
+msgid "Search for "
+msgstr "Søg efter "
+
+#: lib/classes/breadcrumb.php:53 lib/classes/breadcrumb.php:54
+#: lib/classes/breadcrumb.php:55 lib/classes/breadcrumb.php:56
+#: lib/classes/breadcrumb.php:58 lib/classes/breadcrumb.php:59
+#: lib/structure/archive.php:181 lib/structure/archive.php:183
+#: lib/structure/archive.php:185
+msgid "Archives for "
+msgstr "Arkiv for "
+
+#: lib/classes/breadcrumb.php:52
+msgid "You are here: "
+msgstr "Du er her: "
+
+#: lib/structure/sidebar.php:41
+msgid "Secondary Sidebar Widget Area"
+msgstr "Smalt Sidebar Widget område"
+
+#: lib/structure/sidebar.php:25
+msgid "Primary Sidebar Widget Area"
+msgstr "Hoved-sidebar Widget område"
+
+#: lib/structure/search.php:30
+msgid "Search"
+msgstr "Søg"
+
+#: lib/structure/post.php:550 lib/structure/post.php:579
+msgid "About"
+msgstr "Om"
+
+#: lib/widgets/featured-post-widget.php:54
+msgid "By"
+msgstr "Af"
+
+#: lib/structure/post.php:365 lib/structure/post.php:367
+msgid "[Read more...]"
+msgstr "[Læs mere...]"
+
+#: lib/structure/menu.php:149
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: lib/structure/menu.php:148
+msgid "Posts"
+msgstr "Indlæg"
+
+#: lib/init.php:57
+msgid "Primary Navigation Menu"
+msgstr "Primær Navigation Menu"
+
+#: lib/structure/footer.php:149
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lib/structure/comments.php:447
+msgid "Speak Your Mind"
+msgstr "Skriv kommentar"
+
+#: lib/structure/comments.php:438
+msgid "Website"
+msgstr "Websted"
+
+#: lib/structure/comments.php:432
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/structure/comments.php:426
+msgid "Name"
+msgstr "Navn"
+
+#: lib/structure/comments.php:248 lib/structure/comments.php:351
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter på at blive godkendt"
+
+#: lib/structure/comments.php:241
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: lib/structure/comments.php:237 lib/structure/comments.php:306
+msgid "says"
+msgstr "skriver"
+
+#: lib/structure/comments.php:237
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/structure/comments.php:151
+msgid "<h3>Trackbacks</h3>"
+msgstr "<h3>Trackbacks</h3>"
+
+#: lib/structure/comments.php:72
+msgid "<h3>Comments</h3>"
+msgstr "<h3>Kommentarer</h3>"
+
+#: lib/shortcodes/post.php:605 lib/structure/comments.php:242
+#: lib/structure/comments.php:335 lib/structure/post.php:357
+msgid "(Edit)"
+msgstr "(rediger)"
+
+#: lib/shortcodes/post.php:498 lib/shortcodes/post.php:542
+msgid "Filed Under: "
+msgstr "Skrevet i: "
+
+#: lib/shortcodes/post.php:454
+msgid "Tagged With: "
+msgstr "Tags: "
+
+#: lib/shortcodes/post.php:405
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: lib/shortcodes/post.php:406
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: lib/shortcodes/post.php:407
+msgid "Leave a Comment"
+msgstr "Skriv kommentar"
+
+#: lib/shortcodes/footer.php:310
+msgid "Log out"
+msgstr "Log ud"
+
+#: lib/shortcodes/footer.php:308
+msgid "Log in"
+msgstr "Log ind"
+
+#: lib/shortcodes/footer.php:40
+msgid "Return to top of page"
+msgstr "Tilbage til toppen"
+
+#: lib/functions/upgrade.php:728
+msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
+msgstr "Genesis %s er tilgængelig. Hvis du ikke bruger et oversættelses-plugin, så kontakt din webmaster for at få opdateret din sprogfil før, du opdaterer Genesis"
+
+#: lib/functions/upgrade.php:727
+msgid "Genesis %s is available for %s"
+msgstr "Genesis %s er tilgængelig til %s"
+
+#: lib/functions/upgrade.php:653
+msgid "Click here to complete the upgrade"
+msgstr "Klik her får at afslutte opdateringen"
+
+#: lib/classes/breadcrumb.php:44 lib/functions/deprecated.php:226
+msgid "Home"
+msgstr "Forside"
+
+#: lib/widgets/featured-post-widget.php:420
+#: lib/widgets/featured-post-widget.php:572
+msgid "Number of Posts to Show"
+msgstr "Antal indlæg som vises"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:9
+#: lib/widgets/featured-post-widget.php:413
+msgid "All Categories"
+msgstr "Alle kategorier"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:8
+msgid "Display which category"
+msgstr "Vis hvilken katagori"
+
+#: lib/admin/customizer.php:482
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:68
+msgid "Numeric"
+msgstr "Numre"
+
+#: lib/admin/customizer.php:481
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:67
+msgid "Previous / Next"
+msgstr "Forrige / Næste"
+
+#: lib/widgets/featured-page-widget.php:290
+#: lib/widgets/featured-post-widget.php:497
+msgid "Image Size"
+msgstr "Billedstørrelse"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:28
+#: lib/widgets/featured-post-widget.php:551
+msgid "characters"
+msgstr "tegn"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:25
+#: lib/widgets/featured-post-widget.php:549
+msgid "Limit content to"
+msgstr "Længde af uddrag"
+
+#: lib/admin/customizer.php:419
+msgid "Select one of the following"
+msgstr "Vælg en af følgende:"
+
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:21
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:24
+msgid "Enable Trackbacks"
+msgstr "Tillad Trackbacks"
+
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:14
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:30
+msgid "on pages?"
+msgstr "på sider?"
+
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:11
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:27
+msgid "on posts?"
+msgstr "på indlæg?"
+
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:5
+#: lib/views/meta-boxes/genesis-theme-settings-comments.php:8
+msgid "Enable Comments"
+msgstr "Tillad Kommentarer"
+
+#: lib/views/meta-boxes/genesis-theme-settings-feeds.php:13
+msgid "Enter your custom comments feed URL"
+msgstr "Skriv URL for dit brugerdefinerede kommentar-feed"
+
+#: lib/views/meta-boxes/genesis-theme-settings-feeds.php:5
+msgid "Enter your custom feed URL"
+msgstr "Skriv URL for dit brugerdefinerede feed"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:42
+msgid "Twitter Link Text:"
+msgstr "Tekst til Twitter Link"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:38
+msgid "Enter Twitter ID:"
+msgstr "Indtast Twitter ID:"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:33
+msgid "Twitter link"
+msgstr "Link til Twitter"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:32
+msgid "Search form"
+msgstr "Søgeformular"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:31
+msgid "RSS feed links"
+msgstr "RSS feed links"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:30
+msgid "Today's date"
+msgstr "Dags dato"
+
+#: lib/functions/layout.php:63 lib/views/help/cpt-archive-layout.php:11
+#: lib/views/help/genesis-layout.php:11
+msgid "Full Width Content"
+msgstr "Indhold i fuld bredde"
+
+#: lib/admin/customizer.php:149
+#: lib/views/meta-boxes/genesis-theme-settings-header.php:9
+msgid "Image logo"
+msgstr "Billed/Grafik logo"
+
+#: lib/views/meta-boxes/genesis-theme-settings-header.php:8
+msgid "Dynamic text"
+msgstr "Dynamisk tekst"
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:10
+msgid "Released"
+msgstr "Frigivet"
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:5
+msgid "Version"
+msgstr "Version:"
+
+#: lib/admin/customizer.php:368 lib/admin/theme-settings.php:239
+#: lib/admin/theme-settings.php:287 lib/views/help/genesis-archives.php:1
+msgid "Content Archives"
+msgstr "Præsentation af ældre Arkiv indhold"
+
+#: lib/admin/customizer.php:253 lib/admin/theme-settings.php:237
+#: lib/admin/theme-settings.php:283 lib/views/help/genesis-breadcrumbs.php:1
+msgid "Breadcrumbs"
+msgstr "Brødkrummer"
+
+#: lib/views/meta-boxes/genesis-user-author.php:27
+msgid "Author Box"
+msgstr "Forfatter boks"
+
+#: lib/admin/theme-settings.php:229 lib/admin/theme-settings.php:268
+#: lib/views/help/genesis-feeds.php:1
+msgid "Custom Feeds"
+msgstr "Egne Feeds"
+
+#: lib/admin/theme-settings.php:228 lib/admin/theme-settings.php:262
+#: lib/views/help/genesis-information.php:1
+msgid "Information"
+msgstr "Information"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta nofollow attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:32
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:39
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:46
+#: lib/views/meta-boxes/genesis-user-seo.php:33
+#: lib/views/meta-boxes/genesis-user-seo.php:41
+#: lib/views/meta-boxes/genesis-user-seo.php:48
+msgid "Apply %s to this archive?"
+msgstr "Anvend %s i dette arkiv?"
+
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:27
+#: lib/views/meta-boxes/genesis-user-seo.php:28
+msgid "Robots Meta"
+msgstr "Robot Meta"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:22
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:22
+#: lib/views/meta-boxes/genesis-user-seo.php:23
+msgid "Comma separated list"
+msgstr "Kommasepareret liste"
+
+#. translators: Meta noodp attribute.
+#. translators: Meta noydir attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:117
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:124
+msgid "Apply %s to your site?"
+msgstr "Tilføj %s til dit site?"
+
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:59
+msgid "Apply %s to Entire Site?"
+msgstr "Tilføj %s til hele Siten?"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:39
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:96
+msgid "Apply %s to Search Archives?"
+msgstr "Anvend %s i Søge Arkiv?"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:32
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:89
+msgid "Apply %s to Date Archives?"
+msgstr "Anvend %s i Dato Arkiv?"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:25
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:82
+msgid "Apply %s to Author Archives?"
+msgstr "Anvend %s i Forfatter Arkiv?"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:18
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:75
+msgid "Apply %s to Tag Archives?"
+msgstr "Anvend %s i Tag Arkiv?"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:11
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:68
+msgid "Apply %s to Category Archives?"
+msgstr "Anvend %s i Kategori Arkiv?"
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:42
+msgid "Include Shortlink tag?"
+msgstr "Anvend Shortlink tag?"
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:38
+msgid "Shortlink Tag"
+msgstr "Shortlink Tag:"
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:32
+msgid "Include Windows Live Writer Support Tag?"
+msgstr "Anvend Windows Live Writer Support Tag?"
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:14
+msgid "Relationship Link Tags"
+msgstr "Relation Link Tags"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta nofollow attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:79
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:86
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:93
+msgid "Apply %s to the homepage?"
+msgstr "Anvend %s på hjemmesiden?"
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:27
+msgid "I'll manually wrap my own text on the homepage"
+msgstr "Ingen af delene. Jeg pakker selv teksten manuelt til hjemmesiden"
+
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:21
+msgid "Site Title"
+msgstr "Site titel"
+
+#: lib/admin/customizer.php:467
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:55
+#: lib/widgets/featured-page-widget.php:306
+#: lib/widgets/featured-post-widget.php:483
+#: lib/widgets/featured-post-widget.php:513
+#: lib/widgets/user-profile-widget.php:174
+msgid "Right"
+msgstr "højre"
+
+#: lib/admin/customizer.php:466
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:54
+#: lib/widgets/featured-page-widget.php:305
+#: lib/widgets/featured-post-widget.php:482
+#: lib/widgets/featured-post-widget.php:512
+#: lib/widgets/user-profile-widget.php:173
+msgid "Left"
+msgstr "venstre"
+
+#: lib/classes/class-genesis-script-loader.php:180
+msgid "Are you sure you want to reset?"
+msgstr "Er du sikker på, at du vil nulstille?"
+
+#: lib/admin/seo-settings.php:46 lib/admin/theme-settings.php:61
+#: lib/classes/admin.php:130
+msgid "Reset Settings"
+msgstr "Nulstil indstillingerne"
+
+#: lib/admin/seo-settings.php:39
+msgid "Genesis - SEO Settings"
+msgstr "Genesis - SEO indstillinger"
+
+#: lib/admin/seo-settings.php:168 lib/admin/seo-settings.php:185
+#: lib/views/help/seo-dochead.php:1
+msgid "Document Head Settings"
+msgstr "Dokument Head indstillinger"
+
+#: lib/admin/seo-settings.php:167 lib/admin/seo-settings.php:184
+#: lib/views/help/seo-homepage.php:1
+msgid "Homepage Settings"
+msgstr "Sitets indstillinger"
+
+#: lib/admin/cpt-archive-settings.php:152
+#: lib/admin/cpt-archive-settings.php:171 lib/admin/import-export.php:125
+#: lib/admin/seo-settings.php:40 lib/admin/seo-settings.php:165
+#: lib/views/help/cpt-archive-seo.php:1 lib/views/help/seo-settings.php:1
+msgid "SEO Settings"
+msgstr "SEO indstillinger"
+
+#: lib/admin/import-export.php:121 lib/admin/theme-settings.php:50
+#: lib/admin/theme-settings.php:51 lib/admin/theme-settings.php:227
+#: lib/views/help/genesis-theme-settings.php:1
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:20
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:14
+#: lib/views/meta-boxes/genesis-user-layout.php:17
+msgid "Theme Settings"
+msgstr "Tema indstillinger"
+
+#. translators: Meta noindex attribute.
+#. translators: Meta nofollow attribute.
+#. translators: Meta noarchive attribute.
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:56
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:64
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:72
+msgid "Apply %s to this post/page"
+msgstr "Tilføj %s til dette Indlæg/Side"
+
+#: lib/admin/seo-settings.php:169 lib/admin/seo-settings.php:186
+#: lib/views/help/seo-robots.php:1
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:50
+msgid "Robots Meta Settings"
+msgstr "Robot Meta Indstillinger"
+
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:5
+#: lib/views/meta-boxes/genesis-term-meta-seo.php:5
+#: lib/views/meta-boxes/genesis-user-seo.php:6
+msgid "Custom Document Title"
+msgstr "Egen Dokument Titel"
+
+#: comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dette indlæg er beskyttet med et kodeord. Skriv kodeordet for at se kommentarer."
+
+#: lib/functions/general.php:446
+msgid "Recent Posts:"
+msgstr "Seneste indlæg:"
+
+#: lib/functions/general.php:443
+msgid "Monthly:"
+msgstr "Måneder:"
+
+#: lib/functions/general.php:440
+msgid "Authors:"
+msgstr "Forfattere:"
+
+#: lib/functions/general.php:437
+msgid "Categories:"
+msgstr "Kategorier:"
+
+#: lib/functions/general.php:432 lib/structure/post.php:387
+msgid "Pages:"
+msgstr "Sider:"
+
+#: lib/admin/theme-settings.php:242
+msgid "Home Pages"
+msgstr "Forsider"
+
+#: lib/views/help/genesis-home.php:24
+msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
+msgstr "Dette setup er det foretrukne, fordi det gør det lettere at vise en blog på forsiden uden, at man skal rename home.php filen. Og det virker ikke forvirrende, fordi det har indhold på forsiden, når man installerer temaet."
+
+#: lib/views/help/genesis-home.php:21
+msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
+msgstr "Den tredje fype forside er den nye dynamiske type. Den er almindelig i de nyere child temaer. Den viser dine seneste indlæg i en liste eventuelt med uddrag. Det kan styres og ændres med forskellige widgets i forsidens Sidebars"
+
+#: lib/views/help/genesis-home.php:18
+msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
+msgstr "En anden almindelige forside er blog typen, som er almindelige i de fleste child temaer. Her vises de seneste indlæg og det kræver ingen særskilt opsætning. "
+
+#: lib/views/help/genesis-home.php:15
+msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
+msgstr "Hvis dit tema har en brugerdefineret forside, og du ønsker at vise det seneneste inlæg i blog side format, så brug ikke en blog side skabelon. I stedet ændrer du navnet på home.php til home-old.php."
+
+#: lib/views/help/genesis-home.php:12
+msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
+msgstr "Child temper, som indeholder denne type forsider, har normalt tutorials, som fortæller, hvordan man sætter funktionerne op. "
+
+#: lib/views/help/genesis-home.php:9
+msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
+msgstr "Denne forside sættes op ved hjælpe af widgets i sidens sidebars. Find Widget menuen i menuen Udseende "
+
+#: lib/views/help/genesis-home.php:6
+msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
+msgstr "For at bruge denne type af forside, er det vigtigt at sitet er sat op til at vise de seneste inlæg på din forside. Du kan sætte et indlæg baseret på din Blog Side Template op til at vise en liste af dine seneste indlæg. "
+
+#: lib/views/help/genesis-home.php:3
+msgid "Most Genesis child themes include a custom home page."
+msgstr "De fleste Genesis child temaer indeholder en tilpasset forside"
+
+#: lib/views/help/genesis-home.php:1
+msgid "How Home Pages Work"
+msgstr "Hvordan forsider virker"
+
+#. translators: Escaped HTML head and body tags.
+#: lib/views/help/genesis-scripts.php:5
+msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
+msgstr "Her har du to felter, som indsættes i %1$s-elementet på dit websted lige før %2$s-tagget. De vises på hver eneste side af dit websted og kan bruges til at tilføje sporingskode og andre skripts. Du kan ikke bruge PHP i disse felter. Hvis du har brug for PHP, bør du tjekke pluginnet Genesis Simple Hooks."
+
+#: lib/admin/theme-settings.php:240 lib/views/help/genesis-blog.php:1
+msgid "Blog Page"
+msgstr "Blogside"
+
+#: lib/views/help/genesis-archives.php:27
+msgid "Entry Pagination Technique allows you to select one of two navigation methods."
+msgstr "Side-/indlægssideinddelingsteknik giver dig mulighed for at vælge 1 af 2 navigationsmetoder."
+
+#: lib/views/help/genesis-archives.php:24
+msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
+msgstr "Listen over billedstørrelser dannes på baggrund af de billedstørrelser der er defineret i det aktive tema. "
+
+#: lib/views/help/genesis-archives.php:21
+msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
+msgstr "Denne indstilling bør ikke bruges med indlægsindholdet, medmindre indholdet er begrænset for at undgå, at billedet vises flere gange."
+
+#: lib/views/help/genesis-archives.php:18
+msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
+msgstr "Indstillingen 'Anvend udvalgt billede?' lader dig vise en miniature med det første vedhæftede billede eller det aktuelt udvalgte billede."
+
+#: lib/views/help/genesis-archives.php:15
+msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
+msgstr "Med indstillingen Vis uddrag af indlægget vises enten de første 55 ord i et indlæg, når al HTML-kode i indlægget er fjernet, eller det manuelt indtastede/brugerdefinerede uddrag, som er tilføjet under redigering af indlægget."
+
+#: lib/views/help/genesis-archives.php:12
+msgid "It may also be coupled with the second field \"Limit content to [___] characters\" to limit the content to a specific number of letters or spaces. This will strip any HTML, but allows for more precise and easily changed lengths than the excerpt."
+msgstr "Det kan også være koblet sammen med feltet \"Længde af uddrag [___] tegn\", som bruges til at begrænse antallet af tegn eller ordmellemrum. Det stripper også HTML koder, og bruges til at styre længde af uddrag meget præcist.   "
+
+#: lib/views/help/genesis-archives.php:9
+msgid "The first option allows you to display the entry content or the entry excerpt. The Display entry content setting will display the entire entry including HTML code up to the <!--more--> tag if used (this is HTML for the comment tag that is not displayed in the browser)."
+msgstr "Den første valgmulighed lader dig vise indlægsindholdet eller indlægsuddraget. Vis Indlægsindholdet viser hele indlægget inkl. HTML kode frem til <!--more-->-tagget, hvis det bliver brugt (dette tag er det HTML-tag, som bruges til kommentarer, som ikke vises i brugerens browser)."
+
+#: lib/views/help/genesis-archives.php:6
+msgid "Archives include any pages using the blog template, category pages, tag pages, date archive, author archives, and the latest posts if there is no custom home page."
+msgstr "Arkiver omfatter alle sider, som bruger blog skabelonen, kategori siger, tag sider, dato arkiver, forfatter arkiver og det seneste indlæg, hvis der ikke er nogen en brugerdefineret forside. "
+
+#: lib/views/help/genesis-archives.php:3
+msgid "In the Genesis Theme Settings you may change the site wide Content Archives options to control what displays in the site's Archives."
+msgstr "I opsætningen af temaer kan du vælge hvordan ældre arkiveret indhold præsenteres på hele sitet. "
+
+#: lib/views/help/genesis-comments.php:6
+msgid "If you enable comments or trackbacks here, it can be disabled on an individual post or page. If you disable here, they cannot be enabled on an individual post or page."
+msgstr "Hvis du aktiverer kommentarer og trackbacks her, kan du deaktivere funktionerne individuelt på dine indlæg og sider. Hvis du ikke aktiverer funktionerne her, så vil det heller ikke være muligt at dem på indlæg og sider. "
+
+#: lib/views/help/genesis-comments.php:3
+msgid "This allows a site wide decision on whether comments and trackbacks (notifications when someone links to your page) are enabled for posts and pages."
+msgstr "Dette bruges til at aktivere kommentarer og trackbacks (notificeringer når nogen linker til din side)  på indlæg og sider."
+
+#: lib/views/help/genesis-breadcrumbs.php:3
+msgid "This box lets you define where the \"Breadcrumbs\" display. The Breadcrumb is the navigation tool that displays where a visitor is on the site at any given moment."
+msgstr "Denne boks bruges til at vælge visning af \"brødkrummer\" på dine site. \"Brødkrummer\" viser, hvor på sitet, brugeren befinder sig. "
+
+#: lib/views/help/genesis-layout.php:17
+msgid "This layout can also be overridden in the post/page/term layout options on each post/page/term."
+msgstr "Dette layout kan overrules i opsætningen af din side eller dit indlæg."
+
+#: lib/views/help/cpt-archive-layout.php:10
+#: lib/views/help/genesis-layout.php:10
+msgid "Sidebar Sidebar Content"
+msgstr "Sidebar Sidebar Indhold"
+
+#: lib/views/help/cpt-archive-layout.php:9 lib/views/help/genesis-layout.php:9
+msgid "Content Sidebar Sidebar"
+msgstr "Indhold Sidebar Sidebar"
+
+#: lib/views/help/cpt-archive-layout.php:8 lib/views/help/genesis-layout.php:8
+msgid "Sidebar Content Sidebar"
+msgstr "Sidebar Indhold Sidebar"
+
+#: lib/views/help/cpt-archive-layout.php:7 lib/views/help/genesis-layout.php:7
+msgid "Sidebar Content"
+msgstr "Sidebar indhold"
+
+#: lib/views/help/cpt-archive-layout.php:6 lib/views/help/genesis-layout.php:6
+msgid "Content Sidebar"
+msgstr "Indholds sidebar"
+
+#: lib/views/help/genesis-layout.php:3
+msgid "This lets you select the default layout for your entire site. On most of the child themes you'll see these options:"
+msgstr "Her kan du vælge default layout for dit site. På de fleste child temaer får du disse valgmuligheder:"
+
+#: lib/views/help/genesis-feeds.php:9
+msgid "By checking the \"Redirect Feed\" box, all traffic to default feed links will be redirected to the Feedburner link instead."
+msgstr "Hvis du aktiverer \"Redirect Feed\", vil al trafik til dit default /feed link bliver redirected til dit Feedburner link."
+
+#: lib/views/help/genesis-feeds.php:6
+msgid "By filling in the feed links calling for the main site feed, it will display as a link to Feedburner."
+msgstr "Hvis du udfylder disse feed links for dit site feed, så vil de blive vist som et link til Feedburner"
+
+#: lib/views/help/genesis-feeds.php:3
+msgid "If you use Feedburner to handle your rss feed(s) you can use this function to set your site's native feed to redirect to your Feedburner feed."
+msgstr "Hvis du bruger Feedburner til at håndtere dine RSS feeds, så kan du bruge denne funktion til at sende sitets RSS feed til dit feed hos Feedburner."
+
+#: lib/views/help/genesis-information.php:9
+msgid "This does not mean the updates happen automatically without your permission; it will just notify you that an update is available. You must select it to perform the update."
+msgstr "Det betyder ikke, at opdateringen sker uden uden, at du har accepteret den. Du bliver spurgt, inden en opdatering udføres. "
+
+#: lib/views/help/genesis-information.php:6
+msgid "Normally, this should be unchecked. You can also set to enable automatic updates."
+msgstr "Det anbefales, at dette ikke er aktiveret. Du kan også vælge at aktivere automatiske opdateringer. "
+
+#: lib/views/help/genesis-information.php:3
+msgid "The information box allows you to see the current Genesis theme information and display if desired."
+msgstr "Informationsboksen viser dig information om det Genesis tema, som du har aktiveret. "
+
+#: lib/views/help/genesis-theme-settings.php:3
+msgid "Your Theme Settings provides control over how the theme works. You will be able to control a lot of common and even advanced features from this menu. Some child themes may add additional menu items to this list, including the ability to select different color schemes or set theme specific features such as a slider. Each of the boxes can be collapsed by clicking the box header and expanded by doing the same. They can also be dragged into any order you desire or even hidden by clicking on \"Screen Options\" in the top right of the screen and \"unchecking\" the boxes you do not want to see. Below you'll find the items common to every child theme &#x02026;"
+msgstr "Tema Indstillinger giver dig kontrollen over, hvordan dit tema fungerer. Du kan indstille en hel masse både enkle og avancerede funktioner. Nogle Child temaer tilføjer ekstra funktioner, f.eks. menuer, farver eller billedhjul/slidere. Hver boks kan udvides eller skjules ved at klikke på boksens header. Boksene kan også flyttes rundt blot ved at trykke på dem med musen. Hvis du klikker på Skærmindstillinger øverst til højre i skærmbilledet, kan du tilføje eller fjerne bokse, som du ikke ønsker vist. Herunder kan du se funktioner, som er almindelige for alle temaer."
+
+#: lib/views/help/seo-robots.php:9
+msgid "For most sites either the home page or blog page (using the blog template) will serve as this index which is why the default is not to index categories, tags, authors, dates, or searches."
+msgstr "For de fleste sites er enten forsiden eller blog siden (ved brug af blog templaten) indekset. Derfor skal man ikke indeksere kategorier, tags, forfattere, datoer eller søgninger. "
+
+#: lib/views/help/seo-robots.php:6
+msgid "At least one archive should be indexed, but indexing multiple archives will typically result in a duplicate content penalization (multiple pages with identical content look manipulative to search engines)."
+msgstr "Mindst et arkiv skal indekseres, men indekserer man flere arkiver med samme tekst, så bliver man straffet af søgemaskinerne, fordi de opfatter det som manipulation af indholdet. "
+
+#: lib/views/help/seo-robots.php:3
+msgid "Noarchive and noindex are explained in the home settings. Here you can select what other parts of the site to apply these options to."
+msgstr "Noarchive og noindes er forklaret under sites settings. Her kan du vælge på hvilke andre dele af dit site, som du ønsker at bruge disse."
+
+#: lib/views/help/seo-dochead.php:6
+msgid "You can also add support for Windows Live Writer if you use software that supports this and include a shortlink tag if this is required by any third party service."
+msgstr "Du kan også tilføje support til Windows Live Writer eller software, som supporterer programmets format, eller inkludere et shorlink tag, hvis det kræves af en tredjeparts service."
+
+#: lib/views/help/seo-dochead.php:3
+msgid "The Relationship Link Tags are tags added by WordPress that currently have no SEO value but slow your site load down. They're disabled by default, but if you have a specific need&#8212;for a plugin or other non typical use&#8212;then you can enable as needed here."
+msgstr "The Relationship Link tags er tags, som tilføjes af WordPress, men de har ingen SEO værdi. De sløver bare dit site ned. Som default er disse links ikke aktiverede, men du kan kan aktivere den, hvis du har specille behov&#8212;for et plugin eller anden atypisk brug&#8212;."
+
+#: lib/views/help/seo-homepage.php:24
+msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Homepage Robots Meta Tags fortæller søgemaskiner, hvordan de skal behandle data på siden. Noindex betyder, at siden ikke må indekseres, og derfor ikke optræder i søgeresultater. Nofollow betyder, at søgemaskinerne ikke skal følge links på siden, og noarchive fortæller, at siden ikke skal kopieres og gemmes"
+
+#: lib/views/help/cpt-archive-seo.php:10 lib/views/help/seo-homepage.php:21
+msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
+msgstr "De fleste søgemaskiner bruger ikke længere keywords, så brug ikke særlig meget tid på det. De er kun værd at bruge, hvis keywords engang i fremtiden måtte blive populære ingen. Du kan også bruge dem til at se, om dit indhold rent faktisk rammer de keywords, som du gerne vil ramme. "
+
+#: lib/views/help/seo-homepage.php:18
+msgid "The home META description and keywords fill in the meta tags for the home page. The META description is the short text blurb that appear in search engine results."
+msgstr "Home META beskrivelse og keywords bruges som meta tags for dit site. Du kan se denne tekst i søgemaskinerne, hvor den optræder som en kort beskrivelse af et site i søgeresultaterne. "
+
+#. translators: Escaped title tag.
+#: lib/views/help/seo-homepage.php:14
+msgid "The home doctitle sets what will appear within the %1$s tags (unseen in the browser) for the home page."
+msgstr "Hjem-dokumenttitlen bestemmer, hvad der vises mellem %1$s-taggene (vises ikke i browseren) på Hjem-siden."
+
+#: lib/views/help/seo-homepage.php:9
+msgid "To add custom text you'll have to either edit a php file, or use a text widget on a widget enabled homepage."
+msgstr "For at tilføje din egen tekst er du nødt til at redigere en php fil eller bruge en tekst widget på siden."
+
+#: lib/views/help/seo-homepage.php:6
+msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an <h1>; tag (the primary heading in HTML)."
+msgstr ""
+
+#: lib/views/help/seo-homepage.php:3
+msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
+msgstr "Dette er forsidens SEO opsætning. Hvis du bruger en statisk forside på dit site, er du nødt til at tilføje SEO opsætningen til den specifikke side. "
+
+#. translators: Opening and closing strong tags.
+#: lib/views/help/seo-doctitle.php:23
+msgid "The %sDoctitle Separator%s is the character that will go between the title and appended text."
+msgstr ""
+
+#. translators: Opening and closing strong tags.
+#: lib/views/help/seo-doctitle.php:17
+msgid "%sDoctitle Append Location%s determines which side of the title to add the previously mentioned items."
+msgstr ""
+
+#. translators: Opening and closing strong tags.
+#: lib/views/help/seo-doctitle.php:11
+msgid "%sAppend Site Name%s will put the site name from the General Settings after the title on inner page."
+msgstr ""
+
+#. translators: Opening and closing strong tags.
+#: lib/views/help/seo-doctitle.php:5
+msgid "%sAppend Site Description%s will insert the site description from your General Settings after the title on your home page."
+msgstr ""
+
+#: lib/admin/seo-settings.php:166 lib/views/help/seo-doctitle.php:1
+msgid "Doctitle Settings"
+msgstr "Dokumenttitel indstillinger"
+
+#: lib/views/help/seo-settings.php:15
+msgid "Below you'll find a few succinct notes on the options for each box:"
+msgstr "Nedenfor finder du et par kortfattede bemærkninger om mulighederne for hver kasse:"
+
+#: lib/views/help/seo-settings.php:12
+msgid "Each page, post, and term will have its own SEO settings as well. The default settings are recommended for most users. If you wish to adjust your SEO settings, the boxes include internal descriptions."
+msgstr "Hver side, indlæg, og term vil også have sine egne SEO-indstillinger . Standardindstillingerne anbefales til de fleste brugere. Hvis du ønsker at justere dine SEO indstillinger, indeholder kasserne interne beskrivelser."
+
+#: lib/views/help/seo-settings.php:9
+msgid "If you see the menu, then opening that menu item will let you set the General SEO settings for your site."
+msgstr "Hvis du ser menuen, så kan du ved at åbne sætte dine generelle indstillinger for SEO på dit site. "
+
+#: lib/views/help/seo-settings.php:6
+msgid "If you don’t see an SEO Settings sub menu, then you probably have another SEO plugin active."
+msgstr "Hvis der ikke er nogen undermenu for SEO indstillinger, har du formodentlig aktiveret et andet SEO plugin"
+
+#: lib/views/help/seo-settings.php:3
+msgid "Genesis SEO (search engine optimization) is polite, and will disable itself when most popular SEO plugins (e.g., All-in-One SEO, WordPress SEO, etc.) are active."
+msgstr "Genesis SEO (søgemaskine optimering) opfører sig venligt, og gør sig selv inaktiv, når du har aktiveret populære SEO værktøjer som f.eks. All-in-One SEO, WordPress SEO etc. "
+
+#: lib/classes/admin.php:406
+msgid "Genesis Tutorials"
+msgstr "Genesis Tutorials"
+
+#: lib/classes/admin.php:405
+msgid "Genesis Snippets"
+msgstr "Genesis Snippets"
+
+#: lib/classes/admin.php:404
+msgid "Get Support"
+msgstr "Få hjælp"
+
+#: lib/classes/admin.php:403
+msgid "For more information:"
+msgstr "Mere information:"
+
+#: lib/views/help/import-export-export.php:5
+msgid "JSON"
+msgstr "JSON"
+
+#: lib/views/help/import-export-export.php:5
+msgid "JavaScript Object Notation"
+msgstr "JavaScript Object Notering"
+
+#: lib/admin/import-export.php:66 lib/views/help/import-export-export.php:1
+msgid "Export"
+msgstr "Eksporter"
+
+#: lib/views/help/import-export-import.php:10
+msgid "This cannot be undone"
+msgstr "Dette kan ikke fortrydes"
+
+#: lib/admin/import-export.php:65 lib/views/help/import-export-import.php:1
+msgid "Import"
+msgstr "Importer"
+
+#: lib/views/help/import-export-general.php:9
+msgid "It also does not include other settings for plugins, widgets, or post/page/term/user specific settings."
+msgstr "Den indeholder heller ikke indstillinger for plugins, widgets, indlæg, sider eller brugere. "
+
+#: lib/views/help/import-export-general.php:6
+msgid "This is specific to Genesis settings and does not includes posts, pages, or images, which is what the built-in WordPress import/export menu does."
+msgstr "Det vedrører kun Genesis opsætningen i modsætning til den indbyggede WordPress import/export som indeholder indlæg, sider og billeder."
+
+#: lib/views/help/import-export-general.php:3
+msgid "This allows you to import or export Genesis Settings."
+msgstr "Her har du mulighed for at importere eller eksportere Genesis indstillinger"
+
+#: lib/functions/upgrade.php:680
+msgid "Genesis %s is available. <a href=\"%s\" %s>Check out what's new</a> or <a href=\"%s\" %s>update now.</a>"
+msgstr "Genesis %s er klar. <a href=\"%s\" %s>Se nyhederne</a> or <a href=\"%s\" %s>opdater nu.</a>"
+
+#. translators: Opening and closing link tags to custom menu editor.
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:22
+msgid "In order to view the Primary navigation menu settings, you must build a %scustom menu%s, then assign it to the Primary Menu Location."
+msgstr ""
+
+#: lib/views/help/genesis-navigation.php:9
+msgid "Twitter link displays a link to your Twitter profile, as indicated in Twitter ID setting. Enter only your user name in this setting."
+msgstr "Twitter link viser et link til din Twitter profil. Skriv kun din brugernavn hos Twitter i feltet."
+
+#: lib/views/help/genesis-navigation.php:8
+msgid "Search form displays a small search form utilizing the WordPress search functionality."
+msgstr "Søge skabelon viser de søgefelter, som er indbygget i WordPress. "
+
+#: lib/views/help/genesis-navigation.php:7
+msgid "RSS feed link displays a link to the RSS feed for your site that a reader can use to subscribe to your site using the feedreader of their choice."
+msgstr "RSS feed link viser et link til RSS feedet for dit site. Det kan en bruger anvende til at abonnere på nye indlæg, som du udgiver på dit site. Brugerne skal anvende deres egen nyheds-software. "
+
+#: lib/views/help/genesis-navigation.php:6
+msgid "Today's date displays the current date"
+msgstr "Dato viser dags dato"
+
+#: lib/views/help/genesis-navigation.php:3
+msgid "The Primary Navigation Extras typically display on the right side of your Primary Navigation menu."
+msgstr "De primære navigation ekstra funktioner vises typisk til højre for din primære navigation menu."
+
+#. translators: Open and close strong tags.
+#: lib/views/help/genesis-header.php:11
+msgid "The %sImage logo%s option will use a logo image file in the header instead of the site's title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme's style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme."
+msgstr ""
+
+#. translators: Open and close strong tags.
+#: lib/views/help/genesis-header.php:5
+msgid "The %sDynamic text%s option will use the Site Title and Site Description from your site's settings in your header."
+msgstr ""
+
+#: lib/structure/sidebar.php:67
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr "Dette er %s. Du kan tilføje indhold til dette område ved at besøge din <a href=\"%s\"> Widgets panel </a> og tilføje nye widgets til dette område."
+
+#: lib/functions/deprecated.php:349
+msgid "data in style sheet files"
+msgstr "data i stylesheet filer"
+
+#: lib/views/help/genesis-blog.php:9
+msgid "There are some special features of the Blog Template that allow you to specify which category to show on each page using the template, which is helpful if you have a \"News\" category (or something else) that you want to display separately."
+msgstr "Der er nogle særlige funktioner i denne blog-skabelon, der giver dig mulighed for at angive, hvilken kategori der skal vises på hver side ved hjælp af skabelonen, hvilket er nyttigt, hvis du har en \"News\" kategori (eller noget andet), som du vil have vist separat."
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:30
+msgid "If you provide an email address above, you will be notified via email when a new version of Genesis is available."
+msgstr "Hvis du skriver din e-mailadresse i feltet ovenfor, får du en mail, når en ny version af Genesis er klar. "
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:9
+msgid "Load Superfish Script?"
+msgstr "Anvend Superfish Script?"
+
+#. translators: JSON name for a11y.
+#: lib/views/help/import-export-export.php:5
+msgid "You can export your Genesis-related settings to back them up, or copy them to another site. Child themes and plugins may add their own checkboxes to the list. The settings are exported in %s format."
+msgstr "Du kan eksportere opsætning relateret til Genesis for at lave en backup eller for at kopiere opsætningen til et andet site. Child temaer og plugins kan have tilføjet deres egne checkbokse til listen. Opsætningerne bliver eksporteret i formatet %s. "
+
+#: lib/views/help/cpt-archive-layout.php:3
+msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
+msgstr "Dette giver dig mulighed for at vælge layout på Arkivsiden. I de fleste child temaer vil du se følgende muligheder:"
+
+#. translators: JOSN file extension.
+#: lib/views/pages/genesis-admin-import-export.php:13
+msgid "Upload the data file (%s) from your computer and we'll import your settings."
+msgstr "Upload datafilen (%s) fra din computer, og vi importerer dine opsætninger."
+
+#: lib/views/help/import-export-import.php:9
+msgid "Once you upload an import file, it will automatically overwrite your existing settings."
+msgstr "Når du uploader en importfil, vil den overskrive dine eksisterende opsætninger."
+
+#: lib/views/help/cpt-archive-layout.php:14
+#: lib/views/help/genesis-navigation.php:12
+msgid "These options can be extended or limited by the child theme."
+msgstr "Disse valgmuligheder kan være udvidet eller begrænset af dit child tema."
+
+#: lib/views/help/cpt-archive-seo.php:6
+msgid "The Meta description and keywords fill in the meta tags for the archive page. The Meta description is the short text blurb that appear in search engine results.\n"
+msgstr "\n"
+
+#: lib/views/help/genesis-blog.php:3
+msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
+msgstr "Dette fungerer med Blog-skabelonen, som er den skabelon, der viser dine seneste indlæg. Det er, hvad brugerne ser, når de lander på forsiden af dit site. "
+
+#. translators: JOSN file extension.
+#: lib/views/pages/genesis-admin-import-export.php:37
+msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
+msgstr "Når du klikker på knappen herunder, vil Genesis danne en data-fil (%s), som du kan gemme på din computer. "
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:11
+msgid "Use semantic HTML5 page and section headings throughout site?"
+msgstr "Brug semantic HTML5 side og sektions headere på hele sitet?"
+
+#: lib/views/help/cpt-archive-seo.php:13
+msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
+msgstr "Robots Meta Tags fortæller søgemaskiner, hvordan de skal håndtere arkiv-sider. Noindex betyder, at siden ikke under nogen omstændigheder skal indekseres, og den vil ikke dukke op i søgeresultater. Nofollow betyder, at ingen links på siden skal følges og Noarchive fortæller søgemaskinerne, at de ikke skal lave en kopi af siden."
+
+#: lib/views/help/cpt-archive-archive.php:3
+msgid "The Archive Headline sets the title seen on the archive page."
+msgstr ""
+
+#: lib/views/help/genesis-layout.php:14
+msgid "These options can be extended or limited by the child theme. Additionally, many of the child themes do not allow different layouts on the home page as they have been designed for a specific home page layout."
+msgstr "Disse features kan blive udvidet eller begrænset af child temaet. Dertil kommer, at mange child temaer ikke tillader ændringer af layout på deres forsider, fordi de er designet til det bestemte layout."
+
+#: lib/views/help/genesis-blog.php:6
+msgid "In the General Settings you can select a specific category to display from the drop down menu, and exclude categories by ID, or even select how many posts you'd like to display on this page."
+msgstr "I den genrelle opsætning kan du vælge en kategori som skal vises på drop down menuen, og ekskludere kategorier ved hjælp af deres ID, eller du kan vælge hvor mange indlæg du ønsker vist på siden. "
+
+#: lib/views/help/cpt-archive-archive.php:6
+msgid "The Archive Intro Text sets the text before the archive entries to introduce the content to the viewer."
+msgstr "Archive Intro Text opretter en tekst foran arkivtitlerne for at introducere indholdet til brugeren"
+
+#: lib/views/help/cpt-archive-layout.php:17
+msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
+msgstr "Custom Body Class tilføjer en klasse til body tagget i HTML koden med det formål at åbne for CSS modifikation helt specifikt på arkivsider for denne type indlæg."
+
+#: lib/views/help/cpt-archive-seo.php:3
+msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
+msgstr "Dokumentets Titel-felt bliver brugt til visning i browsere og søgemaskiner. "
+
+#. translators: File name prefix.
+#: lib/views/help/import-export-import.php:5
+msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
+msgstr "Du kan importere en fil, som du tidligere har eksporteret. Filnavnet begynder med %s efterfulgt af en eller flere tekster, som fortæller hvilken opsætning, filen indeholder efterfulgt af tidspunktet for eksporten"
+
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:111
+msgid "Directories"
+msgstr "Mapper"
+
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:53
+msgid "Archiving"
+msgstr "Arkivering"
+
+#: lib/views/meta-boxes/genesis-seo-settings-robots.php:5
+msgid "Indexing"
+msgstr "Indeksering"
+
+#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:28
+msgid "Windows Live Writer"
+msgstr "Windows Live Writer"
+
+#. translators: Escaped H1 tag.
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:8
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:16
+msgid "Primary Title %s"
+msgstr "Primær Titel %s"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:42
+msgid "Additions on right"
+msgstr "Tilføjelser til højre"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:41
+msgid "Additions on left"
+msgstr "Tilføjelser til venstre"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:38
+msgid "Document Title Order"
+msgstr "Dokumenttitelrækkefølge"
+
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:6
+msgid "Section Headings"
+msgstr "Sektionsoverskrifter"
+
+#: lib/admin/seo-settings.php:183
+msgid "Site-wide Settings"
+msgstr ""
+
+#: lib/views/help/genesis-inpost-seo.php:14
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:40
+msgid "Canonical URL"
+msgstr "Kanonisk URL"
+
+#: lib/views/help/genesis-inpost-seo.php:2
+#: lib/views/meta-boxes/genesis-inpost-seo-box.php:9
+#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:34
+#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:18
+msgid "Document Title"
+msgstr "Dokumenttitel"
+
+#: lib/classes/admin.php:401
+msgid "Link opens in a new window."
+msgstr "Link åbnes i et nyt vindue"
+
+#: lib/admin/customizer.php:465
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:53
+msgid "- None -"
+msgstr "- Ingen -"
+
+#: lib/admin/customizer.php:460
+msgid "Featured image alignment"
+msgstr "Placering af udvalgt billede"
+
+#: lib/admin/customizer.php:449
+msgid "Featured image size"
+msgstr "Størrelse på udvalgt billede"
+
+#: lib/admin/customizer.php:439
+msgid "Display the featured image?"
+msgstr "Vis udvalgt billede?"
+
+#: lib/admin/customizer.php:430
+msgid "Limit content to how many characters? (0 for no limit)"
+msgstr "Begræns indhold til hvor mange tegn? (0 for ingen begrænsning)"
+
+#: lib/admin/customizer.php:329
+msgid "Enable Trackbacks on Pages?"
+msgstr "Aktivér trackbacks til sider?"
+
+#: lib/admin/customizer.php:328
+msgid "Enable Trackbacks on Posts?"
+msgstr "Aktivér trackbacks til indlæg?"
+
+#: lib/admin/customizer.php:327
+msgid "Enable Comments on Pages?"
+msgstr "Aktivér kommentarer til sider?"
+
+#: lib/admin/customizer.php:326
+msgid "Enable Comments on Posts?"
+msgstr "Aktivér kommentarer til indlæg?"
+
+#: lib/admin/customizer.php:266
+msgid "Breadcrumbs on Attachment/Media"
+msgstr "Brødkrummer på sider med vedhæftede filer/medier"
+
+#: lib/admin/customizer.php:265
+msgid "Breadcrumbs on 404 Page"
+msgstr "Brødkrummer på 404-sider"
+
+#: lib/admin/customizer.php:264
+msgid "Breadcrumbs on Archives"
+msgstr "Brødkrummer på arkivsider"
+
+#: lib/admin/customizer.php:263
+msgid "Breadcrumbs on Pages"
+msgstr "Brødkrummer på sider"
+
+#: lib/admin/customizer.php:262
+msgid "Breadcrumbs on Single Posts"
+msgstr "Brødkrummer på enkeltindlæg"
+
+#: lib/admin/customizer.php:261
+msgid "Breadcrumbs on Posts Page"
+msgstr "Brødkrummer på siden med indlæg"
+
+#: lib/admin/customizer.php:260
+msgid "Breadcrumbs on Front Page"
+msgstr "Brødkrummer på forsiden"
+
+#: lib/admin/customizer.php:259
+msgid "Breadcrumbs on Homepage"
+msgstr "Brødkrummer på hjem-siden"
+
+#: lib/admin/customizer.php:231
+#: lib/views/meta-boxes/genesis-theme-settings-layout.php:5
+msgid "Select Default Layout"
+msgstr "Vælg standardlayout"
+
+#: lib/admin/customizer.php:215
+msgid "Site Layout"
+msgstr "Sitelayout"
+
+#: lib/admin/customizer.php:190
+msgid "Select Color Style"
+msgstr "Vælg farvestil"
+
+#: lib/admin/customizer.php:172
+msgid "Color Scheme"
+msgstr "Farveskema"
+
+#: lib/admin/customizer.php:148
+msgid "Dynamic Text"
+msgstr "Dynamisk tekst"
+
+#: lib/admin/customizer.php:30
+msgid "When extending Genesis_Customizer_Base, you must create a register method."
+msgstr "Hvis du extender Genesis_Customizer_Base, skal du oprette en metode til registrering."
+
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:8
+#: lib/views/meta-boxes/genesis-inpost-layout-box.php:12
+msgid "Select Layout"
+msgstr "Vælg layout"
+
+#: comments.php:25
+msgid "Reader Interactions"
+msgstr "Læserinteraktioner"
+
+#: 404.php:50
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: lib/views/meta-boxes/genesis-user-seo.php:1
+msgid "Author Archive SEO Settings"
+msgstr "SEO-indstillinger for forfatterarkiv"
+
+#: lib/views/meta-boxes/genesis-theme-settings-scripts.php:18
+msgid "Footer Scripts"
+msgstr "Footerscripts"
+
+#: lib/views/meta-boxes/genesis-inpost-scripts-box.php:9
+#: lib/views/meta-boxes/genesis-theme-settings-scripts.php:5
+msgid "Header Scripts"
+msgstr "Headerscripts"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:24
+msgid "Posts per Page"
+msgstr "Indlæg per side"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:18
+msgid "Category IDs, comma separated - 1,2,3 for example"
+msgstr "Kategori-id'er, komma separeret - 1,2,3 for eksempel"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:14
+msgid "Exclude Categories"
+msgstr "Udeluk kategorier"
+
+#: lib/views/meta-boxes/genesis-theme-settings-blogpage.php:6
+msgid "Display Category"
+msgstr "Kategorivisning"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:64
+msgid "Entry Pagination"
+msgstr "Sideinddeling af indlæg og sider"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:51
+msgid "Image Alignment:"
+msgstr "Billedplacering:"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:33
+msgid "Featured Image"
+msgstr "Udvalgt billede"
+
+#: lib/admin/customizer.php:411
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:13
+msgid "Entry excerpts"
+msgstr "Indlægsuddrag"
+
+#: lib/admin/customizer.php:410
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:12
+msgid "Entry content"
+msgstr "Selve indlægsindholdet"
+
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:5
+msgid "Display"
+msgstr "Visning"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:34
+msgid "Attachment/Media"
+msgstr "Vedhæftede filer/medier"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:22
+msgid "Single Posts"
+msgstr "Enkeltindlæg"
+
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:5
+#: lib/views/meta-boxes/genesis-theme-settings-breadcrumb.php:8
+msgid "Enable Breadcrumbs on"
+msgstr "Aktivér brødkrummer på"
+
+#: lib/views/meta-boxes/genesis-theme-settings-nav.php:6
+msgid "Superfish"
+msgstr "Superfish"
+
+#: lib/views/meta-boxes/genesis-theme-settings-feeds.php:23
+msgid "If your custom feed(s) are not handled by Feedblitz or Feedburner, do not use the redirect options."
+msgstr "Hvis dine brugerdefinerede feeds ikke håndteres af Feedblitz eller Feedburner, må du ikke bruge redirect-indstillinger."
+
+#: lib/views/meta-boxes/genesis-theme-settings-feeds.php:16
+msgid "Redirect Custom Comments Feed?"
+msgstr "Redirect brugerdefineret kommentarfeed?"
+
+#: lib/views/meta-boxes/genesis-theme-settings-feeds.php:8
+msgid "Redirect Custom Feed?"
+msgstr "Redirect brugerdefineret feed?"
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:29
+msgid "Email address"
+msgstr "E-mailadresse"
+
+#: lib/views/meta-boxes/genesis-theme-settings-version.php:24
+msgid "Updates"
+msgstr "Opdateringer"
+
+#: lib/functions/markup.php:1191 lib/structure/menu.php:87
+msgid "Main navigation"
+msgstr "Hovednavigation"
+
+#: lib/functions/layout.php:58
+msgid "Secondary Sidebar, Content, Primary Sidebar"
+msgstr "Sekundær sidebar, Indhold, Primær sidebar"
+
+#: lib/functions/layout.php:53
+msgid "Secondary Sidebar, Primary Sidebar, Content"
+msgstr "Sekundær sidebar, Primær sidebar, Indhold"
+
+#: lib/functions/layout.php:48
+msgid "Content, Primary Sidebar, Secondary Sidebar"
+msgstr "Indhold, Primær sidebar, sekundær sidebar"
+
+#: lib/functions/layout.php:42
+msgid "Primary Sidebar, Content"
+msgstr "Primær sidebar, Indhold"
+
+#: lib/functions/layout.php:36
+msgid "Content, Primary Sidebar"
+msgstr "Indhold, Primær sidebar"
+
+#: lib/functions/formatting.php:100
+msgid "about "
+msgstr "om "
+
+#: lib/classes/cli.php:44
+msgid "Genesis database upgraded."
+msgstr "Genesis-database opdateret."
+
+#: lib/classes/breadcrumb.php:45
+msgid " <span aria-label=\"breadcrumb separator\">/</span> "
+msgstr " <span aria-label=\"breadcrumb separator\">/</span> "
+
+#: lib/functions/upgrade.php:626
+msgid "Congratulations, you are now rocking Genesis %s! <a href=\"%s\">See what's new in %s</a>."
+msgstr "Tillykke! Du er nu flot kørende med Genesis %s! <a href=\"%s\">Se, hvad der er nyt i %s</a>."
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr "Blog"
+
+#. Author URI of the plugin/theme
+msgid "https://www.studiopress.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StudioPress"
+msgstr "StudioPress"
+
+#. Theme URI of the plugin/theme
+msgid "http://my.studiopress.com/themes/genesis/"
+msgstr "http://my.studiopress.com/themes/genesis/"
+
+#. Theme Name of the plugin/theme
+msgid "Genesis"
+msgstr "Genesis"
+
+#: lib/widgets/featured-post-widget.php:536
+msgid "Content Post Info"
+msgstr "Indhold Indlægsinfo"
+
+#: lib/widgets/featured-post-widget.php:456
+msgid "Exclude Sticky Posts?"
+msgstr "Udelad fastgjorte indlæg?"
+
+#: lib/admin/customizer.php:468
+#: lib/views/meta-boxes/genesis-theme-settings-posts.php:56
+#: lib/widgets/featured-page-widget.php:307
+#: lib/widgets/featured-post-widget.php:514
+msgid "Center"
+msgstr "Midt"
+
+#: lib/widgets/featured-page-widget.php:116
+#: lib/widgets/featured-post-widget.php:159
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+#: lib/structure/post.php:768
+msgid "Current page"
+msgstr "Aktuel side"
+
+#: lib/structure/post.php:393 lib/structure/post.php:742
+msgid "Page "
+msgstr "Side"
+
+#: lib/structure/header.php:910
+msgid "Skip to footer"
+msgstr "Gå direkte til footer"
+
+#: lib/structure/header.php:904
+msgid "Skip to secondary sidebar"
+msgstr "Gå direkte til sekundær sidebar"
+
+#: lib/structure/header.php:900
+msgid "Skip to primary sidebar"
+msgstr "Gå direkte til primær sidebar"
+
+#: lib/structure/header.php:897
+msgid "Skip to content"
+msgstr "Gå direkte til indhold"
+
+#: lib/structure/header.php:894
+msgid "Skip to primary navigation"
+msgstr "Gå direkte til primær navigation"
+
+#: lib/functions/widgetize.php:202
+msgid "Widgets in this widget area will display after single entries."
+msgstr "Widgets i dette widgetområde vises efter enkeltståede indlæg, sider osv."
+
+#: lib/functions/widgetize.php:201
+msgid "After Entry"
+msgstr "Efter selve indholdet"
+
+#: lib/functions/widgetize.php:120
+msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."
+msgstr "Dette er widgetområdet i headeren. Den vises typisk ved siden af webstedets titel eller logo. Dette widgetområde kan ikke vise alle typer widgets, men fungerer bedst med en brugerdefineret menu, en søgeformular eller måske en tekstwidget."
