@@ -20,7 +20,7 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_VERSION', '2.4.1' );
+define( 'GENTRANS_VERSION', '2.5.0' );
 
 /**
  * The text domain for the plugin
@@ -54,7 +54,7 @@ function thememix_genesis_translations_activation_check() {
     $version = $theme->get( 'Version' );
 
     // Set what we consider the minimum Genesis version
-    $minimum_genesis_version = '1.9';
+    $minimum_genesis_version = '2.3';
 
     // Restrict activation to only when the Genesis Framework is activated
     if ( basename( get_template_directory() ) != 'genesis' ) {
@@ -101,26 +101,12 @@ function thememix_genesis_translation_init() {
 
     else {
 
-        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'genesis20/' );
+        define( 'GENESIS_LANGUAGES_DIR', $fstlang . 'translations/' );
 
         if ( is_admin() ) {
             require( 'admin-page.php' );
-            require( 'i18n-module.php' );
-            new ThemeMix_Genesis_Translations_i18n(
-                array(
-                'textdomain'     => 'genesis-translations',
-                'project_slug'   => 'genesis-translations',
-                'plugin_name'    => 'Genesis Translations',
-                'hook'           => 'thememix_genesis_translations_admin_footer',
-                'glotpress_url'  => 'https://translate.wordpress.org/',
-                'glotpress_name' => 'Genesis Translations',
-                'glotpress_logo' => 'https://s.w.org/style/images/wp-header-logo.png',
-                'register_url '  => 'https://wordpress.org/support/register.php',
-                )
-           );
+           
         }
 
     }
 }
-
-require( 'translate.php' );
