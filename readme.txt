@@ -57,6 +57,13 @@ Fantastic! Go ahead and register [here](https://translate.studiopress.com/ "here
 
 == Changelog ==
 
+= 2.7.0 =
+* Updated to be in sync with Genesis 2.6 branch 
+* Added a lot of translations updates across the board
+
+= 2.6.0 =
+* Updated to be in sync with Genesis 2.6 branch 
+
 = 2.5.0 =
 * Various translations updates
 * Removing i18n module
