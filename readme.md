@@ -52,8 +52,11 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 ##Changelog
 
-### 2.7.0
+### 2.7.1
 * Updated to be in sync with Genesis 2.7 branch 
+
+### 2.7.0
+* Updated to be in sync with Genesis 2.6 branch 
 
 ### 2.6.0
 * Updated to be in sync with Genesis 2.6 branch 
