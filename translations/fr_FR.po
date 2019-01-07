@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.7 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-12 12:05:38+0000\n"
+"PO-Revision-Date: 2019-01-07 10:00:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -77,7 +77,7 @@ msgstr "Numéro d'identification Adsense"
 
 #: lib/views/meta-boxes/genesis-theme-settings-adsense.php:22
 msgid "Don't have AdSense? <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Click here</a> to sign up!"
-msgstr ""
+msgstr "Vous ne disposez pas d’AdSense&nbsp;? <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Cliquez ici</a> pour vous enregistrer&nbsp;!"
 
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:52
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:38
@@ -235,7 +235,7 @@ msgstr "Google Adsense"
 
 #: config/customizer-theme-settings.php:311
 msgid "Header/Footer Scripts"
-msgstr ""
+msgstr "Scripts de tête et de pied de page"
 
 #: config/customizer-theme-settings.php:131
 msgid "Select the pages which should display breadcrumbs."
@@ -2201,7 +2201,7 @@ msgstr "<strong>Le nom du site Attaché</strong> va insérer, après le titre et
 #. translators: 1: Open strong tag, 2: Close strong tag.
 #: lib/views/help/seo-doctitle.php:19
 msgid "%1$sAppend Site Description%2$s will insert the site description from your General Settings after the title on your home page."
-msgstr "%1$sAfficher la description du site%2$s va insérer après le titre de la page d'accueil la description du site telle qu’elle est définit dans la configuration globale."
+msgstr "%1$sAfficher la description du site %2$s va insérer la description du site telle qu’elle est définit dans la configuration globale après le titre de la page d'accueil ."
 
 #: lib/classes/class-genesis-admin-seo-settings.php:166
 #: lib/views/help/seo-doctitle.php:15

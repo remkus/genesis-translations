@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.7 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-15 09:34:36+0000\n"
+"PO-Revision-Date: 2018-12-19 15:27:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1548,7 +1548,7 @@ msgstr "mondta"
 #. translators: 1: get_comment_author_link(), 2: Filtered "says" text.
 #: lib/structure/comments.php:260
 msgid "<cite class=\"fn\">%1$s</cite> <span class=\"says\">%2$s:</span>"
-msgstr ""
+msgstr "<cite class=\"fn\">%1$s</cite> <span class=\"says\">%2$s:</span>"
 
 #: lib/structure/comments.php:162
 msgid "<h3>Trackbacks</h3>"
@@ -1603,7 +1603,7 @@ msgstr "A Genesis%s már elérjető. Lehetőség van 1-kattintásos frissítésr
 #. translators: 1: Genesis version, 2: URL for current website.
 #: lib/functions/upgrade.php:849
 msgid "Genesis %1$s is available for %2$s"
-msgstr ""
+msgstr "A Genesis %1$s már elérhető %2$s-re"
 
 #: lib/functions/upgrade.php:771
 msgid "Click here to complete the upgrade"
@@ -2282,7 +2282,7 @@ msgstr ""
 #. for anchor, 4: URL for updating Genesis, 5: class attribute for anchor.
 #: lib/functions/upgrade.php:801
 msgid "Genesis %1$s is available. <a href=\"%2$s\" %3$s>Check out what's new</a> or <a href=\"%4$s\" %5$s>update now.</a>"
-msgstr ""
+msgstr "Megjelent a Genesis %s. <a href=\"%s\" %s>Olvasd el a részleteket</a> vagy <a href=\"%s\" %s>frissíts most.</a>"
 
 #. translators: Opening and closing link tags to custom menu editor.
 #: lib/views/meta-boxes/genesis-theme-settings-nav.php:36
@@ -2488,11 +2488,11 @@ msgstr "- Semmi -"
 
 #: config/customizer-theme-settings.php:283
 msgid "Featured Image Alignment"
-msgstr ""
+msgstr "Kiemelt kép igazítása"
 
 #: config/customizer-theme-settings.php:274
 msgid "Featured Image Size"
-msgstr ""
+msgstr "Kiemelt kép mérete"
 
 #: config/customizer-theme-settings.php:266
 msgid "Display the featured image?"
@@ -2504,19 +2504,19 @@ msgstr "Hány karakterre korlátozza a tartalmat? (0, ha nincs korlátozás)"
 
 #: config/customizer-theme-settings.php:232
 msgid "Enable Trackbacks on Pages"
-msgstr ""
+msgstr "Visszakövetések engedélyezése az oldalakon?"
 
 #: config/customizer-theme-settings.php:224
 msgid "Enable Trackbacks on Posts"
-msgstr ""
+msgstr "Visszakövetések engedélyezése a bejegyzésekben?"
 
 #: config/customizer-theme-settings.php:216
 msgid "Enable Comments on Pages"
-msgstr ""
+msgstr "Hozzászólások engedélyezése az oldalakon?"
 
 #: config/customizer-theme-settings.php:208
 msgid "Enable Comments on Posts"
-msgstr ""
+msgstr "Hozzászólások engedélyezése a bejegyzésekben?"
 
 #: config/customizer-theme-settings.php:194
 msgid "Breadcrumbs on Attachment/Media"
@@ -2713,7 +2713,7 @@ msgstr "Genesis adatbázis frissült a legújabb verzióra."
 #. translators: 1: Genesis version, 2: URL for What's New admin page.
 #: lib/functions/upgrade.php:740
 msgid "Congratulations, you are now rocking Genesis %1$s! <a href=\"%2$s\">See what's new in %3$s</a>."
-msgstr ""
+msgstr "Gratulálunk, immáron a Genesis %1$s fut! <a href=\"%2$s\">Nézd meg a %3$s újdonságait</a>."
 
 #. Template Name of the plugin/theme
 msgid "Blog"
@@ -2721,7 +2721,7 @@ msgstr "Blog"
 
 #. Author URI of the plugin/theme
 msgid "https://www.studiopress.com/"
-msgstr ""
+msgstr "http://www.studiopress.com/"
 
 #. Author of the plugin/theme
 msgid "StudioPress"
