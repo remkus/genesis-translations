@@ -3,19 +3,19 @@ Contributors: thememix, DeFries
 Donate link: https://remkus.devries.frl/donate/
 Tags: genesis, translations,
 Requires at least: 4.3
-Tested up to: 5.0
-Stable tag: 2.7.1
+Tested up to: 5.0.2
+Stable tag: 2.7.2
 
 This plugin translates the Genesis Framework into one of the available languages.
 
 == Description ==
 
-This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](https://translations.studiopress.com/) first.
+This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the [translations here](https://translate.studiopress.com/) and if you'd like the improve your language you will need to register [here](https://translations.studiopress.com/) first.
 
-Check https://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
+Check [Translate StudioPress](https://translate.studiopress.com) to see which languages are currrently supported and how far along the translations are.
 
 
-So you don't see your language up here and you would like to see it added? [Please contact me](http://forsitemedia.net/contact/ "Please contact me") and we'll get you sorted.
+So you don't see your language up here and you would like to see it added? [Please contact me](https://remkus.devries.frl/contact/ "Please contact me") and we'll get you sorted.
 
 This plugin only works on the [Genesis Framework](https://remkus.devries.frl/recommends/genesis/ "Genesis Framework").
 
@@ -64,6 +64,10 @@ Fantastic! Go ahead and register [here](https://translate.studiopress.com/ "here
 
 
 == Changelog ==
+
+= 2.7.2 = 
+* Added nl_BE and sr_RS
+* Various translation updates
 
 = 2.7.1 =
 * Updated to be in sync with Genesis 2.7 branch 
@@ -243,5 +247,5 @@ Upgrade from nothingness just to be one of the cool kids.
 You can find me here:
 
 * [ThemeMix](https://thememix.com/ "ThemeMix")
-* [Find me on twitter](https://twitter.com/DeFries "Remkus de Vries on Twitter")
-* [Remkus de Vries](https://remkusdevries.com/ "Remkus de Vries")
+* [Find me on twitter](https://twitter.com/remkusdevries "Remkus de Vries on Twitter")
+* [Remkus de Vries](https://remkus.devries.frl/ "Remkus de Vries")
