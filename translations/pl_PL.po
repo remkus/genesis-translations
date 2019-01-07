@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.7 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-15 09:35:00+0000\n"
+"PO-Revision-Date: 2019-01-07 10:00:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1572,7 +1572,7 @@ msgstr "(edytuj)"
 
 #: lib/shortcodes/post.php:508 lib/shortcodes/post.php:552
 msgid "Filed Under: "
-msgstr "W kategorii:"
+msgstr "W kategorii: "
 
 #: lib/shortcodes/post.php:461
 msgid "Tagged With: "

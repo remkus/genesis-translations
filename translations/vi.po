@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Genesis - Genesis 2.7 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-15 09:35:44+0000\n"
+"PO-Revision-Date: 2019-01-07 10:00:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2734,7 +2734,7 @@ msgstr ""
 
 #: lib/widgets/featured-post-widget.php:464
 msgid "Exclude Sticky Posts?"
-msgstr ""
+msgstr "Loại trừ bài viết dính?"
 
 #: config/customizer-theme-settings.php:290
 #: lib/views/meta-boxes/genesis-theme-settings-posts.php:71
@@ -2754,7 +2754,7 @@ msgstr ""
 
 #: lib/structure/post.php:414 lib/structure/post.php:793
 msgid "Page "
-msgstr ""
+msgstr "Trang"
 
 #: lib/structure/header.php:846
 msgid "Skip to footer"
