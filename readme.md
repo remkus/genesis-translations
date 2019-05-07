@@ -3,8 +3,8 @@
 * Donate link: https://remkus.devries.frl/donate/
 * Tags: genesis, translations,
 * Requires at least: 4.3
-* Tested up to: 5.0.3
-* Stable tag: 2.8.0
+* Tested up to: 5.2
+* Stable tag: 2.10.0
 
 This plugin translates the Genesis Framework into one of the available languages.
 
@@ -51,6 +51,11 @@ That's because there isn't any. If you have one of the provided languages proper
 Most likely you either have words hardcoded in your child theme's `functions.php` file or you're working with outdated (or incomplete) WordPress translation.
 
 ##Changelog
+
+### 2.10.0  
+* Updated to Genesis 2.10.0 text strings
+* Updated various languages
+* Fixed [bug](https://wordpress.org/support/topic/warning-printf-too-few-arguments-5/)
 
 ### 2.8.0 
 * Updated to Genesis 2.8 text strings
