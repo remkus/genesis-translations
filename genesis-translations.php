@@ -9,7 +9,7 @@
  * Plugin URI: https://thememix.com/plugins/genesis-translations/
  * Description: This plugin translates the Genesis Framework into one of the available languages.
  * Author: ThemeMix, Remkus de Vries
- * Version: 2.8.0
+ * Version: 2.10.0
  * Author URI: https://thememix.com/
  * License: GPLv2
  * Text Domain: genesis-translations
@@ -20,7 +20,7 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_VERSION', '2.8.0' );
+define( 'GENTRANS_VERSION', '2.10.0' );
 
 /**
  * The text domain for the plugin
@@ -59,13 +59,13 @@ function thememix_genesis_translations_activation_check() {
     // Restrict activation to only when the Genesis Framework is activated
     if ( basename( get_template_directory() ) != 'genesis' ) {
         deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-        wp_die( sprintf( __( 'Whoa.. the translation this plugin only works, really, when you have installed the %1$sGenesis Framework%2$s', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', '</a>' ) );
+        wp_die( sprintf( __( 'Whoa.. the translation this plugin only works, really, when you have installed the %1$sGenesis Framework%2$s', GTRANS_DOMAIN ), '<a href="https://remkus.devries.frl/recommends/genesis/" target="_new">', '</a>' ) );
     }
 
     // Set a minimum version of the Genesis Framework to be activated on
     if ( version_compare( $version, $minimum_genesis_version, '<' ) ) {
         deactivate_plugins( plugin_basename( __FILE__ ) );  // Deactivate ourself
-        wp_die( sprintf( __( 'Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s or greater for these translations to make any sense.', GTRANS_DOMAIN ), '<a href="http://forsitemedia.net/go/genesis/" target="_new">', $latest, '</a>' ) );
+        wp_die( sprintf( __( 'Uhm, the thing of it is, you kinda need the %1$sGenesis Framework %2$s%3$s or greater for these translations to make any sense.', GTRANS_DOMAIN ), '<a href="https://remkus.devries.frl/recommends/genesis/" target="_new">', $latest, '</a>' ) );
     }
 }
 
