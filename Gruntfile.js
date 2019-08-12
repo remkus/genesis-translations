@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         options: {
           domainPath: 'translations',
           url: 'https://translate.studiopress.com/global/',
-          slug: 'genesis/genesis',
+          slug: 'genesis/genesis-3.0',
           textdomain: 'genesis',
           file_format: '%domainPath%/%wp_locale%.%format%'
         }

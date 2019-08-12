@@ -4,7 +4,7 @@
 * Tags: genesis, translations,
 * Requires at least: 4.3
 * Tested up to: 5.2
-* Stable tag: 2.10.0
+* Stable tag: 2.10.1
 
 This plugin translates the Genesis Framework into one of the available languages.
 
