@@ -1,27 +1,115 @@
-# Translation of Genesis - Genesis 3.0 in Arabic
-# This file is distributed under the same license as the Genesis - Genesis 3.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-08-12 12:11:00+0000\n"
+"Project-Id-Version: Genesis - Genesis 3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
+"PO-Revision-Date: 2019-08-12 15:53:50+0000\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: GlotPress/2.3.1\n"
-"Language: ar\n"
-"Project-Id-Version: Genesis - Genesis 3.0\n"
 
-#. Translators: Genesis version, changelog URI.
-#: lib/views/pages/genesis-admin-upgraded.php:28
-msgid "Congratulations for successfully updating to Genesis %s. We keep a <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
+#: lib/structure/footer.php:176
+msgid "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
+msgstr ""
+
+#: lib/structure/header.php:917
+msgid "Skip to main content"
+msgstr ""
+
+#: lib/structure/comments.php:176
+msgid "Trackbacks"
+msgstr ""
+
+#: lib/views/onboarding/starter-pack-summary.php:25
+msgid "Pack Details"
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:109
+msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:87
+msgid "Adding sample content to make your theme look like the chosen starter pack."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:65
+msgid "Installing and activating plugins for your starter pack."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:36
+msgid "None of your existing content will be lost. Find this page again at Genesis → Child Theme Setup."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:34
+msgid "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
+msgstr ""
+
+#. translators: %s: Theme name
+#: lib/views/pages/genesis-admin-onboarding-packs.php:29
+msgid "%s offers a choice of starter packs. A starter pack is a bundle of content and/or plugins that will be automatically imported and set up for you."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:224
+msgid "View the %s starter pack demo (opens in new window)."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:218
+msgid "Install the %s starter pack."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:213
+msgid "Learn more about the %s starter pack."
+msgstr ""
+
+#: lib/functions/onboarding.php:201
+msgid "No Starter Packs found."
+msgstr ""
+
+#. translators: the post type label.
+#: lib/admin/customizer.php:181
+msgid "Show Featured Images on %s"
+msgstr ""
+
+#: lib/classes/class-genesis-admin-onboarding.php:33
+msgid "Child Theme Setup"
+msgstr ""
+
+#. translators: %s: Link to footer shortcodes documentation
+#: config/customizer-theme-settings.php:307
+msgid "The text that will appear in your site footer. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a>."
+msgstr ""
+
+#: config/customizer-theme-settings.php:302
+msgid "Footer"
+msgstr ""
+
+#: config/customizer-theme-settings.php:225
+msgid "Modify the settings for individual entries such as posts and pages."
+msgstr ""
+
+#: config/customizer-theme-settings.php:224
+msgid "Singular Content"
+msgstr ""
+
+#. translators: 1: Genesis version, 2: Changelog URI.
+#: lib/views/pages/genesis-admin-upgraded.php:32
+msgid "Congratulations for successfully updating to Genesis %1$s. We keep a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
 msgstr ""
 
 #: lib/classes/class-genesis-menu-handler.php:87
 msgid "Menu"
 msgstr ""
 
-#: lib/classes/class-genesis-amp-menu.php:390
 #: lib/classes/class-genesis-menu-handler.php:90
+#: lib/classes/class-genesis-amp-menu.php:390
 msgid "Submenu"
 msgstr ""
 
@@ -49,12 +137,12 @@ msgstr ""
 msgid "The following plugins will be automatically installed and activated with this theme (links open in new window):"
 msgstr ""
 
-#. translators: 1: Path to local image file.
-#: lib/functions/onboarding.php:398
-msgid "Could not read the file: %1$s."
-msgstr "لا يمكن قراءة الملف: %1$s."
+#. translators: %s: Path to local image file.
+#: lib/functions/onboarding.php:578
+msgid "Could not read the file: %s."
+msgstr ""
 
-#: lib/functions/onboarding.php:84
+#: lib/functions/onboarding.php:127
 msgid "new window"
 msgstr "نافذة جديدة"
 
@@ -85,6 +173,7 @@ msgid "%s supports automatic set up and import of demo content and/or recommende
 msgstr ""
 
 #. translators: %s: Theme name
+#: lib/views/pages/genesis-admin-onboarding-packs.php:22
 #: lib/views/pages/genesis-admin-onboarding.php:25
 msgid "Get started with %s."
 msgstr ""
@@ -98,47 +187,47 @@ msgstr ""
 msgid "This is the %1$s. You can add content to this area by visiting your %2$s and adding new widgets to this area."
 msgstr ""
 
-#: lib/structure/post.php:649
+#: lib/structure/post.php:784
 msgid "Use `genesis_get_author_box()` instead."
 msgstr ""
 
-#: lib/structure/post.php:646
+#: lib/structure/post.php:781
 msgid "The default is true, so remove the second argument."
 msgstr ""
 
 #. translators: 1: Name of the image, 2: The error message.
-#: lib/functions/onboarding.php:411
+#: lib/functions/onboarding.php:591
 msgid "There was an error importing the %1$s image. Error: %2$s"
 msgstr ""
 
 #. translators: 1: URL of the image, 2: The error message.
-#: lib/functions/onboarding.php:392
+#: lib/functions/onboarding.php:572
 msgid "There was an error downloading the featured image from %1$s. Error: %2$s"
 msgstr ""
 
 #. translators: 1: Title of the menu item, 2: The error message.
-#: lib/functions/onboarding.php:244
+#: lib/functions/onboarding.php:424
 msgid "There was an error creating the %1$s menu item. Error: %2$s"
 msgstr ""
 
 #. translators: 1: Title of the menu, 2: The error message.
-#: lib/functions/onboarding.php:175
+#: lib/functions/onboarding.php:359
 msgid "There was an error creating the %1$s menu. Error: %2$s"
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:202
+#: lib/classes/class-genesis-script-loader.php:296
 msgid "A setup step has completed."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:201
+#: lib/classes/class-genesis-script-loader.php:295
 msgid "A setup step has started."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:200
+#: lib/classes/class-genesis-script-loader.php:294
 msgid "The website setup process has completed."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:199
+#: lib/classes/class-genesis-script-loader.php:293
 msgid "The website setup process has started."
 msgstr ""
 
@@ -166,10 +255,12 @@ msgstr ""
 msgid "Helpful Links"
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:112
 #: lib/views/pages/genesis-admin-onboarding.php:120
 msgid "Edit your homepage"
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:111
 #: lib/views/pages/genesis-admin-onboarding.php:119
 msgid "View your homepage"
 msgstr ""
@@ -178,14 +269,19 @@ msgstr ""
 msgid "Your website setup is complete! View or edit your homepage using the buttons below."
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:108
 #: lib/views/pages/genesis-admin-onboarding.php:116
 msgid "All done!"
 msgstr ""
 
+#: lib/functions/onboarding.php:185
+#: lib/views/pages/genesis-admin-onboarding-packs.php:84
 #: lib/views/pages/genesis-admin-onboarding.php:87
 msgid "Demo content"
 msgstr ""
 
+#: lib/functions/onboarding.php:142
+#: lib/views/pages/genesis-admin-onboarding-packs.php:64
 #: lib/views/pages/genesis-admin-onboarding.php:64
 msgid "Recommended plugins"
 msgstr ""
@@ -194,34 +290,27 @@ msgstr ""
 msgid "Or go to Theme Settings"
 msgstr ""
 
-#. translators: 1: URL for updating Genesis, 2: class attribute for anchor, 3:
-#. call to action.
-#: lib/functions/upgrade.php:1073
+#: lib/functions/upgrade.php:332
 msgid "update now"
 msgstr ""
 
-#. translators: 1: URL for change log, 2: class attribute for anchor, 3: call
-#. to action.
-#: lib/functions/upgrade.php:1025 lib/functions/upgrade.php:1066
+#: lib/functions/upgrade.php:284
+#: lib/functions/upgrade.php:325
 msgid "Check out what's new"
 msgstr ""
 
 #. translators: 1: Genesis version, 2: URL for change log, 3: URL for updating
 #. Genesis.
-#: lib/functions/upgrade.php:1059
+#: lib/functions/upgrade.php:318
 msgid "Genesis %1$s is available. %2$s or %3$s."
 msgstr ""
 
-#: lib/functions/layout.php:575
+#: lib/functions/layout.php:576
 msgid "Use `genesis_get_structural_wrap()` instead."
 msgstr ""
 
-#: lib/functions/layout.php:572
+#: lib/functions/layout.php:573
 msgid "The default is true, so remove the third argument."
-msgstr ""
-
-#: lib/classes/class-genesis-admin-onboarding.php:33
-msgid "Getting Started"
 msgstr ""
 
 #: lib/classes/class-genesis-admin-onboarding.php:32
@@ -229,7 +318,7 @@ msgid "Genesis - Getting Started"
 msgstr ""
 
 #. translators: 1: Title of the page, 2: The error message.
-#: lib/functions/onboarding.php:360
+#: lib/functions/onboarding.php:540
 msgid "There was an error importing the %1$s page. Error: %2$s"
 msgstr ""
 
@@ -245,11 +334,11 @@ msgstr ""
 msgid "Text entered in the Meta Description field is used as the short page description under the title on search engine results pages."
 msgstr ""
 
-#: lib/structure/post.php:907
+#: lib/structure/post.php:1048
 msgid "Next Post:"
 msgstr ""
 
-#: lib/structure/post.php:894
+#: lib/structure/post.php:1035
 msgid "Previous Post:"
 msgstr ""
 
@@ -271,7 +360,8 @@ msgstr ""
 msgid "Update Notification Email Address"
 msgstr ""
 
-#: lib/admin/privacy-requests.php:26 lib/admin/privacy-requests.php:124
+#: lib/admin/privacy-requests.php:26
+#: lib/admin/privacy-requests.php:124
 #: lib/admin/privacy-requests.php:171
 msgid "Genesis Author Archive Data"
 msgstr ""
@@ -281,13 +371,13 @@ msgstr ""
 msgid " Using Genesis %s."
 msgstr ""
 
-#. translators: 1: Version of PHP that Genesis requires. 2: The PHP version on
+#. translators: 1: Version of PHP that Genesis requires, 2: The PHP version on
 #. this site
 #: config/requirements.php:34
 msgid "Genesis requires PHP version %1$s or higher. You are using version %2$s. Please <a href=\"%3$s\">upgrade PHP</a> to use Genesis."
 msgstr ""
 
-#. translators: 1: Version of WordPress that Genesis requires. 2: The WordPress
+#. translators: 1: Version of WordPress that Genesis requires, 2: The WordPress
 #. version on this site
 #: config/requirements.php:27
 msgid "Genesis requires WordPress version %1$s or higher. You are using version %2$s. Please upgrade WordPress to use Genesis."
@@ -327,11 +417,11 @@ msgstr ""
 msgid "Genesis Blue"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:460
+#: lib/widgets/featured-post-widget.php:466
 msgid "Date Modified"
 msgstr "تاريخ التعديل"
 
-#: lib/widgets/featured-post-widget.php:459
+#: lib/widgets/featured-post-widget.php:465
 msgid "Date Published"
 msgstr "تاريخ النشر"
 
@@ -348,15 +438,15 @@ msgstr ""
 msgid "Your child theme uses accessible headings. If you leave this blank, the default accessible heading will be used."
 msgstr ""
 
-#: lib/functions/markup.php:715
+#: lib/functions/markup.php:561
 msgid "Secondary"
 msgstr "ثانوي"
 
-#: lib/functions/markup.php:698
+#: lib/functions/markup.php:544
 msgid "Main"
 msgstr "رئيسي"
 
-#: config/customizer-theme-settings.php:293
+#: config/customizer-theme-settings.php:317
 msgid "Header/Footer Scripts"
 msgstr ""
 
@@ -383,14 +473,6 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:24
 msgid "Customize the various theme settings."
-msgstr ""
-
-#: config/customizer-seo-settings.php:290
-msgid "Apply noydir to entire site?"
-msgstr ""
-
-#: config/customizer-seo-settings.php:282
-msgid "Apply noodp to entire site?"
 msgstr ""
 
 #: config/customizer-seo-settings.php:228
@@ -491,23 +573,6 @@ msgstr ""
 msgid "For more information, see our article at %s"
 msgstr ""
 
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:22
-msgid "This setting has been deprecated because it is no longer recommended. If you uncheck this box, the setting will disappear."
-msgstr ""
-
-#. translators: Open and close span tags, abbreviation expansion for SEO.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:62
-msgid "%1$sNote:%2$s The shortlink tag might have some use for 3rd party service discoverability, but it has no %3$s value whatsoever."
-msgstr ""
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:17
-msgid "SEO"
-msgstr ""
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:17
-msgid "Search engine optimization"
-msgstr ""
-
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
 msgid "301 Redirect."
 msgstr ""
@@ -535,12 +600,13 @@ msgstr ""
 
 #. translators: %s: Theme settings admin screen link.
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:32
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 #: lib/views/meta-boxes/genesis-user-layout.php:31
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 msgid "Default Layout set in %s"
 msgstr ""
 
-#. translators: Open and close post type archive link, post type name.
+#. translators: 1: Open post type archive link, 2: Close post type archive
+#. link, 3: Post type name.
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:19
 msgid "View the %1$s%3$s archive%2$s."
 msgstr ""
@@ -601,7 +667,7 @@ msgstr ""
 msgid "You can find more on this feature in the %1$sHow to Add a Post Category Page tutorial.%2$s"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the theme
 msgid "The industry standard for Premium WordPress Themes."
 msgstr ""
 
@@ -629,57 +695,61 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:59
 msgid "Read more about noarchive"
 msgstr ""
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:52
 msgid "Read more about nofollow"
 msgstr ""
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:45
 msgid "Read more about noindex"
 msgstr ""
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:38
 msgid "Read more about 301 Redirects"
 msgstr ""
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:31
 msgid "Read more about Custom Canonical URL"
 msgstr ""
 
-#: config/customizer-theme-settings.php:279
+#: config/customizer-theme-settings.php:285
 msgid "Entry Pagination Type"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:479
+#: lib/widgets/featured-post-widget.php:485
 msgid "Exclude Previously Displayed Posts?"
 msgstr "إستبعاد المشاركات المعروضة مسبقا؟"
 
-#: lib/structure/post.php:443
+#: lib/structure/post.php:578
 msgid "Sorry, no content matched your criteria."
 msgstr "آسف, لا يوجد محتوى مطابق للمعايير الخاصة بك."
 
-#: lib/classes/class-genesis-script-loader.php:176
+#: lib/classes/class-genesis-script-loader.php:270
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:175
+#: lib/classes/class-genesis-script-loader.php:269
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: lib/functions/deprecated.php:669
+#: lib/functions/deprecated.php:1439
 msgid "decimal or hexidecimal entities"
 msgstr "عشري أو كيانات سداسية"
 
-#: lib/admin/inpost-metaboxes.php:136
+#: lib/admin/inpost-metaboxes.php:138
 msgid "Scripts"
 msgstr "مخطوطات"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:49
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:56
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:63
@@ -687,27 +757,26 @@ msgid "Apply %s to this archive"
 msgstr "تطبيق %s على هذا الأرشيف"
 
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:41
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:87
 msgid "Robots Meta Tags"
 msgstr "كلمات روبوتات الميتا:"
 
-#: config/customizer-seo-settings.php:110 lib/admin/privacy-requests.php:196
-#: lib/views/help/genesis-inpost-seo.php:24
-#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:33
+#: config/customizer-seo-settings.php:110
+#: lib/admin/privacy-requests.php:196
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:49
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:77
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:33
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:35
 #: lib/views/meta-boxes/genesis-user-seo.php:36
+#: lib/views/help/genesis-inpost-seo.php:24
 msgid "Meta Keywords"
 msgstr "كلمات ميتا الرئيسية"
 
-#: config/customizer-seo-settings.php:101 lib/admin/privacy-requests.php:195
-#: lib/views/help/genesis-inpost-seo.php:20
-#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:26
+#: config/customizer-seo-settings.php:101
+#: lib/admin/privacy-requests.php:195
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:35
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:67
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:26
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:27
 #: lib/views/meta-boxes/genesis-user-seo.php:28
+#: lib/views/help/genesis-inpost-seo.php:20
 msgid "Meta Description"
 msgstr "وصف ميتا"
 
@@ -716,15 +785,15 @@ msgid "Archive"
 msgstr "الأرشيف"
 
 #. translators: %s: URL for current website.
-#: lib/structure/loops.php:442
+#: 404.php:43
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
 msgstr ""
 
-#: lib/structure/loops.php:435
+#: 404.php:36
 msgid "Not found, error 404"
 msgstr "غير موجود، خطأ 404"
 
-#: lib/structure/search.php:29
+#: search.php:22
 msgid "Search Results for:"
 msgstr "نتائج البحث عن:"
 
@@ -744,52 +813,26 @@ msgstr "الصفحة الرئيسية"
 msgid "Navigation"
 msgstr "التصفح"
 
-#: config/customizer-theme-settings.php:60 lib/views/help/genesis-header.php:15
+#: config/customizer-theme-settings.php:60
+#: lib/views/help/genesis-header.php:15
 msgid "Header"
 msgstr "الترويسة"
 
-#. translators: Escaped HTML head tag, abbreviation expansion for SEO.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:20
-msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no %2$s value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no %2$s value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-
 #: config/customizer-seo-settings.php:102
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:71
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
 msgstr "الوصف يمكن إستعماله لتحديد النص أسفل العنوان في نتائج محركات البحث."
 
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:52
-msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "في حال تركت حقل العنوان المخصص فارغا سيتم إستعمال العنوان الإفتراضي للمدونة او الموقع المعين في إعدادات وورد بريس سلفا"
-
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:38
-msgid "Site Description (Tagline)"
-msgstr "وصف المدونة او الموقع"
-
 #: config/customizer-seo-settings.php:44
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:46
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
 msgstr "في حال كان العنوان مركبا من جزئين او أكثر، سيتم الفصل بينها بفاصل، يمكنك تخصيص فاصل من هذا الإعداد."
 
 #: config/customizer-seo-settings.php:43
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:44
 msgid "Document Title Separator"
 msgstr "فواصل عناوين التدوينات والصفحات:"
 
 #: config/customizer-seo-settings.php:53
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:59
 msgid "Determines which side the added title text will go on."
 msgstr "إختار الإتجاه الذي ستقوم عناوين التدوينات والصفحات بمحاذاته"
-
-#. translators: %s: Escaped title tag.
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:38
-msgid "Add site name to %s on inner pages?"
-msgstr "إظافة إسم المدونة او الموقع إلى وسم %s في الصفحات الداخلية ؟"
-
-#. translators: Escaped title tag.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:59
-msgid "Add site description (tagline) to %s on home page?"
-msgstr "إضافة وصف المدونة او الموقع إلى وسم %s في الصفحة الرئيسية ؟"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
@@ -803,11 +846,11 @@ msgstr "هل تبحث عن شئ؟"
 msgid "Read more"
 msgstr "قراءة المزيد"
 
-#: lib/views/pages/genesis-admin-upgraded.php:40
+#: lib/views/pages/genesis-admin-upgraded.php:44
 msgid "Go to SEO Settings &rarr;"
 msgstr "الذهاب الى إعدادات SEO &rarr;"
 
-#: lib/views/pages/genesis-admin-upgraded.php:38
+#: lib/views/pages/genesis-admin-upgraded.php:42
 msgid "Go to Theme Settings &rarr;"
 msgstr "الذهاب الى إعدادات القالب &rarr;"
 
@@ -820,7 +863,9 @@ msgstr "مرحبا بكم في إطار عمل Genesis %s"
 msgid "Use for site title/logo:"
 msgstr "يستعمل من أجل عنوان او شعار المدونة او الموقع"
 
-#: lib/structure/footer.php:163
+#: config/customizer-theme-settings.php:311
+#: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
+#: lib/classes/Upgrade/Upgrade_DB_3100.php:38
 msgid "on"
 msgstr "   "
 
@@ -848,11 +893,11 @@ msgstr "ترويسة الأرشيف"
 msgid "Error saving settings."
 msgstr "خلل أثناء حفظ الإعدادات."
 
-#: lib/widgets/user-profile-widget.php:199
+#: lib/widgets/user-profile-widget.php:202
 msgid "Custom Text Content"
 msgstr "محتوى نصي مخصص"
 
-#: lib/init.php:105
+#: lib/init.php:132
 msgid "Secondary Navigation Menu"
 msgstr "القائمة التصفح الرئيسية"
 
@@ -860,7 +905,7 @@ msgstr "القائمة التصفح الرئيسية"
 msgid "Header Left"
 msgstr "أعلى الموقع على اليسار"
 
-#: lib/widgets/user-profile-widget.php:218
+#: lib/widgets/user-profile-widget.php:221
 msgid "Extended page link text"
 msgstr "نص رابط الصفحة الموسعة"
 
@@ -877,7 +922,7 @@ msgstr "هذه هي القائمة الجانبية الرئيسية في حال
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
 msgstr "هذه هي القائمة الجانبية الرئيسية في حال كنت تستخدم تخطيط يتضمن عمودين او ثلاث"
 
-#: lib/functions/deprecated.php:483
+#: lib/functions/deprecated.php:1252
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
 msgstr "لقد تم إستبدال الحجة \"context\" بـ \"theme_location\" في مصفوفة  $args ."
 
@@ -894,10 +939,9 @@ msgstr "إعدادات  أرشيف الكاتب"
 msgid "User Permissions"
 msgstr "صلاحيات المستخدم"
 
-#. translators: %s: </head>
-#. translators: %s: </body>
-#: config/customizer-theme-settings.php:299
-#: config/customizer-theme-settings.php:309
+#. translators: %s: </element>
+#: config/customizer-theme-settings.php:323
+#: config/customizer-theme-settings.php:333
 msgid "This code will output immediately before the closing %s tag in the document source."
 msgstr "وسم يتم تنفيذه قبل غلق وسم %s في الكود المصدري"
 
@@ -905,40 +949,36 @@ msgstr "وسم يتم تنفيذه قبل غلق وسم %s في الكود ال�
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:61
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:149
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:177
-#: lib/views/help/cpt-archive-archive.php:15
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:16
+#: lib/views/help/cpt-archive-archive.php:15
 msgid "Archive Settings"
 msgstr "إعدادات الأرشيف"
 
-#. translators: Meta rel attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:34
-msgid "Adjacent Posts %s link tags"
-msgstr "مجاورة وسم %s للتدوينات او الصفحات لوسوم الرابط"
-
-#: lib/admin/inpost-metaboxes.php:212
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:156
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:179
-#: lib/views/help/cpt-archive-layout.php:15
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:23
+#: lib/admin/inpost-metaboxes.php:225
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:27
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:15
 #: lib/views/meta-boxes/genesis-user-layout.php:17
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:23
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:15
+#: lib/views/help/cpt-archive-layout.php:15
 msgid "Layout Settings"
 msgstr "إعدادات تخطيط الموقع"
 
-#: config/customizer-seo-settings.php:24 lib/admin/inpost-metaboxes.php:33
+#: config/customizer-seo-settings.php:24
+#: lib/admin/inpost-metaboxes.php:33
 #: lib/admin/inpost-metaboxes.php:63
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:15
 msgid "Theme SEO Settings"
 msgstr "إعدادات SEO للقالب"
 
-#: lib/functions/formatting.php:398
+#: lib/functions/formatting.php:397
 msgctxt "separator in time difference"
 msgid "and"
 msgstr "و"
 
 #. translators: %s: Number of second(s).
-#: lib/functions/formatting.php:363
+#: lib/functions/formatting.php:362
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -950,7 +990,7 @@ msgstr[4] "%s من الثواني"
 msgstr[5] "%s من الثواني"
 
 #. translators: %s: Number of minute(s).
-#: lib/functions/formatting.php:361
+#: lib/functions/formatting.php:360
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
@@ -962,7 +1002,7 @@ msgstr[4] "%s من الدقائق"
 msgstr[5] "%s من الدقائق"
 
 #. translators: %s: Number of hour(s).
-#: lib/functions/formatting.php:359
+#: lib/functions/formatting.php:358
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
@@ -974,7 +1014,7 @@ msgstr[4] "%s من الساعات"
 msgstr[5] "%s من الساعات"
 
 #. translators: %s: Number of day(s).
-#: lib/functions/formatting.php:357
+#: lib/functions/formatting.php:356
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
@@ -986,7 +1026,7 @@ msgstr[4] "%s من الأيام"
 msgstr[5] "%s من الأيام"
 
 #. translators: %s: Number of week(s).
-#: lib/functions/formatting.php:355
+#: lib/functions/formatting.php:354
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
@@ -998,7 +1038,7 @@ msgstr[4] "%s من الأسابيع"
 msgstr[5] "%s من الأسابيع"
 
 #. translators: %s: Number of month(s).
-#: lib/functions/formatting.php:353
+#: lib/functions/formatting.php:352
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
@@ -1010,7 +1050,7 @@ msgstr[4] "%s من الشهور"
 msgstr[5] "%s من الشهور"
 
 #. translators: %s: Number of year(s).
-#: lib/functions/formatting.php:351
+#: lib/functions/formatting.php:350
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
@@ -1021,7 +1061,7 @@ msgstr[3] "%s من السنوات"
 msgstr[4] "%s من السنوات"
 msgstr[5] "%s من السنوات"
 
-#: lib/functions/formatting.php:345
+#: lib/functions/formatting.php:344
 msgctxt "time difference"
 msgid "seconds"
 msgstr "ثواني"
@@ -1036,11 +1076,12 @@ msgid "Comments and Trackbacks"
 msgstr "التعليقات والتنبيهات"
 
 #: lib/views/help/genesis-layout.php:15
+#: lib/js/build/layout-toggle.js:1
+#: lib/js/editor/layout-toggle.js:33
 msgid "Default Layout"
 msgstr "التخطيط الإفتراضي"
 
 #: config/customizer-seo-settings.php:111
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:81
 msgid "Keywords are generally ignored by Search Engines."
 msgstr "أهمية الكلمات المفتاحية تتغير من  محرك بحث لآخر."
 
@@ -1068,19 +1109,22 @@ msgstr "الرجاء إختيار الملف من  جهازكم والنقر ع�
 msgid "Default"
 msgstr "الإفتراضي"
 
-#: lib/structure/post.php:721 lib/structure/post.php:856
+#: lib/structure/post.php:857
+#: lib/structure/post.php:997
 msgid "Next Page"
 msgstr "الصفحة التالية"
 
-#: lib/structure/post.php:720 lib/structure/post.php:807
+#: lib/structure/post.php:856
+#: lib/structure/post.php:944
 msgid "Previous Page"
 msgstr "الصفحة السابقة"
 
-#: lib/shortcodes/post.php:45 lib/shortcodes/post.php:121
+#: lib/shortcodes/post.php:45
+#: lib/shortcodes/post.php:121
 msgid "ago"
 msgstr "خلت"
 
-#: lib/classes/class-genesis-script-loader.php:174
+#: lib/classes/class-genesis-script-loader.php:268
 msgid "Select / Deselect All"
 msgstr "إختيار الكل / عدم إختيار الكل"
 
@@ -1101,11 +1145,13 @@ msgstr "بدون إختيار"
 msgid "There was a problem importing your settings. Please try again."
 msgstr "لقد وقع خلل ما منع عملية إستيراد الإعدادات بنجاح، الرجاء المحاولة مجددا"
 
-#: lib/functions/markup.php:1398 lib/functions/widgetize.php:157
+#: lib/functions/widgetize.php:157
+#: lib/functions/markup.php:1014
 msgid "Secondary Sidebar"
 msgstr "القائمة الجانبية الثانوية"
 
-#: lib/functions/markup.php:1377 lib/functions/widgetize.php:146
+#: lib/functions/widgetize.php:146
+#: lib/functions/markup.php:994
 msgid "Primary Sidebar"
 msgstr "القائمة الجانبية الرئيسية"
 
@@ -1117,32 +1163,32 @@ msgstr "أعلى الموقع على اليمين"
 msgid "Not found: "
 msgstr "غير موجود:"
 
-#: lib/widgets/featured-post-widget.php:574
+#: lib/widgets/featured-post-widget.php:580
 msgid "No Content"
 msgstr "بدون محتوى"
 
-#: lib/widgets/featured-post-widget.php:573
+#: lib/widgets/featured-post-widget.php:579
 msgid "Show Content Limit"
 msgstr "إظهار حد المحتوى"
 
-#: lib/widgets/featured-post-widget.php:572
+#: lib/widgets/featured-post-widget.php:578
 msgid "Show Excerpt"
 msgstr "إظهار المقتطف"
 
-#: lib/widgets/featured-post-widget.php:571
+#: lib/widgets/featured-post-widget.php:577
 msgid "Show Content"
 msgstr "إظهار المحتوى"
 
-#: lib/widgets/featured-post-widget.php:569
+#: lib/widgets/featured-post-widget.php:575
 msgid "Content Type"
 msgstr "إظهار نوع المحتوى"
 
-#: lib/widgets/featured-post-widget.php:561
+#: lib/widgets/featured-post-widget.php:567
 msgid "Show Post Info"
 msgstr "إظهار معلومات التدوينة"
 
-#: lib/widgets/featured-page-widget.php:318
-#: lib/widgets/featured-post-widget.php:521
+#: lib/widgets/featured-page-widget.php:323
+#: lib/widgets/featured-post-widget.php:527
 msgid "Show Featured Image"
 msgstr "إظهار الصورة البارزة"
 
@@ -1155,7 +1201,7 @@ msgstr "هذا النص سيكون الفقرة الأولى وسيعرض في �
 msgid "Custom Description Text"
 msgstr "نص الوصف المخصص"
 
-#. translators: Escaped H1 tag.
+#. translators: %s: Escaped h1 tag wrapped in code tags.
 #: lib/views/meta-boxes/genesis-user-author.php:26
 msgid "Will display in the %s tag at the top of the first page"
 msgstr "سيتم إظهارها في وسم %s في أعلى أول صفحة"
@@ -1195,10 +1241,10 @@ msgstr "تفعيل شريط أدوات الإدارة ؟"
 msgid "Genesis Admin Menus"
 msgstr "شريط أدوات الإدارة"
 
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:20
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:23
 #: lib/views/meta-boxes/genesis-user-layout.php:22
 #: lib/views/meta-boxes/genesis-user-layout.php:25
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:20
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:23
 msgid "Choose Layout"
 msgstr "إختار تخطيط"
 
@@ -1212,18 +1258,17 @@ msgstr "التصدير والإستيراد"
 msgid "Custom Post Class"
 msgstr "تنسيق مخصص للتدوينة"
 
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:50
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:51
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:50
 msgid "Custom Body Class"
 msgstr "تنسيق مخصص للـ Body"
 
-#: lib/views/help/genesis-inpost-seo.php:35
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
+#: lib/views/help/genesis-inpost-seo.php:35
 msgid "Custom Redirect URL"
 msgstr "وسم إعادة توجيه مخصص"
 
-#. translators: Title string length
-#. translators: Description string length
+#. translators: %s: String length
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:28
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:42
 msgid "Characters Used: %s"
@@ -1241,7 +1286,7 @@ msgstr "عندما تقوم بحفظ  الملف المحمل، سيكون بإ�
 msgid "Export Genesis Settings File"
 msgstr "تصدير ملف إعدادات إطار العمل"
 
-#. translators: Maximum size import files can have.
+#. translators: %s: Maximum size import files can have.
 #: lib/views/pages/genesis-admin-import-export.php:38
 msgid "Upload File (Maximum Size: %s): "
 msgstr "رفع الملف: (أقصى حجم: %s)"
@@ -1254,47 +1299,47 @@ msgstr "إستيراد ملف إعدادات إطار العمل"
 msgid "Genesis - Import/Export"
 msgstr "التصدير والإستيراد"
 
-#: lib/widgets/user-profile-widget.php:224
+#: lib/widgets/user-profile-widget.php:227
 msgid "Show Author Archive Link?"
 msgstr "إظهار رابط ارشيف الكاتب ؟"
 
-#: lib/widgets/user-profile-widget.php:205
+#: lib/widgets/user-profile-widget.php:208
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
 msgstr "الرجاء إختيار صفحة \"عن الكاتب\" الموسعة من القائمة أسفله، ستكون هذه هي الصفحة الموصولة بالرابط أسفل النبذة"
 
-#: lib/widgets/user-profile-widget.php:198
+#: lib/widgets/user-profile-widget.php:201
 msgid "Custom Text (below)"
 msgstr "نص مخصص (أسفله)"
 
-#: lib/widgets/user-profile-widget.php:196
+#: lib/widgets/user-profile-widget.php:199
 msgid "Author Bio"
 msgstr "نبذة عن الكاتب"
 
-#: lib/widgets/user-profile-widget.php:193
+#: lib/widgets/user-profile-widget.php:196
 msgid "Select which text you would like to use as the author description"
 msgstr "الرجاء إختيار أي نص ترغبون بأن يستعمل كوصف للكاتب"
 
-#: lib/widgets/user-profile-widget.php:173
+#: lib/widgets/user-profile-widget.php:176
 msgid "Extra Large"
 msgstr "كبيرة للغاية"
 
-#: lib/widgets/user-profile-widget.php:172
+#: lib/widgets/user-profile-widget.php:175
 msgid "Large"
 msgstr "كبيرة"
 
-#: lib/widgets/user-profile-widget.php:171
+#: lib/widgets/user-profile-widget.php:174
 msgid "Medium"
 msgstr "متوسطة"
 
-#: lib/widgets/user-profile-widget.php:170
+#: lib/widgets/user-profile-widget.php:173
 msgid "Small"
 msgstr "صغيرة"
 
-#: lib/widgets/user-profile-widget.php:153
+#: lib/widgets/user-profile-widget.php:156
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
 msgstr "الرجاء إختيار كاتب، بريده سيستخدم لجلب الصورة الرمزية من Gravatar"
 
-#: lib/widgets/user-profile-widget.php:107
+#: lib/widgets/user-profile-widget.php:110
 msgid "View My Blog Posts"
 msgstr "مشاهدة جميع مقالاتي"
 
@@ -1306,93 +1351,93 @@ msgstr "ملف الكاتب"
 msgid "Displays user profile block with Gravatar"
 msgstr "لعرض ملف الكاتب الشخصي مع صورة رمزية له"
 
-#: lib/widgets/featured-post-widget.php:614
+#: lib/widgets/featured-post-widget.php:620
 msgid "Link Text"
 msgstr "رابط النص"
 
-#: lib/widgets/featured-post-widget.php:610
+#: lib/widgets/featured-post-widget.php:616
 msgid "Show Category Archive Link"
 msgstr "إظهار رابط أرشيف التصنيف"
 
-#: lib/widgets/featured-post-widget.php:592
+#: lib/widgets/featured-post-widget.php:598
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
 msgstr "الرجاء إكمال المعلومات أسفله في حال رغبتم في إظهار  قائمة غير مرتبة من هذا التصنيف"
 
-#: lib/widgets/featured-post-widget.php:584
+#: lib/widgets/featured-post-widget.php:590
 msgid "More Text (if applicable)"
 msgstr "نص قراءة المزيد (إذا وُجِدَ)"
 
-#: lib/widgets/featured-post-widget.php:556
+#: lib/widgets/featured-post-widget.php:562
 msgid "Show Post Title"
 msgstr "إظهار عنوان التدوينة"
 
-#: lib/widgets/featured-post-widget.php:507
-#: lib/widgets/user-profile-widget.php:184
+#: lib/widgets/featured-post-widget.php:513
+#: lib/widgets/user-profile-widget.php:187
 msgid "Gravatar Alignment"
 msgstr "محاذات الصورة الرمزية"
 
-#: lib/widgets/featured-post-widget.php:502
+#: lib/widgets/featured-post-widget.php:508
 msgid "Extra Large (125px)"
 msgstr "كبيرة للغاية (125 بيكسل)"
 
-#: lib/widgets/featured-post-widget.php:501
+#: lib/widgets/featured-post-widget.php:507
 msgid "Large (85px)"
 msgstr "كبيرة (85 بيكسل)"
 
-#: lib/widgets/featured-post-widget.php:500
+#: lib/widgets/featured-post-widget.php:506
 msgid "Medium (65px)"
 msgstr "متوسطة (65 بيكسل)"
 
-#: lib/widgets/featured-post-widget.php:499
+#: lib/widgets/featured-post-widget.php:505
 msgid "Small (45px)"
 msgstr "صغيرة (45 بيكسل)"
 
-#: lib/widgets/featured-post-widget.php:497
-#: lib/widgets/user-profile-widget.php:166
+#: lib/widgets/featured-post-widget.php:503
+#: lib/widgets/user-profile-widget.php:169
 msgid "Gravatar Size"
 msgstr "حجم الصورة الرمزية"
 
-#: lib/widgets/featured-post-widget.php:493
+#: lib/widgets/featured-post-widget.php:499
 msgid "Show Author Gravatar"
 msgstr "إظهار صورة الكاتب الرمزية"
 
-#: lib/widgets/featured-post-widget.php:473
+#: lib/widgets/featured-post-widget.php:479
 msgid "Ascending (1, 2, 3)"
 msgstr "تصاعديا"
 
-#: lib/widgets/featured-post-widget.php:472
+#: lib/widgets/featured-post-widget.php:478
 msgid "Descending (3, 2, 1)"
 msgstr "تنازليا"
 
-#: lib/widgets/featured-post-widget.php:470
+#: lib/widgets/featured-post-widget.php:476
 msgid "Sort Order"
 msgstr "كيفية الترتيب"
 
-#: lib/widgets/featured-post-widget.php:465
+#: lib/widgets/featured-post-widget.php:471
 msgid "Random"
 msgstr "عشوائيا"
 
-#: lib/widgets/featured-post-widget.php:464
+#: lib/widgets/featured-post-widget.php:470
 msgid "Comment Count"
 msgstr "عدد التعليقات"
 
-#: lib/widgets/featured-post-widget.php:463
+#: lib/widgets/featured-post-widget.php:469
 msgid "ID"
 msgstr "المعرف"
 
-#: lib/widgets/featured-post-widget.php:462
+#: lib/widgets/featured-post-widget.php:468
 msgid "Parent"
 msgstr "الرئيسي"
 
-#: lib/widgets/featured-post-widget.php:457
+#: lib/widgets/featured-post-widget.php:463
 msgid "Order By"
 msgstr "الترتيب حسب"
 
-#: lib/widgets/featured-post-widget.php:452
+#: lib/widgets/featured-post-widget.php:458
 msgid "Number of Posts to Offset"
 msgstr "عدد التدوينات لموازنتها"
 
-#: lib/widgets/featured-post-widget.php:431
+#: lib/widgets/featured-post-widget.php:437
 msgid "Category"
 msgstr "التصنيف"
 
@@ -1412,42 +1457,43 @@ msgstr "مواضيع مميزة"
 msgid "Displays featured posts with thumbnails"
 msgstr "إظهار المواضيع المميزة مع الصور البارزة"
 
-#: lib/widgets/featured-page-widget.php:361
+#: lib/widgets/featured-page-widget.php:366
 msgid "More Text"
 msgstr "نص قراءة المزيد"
 
-#: lib/widgets/featured-page-widget.php:356
+#: lib/widgets/featured-page-widget.php:361
 msgid "Content Character Limit"
 msgstr "حد حروف المحتوى"
 
-#: lib/widgets/featured-page-widget.php:352
+#: lib/widgets/featured-page-widget.php:357
 msgid "Show Page Content"
 msgstr "إظهار محتوى الصفحة"
 
-#: lib/widgets/featured-page-widget.php:347
+#: lib/widgets/featured-page-widget.php:352
 msgid "Show Page Title"
 msgstr "إظهار عنوان الصفحة"
 
+#: config/customizer-theme-settings.php:275
 #: config/customizer-seo-settings.php:77
-#: config/customizer-theme-settings.php:269
-#: lib/widgets/featured-page-widget.php:336
-#: lib/widgets/featured-post-widget.php:509
-#: lib/widgets/featured-post-widget.php:539
-#: lib/widgets/user-profile-widget.php:186
-#: lib/widgets/user-profile-widget.php:210
+#: lib/widgets/featured-page-widget.php:341
+#: lib/widgets/featured-post-widget.php:515
+#: lib/widgets/featured-post-widget.php:545
+#: lib/widgets/user-profile-widget.php:189
+#: lib/widgets/user-profile-widget.php:213
 msgid "None"
 msgstr "بدون محاذات"
 
-#: lib/widgets/featured-page-widget.php:334
-#: lib/widgets/featured-post-widget.php:537
+#: lib/widgets/featured-page-widget.php:339
+#: lib/widgets/featured-post-widget.php:543
 msgid "Image Alignment"
 msgstr "محاذات الصورة"
 
-#: lib/widgets/featured-page-widget.php:299
+#: lib/widgets/featured-page-widget.php:304
 msgid "Page"
 msgstr "الصفحة"
 
-#: lib/shortcodes/footer.php:143 lib/structure/post.php:275
+#: lib/shortcodes/footer.php:143
+#: lib/structure/post.php:343
 msgid "by"
 msgstr "بقلم"
 
@@ -1459,11 +1505,13 @@ msgstr "صفحة ميزة"
 msgid "Displays featured page with thumbnails"
 msgstr "عرض الصفحة المميزة"
 
-#: lib/widgets/featured-page-widget.php:294
-#: lib/widgets/featured-post-widget.php:422
-#: lib/widgets/featured-post-widget.php:461
-#: lib/widgets/featured-post-widget.php:595
-#: lib/widgets/user-profile-widget.php:148
+#: lib/widgets/featured-page-widget.php:299
+#: lib/widgets/featured-post-widget.php:428
+#: lib/widgets/featured-post-widget.php:467
+#: lib/widgets/featured-post-widget.php:601
+#: lib/widgets/user-profile-widget.php:151
+#: lib/js/build/title-toggle.js:17
+#: lib/js/editor/title-toggle.js:37
 msgid "Title"
 msgstr "العنوان"
 
@@ -1471,10 +1519,14 @@ msgstr "العنوان"
 msgid "Search for "
 msgstr "البحث عن"
 
-#: config/breadcrumbs.php:43 config/breadcrumbs.php:44
-#: config/breadcrumbs.php:45 config/breadcrumbs.php:46
-#: config/breadcrumbs.php:48 config/breadcrumbs.php:49
-#: lib/structure/archive.php:194 lib/structure/archive.php:196
+#: config/breadcrumbs.php:43
+#: config/breadcrumbs.php:44
+#: config/breadcrumbs.php:45
+#: config/breadcrumbs.php:46
+#: config/breadcrumbs.php:48
+#: config/breadcrumbs.php:49
+#: lib/structure/archive.php:194
+#: lib/structure/archive.php:196
 #: lib/structure/archive.php:198
 msgid "Archives for "
 msgstr "أرشيف "
@@ -1491,11 +1543,12 @@ msgstr "منطقة المربعات الجانبية الثانوية"
 msgid "Primary Sidebar Widget Area"
 msgstr "منطقة المربعات الجانبية الرئيسية"
 
-#: lib/classes/class-genesis-search-form.php:51 searchform.php:49
+#: lib/classes/class-genesis-search-form.php:51
+#: searchform.php:49
 msgid "Search"
 msgstr "البحث"
 
-#: lib/structure/post.php:576
+#: lib/structure/post.php:711
 msgid "About"
 msgstr "عن "
 
@@ -1503,52 +1556,50 @@ msgstr "عن "
 msgid "By"
 msgstr "بقلم"
 
-#: lib/structure/post.php:370
+#: lib/structure/post.php:485
 msgid "[Read more...]"
 msgstr "[المزيد ...]"
 
-#: lib/functions/deprecated.php:41
+#: lib/functions/deprecated.php:810
+#: lib/structure/comments.php:76
 msgid "Comments"
 msgstr "تعليقات"
 
-#: lib/functions/deprecated.php:40
+#: lib/functions/deprecated.php:809
 msgid "Posts"
 msgstr "التدوينات"
 
-#: lib/init.php:104
+#: lib/init.php:131
 msgid "Primary Navigation Menu"
 msgstr "القائمة التصفح الرئيسية"
 
-#: lib/structure/footer.php:163
+#: config/customizer-theme-settings.php:311
+#: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
+#: lib/classes/Upgrade/Upgrade_DB_3100.php:38
 msgid "Copyright"
 msgstr "كافة الحقوق محفوظة"
 
-#: lib/structure/comments.php:375
+#: lib/structure/comments.php:415
 msgid "Your comment is awaiting moderation."
 msgstr "شكرا جزيلا لك، تعليقك في انتظار موافقة الإدارة."
 
-#: lib/structure/comments.php:328
+#. translators: 1: A date, 2: A time.
+#: lib/structure/comments.php:368
 msgid "%1$s at %2$s"
 msgstr "%1$s بتوقيت %2$s"
 
-#: lib/structure/comments.php:285
+#: lib/structure/comments.php:324
 msgid "says"
 msgstr "قال"
 
-#: lib/structure/comments.php:161
-msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>التنبيهات</h3>"
-
-#: lib/structure/comments.php:76
-msgid "<h3>Comments</h3>"
-msgstr "<h3>التعليقات</h3>"
-
-#: lib/shortcodes/post.php:573 lib/structure/comments.php:359
-#: lib/structure/post.php:352
+#: lib/shortcodes/post.php:573
+#: lib/structure/post.php:467
+#: lib/structure/comments.php:399
 msgid "(Edit)"
 msgstr "(تحرير)"
 
-#: lib/shortcodes/post.php:474 lib/shortcodes/post.php:514
+#: lib/shortcodes/post.php:474
+#: lib/shortcodes/post.php:514
 msgid "Filed Under: "
 msgstr "تحت تصنيف:"
 
@@ -1576,59 +1627,61 @@ msgstr "تسجيل الخروج"
 msgid "Log in"
 msgstr "تسجيل الدخول"
 
-#: lib/functions/deprecated.php:183
+#: lib/functions/deprecated.php:952
 msgid "Return to top of page"
 msgstr "العودة للأعلى"
 
 #. translators: %s: Genesis version.
-#: lib/functions/upgrade.php:1120
+#: lib/functions/upgrade.php:379
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
 msgstr "النسخة %s من إطار العمل Genesis  متوفرة، لراحتكم وفرنا ترقية سريعة بسيطة بنقرة زر واحدة فقط، الرجاء التوجه الى لوحة التحكم والقيام بالترقية "
 
 #. translators: 1: Genesis version, 2: URL for current website.
-#: lib/functions/upgrade.php:1117
+#: lib/functions/upgrade.php:376
 msgid "Genesis %1$s is available for %2$s"
 msgstr ""
 
-#: config/breadcrumbs.php:22 lib/functions/deprecated.php:514
+#: config/breadcrumbs.php:22
+#: lib/functions/deprecated.php:1285
 msgid "Home"
 msgstr "الرئيسية"
 
-#: lib/widgets/featured-post-widget.php:447
-#: lib/widgets/featured-post-widget.php:600
+#: lib/widgets/featured-post-widget.php:453
+#: lib/widgets/featured-post-widget.php:606
 msgid "Number of Posts to Show"
 msgstr "عدد التدوينات لعرضها"
 
-#: lib/widgets/featured-post-widget.php:439
+#: lib/widgets/featured-post-widget.php:445
 msgid "All Categories"
 msgstr "جميع التصنيفات"
 
-#: config/customizer-theme-settings.php:284
+#: config/customizer-theme-settings.php:290
 msgid "Numeric"
 msgstr "ترقيم رقمي "
 
-#: config/customizer-theme-settings.php:283
+#: config/customizer-theme-settings.php:289
 msgid "Previous / Next"
 msgstr "السابق / التالي"
 
-#: lib/widgets/featured-page-widget.php:322
-#: lib/widgets/featured-post-widget.php:525
+#: lib/widgets/featured-page-widget.php:327
+#: lib/widgets/featured-post-widget.php:531
 msgid "Image Size"
 msgstr "حجم الصورة"
 
-#: lib/widgets/featured-post-widget.php:579
+#: lib/widgets/featured-post-widget.php:585
 msgid "characters"
 msgstr "حرف"
 
-#: lib/widgets/featured-post-widget.php:577
+#: lib/widgets/featured-post-widget.php:583
 msgid "Limit content to"
 msgstr "تحديد المحتوى الظاهر الى"
 
-#: config/customizer-theme-settings.php:228
+#: config/customizer-theme-settings.php:234
 msgid "Select one of the following"
 msgstr "إختر واحد من التالي:"
 
-#: config/layouts.php:54 lib/views/help/cpt-archive-layout.php:25
+#: config/layouts.php:54
+#: lib/views/help/cpt-archive-layout.php:25
 #: lib/views/help/genesis-layout.php:25
 msgid "Full Width Content"
 msgstr "بعرض كامل بدون قوائم جانبية"
@@ -1637,13 +1690,15 @@ msgstr "بعرض كامل بدون قوائم جانبية"
 msgid "Image logo"
 msgstr "صورة الشعار"
 
-#: config/customizer-theme-settings.php:224
+#: config/customizer-theme-settings.php:230
 #: lib/views/help/genesis-archives.php:15
 msgid "Content Archives"
 msgstr "أرشيف المحتوى"
 
 #: config/customizer-theme-settings.php:112
 #: lib/views/help/genesis-breadcrumbs.php:15
+#: lib/js/build/breadcrumbs-toggle.js:17
+#: lib/js/editor/breadcrumbs-toggle.js:42
 msgid "Breadcrumbs"
 msgstr "التصفح التدريجي"
 
@@ -1659,9 +1714,8 @@ msgstr "التلقيمات الإخبارية المخصصة"
 msgid "Information"
 msgstr "المعلومات العامة"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:50
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:57
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:64
@@ -1680,105 +1734,31 @@ msgstr "عناكب البحث"
 msgid "Comma separated list"
 msgstr "الرجاء الفصل بين كل كلمة وأخرى بفاصلة إنجليزية"
 
-#. translators: Meta noodp attribute.
-#. translators: Meta noydir attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:137
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:144
-msgid "Apply %s to your site?"
-msgstr "تطبيق وسم %s على مدونتك او موقعك ؟"
-
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:77
-msgid "Apply %s to Entire Site?"
-msgstr "تطبيق وسم %s على المدونة او الموقع ككل ؟"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:55
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:114
-msgid "Apply %s to Search Archives?"
-msgstr "تطبيق وسم %s على أرشيف البحث ؟"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:48
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:107
-msgid "Apply %s to Date Archives?"
-msgstr "تطبيق وسم %s على أرشيف التواريخ ؟"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:41
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:100
-msgid "Apply %s to Author Archives?"
-msgstr "تطبيق وسم %s على أرشيف الكاتب ؟"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:34
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:93
-msgid "Apply %s to Tag Archives?"
-msgstr "تطبيق وسم %s على أرشيف الوسم ؟"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:27
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:86
-msgid "Apply %s to Category Archives?"
-msgstr "تطبيق وسم %s على أرشيف التصنيف ؟"
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:56
-msgid "Include Shortlink tag?"
-msgstr "إدراج رابط مختصر للوسم؟"
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:52
-msgid "Shortlink Tag"
-msgstr "رابط مختصر للوسم:"
-
 #: config/customizer-seo-settings.php:158
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:46
 msgid "Include Windows Live Writer Support Tag?"
 msgstr "إدراج وسم دعم Windows Live Writer؟"
 
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:28
-msgid "Relationship Link Tags"
-msgstr "علاقة وسوم الرابط:"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:93
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:100
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:107
-msgid "Apply %s to the homepage?"
-msgstr "تطبيق وسم %s في الصفحة الرئيسية"
-
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:41
-msgid "I'll manually wrap my own text on the homepage"
-msgstr "سأقوم بإدراج نص مخصص بنفسي في الصفحة الرئيسية"
-
 #: config/customizer-seo-settings.php:75
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:35
 msgid "Site Title"
 msgstr "عنوان المدونة او الموقع"
 
-#: config/customizer-theme-settings.php:271
-#: lib/widgets/featured-page-widget.php:338
-#: lib/widgets/featured-post-widget.php:511
-#: lib/widgets/featured-post-widget.php:541
-#: lib/widgets/user-profile-widget.php:188
+#: config/customizer-theme-settings.php:277
+#: lib/widgets/featured-page-widget.php:343
+#: lib/widgets/featured-post-widget.php:517
+#: lib/widgets/featured-post-widget.php:547
+#: lib/widgets/user-profile-widget.php:191
 msgid "Right"
 msgstr "محاذات على اليمين"
 
-#: config/customizer-theme-settings.php:270
-#: lib/widgets/featured-page-widget.php:337
-#: lib/widgets/featured-post-widget.php:510
-#: lib/widgets/featured-post-widget.php:540
-#: lib/widgets/user-profile-widget.php:187
+#: config/customizer-theme-settings.php:276
+#: lib/widgets/featured-page-widget.php:342
+#: lib/widgets/featured-post-widget.php:516
+#: lib/widgets/featured-post-widget.php:546
+#: lib/widgets/user-profile-widget.php:190
 msgid "Left"
 msgstr "محاذات على اليسار"
 
-#: lib/classes/class-genesis-script-loader.php:177
+#: lib/classes/class-genesis-script-loader.php:271
 msgid "Are you sure you want to reset?"
 msgstr "هل أنت متأكد من رغبتك في إستعادة الإعدادات الإفتراضية"
 
@@ -1798,36 +1778,37 @@ msgstr "إعدادات ترويسة التدوينات والصفحات"
 msgid "Homepage Settings"
 msgstr "إعدادات الصفحة الرئيسية"
 
+#: lib/classes/class-genesis-admin-import-export.php:127
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:152
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:178
-#: lib/classes/class-genesis-admin-import-export.php:127
 #: lib/classes/class-genesis-admin-seo-settings.php:41
-#: lib/views/help/cpt-archive-seo.php:15 lib/views/help/seo-settings.php:15
+#: lib/views/help/seo-settings.php:15
+#: lib/views/help/cpt-archive-seo.php:15
 msgid "SEO Settings"
 msgstr "إعدادات SEO"
 
+#. translators: %s: Theme settings admin screen link.
 #: config/customizer-theme-settings.php:23
 #: lib/classes/class-genesis-admin-import-export.php:123
 #: lib/classes/class-genesis-admin-settings.php:52
 #: lib/classes/class-genesis-admin-settings.php:53
-#: lib/functions/upgrade.php:1030
+#: lib/functions/upgrade.php:289
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:32
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 #: lib/views/meta-boxes/genesis-user-layout.php:31
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 msgid "Theme Settings"
 msgstr "إعدادات القالب"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:75
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:83
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:91
 msgid "Apply %s to this post/page"
 msgstr "تطبيق وسم %s على هذه التدوينة/الصفحة"
 
-#: lib/views/help/seo-robots.php:15
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:67
+#: lib/views/help/seo-robots.php:15
 msgid "Robots Meta Settings"
 msgstr "إعدادات مخصصة لعناكب البحث"
 
@@ -1842,23 +1823,24 @@ msgstr "عنوان مخصص للتدوينة/للصفحة"
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "هذه المقالة محمية بكلمة مرور، الرجاء إدخالها للإستمرار أكثر"
 
-#: lib/functions/general.php:545
+#: lib/functions/general.php:558
 msgid "Recent Posts:"
 msgstr "حسب أحدث المقالات:"
 
-#: lib/functions/general.php:542
+#: lib/functions/general.php:555
 msgid "Monthly:"
 msgstr "حسب الشهر:"
 
-#: lib/functions/general.php:539
+#: lib/functions/general.php:552
 msgid "Authors:"
 msgstr "حسب الكتاب:"
 
-#: lib/functions/general.php:536
+#: lib/functions/general.php:549
 msgid "Categories:"
 msgstr "حسب التصنيفات:"
 
-#: lib/functions/general.php:531 lib/structure/post.php:396
+#: lib/functions/general.php:544
+#: lib/structure/post.php:511
 msgid "Pages:"
 msgstr "حسب الصفحات:"
 
@@ -2036,7 +2018,8 @@ msgstr ""
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
 msgstr ""
 
-#: lib/views/help/cpt-archive-seo.php:23 lib/views/help/seo-homepage.php:35
+#: lib/views/help/cpt-archive-seo.php:23
+#: lib/views/help/seo-homepage.php:35
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
 msgstr ""
 
@@ -2121,10 +2104,12 @@ msgstr "إحصل على الدعم"
 msgid "For more information:"
 msgstr "للمزيد من المعلومات:"
 
+#. translators: %s: Abbreviation element for "JSON".
 #: lib/views/help/import-export-export.php:19
 msgid "JSON"
 msgstr "جاي إس أو إن"
 
+#. translators: %s: Abbreviation element for "JSON".
 #: lib/views/help/import-export-export.php:19
 msgid "JavaScript Object Notation"
 msgstr ""
@@ -2185,7 +2170,7 @@ msgstr ""
 msgid "The %1$sDynamic text%2$s option will use the Site Title and Site Description from your site's settings in your header."
 msgstr ""
 
-#: lib/functions/deprecated.php:635
+#: lib/functions/deprecated.php:1405
 msgid "data in style sheet files"
 msgstr "البيانات في ملفات ستايل شييت"
 
@@ -2202,7 +2187,7 @@ msgstr "يمكنك تصدير الإعدادات المتعلقة بجنيسيس
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
 msgstr "هذا يتيح لك تحديد تخطيط للصفحة الأرشيف. في معظم القوالب الفرعية سترى هذه الخيارات:"
 
-#. translators: JOSN file extension.
+#. translators: %s: JSON file extension.
 #: lib/views/pages/genesis-admin-import-export.php:27
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
 msgstr "حمل ملف البيانات (%s) من جهاز الكمبيوتر الخاص بك وسنقوم باستيراد الإعدادات الخاصة بك."
@@ -2224,13 +2209,9 @@ msgstr ""
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
 msgstr ""
 
-#. translators: JOSN file extension.
+#. translators: %s: JSON file extension.
 #: lib/views/pages/genesis-admin-import-export.php:56
 msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
-msgstr ""
-
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:25
-msgid "Use semantic HTML5 page and section headings throughout site?"
 msgstr ""
 
 #: lib/views/help/cpt-archive-seo.php:26
@@ -2257,10 +2238,10 @@ msgstr ""
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
 msgstr "فئة الجسم المخصص تضيف فئة إلى بطاقة الجسم في HTML للسماح بتعديل CSS حصريا لمقالة من هذا النوع في صفحة الأرشيف."
 
-#: lib/views/help/cpt-archive-seo.php:17
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:24
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:22
 #: lib/views/meta-boxes/genesis-user-seo.php:23
+#: lib/views/help/cpt-archive-seo.php:17
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
 msgstr "عنوان الوثيقة المخصصة يحدد عنوان الصفحة كما تراها في المتصفحات ومحركات البحث."
 
@@ -2269,60 +2250,34 @@ msgstr "عنوان الوثيقة المخصصة يحدد عنوان الصفح�
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
 msgstr "يمكنك استيراد ملف قمت مسبقا بتصديره. اسم الملف يبدأ بـ %s يليه بواحدة أو أكثر من السلاسل التي تشير إلى الإعدادات التي تحتويها، أخيرا يتبعها التاريخ والوقت المصدرة مسبقا."
 
-#: config/customizer-seo-settings.php:278
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:129
-msgid "Directories"
-msgstr ""
-
 #: config/customizer-seo-settings.php:223
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:69
 msgid "Archiving"
 msgstr ""
 
 #: config/customizer-seo-settings.php:176
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:19
 msgid "Indexing"
 msgstr ""
 
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:42
-msgid "Windows Live Writer"
-msgstr ""
-
-#. translators: Escaped H1 tag.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:22
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:30
-msgid "Primary Title %s"
-msgstr ""
-
 #: config/customizer-seo-settings.php:58
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:57
 msgid "Additions on right"
 msgstr ""
 
 #: config/customizer-seo-settings.php:57
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:56
 msgid "Additions on left"
 msgstr ""
 
 #: config/customizer-seo-settings.php:52
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:53
 msgid "Document Title Order"
 msgstr ""
 
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:20
-msgid "Section Headings"
-msgstr ""
-
-#: lib/views/help/genesis-inpost-seo.php:28
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:57
+#: lib/views/help/genesis-inpost-seo.php:28
 msgid "Canonical URL"
 msgstr ""
 
 #: config/customizer-seo-settings.php:31
-#: lib/views/help/genesis-inpost-seo.php:16
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:21
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:48
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:32
+#: lib/views/help/genesis-inpost-seo.php:16
 msgid "Document Title"
 msgstr ""
 
@@ -2330,19 +2285,19 @@ msgstr ""
 msgid "Link opens in a new window."
 msgstr ""
 
-#: config/customizer-theme-settings.php:265
+#: config/customizer-theme-settings.php:271
 msgid "Featured Image Alignment"
 msgstr ""
 
-#: config/customizer-theme-settings.php:256
+#: config/customizer-theme-settings.php:262
 msgid "Featured Image Size"
 msgstr ""
 
-#: config/customizer-theme-settings.php:248
+#: config/customizer-theme-settings.php:254
 msgid "Display the featured image?"
 msgstr ""
 
-#: config/customizer-theme-settings.php:240
+#: config/customizer-theme-settings.php:246
 msgid "Limit content to how many characters? (0 for no limit)"
 msgstr ""
 
@@ -2411,8 +2366,10 @@ msgstr ""
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
 msgstr ""
 
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:20
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:24
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:20
+#: lib/js/build/layout-toggle.js:1
+#: lib/js/editor/layout-toggle.js:55
 msgid "Select Layout"
 msgstr ""
 
@@ -2424,20 +2381,20 @@ msgstr ""
 msgid "Author Archive SEO Settings"
 msgstr ""
 
-#: config/customizer-theme-settings.php:307
+#: config/customizer-theme-settings.php:331
 msgid "Footer Scripts"
 msgstr ""
 
-#: config/customizer-theme-settings.php:297
+#: config/customizer-theme-settings.php:321
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:21
 msgid "Header Scripts"
 msgstr ""
 
-#: config/customizer-theme-settings.php:233
+#: config/customizer-theme-settings.php:239
 msgid "Entry excerpts"
 msgstr ""
 
-#: config/customizer-theme-settings.php:232
+#: config/customizer-theme-settings.php:238
 msgid "Entry content"
 msgstr ""
 
@@ -2473,66 +2430,64 @@ msgstr "عن"
 msgid "Genesis database upgraded."
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the theme
 msgid "https://www.studiopress.com/"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the theme
 msgid "StudioPress"
 msgstr ""
 
-#. Theme URI of the plugin/theme
+#. Theme URI of the theme
 msgid "http://my.studiopress.com/themes/genesis/"
 msgstr ""
 
-#. Theme Name of the plugin/theme
+#. Theme Name of the theme
+#: lib/admin/site-health.php:31
 msgid "Genesis"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:564
+#: lib/widgets/featured-post-widget.php:570
 msgid "Content Post Info"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:484
+#: lib/widgets/featured-post-widget.php:490
 msgid "Exclude Sticky Posts?"
 msgstr ""
 
-#: config/customizer-theme-settings.php:272
-#: lib/widgets/featured-page-widget.php:339
-#: lib/widgets/featured-post-widget.php:542
+#: config/customizer-theme-settings.php:278
+#: lib/widgets/featured-page-widget.php:344
+#: lib/widgets/featured-post-widget.php:548
 msgid "Center"
 msgstr ""
 
-#: lib/widgets/featured-page-widget.php:134
-#: lib/widgets/featured-post-widget.php:172
+#: lib/widgets/featured-page-widget.php:138
+#: lib/widgets/featured-post-widget.php:176
 msgid "(no title)"
 msgstr "(بلا عنوان)"
 
-#: lib/structure/post.php:828
+#: lib/structure/post.php:966
 msgid "Current page"
 msgstr "الصفحة الحالية"
 
-#: lib/structure/post.php:404 lib/structure/post.php:801
+#: lib/structure/post.php:519
+#: lib/structure/post.php:937
 msgid "Page "
 msgstr "صفحة"
 
-#: lib/structure/header.php:845
+#: lib/structure/header.php:930
 msgid "Skip to footer"
 msgstr ""
 
-#: lib/structure/header.php:839
+#: lib/structure/header.php:924
 msgid "Skip to secondary sidebar"
 msgstr ""
 
-#: lib/structure/header.php:835
+#: lib/structure/header.php:920
 msgid "Skip to primary sidebar"
 msgstr ""
 
-#: lib/structure/header.php:832
-msgid "Skip to content"
-msgstr ""
-
-#: lib/structure/header.php:829
+#: lib/structure/header.php:914
 msgid "Skip to primary navigation"
 msgstr ""
 
@@ -2547,3 +2502,7 @@ msgstr "بعد التدوينة"
 #: lib/functions/widgetize.php:136
 msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."
 msgstr ""
+
+#. Template Name of the theme
+msgid "Blog"
+msgstr "مدونة"
