@@ -2,7 +2,7 @@
 	"name": "thememix/genesis-translations",
 	"type": "wordpress-plugin",
 	"description": "Genesis Translations",
-	"license": "GPL-3.0+",
+	"license": "GPL-2.0-or-later",
 	"require": {},
 	"require-dev": {
 		"wp-cli/i18n-command": "^2.2"
