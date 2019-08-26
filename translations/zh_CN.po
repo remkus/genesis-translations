@@ -1,27 +1,115 @@
-# Translation of Genesis - Genesis 3.0 in Chinese (China)
-# This file is distributed under the same license as the Genesis - Genesis 3.0 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-15 09:33:43+0000\n"
+"Project-Id-Version: Genesis - Genesis 3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
+"PO-Revision-Date: 2019-08-12 15:54:04+0000\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.3.1\n"
-"Language: zh_CN\n"
-"Project-Id-Version: Genesis - Genesis 3.0\n"
 
-#. Translators: Genesis version, changelog URI.
-#: lib/views/pages/genesis-admin-upgraded.php:28
-msgid "Congratulations for successfully updating to Genesis %s. We keep a <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
+#: lib/structure/footer.php:176
+msgid "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
+msgstr ""
+
+#: lib/structure/header.php:917
+msgid "Skip to main content"
+msgstr ""
+
+#: lib/structure/comments.php:176
+msgid "Trackbacks"
+msgstr ""
+
+#: lib/views/onboarding/starter-pack-summary.php:25
+msgid "Pack Details"
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:109
+msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:87
+msgid "Adding sample content to make your theme look like the chosen starter pack."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:65
+msgid "Installing and activating plugins for your starter pack."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:36
+msgid "None of your existing content will be lost. Find this page again at Genesis → Child Theme Setup."
+msgstr ""
+
+#: lib/views/pages/genesis-admin-onboarding-packs.php:34
+msgid "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
+msgstr ""
+
+#. translators: %s: Theme name
+#: lib/views/pages/genesis-admin-onboarding-packs.php:29
+msgid "%s offers a choice of starter packs. A starter pack is a bundle of content and/or plugins that will be automatically imported and set up for you."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:224
+msgid "View the %s starter pack demo (opens in new window)."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:218
+msgid "Install the %s starter pack."
+msgstr ""
+
+#. translators: %s: Starter Pack name, such as “Small Business”
+#: lib/functions/onboarding.php:213
+msgid "Learn more about the %s starter pack."
+msgstr ""
+
+#: lib/functions/onboarding.php:201
+msgid "No Starter Packs found."
+msgstr ""
+
+#. translators: the post type label.
+#: lib/admin/customizer.php:181
+msgid "Show Featured Images on %s"
+msgstr ""
+
+#: lib/classes/class-genesis-admin-onboarding.php:33
+msgid "Child Theme Setup"
+msgstr ""
+
+#. translators: %s: Link to footer shortcodes documentation
+#: config/customizer-theme-settings.php:307
+msgid "The text that will appear in your site footer. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a>."
+msgstr ""
+
+#: config/customizer-theme-settings.php:302
+msgid "Footer"
+msgstr ""
+
+#: config/customizer-theme-settings.php:225
+msgid "Modify the settings for individual entries such as posts and pages."
+msgstr ""
+
+#: config/customizer-theme-settings.php:224
+msgid "Singular Content"
+msgstr ""
+
+#. translators: 1: Genesis version, 2: Changelog URI.
+#: lib/views/pages/genesis-admin-upgraded.php:32
+msgid "Congratulations for successfully updating to Genesis %1$s. We keep a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
 msgstr ""
 
 #: lib/classes/class-genesis-menu-handler.php:87
 msgid "Menu"
 msgstr ""
 
-#: lib/classes/class-genesis-amp-menu.php:390
 #: lib/classes/class-genesis-menu-handler.php:90
+#: lib/classes/class-genesis-amp-menu.php:390
 msgid "Submenu"
 msgstr ""
 
@@ -49,12 +137,12 @@ msgstr ""
 msgid "The following plugins will be automatically installed and activated with this theme (links open in new window):"
 msgstr ""
 
-#. translators: 1: Path to local image file.
-#: lib/functions/onboarding.php:398
-msgid "Could not read the file: %1$s."
+#. translators: %s: Path to local image file.
+#: lib/functions/onboarding.php:578
+msgid "Could not read the file: %s."
 msgstr ""
 
-#: lib/functions/onboarding.php:84
+#: lib/functions/onboarding.php:127
 msgid "new window"
 msgstr ""
 
@@ -85,6 +173,7 @@ msgid "%s supports automatic set up and import of demo content and/or recommende
 msgstr ""
 
 #. translators: %s: Theme name
+#: lib/views/pages/genesis-admin-onboarding-packs.php:22
 #: lib/views/pages/genesis-admin-onboarding.php:25
 msgid "Get started with %s."
 msgstr ""
@@ -98,47 +187,47 @@ msgstr ""
 msgid "This is the %1$s. You can add content to this area by visiting your %2$s and adding new widgets to this area."
 msgstr ""
 
-#: lib/structure/post.php:649
+#: lib/structure/post.php:784
 msgid "Use `genesis_get_author_box()` instead."
 msgstr ""
 
-#: lib/structure/post.php:646
+#: lib/structure/post.php:781
 msgid "The default is true, so remove the second argument."
 msgstr ""
 
 #. translators: 1: Name of the image, 2: The error message.
-#: lib/functions/onboarding.php:411
+#: lib/functions/onboarding.php:591
 msgid "There was an error importing the %1$s image. Error: %2$s"
 msgstr ""
 
 #. translators: 1: URL of the image, 2: The error message.
-#: lib/functions/onboarding.php:392
+#: lib/functions/onboarding.php:572
 msgid "There was an error downloading the featured image from %1$s. Error: %2$s"
 msgstr ""
 
 #. translators: 1: Title of the menu item, 2: The error message.
-#: lib/functions/onboarding.php:244
+#: lib/functions/onboarding.php:424
 msgid "There was an error creating the %1$s menu item. Error: %2$s"
 msgstr ""
 
 #. translators: 1: Title of the menu, 2: The error message.
-#: lib/functions/onboarding.php:175
+#: lib/functions/onboarding.php:359
 msgid "There was an error creating the %1$s menu. Error: %2$s"
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:202
+#: lib/classes/class-genesis-script-loader.php:296
 msgid "A setup step has completed."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:201
+#: lib/classes/class-genesis-script-loader.php:295
 msgid "A setup step has started."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:200
+#: lib/classes/class-genesis-script-loader.php:294
 msgid "The website setup process has completed."
 msgstr ""
 
-#: lib/classes/class-genesis-script-loader.php:199
+#: lib/classes/class-genesis-script-loader.php:293
 msgid "The website setup process has started."
 msgstr ""
 
@@ -166,10 +255,12 @@ msgstr ""
 msgid "Helpful Links"
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:112
 #: lib/views/pages/genesis-admin-onboarding.php:120
 msgid "Edit your homepage"
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:111
 #: lib/views/pages/genesis-admin-onboarding.php:119
 msgid "View your homepage"
 msgstr ""
@@ -178,14 +269,19 @@ msgstr ""
 msgid "Your website setup is complete! View or edit your homepage using the buttons below."
 msgstr ""
 
+#: lib/views/pages/genesis-admin-onboarding-packs.php:108
 #: lib/views/pages/genesis-admin-onboarding.php:116
 msgid "All done!"
 msgstr ""
 
+#: lib/functions/onboarding.php:185
+#: lib/views/pages/genesis-admin-onboarding-packs.php:84
 #: lib/views/pages/genesis-admin-onboarding.php:87
 msgid "Demo content"
 msgstr ""
 
+#: lib/functions/onboarding.php:142
+#: lib/views/pages/genesis-admin-onboarding-packs.php:64
 #: lib/views/pages/genesis-admin-onboarding.php:64
 msgid "Recommended plugins"
 msgstr ""
@@ -194,34 +290,27 @@ msgstr ""
 msgid "Or go to Theme Settings"
 msgstr ""
 
-#. translators: 1: URL for updating Genesis, 2: class attribute for anchor, 3:
-#. call to action.
-#: lib/functions/upgrade.php:1073
+#: lib/functions/upgrade.php:332
 msgid "update now"
 msgstr ""
 
-#. translators: 1: URL for change log, 2: class attribute for anchor, 3: call
-#. to action.
-#: lib/functions/upgrade.php:1025 lib/functions/upgrade.php:1066
+#: lib/functions/upgrade.php:284
+#: lib/functions/upgrade.php:325
 msgid "Check out what's new"
 msgstr ""
 
 #. translators: 1: Genesis version, 2: URL for change log, 3: URL for updating
 #. Genesis.
-#: lib/functions/upgrade.php:1059
+#: lib/functions/upgrade.php:318
 msgid "Genesis %1$s is available. %2$s or %3$s."
 msgstr ""
 
-#: lib/functions/layout.php:575
+#: lib/functions/layout.php:576
 msgid "Use `genesis_get_structural_wrap()` instead."
 msgstr ""
 
-#: lib/functions/layout.php:572
+#: lib/functions/layout.php:573
 msgid "The default is true, so remove the third argument."
-msgstr ""
-
-#: lib/classes/class-genesis-admin-onboarding.php:33
-msgid "Getting Started"
 msgstr ""
 
 #: lib/classes/class-genesis-admin-onboarding.php:32
@@ -229,7 +318,7 @@ msgid "Genesis - Getting Started"
 msgstr ""
 
 #. translators: 1: Title of the page, 2: The error message.
-#: lib/functions/onboarding.php:360
+#: lib/functions/onboarding.php:540
 msgid "There was an error importing the %1$s page. Error: %2$s"
 msgstr ""
 
@@ -245,11 +334,11 @@ msgstr ""
 msgid "Text entered in the Meta Description field is used as the short page description under the title on search engine results pages."
 msgstr ""
 
-#: lib/structure/post.php:907
+#: lib/structure/post.php:1048
 msgid "Next Post:"
 msgstr ""
 
-#: lib/structure/post.php:894
+#: lib/structure/post.php:1035
 msgid "Previous Post:"
 msgstr ""
 
@@ -271,7 +360,8 @@ msgstr ""
 msgid "Update Notification Email Address"
 msgstr ""
 
-#: lib/admin/privacy-requests.php:26 lib/admin/privacy-requests.php:124
+#: lib/admin/privacy-requests.php:26
+#: lib/admin/privacy-requests.php:124
 #: lib/admin/privacy-requests.php:171
 msgid "Genesis Author Archive Data"
 msgstr ""
@@ -281,13 +371,13 @@ msgstr ""
 msgid " Using Genesis %s."
 msgstr ""
 
-#. translators: 1: Version of PHP that Genesis requires. 2: The PHP version on
+#. translators: 1: Version of PHP that Genesis requires, 2: The PHP version on
 #. this site
 #: config/requirements.php:34
 msgid "Genesis requires PHP version %1$s or higher. You are using version %2$s. Please <a href=\"%3$s\">upgrade PHP</a> to use Genesis."
 msgstr ""
 
-#. translators: 1: Version of WordPress that Genesis requires. 2: The WordPress
+#. translators: 1: Version of WordPress that Genesis requires, 2: The WordPress
 #. version on this site
 #: config/requirements.php:27
 msgid "Genesis requires WordPress version %1$s or higher. You are using version %2$s. Please upgrade WordPress to use Genesis."
@@ -327,11 +417,11 @@ msgstr ""
 msgid "Genesis Blue"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:460
+#: lib/widgets/featured-post-widget.php:466
 msgid "Date Modified"
 msgstr ""
 
-#: lib/widgets/featured-post-widget.php:459
+#: lib/widgets/featured-post-widget.php:465
 msgid "Date Published"
 msgstr ""
 
@@ -348,15 +438,15 @@ msgstr ""
 msgid "Your child theme uses accessible headings. If you leave this blank, the default accessible heading will be used."
 msgstr ""
 
-#: lib/functions/markup.php:715
+#: lib/functions/markup.php:561
 msgid "Secondary"
 msgstr ""
 
-#: lib/functions/markup.php:698
+#: lib/functions/markup.php:544
 msgid "Main"
 msgstr ""
 
-#: config/customizer-theme-settings.php:293
+#: config/customizer-theme-settings.php:317
 msgid "Header/Footer Scripts"
 msgstr ""
 
@@ -383,14 +473,6 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:24
 msgid "Customize the various theme settings."
-msgstr ""
-
-#: config/customizer-seo-settings.php:290
-msgid "Apply noydir to entire site?"
-msgstr ""
-
-#: config/customizer-seo-settings.php:282
-msgid "Apply noodp to entire site?"
 msgstr ""
 
 #: config/customizer-seo-settings.php:228
@@ -491,23 +573,6 @@ msgstr ""
 msgid "For more information, see our article at %s"
 msgstr "更多内容，请查看有关文章%s"
 
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:22
-msgid "This setting has been deprecated because it is no longer recommended. If you uncheck this box, the setting will disappear."
-msgstr "该设置并不推荐，所以它已被弃用。如果你不选中该项，该设置将消失。"
-
-#. translators: Open and close span tags, abbreviation expansion for SEO.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:62
-msgid "%1$sNote:%2$s The shortlink tag might have some use for 3rd party service discoverability, but it has no %3$s value whatsoever."
-msgstr ""
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:17
-msgid "SEO"
-msgstr "SEO"
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:17
-msgid "Search engine optimization"
-msgstr "搜索引擎优化"
-
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
 msgid "301 Redirect."
 msgstr "301重定向。"
@@ -535,12 +600,13 @@ msgstr "在关闭%s标签之前、在网站头脚本之后输出。"
 
 #. translators: %s: Theme settings admin screen link.
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:32
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 #: lib/views/meta-boxes/genesis-user-layout.php:31
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 msgid "Default Layout set in %s"
 msgstr "在%s设置的默认布局"
 
-#. translators: Open and close post type archive link, post type name.
+#. translators: 1: Open post type archive link, 2: Close post type archive
+#. link, 3: Post type name.
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:19
 msgid "View the %1$s%3$s archive%2$s."
 msgstr "查看%1$s%3$s 存档%2$s。"
@@ -601,7 +667,7 @@ msgstr " &mdash; 输出至文件<title>标签。"
 msgid "You can find more on this feature in the %1$sHow to Add a Post Category Page tutorial.%2$s"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the theme
 msgid "The industry standard for Premium WordPress Themes."
 msgstr "WordPress付费主题的行业标准。"
 
@@ -629,57 +695,61 @@ msgstr "请您提供一个电子邮件地址，一旦有可以利用的更新，
 msgid "Save Changes"
 msgstr "保存更改"
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:59
 msgid "Read more about noarchive"
 msgstr "关于noarchive（不存档）更多的内容"
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:52
 msgid "Read more about nofollow"
 msgstr "关于nofollow（不跟踪）更多的内容"
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:45
 msgid "Read more about noindex"
 msgstr "关于noindex（不索引）更多的内容"
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:38
 msgid "Read more about 301 Redirects"
 msgstr "关于301重定向更多的内容"
 
+#. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:31
 msgid "Read more about Custom Canonical URL"
 msgstr "关于定制的Canonical(正源)URL更多的内容"
 
-#: config/customizer-theme-settings.php:279
+#: config/customizer-theme-settings.php:285
 msgid "Entry Pagination Type"
 msgstr "文章导航类型"
 
-#: lib/widgets/featured-post-widget.php:479
+#: lib/widgets/featured-post-widget.php:485
 msgid "Exclude Previously Displayed Posts?"
 msgstr "除掉之前已显示的文章？"
 
-#: lib/structure/post.php:443
+#: lib/structure/post.php:578
 msgid "Sorry, no content matched your criteria."
 msgstr "对不起，没有内容符合您的要求。"
 
-#: lib/classes/class-genesis-script-loader.php:176
+#: lib/classes/class-genesis-script-loader.php:270
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
 msgstr "更新Genesis 将会覆盖目前安装的版本。你确定要更新？ 点\"取消\" 可以停止，点 \"OK\" 进行更新。"
 
-#: lib/classes/class-genesis-script-loader.php:175
+#: lib/classes/class-genesis-script-loader.php:269
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "如果您离开本页面，您之前所做的修改将作废。"
 
-#: lib/functions/deprecated.php:669
+#: lib/functions/deprecated.php:1439
 msgid "decimal or hexidecimal entities"
 msgstr "十进制或十六进制符号"
 
-#: lib/admin/inpost-metaboxes.php:136
+#: lib/admin/inpost-metaboxes.php:138
 msgid "Scripts"
 msgstr "脚本"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:49
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:56
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:63
@@ -687,27 +757,26 @@ msgid "Apply %s to this archive"
 msgstr "对本存档设置%s"
 
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:41
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:87
 msgid "Robots Meta Tags"
 msgstr "机器元标签"
 
-#: config/customizer-seo-settings.php:110 lib/admin/privacy-requests.php:196
-#: lib/views/help/genesis-inpost-seo.php:24
-#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:33
+#: config/customizer-seo-settings.php:110
+#: lib/admin/privacy-requests.php:196
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:49
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:77
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:33
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:35
 #: lib/views/meta-boxes/genesis-user-seo.php:36
+#: lib/views/help/genesis-inpost-seo.php:24
 msgid "Meta Keywords"
 msgstr "元(meta)关键词"
 
-#: config/customizer-seo-settings.php:101 lib/admin/privacy-requests.php:195
-#: lib/views/help/genesis-inpost-seo.php:20
-#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:26
+#: config/customizer-seo-settings.php:101
+#: lib/admin/privacy-requests.php:195
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:35
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:67
+#: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:26
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:27
 #: lib/views/meta-boxes/genesis-user-seo.php:28
+#: lib/views/help/genesis-inpost-seo.php:20
 msgid "Meta Description"
 msgstr "元（meta）描述"
 
@@ -716,15 +785,15 @@ msgid "Archive"
 msgstr "存档"
 
 #. translators: %s: URL for current website.
-#: lib/structure/loops.php:442
+#: 404.php:43
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
 msgstr ""
 
-#: lib/structure/loops.php:435
+#: 404.php:36
 msgid "Not found, error 404"
 msgstr "未能找到，404错误"
 
-#: lib/structure/search.php:29
+#: search.php:22
 msgid "Search Results for:"
 msgstr "搜索结果如下，您的搜索条目是："
 
@@ -744,52 +813,26 @@ msgstr "主页"
 msgid "Navigation"
 msgstr "导航"
 
-#: config/customizer-theme-settings.php:60 lib/views/help/genesis-header.php:15
+#: config/customizer-theme-settings.php:60
+#: lib/views/help/genesis-header.php:15
 msgid "Header"
 msgstr "页眉"
 
-#. translators: Escaped HTML head tag, abbreviation expansion for SEO.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:20
-msgid "By default, WordPress places several tags in your document %1$s. Most of these tags are completely unnecessary, and provide no %2$s value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document %1$s. If you do not know what something is, leave it unchecked."
-msgstr "默认情况下，WordPress 在您文档%1$s中放置几个标记。大部分的这些标签是完全没有必要，并不提供任何%2$s的值; 而且他们反而减慢你的网站加载速度。选择你想要包括在你文档%1$s的标签。如果你对此不清楚，请勿选择。"
-
 #: config/customizer-seo-settings.php:102
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:71
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
 msgstr "元（meta）描述可用来在搜索结果页显示的文本内容。"
 
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:52
-msgid "If you leave the document title field blank, your site&#8217;s title will be used instead."
-msgstr "如果你保留文件标题栏空白, 则去使用你网站的&#8217;标题。"
-
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:38
-msgid "Site Description (Tagline)"
-msgstr "站点描述"
-
 #: config/customizer-seo-settings.php:44
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:46
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
 msgstr "如果标题包含两部分（标题和附加栏），则中间会使用分隔符。"
 
 #: config/customizer-seo-settings.php:43
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:44
 msgid "Document Title Separator"
 msgstr "文件标题分隔符号"
 
 #: config/customizer-seo-settings.php:53
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:59
 msgid "Determines which side the added title text will go on."
 msgstr "决定增加的标题文字置于哪一侧"
-
-#. translators: %s: Escaped title tag.
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:38
-msgid "Add site name to %s on inner pages?"
-msgstr "给内页的%s增添站点名称?"
-
-#. translators: Escaped title tag.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:59
-msgid "Add site description (tagline) to %s on home page?"
-msgstr "将站点描述 %s添加到主页?"
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
@@ -803,11 +846,11 @@ msgstr "搜索此网站"
 msgid "Read more"
 msgstr "阅读全文"
 
-#: lib/views/pages/genesis-admin-upgraded.php:40
+#: lib/views/pages/genesis-admin-upgraded.php:44
 msgid "Go to SEO Settings &rarr;"
 msgstr "进行SEO设置&rarr;"
 
-#: lib/views/pages/genesis-admin-upgraded.php:38
+#: lib/views/pages/genesis-admin-upgraded.php:42
 msgid "Go to Theme Settings &rarr;"
 msgstr "转到主题设置 &rarr;"
 
@@ -820,7 +863,9 @@ msgstr "欢迎来到 Genesis %s"
 msgid "Use for site title/logo:"
 msgstr "用于网站标题/LOGO"
 
-#: lib/structure/footer.php:163
+#: config/customizer-theme-settings.php:311
+#: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
+#: lib/classes/Upgrade/Upgrade_DB_3100.php:38
 msgid "on"
 msgstr "关于"
 
@@ -848,11 +893,11 @@ msgstr "存档标题"
 msgid "Error saving settings."
 msgstr "保存设置出错"
 
-#: lib/widgets/user-profile-widget.php:199
+#: lib/widgets/user-profile-widget.php:202
 msgid "Custom Text Content"
 msgstr "订制文本内容"
 
-#: lib/init.php:105
+#: lib/init.php:132
 msgid "Secondary Navigation Menu"
 msgstr "副导航菜单"
 
@@ -860,7 +905,7 @@ msgstr "副导航菜单"
 msgid "Header Left"
 msgstr "页眉左侧"
 
-#: lib/widgets/user-profile-widget.php:218
+#: lib/widgets/user-profile-widget.php:221
 msgid "Extended page link text"
 msgstr "页面链接文本"
 
@@ -877,7 +922,7 @@ msgstr "如果您使用三栏式布局，这将会是辅助侧边栏。"
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
 msgstr "如果你正在使用两栏或三栏式布局，那么这将是主导航栏。"
 
-#: lib/functions/deprecated.php:483
+#: lib/functions/deprecated.php:1252
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
 msgstr "参数“context”已被$args数组中的“theme_location”替代。"
 
@@ -894,10 +939,9 @@ msgstr "作者存档设置"
 msgid "User Permissions"
 msgstr "用户允许权限"
 
-#. translators: %s: </head>
-#. translators: %s: </body>
-#: config/customizer-theme-settings.php:299
-#: config/customizer-theme-settings.php:309
+#. translators: %s: </element>
+#: config/customizer-theme-settings.php:323
+#: config/customizer-theme-settings.php:333
 msgid "This code will output immediately before the closing %s tag in the document source."
 msgstr "该代码将在文件源的%s标签之前立即输出。"
 
@@ -905,88 +949,84 @@ msgstr "该代码将在文件源的%s标签之前立即输出。"
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:61
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:149
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:177
-#: lib/views/help/cpt-archive-archive.php:15
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:16
+#: lib/views/help/cpt-archive-archive.php:15
 msgid "Archive Settings"
 msgstr "存档设置"
 
-#. translators: Meta rel attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:34
-msgid "Adjacent Posts %s link tags"
-msgstr "相邻文章%s链接标签"
-
-#: lib/admin/inpost-metaboxes.php:212
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:156
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:179
-#: lib/views/help/cpt-archive-layout.php:15
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:23
+#: lib/admin/inpost-metaboxes.php:225
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:27
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:15
 #: lib/views/meta-boxes/genesis-user-layout.php:17
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:23
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:15
+#: lib/views/help/cpt-archive-layout.php:15
 msgid "Layout Settings"
 msgstr "布局设置"
 
-#: config/customizer-seo-settings.php:24 lib/admin/inpost-metaboxes.php:33
+#: config/customizer-seo-settings.php:24
+#: lib/admin/inpost-metaboxes.php:33
 #: lib/admin/inpost-metaboxes.php:63
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:15
 msgid "Theme SEO Settings"
 msgstr "主题SEO设置"
 
-#: lib/functions/formatting.php:398
+#: lib/functions/formatting.php:397
 msgctxt "separator in time difference"
 msgid "and"
 msgstr "又"
 
 #. translators: %s: Number of second(s).
-#: lib/functions/formatting.php:363
+#: lib/functions/formatting.php:362
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s 秒"
 
 #. translators: %s: Number of minute(s).
-#: lib/functions/formatting.php:361
+#: lib/functions/formatting.php:360
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s 分"
 
 #. translators: %s: Number of hour(s).
-#: lib/functions/formatting.php:359
+#: lib/functions/formatting.php:358
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s 时"
 
 #. translators: %s: Number of day(s).
-#: lib/functions/formatting.php:357
+#: lib/functions/formatting.php:356
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s 天"
 
 #. translators: %s: Number of week(s).
-#: lib/functions/formatting.php:355
+#: lib/functions/formatting.php:354
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s 周"
 
 #. translators: %s: Number of month(s).
-#: lib/functions/formatting.php:353
+#: lib/functions/formatting.php:352
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s 月"
 
 #. translators: %s: Number of year(s).
-#: lib/functions/formatting.php:351
+#: lib/functions/formatting.php:350
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s 年"
 
-#: lib/functions/formatting.php:345
+#: lib/functions/formatting.php:344
 msgctxt "time difference"
 msgid "seconds"
 msgstr "秒"
@@ -1001,11 +1041,12 @@ msgid "Comments and Trackbacks"
 msgstr "评语和跟踪（Trackback)"
 
 #: lib/views/help/genesis-layout.php:15
+#: lib/js/build/layout-toggle.js:1
+#: lib/js/editor/layout-toggle.js:33
 msgid "Default Layout"
 msgstr "默认布局"
 
 #: config/customizer-seo-settings.php:111
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:81
 msgid "Keywords are generally ignored by Search Engines."
 msgstr "通常搜索引擎会忽略关键词。"
 
@@ -1033,19 +1074,22 @@ msgstr "从本地电脑选择文件，然后点击“Upload file and Import\""
 msgid "Default"
 msgstr "默认"
 
-#: lib/structure/post.php:721 lib/structure/post.php:856
+#: lib/structure/post.php:857
+#: lib/structure/post.php:997
 msgid "Next Page"
 msgstr "下一页"
 
-#: lib/structure/post.php:720 lib/structure/post.php:807
+#: lib/structure/post.php:856
+#: lib/structure/post.php:944
 msgid "Previous Page"
 msgstr "上一页"
 
-#: lib/shortcodes/post.php:45 lib/shortcodes/post.php:121
+#: lib/shortcodes/post.php:45
+#: lib/shortcodes/post.php:121
 msgid "ago"
 msgstr "之前"
 
-#: lib/classes/class-genesis-script-loader.php:174
+#: lib/classes/class-genesis-script-loader.php:268
 msgid "Select / Deselect All"
 msgstr "全部选中/全部不选中"
 
@@ -1066,11 +1110,13 @@ msgstr "未选中项目"
 msgid "There was a problem importing your settings. Please try again."
 msgstr "导入设置异常，请重试。"
 
-#: lib/functions/markup.php:1398 lib/functions/widgetize.php:157
+#: lib/functions/widgetize.php:157
+#: lib/functions/markup.php:1014
 msgid "Secondary Sidebar"
 msgstr "辅助侧边栏"
 
-#: lib/functions/markup.php:1377 lib/functions/widgetize.php:146
+#: lib/functions/widgetize.php:146
+#: lib/functions/markup.php:994
 msgid "Primary Sidebar"
 msgstr "主侧边栏"
 
@@ -1082,32 +1128,32 @@ msgstr "页眉右侧"
 msgid "Not found: "
 msgstr "没找到："
 
-#: lib/widgets/featured-post-widget.php:574
+#: lib/widgets/featured-post-widget.php:580
 msgid "No Content"
 msgstr "无内容"
 
-#: lib/widgets/featured-post-widget.php:573
+#: lib/widgets/featured-post-widget.php:579
 msgid "Show Content Limit"
 msgstr "显示内容上限"
 
-#: lib/widgets/featured-post-widget.php:572
+#: lib/widgets/featured-post-widget.php:578
 msgid "Show Excerpt"
 msgstr "显示摘要"
 
-#: lib/widgets/featured-post-widget.php:571
+#: lib/widgets/featured-post-widget.php:577
 msgid "Show Content"
 msgstr "显示内容"
 
-#: lib/widgets/featured-post-widget.php:569
+#: lib/widgets/featured-post-widget.php:575
 msgid "Content Type"
 msgstr "内容类型"
 
-#: lib/widgets/featured-post-widget.php:561
+#: lib/widgets/featured-post-widget.php:567
 msgid "Show Post Info"
 msgstr "显示文章信息"
 
-#: lib/widgets/featured-page-widget.php:318
-#: lib/widgets/featured-post-widget.php:521
+#: lib/widgets/featured-page-widget.php:323
+#: lib/widgets/featured-post-widget.php:527
 msgid "Show Featured Image"
 msgstr "显示特色图片"
 
@@ -1120,7 +1166,7 @@ msgstr "这些文字将出现在第一页的第一段"
 msgid "Custom Description Text"
 msgstr "描述性文字"
 
-#. translators: Escaped H1 tag.
+#. translators: %s: Escaped h1 tag wrapped in code tags.
 #: lib/views/meta-boxes/genesis-user-author.php:26
 msgid "Will display in the %s tag at the top of the first page"
 msgstr "将在第一页顶部显示在%s标签里"
@@ -1160,10 +1206,10 @@ msgstr "激活Genesis管理菜单？"
 msgid "Genesis Admin Menus"
 msgstr "Genesis管理菜单"
 
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:20
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:23
 #: lib/views/meta-boxes/genesis-user-layout.php:22
 #: lib/views/meta-boxes/genesis-user-layout.php:25
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:20
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:23
 msgid "Choose Layout"
 msgstr "选择布局"
 
@@ -1177,18 +1223,17 @@ msgstr "导入/导出"
 msgid "Custom Post Class"
 msgstr "自定义文章类别"
 
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:50
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:51
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:50
 msgid "Custom Body Class"
 msgstr "自定义body样式名称"
 
-#: lib/views/help/genesis-inpost-seo.php:35
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
+#: lib/views/help/genesis-inpost-seo.php:35
 msgid "Custom Redirect URL"
 msgstr "重新定向URL"
 
-#. translators: Title string length
-#. translators: Description string length
+#. translators: %s: String length
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:28
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:42
 msgid "Characters Used: %s"
@@ -1206,7 +1251,7 @@ msgstr "一旦你保存了下载的文件，你可以使用导入功能将此文
 msgid "Export Genesis Settings File"
 msgstr "导出Genesis设置文件"
 
-#. translators: Maximum size import files can have.
+#. translators: %s: Maximum size import files can have.
 #: lib/views/pages/genesis-admin-import-export.php:38
 msgid "Upload File (Maximum Size: %s): "
 msgstr "上传文件 (最大文件: %s): "
@@ -1219,47 +1264,47 @@ msgstr "导入Genesis设置文件"
 msgid "Genesis - Import/Export"
 msgstr "Genesis 导入/导出"
 
-#: lib/widgets/user-profile-widget.php:224
+#: lib/widgets/user-profile-widget.php:227
 msgid "Show Author Archive Link?"
 msgstr "显示作者档案链接？"
 
-#: lib/widgets/user-profile-widget.php:205
+#: lib/widgets/user-profile-widget.php:208
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
 msgstr "选择您下列的扩展 \"关于我\" 页面。这将会是链接于‘关于我’最后部分的页面。"
 
-#: lib/widgets/user-profile-widget.php:198
+#: lib/widgets/user-profile-widget.php:201
 msgid "Custom Text (below)"
 msgstr "自定义文本（如下）"
 
-#: lib/widgets/user-profile-widget.php:196
+#: lib/widgets/user-profile-widget.php:199
 msgid "Author Bio"
 msgstr "作者简介"
 
-#: lib/widgets/user-profile-widget.php:193
+#: lib/widgets/user-profile-widget.php:196
 msgid "Select which text you would like to use as the author description"
 msgstr "选择哪一些文本您要用于作者的描述"
 
-#: lib/widgets/user-profile-widget.php:173
+#: lib/widgets/user-profile-widget.php:176
 msgid "Extra Large"
 msgstr "特大"
 
-#: lib/widgets/user-profile-widget.php:172
+#: lib/widgets/user-profile-widget.php:175
 msgid "Large"
 msgstr "大"
 
-#: lib/widgets/user-profile-widget.php:171
+#: lib/widgets/user-profile-widget.php:174
 msgid "Medium"
 msgstr "中"
 
-#: lib/widgets/user-profile-widget.php:170
+#: lib/widgets/user-profile-widget.php:173
 msgid "Small"
 msgstr "小"
 
-#: lib/widgets/user-profile-widget.php:153
+#: lib/widgets/user-profile-widget.php:156
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
 msgstr "选择一个用户。该电子邮件地址将用于设置Gravatar头像。"
 
-#: lib/widgets/user-profile-widget.php:107
+#: lib/widgets/user-profile-widget.php:110
 msgid "View My Blog Posts"
 msgstr "查看我的博客文章"
 
@@ -1271,93 +1316,93 @@ msgstr "Genesis - 使用者简介"
 msgid "Displays user profile block with Gravatar"
 msgstr "显示用户简介和他/她的Gravatar"
 
-#: lib/widgets/featured-post-widget.php:614
+#: lib/widgets/featured-post-widget.php:620
 msgid "Link Text"
 msgstr "链接文本"
 
-#: lib/widgets/featured-post-widget.php:610
+#: lib/widgets/featured-post-widget.php:616
 msgid "Show Category Archive Link"
 msgstr "显示类别档案链接"
 
-#: lib/widgets/featured-post-widget.php:592
+#: lib/widgets/featured-post-widget.php:598
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
 msgstr "如要显示此类别的更多文章于无序列表，请填写下列的信息："
 
-#: lib/widgets/featured-post-widget.php:584
+#: lib/widgets/featured-post-widget.php:590
 msgid "More Text (if applicable)"
 msgstr "更多文本（如需要）"
 
-#: lib/widgets/featured-post-widget.php:556
+#: lib/widgets/featured-post-widget.php:562
 msgid "Show Post Title"
 msgstr "显示文章标题"
 
-#: lib/widgets/featured-post-widget.php:507
-#: lib/widgets/user-profile-widget.php:184
+#: lib/widgets/featured-post-widget.php:513
+#: lib/widgets/user-profile-widget.php:187
 msgid "Gravatar Alignment"
 msgstr "Gravatar对齐方式"
 
-#: lib/widgets/featured-post-widget.php:502
+#: lib/widgets/featured-post-widget.php:508
 msgid "Extra Large (125px)"
 msgstr "特大 (125px)"
 
-#: lib/widgets/featured-post-widget.php:501
+#: lib/widgets/featured-post-widget.php:507
 msgid "Large (85px)"
 msgstr "大 (85px)"
 
-#: lib/widgets/featured-post-widget.php:500
+#: lib/widgets/featured-post-widget.php:506
 msgid "Medium (65px)"
 msgstr "中 (65px)"
 
-#: lib/widgets/featured-post-widget.php:499
+#: lib/widgets/featured-post-widget.php:505
 msgid "Small (45px)"
 msgstr "小 (45px)"
 
-#: lib/widgets/featured-post-widget.php:497
-#: lib/widgets/user-profile-widget.php:166
+#: lib/widgets/featured-post-widget.php:503
+#: lib/widgets/user-profile-widget.php:169
 msgid "Gravatar Size"
 msgstr "头像尺寸"
 
-#: lib/widgets/featured-post-widget.php:493
+#: lib/widgets/featured-post-widget.php:499
 msgid "Show Author Gravatar"
 msgstr "显示作者的 Gravatar"
 
-#: lib/widgets/featured-post-widget.php:473
+#: lib/widgets/featured-post-widget.php:479
 msgid "Ascending (1, 2, 3)"
 msgstr "升序 (1,2,3)"
 
-#: lib/widgets/featured-post-widget.php:472
+#: lib/widgets/featured-post-widget.php:478
 msgid "Descending (3, 2, 1)"
 msgstr "递减 (3,2,1)"
 
-#: lib/widgets/featured-post-widget.php:470
+#: lib/widgets/featured-post-widget.php:476
 msgid "Sort Order"
 msgstr "排列顺序"
 
-#: lib/widgets/featured-post-widget.php:465
+#: lib/widgets/featured-post-widget.php:471
 msgid "Random"
 msgstr "随机"
 
-#: lib/widgets/featured-post-widget.php:464
+#: lib/widgets/featured-post-widget.php:470
 msgid "Comment Count"
 msgstr "评语数"
 
-#: lib/widgets/featured-post-widget.php:463
+#: lib/widgets/featured-post-widget.php:469
 msgid "ID"
 msgstr "ID"
 
-#: lib/widgets/featured-post-widget.php:462
+#: lib/widgets/featured-post-widget.php:468
 msgid "Parent"
 msgstr "父级"
 
-#: lib/widgets/featured-post-widget.php:457
+#: lib/widgets/featured-post-widget.php:463
 msgid "Order By"
 msgstr "排列顺序"
 
-#: lib/widgets/featured-post-widget.php:452
+#: lib/widgets/featured-post-widget.php:458
 msgid "Number of Posts to Offset"
 msgstr "忽略最前面的多少篇文章"
 
-#: lib/widgets/featured-post-widget.php:431
+#: lib/widgets/featured-post-widget.php:437
 msgid "Category"
 msgstr "分类"
 
@@ -1377,42 +1422,43 @@ msgstr "Genesis - 特色文章"
 msgid "Displays featured posts with thumbnails"
 msgstr "显示特色文章和它的缩略图"
 
-#: lib/widgets/featured-page-widget.php:361
+#: lib/widgets/featured-page-widget.php:366
 msgid "More Text"
 msgstr "更多文本"
 
-#: lib/widgets/featured-page-widget.php:356
+#: lib/widgets/featured-page-widget.php:361
 msgid "Content Character Limit"
 msgstr "内容文字限制"
 
-#: lib/widgets/featured-page-widget.php:352
+#: lib/widgets/featured-page-widget.php:357
 msgid "Show Page Content"
 msgstr "显示页面内容"
 
-#: lib/widgets/featured-page-widget.php:347
+#: lib/widgets/featured-page-widget.php:352
 msgid "Show Page Title"
 msgstr "显示页面标题"
 
+#: config/customizer-theme-settings.php:275
 #: config/customizer-seo-settings.php:77
-#: config/customizer-theme-settings.php:269
-#: lib/widgets/featured-page-widget.php:336
-#: lib/widgets/featured-post-widget.php:509
-#: lib/widgets/featured-post-widget.php:539
-#: lib/widgets/user-profile-widget.php:186
-#: lib/widgets/user-profile-widget.php:210
+#: lib/widgets/featured-page-widget.php:341
+#: lib/widgets/featured-post-widget.php:515
+#: lib/widgets/featured-post-widget.php:545
+#: lib/widgets/user-profile-widget.php:189
+#: lib/widgets/user-profile-widget.php:213
 msgid "None"
 msgstr "无"
 
-#: lib/widgets/featured-page-widget.php:334
-#: lib/widgets/featured-post-widget.php:537
+#: lib/widgets/featured-page-widget.php:339
+#: lib/widgets/featured-post-widget.php:543
 msgid "Image Alignment"
 msgstr "图像对齐方式"
 
-#: lib/widgets/featured-page-widget.php:299
+#: lib/widgets/featured-page-widget.php:304
 msgid "Page"
 msgstr "页面"
 
-#: lib/shortcodes/footer.php:143 lib/structure/post.php:275
+#: lib/shortcodes/footer.php:143
+#: lib/structure/post.php:343
 msgid "by"
 msgstr "作者"
 
@@ -1424,11 +1470,13 @@ msgstr "Genesis - 特色页面"
 msgid "Displays featured page with thumbnails"
 msgstr "显示特色页面及其缩略图。"
 
-#: lib/widgets/featured-page-widget.php:294
-#: lib/widgets/featured-post-widget.php:422
-#: lib/widgets/featured-post-widget.php:461
-#: lib/widgets/featured-post-widget.php:595
-#: lib/widgets/user-profile-widget.php:148
+#: lib/widgets/featured-page-widget.php:299
+#: lib/widgets/featured-post-widget.php:428
+#: lib/widgets/featured-post-widget.php:467
+#: lib/widgets/featured-post-widget.php:601
+#: lib/widgets/user-profile-widget.php:151
+#: lib/js/build/title-toggle.js:17
+#: lib/js/editor/title-toggle.js:37
 msgid "Title"
 msgstr "标题"
 
@@ -1436,10 +1484,14 @@ msgstr "标题"
 msgid "Search for "
 msgstr "查找"
 
-#: config/breadcrumbs.php:43 config/breadcrumbs.php:44
-#: config/breadcrumbs.php:45 config/breadcrumbs.php:46
-#: config/breadcrumbs.php:48 config/breadcrumbs.php:49
-#: lib/structure/archive.php:194 lib/structure/archive.php:196
+#: config/breadcrumbs.php:43
+#: config/breadcrumbs.php:44
+#: config/breadcrumbs.php:45
+#: config/breadcrumbs.php:46
+#: config/breadcrumbs.php:48
+#: config/breadcrumbs.php:49
+#: lib/structure/archive.php:194
+#: lib/structure/archive.php:196
 #: lib/structure/archive.php:198
 msgid "Archives for "
 msgstr "档案"
@@ -1456,11 +1508,12 @@ msgstr "副侧栏小工具区"
 msgid "Primary Sidebar Widget Area"
 msgstr "主侧栏小工具区"
 
-#: lib/classes/class-genesis-search-form.php:51 searchform.php:49
+#: lib/classes/class-genesis-search-form.php:51
+#: searchform.php:49
 msgid "Search"
 msgstr "搜索"
 
-#: lib/structure/post.php:576
+#: lib/structure/post.php:711
 msgid "About"
 msgstr "关于"
 
@@ -1468,52 +1521,50 @@ msgstr "关于"
 msgid "By"
 msgstr "作者"
 
-#: lib/structure/post.php:370
+#: lib/structure/post.php:485
 msgid "[Read more...]"
 msgstr "[阅读全文...]"
 
-#: lib/functions/deprecated.php:41
+#: lib/functions/deprecated.php:810
+#: lib/structure/comments.php:76
 msgid "Comments"
 msgstr "评论"
 
-#: lib/functions/deprecated.php:40
+#: lib/functions/deprecated.php:809
 msgid "Posts"
 msgstr "文章"
 
-#: lib/init.php:104
+#: lib/init.php:131
 msgid "Primary Navigation Menu"
 msgstr "主导航菜单"
 
-#: lib/structure/footer.php:163
+#: config/customizer-theme-settings.php:311
+#: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
+#: lib/classes/Upgrade/Upgrade_DB_3100.php:38
 msgid "Copyright"
 msgstr "版权"
 
-#: lib/structure/comments.php:375
+#: lib/structure/comments.php:415
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正在等待审核。"
 
-#: lib/structure/comments.php:328
+#. translators: 1: A date, 2: A time.
+#: lib/structure/comments.php:368
 msgid "%1$s at %2$s"
 msgstr "%1$s 在 %2$s"
 
-#: lib/structure/comments.php:285
+#: lib/structure/comments.php:324
 msgid "says"
 msgstr "评论"
 
-#: lib/structure/comments.php:161
-msgid "<h3>Trackbacks</h3>"
-msgstr "<h3>引用(Trackbacks)</h3>"
-
-#: lib/structure/comments.php:76
-msgid "<h3>Comments</h3>"
-msgstr "<h3>评论</h3>"
-
-#: lib/shortcodes/post.php:573 lib/structure/comments.php:359
-#: lib/structure/post.php:352
+#: lib/shortcodes/post.php:573
+#: lib/structure/post.php:467
+#: lib/structure/comments.php:399
 msgid "(Edit)"
 msgstr "（编辑）"
 
-#: lib/shortcodes/post.php:474 lib/shortcodes/post.php:514
+#: lib/shortcodes/post.php:474
+#: lib/shortcodes/post.php:514
 msgid "Filed Under: "
 msgstr "分类："
 
@@ -1541,59 +1592,61 @@ msgstr "退出系统"
 msgid "Log in"
 msgstr "登录"
 
-#: lib/functions/deprecated.php:183
+#: lib/functions/deprecated.php:952
 msgid "Return to top of page"
 msgstr "返回该页最上部"
 
 #. translators: %s: Genesis version.
-#: lib/functions/upgrade.php:1120
+#: lib/functions/upgrade.php:379
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
 msgstr "Genesis %s 现在已可用。 我们已为这个主题提供‘一键更新’，所以当您方便时，尽早登录您的控制面板更新主题。"
 
 #. translators: 1: Genesis version, 2: URL for current website.
-#: lib/functions/upgrade.php:1117
+#: lib/functions/upgrade.php:376
 msgid "Genesis %1$s is available for %2$s"
 msgstr ""
 
-#: config/breadcrumbs.php:22 lib/functions/deprecated.php:514
+#: config/breadcrumbs.php:22
+#: lib/functions/deprecated.php:1285
 msgid "Home"
 msgstr "首页"
 
-#: lib/widgets/featured-post-widget.php:447
-#: lib/widgets/featured-post-widget.php:600
+#: lib/widgets/featured-post-widget.php:453
+#: lib/widgets/featured-post-widget.php:606
 msgid "Number of Posts to Show"
 msgstr "显示文章的数量"
 
-#: lib/widgets/featured-post-widget.php:439
+#: lib/widgets/featured-post-widget.php:445
 msgid "All Categories"
 msgstr "所有分类"
 
-#: config/customizer-theme-settings.php:284
+#: config/customizer-theme-settings.php:290
 msgid "Numeric"
 msgstr "数字式"
 
-#: config/customizer-theme-settings.php:283
+#: config/customizer-theme-settings.php:289
 msgid "Previous / Next"
 msgstr "上一页/下一页"
 
-#: lib/widgets/featured-page-widget.php:322
-#: lib/widgets/featured-post-widget.php:525
+#: lib/widgets/featured-page-widget.php:327
+#: lib/widgets/featured-post-widget.php:531
 msgid "Image Size"
 msgstr "图像尺寸"
 
-#: lib/widgets/featured-post-widget.php:579
+#: lib/widgets/featured-post-widget.php:585
 msgid "characters"
 msgstr "字符"
 
-#: lib/widgets/featured-post-widget.php:577
+#: lib/widgets/featured-post-widget.php:583
 msgid "Limit content to"
 msgstr "限制内容字数"
 
-#: config/customizer-theme-settings.php:228
+#: config/customizer-theme-settings.php:234
 msgid "Select one of the following"
 msgstr "选取以下内容其中一项"
 
-#: config/layouts.php:54 lib/views/help/cpt-archive-layout.php:25
+#: config/layouts.php:54
+#: lib/views/help/cpt-archive-layout.php:25
 #: lib/views/help/genesis-layout.php:25
 msgid "Full Width Content"
 msgstr "全宽内容"
@@ -1602,13 +1655,15 @@ msgstr "全宽内容"
 msgid "Image logo"
 msgstr "图像标志"
 
-#: config/customizer-theme-settings.php:224
+#: config/customizer-theme-settings.php:230
 #: lib/views/help/genesis-archives.php:15
 msgid "Content Archives"
 msgstr "内容档案"
 
 #: config/customizer-theme-settings.php:112
 #: lib/views/help/genesis-breadcrumbs.php:15
+#: lib/js/build/breadcrumbs-toggle.js:17
+#: lib/js/editor/breadcrumbs-toggle.js:42
 msgid "Breadcrumbs"
 msgstr "面包屑"
 
@@ -1624,9 +1679,8 @@ msgstr "自定义 Feeds"
 msgid "Information"
 msgstr "信息"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:50
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:57
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:64
@@ -1645,105 +1699,31 @@ msgstr "Robots元标记"
 msgid "Comma separated list"
 msgstr "逗号分隔列表"
 
-#. translators: Meta noodp attribute.
-#. translators: Meta noydir attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:137
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:144
-msgid "Apply %s to your site?"
-msgstr "启用 %s 于您的网站？"
-
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:77
-msgid "Apply %s to Entire Site?"
-msgstr "启用 %s 于整个网站？"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:55
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:114
-msgid "Apply %s to Search Archives?"
-msgstr "启用 %s 到搜索档案?"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:48
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:107
-msgid "Apply %s to Date Archives?"
-msgstr "启用 %s 到日期档案?"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:41
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:100
-msgid "Apply %s to Author Archives?"
-msgstr "启用 %s 到作者档案?"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:34
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:93
-msgid "Apply %s to Tag Archives?"
-msgstr "启用 %s 到标签档案?"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:27
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:86
-msgid "Apply %s to Category Archives?"
-msgstr "启用 %s 到分类档案?"
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:56
-msgid "Include Shortlink tag?"
-msgstr "包含捷径链接标签？"
-
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:52
-msgid "Shortlink Tag"
-msgstr "短链标签"
-
 #: config/customizer-seo-settings.php:158
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:46
 msgid "Include Windows Live Writer Support Tag?"
 msgstr "包含 Windows Live Writer 支持标签?"
 
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:28
-msgid "Relationship Link Tags"
-msgstr "关系链接标签"
-
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:93
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:100
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:107
-msgid "Apply %s to the homepage?"
-msgstr "对首页启用 %s?"
-
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:41
-msgid "I'll manually wrap my own text on the homepage"
-msgstr "我会在主页手动添加wrap"
-
 #: config/customizer-seo-settings.php:75
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:35
 msgid "Site Title"
 msgstr "网站标题"
 
-#: config/customizer-theme-settings.php:271
-#: lib/widgets/featured-page-widget.php:338
-#: lib/widgets/featured-post-widget.php:511
-#: lib/widgets/featured-post-widget.php:541
-#: lib/widgets/user-profile-widget.php:188
+#: config/customizer-theme-settings.php:277
+#: lib/widgets/featured-page-widget.php:343
+#: lib/widgets/featured-post-widget.php:517
+#: lib/widgets/featured-post-widget.php:547
+#: lib/widgets/user-profile-widget.php:191
 msgid "Right"
 msgstr "右"
 
-#: config/customizer-theme-settings.php:270
-#: lib/widgets/featured-page-widget.php:337
-#: lib/widgets/featured-post-widget.php:510
-#: lib/widgets/featured-post-widget.php:540
-#: lib/widgets/user-profile-widget.php:187
+#: config/customizer-theme-settings.php:276
+#: lib/widgets/featured-page-widget.php:342
+#: lib/widgets/featured-post-widget.php:516
+#: lib/widgets/featured-post-widget.php:546
+#: lib/widgets/user-profile-widget.php:190
 msgid "Left"
 msgstr "左"
 
-#: lib/classes/class-genesis-script-loader.php:177
+#: lib/classes/class-genesis-script-loader.php:271
 msgid "Are you sure you want to reset?"
 msgstr "您确定要进行重置吗？"
 
@@ -1763,36 +1743,37 @@ msgstr "文档头部（Document Head）设置"
 msgid "Homepage Settings"
 msgstr "首页设置"
 
+#: lib/classes/class-genesis-admin-import-export.php:127
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:152
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:178
-#: lib/classes/class-genesis-admin-import-export.php:127
 #: lib/classes/class-genesis-admin-seo-settings.php:41
-#: lib/views/help/cpt-archive-seo.php:15 lib/views/help/seo-settings.php:15
+#: lib/views/help/seo-settings.php:15
+#: lib/views/help/cpt-archive-seo.php:15
 msgid "SEO Settings"
 msgstr "SEO 设置"
 
+#. translators: %s: Theme settings admin screen link.
 #: config/customizer-theme-settings.php:23
 #: lib/classes/class-genesis-admin-import-export.php:123
 #: lib/classes/class-genesis-admin-settings.php:52
 #: lib/classes/class-genesis-admin-settings.php:53
-#: lib/functions/upgrade.php:1030
+#: lib/functions/upgrade.php:289
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:32
-#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 #: lib/views/meta-boxes/genesis-user-layout.php:31
+#: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 msgid "Theme Settings"
 msgstr "主题设置"
 
-#. translators: Meta noindex attribute.
-#. translators: Meta nofollow attribute.
-#. translators: Meta noarchive attribute.
+#. translators: %s: robots meta content attribute value, such as 'noindex',
+#. 'nofollow' or 'noarchive'.
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:75
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:83
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:91
 msgid "Apply %s to this post/page"
 msgstr "启用 %s 到这文章/页面"
 
-#: lib/views/help/seo-robots.php:15
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:67
+#: lib/views/help/seo-robots.php:15
 msgid "Robots Meta Settings"
 msgstr "Robots Meta 设置"
 
@@ -1807,23 +1788,24 @@ msgstr "自定义文档标题"
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "这是一篇受密码保护的文章，您需要输入密码以查看评论。"
 
-#: lib/functions/general.php:545
+#: lib/functions/general.php:558
 msgid "Recent Posts:"
 msgstr "最新文章："
 
-#: lib/functions/general.php:542
+#: lib/functions/general.php:555
 msgid "Monthly:"
 msgstr "月度："
 
-#: lib/functions/general.php:539
+#: lib/functions/general.php:552
 msgid "Authors:"
 msgstr "作者："
 
-#: lib/functions/general.php:536
+#: lib/functions/general.php:549
 msgid "Categories:"
 msgstr "分类目录："
 
-#: lib/functions/general.php:531 lib/structure/post.php:396
+#: lib/functions/general.php:544
+#: lib/structure/post.php:511
 msgid "Pages:"
 msgstr "页面："
 
@@ -2001,7 +1983,8 @@ msgstr "关系链接标签是由WordPress添加的目前没有SEO价值但会影
 msgid "The Homepage Robots Meta Tags tell search engines how to handle the homepage. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
 msgstr "首页的Robots元标签指导搜索引擎处理页面。Noindex表示不进行索引，不会出现在搜索结果中。Nofollow表示不跟踪页面的链接，Noarchive 则表示不做页面存档。"
 
-#: lib/views/help/cpt-archive-seo.php:23 lib/views/help/seo-homepage.php:35
+#: lib/views/help/cpt-archive-seo.php:23
+#: lib/views/help/seo-homepage.php:35
 msgid "Most search engines do not use Keywords at this time or give them very little consideration; however, it's worth using in case keywords are given greater consideration in the future and also to help guide your content. If the content doesn’t match with your targeted key words, then you may need to consider your content more carefully."
 msgstr "大部分的搜索引擎目前并不使用关键词或者很少考虑它，但如果以后关键词被重新重视所以还是值得使用的。如果内容跟目标关键词不匹配，那你需要调整你的内容。"
 
@@ -2086,10 +2069,12 @@ msgstr "获取帮助"
 msgid "For more information:"
 msgstr "获得更多信息："
 
+#. translators: %s: Abbreviation element for "JSON".
 #: lib/views/help/import-export-export.php:19
 msgid "JSON"
 msgstr "JSON"
 
+#. translators: %s: Abbreviation element for "JSON".
 #: lib/views/help/import-export-export.php:19
 msgid "JavaScript Object Notation"
 msgstr "JavaScript 对象表示法"
@@ -2150,7 +2135,7 @@ msgstr ""
 msgid "The %1$sDynamic text%2$s option will use the Site Title and Site Description from your site's settings in your header."
 msgstr ""
 
-#: lib/functions/deprecated.php:635
+#: lib/functions/deprecated.php:1405
 msgid "data in style sheet files"
 msgstr "样式表文件的数据"
 
@@ -2167,7 +2152,7 @@ msgstr "你可以输出Genesis有关的设置以进行备份，或者把它们�
 msgid "This lets you select the layout for the archive page. On most of the child themes you'll see these options:"
 msgstr "该选项让您设定存档页的布局。在大多数子主题中您会看到这些选项："
 
-#. translators: JOSN file extension.
+#. translators: %s: JSON file extension.
 #: lib/views/pages/genesis-admin-import-export.php:27
 msgid "Upload the data file (%s) from your computer and we'll import your settings."
 msgstr "从您的电脑上传数据文件 (%s) 我们会同时引用你的设置"
@@ -2189,14 +2174,10 @@ msgstr ""
 msgid "This works with the Blog Template, which is a page template that shows your latest posts. It's what people see when they land on your homepage."
 msgstr "这需要博客模板，博客模板是一个显示你最新文章的页面模板，是人们打开你的网站时看到的页面。"
 
-#. translators: JOSN file extension.
+#. translators: %s: JSON file extension.
 #: lib/views/pages/genesis-admin-import-export.php:56
 msgid "When you click the button below, Genesis will generate a data file (%s) for you to save to your computer."
 msgstr "当你点击下面的按钮后，Genesis将会创建一个数据文件（%s）供你保存到自己的电脑。"
-
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:25
-msgid "Use semantic HTML5 page and section headings throughout site?"
-msgstr "全站都使用HTML5 页和子标题 ?"
 
 #: lib/views/help/cpt-archive-seo.php:26
 msgid "The Robots Meta Tags tell search engines how to handle the archive page. Noindex means not to index the page at all, and it will not appear in search results. Nofollow means do not follow any links from this page and noarchive tells them not to make an archive copy of the page."
@@ -2222,10 +2203,10 @@ msgstr "存档介绍文字位于存档开始的部分，用于简要介绍存档
 msgid "The Custom Body Class adds a class to the body tag in the HTML to allow CSS modification exclusively for this post type's archive page."
 msgstr "该特定的body样式为body标签添加一个样式，这样就可以对文章类型存档页编辑样式。"
 
-#: lib/views/help/cpt-archive-seo.php:17
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:24
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:22
 #: lib/views/meta-boxes/genesis-user-seo.php:23
+#: lib/views/help/cpt-archive-seo.php:17
 msgid "The Custom Document Title sets the page title as seen in browsers and search engines. "
 msgstr "文件标题用于设置出现在浏览器和搜索引擎中的页面标题。"
 
@@ -2234,60 +2215,34 @@ msgstr "文件标题用于设置出现在浏览器和搜索引擎中的页面标
 msgid "You can import a file you've previously exported. The file name will start with %s followed by one or more strings indicating which settings it contains, finally followed by the date and time it was exported."
 msgstr "你可以导入你之前输出的文件。文件名以%s开头，后面带一个或几个字符串表示它包含的设置，最后是输出日期和时间。"
 
-#: config/customizer-seo-settings.php:278
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:129
-msgid "Directories"
-msgstr "目录"
-
 #: config/customizer-seo-settings.php:223
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:69
 msgid "Archiving"
 msgstr "正在存档"
 
 #: config/customizer-seo-settings.php:176
-#: lib/views/meta-boxes/genesis-seo-settings-robots.php:19
 msgid "Indexing"
 msgstr "正在进行索引"
 
-#: lib/views/meta-boxes/genesis-seo-settings-dochead.php:42
-msgid "Windows Live Writer"
-msgstr "Windows Live Writer软件"
-
-#. translators: Escaped H1 tag.
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:22
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:30
-msgid "Primary Title %s"
-msgstr "主标题%s"
-
 #: config/customizer-seo-settings.php:58
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:57
 msgid "Additions on right"
 msgstr "增添内容置于右侧"
 
 #: config/customizer-seo-settings.php:57
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:56
 msgid "Additions on left"
 msgstr "增添内容置于左侧"
 
 #: config/customizer-seo-settings.php:52
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:53
 msgid "Document Title Order"
 msgstr "文件标题顺序"
 
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:20
-msgid "Section Headings"
-msgstr "局部标题"
-
-#: lib/views/help/genesis-inpost-seo.php:28
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:57
+#: lib/views/help/genesis-inpost-seo.php:28
 msgid "Canonical URL"
 msgstr "正源URL"
 
 #: config/customizer-seo-settings.php:31
-#: lib/views/help/genesis-inpost-seo.php:16
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:21
-#: lib/views/meta-boxes/genesis-seo-settings-homepage.php:48
-#: lib/views/meta-boxes/genesis-seo-settings-sitewide.php:32
+#: lib/views/help/genesis-inpost-seo.php:16
 msgid "Document Title"
 msgstr "文件标题"
 
@@ -2295,19 +2250,19 @@ msgstr "文件标题"
 msgid "Link opens in a new window."
 msgstr "链接在新窗口打开"
 
-#: config/customizer-theme-settings.php:265
+#: config/customizer-theme-settings.php:271
 msgid "Featured Image Alignment"
 msgstr ""
 
-#: config/customizer-theme-settings.php:256
+#: config/customizer-theme-settings.php:262
 msgid "Featured Image Size"
 msgstr ""
 
-#: config/customizer-theme-settings.php:248
+#: config/customizer-theme-settings.php:254
 msgid "Display the featured image?"
 msgstr "显示特色图片？"
 
-#: config/customizer-theme-settings.php:240
+#: config/customizer-theme-settings.php:246
 msgid "Limit content to how many characters? (0 for no limit)"
 msgstr "限制内容至多少字符（0或者无限）"
 
@@ -2376,8 +2331,10 @@ msgstr "动态文字"
 msgid "When extending Genesis_Customizer_Base, you must create a register method."
 msgstr "当扩展 Genesis_Customizer_Base时，你必须创建注册方法"
 
-#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:20
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:24
+#: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:20
+#: lib/js/build/layout-toggle.js:1
+#: lib/js/editor/layout-toggle.js:55
 msgid "Select Layout"
 msgstr "选择布局"
 
@@ -2389,20 +2346,20 @@ msgstr "读者互动"
 msgid "Author Archive SEO Settings"
 msgstr "作者存档SEO设置"
 
-#: config/customizer-theme-settings.php:307
+#: config/customizer-theme-settings.php:331
 msgid "Footer Scripts"
 msgstr "页脚脚本"
 
-#: config/customizer-theme-settings.php:297
+#: config/customizer-theme-settings.php:321
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:21
 msgid "Header Scripts"
 msgstr "页眉脚本"
 
-#: config/customizer-theme-settings.php:233
+#: config/customizer-theme-settings.php:239
 msgid "Entry excerpts"
 msgstr "文章摘要"
 
-#: config/customizer-theme-settings.php:232
+#: config/customizer-theme-settings.php:238
 msgid "Entry content"
 msgstr "文章内容"
 
@@ -2438,66 +2395,64 @@ msgstr "关于"
 msgid "Genesis database upgraded."
 msgstr "Genesis 数据库升级"
 
-#. Author URI of the plugin/theme
+#. Author URI of the theme
 msgid "https://www.studiopress.com/"
 msgstr "https://www.studiopress.com/"
 
-#. Author of the plugin/theme
+#. Author of the theme
 msgid "StudioPress"
 msgstr "StudioPress"
 
-#. Theme URI of the plugin/theme
+#. Theme URI of the theme
 msgid "http://my.studiopress.com/themes/genesis/"
 msgstr "http://my.studiopress.com/themes/genesis/"
 
-#. Theme Name of the plugin/theme
+#. Theme Name of the theme
+#: lib/admin/site-health.php:31
 msgid "Genesis"
 msgstr "Genesis"
 
-#: lib/widgets/featured-post-widget.php:564
+#: lib/widgets/featured-post-widget.php:570
 msgid "Content Post Info"
 msgstr "内容文章信息"
 
-#: lib/widgets/featured-post-widget.php:484
+#: lib/widgets/featured-post-widget.php:490
 msgid "Exclude Sticky Posts?"
 msgstr "除掉置顶文章？"
 
-#: config/customizer-theme-settings.php:272
-#: lib/widgets/featured-page-widget.php:339
-#: lib/widgets/featured-post-widget.php:542
+#: config/customizer-theme-settings.php:278
+#: lib/widgets/featured-page-widget.php:344
+#: lib/widgets/featured-post-widget.php:548
 msgid "Center"
 msgstr "居中"
 
-#: lib/widgets/featured-page-widget.php:134
-#: lib/widgets/featured-post-widget.php:172
+#: lib/widgets/featured-page-widget.php:138
+#: lib/widgets/featured-post-widget.php:176
 msgid "(no title)"
 msgstr "(无标题)"
 
-#: lib/structure/post.php:828
+#: lib/structure/post.php:966
 msgid "Current page"
 msgstr "当前页面"
 
-#: lib/structure/post.php:404 lib/structure/post.php:801
+#: lib/structure/post.php:519
+#: lib/structure/post.php:937
 msgid "Page "
 msgstr "页面"
 
-#: lib/structure/header.php:845
+#: lib/structure/header.php:930
 msgid "Skip to footer"
 msgstr "跳转到页脚"
 
-#: lib/structure/header.php:839
+#: lib/structure/header.php:924
 msgid "Skip to secondary sidebar"
 msgstr "跳过至辅助侧边栏"
 
-#: lib/structure/header.php:835
+#: lib/structure/header.php:920
 msgid "Skip to primary sidebar"
 msgstr "跳过至主侧边栏"
 
-#: lib/structure/header.php:832
-msgid "Skip to content"
-msgstr "跳转到内容"
-
-#: lib/structure/header.php:829
+#: lib/structure/header.php:914
 msgid "Skip to primary navigation"
 msgstr "跳过至主导航"
 
@@ -2512,3 +2467,7 @@ msgstr "文章之后"
 #: lib/functions/widgetize.php:136
 msgid "This is the header widget area. It typically appears next to the site title or logo. This widget area is not suitable to display every type of widget, and works best with a custom menu, a search form, or possibly a text widget."
 msgstr "这里是头部小工具区，通常这显示于网站标题或LOGO旁。这个小工具区并不适合显示所有的小工具，最好选择定定制菜单、搜索表、或文本小工具。"
+
+#. Template Name of the theme
+msgid "Blog"
+msgstr "博客"
