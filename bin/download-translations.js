@@ -51,7 +51,7 @@ const translations = {
 	 *
 	 * Thresholds are specified in `package.json` under `glotpress.filters`.
 	 *
-	 * Example data endpoint: https://translate.studiopress.com/global/api/projects/genesis/genesis
+	 * Example data endpoint: https://translate.studiopress.com/global/api/projects/genesis/genesis-3.1
 	 *
 	 * @return {Promise<array|void>} A promise resolving to an array of the
 	 *                               filtered language sets, or void if sets
