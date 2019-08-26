@@ -1,25 +1,48 @@
 {
-  "name": "genesis-translations",
-  "version": "2.10.1",
-  "description": "Genesis Translations",
-  "bugs": {
-    "url": "https://github.com/thememix/genesis-translations/issues"
-  },
-  "homepage": "https://thememix.com/plugins/genesis-translations/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thememix/genesis-translations"
-  },
-  "author": "ThemeMix",
-  "license": "GPL-3.0+",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-concat": "~1.0.0",
-    "grunt-contrib-imagemin": "~1.0.0",
-    "grunt-contrib-jshint": "~1.0.0",
-    "grunt-contrib-qunit": "~1.2.0",
-    "grunt-glotpress": "~0.2.2",
-    "grunt-jsvalidate": "~0.2.2",
-    "grunt-wp-i18n": "~0.5.4"
-  }
+	"name": "genesis-translations",
+	"version": "2.10.1",
+	"description": "Genesis Translations",
+	"bugs": {
+		"url": "https://github.com/remkus/genesis-translations/issues"
+	},
+	"homepage": "https://thememix.com/plugins/genesis-translations/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/remkus/genesis-translations"
+	},
+	"author": "ThemeMix",
+	"license": "GPL-2.0-or-later",
+	"genesisTranslations": {
+		"genesisBranchOrTag": "3.1.0"
+	},
+	"glotpress": {
+		"url": "https://translate.studiopress.com/global/",
+		"slug": "genesis/genesis-3.1",
+		"textdomain": "genesis",
+		"fileFormat": "genesis-temp/lib/languages/%wpLocale%.%format%",
+		"formats": [
+			"po",
+			"mo"
+		],
+		"filters": {
+			"minimumPercentage": 30
+		}
+	},
+	"devDependencies": {
+		"axios": "^0.19.0",
+		"copyfiles": "^2.1.1",
+		"npm-run-all": "^4.1.5",
+		"renamer": "^1.1.2",
+		"rimraf": "^3.0.0"
+	},
+	"scripts": {
+		"start": "run-s translate-plugin download-genesis download-translations make-json-lang-files copy-lang-files prefix-json-lang-files tidy",
+		"translate-plugin": "wp i18n make-pot . languages/genesis-translations.pot",
+		"download-genesis": "rimraf ./genesis-temp/ && git clone https://github.com/studiopress/genesis.git genesis-temp && cd genesis-temp && git checkout $npm_package_genesisTranslations_genesisBranchOrTag",
+		"download-translations": "rimraf ./genesis-temp/lib/languages/*.{mo,po} && node ./bin/download-translations.js",
+		"make-json-lang-files": "rimraf ./genesis-temp/lib/languages/*.json && wp i18n make-json genesis-temp/lib/languages",
+		"copy-lang-files": "rimraf ./translations/* && copyfiles -u 3 genesis-temp/lib/languages/* translations",
+		"prefix-json-lang-files": "renamer --find \"/^/\" --replace \"genesis-\" \"translations/*.json\"",
+		"tidy": "rimraf ./genesis-temp && echo Done!"
+	}
 }
