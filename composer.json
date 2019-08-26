@@ -3,7 +3,9 @@
 	"type": "wordpress-plugin",
 	"description": "Genesis Translations",
 	"license": "GPL-2.0-or-later",
-	"require": {},
+	"require": {
+		"composer/installers": "^1.7"
+	},
 	"require-dev": {
 		"wp-cli/i18n-command": "^2.2"
 	}
