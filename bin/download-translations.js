@@ -28,7 +28,7 @@ const fs = require( 'fs' );
 const package = require( process.cwd() + '/package.json' );
 const options = package.glotpress;
 
-axios.defaults.headers.common['User-Agent'] = `${package.glotpress.textdomain}`;
+axios.defaults.headers.common['User-Agent'] = package.name;
 
 const translations = {
 	apiUrl: '',
