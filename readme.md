@@ -3,14 +3,14 @@
 * Donate link: https://remkus.devries.frl/donate/
 * Tags: genesis, translations,
 * Requires at least: 4.3
-* Tested up to: 5.2
-* Stable tag: 2.10.1
+* Tested up to: 5.3
+* Stable tag: 3.0.0
 
-This plugin translates the Genesis Framework into one of the available languages.
+This plugin makes the available translations available the Genesis Framework into one of the available languages. 
 
 ## Description
 
-This plugin translates the Genesis Framework into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](https://translations.studiopress.com/home/) first.
+This plugin makes the Genesis Framework translated into one of the available languages. No need to fuss about with your `functions.php` file or uploading `.mo` and `.po` files. Just install this plugin et voil&aacute;! If you're curious about the status of your translations you can check out the translations here: http://translate.studiopress.com/ and if you'd like the improve your language you will need to register [here](https://translations.studiopress.com/home/) first.
 
 Check https://translate.studiopress.com to see which languages are currrently supported and how far along the translations are.
 
@@ -51,6 +51,10 @@ That's because there isn't any. If you have one of the provided languages proper
 Most likely you either have words hardcoded in your child theme's `functions.php` file or you're working with outdated (or incomplete) WordPress translation.
 
 ##Changelog
+
+### 3.0.0  
+* Implemented new way to build and generate standard po/mo files as well as JSON translation files for the JavaScript components. Huge props @nickcernis
+* Updated various languages
 
 ### 2.10.0  
 * Updated to Genesis 2.10.0 text strings
