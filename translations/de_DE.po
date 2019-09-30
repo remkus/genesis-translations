@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
-"PO-Revision-Date: 2019-08-12 15:54:58+0000\n"
+"POT-Creation-Date: 2019-09-30T14:06:46+00:00\n"
+"PO-Revision-Date: 2019-09-30 14:02:58+0000\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
@@ -31,19 +31,19 @@ msgstr ""
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:109
 msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
-msgstr ""
+msgstr "Deine Starter-Pack-Installation ist abgeschlossen! Betrachte oder bearbeite deine Homepage, indem du die Buttons unten benutzt."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:87
 msgid "Adding sample content to make your theme look like the chosen starter pack."
-msgstr ""
+msgstr "Füge die Beispielinhalte ein, um dein Theme wie das ausgewählte Starter-Pack aussehen zu lassen."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:65
 msgid "Installing and activating plugins for your starter pack."
-msgstr ""
+msgstr "Installiere und aktiviere die Plugins für dein Starter-Pack."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:36
 msgid "None of your existing content will be lost. Find this page again at Genesis → Child Theme Setup."
-msgstr ""
+msgstr "Keiner deiner bestehenden Inhalte wird verloren gehen. Um diese Seite bei Genesis wiederzufinden \t Child Theme Setup."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:34
 msgid "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
@@ -89,7 +89,7 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:302
 msgid "Footer"
-msgstr ""
+msgstr "Fußbereich"
 
 #: config/customizer-theme-settings.php:225
 msgid "Modify the settings for individual entries such as posts and pages."
