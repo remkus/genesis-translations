@@ -7,102 +7,102 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
-"PO-Revision-Date: 2019-08-15 13:07:35+0000\n"
+"POT-Creation-Date: 2019-09-30T14:06:46+00:00\n"
+"PO-Revision-Date: 2019-09-30 13:37:15+0000\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
 
 #: lib/structure/footer.php:176
 msgid "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
-msgstr ""
+msgstr "Dit filter wordt niet meer ondersteund. Je kunt de footer tekst nu aanpassen middels de Thema instellingen."
 
 #: lib/structure/header.php:917
 msgid "Skip to main content"
-msgstr ""
+msgstr "Door naar de hoofd inhoud"
 
 #: lib/structure/comments.php:176
 msgid "Trackbacks"
-msgstr ""
+msgstr "Trackbacks"
 
 #: lib/views/onboarding/starter-pack-summary.php:25
 msgid "Pack Details"
-msgstr ""
+msgstr "Pack details"
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:109
 msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
-msgstr ""
+msgstr "Je starterpack installatie is compleet! Bekijk of pas je homepagina aan via de knoppen hieronder."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:87
 msgid "Adding sample content to make your theme look like the chosen starter pack."
-msgstr ""
+msgstr "Voorbeeld content toevoegen zodat je thema er uit ziet zoals het starterpack."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:65
 msgid "Installing and activating plugins for your starter pack."
-msgstr ""
+msgstr "Plugins installeren en activeren voor je starterpack."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:36
 msgid "None of your existing content will be lost. Find this page again at Genesis → Child Theme Setup."
-msgstr ""
+msgstr "Je huidige content blijft bestaan. Je vindt deze pagina weer via Genesis \t Child Theme Setup."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:34
 msgid "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
-msgstr ""
+msgstr "Klik op de onderstaande afbeeldingen om meer te leren over elk verschillend Starterpack en kies het starterpack wat het best past bij wat je nodig hebt."
 
 #. translators: %s: Theme name
 #: lib/views/pages/genesis-admin-onboarding-packs.php:29
 msgid "%s offers a choice of starter packs. A starter pack is a bundle of content and/or plugins that will be automatically imported and set up for you."
-msgstr ""
+msgstr "%s biedt een keuze van verschillende starterpacks. Een starterpack is een verzameling van content en/of plugins die automatisch geïmporteerd en geïnstalleerd worden voor je. "
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:224
 msgid "View the %s starter pack demo (opens in new window)."
-msgstr ""
+msgstr "Bekijk de %s starterpack demo (opent in een nieuw venster)."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:218
 msgid "Install the %s starter pack."
-msgstr ""
+msgstr "Installeer het %s starterpack."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:213
 msgid "Learn more about the %s starter pack."
-msgstr ""
+msgstr "Leer meer over het %s starterpack."
 
 #: lib/functions/onboarding.php:201
 msgid "No Starter Packs found."
-msgstr ""
+msgstr "Er zijn geen starterpacks gevonden."
 
 #. translators: the post type label.
 #: lib/admin/customizer.php:181
 msgid "Show Featured Images on %s"
-msgstr ""
+msgstr "Toon uitgelichte afbeeldingen voor %s"
 
 #: lib/classes/class-genesis-admin-onboarding.php:33
 msgid "Child Theme Setup"
-msgstr ""
+msgstr "Child Thema Setup"
 
 #. translators: %s: Link to footer shortcodes documentation
 #: config/customizer-theme-settings.php:307
 msgid "The text that will appear in your site footer. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a>."
-msgstr ""
+msgstr "De tekst die getoond wordt in de footer van je site. Mag <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a> bevatten."
 
 #: config/customizer-theme-settings.php:302
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: config/customizer-theme-settings.php:225
 msgid "Modify the settings for individual entries such as posts and pages."
-msgstr ""
+msgstr "Pas de instellingen aan voor individuele entries zoals berichten en pagina's."
 
 #: config/customizer-theme-settings.php:224
 msgid "Singular Content"
-msgstr ""
+msgstr "Enkelvoudige content"
 
 #. translators: 1: Genesis version, 2: Changelog URI.
 #: lib/views/pages/genesis-admin-upgraded.php:32
 msgid "Congratulations for successfully updating to Genesis %1$s. We keep a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
-msgstr ""
+msgstr "Gefeliciteerd voor het succesvol bijwerken naar Genesis %1$s. We houden een <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">gedetailleerde changelog</a> (in het Engels) bij voor elke release. Kijk voor jezelf!"
 
 #: lib/classes/class-genesis-menu-handler.php:87
 msgid "Menu"
@@ -115,212 +115,212 @@ msgstr "Submenu"
 
 #: lib/admin/site-health.php:98
 msgid "This theme uses theme supports that are no longer required in Genesis 3.0+: "
-msgstr ""
+msgstr "Dit thema maakt gebruikt van theme supports die niet langer ondersteund worden in Genesis 3.0+:"
 
 #: lib/admin/site-health.php:94
 msgid "\"404-page\" no longer required in \"genesis-accessibility\" theme support array"
-msgstr ""
+msgstr "\"404-page\" niet langer verplicht in \"genesis-accessibility\" thema support array"
 
 #: lib/admin/site-health.php:62
 msgid "Genesis recommendations"
-msgstr ""
+msgstr "Genesis aanbevelingen"
 
 #: lib/views/pages/genesis-admin-onboarding.php:93
 msgid "This will change your default homepage."
-msgstr ""
+msgstr "Hiermee wijzig je de standaard homepagina."
 
 #: lib/views/pages/genesis-admin-onboarding.php:90
 msgid "Sample content for the theme will be added to make your theme look like the demo."
-msgstr ""
+msgstr "Voorbeeld content voor het thema wordt toegevoegd zodat je thema er uit ziet als demo."
 
 #: lib/views/pages/genesis-admin-onboarding.php:65
 msgid "The following plugins will be automatically installed and activated with this theme (links open in new window):"
-msgstr ""
+msgstr "De volgende plugins worden automatisch geïnstalleerd en geactiveerd met dit thema (links openen in een nieuw venster):"
 
 #. translators: %s: Path to local image file.
 #: lib/functions/onboarding.php:578
 msgid "Could not read the file: %s."
-msgstr ""
+msgstr "Het %s bestand kon niet worden gelezen."
 
 #: lib/functions/onboarding.php:127
 msgid "new window"
-msgstr ""
+msgstr "nieuw venster"
 
 #: lib/classes/class-genesis-cli-settings-command.php:95
 msgid "It appears something went wrong. Please check your command and try again."
-msgstr ""
+msgstr "Het lijkt er op dat er iets mis ging. Controleer je commando en probeer het nog eens."
 
 #: lib/classes/class-genesis-cli-settings-command.php:91
 msgid "Setting saved."
-msgstr ""
+msgstr "Instellingen opgeslagen."
 
 #: lib/classes/class-genesis-admin-plugins.php:32
 #: lib/classes/class-genesis-admin-plugins.php:33
 msgid "Genesis Plugins"
-msgstr ""
+msgstr "Genesis Plugins"
 
 #: lib/views/pages/genesis-admin-onboarding.php:43
 msgid "Set up your website"
-msgstr ""
+msgstr "Zet je site op"
 
 #: lib/views/pages/genesis-admin-onboarding.php:36
 msgid "Use the \"Set Up Your Website\" button to get started. None of your existing content will be lost."
-msgstr ""
+msgstr "Gebruik de \"Zet je site up\" knop om te beginnen. Je bestaande content blijft bestaan."
 
 #. translators: %s: Theme name
 #: lib/views/pages/genesis-admin-onboarding.php:31
 msgid "%s supports automatic set up and import of demo content and/or recommended plugins."
-msgstr ""
+msgstr "%s ondersteunt automatische setup en import van demo content en/of aanbevolen plugins."
 
 #. translators: %s: Theme name
 #: lib/views/pages/genesis-admin-onboarding-packs.php:22
 #: lib/views/pages/genesis-admin-onboarding.php:25
 msgid "Get started with %s."
-msgstr ""
+msgstr "Begin met %s."
 
 #: lib/structure/sidebar.php:75
 msgid "Widgets Panel"
-msgstr ""
+msgstr "Widgets panel"
 
 #. translators: 1: Widget name, 2: URL to widgets admin page.
 #: lib/structure/sidebar.php:70
 msgid "This is the %1$s. You can add content to this area by visiting your %2$s and adding new widgets to this area."
-msgstr ""
+msgstr "Dit is de %1$s. Je kunt content aan die gedeelte toevoegen door naar je %2$s te gaan en nieuwe widgets toe te voegen aan dit gedeelte. "
 
 #: lib/structure/post.php:784
 msgid "Use `genesis_get_author_box()` instead."
-msgstr ""
+msgstr "Gebruik `genesis_get_author_box()` hier in plaats van."
 
 #: lib/structure/post.php:781
 msgid "The default is true, so remove the second argument."
-msgstr ""
+msgstr "De standaard is true, dus verwijder het tweede argument."
 
 #. translators: 1: Name of the image, 2: The error message.
 #: lib/functions/onboarding.php:591
 msgid "There was an error importing the %1$s image. Error: %2$s"
-msgstr ""
+msgstr "Er was een probleem met het importeren van de %1$s afbeelding. Error: %2$s"
 
 #. translators: 1: URL of the image, 2: The error message.
 #: lib/functions/onboarding.php:572
 msgid "There was an error downloading the featured image from %1$s. Error: %2$s"
-msgstr ""
+msgstr "Er was een probleem met het downloaden van de uitgelichte afbeelding van %1$s. Error: %2$s"
 
 #. translators: 1: Title of the menu item, 2: The error message.
 #: lib/functions/onboarding.php:424
 msgid "There was an error creating the %1$s menu item. Error: %2$s"
-msgstr ""
+msgstr "Er was een probleem met het aanmaken van het %1$s menu item. Error: %2$s"
 
 #. translators: 1: Title of the menu, 2: The error message.
 #: lib/functions/onboarding.php:359
 msgid "There was an error creating the %1$s menu. Error: %2$s"
-msgstr ""
+msgstr "Er was een probleem met het maken van het %1$s menu. Error: %2$s"
 
 #: lib/classes/class-genesis-script-loader.php:296
 msgid "A setup step has completed."
-msgstr ""
+msgstr "Een setup stap is afgerond."
 
 #: lib/classes/class-genesis-script-loader.php:295
 msgid "A setup step has started."
-msgstr ""
+msgstr "Een setup stap is begonnen."
 
 #: lib/classes/class-genesis-script-loader.php:294
 msgid "The website setup process has completed."
-msgstr ""
+msgstr "Het website setup proces is afgerond."
 
 #: lib/classes/class-genesis-script-loader.php:293
 msgid "The website setup process has started."
-msgstr ""
+msgstr "Het website setup proces is begonnen."
 
 #: lib/views/pages/genesis-admin-onboarding.php:133
 msgid "Atomic Blocks"
-msgstr ""
+msgstr "Atomic Blocks"
 
 #: lib/views/pages/genesis-admin-onboarding.php:132
 msgid "Gutenberg News"
-msgstr ""
+msgstr "Gutenberg nieuws"
 
 #: lib/views/pages/genesis-admin-onboarding.php:131
 msgid "StudioPress Blog"
-msgstr ""
+msgstr "StudioPress Blog"
 
 #: lib/views/pages/genesis-admin-onboarding.php:130
 msgid "Gutenberg Intro"
-msgstr ""
+msgstr "Gutenberg Intro"
 
 #: lib/views/pages/genesis-admin-onboarding.php:128
 msgid "Learn about the new WordPress editor (Gutenberg) and building with content blocks by using these resources below."
-msgstr ""
+msgstr "Leer meer over de nieuwe WordPress editor (Gutenberg) en het maken van content met blocks via onderstaande resources."
 
 #: lib/views/pages/genesis-admin-onboarding.php:127
 msgid "Helpful Links"
-msgstr ""
+msgstr "Nuttige links"
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:112
 #: lib/views/pages/genesis-admin-onboarding.php:120
 msgid "Edit your homepage"
-msgstr ""
+msgstr "Wijzig je homepagina"
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:111
 #: lib/views/pages/genesis-admin-onboarding.php:119
 msgid "View your homepage"
-msgstr ""
+msgstr "Bekijk je homepagina"
 
 #: lib/views/pages/genesis-admin-onboarding.php:117
 msgid "Your website setup is complete! View or edit your homepage using the buttons below."
-msgstr ""
+msgstr "Je website setup is compleet! Bekijk of wijzig je homepagina met de onderstaande knoppen."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:108
 #: lib/views/pages/genesis-admin-onboarding.php:116
 msgid "All done!"
-msgstr ""
+msgstr "Helemaal klaar!"
 
 #: lib/functions/onboarding.php:185
 #: lib/views/pages/genesis-admin-onboarding-packs.php:84
 #: lib/views/pages/genesis-admin-onboarding.php:87
 msgid "Demo content"
-msgstr ""
+msgstr "Demo content"
 
 #: lib/functions/onboarding.php:142
 #: lib/views/pages/genesis-admin-onboarding-packs.php:64
 #: lib/views/pages/genesis-admin-onboarding.php:64
 msgid "Recommended plugins"
-msgstr ""
+msgstr "Aanbevolen plugins"
 
 #: lib/views/pages/genesis-admin-onboarding.php:44
 msgid "Or go to Theme Settings"
-msgstr ""
+msgstr "Of ga naar de Thema instellingen"
 
 #: lib/functions/upgrade.php:332
 msgid "update now"
-msgstr ""
+msgstr "nu bijwerken"
 
 #: lib/functions/upgrade.php:284
 #: lib/functions/upgrade.php:325
 msgid "Check out what's new"
-msgstr ""
+msgstr "Kijk wat er nieuw is"
 
 #. translators: 1: Genesis version, 2: URL for change log, 3: URL for updating
 #. Genesis.
 #: lib/functions/upgrade.php:318
 msgid "Genesis %1$s is available. %2$s or %3$s."
-msgstr ""
+msgstr "Genesis %1$s is beschikbaar. %2$s of %3$s."
 
 #: lib/functions/layout.php:576
 msgid "Use `genesis_get_structural_wrap()` instead."
-msgstr ""
+msgstr "Gebruik `genesis_get_structural_wrap()` hier in plaats van."
 
 #: lib/functions/layout.php:573
 msgid "The default is true, so remove the third argument."
-msgstr ""
+msgstr "De standaard is true, dus verwijder je derde argument."
 
 #: lib/classes/class-genesis-admin-onboarding.php:32
 msgid "Genesis - Getting Started"
-msgstr ""
+msgstr "Genesis - Begin hier"
 
 #. translators: 1: Title of the page, 2: The error message.
 #: lib/functions/onboarding.php:540
 msgid "There was an error importing the %1$s page. Error: %2$s"
-msgstr ""
+msgstr "Er was een fout met het importeren van de %1$s pagina. Error: %2$s"
 
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:52
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:38
@@ -369,7 +369,7 @@ msgstr "Genesis auteur archief gegevens"
 #. translators: %s: Genesis theme version
 #: lib/admin/dashboard.php:26
 msgid " Using Genesis %s."
-msgstr "Gebruik Genesis %s."
+msgstr " Samen met Genesis %s."
 
 #. translators: 1: Version of PHP that Genesis requires, 2: The PHP version on
 #. this site
@@ -518,7 +518,7 @@ msgstr "Shortlink-tag opnemen?"
 
 #: config/customizer-seo-settings.php:150
 msgid "Adjacent Posts rel link tags"
-msgstr ""
+msgstr "Opvolgende berichten rel link tags"
 
 #: config/customizer-seo-settings.php:146
 msgid "By default, WordPress places several tags in your document title. Most of these tags are completely unnecessary, and provide no SEO value whatsoever; they just make your site slower to load. Choose which tags you would like included in your document title. If you do not know what something is, leave it unchecked."
@@ -579,11 +579,11 @@ msgstr "301 Doorverwijzing,"
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:54
 msgid "Top: after opening body tag"
-msgstr ""
+msgstr "Top: na het openen van de body tag"
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:53
 msgid "Bottom: before closing body tag"
-msgstr ""
+msgstr "Onderaan: voor het sluiten van de body tag"
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:49
 msgid "Body Scripts Position"
@@ -596,7 +596,7 @@ msgstr "Bodyscripts"
 #. translators: %s: Name of head tag.
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:30
 msgid "Output before the closing %s tag, after sitewide header scripts."
-msgstr ""
+msgstr "Output voor de sluitende %s tag, na de sitewide header scripts."
 
 #. translators: %s: Theme settings admin screen link.
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:32
@@ -665,7 +665,7 @@ msgstr " &mdash; Uitvoer in het document <title> Tag."
 #. translators: 1: Open anchor tag, 2: Close anchor tag.
 #: lib/views/help/genesis-blog.php:28
 msgid "You can find more on this feature in the %1$sHow to Add a Post Category Page tutorial.%2$s"
-msgstr ""
+msgstr "Je kunt meer vinden over deze feature in de %1$sHow to Add a Post Category Page tutorial.%2$s"
 
 #. Description of the theme
 msgid "The industry standard for Premium WordPress Themes."
@@ -1616,7 +1616,7 @@ msgstr "Genesis %s is beschikbaar voor %s"
 #: config/breadcrumbs.php:22
 #: lib/functions/deprecated.php:1285
 msgid "Home"
-msgstr "Home "
+msgstr "Home"
 
 #: lib/widgets/featured-post-widget.php:453
 #: lib/widgets/featured-post-widget.php:606
@@ -1748,7 +1748,7 @@ msgstr "Document Head Instellingen"
 
 #: lib/views/help/seo-homepage.php:15
 msgid "Homepage Settings"
-msgstr "Homepage Instellingen"
+msgstr "Homepagina Instellingen"
 
 #: lib/classes/class-genesis-admin-import-export.php:127
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:152
@@ -1850,7 +1850,7 @@ msgstr "De meeste Genesis subthema's bevatten een aangepaste homepagina."
 
 #: lib/views/help/genesis-home.php:15
 msgid "How Home Pages Work"
-msgstr "Hoe Home Pagina's Werken"
+msgstr "Hoe Homepagina's werken"
 
 #. translators: %s: Escaped HTML head and body tags.
 #: lib/views/help/genesis-scripts.php:19
@@ -1863,7 +1863,7 @@ msgstr "Blog Pagina"
 
 #: lib/views/help/genesis-archives.php:41
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
-msgstr ""
+msgstr "Entry paginatietechniek staat je toe één van de twee navigatie methodes te selecteren."
 
 #: lib/views/help/genesis-archives.php:38
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
@@ -1871,11 +1871,11 @@ msgstr "De 'Afbeeldingsgrootte'-lijst wordt samengesteld uit de beschikbare afbe
 
 #: lib/views/help/genesis-archives.php:35
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr ""
+msgstr "Deze optie zou niet moeten worden gebruikt met de entry content tenzij de content is beperkt om duplicate afbeeldingen te voorkomen."
 
 #: lib/views/help/genesis-archives.php:32
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
-msgstr ""
+msgstr "De 'Uitgelichte afbeelding toevoegen?' instelling staat je toe om een thumbnail van de eerst verbonden afbeelding of de ingesteld uitgelichte afbeelding te tonen."
 
 #: lib/views/help/genesis-archives.php:29
 msgid "The Display entry excerpt setting will display the first 55 words of the entry after also stripping any included HTML or the manual/custom excerpt added in the edit screen."
@@ -2024,17 +2024,17 @@ msgstr "Het <strong>scheidingsteken</strong> is het karakter dat tussen de titel
 #. translators: 1: Open strong tag, 2: Close strong tag.
 #: lib/views/help/seo-doctitle.php:31
 msgid "%1$sDoctitle Append Location%2$s determines which side of the title to add the previously mentioned items."
-msgstr ""
+msgstr "%1$sDoctitle Append Location%2$s bepaalt aan welke kant van de titel de hiervoor benoemde onderdelen toegevoegd worden. "
 
 #. translators: 1: Open strong tag, 2: Close strong tag.
 #: lib/views/help/seo-doctitle.php:25
 msgid "%1$sAppend Site Name%2$s will put the site name from the General Settings after the title on inner page."
-msgstr ""
+msgstr "%1$sAppend Site Name%2$s voegt de site naam bij Algemen Instellingen toe achter de titel van je content. "
 
 #. translators: 1: Open strong tag, 2: Close strong tag.
 #: lib/views/help/seo-doctitle.php:19
 msgid "%1$sAppend Site Description%2$s will insert the site description from your General Settings after the title on your home page."
-msgstr ""
+msgstr "%1$sAppend Site Description%2$s zal de site-omschrijving toevoegen van je Algemene Instellingen achter de titel op je homepagina."
 
 #: lib/views/help/seo-doctitle.php:15
 msgid "Doctitle Settings"
@@ -2316,7 +2316,7 @@ msgstr "Kruimelpad voor de Berichtenpagina"
 #: config/customizer-theme-settings.php:118
 #: config/customizer-theme-settings.php:127
 msgid "Breadcrumbs on Homepage"
-msgstr "Kruimelpad voor de Hoofdpagina"
+msgstr "Kruimelpad voor de hoofdpagina"
 
 #: config/customizer-theme-settings.php:96
 msgid "Site Layout"

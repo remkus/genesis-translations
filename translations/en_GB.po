@@ -7,102 +7,102 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
-"PO-Revision-Date: 2019-08-12 15:54:35+0000\n"
+"POT-Creation-Date: 2019-09-30T14:06:46+00:00\n"
+"PO-Revision-Date: 2019-09-30 14:02:40+0000\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
 
 #: lib/structure/footer.php:176
 msgid "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
-msgstr ""
+msgstr "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
 
 #: lib/structure/header.php:917
 msgid "Skip to main content"
-msgstr ""
+msgstr "Skip to main content"
 
 #: lib/structure/comments.php:176
 msgid "Trackbacks"
-msgstr ""
+msgstr "Trackbacks"
 
 #: lib/views/onboarding/starter-pack-summary.php:25
 msgid "Pack Details"
-msgstr ""
+msgstr "Pack Details"
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:109
 msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
-msgstr ""
+msgstr "Your starter pack installation is complete! View or edit your homepage using the buttons below."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:87
 msgid "Adding sample content to make your theme look like the chosen starter pack."
-msgstr ""
+msgstr "Adding sample content to make your theme look like the chosen starter pack."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:65
 msgid "Installing and activating plugins for your starter pack."
-msgstr ""
+msgstr "Installing and activating plugins for your starter pack."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:36
 msgid "None of your existing content will be lost. Find this page again at Genesis → Child Theme Setup."
-msgstr ""
+msgstr "None of your existing content will be lost. Find this page again at Genesis \t Child Theme Setup."
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:34
 msgid "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
-msgstr ""
+msgstr "Click on the images below to learn more about each Starter Pack and choose the pack that best suits your needs."
 
 #. translators: %s: Theme name
 #: lib/views/pages/genesis-admin-onboarding-packs.php:29
 msgid "%s offers a choice of starter packs. A starter pack is a bundle of content and/or plugins that will be automatically imported and set up for you."
-msgstr ""
+msgstr "%s offers a choice of starter packs. A starter pack is a bundle of content and/or plugins that will be automatically imported and set up for you."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:224
 msgid "View the %s starter pack demo (opens in new window)."
-msgstr ""
+msgstr "View the %s starter pack demo (opens in new window)."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:218
 msgid "Install the %s starter pack."
-msgstr ""
+msgstr "Install the %s starter pack."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:213
 msgid "Learn more about the %s starter pack."
-msgstr ""
+msgstr "Learn more about the %s starter pack."
 
 #: lib/functions/onboarding.php:201
 msgid "No Starter Packs found."
-msgstr ""
+msgstr "No Starter Packs found."
 
 #. translators: the post type label.
 #: lib/admin/customizer.php:181
 msgid "Show Featured Images on %s"
-msgstr ""
+msgstr "Show Featured Images on %s"
 
 #: lib/classes/class-genesis-admin-onboarding.php:33
 msgid "Child Theme Setup"
-msgstr ""
+msgstr "Child Theme Setup"
 
 #. translators: %s: Link to footer shortcodes documentation
 #: config/customizer-theme-settings.php:307
 msgid "The text that will appear in your site footer. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a>."
-msgstr ""
+msgstr "The text that will appear in your site footer. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">footer shortcodes</a>."
 
 #: config/customizer-theme-settings.php:302
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: config/customizer-theme-settings.php:225
 msgid "Modify the settings for individual entries such as posts and pages."
-msgstr ""
+msgstr "Modify the settings for individual entries such as posts and pages."
 
 #: config/customizer-theme-settings.php:224
 msgid "Singular Content"
-msgstr ""
+msgstr "Singular Content"
 
 #. translators: 1: Genesis version, 2: Changelog URI.
 #: lib/views/pages/genesis-admin-upgraded.php:32
 msgid "Congratulations for successfully updating to Genesis %1$s. We keep a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
-msgstr ""
+msgstr "Congratulations for successfully updating to Genesis %1$s. We keep a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">detailed changelog</a> for each release. Feel free to take a look!"
 
 #: lib/classes/class-genesis-menu-handler.php:87
 msgid "Menu"
@@ -140,7 +140,7 @@ msgstr "The following plugins will be automatically installed and activated with
 #. translators: %s: Path to local image file.
 #: lib/functions/onboarding.php:578
 msgid "Could not read the file: %s."
-msgstr ""
+msgstr "Could not read the file: %s."
 
 #: lib/functions/onboarding.php:127
 msgid "new window"

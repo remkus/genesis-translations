@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-08-22T19:11:24+00:00\n"
-"PO-Revision-Date: 2019-08-12 15:54:42+0000\n"
+"POT-Creation-Date: 2019-09-30T14:06:46+00:00\n"
+"PO-Revision-Date: 2019-09-30 14:03:25+0000\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: lib/structure/header.php:917
 msgid "Skip to main content"
-msgstr ""
+msgstr "Hyppää pääsisältöön"
 
 #: lib/structure/comments.php:176
 msgid "Trackbacks"
-msgstr ""
+msgstr "Paluuviitteet"
 
 #: lib/views/onboarding/starter-pack-summary.php:25
 msgid "Pack Details"
-msgstr ""
+msgstr "Paketin yksityiskohdat"
 
 #: lib/views/pages/genesis-admin-onboarding-packs.php:109
 msgid "Your starter pack installation is complete! View or edit your homepage using the buttons below."
@@ -62,25 +62,25 @@ msgstr ""
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:218
 msgid "Install the %s starter pack."
-msgstr ""
+msgstr "Asenna %s starttipaketti."
 
 #. translators: %s: Starter Pack name, such as “Small Business”
 #: lib/functions/onboarding.php:213
 msgid "Learn more about the %s starter pack."
-msgstr ""
+msgstr "Opiskele lisää %s starttipaketista."
 
 #: lib/functions/onboarding.php:201
 msgid "No Starter Packs found."
-msgstr ""
+msgstr "Starttipakettia ei löydetty."
 
 #. translators: the post type label.
 #: lib/admin/customizer.php:181
 msgid "Show Featured Images on %s"
-msgstr ""
+msgstr "Näytä artikkelikuvat %s"
 
 #: lib/classes/class-genesis-admin-onboarding.php:33
 msgid "Child Theme Setup"
-msgstr ""
+msgstr "Lapsiteeman asetus"
 
 #. translators: %s: Link to footer shortcodes documentation
 #: config/customizer-theme-settings.php:307
@@ -89,7 +89,7 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:302
 msgid "Footer"
-msgstr ""
+msgstr "Alatunniste"
 
 #: config/customizer-theme-settings.php:225
 msgid "Modify the settings for individual entries such as posts and pages."
@@ -97,7 +97,7 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:224
 msgid "Singular Content"
-msgstr ""
+msgstr "Yksittäinen sisältö"
 
 #. translators: 1: Genesis version, 2: Changelog URI.
 #: lib/views/pages/genesis-admin-upgraded.php:32
@@ -127,11 +127,11 @@ msgstr "Genesis suositukset"
 
 #: lib/views/pages/genesis-admin-onboarding.php:93
 msgid "This will change your default homepage."
-msgstr ""
+msgstr "Tämä muuttaa oletuksena olevan etusivusi."
 
 #: lib/views/pages/genesis-admin-onboarding.php:90
 msgid "Sample content for the theme will be added to make your theme look like the demo."
-msgstr ""
+msgstr "Tämän teeman esimerkki sisältö lisätään jotta se näyttää kuten demossa."
 
 #: lib/views/pages/genesis-admin-onboarding.php:65
 msgid "The following plugins will be automatically installed and activated with this theme (links open in new window):"
@@ -140,7 +140,7 @@ msgstr ""
 #. translators: %s: Path to local image file.
 #: lib/functions/onboarding.php:578
 msgid "Could not read the file: %s."
-msgstr ""
+msgstr "Tiedosto ei pystytty lukemaan: %s."
 
 #: lib/functions/onboarding.php:127
 msgid "new window"
@@ -148,7 +148,7 @@ msgstr "uusi ikkuna"
 
 #: lib/classes/class-genesis-cli-settings-command.php:95
 msgid "It appears something went wrong. Please check your command and try again."
-msgstr ""
+msgstr "Näyttää että jotakin meni pieleen. Tarkista toimenpide ja yritä uudelleen."
 
 #: lib/classes/class-genesis-cli-settings-command.php:91
 msgid "Setting saved."
@@ -161,7 +161,7 @@ msgstr "Genesis lisäosat"
 
 #: lib/views/pages/genesis-admin-onboarding.php:43
 msgid "Set up your website"
-msgstr ""
+msgstr "Asenna nettisivustosi"
 
 #: lib/views/pages/genesis-admin-onboarding.php:36
 msgid "Use the \"Set Up Your Website\" button to get started. None of your existing content will be lost."
@@ -176,7 +176,7 @@ msgstr ""
 #: lib/views/pages/genesis-admin-onboarding-packs.php:22
 #: lib/views/pages/genesis-admin-onboarding.php:25
 msgid "Get started with %s."
-msgstr ""
+msgstr "Aloita %s."
 
 #: lib/structure/sidebar.php:75
 msgid "Widgets Panel"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: lib/structure/post.php:784
 msgid "Use `genesis_get_author_box()` instead."
-msgstr ""
+msgstr "Käytä sen sijaan `genesis_get_author_box()`."
 
 #: lib/structure/post.php:781
 msgid "The default is true, so remove the second argument."
@@ -288,7 +288,7 @@ msgstr "suositellut lisäosat"
 
 #: lib/views/pages/genesis-admin-onboarding.php:44
 msgid "Or go to Theme Settings"
-msgstr ""
+msgstr "Tai mene teeman asetuksiin"
 
 #: lib/functions/upgrade.php:332
 msgid "update now"
@@ -307,7 +307,7 @@ msgstr "Genesis %1$s tarjolla. %2$s tai %3$s."
 
 #: lib/functions/layout.php:576
 msgid "Use `genesis_get_structural_wrap()` instead."
-msgstr ""
+msgstr "Käytä sen sijaan `genesis_get_structural_wrap()`."
 
 #: lib/functions/layout.php:573
 msgid "The default is true, so remove the third argument."
@@ -375,7 +375,7 @@ msgstr "kätetään Genesis %s."
 #. this site
 #: config/requirements.php:34
 msgid "Genesis requires PHP version %1$s or higher. You are using version %2$s. Please <a href=\"%3$s\">upgrade PHP</a> to use Genesis."
-msgstr ""
+msgstr "Genesis vaatii PHP version %1$s tai uudemman. Käytät versiota %2$s. Ole hyvä ja <a href=\"%3$s\">päivitä PHP</a> käyttääksesi Genesistä."
 
 #. translators: 1: Version of WordPress that Genesis requires, 2: The WordPress
 #. version on this site
@@ -444,7 +444,7 @@ msgstr "Toissijainen"
 
 #: lib/functions/markup.php:544
 msgid "Main"
-msgstr ""
+msgstr "Pää"
 
 #: config/customizer-theme-settings.php:317
 msgid "Header/Footer Scripts"
@@ -787,7 +787,7 @@ msgstr "Arkisto"
 #. translators: %s: URL for current website.
 #: 404.php:43
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "Sivu jota etsit ei ole enää olemassa. Voit ehkä palata takaisin <a href=\"%s\">homepage</a> and a katsoa jos löydät haluamasi sivun. Tai voit käyttää alla olevaa haku-kenttää."
 
 #: 404.php:36
 msgid "Not found, error 404"

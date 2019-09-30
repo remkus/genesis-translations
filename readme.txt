@@ -1,10 +1,10 @@
 === Genesis Translations ===
-Contributors: thememix, DeFries
+Contributors: DeFries
 Donate link: https://remkus.devries.frl/donate/
 Tags: genesis, translations,
 Requires at least: 4.3
-Tested up to: 5.2
-Stable tag: 2.10.1
+Tested up to: 5.3
+Stable tag: 3.0.0
 
 This plugin translates the Genesis Framework into one of the available languages.
 
@@ -64,6 +64,10 @@ Fantastic! Go ahead and register [here](https://translate.studiopress.com/ "here
 
 
 == Changelog ==
+
+= 3.0.0 = 
+* Implemented new way to build and generate standard po/mo files as well as JSON translation files for the JavaScript components. Huge props @modernnerd (Nick Cernis)
+* Updated various languages
 
 = 2.10.1 =
 * Fixing more incorrect translations creating printf warnings.
