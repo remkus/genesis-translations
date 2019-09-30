@@ -20,7 +20,7 @@
  * Defining Genesis Translation constants
  *
  */
-define( 'GENTRANS_VERSION', '2.10.1' );
+define( 'GENTRANS_VERSION', '3.0.0' );
 
 /**
  * The text domain for the plugin
