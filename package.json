@@ -17,7 +17,7 @@
 	},
 	"glotpress": {
 		"url": "https://translate.studiopress.com/global/",
-		"slug": "genesis/genesis-3.1",
+		"slug": "genesis-framework/genesis",
 		"textdomain": "genesis",
 		"fileFormat": "genesis-temp/lib/languages/%wpLocale%.%format%",
 		"formats": [
