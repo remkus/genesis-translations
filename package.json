@@ -13,11 +13,11 @@
 	"author": "ThemeMix",
 	"license": "GPL-2.0-or-later",
 	"genesisTranslations": {
-		"genesisBranchOrTag": "3.1.0"
+		"genesisBranchOrTag": "3.2.1"
 	},
 	"glotpress": {
 		"url": "https://translate.studiopress.com/global/",
-		"slug": "genesis/genesis-3.1",
+		"slug": "genesis-framework/genesis",
 		"textdomain": "genesis",
 		"fileFormat": "genesis-temp/lib/languages/%wpLocale%.%format%",
 		"formats": [
