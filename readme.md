@@ -52,6 +52,11 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 ##Changelog
 
+
+### 3.2.1 
+* Big update to various languages. 
+* Apologies for the non-SEMVER bump, but wanted to be in sync with Genesis version.
+
 ### 3.0.0  
 * Implemented new way to build and generate standard po/mo files as well as JSON translation files for the JavaScript components. Huge props @nickcernis
 * Updated various languages
