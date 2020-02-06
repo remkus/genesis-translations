@@ -1,85 +1,85 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesis - Genesis 3.2\n"
+"Project-Id-Version: Genesis Framework - Genesis 3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-01-24T15:57:54+00:00\n"
-"PO-Revision-Date: 2019-11-20 05:07:13+0000\n"
+"POT-Creation-Date: 2020-02-06T09:04:11+00:00\n"
+"PO-Revision-Date: 2020-01-24 15:56:19+0000\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
 
 #: lib/structure/post.php:1038
 msgid "<span class=\"screen-reader-text\">Go to</span> Next Page"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">Go to</span> Next Page"
 
 #: lib/structure/post.php:991
 #: lib/structure/post.php:1024
 msgid "Interim pages omitted"
-msgstr ""
+msgstr "Interim pages omitted"
 
 #: lib/structure/post.php:976
 msgid "<span class=\"screen-reader-text\">Go to</span> Previous Page"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">Go to</span> Previous Page"
 
 #: lib/structure/post.php:969
 msgid "Pagination"
-msgstr ""
+msgstr "Pagination"
 
 #: lib/structure/post.php:966
 msgid "Go to page"
-msgstr ""
+msgstr "Go to page"
 
 #: lib/classes/SEO/Open_Graph.php:79
 msgid "Select an image to use on social sites if no featured image is set."
-msgstr ""
+msgstr "Select an image to use on social sites if no featured image is set."
 
 #: lib/classes/SEO/Open_Graph.php:78
 msgid "Default Image"
-msgstr ""
+msgstr "Default Image"
 
 #. translators: %s: Link to post shortcodes documentation
 #: config/customizer-theme-settings.php:242
 msgid "The entry meta text that will appear below your entry content. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">post shortcodes</a>."
-msgstr ""
+msgstr "The entry meta text that will appear below your entry content. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">post shortcodes</a>."
 
 #: config/customizer-theme-settings.php:240
 msgid "Entry Meta (below content)"
-msgstr ""
+msgstr "Entry Meta (below content)"
 
 #. translators: %s: Link to post shortcodes documentation
 #: config/customizer-theme-settings.php:232
 msgid "The entry meta text that will appear above your entry content. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">post shortcodes</a>."
-msgstr ""
+msgstr "The entry meta text that will appear above your entry content. Can include <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">post shortcodes</a>."
 
 #: config/customizer-theme-settings.php:230
 msgid "Entry Meta (above content)"
-msgstr ""
+msgstr "Entry Meta (above content)"
 
 #: config/customizer-theme-settings.php:46
 msgid "If you provide an email address below, you will be notified via email when a new version of Genesis is available. Your email address is not sent to us."
-msgstr ""
+msgstr "If you provide an email address below, you will be notified via email when a new version of Genesis is available. Your email address is not sent to us."
 
 #. translators: %s: Link to privacy policy
 #: config/customizer-theme-settings.php:37
 msgid "By checking this box, you allow Genesis to periodically check for updates. Update requests send information about your site including software and theme data, as well as the site’s URL and locale. See the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">privacy policy</a>."
-msgstr ""
+msgstr "By checking this box, you allow Genesis to periodically check for updates. Update requests send information about your site including software and theme data, as well as the site’s URL and locale. See the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">privacy policy</a>."
 
 #: config/customizer-seo-settings.php:284
 msgid "Enable Open Graph"
-msgstr ""
+msgstr "Enable Open Graph"
 
 #: config/customizer-seo-settings.php:279
 msgid "Enable Open Graph to output tags that help social networks display images and page information when sharing your content."
-msgstr ""
+msgstr "Enable Open Graph to output tags that help social networks display images and page information when sharing your content."
 
 #: config/customizer-seo-settings.php:278
 msgid "Open Graph"
-msgstr ""
+msgstr "Open Graph"
 
 #: lib/structure/footer.php:209
 msgid "This filter is no longer supported. You can now modify your footer text using the Theme Settings."
@@ -2476,7 +2476,7 @@ msgstr "StudioPress"
 
 #. Theme URI of the theme
 msgid "https://my.studiopress.com/themes/genesis/"
-msgstr ""
+msgstr "https://my.studiopress.com/themes/genesis/"
 
 #. Theme Name of the theme
 #: lib/admin/site-health.php:31
