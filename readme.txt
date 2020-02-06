@@ -4,7 +4,7 @@ Donate link: https://remkus.devries.frl/donate/
 Tags: genesis, translations,
 Requires at least: 4.3
 Tested up to: 5.3.1
-Stable tag: 3.2.1
+Stable tag: 3.2.2
 
 This plugin translates the Genesis Framework into one of the available languages.
 
@@ -64,6 +64,9 @@ Fantastic! Go ahead and register [here](https://translate.studiopress.com/ "here
 
 
 == Changelog ==
+
+= 3.2.2 =
+* Translations updates
 
 = 3.2.1 =
 * Big update to various languages. 
