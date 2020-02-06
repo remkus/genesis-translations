@@ -3,8 +3,8 @@
 * Donate link: https://remkus.devries.frl/donate/
 * Tags: genesis, translations,
 * Requires at least: 4.3
-* Tested up to: 5.3
-* Stable tag: 3.0.0
+* Tested up to: 5.3.2
+* Stable tag: 3.2.2
 
 This plugin makes the available translations available the Genesis Framework into one of the available languages. 
 
@@ -52,6 +52,8 @@ Most likely you either have words hardcoded in your child theme's `functions.php
 
 ##Changelog
 
+### 3.2.2.
+* Translation updates
 
 ### 3.2.1 
 * Big update to various languages. 
