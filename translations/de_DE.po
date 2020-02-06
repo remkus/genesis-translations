@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesis - Genesis 3.2\n"
+"Project-Id-Version: Genesis Framework - Genesis 3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-01-24T15:57:55+00:00\n"
-"PO-Revision-Date: 2019-11-20 05:07:39+0000\n"
+"POT-Creation-Date: 2020-02-06T08:59:37+00:00\n"
+"PO-Revision-Date: 2020-01-24 15:56:27+0000\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.3.1\n"
 
 #: lib/structure/post.php:1038
 msgid "<span class=\"screen-reader-text\">Go to</span> Next Page"
-msgstr ""
+msgstr "Nächste Seite <span class=\"screen-reader-text\">aufrufen</span>"
 
 #: lib/structure/post.php:991
 #: lib/structure/post.php:1024
@@ -24,7 +24,7 @@ msgstr ""
 
 #: lib/structure/post.php:976
 msgid "<span class=\"screen-reader-text\">Go to</span> Previous Page"
-msgstr ""
+msgstr "Vorherige Seite <span class=\"screen-reader-text\">aufrufen</span>"
 
 #: lib/structure/post.php:969
 msgid "Pagination"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: lib/structure/header.php:918
 msgid "Skip to main content"
-msgstr ""
+msgstr "Zum Inhalt springen"
 
 #: lib/structure/comments.php:176
 msgid "Trackbacks"
@@ -174,12 +174,12 @@ msgstr ""
 
 #: lib/classes/class-genesis-menu-handler.php:87
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: lib/classes/class-genesis-amp-menu.php:404
 #: lib/classes/class-genesis-menu-handler.php:90
 msgid "Submenu"
-msgstr ""
+msgstr "Submenü"
 
 #: lib/admin/site-health.php:98
 msgid "This theme uses theme supports that are no longer required in Genesis 3.0+: "
@@ -212,7 +212,7 @@ msgstr ""
 
 #: lib/functions/onboarding.php:127
 msgid "new window"
-msgstr ""
+msgstr "Neues Fenster"
 
 #: lib/classes/class-genesis-cli-settings-command.php:95
 msgid "It appears something went wrong. Please check your command and try again."
@@ -404,11 +404,11 @@ msgstr ""
 
 #: lib/structure/post.php:1093
 msgid "Next Post:"
-msgstr "Nächster Post:"
+msgstr "Nächster Beitrag:"
 
 #: lib/structure/post.php:1080
 msgid "Previous Post:"
-msgstr "Vorheriger Post:"
+msgstr "Vorheriger Beitrag:"
 
 #: lib/classes/class-genesis-search-form.php:48
 msgid "Search site"
@@ -847,7 +847,7 @@ msgstr "Archiv"
 #. translators: %s: URL for current website.
 #: 404.php:43
 msgid "The page you are looking for no longer exists. Perhaps you can return back to the <a href=\"%s\">homepage</a> and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
-msgstr ""
+msgstr "Die gesuchte Seite existiert nicht mehr. Möglicherweise lassen sich die gesuchten Inhalte über die <a href=\"%s\">Startseite</a> finden oder mithilfe der Suchmöglichkeit unterhalb."
 
 #: 404.php:36
 msgid "Not found, error 404"
@@ -1181,12 +1181,12 @@ msgstr "Es gab ein Problem beim Importieren Deiner Einstellungen. Bitte versuche
 #: lib/functions/markup.php:1018
 #: lib/functions/widgetize.php:157
 msgid "Secondary Sidebar"
-msgstr "Zweit-Sidebar (Secondary)"
+msgstr "Zweite Seitenspalte"
 
 #: lib/functions/markup.php:998
 #: lib/functions/widgetize.php:146
 msgid "Primary Sidebar"
-msgstr "Haupt-Sidebar (Primary)"
+msgstr "Seitenspalte"
 
 #: lib/functions/widgetize.php:135
 msgid "Header Right"
@@ -2074,7 +2074,7 @@ msgstr "Um eigenen Text zu verwenden, musst Du entweder eine PHP-Datei anpassen,
 
 #: lib/views/help/seo-homepage.php:20
 msgid "You can also specify if the Site Title, Description, or your own custom text should be wrapped in an <h1>; tag (the primary heading in HTML)."
-msgstr ""
+msgstr "Du kannst ebenso angeben, ob der Webseiten-Titel/ -Name, die Beschreibung, oder Dein eigener Text in <h1> Tags ausgegeben wird (Überschrift der höchsten Ebene in HTML)."
 
 #: lib/views/help/seo-homepage.php:17
 msgid "These are the homepage specific SEO settings. Note: these settings will not apply if a static page is set as the front page. If you're using a static WordPress page as your hompage, you'll need to set the SEO settings on that particular page."
@@ -2516,11 +2516,11 @@ msgstr "Zur Fußzeile springen"
 
 #: lib/structure/header.php:925
 msgid "Skip to secondary sidebar"
-msgstr "Zur Zweit-Sidebar springen"
+msgstr "Zur zweiten Seitenspalte springen"
 
 #: lib/structure/header.php:921
 msgid "Skip to primary sidebar"
-msgstr "Zur Haupt-Sidebar springen"
+msgstr "Zur Seitenspalte springen"
 
 #: lib/structure/header.php:915
 msgid "Skip to primary navigation"

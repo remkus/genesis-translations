@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesis - Genesis 3.2\n"
+"Project-Id-Version: Genesis Framework - Genesis 3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-01-24T15:57:54+00:00\n"
-"PO-Revision-Date: 2019-11-20 05:08:39+0000\n"
-"Language: sr_RS\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: 2020-02-06T08:59:37+00:00\n"
+"PO-Revision-Date: 2019-11-20 05:09:17+0000\n"
+"Language: cy_GB\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 "X-Generator: GlotPress/2.3.1\n"
 
 #: lib/structure/post.php:1038
@@ -244,7 +244,7 @@ msgstr ""
 #: lib/views/pages/genesis-admin-onboarding-packs.php:22
 #: lib/views/pages/genesis-admin-onboarding.php:25
 msgid "Get started with %s."
-msgstr "Започните са  %s."
+msgstr ""
 
 #: lib/structure/sidebar.php:75
 msgid "Widgets Panel"
@@ -394,129 +394,129 @@ msgstr ""
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:38
 #: lib/views/meta-boxes/genesis-user-seo.php:39
 msgid "A comma-separated list of keywords relevant to the page can be entered in the Meta Keywords field. Keywords are generally ignored by Search Engines."
-msgstr "Зарезом одвојена листа кључних речи релевантних за страницу може бити унета у \"Мета кључне речи\" поље. Кључне речи углавном су игнорисане од стране Претраживача."
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:38
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:30
 #: lib/views/meta-boxes/genesis-user-seo.php:31
 msgid "Text entered in the Meta Description field is used as the short page description under the title on search engine results pages."
-msgstr "Текст унет у поље \"Мета опис\" користи се као кратак опис стране испод наслова на странама са резултатима претраге."
+msgstr ""
 
 #: lib/structure/post.php:1093
 msgid "Next Post:"
-msgstr "Следећа објава:"
+msgstr ""
 
 #: lib/structure/post.php:1080
 msgid "Previous Post:"
-msgstr "Претходна објава:"
+msgstr ""
 
 #: lib/classes/class-genesis-search-form.php:48
 msgid "Search site"
-msgstr "Претражите сајт"
+msgstr ""
 
 #: lib/admin/privacy-requests.php:105
 msgid "Update Notification Email Address removed."
-msgstr "Адреса Е-поште за обавештавање о ажурирању је уклоњена."
+msgstr ""
 
 #. translators: %s: One of Custom Archive Headline, Custom Description Text,
 #. Custom Document Title, Meta Description, Meta Keywords
 #: lib/admin/privacy-requests.php:77
 msgid "Your %s data was unable to be removed at this time."
-msgstr "Ваши %s подаци не могу бити уклоњени у овом тренутку."
+msgstr ""
 
 #: lib/admin/privacy-requests.php:31
 msgid "Update Notification Email Address"
-msgstr "Адреса Е-поште за обавештавање о ажурирању"
+msgstr ""
 
 #: lib/admin/privacy-requests.php:26
 #: lib/admin/privacy-requests.php:124
 #: lib/admin/privacy-requests.php:171
 msgid "Genesis Author Archive Data"
-msgstr "Genesis архива ауторских података."
+msgstr ""
 
 #. translators: %s: Genesis theme version
 #: lib/admin/dashboard.php:26
 msgid " Using Genesis %s."
-msgstr "Користите Genesis %s."
+msgstr ""
 
 #. translators: 1: Version of PHP that Genesis requires, 2: The PHP version on
 #. this site
 #: config/requirements.php:34
 msgid "Genesis requires PHP version %1$s or higher. You are using version %2$s. Please <a href=\"%3$s\">upgrade PHP</a> to use Genesis."
-msgstr "Genesis захтева PHP верзију %1$s или већу. Ви користите верзију %2$s. Молимо Вас да <a href=\"%3$s\">надоградите PHP</a> како бисте користили Genesis."
+msgstr ""
 
 #. translators: 1: Version of WordPress that Genesis requires, 2: The WordPress
 #. version on this site
 #: config/requirements.php:27
 msgid "Genesis requires WordPress version %1$s or higher. You are using version %2$s. Please upgrade WordPress to use Genesis."
-msgstr "Genesis захтева Вордпрес верзију %1$s или већу. Ви користите верзију %2$s. Молимо Вас да надоградите Вордрес да бисте користили Genesis."
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:46
 msgid "Can Genesis be better? "
-msgstr "Да ли Genesis може бити бољи?"
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:42
 msgid "Genesis Can Be Better"
-msgstr "Genesis може бити бољи"
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:32
 msgid "Is this the best Genesis ever? "
-msgstr "Да ли је ово најбољи Genesis икада?"
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:28
 msgid "Best Genesis Title"
-msgstr "Најбољи Genesis наслов"
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:22
 msgid "Genesis is the best."
-msgstr "Genesis је најбољи."
+msgstr ""
 
 #: tests/fixtures/config-array-for-customizer-tests.php:21
 msgid "Genesis is the best"
-msgstr "Genesis је најбољи."
+msgstr ""
 
 #: tests/System/lib/admin/customizer.php:189
 #: tests/System/lib/admin/customizer.php:230
 msgid "Genesis Custom"
-msgstr "Genesis обичај"
+msgstr ""
 
 #: tests/System/lib/admin/customizer.php:188
 #: tests/System/lib/admin/customizer.php:229
 msgid "Genesis Blue"
-msgstr "Genesis плаво"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:466
 msgid "Date Modified"
-msgstr "Датум модификације"
+msgstr ""
 
 #: lib/widgets/featured-post-widget.php:465
 msgid "Date Published"
-msgstr "Датум објављивања"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-adsense-box.php:25
 msgid "Disable AdSense output for this entry?"
-msgstr "Онемогућити AdSense излаз за овај унос?"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-adsense-box.php:20
 msgid "AdSense Output"
-msgstr "AdSense излаз"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:33
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:26
 msgid "Your child theme uses accessible headings. If you leave this blank, the default accessible heading will be used."
-msgstr "Ваша тема-дете користи приступачне наслове. Ако ово оставите празно, унапред одређени приступачни наслов ће бити употребљен."
+msgstr ""
 
 #: lib/functions/markup.php:564
 msgid "Secondary"
-msgstr "Секундарни"
+msgstr ""
 
 #: lib/functions/markup.php:547
 msgid "Main"
-msgstr "Главни"
+msgstr ""
 
 #: config/customizer-theme-settings.php:339
 msgid "Header/Footer Scripts"
-msgstr "Скрипте Заглавља/Подножја"
+msgstr ""
 
 #: config/customizer-theme-settings.php:114
 msgid "Select the pages which should display breadcrumbs."
@@ -524,57 +524,57 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:101
 msgid "Select Site Layout"
-msgstr "Изаберите распоред локације"
+msgstr ""
 
 #: config/customizer-theme-settings.php:45
 #: config/customizer-theme-settings.php:50
 msgid "Email Address"
-msgstr "Адреса Е-поште"
+msgstr ""
 
 #: config/customizer-theme-settings.php:24
 msgid "Customize the various theme settings."
-msgstr "Прилагодити различита подешавања везана за тему."
+msgstr ""
 
 #: config/customizer-seo-settings.php:228
 msgid "Entire Site"
-msgstr "Цела локација"
+msgstr ""
 
 #: config/customizer-seo-settings.php:224
 msgid "Apply noarchive to the pages below."
-msgstr "Примени noarchive на странице испод."
+msgstr ""
 
 #: config/customizer-seo-settings.php:213
 #: config/customizer-seo-settings.php:268
 msgid "Search Results"
-msgstr "Резултати претраге"
+msgstr ""
 
 #: config/customizer-seo-settings.php:205
 #: config/customizer-seo-settings.php:260
 msgid "Date Archives"
-msgstr "Датум архива"
+msgstr ""
 
 #: config/customizer-seo-settings.php:197
 #: config/customizer-seo-settings.php:252
 msgid "Author Archives"
-msgstr "Аутор архива"
+msgstr ""
 
 #: config/customizer-seo-settings.php:189
 #: config/customizer-seo-settings.php:244
 msgid "Tag Archives"
-msgstr "Архиве тагова"
+msgstr ""
 
 #: config/customizer-seo-settings.php:181
 #: config/customizer-seo-settings.php:236
 msgid "Category Archives"
-msgstr "Архиве категорија"
+msgstr ""
 
 #: config/customizer-seo-settings.php:177
 msgid "Apply noindex to the archive pages below."
-msgstr "Примени noindex на странице архиве испод. "
+msgstr ""
 
 #: config/customizer-seo-settings.php:166
 msgid "Include Shortlink Tag?"
-msgstr "Укључи таг скраћеног линка?"
+msgstr ""
 
 #: config/customizer-seo-settings.php:150
 msgid "Adjacent Posts rel link tags"
@@ -590,68 +590,68 @@ msgstr ""
 
 #: config/customizer-seo-settings.php:135
 msgid "Apply noarchive to the homepage"
-msgstr "Примени noarchive на почетну страну"
+msgstr ""
 
 #: config/customizer-seo-settings.php:127
 msgid "Apply nofollow to the homepage"
-msgstr "Примени nofollow на почетну страну"
+msgstr ""
 
 #: config/customizer-seo-settings.php:119
 msgid "Apply noindex to the homepage"
-msgstr "Примени noindex на почетну страну"
+msgstr ""
 
 #: config/customizer-seo-settings.php:93
 msgid "Add site description (tagline) to document title on home page? "
-msgstr "Додај опис сајта(кратки опис) у наслов документа на почетној страни?"
+msgstr ""
 
 #: config/customizer-seo-settings.php:85
 msgid "If you leave the document title field blank, your site’s title will be used instead."
-msgstr "Ако оставиш празно поље за наслов документа, уместо тога биће коришћен наслов твог сајта."
+msgstr ""
 
 #: config/customizer-seo-settings.php:84
 msgid "Homepage Document Title"
-msgstr "Наслов документа почетне стране"
+msgstr ""
 
 #: config/customizer-seo-settings.php:76
 msgid "Site Description (tagline)"
-msgstr "Опис сајта (кратки опис)"
+msgstr ""
 
 #: config/customizer-seo-settings.php:71
 msgid "Primary Title H1"
-msgstr "Примарни наслов H1"
+msgstr ""
 
 #: config/customizer-seo-settings.php:35
 msgid "Add site name to document title on inner pages? "
-msgstr "Додај име сајта у наслов документа на унутрашњим страницама?"
+msgstr ""
 
 #: config/customizer-seo-settings.php:25
 msgid "Customize the various theme SEO settings."
-msgstr "Прилагодити различита SEO подешавања везана за тему."
+msgstr ""
 
 #. translators: %s: URL to studiopress.com.
 #: lib/views/misc/use-child-theme-notice.php:21
 msgid "For more information, see our article at %s"
-msgstr "За више информација погледајте наш чланак у %s"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
 msgid "301 Redirect."
-msgstr "301 преусмеравање."
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:54
 msgid "Top: after opening body tag"
-msgstr "Врх: после отварања body тага"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:53
 msgid "Bottom: before closing body tag"
-msgstr "Дно: пре затварања body тага"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:49
 msgid "Body Scripts Position"
-msgstr "Позиција скрипти тела документа"
+msgstr ""
 
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:38
 msgid "Body Scripts"
-msgstr "Скрипте тела документа"
+msgstr ""
 
 #. translators: %s: Name of head tag.
 #: lib/views/meta-boxes/genesis-inpost-scripts-box.php:30
@@ -684,11 +684,11 @@ msgstr ""
 
 #: lib/views/help/genesis-inpost-seo.php:56
 msgid "Apply noarchive to this post/page"
-msgstr "Примени noarchive на овај пост/страницу"
+msgstr ""
 
 #: lib/views/help/genesis-inpost-seo.php:49
 msgid "Apply nofollow to this post/page"
-msgstr "Примени nofollow на овај пост/страницу"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:45
@@ -698,7 +698,7 @@ msgstr ""
 
 #: lib/views/help/genesis-inpost-seo.php:42
 msgid "Apply noindex to this post/page"
-msgstr "Примени noindex на овај пост/страницу"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:38
@@ -733,7 +733,7 @@ msgstr ""
 
 #: lib/functions/toolbar.php:41
 msgid "Edit Archive Settings"
-msgstr "Уреди подешавања архиве"
+msgstr ""
 
 #: lib/views/misc/use-child-theme-notice.php:18
 msgid "We've noticed you are using the Genesis Framework parent theme alone. We strongly recommend you run a Genesis child theme with it (we even have a free theme you can use). "
@@ -745,35 +745,35 @@ msgstr ""
 
 #: config/customizer-theme-settings.php:35
 msgid "Check For Updates"
-msgstr "Провери ажурирања"
+msgstr ""
 
 #: lib/views/help/genesis-information.php:26
 msgid "If you provide an email address, your site will email you when the update can be performed."
-msgstr "Ако унесеш email адресу, твој сајт ће ти послати email када ажурирање може бити изведено."
+msgstr ""
 
 #: lib/classes/class-genesis-admin.php:147
 msgid "Save Changes"
-msgstr "Сачувај измене"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:59
 msgid "Read more about noarchive"
-msgstr "Прочитај више о noarchive"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:52
 msgid "Read more about nofollow"
-msgstr "Прочитај више о nofollow"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:45
 msgid "Read more about noindex"
-msgstr "Прочитај више о noindex"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:38
 msgid "Read more about 301 Redirects"
-msgstr "Прочитај више о 301 преусмеравањима"
+msgstr ""
 
 #. translators: %s: Reference link.
 #: lib/views/help/genesis-inpost-seo.php:31
@@ -786,11 +786,11 @@ msgstr ""
 
 #: lib/widgets/featured-post-widget.php:485
 msgid "Exclude Previously Displayed Posts?"
-msgstr "Искључи претходно приказане објаве?"
+msgstr ""
 
 #: lib/structure/post.php:606
 msgid "Sorry, no content matched your criteria."
-msgstr "Извините, нема садржаја који одговара вашем критеријуму."
+msgstr ""
 
 #: lib/classes/class-genesis-script-loader.php:279
 msgid "Updating Genesis will overwrite the current installed version of Genesis. Are you sure you want to update?. \"Cancel\" to stop, \"OK\" to update."
@@ -798,11 +798,11 @@ msgstr ""
 
 #: lib/classes/class-genesis-script-loader.php:278
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "Измене које сте направили биће изгубљене уколико напустите ову страницу."
+msgstr ""
 
 #: lib/functions/deprecated.php:1439
 msgid "decimal or hexidecimal entities"
-msgstr "децимални или хексадецимални ентитети"
+msgstr ""
 
 #: lib/admin/inpost-metaboxes.php:138
 msgid "Scripts"
@@ -828,7 +828,7 @@ msgstr ""
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:35
 #: lib/views/meta-boxes/genesis-user-seo.php:36
 msgid "Meta Keywords"
-msgstr "Мета кључне речи"
+msgstr ""
 
 #: config/customizer-seo-settings.php:101
 #: lib/admin/privacy-requests.php:195
@@ -838,11 +838,11 @@ msgstr "Мета кључне речи"
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:27
 #: lib/views/meta-boxes/genesis-user-seo.php:28
 msgid "Meta Description"
-msgstr "Мета опис"
+msgstr ""
 
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:69
 msgid "Archive"
-msgstr "Архива"
+msgstr ""
 
 #. translators: %s: URL for current website.
 #: 404.php:43
@@ -851,154 +851,154 @@ msgstr ""
 
 #: 404.php:36
 msgid "Not found, error 404"
-msgstr "Није пронађено, грешка 404"
+msgstr ""
 
 #: search.php:22
 msgid "Search Results for:"
-msgstr ""
+msgstr "Chwilio Canlyniadau ar gyfer: "
 
 #: lib/classes/class-genesis-contributor.php:120
 msgid "Contributor"
-msgstr "Сарадник"
+msgstr "Cyfrannwr "
 
 #: lib/classes/class-genesis-contributor.php:121
 msgid "Lead Developer"
-msgstr ""
+msgstr "Datblygwr Arweiniol "
 
 #: config/customizer-seo-settings.php:67
 msgid "Homepage"
-msgstr ""
+msgstr "y dudalen hafan "
 
 #: lib/views/help/genesis-navigation.php:15
 msgid "Navigation"
-msgstr ""
+msgstr "Llywio"
 
 #: config/customizer-theme-settings.php:61
 #: lib/views/help/genesis-header.php:15
 msgid "Header"
-msgstr ""
+msgstr "Pennawd "
 
 #: config/customizer-seo-settings.php:102
 msgid "The meta description can be used to determine the text used under the title on search engine results pages."
-msgstr ""
+msgstr "Gellir defnyddio'r disgrifiad meta i bennu'r testun a ddefnyddir o dan y teitl ar dudalennau canlyniadau'r peiriant chwilio. "
 
 #: config/customizer-seo-settings.php:44
 msgid "If the title consists of two parts (original title and optional addition), then the separator will go in between them."
-msgstr ""
+msgstr "Os yw'r teitl yn cynnwys dwy ran (y teitl gwreiddiol a'r ychwanegiad opsiynol), bydd y gwahanydd yn mynd rhyngddyn nhw. "
 
 #: config/customizer-seo-settings.php:43
 msgid "Document Title Separator"
-msgstr ""
+msgstr "Gwahanwr Teitlau Dogfennau: "
 
 #: config/customizer-seo-settings.php:53
 msgid "Determines which side the added title text will go on."
-msgstr ""
+msgstr "Yn pennu ar ba ochr y bydd testun y teitl yn mynd. "
 
 #: lib/widgets/user-profile-widget.php:43
 msgid "Read More"
-msgstr ""
+msgstr "Darllen mwy "
 
 #: searchform.php:29
 msgid "Search this website"
-msgstr ""
+msgstr "Chwilio'r wefan hon"
 
 #: lib/structure/loops.php:248
 msgid "Read more"
-msgstr ""
+msgstr "Darllen mwy "
 
 #: lib/views/pages/genesis-admin-upgraded.php:44
 msgid "Go to SEO Settings &rarr;"
-msgstr ""
+msgstr "Ewch i Osodiadau SEO &rarr; "
 
 #: lib/views/pages/genesis-admin-upgraded.php:42
 msgid "Go to Theme Settings &rarr;"
-msgstr ""
+msgstr "Ewch i Osodiadau Thema &rarr; "
 
 #. translators: %s: Genesis version.
 #: lib/classes/class-genesis-admin-upgraded.php:37
 msgid "Welcome to Genesis %s"
-msgstr ""
+msgstr "Croeso i Genesis %s"
 
 #: config/customizer-theme-settings.php:65
 msgid "Use for site title/logo:"
-msgstr ""
+msgstr "Defnyddiwch ar gyfer teitl/logo'r wefan: "
 
 #: config/customizer-theme-settings.php:333
 #: lib/admin/install.php:56
 #: lib/classes/Upgrade/Upgrade_DB_3100.php:56
 #: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
 msgid "on"
-msgstr ""
+msgstr "ar "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:54
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:46
 msgid "Leave empty if you do not want to display any intro text."
-msgstr ""
+msgstr "Gadewch hyn yn wag os nad ydych am ddangos testun cyflwyniad. "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:43
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:35
 msgid "Archive Intro Text"
-msgstr ""
+msgstr "Testun Cyflwyniad Archif "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:35
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:28
 msgid "Leave empty if you do not want to display a headline."
-msgstr ""
+msgstr "Gadewch hyn yn wag os nad ydych am ddangos pennawd. "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-settings.php:27
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:20
 msgid "Archive Headline"
-msgstr ""
+msgstr "Pennawd Archif "
 
 #: lib/classes/class-genesis-admin.php:151
 msgid "Error saving settings."
-msgstr ""
+msgstr "Gwall wrth gadw'r gosodiadau. "
 
 #: lib/widgets/user-profile-widget.php:202
 msgid "Custom Text Content"
-msgstr ""
+msgstr "Cynnwys Testun i'w Addasu "
 
 #: lib/init.php:132
 msgid "Secondary Navigation Menu"
-msgstr ""
+msgstr "Dewislen Lywio Eilaidd "
 
 #: lib/functions/widgetize.php:135
 msgid "Header Left"
-msgstr ""
+msgstr "Penynnau Chwith "
 
 #: lib/widgets/user-profile-widget.php:221
 msgid "Extended page link text"
-msgstr ""
+msgstr "Testun dolen tudalen estynedig "
 
 #. translators: %d: Footer widget counter.
 #: lib/functions/widgetize.php:193
 msgid "Footer %d widget area."
-msgstr ""
+msgstr "Man dyfeisiau %d troedynnau. "
 
 #: lib/functions/widgetize.php:158
 msgid "This is the secondary sidebar if you are using a three column site layout option."
-msgstr ""
+msgstr "Dyma'r bar ochr eilaidd os ydych chi'n defnyddio opsiwn cynllun gwefan tair colofn. "
 
 #: lib/functions/widgetize.php:147
 msgid "This is the primary sidebar if you are using a two or three column site layout option."
-msgstr ""
+msgstr "Dyma'r prif far ochr os ydych chi'n defnyddio opsiwn cynllun gwefan dwy neu dair colofn. "
 
 #: lib/functions/deprecated.php:1252
 msgid "The argument, \"context\", has been replaced with \"theme_location\" in the $args array."
-msgstr ""
+msgstr "Mae'r ddadl, \"cyd-destun\", wedi'i disodli gan \"leoliad_thema\" yn yr aräe $args. "
 
 #. translators: %s: Genesis_Admin class name.
 #: lib/classes/class-genesis-admin.php:161
 msgid "You cannot use %s to create two menus in the same subclass. Please use separate subclasses for each menu."
-msgstr ""
+msgstr "Ni allwch ddefnyddio %s i greu dwy ddewislen yn yr un isddosbarth. Defnyddiwch isddosbarthiadau gwahanol ar gyfer pob dewislen. "
 
 #: lib/views/meta-boxes/genesis-user-author.php:15
 msgid "Author Archive Settings"
-msgstr ""
+msgstr "Gosodiadau Archif Awdur "
 
 #: lib/views/meta-boxes/genesis-user-settings.php:15
 msgid "User Permissions"
-msgstr ""
+msgstr "Caniatâd Defnyddwyr "
 
 #. translators: %s: </element>
 #: config/customizer-theme-settings.php:345
@@ -1013,7 +1013,7 @@ msgstr ""
 #: lib/views/help/cpt-archive-archive.php:15
 #: lib/views/meta-boxes/genesis-term-meta-settings.php:16
 msgid "Archive Settings"
-msgstr ""
+msgstr "Gosodiadau Archifau "
 
 #: lib/admin/inpost-metaboxes.php:229
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:156
@@ -1024,284 +1024,291 @@ msgstr ""
 #: lib/views/meta-boxes/genesis-term-meta-layout.php:15
 #: lib/views/meta-boxes/genesis-user-layout.php:17
 msgid "Layout Settings"
-msgstr ""
+msgstr "Gosodiadau'r Cynllun "
 
 #: config/customizer-seo-settings.php:24
 #: lib/admin/inpost-metaboxes.php:33
 #: lib/admin/inpost-metaboxes.php:63
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:15
 msgid "Theme SEO Settings"
-msgstr ""
+msgstr "Gosodiadau SEO Thema "
 
 #: lib/functions/formatting.php:397
 msgctxt "separator in time difference"
 msgid "and"
-msgstr ""
+msgstr "a "
 
 #. translators: %s: Number of second(s).
 #: lib/functions/formatting.php:362
 msgctxt "time difference"
 msgid "%s second"
 msgid_plural "%s seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s eiliad"
+msgstr[1] "%s eiliad"
+msgstr[2] "%s eiliad"
+msgstr[3] "%s eiliad"
 
 #. translators: %s: Number of minute(s).
 #: lib/functions/formatting.php:360
 msgctxt "time difference"
 msgid "%s minute"
 msgid_plural "%s minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s munud "
+msgstr[1] "%s munud "
+msgstr[2] "%s munud "
+msgstr[3] "%s munud "
 
 #. translators: %s: Number of hour(s).
 #: lib/functions/formatting.php:358
 msgctxt "time difference"
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s awr"
+msgstr[1] "%s awr"
+msgstr[2] "%s awr"
+msgstr[3] "%s awr"
 
 #. translators: %s: Number of day(s).
 #: lib/functions/formatting.php:356
 msgctxt "time difference"
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s dydd"
+msgstr[1] "%s dydd"
+msgstr[2] "%s dydd"
+msgstr[3] "%s dydd"
 
 #. translators: %s: Number of week(s).
 #: lib/functions/formatting.php:354
 msgctxt "time difference"
 msgid "%s week"
 msgid_plural "%s weeks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s wythnos"
+msgstr[1] "%s wythnos"
+msgstr[2] "%s wythnos"
+msgstr[3] "%s wythnos"
 
 #. translators: %s: Number of month(s).
 #: lib/functions/formatting.php:352
 msgctxt "time difference"
 msgid "%s month"
 msgid_plural "%s months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s mis "
+msgstr[1] "%s mis "
+msgstr[2] "%s mis "
+msgstr[3] "%s mis "
 
 #. translators: %s: Number of year(s).
 #: lib/functions/formatting.php:350
 msgctxt "time difference"
 msgid "%s year"
 msgid_plural "%s years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s blwyddyn "
+msgstr[1] "%s blwyddyn "
+msgstr[2] "%s blwyddyn "
+msgstr[3] "%s blwyddyn "
 
 #: lib/functions/formatting.php:344
 msgctxt "time difference"
 msgid "seconds"
-msgstr ""
+msgstr "eiliadau "
 
 #: lib/views/help/genesis-scripts.php:15
 msgid "Header and Footer Scripts"
-msgstr ""
+msgstr "Sgriptiau Penynnau a Throedynnau "
 
 #: config/customizer-theme-settings.php:187
 #: lib/views/help/genesis-comments.php:15
 msgid "Comments and Trackbacks"
-msgstr ""
+msgstr "Sylwadau ac Olrhain "
 
 #: lib/views/help/genesis-layout.php:15
 #: lib/js/build/layout-toggle.js:10
 #: lib/js/editor/layout-toggle.js:38
 msgid "Default Layout"
-msgstr ""
+msgstr "Cynllun Rhagosodedig "
 
 #: config/customizer-seo-settings.php:111
 msgid "Keywords are generally ignored by Search Engines."
-msgstr ""
+msgstr "Geiriau allweddol a anwybyddir yn gyffredinol gan beiriannau chwilio. "
 
 #: lib/classes/class-genesis-admin.php:149
 msgid "Settings saved."
-msgstr ""
+msgstr "Gosodiadau wedi'u cadw. "
 
 #: lib/classes/class-genesis-admin.php:150
 msgid "Settings reset."
-msgstr ""
+msgstr "Gosodiadau wedi'u hailosod. "
 
 #: lib/classes/class-genesis-admin-import-export.php:101
 msgid "Settings successfully imported."
-msgstr ""
+msgstr "Gosodiadau wedi'u mewnforio'n llwyddiannus. "
 
 #: lib/views/pages/genesis-admin-import-export.php:43
 msgid "Upload File and Import"
-msgstr ""
+msgstr "Llwytho Ffeil i Fyny a'i Mewnforio "
 
 #: lib/views/pages/genesis-admin-import-export.php:30
 msgid "Choose the file from your computer and click \"Upload file and Import\""
-msgstr ""
+msgstr "Dewis y ffeil o'ch cyfrifiadur a chliciwch ar \"Llwytho Ffeil i Fyny a'i Mewnforio\" "
 
 #: lib/admin/customizer.php:94
 msgid "Default"
-msgstr ""
+msgstr "Rhagosodiad "
 
 #: lib/structure/post.php:886
 #: lib/structure/post.php:1039
 msgid "Next Page"
-msgstr ""
+msgstr "Tudalen Nesaf "
 
 #: lib/structure/post.php:885
 #: lib/structure/post.php:977
 msgid "Previous Page"
-msgstr ""
+msgstr "Tudalen Flaenorol "
 
 #: lib/shortcodes/post.php:45
 #: lib/shortcodes/post.php:121
 msgid "ago"
-msgstr ""
+msgstr "yn ôl "
 
 #: lib/classes/class-genesis-script-loader.php:277
 msgid "Select / Deselect All"
-msgstr ""
+msgstr "Dewis/Dad-ddewis Pob Un "
 
 #: lib/classes/class-genesis-admin-import-export.php:149
 msgid "No export options available."
-msgstr ""
+msgstr "Dim opsiynau allforio ar gael. "
 
 #. translators: %d: Footer widget counter.
 #: lib/functions/widgetize.php:191
 msgid "Footer %d"
-msgstr ""
+msgstr "Troedyn %d "
 
 #: lib/functions/layout.php:80
 msgid "No Label Selected"
-msgstr ""
+msgstr "Dim Label wedi'i Ddewis "
 
 #: lib/classes/class-genesis-admin-import-export.php:103
 msgid "There was a problem importing your settings. Please try again."
-msgstr ""
+msgstr "Bu problem wrth fewnforio'ch gosodiadau. Rhowch gynnig arall. "
 
 #: lib/functions/markup.php:1018
 #: lib/functions/widgetize.php:157
 msgid "Secondary Sidebar"
-msgstr ""
+msgstr "Bar Ochr Eilaidd "
 
 #: lib/functions/markup.php:998
 #: lib/functions/widgetize.php:146
 msgid "Primary Sidebar"
-msgstr ""
+msgstr "Prif Far Ochr "
 
 #: lib/functions/widgetize.php:135
 msgid "Header Right"
-msgstr ""
+msgstr "Penynnau De "
 
 #: config/breadcrumbs.php:50
 msgid "Not found: "
-msgstr ""
+msgstr "Heb ganfod: "
 
 #: lib/widgets/featured-post-widget.php:580
 msgid "No Content"
-msgstr ""
+msgstr "Dim Cynnwys"
 
 #: lib/widgets/featured-post-widget.php:579
 msgid "Show Content Limit"
-msgstr ""
+msgstr "Dangos Terfyn y Cynnwys"
 
 #: lib/widgets/featured-post-widget.php:578
 msgid "Show Excerpt"
-msgstr ""
+msgstr "Dangos Darn"
 
 #: lib/widgets/featured-post-widget.php:577
 msgid "Show Content"
-msgstr ""
+msgstr "Dangos y Cynnwys "
 
 #: lib/widgets/featured-post-widget.php:575
 msgid "Content Type"
-msgstr ""
+msgstr "Math o Gynnwys"
 
 #: lib/widgets/featured-post-widget.php:567
 msgid "Show Post Info"
-msgstr ""
+msgstr "Dangos Gwybodaeth y Post "
 
 #: lib/widgets/featured-page-widget.php:323
 #: lib/widgets/featured-post-widget.php:527
 msgid "Show Featured Image"
-msgstr ""
+msgstr "Dangos y Ddelwedd a Ddangosir "
 
 #: lib/views/meta-boxes/genesis-user-author.php:36
 msgid "This text will be the first paragraph, and display on the first page"
-msgstr ""
+msgstr "Y testun hwn fydd y paragraff cyntaf a bydd i'w weld ar y dudalen gyntaf "
 
 #: lib/admin/privacy-requests.php:193
 #: lib/views/meta-boxes/genesis-user-author.php:33
 msgid "Custom Description Text"
-msgstr ""
+msgstr "Testun Disgrifiad i'w Addasu "
 
 #. translators: %s: Escaped h1 tag wrapped in code tags.
 #: lib/views/meta-boxes/genesis-user-author.php:26
 msgid "Will display in the %s tag at the top of the first page"
-msgstr ""
+msgstr "I'w weld yn y tag %s ar ben y dudalen gyntaf "
 
 #: lib/admin/privacy-requests.php:192
 #: lib/views/meta-boxes/genesis-user-author.php:20
 msgid "Custom Archive Headline"
-msgstr ""
+msgstr "Pennawd Archif i'w Addasu "
 
 #: lib/views/meta-boxes/genesis-user-author.php:16
 #: lib/views/meta-boxes/genesis-user-layout.php:18
 #: lib/views/meta-boxes/genesis-user-seo.php:16
 msgid "These settings apply to this author's archive pages."
-msgstr ""
+msgstr "Mae'r gosodiadau hyn yn berthnasol i dudalennau archif yr awdur hwn. "
 
 #: lib/views/meta-boxes/genesis-user-author.php:47
 msgid "Enable Author Box on this User's Archives?"
-msgstr ""
+msgstr "Galluogi Blwch Awdur ar Archifau'r Defnyddiwr hwn? "
 
 #: lib/views/meta-boxes/genesis-user-author.php:44
 msgid "Enable Author Box on this User's Posts?"
-msgstr ""
+msgstr "Galluogi Blwch Awdur ar Byst y Defnyddiwr hwn? "
 
 #: lib/views/meta-boxes/genesis-user-settings.php:31
 msgid "Enable Import/Export Submenu?"
-msgstr ""
+msgstr "Galluogi Is-ddewislen Fewnforio/Allforio? "
 
 #: lib/views/meta-boxes/genesis-user-settings.php:26
 msgid "Enable SEO Settings Submenu?"
-msgstr ""
+msgstr "Galluogi Is-ddewislen Osodiadau SEO? "
 
 #: lib/views/meta-boxes/genesis-user-settings.php:22
 msgid "Enable Genesis Admin Menu?"
-msgstr ""
+msgstr "Galluogi Dewislen Weinyddu Genesis? "
 
 #: lib/views/meta-boxes/genesis-user-settings.php:19
 msgid "Genesis Admin Menus"
-msgstr ""
+msgstr "Dewislenni Gweinyddu Genesis"
 
 #: lib/views/meta-boxes/genesis-term-meta-layout.php:20
 #: lib/views/meta-boxes/genesis-term-meta-layout.php:23
 #: lib/views/meta-boxes/genesis-user-layout.php:22
 #: lib/views/meta-boxes/genesis-user-layout.php:25
 msgid "Choose Layout"
-msgstr ""
+msgstr "Dewis Cynllun "
 
 #: lib/classes/class-genesis-admin-import-export.php:46
 #: lib/classes/class-genesis-admin-import-export.php:64
 #: lib/views/help/import-export-general.php:15
 msgid "Import/Export"
-msgstr ""
+msgstr "Mewnforio/Allforio"
 
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:56
 msgid "Custom Post Class"
-msgstr ""
+msgstr "Dosbarth Post i'w Addasu "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-layout-settings.php:50
 #: lib/views/meta-boxes/genesis-inpost-layout-box.php:51
 msgid "Custom Body Class"
-msgstr ""
+msgstr "Dosbarth Corff i'w Addasu "
 
 #: lib/views/help/genesis-inpost-seo.php:35
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:62
@@ -1312,19 +1319,19 @@ msgstr ""
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:28
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:42
 msgid "Characters Used: %s"
-msgstr ""
+msgstr "Nodau a Ddefnyddiwyd: %s "
 
 #: lib/views/pages/genesis-admin-import-export.php:66
 msgid "Download Export File"
-msgstr ""
+msgstr "Lawrlwytho Ffeil Allforio "
 
 #: lib/views/pages/genesis-admin-import-export.php:59
 msgid "Once you have saved the download file, you can use the import function on another site to import this data."
-msgstr ""
+msgstr "Ar ôl i chi gadw'r ffeil wedi'i lawrlwytho, gallwch ddefnyddio'r swyddogaeth mewnforio hon ar wefan arall i fewnforio'r data hwn. "
 
 #: lib/views/pages/genesis-admin-import-export.php:51
 msgid "Export Genesis Settings File"
-msgstr ""
+msgstr "Allforio Ffeil Gosodiadau Genesis "
 
 #. translators: %s: Maximum size import files can have.
 #: lib/views/pages/genesis-admin-import-export.php:38
@@ -1333,133 +1340,133 @@ msgstr ""
 
 #: lib/views/pages/genesis-admin-import-export.php:22
 msgid "Import Genesis Settings File"
-msgstr ""
+msgstr "Mewnforio Ffeil Gosodiadau Genesis "
 
 #: lib/classes/class-genesis-admin-import-export.php:45
 msgid "Genesis - Import/Export"
-msgstr ""
+msgstr "Genesis - Mewnforio/Allforio "
 
 #: lib/widgets/user-profile-widget.php:227
 msgid "Show Author Archive Link?"
-msgstr ""
+msgstr "Dangos Dolen Archifau Awdur? "
 
 #: lib/widgets/user-profile-widget.php:208
 msgid "Choose your extended \"About Me\" page from the list below. This will be the page linked to at the end of the about me section."
-msgstr ""
+msgstr "Dewiswch eich tudalen \"Amdana I\" estynedig o'r rhestr isod. Dyma'r dudalen y bydd dolen iddi ar ddiwedd yr is-adran Amdanaf I. "
 
 #: lib/widgets/user-profile-widget.php:201
 msgid "Custom Text (below)"
-msgstr ""
+msgstr "Testun i'w Addasu (isod) "
 
 #: lib/widgets/user-profile-widget.php:199
 msgid "Author Bio"
-msgstr ""
+msgstr "Bywgraffiad Awdur "
 
 #: lib/widgets/user-profile-widget.php:196
 msgid "Select which text you would like to use as the author description"
-msgstr ""
+msgstr "Dewiswch pa destun yr hoffech ei ddefnyddio fel disgrifiad awdur "
 
 #: lib/widgets/user-profile-widget.php:176
 msgid "Extra Large"
-msgstr ""
+msgstr "Mawr Iawn "
 
 #: lib/widgets/user-profile-widget.php:175
 msgid "Large"
-msgstr ""
+msgstr "Mawr "
 
 #: lib/widgets/user-profile-widget.php:174
 msgid "Medium"
-msgstr ""
+msgstr "Canolig "
 
 #: lib/widgets/user-profile-widget.php:173
 msgid "Small"
-msgstr ""
+msgstr "Bach "
 
 #: lib/widgets/user-profile-widget.php:156
 msgid "Select a user. The email address for this account will be used to pull the Gravatar image."
-msgstr ""
+msgstr "Dewis defnyddiwr. Caiff cyfeiriad e-bost y cyfrif hwn ei ddefnyddio i dynnu'r ddelwedd Gravatar. "
 
 #: lib/widgets/user-profile-widget.php:110
 msgid "View My Blog Posts"
-msgstr ""
+msgstr "Gweld Fy Mhyst Blog "
 
 #: lib/widgets/user-profile-widget.php:58
 msgid "Genesis - User Profile"
-msgstr ""
+msgstr "Genesis - Proffil Defnyddiwr "
 
 #: lib/widgets/user-profile-widget.php:49
 msgid "Displays user profile block with Gravatar"
-msgstr ""
+msgstr "Dangos bloc proffil defnyddiwr gyda Gravatar "
 
 #: lib/widgets/featured-post-widget.php:620
 msgid "Link Text"
-msgstr ""
+msgstr "Cysylltu'r Testun "
 
 #: lib/widgets/featured-post-widget.php:616
 msgid "Show Category Archive Link"
-msgstr ""
+msgstr "Dangos Dolen Archifau'r Categori "
 
 #: lib/widgets/featured-post-widget.php:598
 msgid "To display an unordered list of more posts from this category, please fill out the information below"
-msgstr ""
+msgstr "I ddangos rhestr ddi-drefn o fwy o byst o'r categori hwn, llenwch yr wybodaeth isod "
 
 #: lib/widgets/featured-post-widget.php:590
 msgid "More Text (if applicable)"
-msgstr "Више текста (ако је применљиво)"
+msgstr "Mwy o Destun (os yw'n berthnasol) "
 
 #: lib/widgets/featured-post-widget.php:562
 msgid "Show Post Title"
-msgstr "Прикажи наслов поста"
+msgstr "Dangos Teitl y Post "
 
 #: lib/widgets/featured-post-widget.php:513
 #: lib/widgets/user-profile-widget.php:187
 msgid "Gravatar Alignment"
-msgstr "Поравнање Граватара"
+msgstr "Alinio'r Gravatar "
 
 #: lib/widgets/featured-post-widget.php:508
 msgid "Extra Large (125px)"
-msgstr "Екстра велика (125px)"
+msgstr "Mawr Iawn (125px) "
 
 #: lib/widgets/featured-post-widget.php:507
 msgid "Large (85px)"
-msgstr "Велика (85px)"
+msgstr "Mawr (85px) "
 
 #: lib/widgets/featured-post-widget.php:506
 msgid "Medium (65px)"
-msgstr "Средња (65px)"
+msgstr "Canolig (65px) "
 
 #: lib/widgets/featured-post-widget.php:505
 msgid "Small (45px)"
-msgstr "Мала (45px)"
+msgstr "Bach (45px) "
 
 #: lib/widgets/featured-post-widget.php:503
 #: lib/widgets/user-profile-widget.php:169
 msgid "Gravatar Size"
-msgstr "Величина граватара"
+msgstr "Maint y Gravatar "
 
 #: lib/widgets/featured-post-widget.php:499
 msgid "Show Author Gravatar"
-msgstr "Прикажи граватар аутора"
+msgstr "Dangos Awdur y Gravatar "
 
 #: lib/widgets/featured-post-widget.php:479
 msgid "Ascending (1, 2, 3)"
-msgstr "Растуће (1, 2, 3)"
+msgstr "Esgynnol (1, 2, 3) "
 
 #: lib/widgets/featured-post-widget.php:478
 msgid "Descending (3, 2, 1)"
-msgstr "Опадајуће (3, 2, 1)"
+msgstr "Disgynnol (3, 2, 1) "
 
 #: lib/widgets/featured-post-widget.php:476
 msgid "Sort Order"
-msgstr "Редослед сортирања"
+msgstr "Rhoi mewn Trefn "
 
 #: lib/widgets/featured-post-widget.php:471
 msgid "Random"
-msgstr "Насумично"
+msgstr "Hap "
 
 #: lib/widgets/featured-post-widget.php:470
 msgid "Comment Count"
-msgstr "Број коментара"
+msgstr "Nifer y Sylwadau"
 
 #: lib/widgets/featured-post-widget.php:469
 msgid "ID"
@@ -1467,51 +1474,51 @@ msgstr "ID"
 
 #: lib/widgets/featured-post-widget.php:468
 msgid "Parent"
-msgstr "Родитељ"
+msgstr "Rhiant "
 
 #: lib/widgets/featured-post-widget.php:463
 msgid "Order By"
-msgstr "Поређај по"
+msgstr "Archebu erbyn "
 
 #: lib/widgets/featured-post-widget.php:458
 msgid "Number of Posts to Offset"
-msgstr ""
+msgstr "Nifer y pyst i'w gwrthincio "
 
 #: lib/widgets/featured-post-widget.php:437
 msgid "Category"
-msgstr "Категорија"
+msgstr "Categori "
 
 #: lib/widgets/featured-post-widget.php:61
 msgid "More Posts from this Category"
-msgstr "Више чланака из ове категорије"
+msgstr "Mwy o byst o'r Categori hwn "
 
 #: lib/widgets/featured-post-widget.php:57
 msgid "[Read More...]"
-msgstr "[Прочитај више...]"
+msgstr "[Darllenwch fwy...] "
 
 #: lib/widgets/featured-post-widget.php:75
 msgid "Genesis - Featured Posts"
-msgstr "Genesis - Истакнути чланци"
+msgstr "Genesis - Pyst a Gynhwysir "
 
 #: lib/widgets/featured-post-widget.php:66
 msgid "Displays featured posts with thumbnails"
-msgstr "Прикажи истакнуте чланке са сличицама"
+msgstr "Dangos y pyst a gaiff eu cynnwys â mân-luniau "
 
 #: lib/widgets/featured-page-widget.php:366
 msgid "More Text"
-msgstr "Више текста"
+msgstr "Mwy o Destun "
 
 #: lib/widgets/featured-page-widget.php:361
 msgid "Content Character Limit"
-msgstr "Ограничење броја карактера"
+msgstr "Terfyn Nodau'r Cynnwys "
 
 #: lib/widgets/featured-page-widget.php:357
 msgid "Show Page Content"
-msgstr "Прикажи садржај странице"
+msgstr "Dangos Cynnwys y Dudalen "
 
 #: lib/widgets/featured-page-widget.php:352
 msgid "Show Page Title"
-msgstr "Прикажи наслов странице"
+msgstr "Dangos Teitl y Dudalen "
 
 #: config/customizer-seo-settings.php:77
 #: config/customizer-theme-settings.php:297
@@ -1521,31 +1528,31 @@ msgstr "Прикажи наслов странице"
 #: lib/widgets/user-profile-widget.php:189
 #: lib/widgets/user-profile-widget.php:213
 msgid "None"
-msgstr "Нема"
+msgstr "Dim "
 
 #: lib/widgets/featured-page-widget.php:339
 #: lib/widgets/featured-post-widget.php:543
 msgid "Image Alignment"
-msgstr "Поравнање слике"
+msgstr "Alinio Delweddau "
 
 #: lib/widgets/featured-page-widget.php:304
 msgid "Page"
-msgstr "Страница"
+msgstr "Tudalen "
 
 #: config/customizer-theme-settings.php:236
 #: lib/admin/install.php:44
 #: lib/classes/Upgrade/Upgrade_DB_3200.php:55
 #: lib/shortcodes/footer.php:151
 msgid "by"
-msgstr "од"
+msgstr "ger"
 
 #: lib/widgets/featured-page-widget.php:60
 msgid "Genesis - Featured Page"
-msgstr "Genesis - Истакнута страна"
+msgstr "Genesis - Tudalen a Ddangosir "
 
 #: lib/widgets/featured-page-widget.php:51
 msgid "Displays featured page with thumbnails"
-msgstr "Прикажи истакнуту страну са сличицама"
+msgstr "Dangos y dudalen a ddangosir â mân-luniau "
 
 #: lib/widgets/featured-page-widget.php:299
 #: lib/widgets/featured-post-widget.php:428
@@ -1555,11 +1562,11 @@ msgstr "Прикажи истакнуту страну са сличицама"
 #: lib/js/build/title-toggle.js:26
 #: lib/js/editor/title-toggle.js:42
 msgid "Title"
-msgstr "Наслов"
+msgstr "Teitl "
 
 #: config/breadcrumbs.php:47
 msgid "Search for "
-msgstr "Претрага за"
+msgstr "Chwiliwch am "
 
 #: config/breadcrumbs.php:43
 #: config/breadcrumbs.php:44
@@ -1571,191 +1578,191 @@ msgstr "Претрага за"
 #: lib/structure/archive.php:196
 #: lib/structure/archive.php:198
 msgid "Archives for "
-msgstr "Архива за"
+msgstr "Archifau ar gyfer "
 
 #: config/breadcrumbs.php:42
 msgid "You are here: "
-msgstr "Ви сте овде:"
+msgstr "Rydych chi yma: "
 
 #: lib/structure/sidebar.php:41
 msgid "Secondary Sidebar Widget Area"
-msgstr "Област виџета за секундарну бочну траку"
+msgstr "Man Dyfeisiau Bar Ochr Eilaidd "
 
 #: lib/structure/sidebar.php:25
 msgid "Primary Sidebar Widget Area"
-msgstr "Област виџета за примарну траку"
+msgstr "Prif Fan Dyfeisiau Bar Ochr "
 
 #: lib/classes/class-genesis-search-form.php:51
 #: searchform.php:49
 msgid "Search"
-msgstr "Претрага"
+msgstr "Chwilio "
 
 #: lib/structure/post.php:740
 msgid "About"
-msgstr ""
+msgstr "Ynghylch "
 
 #: lib/widgets/featured-post-widget.php:54
 msgid "By"
-msgstr "Од"
+msgstr "Ger "
 
 #: lib/structure/post.php:513
 msgid "[Read more...]"
-msgstr "[Прочитај више...]"
+msgstr "[Darllen mwy...] "
 
 #: lib/functions/deprecated.php:810
 #: lib/structure/comments.php:76
 msgid "Comments"
-msgstr "Коментари"
+msgstr "Sylwadau "
 
 #: lib/functions/deprecated.php:809
 msgid "Posts"
-msgstr "Чланци"
+msgstr "pyst"
 
 #: lib/init.php:131
 msgid "Primary Navigation Menu"
-msgstr "Примарни изборник"
+msgstr "Prif Ddewislen Lywio "
 
 #: config/customizer-theme-settings.php:333
 #: lib/admin/install.php:56
 #: lib/classes/Upgrade/Upgrade_DB_3100.php:56
 #: tests/Unit/lib/classes/Upgrade/Upgrade_DB_3100.php:62
 msgid "Copyright"
-msgstr "Ауторска права"
+msgstr "Hawlfraint "
 
 #: lib/structure/comments.php:416
 msgid "Your comment is awaiting moderation."
-msgstr "Ваш коментар чека одобрење"
+msgstr "Mae'ch sylw wrthi'n cael ei gymedroli. "
 
 #. translators: 1: A date, 2: A time.
 #: lib/structure/comments.php:369
 msgid "%1$s at %2$s"
-msgstr "%1$s од %2$s"
+msgstr "%1$s yn %2$s "
 
 #: lib/structure/comments.php:325
 msgid "says"
-msgstr "каже"
+msgstr "yn dweud "
 
 #: lib/shortcodes/post.php:573
 #: lib/structure/comments.php:400
 #: lib/structure/post.php:495
 msgid "(Edit)"
-msgstr "(Измена)"
+msgstr "(Golygu) "
 
 #: lib/shortcodes/post.php:474
 #: lib/shortcodes/post.php:514
 msgid "Filed Under: "
-msgstr "Попуњено под:"
+msgstr "Ffeiliwyd Dan: "
 
 #: lib/shortcodes/post.php:431
 msgid "Tagged With: "
-msgstr "Означено са:"
+msgstr "Tagiwyd Â: "
 
 #: lib/shortcodes/post.php:375
 msgid "% Comments"
-msgstr "% коментара"
+msgstr "% Sylwadau "
 
 #: lib/shortcodes/post.php:376
 msgid "1 Comment"
-msgstr "1 коментар"
+msgstr "1 sylw"
 
 #: lib/shortcodes/post.php:377
 msgid "Leave a Comment"
-msgstr "Остави коментар"
+msgstr "Gadael Sylw "
 
 #: lib/shortcodes/footer.php:278
 msgid "Log out"
-msgstr "Одјави се"
+msgstr "Allgofnodi "
 
 #: lib/shortcodes/footer.php:276
 msgid "Log in"
-msgstr "Пријави се"
+msgstr "Mewngofnodi "
 
 #: lib/functions/deprecated.php:952
 msgid "Return to top of page"
-msgstr "Повратак на врх странице"
+msgstr "Dychwelyd i frig y dudalen "
 
 #. translators: %s: Genesis version.
 #: lib/functions/upgrade.php:379
 msgid "Genesis %s is now available. We have provided 1-click updates for this theme, so please log into your dashboard and update at your earliest convenience."
-msgstr "Genesis %s је сада доступан. Обезбедили смо ажурирање на 1 клик за ову тему, па Вас молимо да се пријавите на своју контролну таблу и чим пре ажурирате."
+msgstr "Mae Genesis %s nawr ar gael. Rydyn ni wedi darparu diweddariadau un clic ar gyfer y thema hon, felly mewngofnodwch i'ch dangosfwrdd cyn gynted ag y bydd yn gyfleus i chi. "
 
 #. translators: 1: Genesis version, 2: URL for current website.
 #: lib/functions/upgrade.php:376
 msgid "Genesis %1$s is available for %2$s"
-msgstr "Genesis %1$s је сада доступан за %2$s"
+msgstr ""
 
 #: config/breadcrumbs.php:22
 #: lib/functions/deprecated.php:1285
 msgid "Home"
-msgstr "Почетна"
+msgstr "Hafan "
 
 #: lib/widgets/featured-post-widget.php:453
 #: lib/widgets/featured-post-widget.php:606
 msgid "Number of Posts to Show"
-msgstr "Број чланака за приказ"
+msgstr "Nifer y pyst i'w dangos"
 
 #: lib/widgets/featured-post-widget.php:445
 msgid "All Categories"
-msgstr "Све категорије"
+msgstr "Pob Categori"
 
 #: config/customizer-theme-settings.php:312
 msgid "Numeric"
-msgstr "Нумеричко"
+msgstr "Rhifol "
 
 #: config/customizer-theme-settings.php:311
 msgid "Previous / Next"
-msgstr "Претходно / следеће"
+msgstr "Blaenorol/Nesaf "
 
 #: lib/widgets/featured-page-widget.php:327
 #: lib/widgets/featured-post-widget.php:531
 msgid "Image Size"
-msgstr "Величина слике"
+msgstr "Maint y Ddelwedd "
 
 #: lib/widgets/featured-post-widget.php:585
 msgid "characters"
-msgstr "карактери"
+msgstr "o gymeriadau "
 
 #: lib/widgets/featured-post-widget.php:583
 msgid "Limit content to"
-msgstr "Ограничи садржај на"
+msgstr "Cyfyngu cynnwys i "
 
 #: config/customizer-theme-settings.php:256
 msgid "Select one of the following"
-msgstr "Одабери једно од следећег"
+msgstr ""
 
 #: config/layouts.php:54
 #: lib/views/help/cpt-archive-layout.php:25
 #: lib/views/help/genesis-layout.php:25
 msgid "Full Width Content"
-msgstr "Садржај пуне ширине"
+msgstr "Cynnwys Lled Llawn"
 
 #: config/customizer-theme-settings.php:70
 msgid "Image logo"
-msgstr "Слика логоа"
+msgstr "Logo delwedd "
 
 #: config/customizer-theme-settings.php:252
 #: lib/views/help/genesis-archives.php:15
 msgid "Content Archives"
-msgstr "Садржај архива"
+msgstr "Archifau Cynnwys"
 
 #: config/customizer-theme-settings.php:113
 #: lib/views/help/genesis-breadcrumbs.php:15
 #: lib/js/build/breadcrumbs-toggle.js:26
 #: lib/js/editor/breadcrumbs-toggle.js:43
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "Briwsion Bara"
 
 #: lib/views/meta-boxes/genesis-user-author.php:41
 msgid "Author Box"
-msgstr "кутија аутора"
+msgstr "Blwch Awdur "
 
 #: lib/views/help/genesis-feeds.php:15
 msgid "Custom Feeds"
-msgstr ""
+msgstr "Porthiannau i'w Haddasu "
 
 #: lib/views/help/genesis-information.php:15
 msgid "Information"
-msgstr "Информације"
+msgstr "Gwybodaeth "
 
 #. translators: %s: robots meta content attribute value, such as 'noindex',
 #. 'nofollow' or 'noarchive'.
@@ -1766,24 +1773,24 @@ msgstr "Информације"
 #: lib/views/meta-boxes/genesis-user-seo.php:59
 #: lib/views/meta-boxes/genesis-user-seo.php:66
 msgid "Apply %s to this archive?"
-msgstr "Примени %s на архиву?"
+msgstr "Cymhwyso %s i'r archif hwn? "
 
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:43
 #: lib/views/meta-boxes/genesis-user-seo.php:44
 msgid "Robots Meta"
-msgstr "Robots Meta"
+msgstr "Meta Robotiaid "
 
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:36
 msgid "Comma separated list"
-msgstr "Листа одвојена зарезом"
+msgstr "Rhestr wedi'i gwahanu â choma "
 
 #: config/customizer-seo-settings.php:158
 msgid "Include Windows Live Writer Support Tag?"
-msgstr ""
+msgstr "Cynnwys Tag Cefnogi Ysgrifennydd Windows Live? "
 
 #: config/customizer-seo-settings.php:75
 msgid "Site Title"
-msgstr "Назив сајта"
+msgstr "Teitl y Wefan "
 
 #: config/customizer-theme-settings.php:299
 #: lib/widgets/featured-page-widget.php:343
@@ -1791,7 +1798,7 @@ msgstr "Назив сајта"
 #: lib/widgets/featured-post-widget.php:547
 #: lib/widgets/user-profile-widget.php:191
 msgid "Right"
-msgstr "Десно"
+msgstr "De"
 
 #: config/customizer-theme-settings.php:298
 #: lib/widgets/featured-page-widget.php:342
@@ -1799,27 +1806,27 @@ msgstr "Десно"
 #: lib/widgets/featured-post-widget.php:546
 #: lib/widgets/user-profile-widget.php:190
 msgid "Left"
-msgstr "Лево"
+msgstr "Chwith "
 
 #: lib/classes/class-genesis-script-loader.php:280
 msgid "Are you sure you want to reset?"
-msgstr "Да ли си сигуран да желиш да ресетујеш?"
+msgstr "Ydych chi'n siŵr eich bod am ailosod? "
 
 #: lib/classes/class-genesis-admin.php:148
 msgid "Reset Settings"
-msgstr "Ресетуј подешавања"
+msgstr "Ailosod y Gosodiadau "
 
 #: lib/classes/class-genesis-admin-seo-settings.php:40
 msgid "Genesis - SEO Settings"
-msgstr "Genesis - SEO подешавања"
+msgstr "Genesis - Gosodiadau SEO "
 
 #: lib/views/help/seo-dochead.php:15
 msgid "Document Head Settings"
-msgstr "Подешавање заглавља документа"
+msgstr "Prif Osodiadau'r Ddogfen "
 
 #: lib/views/help/seo-homepage.php:15
 msgid "Homepage Settings"
-msgstr "Подешавање почетне странице"
+msgstr "Gosodiadau'r Dudalen Hafan "
 
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:152
 #: lib/classes/class-genesis-admin-cpt-archive-settings.php:178
@@ -1828,7 +1835,7 @@ msgstr "Подешавање почетне странице"
 #: lib/views/help/cpt-archive-seo.php:15
 #: lib/views/help/seo-settings.php:15
 msgid "SEO Settings"
-msgstr "SEO подешавања"
+msgstr "Gosodiadau SEO "
 
 #. translators: %s: Theme settings admin screen link.
 #: config/customizer-theme-settings.php:23
@@ -1840,7 +1847,7 @@ msgstr "SEO подешавања"
 #: lib/views/meta-boxes/genesis-term-meta-layout.php:28
 #: lib/views/meta-boxes/genesis-user-layout.php:31
 msgid "Theme Settings"
-msgstr "Подешавања теме"
+msgstr "Gosodiadau Thema "
 
 #. translators: %s: robots meta content attribute value, such as 'noindex',
 #. 'nofollow' or 'noarchive'.
@@ -1848,89 +1855,89 @@ msgstr "Подешавања теме"
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:83
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:91
 msgid "Apply %s to this post/page"
-msgstr "Примени %s на овај чланак/страницу?"
+msgstr "Cymhwyso %s i'r post/dudalen hwn/hon "
 
 #: lib/views/help/seo-robots.php:15
 #: lib/views/meta-boxes/genesis-inpost-seo-box.php:67
 msgid "Robots Meta Settings"
-msgstr "Robots Meta подешавања"
+msgstr "Gosodiadau Meta Robotiaid "
 
 #: lib/admin/privacy-requests.php:194
 #: lib/views/meta-boxes/genesis-cpt-archives-seo-settings.php:19
 #: lib/views/meta-boxes/genesis-term-meta-seo.php:19
 #: lib/views/meta-boxes/genesis-user-seo.php:20
 msgid "Custom Document Title"
-msgstr "Подешени назив документа"
+msgstr "Teitl y Ddogfen i'w Haddasu "
 
 #: comments.php:15
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Овај чланак је заштићен лозинком. Унеси лозинку да прегледаш коментаре."
+msgstr "Gwarchodir y post hwn gan gyfrinair. Rhowch y cyfrinair i mewn i weld y sylwadau. "
 
 #: lib/functions/general.php:558
 msgid "Recent Posts:"
-msgstr "Скорашњи чланци:"
+msgstr "Pyst Diweddar: "
 
 #: lib/functions/general.php:555
 msgid "Monthly:"
-msgstr "Месечно:"
+msgstr "Misol: "
 
 #: lib/functions/general.php:552
 msgid "Authors:"
-msgstr "Аутори:"
+msgstr "Awduron: "
 
 #: lib/functions/general.php:549
 msgid "Categories:"
-msgstr "Категорије:"
+msgstr "Categorïau: "
 
 #: lib/functions/general.php:544
 #: lib/structure/post.php:539
 msgid "Pages:"
-msgstr "Странице:"
+msgstr "Tudalennau:"
 
 #: lib/views/help/genesis-home.php:38
 msgid "This setup is preferred because it makes it easier to show a blog on the front page (no need to rename the home.php file) and does not have the confusion of no content on the home page when the theme is initially installed."
-msgstr "Ово је пожељно подешавање јер чини да се чланак лакше прикаже на почетној страници (нема потребе да се преименује home.php датотека) и нема забуне да је почетна страна без садржаја када се тема инсталира први пут."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:35
 msgid "The third type of home page is the new dynamic home page. This is common on the newest child themes. It will show your latest posts in a blog type listing unless you put widgets into the home page sidebars."
-msgstr "Трећи тип почетне стране је нова динамичка почетна страна. Ово је уобичајно на новим дете темама. Приказаће последњи чланак на листи блога осим ако додате виџете у бочну траку почетне стране."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:32
 msgid "Another common home page is the \"blog\" type home page, which is common to most of the free child themes. This shows your latest posts and requires no additional setup."
-msgstr "Друга уобичајена почетна страна је \"блог\" тип почетне стране, који је уобичајен за већину бесплатних дете тема. Ово приказује Ваше скорашње чланке и не захтева додатна подешавања."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:29
 msgid "If your theme uses a custom home page and you want to show the latest posts in a blog format, do not use the blog template. Instead, you need to rename the home.php file to home-old.php instead."
-msgstr "Ако Ваша тема користи подешену почетну страну, а Ви желите да прикажете најскорије чланке у фору блога, не користите шаблон блога. Уместо тога, треба да преименујете home.php датотеку у home-old.php"
+msgstr ""
 
 #: lib/views/help/genesis-home.php:26
 msgid "Child themes that include this type of home page typically include additional theme-specific tutorials which can be accessed via a sticky post at the top of that child theme support forum."
-msgstr "Дете тема која садржи овај тип почетне стране обично садржи додатне туторијале специфичне за ту тему којима се може приступити кроз лепљиви чланак на врху форума за подршку за ту тему."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:23
 msgid "This home page is typically setup via widgets in the sidebars for the home page. This can be accessed via the Widgets menu item under Appearance."
-msgstr "Ова почетна страна је обично подешена преко виџета у бочној траци почетне стране. Може им се приступити преко избоника виџета у опцији Изглед."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:20
 msgid "To use this type of home page, make sure your latest posts are set to show on the front page. You can setup a page with the Blog page template to show a blog style list of your latest posts on another page."
-msgstr "Да бисте користили овај тип почетне странице, проверите да сте подесили да се чланци приказују на почетној страни. Можете подесити страницу са шаблоном блога да прикажете блог листу ваших најскоријих чланака на некој другој страни."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:17
 msgid "Most Genesis child themes include a custom home page."
-msgstr "Највећи број дете тема за Genesis има почетну страну."
+msgstr ""
 
 #: lib/views/help/genesis-home.php:15
 msgid "How Home Pages Work"
-msgstr "Како почетна страна функционише"
+msgstr ""
 
 #. translators: %s: Escaped HTML head and body tags.
 #: lib/views/help/genesis-scripts.php:19
 msgid "This provides you with two fields that will output to the %1$s element of your site and just before the %2$s tag. These will appear on every page of the site and are a great way to add analytic code and other scripts. You cannot use PHP in these fields. If you need to use PHP then you should look into the Genesis Simple Hooks plugin."
-msgstr "Ово Вам обезбеђује два поља која приказују %1$s елемент вашег сајта и то испред %2$s ознаке. Ово ће се појавити на свакој страни сајта и представља одличан начин да се дода код за аналитику и друге скрипте. Не можете користити PHP у овим пољима. Ако треба да користике PHP, требало би да погледада Genesis Simple Hooks додатак."
+msgstr ""
 
 #: lib/views/help/genesis-blog.php:15
 msgid "Blog Page"
-msgstr "Страница блога"
+msgstr ""
 
 #: lib/views/help/genesis-archives.php:41
 msgid "Entry Pagination Technique allows you to select one of two navigation methods."
@@ -1938,11 +1945,11 @@ msgstr ""
 
 #: lib/views/help/genesis-archives.php:38
 msgid "The 'Image Size' list is populated by the available image sizes defined in the theme."
-msgstr "Листа \"Величина слике\" је попуњена доступним величинама слика дефинисаних у теми."
+msgstr ""
 
 #: lib/views/help/genesis-archives.php:35
 msgid "This option should not be used with the entry content unless the content is limited to avoid duplicate images."
-msgstr "Ова опција не би требало да се користи са уносним садржајем уколико садржај није ограничен да избегава дуплиране слике."
+msgstr ""
 
 #: lib/views/help/genesis-archives.php:32
 msgid "The 'Include featured image?' setting allows you to show a thumbnail of the first attached image or currently set featured image."
